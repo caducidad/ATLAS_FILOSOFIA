@@ -28,6 +28,7 @@ herramientas/   Utilidades de mantenimiento
   validar.py          Comprueba enlaces, relaciones, fechas, referencias e imágenes
 docs/           Documentación
   esquema.md          Formato de los datos y guía de redacción
+  navegacion.md       Puntos de vista, pantallas y qué necesita cada uno de los datos
 ```
 
 ## Validar los datos
