@@ -20,7 +20,8 @@
     ],
     "secundarios": [
       "proximo_oriente"
-    ]
+    ],
+    "rotuloSecundarios": "preámbulo"
   },
   "camposPropios": {
     "tradicion": {

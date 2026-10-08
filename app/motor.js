@@ -78,7 +78,10 @@
     const ini = f.nacimiento || f.activo || f.composicion;
     const fin = f.muerte || f.activo || f.composicion;
     if (!ini || !fin) return null;
-    return { a: ini.min, b: fin.max, nucleoA: ini.max, nucleoB: fin.min };
+    // Periodo de actividad o de composición: todo el tramo es la parte central.
+    if (f.activo || f.composicion) return { a: ini.min, b: fin.max, nucleoA: ini.min, nucleoB: fin.max };
+    // Vida: la parte central va del último año posible de nacimiento al primero posible de muerte.
+    return { a: ini.min, b: fin.max, nucleoA: Math.min(ini.max, fin.min), nucleoB: Math.max(ini.max, fin.min) };
   }
 
   // ------------------------------------------------------------------ progreso
@@ -172,7 +175,7 @@
     if (!orden) {
       orden = [...new Set([...E.nodos.values()].map((n) => valorCarril(n, c)).filter(Boolean))];
     }
-    return { campo, orden, secundarios: c.secundarios || [], etiquetas, regla: c.regla, sinValor: c.sinValor };
+    return { campo, orden, secundarios: c.secundarios || [], rotuloSecundarios: c.rotuloSecundarios, etiquetas, regla: c.regla, sinValor: c.sinValor };
   }
   function valorCarril(n, c) {
     if (!c || !c.campo) return "_";
@@ -281,7 +284,7 @@
         const filas = [];
         const lista = (porCarril.get(c) || []).slice().sort((a, b) => a.ext.a - b.ext.a);
         for (const d of lista) {
-          const px0 = x(d.ext.a);
+          const px0 = Math.max(x(d.ext.a), margenIzq + 6);
           const px1 = Math.max(x(d.ext.b), px0 + 12 + d.n.nombre.length * 6.8);
           let f = filas.findIndex((fin) => fin + 8 <= px0);
           if (f < 0) { f = filas.length; filas.push(-Infinity); }
@@ -309,10 +312,12 @@
         const g = en.append("g");
         if (margenIzq) g.append("rect").attr("class", "carril-etiqueta-fondo");
         g.append("text").attr("class", (L) => `carril-nombre ${L.secundario ? "secundario" : ""}`).text((L) => etiquetaCarril(L.c, cfg));
+        g.filter((L) => L.secundario).append("text").attr("class", "carril-nota").text(cfg.rotuloSecundarios || "carril secundario");
         return g;
       });
       nombres.select("rect").attr("x", 0).attr("y", (L) => L.y + ty).attr("width", margenIzq).attr("height", (L) => L.alto);
-      nombres.select("text").attr("x", margenIzq ? 16 : 12).attr("y", (L) => L.y + ty + (margenIzq ? 22 : L.altoEp + 18));
+      nombres.select("text.carril-nombre").attr("x", margenIzq ? 16 : 12).attr("y", (L) => L.y + ty + (margenIzq ? 22 : L.altoEp + 18));
+      nombres.select("text.carril-nota").attr("x", margenIzq ? 16 : 12).attr("y", (L) => L.y + ty + (margenIzq ? 38 : L.altoEp + 31));
 
       // Épocas
       const eps = carriles.flatMap((L) => L.eps.map((e) => Object.assign(e, { yb: L.y })));
@@ -347,10 +352,11 @@
         g.append("title").text((d) => `${d.n.nombre} · ${textoFechas(d.n.fechas)}`);
         return g;
       });
-      gi.attr("class", (d) => `item v${nivelNiebla(d.id)} ${d.n.fechas && d.n.fechas.historicidad === "legendario" ? "leyenda" : ""} ${E.ficha === d.id ? "activo" : ""}`);
+      gi.attr("class", (d) => `item v${nivelNiebla(d.id)} ${d.n.fechas && ["legendario", "debatido"].includes(d.n.fechas.historicidad) ? "dudosa" : ""} ${E.ficha === d.id ? "activo" : ""}`);
       const alto_ = (d) => (d.n.tipo === "obra" ? 5 : 7);
       const yc = (d) => d.yy + ty + 9 - alto_(d) / 2;
-      gi.select("rect.borde").attr("x", (d) => x(d.ext.a)).attr("y", yc).attr("height", alto_).attr("rx", (d) => alto_(d) / 2)
+      // Línea fina: todo el intervalo posible. Barra gruesa: la parte segura.
+      gi.select("rect.borde").attr("x", (d) => x(d.ext.a)).attr("y", (d) => yc(d) + alto_(d) / 2 - 1).attr("height", 2)
         .attr("width", (d) => Math.max(1, x(d.ext.b) - x(d.ext.a)));
       gi.select("rect.nucleo").attr("y", yc).attr("height", alto_).attr("rx", (d) => alto_(d) / 2)
         .attr("x", (d) => x(Math.min(Math.max(d.ext.nucleoA, d.ext.a), d.ext.b)))
@@ -359,7 +365,9 @@
         d3.select(this).selectAll("rect.fantasma").attr("x", (f) => x(f.ea.a)).attr("y", yc(d) - 2).attr("height", alto_(d) + 4).attr("rx", 3)
           .attr("width", (f) => Math.max(2, x(f.ea.b) - x(f.ea.a)));
       });
-      gi.select("text").attr("x", (d) => x(d.ext.a)).attr("y", (d) => d.yy + ty - 0.5);
+      // El nombre se queda a la vista aunque el comienzo de la barra salga por la izquierda.
+      gi.select("text").attr("x", (d) => Math.max(x(d.ext.a), margenIzq + 6)).attr("y", (d) => d.yy + ty - 0.5)
+        .attr("opacity", (d) => (x(d.ext.b) < margenIzq + 6 ? 0 : 1));
 
       // Eje y rejilla
       const ticks = x.ticks(Math.max(4, Math.floor((ancho - margenIzq) / 110))).filter((t) => t !== 0);
@@ -369,7 +377,9 @@
         .attr("x", (t) => x(t)).attr("y", 20).attr("text-anchor", "middle").text((t) => anio(t));
     }
 
-    const zoom = d3.zoom().scaleExtent([0.6, 40])
+    const zoom = d3.zoom().scaleExtent([1, 40])
+      .extent([[margenIzq + 10, 0], [ancho - 20, alto]])
+      .translateExtent([[x0.range()[0], -1e6], [x0.range()[1], 1e6]])
       .on("zoom", (ev) => {
         const t = ev.transform;
         // La rueda y el pellizco solo acercan el tiempo; el arrastre mueve en las dos direcciones.
@@ -515,10 +525,48 @@
     escenario.append(crear("div", { class: "controles" }, elementos));
   }
   function leyendaNiebla() {
-    const l = crear("div", { class: "leyenda-niebla", "aria-label": "Leyenda de la niebla" });
-    l.innerHTML = '<span><i class="l0"></i>sin explorar</span><span><i class="l1"></i>1 visita</span><span><i class="l2"></i>2-4</span><span><i class="l3"></i>5 o más</span>';
-    return l;
+    // «Cómo leer el mapa»: la niebla, y en la línea del tiempo, qué significa cada trazo.
+    const cont = crear("div", { class: "leyenda" });
+    const panel = crear("div", { class: "leyenda-panel", hidden: true, id: "leyenda-panel" });
+    const muestra = (svgInterior) => { const sp = crear("span", { class: "muestra" }); sp.innerHTML = `<svg width="46" height="12" aria-hidden="true">${svgInterior}</svg>`; return sp; };
+    const fila = (m, texto) => crear("li", {}, [m, document.createTextNode(texto)]);
+    const niebla = crear("ul", {}, [
+      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v0"/>'), "Sin explorar"),
+      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v1"/>'), "Visitado una vez"),
+      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v2"/>'), "De 2 a 4 visitas"),
+      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v3"/>'), "5 visitas o más"),
+    ]);
+    panel.append(crear("h4", { text: "La niebla: lo explorado se enciende" }), niebla);
+    if (E.vista === "cronologica") {
+      panel.append(crear("h4", { text: "Las fechas" }), crear("ul", {}, [
+        fila(muestra('<rect x="2" y="5" width="42" height="2" class="m-v2"/><rect x="14" y="2" width="20" height="7" rx="3.5" class="m-v2"/>'),
+          "Barra gruesa: los años seguros. Línea fina: el margen de duda sobre el nacimiento o la muerte."),
+        fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-dudosa"/>'), "Borde discontinuo: su existencia histórica es dudosa o legendaria."),
+        fila(muestra('<rect x="2" y="1" width="42" height="10" rx="3" class="m-fantasma"/>'), "Punteado: otra cronología, como la tradicional. Pasa el ratón por encima para ver cuál."),
+      ]));
+      const cfg = configCarriles();
+      if (cfg.secundarios.length) {
+        panel.append(crear("p", { text: `${cfg.secundarios.map((c) => etiquetaCarril(c, cfg)).join(", ")}: ${cfg.rotuloSecundarios || "carril secundario"}. Va en un carril más discreto porque son sabidurías que preceden a la filosofía, no filosofía en sentido estricto.` }));
+      }
+    }
+    if (E.vista === "libre") {
+      panel.append(crear("h4", { text: "Las relaciones" }), crear("ul", {}, [
+        fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista"/>'), "Línea continua: documentada."),
+        fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista c-P"/>'), "Rayas: probable."),
+        fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista c-C"/>'), "Puntos: conjetural."),
+        fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista c-L"/>'), "Puntos sueltos: legendaria."),
+        fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista paralelo"/>'), "Azul: paralelo entre tradiciones, sin influencia conocida."),
+      ]));
+      panel.append(crear("p", { text: "Forma de cada nodo: círculo, autor; cuadrado, obra; rombo, concepto; triángulo, tesis." }));
+    }
+    const boton = crear("button", {
+      class: "chip", "aria-expanded": "false", "aria-controls": "leyenda-panel", text: "Cómo leer el mapa",
+      onclick: () => { panel.hidden = !panel.hidden; boton.setAttribute("aria-expanded", String(!panel.hidden)); },
+    });
+    cont.append(panel, boton);
+    return cont;
   }
+
 
   // ------------------------------------------------------------------ textos con enlaces
   function textoEnlazado(texto, desde) {
