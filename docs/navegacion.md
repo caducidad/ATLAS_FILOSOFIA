@@ -90,5 +90,8 @@ A cualquier nodo se llega por varias vías, y todas registran la visita y el pas
 Para el núcleo común de la colección:
 
 - **General:** la pantalla única con lentes; el modo libre; el modo temático (cada atlas con sus temáticas); el recorrido; la niebla; la ficha.
-- **Configurable:** el modo cronológico necesita saber **qué campo define los carriles**. En filosofía es `tradicion`; otro atlas puede usar otro eje (una corriente, un país) o un solo carril.
+- **Configurable:** el modo cronológico necesita saber **qué campo define los carriles**. En filosofía es `tradicion`; otro atlas puede usar otro eje (una corriente, un país) o un solo carril. Los filtros (por certeza, por tradición…) salen de los campos con valores fijos del esquema, así que valen para cualquier atlas.
+- **Lentes propias:** cada atlas declara las suyas en `atlas.json`. La de paralelos ya está declarada en el de filosofía; psicología prevé una lente de la evidencia.
 - **Propio de filosofía:** la capa de la época axial, la lente de paralelos (que depende de `paralelo_a` y de las tradiciones) y el interruptor entre cronología académica y tradicional.
+
+El detalle de cómo se declaran carriles, lentes y filtros está en el [esquema base del núcleo](https://github.com/caducidad/ATLAS_NUCLEO/blob/main/docs/esquema-base.md).

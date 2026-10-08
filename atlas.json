@@ -14,24 +14,55 @@
   "camposPropios": {
     "tradicion": {
       "descripcion": "Tradición de pensamiento a la que pertenece el nodo; define los carriles de la vista cronológica.",
-      "valores": ["grecorromana", "india", "china", "proximo_oriente"],
+      "valores": [
+        "grecorromana",
+        "india",
+        "china",
+        "proximo_oriente"
+      ],
       "etiquetas": {
         "grecorromana": "Grecia y Roma",
         "india": "India",
         "china": "China",
         "proximo_oriente": "Próximo Oriente"
       },
-      "obligatorioEn": ["autor", "obra", "concepto", "tesis", "escuela", "contexto"]
+      "obligatorioEn": [
+        "autor",
+        "obra",
+        "concepto",
+        "tesis",
+        "escuela",
+        "contexto"
+      ]
     }
   },
   "obligatorios": {
-    "autor": ["circulo", "lugarOrigen"],
-    "obra": ["idiomaOriginal"],
-    "concepto": ["terminoOriginal", "traduccion"],
-    "contexto": ["lugar"]
+    "autor": [
+      "circulo",
+      "lugarOrigen"
+    ],
+    "obra": [
+      "idiomaOriginal"
+    ],
+    "concepto": [
+      "terminoOriginal",
+      "traduccion"
+    ],
+    "contexto": [
+      "lugar"
+    ]
   },
   "obligatoriosSi": [
-    { "tipo": "autor", "si": { "circulo": 1 }, "campos": ["profundizacion", "anecdotas"] }
+    {
+      "tipo": "autor",
+      "si": {
+        "circulo": 1
+      },
+      "campos": [
+        "profundizacion",
+        "anecdotas"
+      ]
+    }
   ],
   "reglas": [
     {
@@ -42,5 +73,15 @@
     }
   ],
   "tiposNodo": {},
-  "relaciones": {}
+  "relaciones": {},
+  "lentes": {
+    "paralelos": {
+      "nombre": "Paralelos entre tradiciones",
+      "descripcion": "Solo las semejanzas sin influencia conocida, agrupadas por lo que comparan.",
+      "relaciones": [
+        "paralelo_a"
+      ],
+      "agruparPor": "ejeComparacion"
+    }
+  }
 }
