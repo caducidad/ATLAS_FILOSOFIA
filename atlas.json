@@ -1,0 +1,46 @@
+{
+  "atlas": "filosofia",
+  "nombre": "Atlas de la Filosofía",
+  "version": "0.2",
+  "nucleo": "0.1",
+  "archivos": [
+    "datos/tematicas.json",
+    "datos/china-antigua.json",
+    "datos/india-antigua.json",
+    "datos/grecorromana-antigua.json",
+    "datos/proximo-oriente-antiguo.json"
+  ],
+  "carriles": "tradicion",
+  "camposPropios": {
+    "tradicion": {
+      "descripcion": "Tradición de pensamiento a la que pertenece el nodo; define los carriles de la vista cronológica.",
+      "valores": ["grecorromana", "india", "china", "proximo_oriente"],
+      "etiquetas": {
+        "grecorromana": "Grecia y Roma",
+        "india": "India",
+        "china": "China",
+        "proximo_oriente": "Próximo Oriente"
+      },
+      "obligatorioEn": ["autor", "obra", "concepto", "tesis", "escuela", "contexto"]
+    }
+  },
+  "obligatorios": {
+    "autor": ["circulo", "lugarOrigen"],
+    "obra": ["idiomaOriginal"],
+    "concepto": ["terminoOriginal", "traduccion"],
+    "contexto": ["lugar"]
+  },
+  "obligatoriosSi": [
+    { "tipo": "autor", "si": { "circulo": 1 }, "campos": ["profundizacion", "anecdotas"] }
+  ],
+  "reglas": [
+    {
+      "regla": "fuenteSiDifiere",
+      "relacion": "influyo_en",
+      "campo": "tradicion",
+      "mensaje": "«influyó en» entre tradiciones distintas sin fuente antigua citada; si no la hay, usa «paralelo_a»"
+    }
+  ],
+  "tiposNodo": {},
+  "relaciones": {}
+}

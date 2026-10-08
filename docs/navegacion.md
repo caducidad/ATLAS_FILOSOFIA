@@ -61,7 +61,7 @@ Los rangos y logros quedaron fuera del núcleo del juego.
 
 **Filtros (propuesto):** por tipo de relación (por ejemplo, solo maestros y discípulos), por certeza (ocultar lo conjetural y lo legendario) y por tradición.
 
-**Qué necesita de los datos:** las `relaciones` con su `tipo` y su `certeza`, y el catálogo `tiposRelacion` de `comun.json` para leer cada relación en los dos sentidos («fue maestro de» / «fue discípulo de»).
+**Qué necesita de los datos:** las `relaciones` con su `tipo` y su `certeza`, y el catálogo común de tipos de relación del núcleo (`esquema/relaciones.json`) para leer cada relación en los dos sentidos («fue maestro de» / «fue discípulo de»).
 
 ### 4. Recorrido personal (decidido)
 

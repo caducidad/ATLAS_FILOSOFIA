@@ -1,181 +1,44 @@
 #!/usr/bin/env python3
-"""Validador de datos del Atlas de la Filosofía.
+"""Valida los datos del Atlas de la Filosofía con el validador común del núcleo.
 
-Uso:
-    python3 herramientas/validar.py                 # valida todos los archivos de datos/
-    python3 herramientas/validar.py datos/x.json    # valida solo los archivos indicados
+El validador vive en el repositorio ATLAS_NUCLEO. Este script lo busca y lo
+ejecuta sobre este atlas:
 
-Los archivos se validan juntos, porque un enlace de un archivo puede apuntar
-a un nodo de otro (por ejemplo, una relación «paralelo a» entre tradiciones).
-Termina con código 1 si encuentra errores.
+    python3 herramientas/validar.py [--con RUTA_DE_OTRO_ATLAS ...]
+
+Dónde busca el núcleo, por este orden:
+  1. la variable de entorno ATLAS_NUCLEO;
+  2. una carpeta atlas_nucleo o ATLAS_NUCLEO junto a este repositorio.
+
+Para tenerlo, basta con clonar los dos repositorios en la misma carpeta:
+    git clone https://github.com/caducidad/ATLAS_NUCLEO atlas_nucleo
 """
-import collections
-import glob
-import json
 import os
-import re
+import subprocess
 import sys
 
-TIPOS_NODO = {"autor", "obra", "concepto", "tesis", "escuela", "contexto", "tematica"}
-TRADICIONES = {"grecorromana", "india", "china", "proximo_oriente", "transversal"}
-CERTEZAS = set("DPCL")
-AUTORIAS = {"autor", "atribuida", "escuela", "compilacion", "anonima"}
-TIPOS_IMAGEN = {"retrato_imaginario", "escultura", "manuscrito", "inscripcion", "lugar", "objeto", "otro"}
-LICENCIAS = {"dominio_publico", "CC0"} | {f"CC-{t}-{v}" for t in ("BY", "BY-SA") for v in ("2.0", "2.5", "3.0", "4.0")}
-RAIZ = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-ENLACE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]*)?\]\]")
-REFERENCIA = re.compile(r"\(([^()]*· [^()]*)\)")
+AQUI = os.path.dirname(os.path.abspath(__file__))
+ATLAS = os.path.normpath(os.path.join(AQUI, ".."))
 
 
-def cargar(rutas):
-    nodos, relaciones, tipos = [], [], {}
-    for ruta in rutas:
-        with open(ruta, encoding="utf-8") as f:
-            datos = json.load(f)
-        for n in datos.get("nodos", []):
-            n["_archivo"] = os.path.basename(ruta)
-            nodos.append(n)
-        for r in datos.get("relaciones", []):
-            r["_archivo"] = os.path.basename(ruta)
-            r["_prefijo"] = datos.get("prefijoRelaciones")
-            relaciones.append(r)
-        tipos.update(datos.get("tiposRelacion", {}))
-    return nodos, relaciones, tipos
-
-
-def validar(nodos, relaciones, tipos):
-    errores, avisos = [], []
-    cuenta = collections.Counter(n["id"] for n in nodos)
-    for i, veces in cuenta.items():
-        if veces > 1:
-            # Las temáticas se repiten a propósito en cada archivo; solo avisamos si difieren.
-            iguales = {json.dumps({k: v for k, v in n.items() if k != "_archivo"}, sort_keys=True)
-                       for n in nodos if n["id"] == i}
-            if len(iguales) > 1:
-                errores.append(f"{i}: definido {veces} veces con contenido distinto")
-    ids = set(cuenta)
-
-    for n in nodos:
-        i = n["id"]
-        if n.get("tipo") not in TIPOS_NODO:
-            errores.append(f"{i}: tipo desconocido «{n.get('tipo')}»")
-        elif not i.startswith(n["tipo"] + "."):
-            errores.append(f"{i}: el prefijo del id no coincide con el tipo")
-        for campo in ("nombre", "tradicion", "contextos", "resumen"):
-            if campo not in n:
-                errores.append(f"{i}: falta el campo obligatorio «{campo}»")
-        if n.get("tradicion") not in TRADICIONES:
-            errores.append(f"{i}: tradición desconocida «{n.get('tradicion')}»")
-        if n.get("tipo") == "obra" and n.get("autoria") not in AUTORIAS:
-            errores.append(f"{i}: autoria debe ser una de {', '.join(sorted(AUTORIAS))}")
-        for campo in ("contextos", "tematicas", "escuelas"):
-            for ref in n.get(campo, []):
-                if ref not in ids:
-                    errores.append(f"{i}: {campo} apunta a «{ref}», que no existe")
-        for campo in ("resumen", "profundizacion", "anecdotas"):
-            texto = n.get(campo, "")
-            if texto.count("[[") != texto.count("]]"):
-                errores.append(f"{i}: corchetes desparejados en {campo}")
-            for destino in ENLACE.findall(texto):
-                if destino not in ids:
-                    errores.append(f"{i}: enlace roto a «{destino}» en {campo}")
-        for k, img in enumerate(n.get("imagenes", []), 1):
-            etiqueta = f"{i}: imagen {k}"
-            for campo in ("archivo", "fuente", "tipo", "pie", "licencia"):
-                if not img.get(campo):
-                    errores.append(f"{etiqueta}: falta «{campo}»")
-            if img.get("tipo") and img["tipo"] not in TIPOS_IMAGEN:
-                errores.append(f"{etiqueta}: tipo desconocido «{img['tipo']}»")
-            licencia = img.get("licencia", "")
-            if licencia and licencia not in LICENCIAS:
-                errores.append(f"{etiqueta}: licencia «{licencia}» no admitida (se excluyen NC y ND)")
-            if licencia.startswith("CC-BY") and not img.get("credito"):
-                errores.append(f"{etiqueta}: la licencia {licencia} exige «credito»")
-            if img.get("archivo") and not os.path.exists(os.path.join(RAIZ, img["archivo"])):
-                errores.append(f"{etiqueta}: no existe el archivo {img['archivo']}")
-        if n.get("tipo") == "autor":
-            if n.get("circulo") not in (1, 2, 3):
-                errores.append(f"{i}: círculo debe ser 1, 2 o 3")
-            if not n.get("fechas"):
-                errores.append(f"{i}: faltan las fechas")
-            if n.get("circulo") == 1:
-                for campo in ("profundizacion", "anecdotas"):
-                    if not n.get(campo):
-                        errores.append(f"{i}: autor del círculo 1 sin {campo}")
-            anecdotas = n.get("anecdotas", "")
-            if anecdotas:
-                for ref in REFERENCIA.findall(anecdotas):
-                    if not re.search(r" · [ABCL]$", ref):
-                        errores.append(f"{i}: referencia mal formada «({ref})»")
-                if not re.search(r"· [ABCL]\)\.?$", anecdotas.strip()):
-                    errores.append(f"{i}: la última anécdota no termina con su referencia")
-
-    ids_rel = collections.Counter(r["id"] for r in relaciones)
-    for i, veces in ids_rel.items():
-        if veces > 1:
-            errores.append(f"relación {i}: id repetido")
-    prefijos = collections.defaultdict(set)
-    for r in relaciones:
-        prefijos[r["_prefijo"]].add(r["_archivo"])
-    for prefijo, archivos in prefijos.items():
-        if not prefijo:
-            errores.append(f"{', '.join(sorted(archivos))}: falta «prefijoRelaciones» en la cabecera")
-        elif len(archivos) > 1:
-            errores.append(f"prefijo de relaciones «{prefijo}» usado en varios archivos: {', '.join(sorted(archivos))}")
-    conectados = set()
-    tradicion = {n["id"]: n.get("tradicion") for n in nodos}
-    for r in relaciones:
-        rid = r["id"]
-        if r["_prefijo"] and not re.fullmatch(re.escape(r["_prefijo"]) + r"-\d{4}", rid):
-            errores.append(f"{rid}: el id debe tener la forma {r['_prefijo']}-0001 ({r['_archivo']})")
-        for extremo in ("origen", "destino"):
-            if r.get(extremo) not in ids:
-                errores.append(f"{rid}: {extremo} «{r.get(extremo)}» no existe")
-        if r.get("tipo") not in tipos:
-            errores.append(f"{rid}: tipo de relación desconocido «{r.get('tipo')}»")
-        if r.get("certeza") not in CERTEZAS:
-            errores.append(f"{rid}: certeza debe ser D, P, C o L")
-        nota = r.get("nota", "")
-        if nota.count("[[") != nota.count("]]"):
-            errores.append(f"{rid}: corchetes desparejados en la nota")
-        for destino in ENLACE.findall(nota):
-            if destino not in ids:
-                errores.append(f"{rid}: enlace roto a «{destino}» en la nota")
-        if r.get("tipo") == "paralelo_a" and not r.get("ejeComparacion"):
-            errores.append(f"{rid}: «paralelo a» sin ejeComparacion")
-        if (r.get("tipo") == "influyo_en"
-                and tradicion.get(r.get("origen")) != tradicion.get(r.get("destino"))
-                and not r.get("fuente")):
-            errores.append(f"{rid}: «influyó en» entre tradiciones sin fuente antigua citada")
-        conectados |= {r.get("origen"), r.get("destino")}
-
-    aislados = sorted(n["id"] for n in nodos
-                      if n["id"] not in conectados and n["tipo"] in ("autor", "obra", "concepto", "tesis"))
-    if aislados:
-        avisos.append("nodos sin ninguna relación: " + ", ".join(aislados))
-    return errores, avisos
+def buscar_nucleo():
+    candidatos = [os.environ.get("ATLAS_NUCLEO", "")]
+    padre = os.path.dirname(ATLAS)
+    candidatos += [os.path.join(padre, nombre) for nombre in ("atlas_nucleo", "ATLAS_NUCLEO")]
+    for ruta in candidatos:
+        if ruta and os.path.exists(os.path.join(ruta, "herramientas", "validar.py")):
+            return ruta
+    return None
 
 
 def main():
-    rutas = sys.argv[1:] or sorted(glob.glob(os.path.join(os.path.dirname(__file__), "..", "datos", "*.json")))
-    if not rutas:
-        print("No hay archivos de datos que validar.")
+    nucleo = buscar_nucleo()
+    if not nucleo:
+        print(__doc__)
+        print("No encuentro el núcleo. Clónalo junto a este repositorio o indica su ruta en ATLAS_NUCLEO.")
         return 1
-    nodos, relaciones, tipos = cargar(rutas)
-    errores, avisos = validar(nodos, relaciones, tipos)
-    print("Archivos:", ", ".join(os.path.basename(r) for r in rutas))
-    if errores:
-        print(f"\n{len(errores)} ERRORES:")
-        for e in errores:
-            print("  -", e)
-    else:
-        print("\nSin errores.")
-    for a in avisos:
-        print("AVISO:", a)
-    unicos = {n["id"]: n for n in nodos}.values()
-    print("\nResumen:", dict(collections.Counter(n["tipo"] for n in unicos)),
-          f"| {len(unicos)} nodos | {len(relaciones)} relaciones")
-    return 1 if errores else 0
+    orden = [sys.executable, os.path.join(nucleo, "herramientas", "validar.py"), ATLAS] + sys.argv[1:]
+    return subprocess.call(orden)
 
 
 if __name__ == "__main__":

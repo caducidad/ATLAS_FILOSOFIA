@@ -18,18 +18,23 @@ Mapa interactivo de la historia de la filosofía. Autores, obras, conceptos y te
 ## Estructura del repositorio
 
 ```
+atlas.json      Configuración del atlas y sus extensiones del esquema común
 datos/          Datos de la red, un archivo por tradición y época
-  comun.json          Catálogo de tipos de relación y las 14 temáticas
+  tematicas.json      Las 14 temáticas
   china-antigua.json  Piloto de la Antigüedad: tradición china
   india-antigua.json  Piloto de la Antigüedad: tradición india
   grecorromana-antigua.json  Piloto de la Antigüedad: Grecia y Roma
   proximo-oriente-antiguo.json  Piloto de la Antigüedad: Egipto, Mesopotamia, Irán e Israel
-herramientas/   Utilidades de mantenimiento
-  validar.py          Comprueba enlaces, relaciones, fechas, referencias e imágenes
+herramientas/
+  validar.py          Ejecuta el validador común del núcleo sobre este atlas
 docs/           Documentación
-  esquema.md          Formato de los datos y guía de redacción
+  esquema.md          Lo propio de la filosofía (el resto está en el esquema base del núcleo)
   navegacion.md       Puntos de vista, pantallas y qué necesita cada uno de los datos
 ```
+
+## La colección Atlas
+
+Este atlas forma parte de una colección (Filosofía, Psicología, Sociología y Antropología) que comparte un núcleo común: el esquema base, el catálogo de relaciones, el validador y, más adelante, el motor de la app. Está en [ATLAS_NUCLEO](https://github.com/caducidad/ATLAS_NUCLEO).
 
 ## Validar los datos
 
@@ -39,7 +44,7 @@ Antes de subir cambios en `datos/`, ejecuta:
 python3 herramientas/validar.py
 ```
 
-Comprueba que todos los enlaces y relaciones apuntan a nodos existentes, que los campos obligatorios están presentes y que las referencias de las anécdotas tienen el formato correcto. Solo necesita Python 3, sin instalar nada más.
+Usa el validador del núcleo, así que necesita el repositorio ATLAS_NUCLEO clonado junto a este (en una carpeta `atlas_nucleo` o `ATLAS_NUCLEO`) o su ruta en la variable de entorno `ATLAS_NUCLEO`. Comprueba campos obligatorios, valores admitidos, fechas, enlaces, relaciones, referencias de las anécdotas e imágenes. Solo necesita Python 3, sin instalar nada más.
 
 ## Licencias
 
