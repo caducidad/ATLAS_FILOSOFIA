@@ -37,6 +37,7 @@ def cargar(rutas):
             nodos.append(n)
         for r in datos.get("relaciones", []):
             r["_archivo"] = os.path.basename(ruta)
+            r["_prefijo"] = datos.get("prefijoRelaciones")
             relaciones.append(r)
         tipos.update(datos.get("tiposRelacion", {}))
     return nodos, relaciones, tipos
@@ -113,10 +114,20 @@ def validar(nodos, relaciones, tipos):
     for i, veces in ids_rel.items():
         if veces > 1:
             errores.append(f"relación {i}: id repetido")
+    prefijos = collections.defaultdict(set)
+    for r in relaciones:
+        prefijos[r["_prefijo"]].add(r["_archivo"])
+    for prefijo, archivos in prefijos.items():
+        if not prefijo:
+            errores.append(f"{', '.join(sorted(archivos))}: falta «prefijoRelaciones» en la cabecera")
+        elif len(archivos) > 1:
+            errores.append(f"prefijo de relaciones «{prefijo}» usado en varios archivos: {', '.join(sorted(archivos))}")
     conectados = set()
     tradicion = {n["id"]: n.get("tradicion") for n in nodos}
     for r in relaciones:
         rid = r["id"]
+        if r["_prefijo"] and not re.fullmatch(re.escape(r["_prefijo"]) + r"-\d{4}", rid):
+            errores.append(f"{rid}: el id debe tener la forma {r['_prefijo']}-0001 ({r['_archivo']})")
         for extremo in ("origen", "destino"):
             if r.get(extremo) not in ids:
                 errores.append(f"{rid}: {extremo} «{r.get(extremo)}» no existe")

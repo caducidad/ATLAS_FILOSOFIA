@@ -2,6 +2,7 @@
   "version": "0.1",
   "actualizado": "2026-10-08",
   "descripcion": "Piloto Antigüedad · Tradición china · Círculo 1",
+  "prefijoRelaciones": "cn",
   "nodos": [
     {
       "id": "contexto.china_preclasica",
@@ -1885,35 +1886,35 @@
   ],
   "relaciones": [
     {
-      "id": "r0001",
+      "id": "cn-0001",
       "origen": "obra.analectas",
       "tipo": "es_fuente_de",
       "destino": "autor.confucio",
       "certeza": "D"
     },
     {
-      "id": "r0002",
+      "id": "cn-0002",
       "origen": "obra.analectas",
       "tipo": "trata_sobre",
       "destino": "concepto.ren",
       "certeza": "D"
     },
     {
-      "id": "r0003",
+      "id": "cn-0003",
       "origen": "obra.analectas",
       "tipo": "trata_sobre",
       "destino": "concepto.li",
       "certeza": "D"
     },
     {
-      "id": "r0004",
+      "id": "cn-0004",
       "origen": "obra.analectas",
       "tipo": "trata_sobre",
       "destino": "concepto.junzi",
       "certeza": "D"
     },
     {
-      "id": "r0005",
+      "id": "cn-0005",
       "origen": "obra.analectas",
       "tipo": "trata_sobre",
       "destino": "concepto.zhengming",
@@ -1921,49 +1922,49 @@
       "fuente": "Analectas 13.3"
     },
     {
-      "id": "r0006",
+      "id": "cn-0006",
       "origen": "obra.analectas",
       "tipo": "trata_sobre",
       "destino": "concepto.xiao",
       "certeza": "D"
     },
     {
-      "id": "r0010",
+      "id": "cn-0007",
       "origen": "obra.mozi",
       "tipo": "es_fuente_de",
       "destino": "autor.mozi",
       "certeza": "D"
     },
     {
-      "id": "r0011",
+      "id": "cn-0008",
       "origen": "obra.mozi",
       "tipo": "trata_sobre",
       "destino": "concepto.jianai",
       "certeza": "D"
     },
     {
-      "id": "r0012",
+      "id": "cn-0009",
       "origen": "obra.mozi",
       "tipo": "trata_sobre",
       "destino": "concepto.fa",
       "certeza": "D"
     },
     {
-      "id": "r0013",
+      "id": "cn-0010",
       "origen": "autor.mozi",
       "tipo": "defiende",
       "destino": "tesis.cuidado_inclusivo",
       "certeza": "D"
     },
     {
-      "id": "r0014",
+      "id": "cn-0011",
       "origen": "tesis.cuidado_inclusivo",
       "tipo": "trata_sobre",
       "destino": "concepto.jianai",
       "certeza": "D"
     },
     {
-      "id": "r0015",
+      "id": "cn-0012",
       "origen": "autor.mozi",
       "tipo": "critica",
       "destino": "escuela.ru",
@@ -1971,7 +1972,7 @@
       "fuente": "Mozi, cap. 39, «Contra los confucianos»"
     },
     {
-      "id": "r0020",
+      "id": "cn-0013",
       "origen": "autor.laozi",
       "tipo": "escribio",
       "destino": "obra.daodejing",
@@ -1979,35 +1980,35 @@
       "nota": "Autoría tradicional; el texto se compuso por etapas."
     },
     {
-      "id": "r0021",
+      "id": "cn-0014",
       "origen": "obra.daodejing",
       "tipo": "trata_sobre",
       "destino": "concepto.dao",
       "certeza": "D"
     },
     {
-      "id": "r0022",
+      "id": "cn-0015",
       "origen": "obra.daodejing",
       "tipo": "trata_sobre",
       "destino": "concepto.de",
       "certeza": "D"
     },
     {
-      "id": "r0023",
+      "id": "cn-0016",
       "origen": "obra.daodejing",
       "tipo": "trata_sobre",
       "destino": "concepto.wuwei",
       "certeza": "D"
     },
     {
-      "id": "r0024",
+      "id": "cn-0017",
       "origen": "obra.daodejing",
       "tipo": "trata_sobre",
       "destino": "concepto.ziran",
       "certeza": "D"
     },
     {
-      "id": "r0025",
+      "id": "cn-0018",
       "origen": "autor.laozi",
       "tipo": "defiende",
       "destino": "tesis.dao_indecible",
@@ -2015,7 +2016,7 @@
       "nota": "La tesis es del Daodejing; su atribución a Laozi es tradicional."
     },
     {
-      "id": "r0026",
+      "id": "cn-0019",
       "origen": "tesis.dao_indecible",
       "tipo": "trata_sobre",
       "destino": "concepto.dao",
@@ -2023,7 +2024,7 @@
       "fuente": "Daodejing 1"
     },
     {
-      "id": "r0030",
+      "id": "cn-0020",
       "origen": "autor.mencio",
       "tipo": "escribio",
       "destino": "obra.mengzi",
@@ -2031,7 +2032,7 @@
       "nota": "Recogido por Mencio y sus discípulos."
     },
     {
-      "id": "r0031",
+      "id": "cn-0021",
       "origen": "autor.mencio",
       "tipo": "defiende",
       "destino": "tesis.naturaleza_buena",
@@ -2039,14 +2040,14 @@
       "fuente": "Mengzi 6A"
     },
     {
-      "id": "r0032",
+      "id": "cn-0022",
       "origen": "tesis.naturaleza_buena",
       "tipo": "trata_sobre",
       "destino": "concepto.xing",
       "certeza": "D"
     },
     {
-      "id": "r0033",
+      "id": "cn-0023",
       "origen": "obra.mengzi",
       "tipo": "trata_sobre",
       "destino": "concepto.siduan",
@@ -2054,14 +2055,14 @@
       "fuente": "Mengzi 2A6"
     },
     {
-      "id": "r0034",
+      "id": "cn-0024",
       "origen": "autor.mencio",
       "tipo": "desarrolla",
       "destino": "concepto.ren",
       "certeza": "D"
     },
     {
-      "id": "r0035",
+      "id": "cn-0025",
       "origen": "autor.mencio",
       "tipo": "critica",
       "destino": "autor.mozi",
@@ -2069,14 +2070,14 @@
       "fuente": "Mengzi 3B9"
     },
     {
-      "id": "r0036",
+      "id": "cn-0026",
       "origen": "obra.mengzi",
       "tipo": "trata_sobre",
       "destino": "concepto.tianming",
       "certeza": "D"
     },
     {
-      "id": "r0040",
+      "id": "cn-0027",
       "origen": "autor.zhuangzi",
       "tipo": "escribio",
       "destino": "obra.zhuangzi",
@@ -2084,7 +2085,7 @@
       "nota": "Solo los capítulos interiores (1-7); el resto procede de su escuela y otras corrientes."
     },
     {
-      "id": "r0041",
+      "id": "cn-0028",
       "origen": "autor.zhuangzi",
       "tipo": "defiende",
       "destino": "tesis.perspectivas",
@@ -2092,21 +2093,21 @@
       "fuente": "Zhuangzi 2"
     },
     {
-      "id": "r0042",
+      "id": "cn-0029",
       "origen": "obra.zhuangzi",
       "tipo": "trata_sobre",
       "destino": "concepto.dao",
       "certeza": "D"
     },
     {
-      "id": "r0043",
+      "id": "cn-0030",
       "origen": "obra.zhuangzi",
       "tipo": "trata_sobre",
       "destino": "concepto.ziran",
       "certeza": "D"
     },
     {
-      "id": "r0044",
+      "id": "cn-0031",
       "origen": "autor.zhuangzi",
       "tipo": "responde_a",
       "destino": "autor.hui_shi",
@@ -2115,7 +2116,7 @@
       "nota": "Documentado como texto; la escena puede ser literaria."
     },
     {
-      "id": "r0045",
+      "id": "cn-0032",
       "origen": "obra.zhuangzi",
       "tipo": "es_fuente_de",
       "destino": "autor.hui_shi",
@@ -2123,7 +2124,7 @@
       "fuente": "Zhuangzi 33"
     },
     {
-      "id": "r0046",
+      "id": "cn-0033",
       "origen": "obra.zhuangzi",
       "tipo": "es_fuente_de",
       "destino": "escuela.mingjia",
@@ -2131,7 +2132,7 @@
       "fuente": "Zhuangzi 33"
     },
     {
-      "id": "r0050",
+      "id": "cn-0034",
       "origen": "autor.gongsun_long",
       "tipo": "escribio",
       "destino": "obra.gongsun_longzi",
@@ -2139,21 +2140,21 @@
       "nota": "Parte de los capítulos es de autenticidad discutida."
     },
     {
-      "id": "r0051",
+      "id": "cn-0035",
       "origen": "autor.gongsun_long",
       "tipo": "defiende",
       "destino": "tesis.caballo_blanco",
       "certeza": "D"
     },
     {
-      "id": "r0052",
+      "id": "cn-0036",
       "origen": "tesis.caballo_blanco",
       "tipo": "trata_sobre",
       "destino": "concepto.ming_shi",
       "certeza": "D"
     },
     {
-      "id": "r0053",
+      "id": "cn-0037",
       "origen": "escuela.mingjia",
       "tipo": "defiende",
       "destino": "tesis.divisibilidad",
@@ -2161,7 +2162,7 @@
       "fuente": "Zhuangzi 33"
     },
     {
-      "id": "r0060",
+      "id": "cn-0038",
       "origen": "autor.zou_yan",
       "tipo": "defiende",
       "destino": "tesis.ciclo_cinco_fases",
@@ -2170,14 +2171,14 @@
       "nota": "Sus obras se perdieron; se conoce por fuentes Han."
     },
     {
-      "id": "r0061",
+      "id": "cn-0039",
       "origen": "tesis.ciclo_cinco_fases",
       "tipo": "trata_sobre",
       "destino": "concepto.wuxing",
       "certeza": "D"
     },
     {
-      "id": "r0062",
+      "id": "cn-0040",
       "origen": "autor.zou_yan",
       "tipo": "desarrolla",
       "destino": "concepto.yinyang",
@@ -2185,7 +2186,7 @@
       "fuente": "Shiji 74"
     },
     {
-      "id": "r0070",
+      "id": "cn-0041",
       "origen": "autor.xunzi",
       "tipo": "escribio",
       "destino": "obra.xunzi",
@@ -2193,7 +2194,7 @@
       "nota": "En su mayor parte; ordenado por Liu Xiang en el siglo I a. C."
     },
     {
-      "id": "r0071",
+      "id": "cn-0042",
       "origen": "autor.xunzi",
       "tipo": "defiende",
       "destino": "tesis.naturaleza_mala",
@@ -2201,14 +2202,14 @@
       "fuente": "Xunzi, cap. 23"
     },
     {
-      "id": "r0072",
+      "id": "cn-0043",
       "origen": "tesis.naturaleza_mala",
       "tipo": "trata_sobre",
       "destino": "concepto.xing",
       "certeza": "D"
     },
     {
-      "id": "r0073",
+      "id": "cn-0044",
       "origen": "tesis.naturaleza_mala",
       "tipo": "se_opone_a",
       "destino": "tesis.naturaleza_buena",
@@ -2216,7 +2217,7 @@
       "fuente": "Xunzi, cap. 23"
     },
     {
-      "id": "r0074",
+      "id": "cn-0045",
       "origen": "autor.xunzi",
       "tipo": "critica",
       "destino": "autor.mencio",
@@ -2224,7 +2225,7 @@
       "fuente": "Xunzi, cap. 23"
     },
     {
-      "id": "r0075",
+      "id": "cn-0046",
       "origen": "obra.xunzi",
       "tipo": "trata_sobre",
       "destino": "concepto.zhengming",
@@ -2232,7 +2233,7 @@
       "fuente": "Xunzi, cap. 22"
     },
     {
-      "id": "r0076",
+      "id": "cn-0047",
       "origen": "obra.xunzi",
       "tipo": "trata_sobre",
       "destino": "concepto.wei",
@@ -2240,7 +2241,7 @@
       "fuente": "Xunzi, cap. 23"
     },
     {
-      "id": "r0077",
+      "id": "cn-0048",
       "origen": "obra.xunzi",
       "tipo": "trata_sobre",
       "destino": "concepto.li",
@@ -2248,7 +2249,7 @@
       "fuente": "Xunzi, cap. 19"
     },
     {
-      "id": "r0078",
+      "id": "cn-0049",
       "origen": "autor.xunzi",
       "tipo": "fue_maestro_de",
       "destino": "autor.han_feizi",
@@ -2256,7 +2257,7 @@
       "fuente": "Shiji 63"
     },
     {
-      "id": "r0079",
+      "id": "cn-0050",
       "origen": "obra.xunzi",
       "tipo": "trata_sobre",
       "destino": "concepto.tian",
@@ -2264,7 +2265,7 @@
       "fuente": "Xunzi, cap. 17"
     },
     {
-      "id": "r0080",
+      "id": "cn-0051",
       "origen": "autor.han_feizi",
       "tipo": "escribio",
       "destino": "obra.han_feizi",
@@ -2272,35 +2273,35 @@
       "nota": "Núcleo de Han Fei, con capítulos añadidos por otros."
     },
     {
-      "id": "r0081",
+      "id": "cn-0052",
       "origen": "autor.han_feizi",
       "tipo": "defiende",
       "destino": "tesis.gobierno_por_ley",
       "certeza": "D"
     },
     {
-      "id": "r0082",
+      "id": "cn-0053",
       "origen": "tesis.gobierno_por_ley",
       "tipo": "trata_sobre",
       "destino": "concepto.fa",
       "certeza": "D"
     },
     {
-      "id": "r0083",
+      "id": "cn-0054",
       "origen": "obra.han_feizi",
       "tipo": "trata_sobre",
       "destino": "concepto.shu",
       "certeza": "D"
     },
     {
-      "id": "r0084",
+      "id": "cn-0055",
       "origen": "obra.han_feizi",
       "tipo": "trata_sobre",
       "destino": "concepto.shi",
       "certeza": "D"
     },
     {
-      "id": "r0085",
+      "id": "cn-0056",
       "origen": "obra.han_feizi",
       "tipo": "comenta",
       "destino": "obra.daodejing",
@@ -2308,7 +2309,7 @@
       "fuente": "Han Feizi, caps. 20-21"
     },
     {
-      "id": "r0086",
+      "id": "cn-0057",
       "origen": "autor.han_feizi",
       "tipo": "critica",
       "destino": "escuela.ru",
@@ -2316,7 +2317,7 @@
       "fuente": "Han Feizi, cap. 49, «Las cinco plagas»"
     },
     {
-      "id": "r0090",
+      "id": "cn-0058",
       "origen": "obra.yijing",
       "tipo": "trata_sobre",
       "destino": "concepto.yinyang",
@@ -2324,7 +2325,7 @@
       "nota": "En las Diez Alas, no en el núcleo adivinatorio."
     },
     {
-      "id": "r0091",
+      "id": "cn-0059",
       "origen": "obra.mengzi",
       "tipo": "trata_sobre",
       "destino": "concepto.yi",
@@ -2332,7 +2333,7 @@
       "fuente": "Mengzi 1A1"
     },
     {
-      "id": "r0100",
+      "id": "cn-0060",
       "origen": "autor.han_feizi",
       "tipo": "desarrolla",
       "destino": "autor.shang_yang",
@@ -2340,7 +2341,7 @@
       "fuente": "Han Feizi, cap. 43"
     },
     {
-      "id": "r0101",
+      "id": "cn-0061",
       "origen": "autor.han_feizi",
       "tipo": "desarrolla",
       "destino": "autor.shen_buhai",
@@ -2348,7 +2349,7 @@
       "fuente": "Han Feizi, cap. 43"
     },
     {
-      "id": "r0102",
+      "id": "cn-0062",
       "origen": "autor.han_feizi",
       "tipo": "desarrolla",
       "destino": "autor.shen_dao",
@@ -2356,28 +2357,28 @@
       "fuente": "Han Feizi, cap. 40"
     },
     {
-      "id": "r0103",
+      "id": "cn-0063",
       "origen": "autor.shang_yang",
       "tipo": "desarrolla",
       "destino": "concepto.fa",
       "certeza": "D"
     },
     {
-      "id": "r0104",
+      "id": "cn-0064",
       "origen": "autor.shen_buhai",
       "tipo": "desarrolla",
       "destino": "concepto.shu",
       "certeza": "D"
     },
     {
-      "id": "r0105",
+      "id": "cn-0065",
       "origen": "autor.shen_dao",
       "tipo": "desarrolla",
       "destino": "concepto.shi",
       "certeza": "D"
     },
     {
-      "id": "r0106",
+      "id": "cn-0066",
       "origen": "autor.xunzi",
       "tipo": "fue_maestro_de",
       "destino": "autor.li_si",
@@ -2385,7 +2386,7 @@
       "fuente": "Shiji, cap. 87"
     },
     {
-      "id": "r0107",
+      "id": "cn-0067",
       "origen": "autor.mencio",
       "tipo": "critica",
       "destino": "autor.yang_zhu",
@@ -2393,7 +2394,7 @@
       "fuente": "Mengzi 3B9 y 7A26"
     },
     {
-      "id": "r0108",
+      "id": "cn-0068",
       "origen": "autor.sima_qian",
       "tipo": "escribio",
       "destino": "obra.shiji",
@@ -2401,7 +2402,7 @@
       "nota": "A partir del trabajo de su padre, Sima Tan."
     },
     {
-      "id": "r0109",
+      "id": "cn-0069",
       "origen": "obra.shiji",
       "tipo": "es_fuente_de",
       "destino": "autor.laozi",
@@ -2409,7 +2410,7 @@
       "fuente": "Shiji, cap. 63"
     },
     {
-      "id": "r0110",
+      "id": "cn-0070",
       "origen": "obra.shiji",
       "tipo": "es_fuente_de",
       "destino": "autor.han_feizi",
@@ -2417,7 +2418,7 @@
       "fuente": "Shiji, cap. 63"
     },
     {
-      "id": "r0111",
+      "id": "cn-0071",
       "origen": "obra.shiji",
       "tipo": "es_fuente_de",
       "destino": "autor.zou_yan",
@@ -2425,7 +2426,7 @@
       "fuente": "Shiji, cap. 74"
     },
     {
-      "id": "r0112",
+      "id": "cn-0072",
       "origen": "obra.shiji",
       "tipo": "es_fuente_de",
       "destino": "autor.xunzi",
@@ -2433,7 +2434,7 @@
       "fuente": "Shiji, cap. 74"
     },
     {
-      "id": "r0113",
+      "id": "cn-0073",
       "origen": "obra.shiji",
       "tipo": "es_fuente_de",
       "destino": "autor.shang_yang",
@@ -2441,7 +2442,7 @@
       "fuente": "Shiji, cap. 68"
     },
     {
-      "id": "r0114",
+      "id": "cn-0074",
       "origen": "obra.shiji",
       "tipo": "es_fuente_de",
       "destino": "autor.confucio",
@@ -2449,7 +2450,7 @@
       "fuente": "Shiji, cap. 47"
     },
     {
-      "id": "r0115",
+      "id": "cn-0075",
       "origen": "obra.lienu_zhuan",
       "tipo": "es_fuente_de",
       "destino": "autor.mencio",
@@ -2457,7 +2458,7 @@
       "nota": "Solo sobre su infancia y su madre; relatos edificantes."
     },
     {
-      "id": "r0116",
+      "id": "cn-0076",
       "origen": "obra.shiji",
       "tipo": "es_fuente_de",
       "destino": "autor.li_si",

@@ -33,8 +33,9 @@ Cada archivo tiene la misma forma:
   "version": "0.1",
   "actualizado": "2026-10-08",
   "descripcion": "…",
+  "prefijoRelaciones": "cn",
   "nodos": [ { "id": "autor.confucio", "tipo": "autor", "…": "…" } ],
-  "relaciones": [ { "id": "r0001", "origen": "…", "tipo": "…", "destino": "…" } ]
+  "relaciones": [ { "id": "cn-0001", "origen": "…", "tipo": "…", "destino": "…" } ]
 }
 ```
 
@@ -42,7 +43,7 @@ Una relación o un enlace puede apuntar a un nodo de otro archivo; por eso el va
 
 **Identificadores:** `tipo.nombre` en minúsculas, sin tildes ni espacios: `autor.platon`, `obra.republica`, `concepto.ren`, `contexto.cien_escuelas`. El prefijo evita choques como «Zhuangzi» autor frente a *Zhuangzi* obra (`autor.zhuangzi` y `obra.zhuangzi`).
 
-**Ids de relación:** únicos en todo el proyecto. Cada archivo usa su propio rango para no chocar: China antigua `r0001`–`r0999`, India antigua `r1000`–`r1999`, Grecia y Roma `r2000`–`r2999`, Próximo Oriente `r3000`–`r3999`.
+**Ids de relación:** cada archivo declara en su cabecera un `prefijoRelaciones` propio y numera sus relaciones con él: China antigua `cn-0001`, India antigua `in-0001`, Grecia y Roma `gr-0001`, Próximo Oriente `po-0001`. Cada archivo nuevo recibe un prefijo nuevo, así que la numeración nunca se agota ni choca. Desde otro atlas de la colección se citan con el prefijo del atlas: `filosofia:gr-0001`. El validador comprueba el formato y que no haya dos archivos con el mismo prefijo.
 
 **Años:** números enteros, negativos antes de Cristo (−551 = 551 a. C.). No existe el año 0: de −1 se pasa a 1. La app se encarga de mostrarlos como «551 a. C.».
 
@@ -153,7 +154,7 @@ Cada relación es un objeto con su grado de certeza:
 
 ```json
 {
-  "id": "r0074",
+  "id": "cn-0045",
   "origen": "autor.xunzi",
   "tipo": "critica",
   "destino": "autor.mencio",

@@ -2,6 +2,7 @@
   "version": "0.1",
   "actualizado": "2026-10-08",
   "descripcion": "Piloto Antigüedad · Tradición india · Círculo 1 y figuras necesarias de los círculos 2 y 3",
+  "prefijoRelaciones": "in",
   "nodos": [
     {
       "id": "contexto.india_vedica",
@@ -2675,21 +2676,21 @@
   ],
   "relaciones": [
     {
-      "id": "r1001",
+      "id": "in-0001",
       "origen": "obra.brihadaranyaka",
       "tipo": "es_fuente_de",
       "destino": "autor.yajnavalkya",
       "certeza": "D"
     },
     {
-      "id": "r1002",
+      "id": "in-0002",
       "origen": "obra.chandogya",
       "tipo": "es_fuente_de",
       "destino": "autor.uddalaka",
       "certeza": "D"
     },
     {
-      "id": "r1003",
+      "id": "in-0003",
       "origen": "obra.brihadaranyaka",
       "tipo": "es_fuente_de",
       "destino": "autor.gargi",
@@ -2697,7 +2698,7 @@
       "fuente": "Bṛhadāraṇyaka Upaniṣad 3.6 y 3.8"
     },
     {
-      "id": "r1004",
+      "id": "in-0004",
       "origen": "obra.brihadaranyaka",
       "tipo": "es_fuente_de",
       "destino": "autor.maitreyi",
@@ -2705,7 +2706,7 @@
       "fuente": "Bṛhadāraṇyaka Upaniṣad 2.4 y 4.5"
     },
     {
-      "id": "r1005",
+      "id": "in-0005",
       "origen": "autor.uddalaka",
       "tipo": "fue_maestro_de",
       "destino": "autor.yajnavalkya",
@@ -2714,7 +2715,7 @@
       "nota": "Según una lista de maestros de la propia Upaniṣad; ambos son en parte personajes literarios."
     },
     {
-      "id": "r1006",
+      "id": "in-0006",
       "origen": "autor.yajnavalkya",
       "tipo": "responde_a",
       "destino": "autor.uddalaka",
@@ -2723,7 +2724,7 @@
       "nota": "En el debate de la corte de Janaka; documentado como texto."
     },
     {
-      "id": "r1007",
+      "id": "in-0007",
       "origen": "autor.yajnavalkya",
       "tipo": "responde_a",
       "destino": "autor.gargi",
@@ -2731,7 +2732,7 @@
       "fuente": "Bṛhadāraṇyaka Upaniṣad 3.6 y 3.8"
     },
     {
-      "id": "r1008",
+      "id": "in-0008",
       "origen": "autor.yajnavalkya",
       "tipo": "responde_a",
       "destino": "autor.maitreyi",
@@ -2739,7 +2740,7 @@
       "fuente": "Bṛhadāraṇyaka Upaniṣad 2.4"
     },
     {
-      "id": "r1009",
+      "id": "in-0009",
       "origen": "autor.yajnavalkya",
       "tipo": "defiende",
       "destino": "tesis.ayam_atma_brahma",
@@ -2748,7 +2749,7 @@
       "nota": "Atribución de la propia Upaniṣad."
     },
     {
-      "id": "r1010",
+      "id": "in-0010",
       "origen": "autor.yajnavalkya",
       "tipo": "defiende",
       "destino": "tesis.neti_neti",
@@ -2756,7 +2757,7 @@
       "fuente": "Bṛhadāraṇyaka Upaniṣad 3.9.26 y 4.2.4"
     },
     {
-      "id": "r1011",
+      "id": "in-0011",
       "origen": "autor.uddalaka",
       "tipo": "defiende",
       "destino": "tesis.tat_tvam_asi",
@@ -2764,7 +2765,7 @@
       "fuente": "Chāndogya Upaniṣad 6.8.7"
     },
     {
-      "id": "r1012",
+      "id": "in-0012",
       "origen": "autor.uddalaka",
       "tipo": "defiende",
       "destino": "tesis.ser_no_nace_de_nada",
@@ -2772,28 +2773,28 @@
       "fuente": "Chāndogya Upaniṣad 6.2.1-2"
     },
     {
-      "id": "r1013",
+      "id": "in-0013",
       "origen": "tesis.ayam_atma_brahma",
       "tipo": "trata_sobre",
       "destino": "concepto.atman",
       "certeza": "D"
     },
     {
-      "id": "r1014",
+      "id": "in-0014",
       "origen": "tesis.ayam_atma_brahma",
       "tipo": "trata_sobre",
       "destino": "concepto.brahman",
       "certeza": "D"
     },
     {
-      "id": "r1015",
+      "id": "in-0015",
       "origen": "tesis.tat_tvam_asi",
       "tipo": "trata_sobre",
       "destino": "concepto.atman",
       "certeza": "D"
     },
     {
-      "id": "r1016",
+      "id": "in-0016",
       "origen": "tesis.neti_neti",
       "tipo": "trata_sobre",
       "destino": "concepto.atman",
@@ -2801,7 +2802,7 @@
       "fuente": "Bṛhadāraṇyaka Upaniṣad 3.9.26"
     },
     {
-      "id": "r1017",
+      "id": "in-0017",
       "origen": "obra.brihadaranyaka",
       "tipo": "trata_sobre",
       "destino": "concepto.karman",
@@ -2809,7 +2810,7 @@
       "fuente": "Bṛhadāraṇyaka Upaniṣad 3.2.13 y 4.4.5"
     },
     {
-      "id": "r1018",
+      "id": "in-0018",
       "origen": "obra.brihadaranyaka",
       "tipo": "trata_sobre",
       "destino": "concepto.samsara",
@@ -2817,7 +2818,7 @@
       "fuente": "Bṛhadāraṇyaka Upaniṣad 6.2"
     },
     {
-      "id": "r1019",
+      "id": "in-0019",
       "origen": "obra.brihadaranyaka",
       "tipo": "trata_sobre",
       "destino": "concepto.moksa",
@@ -2825,14 +2826,14 @@
       "fuente": "Bṛhadāraṇyaka Upaniṣad 4.4.6-7"
     },
     {
-      "id": "r1020",
+      "id": "in-0020",
       "origen": "obra.chandogya",
       "tipo": "trata_sobre",
       "destino": "concepto.brahman",
       "certeza": "D"
     },
     {
-      "id": "r1021",
+      "id": "in-0021",
       "origen": "obra.himno_creacion",
       "tipo": "parte_de",
       "destino": "obra.rigveda",
@@ -2840,14 +2841,14 @@
       "fuente": "Ṛgveda 10.129"
     },
     {
-      "id": "r1022",
+      "id": "in-0022",
       "origen": "obra.rigveda",
       "tipo": "trata_sobre",
       "destino": "concepto.rta",
       "certeza": "D"
     },
     {
-      "id": "r1023",
+      "id": "in-0023",
       "origen": "tesis.ser_no_nace_de_nada",
       "tipo": "responde_a",
       "destino": "obra.himno_creacion",
@@ -2855,42 +2856,42 @@
       "nota": "Ambos textos discuten si al principio hubo ser o no-ser; no hay prueba de que Uddālaka responda directamente al himno."
     },
     {
-      "id": "r1024",
+      "id": "in-0024",
       "origen": "obra.rigveda",
       "tipo": "parte_de",
       "destino": "obra.veda",
       "certeza": "D"
     },
     {
-      "id": "r1025",
+      "id": "in-0025",
       "origen": "obra.upanisad",
       "tipo": "parte_de",
       "destino": "obra.veda",
       "certeza": "D"
     },
     {
-      "id": "r1026",
+      "id": "in-0026",
       "origen": "obra.brihadaranyaka",
       "tipo": "parte_de",
       "destino": "obra.upanisad",
       "certeza": "D"
     },
     {
-      "id": "r1027",
+      "id": "in-0027",
       "origen": "obra.chandogya",
       "tipo": "parte_de",
       "destino": "obra.upanisad",
       "certeza": "D"
     },
     {
-      "id": "r1028",
+      "id": "in-0028",
       "origen": "obra.upanisad",
       "tipo": "trata_sobre",
       "destino": "concepto.atman",
       "certeza": "D"
     },
     {
-      "id": "r1029",
+      "id": "in-0029",
       "origen": "obra.brahma_sutra",
       "tipo": "comenta",
       "destino": "obra.upanisad",
@@ -2898,7 +2899,7 @@
       "nota": "Sistematiza en aforismos la enseñanza de las Upaniṣad."
     },
     {
-      "id": "r1030",
+      "id": "in-0030",
       "origen": "obra.canon_pali",
       "tipo": "es_fuente_de",
       "destino": "autor.buda",
@@ -2906,21 +2907,21 @@
       "nota": "Transmitido de memoria y puesto por escrito en el s. I a. C."
     },
     {
-      "id": "r1031",
+      "id": "in-0031",
       "origen": "obra.digha_nikaya",
       "tipo": "parte_de",
       "destino": "obra.canon_pali",
       "certeza": "D"
     },
     {
-      "id": "r1032",
+      "id": "in-0032",
       "origen": "obra.dhammapada",
       "tipo": "parte_de",
       "destino": "obra.canon_pali",
       "certeza": "D"
     },
     {
-      "id": "r1033",
+      "id": "in-0033",
       "origen": "autor.buda",
       "tipo": "defiende",
       "destino": "tesis.no_yo",
@@ -2928,7 +2929,7 @@
       "fuente": "Saṃyutta Nikāya 22.59"
     },
     {
-      "id": "r1034",
+      "id": "in-0034",
       "origen": "autor.buda",
       "tipo": "defiende",
       "destino": "tesis.cuatro_verdades",
@@ -2936,14 +2937,14 @@
       "fuente": "Saṃyutta Nikāya 56.11"
     },
     {
-      "id": "r1035",
+      "id": "in-0035",
       "origen": "tesis.no_yo",
       "tipo": "trata_sobre",
       "destino": "concepto.anatman",
       "certeza": "D"
     },
     {
-      "id": "r1036",
+      "id": "in-0036",
       "origen": "tesis.no_yo",
       "tipo": "se_opone_a",
       "destino": "tesis.ayam_atma_brahma",
@@ -2951,42 +2952,42 @@
       "nota": "Se discute si los discursos del Buda apuntan directamente a las Upaniṣad o a ideas del yo más generales."
     },
     {
-      "id": "r1037",
+      "id": "in-0037",
       "origen": "tesis.cuatro_verdades",
       "tipo": "trata_sobre",
       "destino": "concepto.duhkha",
       "certeza": "D"
     },
     {
-      "id": "r1038",
+      "id": "in-0038",
       "origen": "tesis.cuatro_verdades",
       "tipo": "trata_sobre",
       "destino": "concepto.nirvana",
       "certeza": "D"
     },
     {
-      "id": "r1039",
+      "id": "in-0039",
       "origen": "obra.canon_pali",
       "tipo": "trata_sobre",
       "destino": "concepto.pratityasamutpada",
       "certeza": "D"
     },
     {
-      "id": "r1040",
+      "id": "in-0040",
       "origen": "obra.canon_pali",
       "tipo": "trata_sobre",
       "destino": "concepto.anitya",
       "certeza": "D"
     },
     {
-      "id": "r1041",
+      "id": "in-0041",
       "origen": "obra.dhammapada",
       "tipo": "trata_sobre",
       "destino": "concepto.dharma",
       "certeza": "D"
     },
     {
-      "id": "r1042",
+      "id": "in-0042",
       "origen": "obra.digha_nikaya",
       "tipo": "es_fuente_de",
       "destino": "autor.makkhali_gosala",
@@ -2994,7 +2995,7 @@
       "fuente": "Dīgha Nikāya 2"
     },
     {
-      "id": "r1043",
+      "id": "in-0043",
       "origen": "obra.digha_nikaya",
       "tipo": "es_fuente_de",
       "destino": "autor.ajita_kesakambali",
@@ -3002,7 +3003,7 @@
       "fuente": "Dīgha Nikāya 2"
     },
     {
-      "id": "r1044",
+      "id": "in-0044",
       "origen": "obra.digha_nikaya",
       "tipo": "es_fuente_de",
       "destino": "autor.mahavira",
@@ -3011,7 +3012,7 @@
       "nota": "Donde aparece como Nigaṇṭha Nātaputta."
     },
     {
-      "id": "r1045",
+      "id": "in-0045",
       "origen": "autor.buda",
       "tipo": "critica",
       "destino": "autor.makkhali_gosala",
@@ -3019,7 +3020,7 @@
       "fuente": "Aṅguttara Nikāya 3.137"
     },
     {
-      "id": "r1046",
+      "id": "in-0046",
       "origen": "autor.buda",
       "tipo": "critica",
       "destino": "autor.ajita_kesakambali",
@@ -3028,7 +3029,7 @@
       "nota": "El canon presenta su materialismo entre las doctrinas erróneas."
     },
     {
-      "id": "r1047",
+      "id": "in-0047",
       "origen": "autor.buda",
       "tipo": "critica",
       "destino": "escuela.jainismo",
@@ -3036,28 +3037,28 @@
       "fuente": "Majjhima Nikāya 56"
     },
     {
-      "id": "r1048",
+      "id": "in-0048",
       "origen": "obra.canon_pali",
       "tipo": "trata_sobre",
       "destino": "concepto.karman",
       "certeza": "D"
     },
     {
-      "id": "r1050",
+      "id": "in-0049",
       "origen": "autor.nagarjuna",
       "tipo": "escribio",
       "destino": "obra.mulamadhyamakakarika",
       "certeza": "D"
     },
     {
-      "id": "r1051",
+      "id": "in-0050",
       "origen": "autor.nagarjuna",
       "tipo": "escribio",
       "destino": "obra.vigrahavyavartani",
       "certeza": "P"
     },
     {
-      "id": "r1052",
+      "id": "in-0051",
       "origen": "autor.nagarjuna",
       "tipo": "defiende",
       "destino": "tesis.vacuidad",
@@ -3065,21 +3066,21 @@
       "fuente": "Mūlamadhyamakakārikā 24.18"
     },
     {
-      "id": "r1053",
+      "id": "in-0052",
       "origen": "tesis.vacuidad",
       "tipo": "trata_sobre",
       "destino": "concepto.sunyata",
       "certeza": "D"
     },
     {
-      "id": "r1054",
+      "id": "in-0053",
       "origen": "tesis.vacuidad",
       "tipo": "trata_sobre",
       "destino": "concepto.svabhava",
       "certeza": "D"
     },
     {
-      "id": "r1055",
+      "id": "in-0054",
       "origen": "autor.nagarjuna",
       "tipo": "desarrolla",
       "destino": "concepto.pratityasamutpada",
@@ -3087,7 +3088,7 @@
       "fuente": "Mūlamadhyamakakārikā 24.18"
     },
     {
-      "id": "r1056",
+      "id": "in-0055",
       "origen": "obra.mulamadhyamakakarika",
       "tipo": "trata_sobre",
       "destino": "concepto.dos_verdades",
@@ -3095,7 +3096,7 @@
       "fuente": "Mūlamadhyamakakārikā 24.8-10"
     },
     {
-      "id": "r1057",
+      "id": "in-0056",
       "origen": "obra.vigrahavyavartani",
       "tipo": "critica",
       "destino": "concepto.pramana",
@@ -3103,14 +3104,14 @@
       "nota": "Se discute si apunta al Nyāya o a una teoría del conocimiento más general."
     },
     {
-      "id": "r1058",
+      "id": "in-0057",
       "origen": "escuela.madhyamaka",
       "tipo": "desarrolla",
       "destino": "escuela.budismo",
       "certeza": "D"
     },
     {
-      "id": "r1060",
+      "id": "in-0058",
       "origen": "obra.acaranga",
       "tipo": "es_fuente_de",
       "destino": "autor.mahavira",
@@ -3118,28 +3119,28 @@
       "fuente": "Ācārāṅga Sūtra 1.8"
     },
     {
-      "id": "r1061",
+      "id": "in-0059",
       "origen": "autor.mahavira",
       "tipo": "desarrolla",
       "destino": "concepto.ahimsa",
       "certeza": "D"
     },
     {
-      "id": "r1062",
+      "id": "in-0060",
       "origen": "obra.acaranga",
       "tipo": "trata_sobre",
       "destino": "concepto.ahimsa",
       "certeza": "D"
     },
     {
-      "id": "r1063",
+      "id": "in-0061",
       "origen": "obra.acaranga",
       "tipo": "trata_sobre",
       "destino": "concepto.jiva",
       "certeza": "D"
     },
     {
-      "id": "r1064",
+      "id": "in-0062",
       "origen": "escuela.jainismo",
       "tipo": "desarrolla",
       "destino": "concepto.anekantavada",
@@ -3147,7 +3148,7 @@
       "nota": "Formulado plenamente en textos posteriores a Mahāvīra."
     },
     {
-      "id": "r1065",
+      "id": "in-0063",
       "origen": "autor.mahavira",
       "tipo": "critica",
       "destino": "autor.makkhali_gosala",
@@ -3156,7 +3157,7 @@
       "nota": "Según textos jainas, fueron compañeros de ascesis durante seis años antes de enfrentarse."
     },
     {
-      "id": "r1066",
+      "id": "in-0064",
       "origen": "autor.mahavira",
       "tipo": "desarrolla",
       "destino": "concepto.karman",
@@ -3164,7 +3165,7 @@
       "nota": "Concibe el karma como una materia sutil que se adhiere al alma."
     },
     {
-      "id": "r1070",
+      "id": "in-0065",
       "origen": "escuela.carvaka",
       "tipo": "defiende",
       "destino": "tesis.solo_percepcion",
@@ -3172,14 +3173,14 @@
       "nota": "Conocido solo por las refutaciones de sus adversarios."
     },
     {
-      "id": "r1071",
+      "id": "in-0066",
       "origen": "tesis.solo_percepcion",
       "tipo": "trata_sobre",
       "destino": "concepto.pramana",
       "certeza": "D"
     },
     {
-      "id": "r1072",
+      "id": "in-0067",
       "origen": "escuela.carvaka",
       "tipo": "critica",
       "destino": "concepto.karman",
@@ -3187,7 +3188,7 @@
       "nota": "Conocido solo por las refutaciones de sus adversarios."
     },
     {
-      "id": "r1073",
+      "id": "in-0068",
       "origen": "autor.ajita_kesakambali",
       "tipo": "influyo_en",
       "destino": "escuela.carvaka",
@@ -3195,14 +3196,14 @@
       "nota": "Suele considerarse un precursor; no hay prueba de continuidad directa."
     },
     {
-      "id": "r1080",
+      "id": "in-0069",
       "origen": "autor.panini",
       "tipo": "escribio",
       "destino": "obra.ashtadhyayi",
       "certeza": "D"
     },
     {
-      "id": "r1081",
+      "id": "in-0070",
       "origen": "autor.patanjali_gramatico",
       "tipo": "desarrolla",
       "destino": "autor.panini",
@@ -3210,7 +3211,7 @@
       "nota": "En su Mahābhāṣya, el «gran comentario» a la gramática de Pāṇini."
     },
     {
-      "id": "r1090",
+      "id": "in-0071",
       "origen": "autor.kanada",
       "tipo": "escribio",
       "destino": "obra.vaisesika_sutra",
@@ -3218,21 +3219,21 @@
       "nota": "Autoría tradicional; el texto creció en varias etapas."
     },
     {
-      "id": "r1091",
+      "id": "in-0072",
       "origen": "obra.vaisesika_sutra",
       "tipo": "trata_sobre",
       "destino": "concepto.paramanu",
       "certeza": "D"
     },
     {
-      "id": "r1092",
+      "id": "in-0073",
       "origen": "obra.vaisesika_sutra",
       "tipo": "trata_sobre",
       "destino": "concepto.padartha",
       "certeza": "D"
     },
     {
-      "id": "r1093",
+      "id": "in-0074",
       "origen": "obra.vaisesika_sutra",
       "tipo": "trata_sobre",
       "destino": "concepto.dharma",
@@ -3240,14 +3241,14 @@
       "fuente": "Vaiśeṣikasūtra 1.1.1-2"
     },
     {
-      "id": "r1094",
+      "id": "in-0075",
       "origen": "escuela.vaisesika",
       "tipo": "defiende",
       "destino": "tesis.asatkaryavada",
       "certeza": "D"
     },
     {
-      "id": "r1100",
+      "id": "in-0076",
       "origen": "autor.akshapada",
       "tipo": "escribio",
       "destino": "obra.nyaya_sutra",
@@ -3255,7 +3256,7 @@
       "nota": "Autoría tradicional; el texto pudo crecer en varias etapas."
     },
     {
-      "id": "r1101",
+      "id": "in-0077",
       "origen": "obra.nyaya_sutra",
       "tipo": "trata_sobre",
       "destino": "concepto.pramana",
@@ -3263,28 +3264,28 @@
       "fuente": "Nyāyasūtra 1.1.3"
     },
     {
-      "id": "r1102",
+      "id": "in-0078",
       "origen": "autor.vatsyayana",
       "tipo": "escribio",
       "destino": "obra.nyaya_bhasya",
       "certeza": "D"
     },
     {
-      "id": "r1103",
+      "id": "in-0079",
       "origen": "obra.nyaya_bhasya",
       "tipo": "comenta",
       "destino": "obra.nyaya_sutra",
       "certeza": "D"
     },
     {
-      "id": "r1104",
+      "id": "in-0080",
       "origen": "escuela.nyaya",
       "tipo": "defiende",
       "destino": "tesis.asatkaryavada",
       "certeza": "D"
     },
     {
-      "id": "r1110",
+      "id": "in-0081",
       "origen": "autor.jaimini",
       "tipo": "escribio",
       "destino": "obra.mimamsa_sutra",
@@ -3292,7 +3293,7 @@
       "nota": "Autoría tradicional."
     },
     {
-      "id": "r1111",
+      "id": "in-0082",
       "origen": "autor.jaimini",
       "tipo": "defiende",
       "destino": "tesis.veda_sin_autor",
@@ -3300,14 +3301,14 @@
       "fuente": "Mīmāṃsāsūtra 1.1.27-32"
     },
     {
-      "id": "r1112",
+      "id": "in-0083",
       "origen": "tesis.veda_sin_autor",
       "tipo": "trata_sobre",
       "destino": "concepto.apauruseya",
       "certeza": "D"
     },
     {
-      "id": "r1113",
+      "id": "in-0084",
       "origen": "obra.mimamsa_sutra",
       "tipo": "trata_sobre",
       "destino": "concepto.dharma",
@@ -3315,7 +3316,7 @@
       "fuente": "Mīmāṃsāsūtra 1.1.1-2"
     },
     {
-      "id": "r1114",
+      "id": "in-0085",
       "origen": "autor.badarayana",
       "tipo": "responde_a",
       "destino": "autor.jaimini",
@@ -3324,7 +3325,7 @@
       "nota": "Ambos textos se citan mutuamente."
     },
     {
-      "id": "r1120",
+      "id": "in-0086",
       "origen": "autor.badarayana",
       "tipo": "escribio",
       "destino": "obra.brahma_sutra",
@@ -3332,7 +3333,7 @@
       "nota": "Autoría tradicional."
     },
     {
-      "id": "r1121",
+      "id": "in-0087",
       "origen": "obra.brahma_sutra",
       "tipo": "trata_sobre",
       "destino": "concepto.brahman",
@@ -3340,14 +3341,14 @@
       "fuente": "Brahmasūtra 1.1.1-2"
     },
     {
-      "id": "r1122",
+      "id": "in-0088",
       "origen": "obra.brahma_sutra",
       "tipo": "trata_sobre",
       "destino": "concepto.atman",
       "certeza": "D"
     },
     {
-      "id": "r1123",
+      "id": "in-0089",
       "origen": "obra.brahma_sutra",
       "tipo": "critica",
       "destino": "escuela.samkhya",
@@ -3355,7 +3356,7 @@
       "fuente": "Brahmasūtra 2.2.1-10"
     },
     {
-      "id": "r1124",
+      "id": "in-0090",
       "origen": "obra.brahma_sutra",
       "tipo": "critica",
       "destino": "escuela.vaisesika",
@@ -3363,7 +3364,7 @@
       "fuente": "Brahmasūtra 2.2.11-17"
     },
     {
-      "id": "r1125",
+      "id": "in-0091",
       "origen": "obra.brahma_sutra",
       "tipo": "critica",
       "destino": "escuela.budismo",
@@ -3371,7 +3372,7 @@
       "fuente": "Brahmasūtra 2.2.18-32"
     },
     {
-      "id": "r1126",
+      "id": "in-0092",
       "origen": "obra.brahma_sutra",
       "tipo": "critica",
       "destino": "escuela.jainismo",
@@ -3379,7 +3380,7 @@
       "fuente": "Brahmasūtra 2.2.33-36"
     },
     {
-      "id": "r1127",
+      "id": "in-0093",
       "origen": "escuela.vedanta",
       "tipo": "desarrolla",
       "destino": "tesis.ayam_atma_brahma",
@@ -3387,14 +3388,14 @@
       "nota": "Las escuelas del Vedānta la interpretan de formas distintas."
     },
     {
-      "id": "r1130",
+      "id": "in-0094",
       "origen": "autor.isvarakrsna",
       "tipo": "escribio",
       "destino": "obra.samkhyakarika",
       "certeza": "D"
     },
     {
-      "id": "r1131",
+      "id": "in-0095",
       "origen": "escuela.samkhya",
       "tipo": "defiende",
       "destino": "tesis.satkaryavada",
@@ -3402,35 +3403,35 @@
       "fuente": "Sāṃkhyakārikā 9"
     },
     {
-      "id": "r1132",
+      "id": "in-0096",
       "origen": "tesis.satkaryavada",
       "tipo": "se_opone_a",
       "destino": "tesis.asatkaryavada",
       "certeza": "D"
     },
     {
-      "id": "r1133",
+      "id": "in-0097",
       "origen": "obra.samkhyakarika",
       "tipo": "trata_sobre",
       "destino": "concepto.purusa",
       "certeza": "D"
     },
     {
-      "id": "r1134",
+      "id": "in-0098",
       "origen": "obra.samkhyakarika",
       "tipo": "trata_sobre",
       "destino": "concepto.prakrti",
       "certeza": "D"
     },
     {
-      "id": "r1135",
+      "id": "in-0099",
       "origen": "obra.samkhyakarika",
       "tipo": "trata_sobre",
       "destino": "concepto.guna",
       "certeza": "D"
     },
     {
-      "id": "r1136",
+      "id": "in-0100",
       "origen": "obra.samkhyakarika",
       "tipo": "trata_sobre",
       "destino": "concepto.kaivalya",
@@ -3438,7 +3439,7 @@
       "fuente": "Sāṃkhyakārikā 68"
     },
     {
-      "id": "r1137",
+      "id": "in-0101",
       "origen": "autor.isvarakrsna",
       "tipo": "desarrolla",
       "destino": "autor.kapila",
@@ -3447,7 +3448,7 @@
       "nota": "Según la propia obra; Kapila es una figura legendaria."
     },
     {
-      "id": "r1140",
+      "id": "in-0102",
       "origen": "autor.patanjali",
       "tipo": "escribio",
       "destino": "obra.yogasutra",
@@ -3455,7 +3456,7 @@
       "nota": "Según Philipp Maas, los sūtras y su comentario son obra de un mismo autor."
     },
     {
-      "id": "r1141",
+      "id": "in-0103",
       "origen": "autor.patanjali",
       "tipo": "defiende",
       "destino": "tesis.yoga_detencion",
@@ -3463,28 +3464,28 @@
       "fuente": "Yogasūtra 1.2"
     },
     {
-      "id": "r1142",
+      "id": "in-0104",
       "origen": "autor.patanjali",
       "tipo": "desarrolla",
       "destino": "escuela.samkhya",
       "certeza": "D"
     },
     {
-      "id": "r1143",
+      "id": "in-0105",
       "origen": "obra.yogasutra",
       "tipo": "trata_sobre",
       "destino": "concepto.kaivalya",
       "certeza": "D"
     },
     {
-      "id": "r1144",
+      "id": "in-0106",
       "origen": "obra.yogasutra",
       "tipo": "trata_sobre",
       "destino": "concepto.purusa",
       "certeza": "D"
     },
     {
-      "id": "r1145",
+      "id": "in-0107",
       "origen": "obra.yogasutra",
       "tipo": "trata_sobre",
       "destino": "concepto.ahimsa",
@@ -3492,7 +3493,7 @@
       "fuente": "Yogasūtra 2.30"
     },
     {
-      "id": "r1146",
+      "id": "in-0108",
       "origen": "tesis.yoga_detencion",
       "tipo": "trata_sobre",
       "destino": "concepto.purusa",
@@ -3500,35 +3501,35 @@
       "fuente": "Yogasūtra 1.3"
     },
     {
-      "id": "r1150",
+      "id": "in-0109",
       "origen": "obra.bhagavadgita",
       "tipo": "trata_sobre",
       "destino": "concepto.dharma",
       "certeza": "D"
     },
     {
-      "id": "r1151",
+      "id": "in-0110",
       "origen": "obra.bhagavadgita",
       "tipo": "trata_sobre",
       "destino": "concepto.karman",
       "certeza": "D"
     },
     {
-      "id": "r1152",
+      "id": "in-0111",
       "origen": "obra.bhagavadgita",
       "tipo": "trata_sobre",
       "destino": "concepto.moksa",
       "certeza": "D"
     },
     {
-      "id": "r1160",
+      "id": "in-0112",
       "origen": "autor.asoka",
       "tipo": "escribio",
       "destino": "obra.edictos_asoka",
       "certeza": "D"
     },
     {
-      "id": "r1161",
+      "id": "in-0113",
       "origen": "obra.edictos_asoka",
       "tipo": "trata_sobre",
       "destino": "concepto.dharma",
@@ -3536,7 +3537,7 @@
       "nota": "Aśoka usa dhamma en sentido moral: respeto, generosidad y no violencia."
     },
     {
-      "id": "r1162",
+      "id": "in-0114",
       "origen": "obra.edictos_asoka",
       "tipo": "trata_sobre",
       "destino": "concepto.ahimsa",
@@ -3544,7 +3545,7 @@
       "fuente": "Edicto de roca 1"
     },
     {
-      "id": "r1170",
+      "id": "in-0115",
       "origen": "concepto.anekantavada",
       "tipo": "paralelo_a",
       "destino": "tesis.perspectivas",
@@ -3553,7 +3554,7 @@
       "nota": "Ambas tradiciones sostienen que cada afirmación depende de una perspectiva. Sin contacto conocido entre ellas."
     },
     {
-      "id": "r1171",
+      "id": "in-0116",
       "origen": "concepto.paramanu",
       "tipo": "paralelo_a",
       "destino": "tesis.divisibilidad",
@@ -3562,7 +3563,7 @@
       "nota": "Respuestas opuestas: el Vaiśeṣika postula átomos indivisibles; la paradoja china, una divisibilidad infinita. Sin contacto conocido."
     },
     {
-      "id": "r1172",
+      "id": "in-0117",
       "origen": "autor.buda",
       "tipo": "paralelo_a",
       "destino": "autor.confucio",

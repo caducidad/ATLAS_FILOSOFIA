@@ -2,6 +2,7 @@
  "version": "0.1",
  "actualizado": "2026-10-08",
  "descripcion": "Piloto Antigüedad · Tradición grecorromana · Círculo 1 y figuras necesarias de los círculos 2 y 3",
+ "prefijoRelaciones": "gr",
  "nodos": [
   {
    "id": "contexto.presocraticos",
@@ -3655,140 +3656,140 @@
  ],
  "relaciones": [
   {
-   "id": "r2001",
+   "id": "gr-0001",
    "origen": "autor.platon",
    "tipo": "escribio",
    "destino": "obra.apologia",
    "certeza": "D"
   },
   {
-   "id": "r2002",
+   "id": "gr-0002",
    "origen": "autor.platon",
    "tipo": "escribio",
    "destino": "obra.banquete",
    "certeza": "D"
   },
   {
-   "id": "r2003",
+   "id": "gr-0003",
    "origen": "autor.platon",
    "tipo": "escribio",
    "destino": "obra.fedon",
    "certeza": "D"
   },
   {
-   "id": "r2004",
+   "id": "gr-0004",
    "origen": "autor.platon",
    "tipo": "escribio",
    "destino": "obra.republica",
    "certeza": "D"
   },
   {
-   "id": "r2005",
+   "id": "gr-0005",
    "origen": "autor.platon",
    "tipo": "escribio",
    "destino": "obra.teeteto",
    "certeza": "D"
   },
   {
-   "id": "r2006",
+   "id": "gr-0006",
    "origen": "autor.aristoteles",
    "tipo": "escribio",
    "destino": "obra.metafisica",
    "certeza": "D"
   },
   {
-   "id": "r2007",
+   "id": "gr-0007",
    "origen": "autor.aristoteles",
    "tipo": "escribio",
    "destino": "obra.fisica",
    "certeza": "D"
   },
   {
-   "id": "r2008",
+   "id": "gr-0008",
    "origen": "autor.aristoteles",
    "tipo": "escribio",
    "destino": "obra.etica_nicomaco",
    "certeza": "D"
   },
   {
-   "id": "r2009",
+   "id": "gr-0009",
    "origen": "autor.aristoteles",
    "tipo": "escribio",
    "destino": "obra.politica",
    "certeza": "D"
   },
   {
-   "id": "r2010",
+   "id": "gr-0010",
    "origen": "autor.aristoteles",
    "tipo": "escribio",
    "destino": "obra.organon",
    "certeza": "D"
   },
   {
-   "id": "r2011",
+   "id": "gr-0011",
    "origen": "autor.parmenides",
    "tipo": "escribio",
    "destino": "obra.poema_parmenides",
    "certeza": "D"
   },
   {
-   "id": "r2012",
+   "id": "gr-0012",
    "origen": "autor.heraclito",
    "tipo": "escribio",
    "destino": "obra.fragmentos_heraclito",
    "certeza": "D"
   },
   {
-   "id": "r2013",
+   "id": "gr-0013",
    "origen": "autor.empedocles",
    "tipo": "escribio",
    "destino": "obra.poema_empedocles",
    "certeza": "D"
   },
   {
-   "id": "r2014",
+   "id": "gr-0014",
    "origen": "autor.gorgias",
    "tipo": "escribio",
    "destino": "obra.sobre_no_ser",
    "certeza": "D"
   },
   {
-   "id": "r2015",
+   "id": "gr-0015",
    "origen": "autor.epicuro",
    "tipo": "escribio",
    "destino": "obra.carta_meneceo",
    "certeza": "D"
   },
   {
-   "id": "r2016",
+   "id": "gr-0016",
    "origen": "autor.lucrecio",
    "tipo": "escribio",
    "destino": "obra.de_rerum_natura",
    "certeza": "D"
   },
   {
-   "id": "r2017",
+   "id": "gr-0017",
    "origen": "autor.ciceron",
    "tipo": "escribio",
    "destino": "obra.academicos",
    "certeza": "D"
   },
   {
-   "id": "r2018",
+   "id": "gr-0018",
    "origen": "autor.ciceron",
    "tipo": "escribio",
    "destino": "obra.de_officiis",
    "certeza": "D"
   },
   {
-   "id": "r2019",
+   "id": "gr-0019",
    "origen": "autor.seneca",
    "tipo": "escribio",
    "destino": "obra.cartas_lucilio",
    "certeza": "D"
   },
   {
-   "id": "r2020",
+   "id": "gr-0020",
    "origen": "autor.arriano",
    "tipo": "escribio",
    "destino": "obra.disertaciones",
@@ -3796,7 +3797,7 @@
    "nota": "Arriano puso por escrito las clases de su maestro [[autor.epicteto|Epicteto]], que no escribió nada."
   },
   {
-   "id": "r2021",
+   "id": "gr-0021",
    "origen": "autor.arriano",
    "tipo": "escribio",
    "destino": "obra.manual_epicteto",
@@ -3804,56 +3805,56 @@
    "nota": "Resumen de la enseñanza de [[autor.epicteto|Epicteto]]."
   },
   {
-   "id": "r2022",
+   "id": "gr-0022",
    "origen": "autor.arriano",
    "tipo": "escribio",
    "destino": "obra.anabasis",
    "certeza": "D"
   },
   {
-   "id": "r2023",
+   "id": "gr-0023",
    "origen": "autor.marco_aurelio",
    "tipo": "escribio",
    "destino": "obra.meditaciones",
    "certeza": "D"
   },
   {
-   "id": "r2024",
+   "id": "gr-0024",
    "origen": "autor.sexto_empirico",
    "tipo": "escribio",
    "destino": "obra.esbozos_pirronicos",
    "certeza": "D"
   },
   {
-   "id": "r2025",
+   "id": "gr-0025",
    "origen": "autor.plotino",
    "tipo": "escribio",
    "destino": "obra.eneadas",
    "certeza": "D"
   },
   {
-   "id": "r2026",
+   "id": "gr-0026",
    "origen": "autor.porfirio",
    "tipo": "escribio",
    "destino": "obra.vida_plotino",
    "certeza": "D"
   },
   {
-   "id": "r2027",
+   "id": "gr-0027",
    "origen": "autor.plutarco",
    "tipo": "escribio",
    "destino": "obra.vidas_paralelas",
    "certeza": "D"
   },
   {
-   "id": "r2028",
+   "id": "gr-0028",
    "origen": "autor.diogenes_laercio",
    "tipo": "escribio",
    "destino": "obra.vidas_filosofos",
    "certeza": "D"
   },
   {
-   "id": "r2029",
+   "id": "gr-0029",
    "origen": "obra.caverna",
    "tipo": "parte_de",
    "destino": "obra.republica",
@@ -3861,7 +3862,7 @@
    "fuente": "República VII, 514a-517a"
   },
   {
-   "id": "r2030",
+   "id": "gr-0030",
    "origen": "autor.porfirio",
    "tipo": "comenta",
    "destino": "obra.organon",
@@ -3869,7 +3870,7 @@
    "nota": "Su Isagoge, una introducción a las Categorías de [[autor.aristoteles|Aristóteles]], fue el manual de lógica básico durante toda la Edad Media."
   },
   {
-   "id": "r2031",
+   "id": "gr-0031",
    "origen": "obra.apologia",
    "tipo": "es_fuente_de",
    "destino": "autor.socrates",
@@ -3877,28 +3878,28 @@
    "nota": "Es la versión de [[autor.platon|Platón]], que asistió al juicio; [[autor.socrates|Sócrates]] no escribió nada."
   },
   {
-   "id": "r2032",
+   "id": "gr-0032",
    "origen": "obra.disertaciones",
    "tipo": "es_fuente_de",
    "destino": "autor.epicteto",
    "certeza": "D"
   },
   {
-   "id": "r2033",
+   "id": "gr-0033",
    "origen": "obra.manual_epicteto",
    "tipo": "es_fuente_de",
    "destino": "autor.epicteto",
    "certeza": "D"
   },
   {
-   "id": "r2034",
+   "id": "gr-0034",
    "origen": "obra.vida_plotino",
    "tipo": "es_fuente_de",
    "destino": "autor.plotino",
    "certeza": "D"
   },
   {
-   "id": "r2035",
+   "id": "gr-0035",
    "origen": "obra.metafisica",
    "tipo": "es_fuente_de",
    "destino": "autor.tales",
@@ -3906,7 +3907,7 @@
    "fuente": "Metafísica I 3, 983b"
   },
   {
-   "id": "r2036",
+   "id": "gr-0036",
    "origen": "obra.teeteto",
    "tipo": "es_fuente_de",
    "destino": "autor.protagoras",
@@ -3914,7 +3915,7 @@
    "fuente": "Teeteto 152a"
   },
   {
-   "id": "r2037",
+   "id": "gr-0037",
    "origen": "obra.fisica",
    "tipo": "es_fuente_de",
    "destino": "autor.zenon_elea",
@@ -3922,14 +3923,14 @@
    "fuente": "Física VI 9, 239b"
   },
   {
-   "id": "r2038",
+   "id": "gr-0038",
    "origen": "obra.esbozos_pirronicos",
    "tipo": "es_fuente_de",
    "destino": "escuela.pirronismo",
    "certeza": "D"
   },
   {
-   "id": "r2039",
+   "id": "gr-0039",
    "origen": "obra.esbozos_pirronicos",
    "tipo": "es_fuente_de",
    "destino": "autor.gorgias",
@@ -3937,7 +3938,7 @@
    "nota": "[[autor.sexto_empirico|Sexto Empírico]] conserva uno de los dos resúmenes de [[obra.sobre_no_ser|Sobre el no ser]], en su obra Contra los lógicos."
   },
   {
-   "id": "r2040",
+   "id": "gr-0040",
    "origen": "obra.anabasis",
    "tipo": "es_fuente_de",
    "destino": "autor.kalanos",
@@ -3945,7 +3946,7 @@
    "fuente": "Anábasis VII 2-3"
   },
   {
-   "id": "r2041",
+   "id": "gr-0041",
    "origen": "obra.anabasis",
    "tipo": "es_fuente_de",
    "destino": "escuela.gimnosofistas",
@@ -3953,7 +3954,7 @@
    "fuente": "Anábasis VII 1-3"
   },
   {
-   "id": "r2042",
+   "id": "gr-0042",
    "origen": "obra.vidas_paralelas",
    "tipo": "es_fuente_de",
    "destino": "autor.ciceron",
@@ -3961,70 +3962,70 @@
    "nota": "Contiene una Vida de Cicerón."
   },
   {
-   "id": "r2043",
+   "id": "gr-0043",
    "origen": "obra.vidas_filosofos",
    "tipo": "es_fuente_de",
    "destino": "autor.tales",
    "certeza": "D"
   },
   {
-   "id": "r2044",
+   "id": "gr-0044",
    "origen": "obra.vidas_filosofos",
    "tipo": "es_fuente_de",
    "destino": "autor.socrates",
    "certeza": "D"
   },
   {
-   "id": "r2045",
+   "id": "gr-0045",
    "origen": "obra.vidas_filosofos",
    "tipo": "es_fuente_de",
    "destino": "autor.diogenes_sinope",
    "certeza": "D"
   },
   {
-   "id": "r2046",
+   "id": "gr-0046",
    "origen": "obra.vidas_filosofos",
    "tipo": "es_fuente_de",
    "destino": "autor.pirron",
    "certeza": "D"
   },
   {
-   "id": "r2047",
+   "id": "gr-0047",
    "origen": "obra.vidas_filosofos",
    "tipo": "es_fuente_de",
    "destino": "autor.epicuro",
    "certeza": "D"
   },
   {
-   "id": "r2048",
+   "id": "gr-0048",
    "origen": "obra.vidas_filosofos",
    "tipo": "es_fuente_de",
    "destino": "autor.zenon_citio",
    "certeza": "D"
   },
   {
-   "id": "r2049",
+   "id": "gr-0049",
    "origen": "obra.vidas_filosofos",
    "tipo": "es_fuente_de",
    "destino": "autor.crisipo",
    "certeza": "D"
   },
   {
-   "id": "r2050",
+   "id": "gr-0050",
    "origen": "obra.vidas_filosofos",
    "tipo": "es_fuente_de",
    "destino": "autor.democrito",
    "certeza": "D"
   },
   {
-   "id": "r2051",
+   "id": "gr-0051",
    "origen": "autor.socrates",
    "tipo": "fue_maestro_de",
    "destino": "autor.platon",
    "certeza": "D"
   },
   {
-   "id": "r2052",
+   "id": "gr-0052",
    "origen": "autor.platon",
    "tipo": "fue_maestro_de",
    "destino": "autor.aristoteles",
@@ -4032,7 +4033,7 @@
    "nota": "[[autor.aristoteles|Aristóteles]] estudió unos veinte años en la [[escuela.academia|Academia]]."
   },
   {
-   "id": "r2053",
+   "id": "gr-0053",
    "origen": "autor.tales",
    "tipo": "fue_maestro_de",
    "destino": "autor.anaximandro",
@@ -4040,7 +4041,7 @@
    "nota": "La relación maestro-discípulo entre los milesios es una construcción de los historiadores antiguos."
   },
   {
-   "id": "r2054",
+   "id": "gr-0054",
    "origen": "autor.parmenides",
    "tipo": "fue_maestro_de",
    "destino": "autor.zenon_elea",
@@ -4048,7 +4049,7 @@
    "fuente": "Platón, Parménides 127a-128e"
   },
   {
-   "id": "r2055",
+   "id": "gr-0055",
    "origen": "autor.leucipo",
    "tipo": "fue_maestro_de",
    "destino": "autor.democrito",
@@ -4056,7 +4057,7 @@
    "nota": "La existencia misma de [[autor.leucipo|Leucipo]] fue puesta en duda ya en la Antigüedad."
   },
   {
-   "id": "r2056",
+   "id": "gr-0056",
    "origen": "autor.diogenes_sinope",
    "tipo": "fue_maestro_de",
    "destino": "autor.crates",
@@ -4064,7 +4065,7 @@
    "fuente": "Diógenes Laercio, Vidas VI 85-87"
   },
   {
-   "id": "r2057",
+   "id": "gr-0057",
    "origen": "autor.crates",
    "tipo": "fue_maestro_de",
    "destino": "autor.zenon_citio",
@@ -4072,21 +4073,21 @@
    "fuente": "Diógenes Laercio, Vidas VII 2-3"
   },
   {
-   "id": "r2058",
+   "id": "gr-0058",
    "origen": "autor.zenon_citio",
    "tipo": "fue_maestro_de",
    "destino": "autor.cleantes",
    "certeza": "D"
   },
   {
-   "id": "r2059",
+   "id": "gr-0059",
    "origen": "autor.cleantes",
    "tipo": "fue_maestro_de",
    "destino": "autor.crisipo",
    "certeza": "D"
   },
   {
-   "id": "r2060",
+   "id": "gr-0060",
    "origen": "autor.anaxarco",
    "tipo": "fue_maestro_de",
    "destino": "autor.pirron",
@@ -4094,21 +4095,21 @@
    "fuente": "Diógenes Laercio, Vidas IX 61"
   },
   {
-   "id": "r2061",
+   "id": "gr-0061",
    "origen": "autor.epicteto",
    "tipo": "fue_maestro_de",
    "destino": "autor.arriano",
    "certeza": "D"
   },
   {
-   "id": "r2062",
+   "id": "gr-0062",
    "origen": "autor.plotino",
    "tipo": "fue_maestro_de",
    "destino": "autor.porfirio",
    "certeza": "D"
   },
   {
-   "id": "r2063",
+   "id": "gr-0063",
    "origen": "autor.epicteto",
    "tipo": "influyo_en",
    "destino": "autor.marco_aurelio",
@@ -4117,35 +4118,35 @@
    "nota": "[[autor.marco_aurelio|Marco Aurelio]] agradece a su maestro Rústico haberle dado a leer las lecciones de [[autor.epicteto|Epicteto]]."
   },
   {
-   "id": "r2064",
+   "id": "gr-0064",
    "origen": "autor.democrito",
    "tipo": "influyo_en",
    "destino": "autor.epicuro",
    "certeza": "D"
   },
   {
-   "id": "r2065",
+   "id": "gr-0065",
    "origen": "autor.epicuro",
    "tipo": "influyo_en",
    "destino": "autor.lucrecio",
    "certeza": "D"
   },
   {
-   "id": "r2066",
+   "id": "gr-0066",
    "origen": "autor.platon",
    "tipo": "influyo_en",
    "destino": "autor.plotino",
    "certeza": "D"
   },
   {
-   "id": "r2067",
+   "id": "gr-0067",
    "origen": "autor.parmenides",
    "tipo": "influyo_en",
    "destino": "autor.platon",
    "certeza": "D"
   },
   {
-   "id": "r2068",
+   "id": "gr-0068",
    "origen": "autor.pitagoras",
    "tipo": "influyo_en",
    "destino": "autor.platon",
@@ -4153,7 +4154,7 @@
    "nota": "A través de pitagóricos posteriores, como Arquitas de Tarento, amigo de [[autor.platon|Platón]]."
   },
   {
-   "id": "r2069",
+   "id": "gr-0069",
    "origen": "autor.heraclito",
    "tipo": "influyo_en",
    "destino": "escuela.estoicismo",
@@ -4161,7 +4162,7 @@
    "nota": "Los estoicos tomaron de [[autor.heraclito|Heráclito]] el fuego como principio y el [[concepto.logos|logos]] que ordena el mundo."
   },
   {
-   "id": "r2070",
+   "id": "gr-0070",
    "origen": "autor.socrates",
    "tipo": "influyo_en",
    "destino": "escuela.cinismo",
@@ -4169,7 +4170,7 @@
    "nota": "A través de [[autor.antistenes|Antístenes]], discípulo de [[autor.socrates|Sócrates]], a quien los antiguos tenían por fundador del cinismo."
   },
   {
-   "id": "r2071",
+   "id": "gr-0071",
    "origen": "escuela.cinismo",
    "tipo": "influyo_en",
    "destino": "escuela.estoicismo",
@@ -4177,7 +4178,7 @@
    "fuente": "Diógenes Laercio, Vidas VII 2-4"
   },
   {
-   "id": "r2072",
+   "id": "gr-0072",
    "origen": "autor.pirron",
    "tipo": "influyo_en",
    "destino": "autor.sexto_empirico",
@@ -4185,7 +4186,7 @@
    "nota": "Influencia a distancia de cinco siglos: la escuela escéptica tomó el nombre de [[autor.pirron|Pirrón]]."
   },
   {
-   "id": "r2073",
+   "id": "gr-0073",
    "origen": "escuela.academia",
    "tipo": "influyo_en",
    "destino": "autor.ciceron",
@@ -4193,14 +4194,14 @@
    "nota": "[[autor.ciceron|Cicerón]] se declaraba seguidor de la Academia de su tiempo, que era escéptica."
   },
   {
-   "id": "r2074",
+   "id": "gr-0074",
    "origen": "escuela.estoicismo",
    "tipo": "influyo_en",
    "destino": "autor.seneca",
    "certeza": "D"
   },
   {
-   "id": "r2075",
+   "id": "gr-0075",
    "origen": "escuela.gimnosofistas",
    "tipo": "influyo_en",
    "destino": "autor.pirron",
@@ -4209,7 +4210,7 @@
    "nota": "Según [[autor.diogenes_laercio|Diógenes Laercio]], [[autor.pirron|Pirrón]] adoptó su filosofía de la suspensión del juicio tras tratar con los ascetas indios en la expedición de [[autor.alejandro|Alejandro]]. Es un testimonio tardío y muy discutido."
   },
   {
-   "id": "r2076",
+   "id": "gr-0076",
    "origen": "autor.aristoteles",
    "tipo": "critica",
    "destino": "concepto.idea",
@@ -4217,7 +4218,7 @@
    "fuente": "Metafísica I 9"
   },
   {
-   "id": "r2077",
+   "id": "gr-0077",
    "origen": "autor.aristoteles",
    "tipo": "critica",
    "destino": "tesis.movimiento_imposible",
@@ -4225,7 +4226,7 @@
    "fuente": "Física VI 9"
   },
   {
-   "id": "r2078",
+   "id": "gr-0078",
    "origen": "autor.platon",
    "tipo": "critica",
    "destino": "tesis.homo_mensura",
@@ -4233,21 +4234,21 @@
    "fuente": "Teeteto 161c-171d"
   },
   {
-   "id": "r2079",
+   "id": "gr-0079",
    "origen": "autor.platon",
    "tipo": "critica",
    "destino": "escuela.sofistica",
    "certeza": "D"
   },
   {
-   "id": "r2080",
+   "id": "gr-0080",
    "origen": "autor.sexto_empirico",
    "tipo": "critica",
    "destino": "escuela.estoicismo",
    "certeza": "D"
   },
   {
-   "id": "r2081",
+   "id": "gr-0081",
    "origen": "obra.academicos",
    "tipo": "critica",
    "destino": "escuela.estoicismo",
@@ -4255,7 +4256,7 @@
    "nota": "El diálogo expone la crítica de la [[escuela.academia|Academia]] escéptica a la teoría estoica del conocimiento."
   },
   {
-   "id": "r2082",
+   "id": "gr-0082",
    "origen": "autor.diogenes_sinope",
    "tipo": "critica",
    "destino": "autor.platon",
@@ -4264,7 +4265,7 @@
    "nota": "Las burlas de [[autor.diogenes_sinope|Diógenes]] a [[autor.platon|Platón]] se conocen solo por anécdotas tardías."
   },
   {
-   "id": "r2083",
+   "id": "gr-0083",
    "origen": "autor.parmenides",
    "tipo": "critica",
    "destino": "autor.heraclito",
@@ -4272,7 +4273,7 @@
    "nota": "Algunos ven en los «mortales de dos cabezas» del [[obra.poema_parmenides|poema de Parménides]] una alusión a [[autor.heraclito|Heráclito]]; otros lo niegan."
   },
   {
-   "id": "r2084",
+   "id": "gr-0084",
    "origen": "concepto.potencia_acto",
    "tipo": "responde_a",
    "destino": "tesis.ser_es",
@@ -4280,7 +4281,7 @@
    "fuente": "Física I 8"
   },
   {
-   "id": "r2085",
+   "id": "gr-0085",
    "origen": "tesis.atomos_vacio",
    "tipo": "responde_a",
    "destino": "tesis.ser_es",
@@ -4288,434 +4289,434 @@
    "nota": "Los atomistas aceptan que el ser no nace de la nada, pero admiten el vacío para hacer posible el movimiento."
   },
   {
-   "id": "r2086",
+   "id": "gr-0086",
    "origen": "autor.empedocles",
    "tipo": "responde_a",
    "destino": "autor.parmenides",
    "certeza": "P"
   },
   {
-   "id": "r2087",
+   "id": "gr-0087",
    "origen": "autor.anaxagoras",
    "tipo": "responde_a",
    "destino": "autor.parmenides",
    "certeza": "P"
   },
   {
-   "id": "r2088",
+   "id": "gr-0088",
    "origen": "escuela.epicureismo",
    "tipo": "se_opone_a",
    "destino": "escuela.estoicismo",
    "certeza": "D"
   },
   {
-   "id": "r2089",
+   "id": "gr-0089",
    "origen": "tesis.muerte_nada",
    "tipo": "se_opone_a",
    "destino": "tesis.alma_inmortal",
    "certeza": "D"
   },
   {
-   "id": "r2090",
+   "id": "gr-0090",
    "origen": "tesis.ser_es",
    "tipo": "se_opone_a",
    "destino": "tesis.rio",
    "certeza": "P"
   },
   {
-   "id": "r2091",
+   "id": "gr-0091",
    "origen": "autor.tales",
    "tipo": "defiende",
    "destino": "tesis.agua_principio",
    "certeza": "P"
   },
   {
-   "id": "r2092",
+   "id": "gr-0092",
    "origen": "autor.heraclito",
    "tipo": "defiende",
    "destino": "tesis.rio",
    "certeza": "D"
   },
   {
-   "id": "r2093",
+   "id": "gr-0093",
    "origen": "autor.parmenides",
    "tipo": "defiende",
    "destino": "tesis.ser_es",
    "certeza": "D"
   },
   {
-   "id": "r2094",
+   "id": "gr-0094",
    "origen": "autor.zenon_elea",
    "tipo": "defiende",
    "destino": "tesis.movimiento_imposible",
    "certeza": "D"
   },
   {
-   "id": "r2095",
+   "id": "gr-0095",
    "origen": "autor.democrito",
    "tipo": "defiende",
    "destino": "tesis.atomos_vacio",
    "certeza": "D"
   },
   {
-   "id": "r2096",
+   "id": "gr-0096",
    "origen": "autor.leucipo",
    "tipo": "defiende",
    "destino": "tesis.atomos_vacio",
    "certeza": "P"
   },
   {
-   "id": "r2097",
+   "id": "gr-0097",
    "origen": "autor.protagoras",
    "tipo": "defiende",
    "destino": "tesis.homo_mensura",
    "certeza": "D"
   },
   {
-   "id": "r2098",
+   "id": "gr-0098",
    "origen": "autor.gorgias",
    "tipo": "defiende",
    "destino": "tesis.nada_existe",
    "certeza": "D"
   },
   {
-   "id": "r2099",
+   "id": "gr-0099",
    "origen": "autor.socrates",
    "tipo": "defiende",
    "destino": "tesis.nadie_obra_mal",
    "certeza": "D"
   },
   {
-   "id": "r2100",
+   "id": "gr-0100",
    "origen": "autor.platon",
    "tipo": "defiende",
    "destino": "tesis.alma_inmortal",
    "certeza": "D"
   },
   {
-   "id": "r2101",
+   "id": "gr-0101",
    "origen": "autor.aristoteles",
    "tipo": "defiende",
    "destino": "tesis.animal_politico",
    "certeza": "D"
   },
   {
-   "id": "r2102",
+   "id": "gr-0102",
    "origen": "autor.epicuro",
    "tipo": "defiende",
    "destino": "tesis.muerte_nada",
    "certeza": "D"
   },
   {
-   "id": "r2103",
+   "id": "gr-0103",
    "origen": "autor.lucrecio",
    "tipo": "defiende",
    "destino": "tesis.muerte_nada",
    "certeza": "D"
   },
   {
-   "id": "r2104",
+   "id": "gr-0104",
    "origen": "autor.zenon_citio",
    "tipo": "defiende",
    "destino": "tesis.vivir_segun_naturaleza",
    "certeza": "D"
   },
   {
-   "id": "r2105",
+   "id": "gr-0105",
    "origen": "autor.crisipo",
    "tipo": "defiende",
    "destino": "tesis.vivir_segun_naturaleza",
    "certeza": "D"
   },
   {
-   "id": "r2106",
+   "id": "gr-0106",
    "origen": "autor.pirron",
    "tipo": "defiende",
    "destino": "tesis.epoje_ataraxia",
    "certeza": "P"
   },
   {
-   "id": "r2107",
+   "id": "gr-0107",
    "origen": "autor.sexto_empirico",
    "tipo": "defiende",
    "destino": "tesis.epoje_ataraxia",
    "certeza": "D"
   },
   {
-   "id": "r2108",
+   "id": "gr-0108",
    "origen": "autor.plotino",
    "tipo": "defiende",
    "destino": "tesis.emanacion",
    "certeza": "D"
   },
   {
-   "id": "r2109",
+   "id": "gr-0109",
    "origen": "escuela.eleatas",
    "tipo": "defiende",
    "destino": "tesis.ser_es",
    "certeza": "D"
   },
   {
-   "id": "r2110",
+   "id": "gr-0110",
    "origen": "escuela.atomismo",
    "tipo": "defiende",
    "destino": "tesis.atomos_vacio",
    "certeza": "D"
   },
   {
-   "id": "r2111",
+   "id": "gr-0111",
    "origen": "escuela.pirronismo",
    "tipo": "defiende",
    "destino": "tesis.epoje_ataraxia",
    "certeza": "D"
   },
   {
-   "id": "r2112",
+   "id": "gr-0112",
    "origen": "autor.anaximandro",
    "tipo": "desarrolla",
    "destino": "concepto.apeiron",
    "certeza": "D"
   },
   {
-   "id": "r2113",
+   "id": "gr-0113",
    "origen": "autor.anaximandro",
    "tipo": "desarrolla",
    "destino": "concepto.arche",
    "certeza": "P"
   },
   {
-   "id": "r2114",
+   "id": "gr-0114",
    "origen": "autor.heraclito",
    "tipo": "desarrolla",
    "destino": "concepto.logos",
    "certeza": "D"
   },
   {
-   "id": "r2115",
+   "id": "gr-0115",
    "origen": "autor.anaxagoras",
    "tipo": "desarrolla",
    "destino": "concepto.nous",
    "certeza": "D"
   },
   {
-   "id": "r2116",
+   "id": "gr-0116",
    "origen": "autor.pitagoras",
    "tipo": "desarrolla",
    "destino": "concepto.metempsicosis",
    "certeza": "P"
   },
   {
-   "id": "r2117",
+   "id": "gr-0117",
    "origen": "autor.empedocles",
    "tipo": "desarrolla",
    "destino": "concepto.metempsicosis",
    "certeza": "D"
   },
   {
-   "id": "r2118",
+   "id": "gr-0118",
    "origen": "autor.democrito",
    "tipo": "desarrolla",
    "destino": "concepto.atomo",
    "certeza": "D"
   },
   {
-   "id": "r2119",
+   "id": "gr-0119",
    "origen": "autor.leucipo",
    "tipo": "desarrolla",
    "destino": "concepto.atomo",
    "certeza": "P"
   },
   {
-   "id": "r2120",
+   "id": "gr-0120",
    "origen": "autor.socrates",
    "tipo": "desarrolla",
    "destino": "concepto.elenchos",
    "certeza": "D"
   },
   {
-   "id": "r2121",
+   "id": "gr-0121",
    "origen": "autor.socrates",
    "tipo": "desarrolla",
    "destino": "concepto.arete",
    "certeza": "D"
   },
   {
-   "id": "r2122",
+   "id": "gr-0122",
    "origen": "autor.platon",
    "tipo": "desarrolla",
    "destino": "concepto.idea",
    "certeza": "D"
   },
   {
-   "id": "r2123",
+   "id": "gr-0123",
    "origen": "autor.platon",
    "tipo": "desarrolla",
    "destino": "concepto.anamnesis",
    "certeza": "D"
   },
   {
-   "id": "r2124",
+   "id": "gr-0124",
    "origen": "autor.platon",
    "tipo": "desarrolla",
    "destino": "concepto.psyche",
    "certeza": "D"
   },
   {
-   "id": "r2125",
+   "id": "gr-0125",
    "origen": "autor.aristoteles",
    "tipo": "desarrolla",
    "destino": "concepto.ousia",
    "certeza": "D"
   },
   {
-   "id": "r2126",
+   "id": "gr-0126",
    "origen": "autor.aristoteles",
    "tipo": "desarrolla",
    "destino": "concepto.potencia_acto",
    "certeza": "D"
   },
   {
-   "id": "r2127",
+   "id": "gr-0127",
    "origen": "autor.aristoteles",
    "tipo": "desarrolla",
    "destino": "concepto.telos",
    "certeza": "D"
   },
   {
-   "id": "r2128",
+   "id": "gr-0128",
    "origen": "autor.aristoteles",
    "tipo": "desarrolla",
    "destino": "concepto.eudaimonia",
    "certeza": "D"
   },
   {
-   "id": "r2129",
+   "id": "gr-0129",
    "origen": "autor.aristoteles",
    "tipo": "desarrolla",
    "destino": "concepto.phronesis",
    "certeza": "D"
   },
   {
-   "id": "r2130",
+   "id": "gr-0130",
    "origen": "autor.aristoteles",
    "tipo": "desarrolla",
    "destino": "concepto.silogismo",
    "certeza": "D"
   },
   {
-   "id": "r2131",
+   "id": "gr-0131",
    "origen": "autor.epicuro",
    "tipo": "desarrolla",
    "destino": "concepto.ataraxia",
    "certeza": "D"
   },
   {
-   "id": "r2132",
+   "id": "gr-0132",
    "origen": "autor.epicuro",
    "tipo": "desarrolla",
    "destino": "concepto.clinamen",
    "certeza": "P"
   },
   {
-   "id": "r2133",
+   "id": "gr-0133",
    "origen": "autor.lucrecio",
    "tipo": "desarrolla",
    "destino": "concepto.clinamen",
    "certeza": "D"
   },
   {
-   "id": "r2134",
+   "id": "gr-0134",
    "origen": "autor.crisipo",
    "tipo": "desarrolla",
    "destino": "concepto.oikeiosis",
    "certeza": "D"
   },
   {
-   "id": "r2135",
+   "id": "gr-0135",
    "origen": "autor.zenon_citio",
    "tipo": "desarrolla",
    "destino": "concepto.apatheia",
    "certeza": "P"
   },
   {
-   "id": "r2136",
+   "id": "gr-0136",
    "origen": "autor.diogenes_sinope",
    "tipo": "desarrolla",
    "destino": "concepto.parrhesia",
    "certeza": "D"
   },
   {
-   "id": "r2137",
+   "id": "gr-0137",
    "origen": "autor.diogenes_sinope",
    "tipo": "desarrolla",
    "destino": "concepto.autarkeia",
    "certeza": "D"
   },
   {
-   "id": "r2138",
+   "id": "gr-0138",
    "origen": "autor.pirron",
    "tipo": "desarrolla",
    "destino": "concepto.epoje",
    "certeza": "P"
   },
   {
-   "id": "r2139",
+   "id": "gr-0139",
    "origen": "autor.sexto_empirico",
    "tipo": "desarrolla",
    "destino": "concepto.isostheneia",
    "certeza": "D"
   },
   {
-   "id": "r2140",
+   "id": "gr-0140",
    "origen": "autor.plotino",
    "tipo": "desarrolla",
    "destino": "concepto.uno",
    "certeza": "D"
   },
   {
-   "id": "r2141",
+   "id": "gr-0141",
    "origen": "autor.plotino",
    "tipo": "desarrolla",
    "destino": "concepto.nous",
    "certeza": "D"
   },
   {
-   "id": "r2142",
+   "id": "gr-0142",
    "origen": "escuela.milesios",
    "tipo": "desarrolla",
    "destino": "concepto.physis",
    "certeza": "D"
   },
   {
-   "id": "r2143",
+   "id": "gr-0143",
    "origen": "escuela.milesios",
    "tipo": "desarrolla",
    "destino": "concepto.arche",
    "certeza": "D"
   },
   {
-   "id": "r2144",
+   "id": "gr-0144",
    "origen": "escuela.pitagorismo",
    "tipo": "desarrolla",
    "destino": "concepto.metempsicosis",
    "certeza": "D"
   },
   {
-   "id": "r2145",
+   "id": "gr-0145",
    "origen": "escuela.estoicismo",
    "tipo": "desarrolla",
    "destino": "concepto.logos",
    "certeza": "D"
   },
   {
-   "id": "r2146",
+   "id": "gr-0146",
    "origen": "escuela.cinismo",
    "tipo": "desarrolla",
    "destino": "concepto.autarkeia",
    "certeza": "D"
   },
   {
-   "id": "r2147",
+   "id": "gr-0147",
    "origen": "escuela.neoplatonismo",
    "tipo": "desarrolla",
    "destino": "escuela.academia",
@@ -4723,434 +4724,434 @@
    "nota": "Los neoplatónicos se consideraban simples intérpretes de [[autor.platon|Platón]]; el nombre «neoplatonismo» es moderno."
   },
   {
-   "id": "r2148",
+   "id": "gr-0148",
    "origen": "escuela.pluralistas",
    "tipo": "responde_a",
    "destino": "escuela.eleatas",
    "certeza": "P"
   },
   {
-   "id": "r2149",
+   "id": "gr-0149",
    "origen": "escuela.liceo",
    "tipo": "desarrolla",
    "destino": "concepto.telos",
    "certeza": "P"
   },
   {
-   "id": "r2150",
+   "id": "gr-0150",
    "origen": "obra.republica",
    "tipo": "trata_sobre",
    "destino": "concepto.idea",
    "certeza": "D"
   },
   {
-   "id": "r2151",
+   "id": "gr-0151",
    "origen": "obra.caverna",
    "tipo": "trata_sobre",
    "destino": "concepto.idea",
    "certeza": "D"
   },
   {
-   "id": "r2152",
+   "id": "gr-0152",
    "origen": "obra.banquete",
    "tipo": "trata_sobre",
    "destino": "concepto.idea",
    "certeza": "D"
   },
   {
-   "id": "r2153",
+   "id": "gr-0153",
    "origen": "obra.fedon",
    "tipo": "trata_sobre",
    "destino": "tesis.alma_inmortal",
    "certeza": "D"
   },
   {
-   "id": "r2154",
+   "id": "gr-0154",
    "origen": "obra.fedon",
    "tipo": "trata_sobre",
    "destino": "concepto.anamnesis",
    "certeza": "D"
   },
   {
-   "id": "r2155",
+   "id": "gr-0155",
    "origen": "obra.fedon",
    "tipo": "trata_sobre",
    "destino": "concepto.psyche",
    "certeza": "D"
   },
   {
-   "id": "r2156",
+   "id": "gr-0156",
    "origen": "obra.teeteto",
    "tipo": "trata_sobre",
    "destino": "tesis.homo_mensura",
    "certeza": "D"
   },
   {
-   "id": "r2157",
+   "id": "gr-0157",
    "origen": "obra.apologia",
    "tipo": "trata_sobre",
    "destino": "concepto.elenchos",
    "certeza": "D"
   },
   {
-   "id": "r2158",
+   "id": "gr-0158",
    "origen": "obra.apologia",
    "tipo": "trata_sobre",
    "destino": "concepto.arete",
    "certeza": "D"
   },
   {
-   "id": "r2159",
+   "id": "gr-0159",
    "origen": "obra.metafisica",
    "tipo": "trata_sobre",
    "destino": "concepto.ousia",
    "certeza": "D"
   },
   {
-   "id": "r2160",
+   "id": "gr-0160",
    "origen": "obra.metafisica",
    "tipo": "trata_sobre",
    "destino": "concepto.arche",
    "certeza": "D"
   },
   {
-   "id": "r2161",
+   "id": "gr-0161",
    "origen": "obra.fisica",
    "tipo": "trata_sobre",
    "destino": "concepto.physis",
    "certeza": "D"
   },
   {
-   "id": "r2162",
+   "id": "gr-0162",
    "origen": "obra.fisica",
    "tipo": "trata_sobre",
    "destino": "concepto.potencia_acto",
    "certeza": "D"
   },
   {
-   "id": "r2163",
+   "id": "gr-0163",
    "origen": "obra.fisica",
    "tipo": "trata_sobre",
    "destino": "tesis.movimiento_imposible",
    "certeza": "D"
   },
   {
-   "id": "r2164",
+   "id": "gr-0164",
    "origen": "obra.etica_nicomaco",
    "tipo": "trata_sobre",
    "destino": "concepto.eudaimonia",
    "certeza": "D"
   },
   {
-   "id": "r2165",
+   "id": "gr-0165",
    "origen": "obra.etica_nicomaco",
    "tipo": "trata_sobre",
    "destino": "concepto.phronesis",
    "certeza": "D"
   },
   {
-   "id": "r2166",
+   "id": "gr-0166",
    "origen": "obra.etica_nicomaco",
    "tipo": "trata_sobre",
    "destino": "concepto.arete",
    "certeza": "D"
   },
   {
-   "id": "r2167",
+   "id": "gr-0167",
    "origen": "obra.politica",
    "tipo": "trata_sobre",
    "destino": "tesis.animal_politico",
    "certeza": "D"
   },
   {
-   "id": "r2168",
+   "id": "gr-0168",
    "origen": "obra.organon",
    "tipo": "trata_sobre",
    "destino": "concepto.silogismo",
    "certeza": "D"
   },
   {
-   "id": "r2169",
+   "id": "gr-0169",
    "origen": "obra.poema_parmenides",
    "tipo": "trata_sobre",
    "destino": "tesis.ser_es",
    "certeza": "D"
   },
   {
-   "id": "r2170",
+   "id": "gr-0170",
    "origen": "obra.fragmentos_heraclito",
    "tipo": "trata_sobre",
    "destino": "concepto.logos",
    "certeza": "D"
   },
   {
-   "id": "r2171",
+   "id": "gr-0171",
    "origen": "obra.fragmentos_heraclito",
    "tipo": "trata_sobre",
    "destino": "tesis.rio",
    "certeza": "D"
   },
   {
-   "id": "r2172",
+   "id": "gr-0172",
    "origen": "obra.poema_empedocles",
    "tipo": "trata_sobre",
    "destino": "concepto.metempsicosis",
    "certeza": "D"
   },
   {
-   "id": "r2173",
+   "id": "gr-0173",
    "origen": "obra.sobre_no_ser",
    "tipo": "trata_sobre",
    "destino": "tesis.nada_existe",
    "certeza": "D"
   },
   {
-   "id": "r2174",
+   "id": "gr-0174",
    "origen": "obra.carta_meneceo",
    "tipo": "trata_sobre",
    "destino": "tesis.muerte_nada",
    "certeza": "D"
   },
   {
-   "id": "r2175",
+   "id": "gr-0175",
    "origen": "obra.carta_meneceo",
    "tipo": "trata_sobre",
    "destino": "concepto.ataraxia",
    "certeza": "D"
   },
   {
-   "id": "r2176",
+   "id": "gr-0176",
    "origen": "obra.de_rerum_natura",
    "tipo": "trata_sobre",
    "destino": "concepto.atomo",
    "certeza": "D"
   },
   {
-   "id": "r2177",
+   "id": "gr-0177",
    "origen": "obra.de_rerum_natura",
    "tipo": "trata_sobre",
    "destino": "concepto.clinamen",
    "certeza": "D"
   },
   {
-   "id": "r2178",
+   "id": "gr-0178",
    "origen": "obra.academicos",
    "tipo": "trata_sobre",
    "destino": "concepto.epoje",
    "certeza": "D"
   },
   {
-   "id": "r2179",
+   "id": "gr-0179",
    "origen": "obra.de_officiis",
    "tipo": "trata_sobre",
    "destino": "concepto.oikeiosis",
    "certeza": "D"
   },
   {
-   "id": "r2180",
+   "id": "gr-0180",
    "origen": "obra.cartas_lucilio",
    "tipo": "trata_sobre",
    "destino": "concepto.apatheia",
    "certeza": "D"
   },
   {
-   "id": "r2181",
+   "id": "gr-0181",
    "origen": "obra.cartas_lucilio",
    "tipo": "trata_sobre",
    "destino": "concepto.autarkeia",
    "certeza": "D"
   },
   {
-   "id": "r2182",
+   "id": "gr-0182",
    "origen": "obra.manual_epicteto",
    "tipo": "trata_sobre",
    "destino": "concepto.apatheia",
    "certeza": "D"
   },
   {
-   "id": "r2183",
+   "id": "gr-0183",
    "origen": "obra.disertaciones",
    "tipo": "trata_sobre",
    "destino": "concepto.parrhesia",
    "certeza": "D"
   },
   {
-   "id": "r2184",
+   "id": "gr-0184",
    "origen": "obra.meditaciones",
    "tipo": "trata_sobre",
    "destino": "concepto.logos",
    "certeza": "D"
   },
   {
-   "id": "r2185",
+   "id": "gr-0185",
    "origen": "obra.esbozos_pirronicos",
    "tipo": "trata_sobre",
    "destino": "concepto.isostheneia",
    "certeza": "D"
   },
   {
-   "id": "r2186",
+   "id": "gr-0186",
    "origen": "obra.esbozos_pirronicos",
    "tipo": "trata_sobre",
    "destino": "concepto.epoje",
    "certeza": "D"
   },
   {
-   "id": "r2187",
+   "id": "gr-0187",
    "origen": "obra.esbozos_pirronicos",
    "tipo": "trata_sobre",
    "destino": "tesis.epoje_ataraxia",
    "certeza": "D"
   },
   {
-   "id": "r2188",
+   "id": "gr-0188",
    "origen": "obra.eneadas",
    "tipo": "trata_sobre",
    "destino": "concepto.uno",
    "certeza": "D"
   },
   {
-   "id": "r2189",
+   "id": "gr-0189",
    "origen": "obra.eneadas",
    "tipo": "trata_sobre",
    "destino": "tesis.emanacion",
    "certeza": "D"
   },
   {
-   "id": "r2190",
+   "id": "gr-0190",
    "origen": "obra.eneadas",
    "tipo": "trata_sobre",
    "destino": "concepto.nous",
    "certeza": "D"
   },
   {
-   "id": "r2191",
+   "id": "gr-0191",
    "origen": "tesis.agua_principio",
    "tipo": "trata_sobre",
    "destino": "concepto.arche",
    "certeza": "D"
   },
   {
-   "id": "r2192",
+   "id": "gr-0192",
    "origen": "tesis.ser_es",
    "tipo": "trata_sobre",
    "destino": "concepto.physis",
    "certeza": "D"
   },
   {
-   "id": "r2193",
+   "id": "gr-0193",
    "origen": "tesis.atomos_vacio",
    "tipo": "trata_sobre",
    "destino": "concepto.atomo",
    "certeza": "D"
   },
   {
-   "id": "r2194",
+   "id": "gr-0194",
    "origen": "tesis.nadie_obra_mal",
    "tipo": "trata_sobre",
    "destino": "concepto.arete",
    "certeza": "D"
   },
   {
-   "id": "r2195",
+   "id": "gr-0195",
    "origen": "tesis.alma_inmortal",
    "tipo": "trata_sobre",
    "destino": "concepto.psyche",
    "certeza": "D"
   },
   {
-   "id": "r2196",
+   "id": "gr-0196",
    "origen": "tesis.alma_inmortal",
    "tipo": "trata_sobre",
    "destino": "concepto.metempsicosis",
    "certeza": "D"
   },
   {
-   "id": "r2197",
+   "id": "gr-0197",
    "origen": "tesis.animal_politico",
    "tipo": "trata_sobre",
    "destino": "concepto.telos",
    "certeza": "D"
   },
   {
-   "id": "r2198",
+   "id": "gr-0198",
    "origen": "tesis.muerte_nada",
    "tipo": "trata_sobre",
    "destino": "concepto.ataraxia",
    "certeza": "D"
   },
   {
-   "id": "r2199",
+   "id": "gr-0199",
    "origen": "tesis.vivir_segun_naturaleza",
    "tipo": "trata_sobre",
    "destino": "concepto.logos",
    "certeza": "D"
   },
   {
-   "id": "r2200",
+   "id": "gr-0200",
    "origen": "tesis.vivir_segun_naturaleza",
    "tipo": "trata_sobre",
    "destino": "concepto.apatheia",
    "certeza": "D"
   },
   {
-   "id": "r2201",
+   "id": "gr-0201",
    "origen": "tesis.vivir_segun_naturaleza",
    "tipo": "trata_sobre",
    "destino": "concepto.oikeiosis",
    "certeza": "D"
   },
   {
-   "id": "r2202",
+   "id": "gr-0202",
    "origen": "tesis.epoje_ataraxia",
    "tipo": "trata_sobre",
    "destino": "concepto.epoje",
    "certeza": "D"
   },
   {
-   "id": "r2203",
+   "id": "gr-0203",
    "origen": "tesis.epoje_ataraxia",
    "tipo": "trata_sobre",
    "destino": "concepto.isostheneia",
    "certeza": "D"
   },
   {
-   "id": "r2204",
+   "id": "gr-0204",
    "origen": "tesis.epoje_ataraxia",
    "tipo": "trata_sobre",
    "destino": "concepto.ataraxia",
    "certeza": "D"
   },
   {
-   "id": "r2205",
+   "id": "gr-0205",
    "origen": "tesis.emanacion",
    "tipo": "trata_sobre",
    "destino": "concepto.uno",
    "certeza": "D"
   },
   {
-   "id": "r2206",
+   "id": "gr-0206",
    "origen": "tesis.emanacion",
    "tipo": "trata_sobre",
    "destino": "concepto.nous",
    "certeza": "D"
   },
   {
-   "id": "r2207",
+   "id": "gr-0207",
    "origen": "tesis.rio",
    "tipo": "trata_sobre",
    "destino": "concepto.logos",
    "certeza": "D"
   },
   {
-   "id": "r2208",
+   "id": "gr-0208",
    "origen": "tesis.homo_mensura",
    "tipo": "trata_sobre",
    "destino": "concepto.physis",
    "certeza": "D"
   },
   {
-   "id": "r2209",
+   "id": "gr-0209",
    "origen": "tesis.rio",
    "tipo": "paralelo_a",
    "destino": "concepto.anitya",
@@ -5159,7 +5160,7 @@
    "nota": "[[autor.heraclito|Heráclito]] y el budismo coinciden en que nada permanece igual, aunque Heráclito ve un orden estable, el [[concepto.logos|logos]], bajo el cambio. Sin contacto conocido."
   },
   {
-   "id": "r2210",
+   "id": "gr-0210",
    "origen": "tesis.ser_es",
    "tipo": "paralelo_a",
    "destino": "tesis.ser_no_nace_de_nada",
@@ -5168,7 +5169,7 @@
    "nota": "[[autor.parmenides|Parménides]] y [[autor.uddalaka|Uddālaka]] rechazan, casi a la vez y sin contacto conocido, que algo pueda nacer de la nada."
   },
   {
-   "id": "r2211",
+   "id": "gr-0211",
    "origen": "concepto.metempsicosis",
    "tipo": "paralelo_a",
    "destino": "concepto.samsara",
@@ -5177,7 +5178,7 @@
    "nota": "Ambas tradiciones creen que el alma renace en otros cuerpos. Algunos estudiosos han propuesto una influencia india sobre [[autor.pitagoras|Pitágoras]], pero no hay pruebas."
   },
   {
-   "id": "r2212",
+   "id": "gr-0212",
    "origen": "concepto.atomo",
    "tipo": "paralelo_a",
    "destino": "concepto.paramanu",
@@ -5186,7 +5187,7 @@
    "nota": "El atomismo griego y el [[escuela.vaisesika|Vaiśeṣika]] llegan a la idea de partículas indivisibles; el indio las distingue por elementos, el griego solo por forma y tamaño."
   },
   {
-   "id": "r2213",
+   "id": "gr-0213",
    "origen": "escuela.epicureismo",
    "tipo": "paralelo_a",
    "destino": "escuela.carvaka",
@@ -5195,7 +5196,7 @@
    "nota": "Ambas escuelas niegan la vida después de la muerte y ponen el placer como bien. Del [[escuela.carvaka|Cārvāka]] solo sabemos lo que cuentan sus adversarios."
   },
   {
-   "id": "r2214",
+   "id": "gr-0214",
    "origen": "tesis.movimiento_imposible",
    "tipo": "paralelo_a",
    "destino": "tesis.divisibilidad",
@@ -5204,7 +5205,7 @@
    "nota": "[[autor.zenon_elea|Zenón]] y [[autor.hui_shi|Hui Shi]] juegan con lo que ocurre si algo se divide sin fin, aunque sacan conclusiones distintas."
   },
   {
-   "id": "r2215",
+   "id": "gr-0215",
    "origen": "autor.socrates",
    "tipo": "paralelo_a",
    "destino": "autor.confucio",
@@ -5213,7 +5214,7 @@
    "nota": "Ambos son conocidos por lo que escribieron sus discípulos y hicieron de la virtud el centro de la enseñanza; [[autor.confucio|Confucio]] la liga a la tradición y los ritos, [[autor.socrates|Sócrates]] al examen racional."
   },
   {
-   "id": "r2216",
+   "id": "gr-0216",
    "origen": "concepto.epoje",
    "tipo": "paralelo_a",
    "destino": "tesis.vacuidad",
@@ -5222,7 +5223,7 @@
    "nota": "La suspensión del juicio escéptica y la vacuidad de [[autor.nagarjuna|Nāgārjuna]] se han comparado a menudo. Algunos autores ven aquí una huella del viaje de [[autor.pirron|Pirrón]] a la India; es una hipótesis discutida."
   },
   {
-   "id": "r2217",
+   "id": "gr-0217",
    "origen": "escuela.sofistica",
    "tipo": "paralelo_a",
    "destino": "escuela.mingjia",
@@ -5231,7 +5232,7 @@
    "nota": "Sofistas griegos y la Escuela de los Nombres china cultivaron el debate y las paradojas, y ambos fueron acusados de juegos de palabras."
   },
   {
-   "id": "r2218",
+   "id": "gr-0218",
    "origen": "tesis.vivir_segun_naturaleza",
    "tipo": "paralelo_a",
    "destino": "concepto.ziran",
@@ -5240,7 +5241,7 @@
    "nota": "Los estoicos y los daoístas proponen acompasar la vida al orden natural, pero para los estoicos ese orden es racional y para los daoístas, espontáneo."
   },
   {
-   "id": "r2219",
+   "id": "gr-0219",
    "origen": "autor.diogenes_sinope",
    "tipo": "paralelo_a",
    "destino": "autor.zhuangzi",
@@ -5249,7 +5250,7 @@
    "nota": "[[autor.diogenes_sinope|Diógenes]] y [[autor.zhuangzi|Zhuangzi]] se ríen de los honores y del poder y prefieren una vida libre y austera, con humor y provocación."
   },
   {
-   "id": "r2220",
+   "id": "gr-0220",
    "origen": "concepto.uno",
    "tipo": "paralelo_a",
    "destino": "concepto.brahman",
@@ -5258,7 +5259,7 @@
    "nota": "El Uno de [[autor.plotino|Plotino]] y el brahman de las [[obra.upanisad|Upaniṣad]] son el fondo de toda la realidad y solo pueden alcanzarse más allá del lenguaje."
   },
   {
-   "id": "r2221",
+   "id": "gr-0221",
    "origen": "concepto.silogismo",
    "tipo": "paralelo_a",
    "destino": "concepto.pramana",
@@ -5267,7 +5268,7 @@
    "nota": "[[autor.aristoteles|Aristóteles]] y el [[obra.nyaya_sutra|Nyāya-sūtra]] analizan de forma independiente qué hace válida una inferencia; el modelo indio tiene cinco miembros y exige un ejemplo."
   },
   {
-   "id": "r2222",
+   "id": "gr-0222",
    "origen": "autor.aristoteles",
    "tipo": "fue_maestro_de",
    "destino": "autor.alejandro",
@@ -5275,14 +5276,14 @@
    "fuente": "Plutarco, Vida de Alejandro 7-8"
   },
   {
-   "id": "r2223",
+   "id": "gr-0223",
    "origen": "obra.anabasis",
    "tipo": "es_fuente_de",
    "destino": "autor.alejandro",
    "certeza": "D"
   },
   {
-   "id": "r2224",
+   "id": "gr-0224",
    "origen": "obra.vidas_paralelas",
    "tipo": "es_fuente_de",
    "destino": "autor.alejandro",
@@ -5290,7 +5291,7 @@
    "nota": "Contiene una Vida de Alejandro."
   },
   {
-   "id": "r2225",
+   "id": "gr-0225",
    "origen": "autor.anaximandro",
    "tipo": "fue_maestro_de",
    "destino": "autor.anaximenes",
@@ -5298,21 +5299,21 @@
    "nota": "Relación transmitida por los historiadores antiguos de la filosofía; puede ser una construcción."
   },
   {
-   "id": "r2226",
+   "id": "gr-0226",
    "origen": "autor.anaximenes",
    "tipo": "desarrolla",
    "destino": "concepto.arche",
    "certeza": "D"
   },
   {
-   "id": "r2227",
+   "id": "gr-0227",
    "origen": "autor.socrates",
    "tipo": "fue_maestro_de",
    "destino": "autor.antistenes",
    "certeza": "D"
   },
   {
-   "id": "r2228",
+   "id": "gr-0228",
    "origen": "autor.antistenes",
    "tipo": "influyo_en",
    "destino": "escuela.cinismo",
@@ -5320,49 +5321,49 @@
    "nota": "Los antiguos lo consideraban fundador del cinismo; hoy se discute si [[autor.diogenes_sinope|Diógenes]] fue realmente su discípulo."
   },
   {
-   "id": "r2229",
+   "id": "gr-0229",
    "origen": "autor.antistenes",
    "tipo": "desarrolla",
    "destino": "concepto.autarkeia",
    "certeza": "D"
   },
   {
-   "id": "r2230",
+   "id": "gr-0230",
    "origen": "autor.socrates",
    "tipo": "fue_maestro_de",
    "destino": "autor.jenofonte",
    "certeza": "D"
   },
   {
-   "id": "r2231",
+   "id": "gr-0231",
    "origen": "autor.arcesilao",
    "tipo": "desarrolla",
    "destino": "concepto.epoje",
    "certeza": "D"
   },
   {
-   "id": "r2232",
+   "id": "gr-0232",
    "origen": "autor.arcesilao",
    "tipo": "critica",
    "destino": "escuela.estoicismo",
    "certeza": "D"
   },
   {
-   "id": "r2233",
+   "id": "gr-0233",
    "origen": "autor.carneades",
    "tipo": "critica",
    "destino": "escuela.estoicismo",
    "certeza": "D"
   },
   {
-   "id": "r2234",
+   "id": "gr-0234",
    "origen": "obra.academicos",
    "tipo": "es_fuente_de",
    "destino": "autor.arcesilao",
    "certeza": "D"
   },
   {
-   "id": "r2235",
+   "id": "gr-0235",
    "origen": "obra.academicos",
    "tipo": "es_fuente_de",
    "destino": "autor.carneades",

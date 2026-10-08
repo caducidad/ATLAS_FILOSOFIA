@@ -2,6 +2,7 @@
  "version": "0.1",
  "actualizado": "2026-10-08",
  "descripcion": "Piloto Antigüedad · Sabidurías del Próximo Oriente (Egipto, Mesopotamia, Irán e Israel) · Carril secundario",
+ "prefijoRelaciones": "po",
  "nodos": [
   {
    "id": "contexto.egipto_mesopotamia",
@@ -1237,7 +1238,7 @@
  ],
  "relaciones": [
   {
-   "id": "r3001",
+   "id": "po-0001",
    "origen": "autor.ptahhotep",
    "tipo": "escribio",
    "destino": "obra.ensenanza_ptahhotep",
@@ -1245,7 +1246,7 @@
    "nota": "Atribución literaria: el texto se compuso siglos después de la vida del visir."
   },
   {
-   "id": "r3002",
+   "id": "po-0002",
    "origen": "autor.amenemope",
    "tipo": "escribio",
    "destino": "obra.ensenanza_amenemope",
@@ -1253,7 +1254,7 @@
    "nota": "El propio texto se presenta como enseñanza de [[autor.amenemope|Amenemope]] a su hijo."
   },
   {
-   "id": "r3003",
+   "id": "po-0003",
    "origen": "autor.sin_leqi_unninni",
    "tipo": "escribio",
    "destino": "obra.gilgamesh",
@@ -1261,7 +1262,7 @@
    "nota": "Autor de la versión estándar en doce tablillas, según un catálogo asirio de textos y autores."
   },
   {
-   "id": "r3004",
+   "id": "po-0004",
    "origen": "autor.saggil_kinam_ubbib",
    "tipo": "escribio",
    "destino": "obra.teodicea_babilonica",
@@ -1269,7 +1270,7 @@
    "nota": "El nombre del autor aparece en el acróstico del poema."
   },
   {
-   "id": "r3005",
+   "id": "po-0005",
    "origen": "autor.zaratustra",
    "tipo": "escribio",
    "destino": "obra.gatha",
@@ -1277,14 +1278,14 @@
    "nota": "Atribución tradicional; algunos especialistas la discuten."
   },
   {
-   "id": "r3006",
+   "id": "po-0006",
    "origen": "autor.qohelet",
    "tipo": "escribio",
    "destino": "obra.qohelet",
    "certeza": "D"
   },
   {
-   "id": "r3007",
+   "id": "po-0007",
    "origen": "autor.ben_sira",
    "tipo": "escribio",
    "destino": "obra.ben_sira",
@@ -1292,21 +1293,21 @@
    "fuente": "Sirácida 50, 27 y prólogo del traductor"
   },
   {
-   "id": "r3008",
+   "id": "po-0008",
    "origen": "autor.filon",
    "tipo": "escribio",
    "destino": "obra.creacion_mundo",
    "certeza": "D"
   },
   {
-   "id": "r3009",
+   "id": "po-0009",
    "origen": "autor.filon",
    "tipo": "escribio",
    "destino": "obra.embajada_gayo",
    "certeza": "D"
   },
   {
-   "id": "r3010",
+   "id": "po-0010",
    "origen": "obra.gatha",
    "tipo": "parte_de",
    "destino": "obra.avesta",
@@ -1314,28 +1315,28 @@
    "fuente": "Yasna 28-34, 43-51 y 53"
   },
   {
-   "id": "r3011",
+   "id": "po-0011",
    "origen": "obra.gatha",
    "tipo": "es_fuente_de",
    "destino": "autor.zaratustra",
    "certeza": "D"
   },
   {
-   "id": "r3012",
+   "id": "po-0012",
    "origen": "obra.avesta",
    "tipo": "es_fuente_de",
    "destino": "escuela.mazdeismo",
    "certeza": "D"
   },
   {
-   "id": "r3013",
+   "id": "po-0013",
    "origen": "obra.embajada_gayo",
    "tipo": "es_fuente_de",
    "destino": "autor.filon",
    "certeza": "D"
   },
   {
-   "id": "r3014",
+   "id": "po-0014",
    "origen": "obra.vidas_filosofos",
    "tipo": "es_fuente_de",
    "destino": "autor.zaratustra",
@@ -1343,7 +1344,7 @@
    "fuente": "Diógenes Laercio, Vidas I 2 y I 8"
   },
   {
-   "id": "r3015",
+   "id": "po-0015",
    "origen": "obra.vidas_filosofos",
    "tipo": "es_fuente_de",
    "destino": "escuela.mazdeismo",
@@ -1352,7 +1353,7 @@
    "nota": "El prólogo de [[obra.vidas_filosofos|Vidas de los filósofos]] recoge lo que los griegos sabían de los magos persas."
   },
   {
-   "id": "r3016",
+   "id": "po-0016",
    "origen": "obra.ensenanza_amenemope",
    "tipo": "influyo_en",
    "destino": "obra.proverbios",
@@ -1361,7 +1362,7 @@
    "nota": "Es la influencia entre culturas mejor documentada de este carril: la demostró el egiptólogo alemán Adolf Erman en 1924."
   },
   {
-   "id": "r3017",
+   "id": "po-0017",
    "origen": "obra.gilgamesh",
    "tipo": "influyo_en",
    "destino": "obra.qohelet",
@@ -1370,7 +1371,7 @@
    "nota": "El consejo de [[obra.qohelet|Qohélet]] de comer, beber y disfrutar con la persona amada se parece mucho al de la tabernera Siduri; se discute si hay dependencia o solo un lugar común de la sabiduría antigua."
   },
   {
-   "id": "r3018",
+   "id": "po-0018",
    "origen": "autor.zaratustra",
    "tipo": "influyo_en",
    "destino": "autor.pitagoras",
@@ -1379,7 +1380,7 @@
    "nota": "Autores griegos tardíos cuentan que [[autor.pitagoras|Pitágoras]] estudió en Babilonia con un tal Zaratas el caldeo, al que identifican con Zoroastro. Es una leyenda."
   },
   {
-   "id": "r3019",
+   "id": "po-0019",
    "origen": "escuela.mazdeismo",
    "tipo": "influyo_en",
    "destino": "autor.pirron",
@@ -1388,7 +1389,7 @@
    "nota": "Según [[autor.diogenes_laercio|Diógenes Laercio]], en la expedición de [[autor.alejandro|Alejandro Magno]] [[autor.pirron|Pirrón]] trató con los magos persas además de con los ascetas indios."
   },
   {
-   "id": "r3020",
+   "id": "po-0020",
    "origen": "autor.platon",
    "tipo": "influyo_en",
    "destino": "autor.filon",
@@ -1397,7 +1398,7 @@
    "nota": "[[autor.filon|Filón]] explica la creación con ideas del Timeo de [[autor.platon|Platón]]."
   },
   {
-   "id": "r3021",
+   "id": "po-0021",
    "origen": "escuela.estoicismo",
    "tipo": "influyo_en",
    "destino": "autor.filon",
@@ -1406,7 +1407,7 @@
    "nota": "[[autor.filon|Filón]] toma de los [[escuela.estoicismo|estoicos]] la idea del [[concepto.logos|logos]] que ordena el universo y buena parte de su ética."
   },
   {
-   "id": "r3022",
+   "id": "po-0022",
    "origen": "autor.platon",
    "tipo": "influyo_en",
    "destino": "obra.sabiduria_salomon",
@@ -1415,14 +1416,14 @@
    "nota": "Las cuatro virtudes cardinales y la imagen del cuerpo como peso del alma proceden de la tradición platónica."
   },
   {
-   "id": "r3023",
+   "id": "po-0023",
    "origen": "obra.job",
    "tipo": "critica",
    "destino": "tesis.retribucion",
    "certeza": "D"
   },
   {
-   "id": "r3024",
+   "id": "po-0024",
    "origen": "obra.qohelet",
    "tipo": "critica",
    "destino": "tesis.retribucion",
@@ -1430,14 +1431,14 @@
    "fuente": "Qohélet 8, 14"
   },
   {
-   "id": "r3025",
+   "id": "po-0025",
    "origen": "obra.teodicea_babilonica",
    "tipo": "critica",
    "destino": "tesis.retribucion",
    "certeza": "D"
   },
   {
-   "id": "r3026",
+   "id": "po-0026",
    "origen": "obra.sabiduria_salomon",
    "tipo": "responde_a",
    "destino": "obra.qohelet",
@@ -1446,21 +1447,21 @@
    "nota": "Pone en boca de los impíos un discurso, «la vida es breve, disfrutemos», que muchos leen como respuesta a [[obra.qohelet|Qohélet]]."
   },
   {
-   "id": "r3027",
+   "id": "po-0027",
    "origen": "concepto.asha",
    "tipo": "se_opone_a",
    "destino": "concepto.druj",
    "certeza": "D"
   },
   {
-   "id": "r3028",
+   "id": "po-0028",
    "origen": "tesis.justo_sufriente",
    "tipo": "se_opone_a",
    "destino": "tesis.retribucion",
    "certeza": "D"
   },
   {
-   "id": "r3029",
+   "id": "po-0029",
    "origen": "tesis.muerte_alivio",
    "tipo": "se_opone_a",
    "destino": "tesis.goza_la_vida",
@@ -1468,7 +1469,7 @@
    "nota": "En el [[obra.dialogo_ba|Diálogo de un hombre con su ba]], el propio ba responde al hombre con un consejo parecido al de la tabernera Siduri en el [[obra.gilgamesh|Poema de Gilgamesh]]: olvidar las preocupaciones y disfrutar."
   },
   {
-   "id": "r3030",
+   "id": "po-0030",
    "origen": "autor.ptahhotep",
    "tipo": "defiende",
    "destino": "tesis.maat_eterna",
@@ -1476,28 +1477,28 @@
    "nota": "A través de la enseñanza que se le atribuye."
   },
   {
-   "id": "r3031",
+   "id": "po-0031",
    "origen": "autor.zaratustra",
    "tipo": "defiende",
    "destino": "tesis.eleccion_verdad_mentira",
    "certeza": "P"
   },
   {
-   "id": "r3032",
+   "id": "po-0032",
    "origen": "escuela.mazdeismo",
    "tipo": "defiende",
    "destino": "tesis.eleccion_verdad_mentira",
    "certeza": "D"
   },
   {
-   "id": "r3033",
+   "id": "po-0033",
    "origen": "autor.qohelet",
    "tipo": "defiende",
    "destino": "tesis.vanidad",
    "certeza": "D"
   },
   {
-   "id": "r3034",
+   "id": "po-0034",
    "origen": "autor.ben_sira",
    "tipo": "defiende",
    "destino": "tesis.temor_sabiduria",
@@ -1505,105 +1506,105 @@
    "fuente": "Sirácida 1, 14"
   },
   {
-   "id": "r3035",
+   "id": "po-0035",
    "origen": "escuela.sapienciales_hebreos",
    "tipo": "defiende",
    "destino": "tesis.temor_sabiduria",
    "certeza": "D"
   },
   {
-   "id": "r3036",
+   "id": "po-0036",
    "origen": "autor.filon",
    "tipo": "defiende",
    "destino": "tesis.logos_mediador",
    "certeza": "D"
   },
   {
-   "id": "r3037",
+   "id": "po-0037",
    "origen": "autor.saggil_kinam_ubbib",
    "tipo": "defiende",
    "destino": "tesis.justo_sufriente",
    "certeza": "D"
   },
   {
-   "id": "r3038",
+   "id": "po-0038",
    "origen": "autor.zaratustra",
    "tipo": "desarrolla",
    "destino": "concepto.asha",
    "certeza": "D"
   },
   {
-   "id": "r3039",
+   "id": "po-0039",
    "origen": "autor.zaratustra",
    "tipo": "desarrolla",
    "destino": "concepto.druj",
    "certeza": "D"
   },
   {
-   "id": "r3040",
+   "id": "po-0040",
    "origen": "autor.zaratustra",
    "tipo": "desarrolla",
    "destino": "concepto.ahura_mazda",
    "certeza": "D"
   },
   {
-   "id": "r3041",
+   "id": "po-0041",
    "origen": "autor.zaratustra",
    "tipo": "desarrolla",
    "destino": "concepto.dos_espiritus",
    "certeza": "D"
   },
   {
-   "id": "r3042",
+   "id": "po-0042",
    "origen": "autor.ptahhotep",
    "tipo": "desarrolla",
    "destino": "concepto.maat",
    "certeza": "C"
   },
   {
-   "id": "r3043",
+   "id": "po-0043",
    "origen": "autor.amenemope",
    "tipo": "desarrolla",
    "destino": "concepto.maat",
    "certeza": "P"
   },
   {
-   "id": "r3044",
+   "id": "po-0044",
    "origen": "autor.qohelet",
    "tipo": "desarrolla",
    "destino": "concepto.hebel",
    "certeza": "D"
   },
   {
-   "id": "r3045",
+   "id": "po-0045",
    "origen": "autor.ben_sira",
    "tipo": "desarrolla",
    "destino": "concepto.hokhmah",
    "certeza": "D"
   },
   {
-   "id": "r3046",
+   "id": "po-0046",
    "origen": "autor.filon",
    "tipo": "desarrolla",
    "destino": "concepto.logos",
    "certeza": "D"
   },
   {
-   "id": "r3047",
+   "id": "po-0047",
    "origen": "escuela.mazdeismo",
    "tipo": "desarrolla",
    "destino": "concepto.frashokereti",
    "certeza": "D"
   },
   {
-   "id": "r3048",
+   "id": "po-0048",
    "origen": "escuela.sapienciales_hebreos",
    "tipo": "desarrolla",
    "destino": "concepto.hokhmah",
    "certeza": "D"
   },
   {
-   "id": "r3049",
+   "id": "po-0049",
    "origen": "escuela.judaismo_helenistico",
    "tipo": "desarrolla",
    "destino": "escuela.sapienciales_hebreos",
@@ -1611,252 +1612,252 @@
    "nota": "Continúa la tradición sapiencial hebrea, ahora en griego y en diálogo con la filosofía."
   },
   {
-   "id": "r3050",
+   "id": "po-0050",
    "origen": "obra.ensenanza_ptahhotep",
    "tipo": "trata_sobre",
    "destino": "concepto.maat",
    "certeza": "D"
   },
   {
-   "id": "r3051",
+   "id": "po-0051",
    "origen": "obra.ensenanza_ptahhotep",
    "tipo": "trata_sobre",
    "destino": "tesis.maat_eterna",
    "certeza": "D"
   },
   {
-   "id": "r3052",
+   "id": "po-0052",
    "origen": "obra.ensenanza_amenemope",
    "tipo": "trata_sobre",
    "destino": "concepto.maat",
    "certeza": "D"
   },
   {
-   "id": "r3053",
+   "id": "po-0053",
    "origen": "obra.dialogo_ba",
    "tipo": "trata_sobre",
    "destino": "concepto.ba",
    "certeza": "D"
   },
   {
-   "id": "r3054",
+   "id": "po-0054",
    "origen": "obra.dialogo_ba",
    "tipo": "trata_sobre",
    "destino": "tesis.muerte_alivio",
    "certeza": "D"
   },
   {
-   "id": "r3055",
+   "id": "po-0055",
    "origen": "obra.gilgamesh",
    "tipo": "trata_sobre",
    "destino": "tesis.goza_la_vida",
    "certeza": "D"
   },
   {
-   "id": "r3056",
+   "id": "po-0056",
    "origen": "obra.ludlul",
    "tipo": "trata_sobre",
    "destino": "tesis.justo_sufriente",
    "certeza": "D"
   },
   {
-   "id": "r3057",
+   "id": "po-0057",
    "origen": "obra.teodicea_babilonica",
    "tipo": "trata_sobre",
    "destino": "tesis.justo_sufriente",
    "certeza": "D"
   },
   {
-   "id": "r3058",
+   "id": "po-0058",
    "origen": "obra.gatha",
    "tipo": "trata_sobre",
    "destino": "concepto.asha",
    "certeza": "D"
   },
   {
-   "id": "r3059",
+   "id": "po-0059",
    "origen": "obra.gatha",
    "tipo": "trata_sobre",
    "destino": "concepto.druj",
    "certeza": "D"
   },
   {
-   "id": "r3060",
+   "id": "po-0060",
    "origen": "obra.gatha",
    "tipo": "trata_sobre",
    "destino": "concepto.dos_espiritus",
    "certeza": "D"
   },
   {
-   "id": "r3061",
+   "id": "po-0061",
    "origen": "obra.gatha",
    "tipo": "trata_sobre",
    "destino": "tesis.eleccion_verdad_mentira",
    "certeza": "D"
   },
   {
-   "id": "r3062",
+   "id": "po-0062",
    "origen": "obra.avesta",
    "tipo": "trata_sobre",
    "destino": "concepto.ahura_mazda",
    "certeza": "D"
   },
   {
-   "id": "r3063",
+   "id": "po-0063",
    "origen": "obra.avesta",
    "tipo": "trata_sobre",
    "destino": "concepto.frashokereti",
    "certeza": "D"
   },
   {
-   "id": "r3064",
+   "id": "po-0064",
    "origen": "obra.proverbios",
    "tipo": "trata_sobre",
    "destino": "concepto.hokhmah",
    "certeza": "D"
   },
   {
-   "id": "r3065",
+   "id": "po-0065",
    "origen": "obra.proverbios",
    "tipo": "trata_sobre",
    "destino": "tesis.temor_sabiduria",
    "certeza": "D"
   },
   {
-   "id": "r3066",
+   "id": "po-0066",
    "origen": "obra.proverbios",
    "tipo": "trata_sobre",
    "destino": "tesis.retribucion",
    "certeza": "D"
   },
   {
-   "id": "r3067",
+   "id": "po-0067",
    "origen": "obra.job",
    "tipo": "trata_sobre",
    "destino": "tesis.justo_sufriente",
    "certeza": "D"
   },
   {
-   "id": "r3068",
+   "id": "po-0068",
    "origen": "obra.qohelet",
    "tipo": "trata_sobre",
    "destino": "concepto.hebel",
    "certeza": "D"
   },
   {
-   "id": "r3069",
+   "id": "po-0069",
    "origen": "obra.qohelet",
    "tipo": "trata_sobre",
    "destino": "tesis.vanidad",
    "certeza": "D"
   },
   {
-   "id": "r3070",
+   "id": "po-0070",
    "origen": "obra.qohelet",
    "tipo": "trata_sobre",
    "destino": "tesis.goza_la_vida",
    "certeza": "D"
   },
   {
-   "id": "r3071",
+   "id": "po-0071",
    "origen": "obra.ben_sira",
    "tipo": "trata_sobre",
    "destino": "concepto.hokhmah",
    "certeza": "D"
   },
   {
-   "id": "r3072",
+   "id": "po-0072",
    "origen": "obra.ben_sira",
    "tipo": "trata_sobre",
    "destino": "tesis.temor_sabiduria",
    "certeza": "D"
   },
   {
-   "id": "r3073",
+   "id": "po-0073",
    "origen": "obra.sabiduria_salomon",
    "tipo": "trata_sobre",
    "destino": "concepto.hokhmah",
    "certeza": "D"
   },
   {
-   "id": "r3074",
+   "id": "po-0074",
    "origen": "obra.creacion_mundo",
    "tipo": "trata_sobre",
    "destino": "tesis.logos_mediador",
    "certeza": "D"
   },
   {
-   "id": "r3075",
+   "id": "po-0075",
    "origen": "obra.creacion_mundo",
    "tipo": "trata_sobre",
    "destino": "concepto.logos",
    "certeza": "D"
   },
   {
-   "id": "r3076",
+   "id": "po-0076",
    "origen": "tesis.maat_eterna",
    "tipo": "trata_sobre",
    "destino": "concepto.maat",
    "certeza": "D"
   },
   {
-   "id": "r3077",
+   "id": "po-0077",
    "origen": "tesis.muerte_alivio",
    "tipo": "trata_sobre",
    "destino": "concepto.ba",
    "certeza": "D"
   },
   {
-   "id": "r3078",
+   "id": "po-0078",
    "origen": "tesis.eleccion_verdad_mentira",
    "tipo": "trata_sobre",
    "destino": "concepto.asha",
    "certeza": "D"
   },
   {
-   "id": "r3079",
+   "id": "po-0079",
    "origen": "tesis.eleccion_verdad_mentira",
    "tipo": "trata_sobre",
    "destino": "concepto.druj",
    "certeza": "D"
   },
   {
-   "id": "r3080",
+   "id": "po-0080",
    "origen": "tesis.eleccion_verdad_mentira",
    "tipo": "trata_sobre",
    "destino": "concepto.dos_espiritus",
    "certeza": "D"
   },
   {
-   "id": "r3081",
+   "id": "po-0081",
    "origen": "tesis.vanidad",
    "tipo": "trata_sobre",
    "destino": "concepto.hebel",
    "certeza": "D"
   },
   {
-   "id": "r3082",
+   "id": "po-0082",
    "origen": "tesis.temor_sabiduria",
    "tipo": "trata_sobre",
    "destino": "concepto.hokhmah",
    "certeza": "D"
   },
   {
-   "id": "r3083",
+   "id": "po-0083",
    "origen": "tesis.logos_mediador",
    "tipo": "trata_sobre",
    "destino": "concepto.logos",
    "certeza": "D"
   },
   {
-   "id": "r3084",
+   "id": "po-0084",
    "origen": "tesis.retribucion",
    "tipo": "trata_sobre",
    "destino": "concepto.maat",
    "certeza": "D"
   },
   {
-   "id": "r3085",
+   "id": "po-0085",
    "origen": "concepto.asha",
    "tipo": "paralelo_a",
    "destino": "concepto.rta",
@@ -1865,7 +1866,7 @@
    "nota": "No es una coincidencia: aša y [[concepto.rta|ṛta]] son la misma palabra, heredada de la lengua común de los antiguos indoiranios. En la India evolucionó hacia el [[concepto.dharma|dharma]]; en Irán, hacia la lucha moral entre la Verdad y la Mentira."
   },
   {
-   "id": "r3086",
+   "id": "po-0086",
    "origen": "concepto.maat",
    "tipo": "paralelo_a",
    "destino": "concepto.asha",
@@ -1874,7 +1875,7 @@
    "nota": "Egipcios e iranios unen en una sola palabra el orden del mundo, la justicia y la verdad al hablar. Sin relación de origen conocida."
   },
   {
-   "id": "r3087",
+   "id": "po-0087",
    "origen": "concepto.hebel",
    "tipo": "paralelo_a",
    "destino": "concepto.anitya",
@@ -1883,7 +1884,7 @@
    "nota": "[[autor.qohelet|Qohélet]] y el budismo insisten en que nada permanece; pero Qohélet no busca liberarse del ciclo de las existencias, sino vivir con sencillez el tiempo que se tiene. Sin contacto conocido."
   },
   {
-   "id": "r3088",
+   "id": "po-0088",
    "origen": "tesis.goza_la_vida",
    "tipo": "paralelo_a",
    "destino": "escuela.epicureismo",
@@ -1892,7 +1893,7 @@
    "nota": "La tabernera Siduri, [[autor.qohelet|Qohélet]] y [[autor.epicuro|Epicuro]] responden a la muerte con un placer sencillo; Epicuro, además, lo argumenta y lo convierte en una disciplina."
   },
   {
-   "id": "r3089",
+   "id": "po-0089",
    "origen": "concepto.ba",
    "tipo": "paralelo_a",
    "destino": "concepto.psyche",
@@ -1901,7 +1902,7 @@
    "nota": "El historiador griego Heródoto afirmó que los griegos aprendieron de los egipcios la transmigración de las almas (Historia II 123), pero los textos egipcios no la enseñan: es un paralelo aproximado, no una influencia probada."
   },
   {
-   "id": "r3090",
+   "id": "po-0090",
    "origen": "concepto.dos_espiritus",
    "tipo": "paralelo_a",
    "destino": "concepto.yinyang",
