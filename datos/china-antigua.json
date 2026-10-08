@@ -1,0 +1,2468 @@
+{
+  "version": "0.1",
+  "actualizado": "2026-10-08",
+  "descripcion": "Piloto Antigüedad · Tradición china · Círculo 1",
+  "nodos": [
+    {
+      "id": "contexto.china_preclasica",
+      "tipo": "contexto",
+      "nombre": "China preclásica (Zhou)",
+      "tradicion": "china",
+      "contextos": [],
+      "horquilla": {
+        "inicio": -1046,
+        "fin": -500
+      },
+      "lugar": "Valle del Wei y llanura central del río Amarillo",
+      "resumen": "Época de la dinastía Zhou en la que se forman las ideas de [[concepto.tian|Cielo]] y [[concepto.tianming|Mandato del Cielo]] que heredarán todas las escuelas.",
+      "profundizacion": "Incluye el periodo Zhou occidental (c. 1046-771 a. C.) y el comienzo de Primavera y Otoño. De esta época proceden el Libro de las Odas (Shijing), el Libro de los Documentos (Shujing) y el núcleo adivinatorio del [[obra.yijing|Yijing]]. Aún no hay filósofos con nombre propio, pero sí un vocabulario moral y político que las Cien Escuelas reinterpretarán."
+    },
+    {
+      "id": "contexto.cien_escuelas",
+      "tipo": "contexto",
+      "nombre": "Las Cien Escuelas",
+      "tradicion": "china",
+      "contextos": [],
+      "horquilla": {
+        "inicio": -500,
+        "fin": -221
+      },
+      "lugar": "Estados de Lu, Qi, Song, Wei, Zhao, Chu, Han y Qin",
+      "resumen": "Época de fragmentación política y florecimiento intelectual en la que maestros rivales recorrían las cortes ofreciendo su «vía» para gobernar y vivir.",
+      "profundizacion": "Abarca el final de Primavera y Otoño y los Reinos Combatientes (475-221 a. C.). La guerra entre estados crea demanda de consejeros, y surgen los [[escuela.ru|ru]] o confucianos, los [[escuela.mohismo|mohistas]], los textos que luego se llamarán [[escuela.daojia|taoístas]], los [[escuela.mingjia|disputadores]], los teóricos del [[escuela.yinyang|yin-yang]] y los [[escuela.fajia|legalistas]]. En el estado de Qi, la Academia Jixia reunió a pensadores de varias corrientes. La época termina con la unificación de Qin en 221 a. C."
+    },
+    {
+      "id": "contexto.qin_han",
+      "tipo": "contexto",
+      "nombre": "Qin y Han: la síntesis imperial",
+      "tradicion": "china",
+      "contextos": [],
+      "horquilla": {
+        "inicio": -221,
+        "fin": 220
+      },
+      "lugar": "Xianyang, Chang'an y Luoyang",
+      "resumen": "Con el imperio unificado, las escuelas se ordenan, se catalogan y se fusionan, y casi todos los textos antiguos reciben la forma con la que nos han llegado.",
+      "profundizacion": "Qin impone el [[escuela.fajia|legalismo]] y, a propuesta de su canciller [[autor.li_si|Li Si]], quema libros en el 213 a. C. Los Han adoptan después el confucianismo como doctrina oficial. Los historiadores Sima Tan y su hijo [[autor.sima_qian|Sima Qian]], y más tarde Ban Gu, autor de la historia oficial de la dinastía Han, clasifican el pensamiento anterior en «escuelas» (jia); muchas etiquetas que usamos hoy proceden de esas clasificaciones. A finales de la época llega el budismo a China."
+    },
+    {
+      "id": "escuela.ru",
+      "tipo": "escuela",
+      "nombre": "Confucianismo (ru)",
+      "nombreOriginal": "儒",
+      "alias": [
+        "ru",
+        "rujia",
+        "letrados"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica",
+        "tematica.cultivo_de_si"
+      ],
+      "naturaleza": "real",
+      "resumen": "Los ru eran los letrados expertos en ritos y textos antiguos. Desde [[autor.confucio|Confucio]] defienden que el buen orden nace del cultivo moral y del [[concepto.li|ritual]]."
+    },
+    {
+      "id": "escuela.mohismo",
+      "tipo": "escuela",
+      "nombre": "Mohismo",
+      "nombreOriginal": "墨家",
+      "alias": [
+        "mojia",
+        "moístas"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica",
+        "tematica.logica"
+      ],
+      "naturaleza": "real",
+      "resumen": "Comunidad organizada fundada por [[autor.mozi|Mozi]], con disciplina propia, que defendía el [[concepto.jianai|cuidado inclusivo]] y se opuso a la guerra ofensiva."
+    },
+    {
+      "id": "escuela.daojia",
+      "tipo": "escuela",
+      "nombre": "Taoísmo (daojia)",
+      "nombreOriginal": "道家",
+      "alias": [
+        "daojia",
+        "taoísmo filosófico"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.cultivo_de_si",
+        "tematica.filosofia_politica"
+      ],
+      "naturaleza": "rotulo_historiografico",
+      "resumen": "Etiqueta creada en época Han por el historiador Sima Tan, padre de [[autor.sima_qian|Sima Qian]], para agrupar textos como el [[obra.daodejing|Daodejing]] y el [[obra.zhuangzi|Zhuangzi]], centrados en el [[concepto.dao|dao]] y la [[concepto.ziran|espontaneidad]]."
+    },
+    {
+      "id": "escuela.mingjia",
+      "tipo": "escuela",
+      "nombre": "Escuela de los Nombres",
+      "nombreOriginal": "名家",
+      "alias": [
+        "mingjia",
+        "disputadores",
+        "bianzhe",
+        "sofistas chinos"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.filosofia_lenguaje"
+      ],
+      "naturaleza": "rotulo_historiografico",
+      "resumen": "Rótulo de época Han para disputadores como [[autor.hui_shi|Hui Shi]] y [[autor.gongsun_long|Gongsun Long]], que analizaban la relación entre [[concepto.ming_shi|nombres y realidades]]. Nunca formaron un grupo."
+    },
+    {
+      "id": "escuela.yinyang",
+      "tipo": "escuela",
+      "nombre": "Escuela del yin-yang",
+      "nombreOriginal": "陰陽家",
+      "alias": [
+        "yinyang jia",
+        "escuela del yin-yang y las cinco fases"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_ciencia",
+        "tematica.filosofia_historia"
+      ],
+      "naturaleza": "rotulo_historiografico",
+      "resumen": "Rótulo Han para los pensadores, como [[autor.zou_yan|Zou Yan]], que explicaban la naturaleza y la historia con el [[concepto.yinyang|yin-yang]] y las [[concepto.wuxing|cinco fases]]."
+    },
+    {
+      "id": "escuela.fajia",
+      "tipo": "escuela",
+      "nombre": "Legalismo (fajia)",
+      "nombreOriginal": "法家",
+      "alias": [
+        "fajia",
+        "escuela de la ley"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica"
+      ],
+      "naturaleza": "rotulo_historiografico",
+      "resumen": "Rótulo de época Han para los teóricos del Estado, como [[autor.shang_yang|Shang Yang]], [[autor.shen_buhai|Shen Buhai]], [[autor.shen_dao|Shen Dao]] y [[autor.han_feizi|Han Feizi]], que defendían gobernar con [[concepto.fa|leyes]] públicas, premios y castigos, no con la virtud del gobernante."
+    },
+    {
+      "id": "autor.confucio",
+      "tipo": "autor",
+      "nombre": "Confucio",
+      "nombreOriginal": "孔子",
+      "alias": [
+        "Kongzi",
+        "Kong Qiu",
+        "K'ung Fu-tzu",
+        "Maestro Kong",
+        "Kong Fuzi"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica",
+        "tematica.cultivo_de_si"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Zou, estado de Lu",
+      "fechas": {
+        "nacimiento": {
+          "min": -551,
+          "max": -551
+        },
+        "muerte": {
+          "min": -479,
+          "max": -479
+        },
+        "tipo": "tradicional",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Fechas tradicionales del Shiji, aceptadas por convención."
+      },
+      "resumen": "Maestro de Lu que no dejó nada escrito. Sus discípulos recogieron sus enseñanzas en las [[obra.analectas|Analectas]], centradas en la [[concepto.ren|humanidad]], el [[concepto.li|ritual]] y la figura de la [[concepto.junzi|persona ejemplar]].",
+      "profundizacion": "Confucio se presentaba como transmisor y no como creador: quería recuperar el orden de los primeros reyes de la dinastía Zhou. Su novedad fue convertir la nobleza en una cuestión de carácter y no de nacimiento: el [[concepto.junzi|junzi]] es quien se cultiva a sí mismo. La [[concepto.ren|humanidad]] se aprende primero en la familia, mediante la [[concepto.xiao|piedad filial]], y se expresa en el [[concepto.li|ritual]], que da forma a las relaciones. En política defendió gobernar con el ejemplo moral y [[concepto.zhengming|rectificar los nombres]], para que cada cargo cumpla lo que su nombre exige. No consiguió un puesto estable en ninguna corte, pero formó a un grupo de discípulos que convirtió su enseñanza en tradición.",
+      "anecdotas": "Tras oír la música Shao, pasó tres meses sin notar el sabor de la carne ([[obra.analectas|Analectas]] 7.14 · B). Contemplando un río, exclamó: «¡Todo pasa así, sin cesar, día y noche!» ([[obra.analectas|Analectas]] 9.17 · B). Cuando un hombre lo describió como un perro sin hogar, aceptó la comparación riendo ([[obra.shiji|Shiji]], cap. 47 · C)."
+    },
+    {
+      "id": "autor.mozi",
+      "tipo": "autor",
+      "nombre": "Mozi",
+      "nombreOriginal": "墨子",
+      "alias": [
+        "Mo Di",
+        "Mo Tzu",
+        "Micius",
+        "Maestro Mo"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica",
+        "tematica.logica"
+      ],
+      "escuelas": [
+        "escuela.mohismo"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Probablemente Lu (otros proponen Song)",
+      "fechas": {
+        "nacimiento": {
+          "min": -480,
+          "max": -468
+        },
+        "muerte": {
+          "min": -400,
+          "max": -380
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Fechas aproximadas (c. 470 – c. 391 a. C.). Su vida se conoce por muy pocos datos."
+      },
+      "resumen": "Primer gran crítico de los [[escuela.ru|confucianos]]. Defendió el [[concepto.jianai|cuidado inclusivo]] de todos, juzgar las acciones por sus beneficios y condenar la guerra ofensiva.",
+      "profundizacion": "Mozi propone un criterio público para decidir qué es correcto: lo que beneficia a todos, medido con [[concepto.fa|modelos]] o estándares, como el carpintero mide con la escuadra. De ahí su crítica al amor graduado de los confucianos, que favorece a los propios, y a los funerales costosos y la música de corte, que derrochan los recursos del pueblo. Su comunidad era una organización disciplinada que ofrecía ingeniería defensiva a las ciudades atacadas. Los mohistas posteriores escribieron los Cánones mohistas, una serie de definiciones y argumentos que es una de las cumbres de la lógica china. Tras la unificación imperial, la escuela desapareció casi por completo.",
+      "anecdotas": "Al saber que el reino de Chu preparaba un ataque contra el pequeño estado de Song, caminó diez días y diez noches para impedirlo. Ante el rey de Chu simuló un asedio, usando su cinturón como muralla, y resistió una tras otra las nueve máquinas de guerra del ingeniero Gongshu Ban, hasta que el rey renunció al ataque. A la vuelta, al pasar por Song, se puso a llover y el guardián de una puerta no le dejó resguardarse: nadie allí sabía que acababa de salvarlos ([[obra.mozi|Mozi]], cap. 50 · C)."
+    },
+    {
+      "id": "autor.laozi",
+      "tipo": "autor",
+      "nombre": "Laozi",
+      "nombreOriginal": "老子",
+      "alias": [
+        "Lao Tsé",
+        "Lao Tse",
+        "Lao Tzu",
+        "Lao Dan",
+        "Li Er",
+        "Viejo Maestro"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_politica",
+        "tematica.cultivo_de_si"
+      ],
+      "escuelas": [
+        "escuela.daojia"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Chu, según el Shiji",
+      "fechas": {
+        "activo": {
+          "min": -600,
+          "max": -500
+        },
+        "tipo": "tradicional",
+        "historicidad": "debatido",
+        "alternativas": [],
+        "nota": "La tradición lo hace contemporáneo de Confucio. Su existencia es dudosa: ya Sima Qian (c. 100 a. C.) barajaba varias identificaciones."
+      },
+      "resumen": "Figura a la que se atribuye el [[obra.daodejing|Daodejing]]. Quizá nunca existió como persona: su nombre significa «el Viejo Maestro».",
+      "profundizacion": "La biografía de Laozi que escribió [[autor.sima_qian|Sima Qian]] en el [[obra.shiji|Shiji]] (cap. 63) mezcla al menos tres personajes distintos, y el propio historiador reconoce que no está seguro. Hoy se considera que el [[obra.daodejing|Daodejing]] se compuso en varias etapas y que su forma se estabilizó hacia mediados del siglo III a. C. Por eso la app trata a Laozi como autor de historicidad debatida y su autoría como atribuida. Su figura importa igualmente: encarna la idea de un [[concepto.dao|dao]] anterior a todo nombre y del [[concepto.wuwei|no actuar]] como la forma más alta de eficacia.",
+      "anecdotas": "Según la tradición, cuando se marchaba de China hacia el oeste, el guardián del paso fronterizo le pidió que dejara escrita su enseñanza, y así habría nacido el Daodejing ([[obra.shiji|Shiji]], cap. 63 · L). También se cuenta que Confucio lo visitó y, al salir, dijo a sus discípulos que Laozi era como un dragón: imposible de atrapar o de comprender del todo ([[obra.shiji|Shiji]], cap. 63 · L)."
+    },
+    {
+      "id": "autor.mencio",
+      "tipo": "autor",
+      "nombre": "Mencio",
+      "nombreOriginal": "孟子",
+      "alias": [
+        "Mengzi",
+        "Meng Ke",
+        "Meng Tzu",
+        "Maestro Meng"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.antropologia_filosofica",
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Zou",
+      "fechas": {
+        "nacimiento": {
+          "min": -372,
+          "max": -372
+        },
+        "muerte": {
+          "min": -289,
+          "max": -289
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "c. 372 – 289 a. C."
+      },
+      "resumen": "El gran continuador de [[autor.confucio|Confucio]]. Sostuvo que la [[concepto.xing|naturaleza humana]] es buena y que todos tenemos [[concepto.siduan|cuatro brotes]] de virtud que hay que cultivar.",
+      "profundizacion": "Mencio argumenta con ejemplos: cualquiera que vea a un niño a punto de caer en un pozo siente alarma y compasión, sin pararse a calcular. Esos sentimientos son los [[concepto.siduan|cuatro brotes]] de la [[concepto.ren|humanidad]], la [[concepto.yi|rectitud]], el [[concepto.li|decoro]] y la sabiduría: crecen si se cultivan y se atrofian si se descuidan. En política defendió que el gobernante que oprime al pueblo pierde el [[concepto.tianming|Mandato del Cielo]] y puede ser depuesto. Polemizó con [[autor.mozi|Mozi]] y con [[autor.yang_zhu|Yang Zhu]], y su obra, el [[obra.mengzi|Mengzi]], pasó a ser uno de los Cuatro Libros, los textos básicos de la educación confuciana durante siglos.",
+      "anecdotas": "Según la tradición, su madre se mudó tres veces buscando un buen ambiente para él: junto a un cementerio, el niño jugaba a hacer funerales; junto al mercado, a vender; solo cuando vivieron junto a una escuela empezó a imitar los ritos y el estudio, y allí se quedaron ([[obra.lienu_zhuan|Biografías de mujeres ejemplares]] · C). Otro día volvió a casa sin haber terminado sus estudios, y ella cortó la tela que estaba tejiendo para explicarle que abandonar el estudio a medias era como cortar un tejido sin acabar, que ya no sirve para nada ([[obra.lienu_zhuan|Biografías de mujeres ejemplares]] · C)."
+    },
+    {
+      "id": "autor.zhuangzi",
+      "tipo": "autor",
+      "nombre": "Zhuangzi",
+      "nombreOriginal": "莊子",
+      "alias": [
+        "Chuang Tzu",
+        "Chuang-tzu",
+        "Zhuang Zhou",
+        "Maestro Zhuang"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.epistemologia",
+        "tematica.filosofia_lenguaje",
+        "tematica.cultivo_de_si"
+      ],
+      "escuelas": [
+        "escuela.daojia"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Meng, estado de Song",
+      "fechas": {
+        "activo": {
+          "min": -350,
+          "max": -300
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [
+          {
+            "etiqueta": "Tradicional",
+            "nacimiento": {
+              "min": -369,
+              "max": -369
+            },
+            "muerte": {
+              "min": -286,
+              "max": -286
+            }
+          }
+        ],
+        "nota": "Activo en la segunda mitad del siglo IV a. C., contemporáneo de Mencio."
+      },
+      "resumen": "Pensador irónico y genial que, con historias y paradojas, muestra que todo juicio depende de la [[tesis.perspectivas|perspectiva]] y que la vida plena consiste en fluir con el [[concepto.dao|dao]].",
+      "profundizacion": "Zhuangzi desconfía de las disputas entre escuelas: cada una llama «correcto» a lo que le conviene desde su punto de vista. Frente a eso propone una mirada que acoge todas las perspectivas sin quedarse atrapada en ninguna, y la ilustra con la historia del cocinero Ding, que despieza un buey sin esfuerzo porque deja que el cuchillo siga las articulaciones del animal. Su escritura mezcla fábula, humor y argumento. Solo los siete «capítulos interiores» del [[obra.zhuangzi|Zhuangzi]] se le atribuyen con cierta seguridad; el resto procede de su escuela y de otras corrientes. Su amigo y rival intelectual fue [[autor.hui_shi|Hui Shi]].",
+      "anecdotas": "Soñó que era una mariposa y, al despertar, no sabía si era Zhuang Zhou, que había soñado ser mariposa, o una mariposa que soñaba ser Zhuang Zhou ([[obra.zhuangzi|Zhuangzi]], cap. 2 · C). Cuando murió su esposa, un amigo lo encontró cantando y golpeando un cuenco como si fuera un tambor; Zhuangzi le explicó que, tras el dolor inicial, había comprendido que la muerte forma parte del curso natural, como la sucesión de las estaciones ([[obra.zhuangzi|Zhuangzi]], cap. 18 · C). Cuando el rey de Chu le ofreció ser su ministro, respondió que el rey guardaba en un templo el caparazón de una tortuga sagrada muerta hacía siglos, y que él prefería ser una tortuga viva arrastrando la cola por el barro ([[obra.zhuangzi|Zhuangzi]], cap. 17 · C)."
+    },
+    {
+      "id": "autor.hui_shi",
+      "tipo": "autor",
+      "nombre": "Hui Shi",
+      "nombreOriginal": "惠施",
+      "alias": [
+        "Huizi",
+        "Hui Tzu",
+        "Maestro Hui"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.filosofia_lenguaje",
+        "tematica.metafisica"
+      ],
+      "escuelas": [
+        "escuela.mingjia"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Song; ministro en Wei (Liang)",
+      "fechas": {
+        "activo": {
+          "min": -350,
+          "max": -300
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Activo a fines del siglo IV a. C. Fechas de vida aproximadas: c. 370 – c. 310 a. C."
+      },
+      "resumen": "Disputador y ministro, amigo de [[autor.zhuangzi|Zhuangzi]]. Solo lo conocemos por las paradojas que le atribuye el [[obra.zhuangzi|Zhuangzi]].",
+      "profundizacion": "Sus obras se perdieron. El capítulo 33 del [[obra.zhuangzi|Zhuangzi]] le atribuye diez tesis sobre el espacio, el tiempo y la semejanza; por ejemplo, que lo más grande no tiene exterior y lo más pequeño no tiene interior, o que el sol, en el mismo momento en que está en lo más alto, ya está declinando. Parecen buscar los límites de nuestras distinciones, y terminan con la conclusión de que conviene amar a todas las cosas por igual. En el Zhuangzi aparece como el interlocutor lógico que obliga a Zhuangzi a afinar sus argumentos.",
+      "anecdotas": "Cuando era ministro en Liang (otro nombre del estado de Wei), le dijeron que Zhuangzi venía a quitarle el puesto, y lo hizo buscar durante tres días. Zhuangzi se presentó y le contó una fábula: un búho que tenía una rata podrida en el pico chilló asustado al ver pasar un fénix, creyendo que quería robársela, cuando al fénix no le interesaba en absoluto ([[obra.zhuangzi|Zhuangzi]], cap. 17 · C). Tras la muerte de Hui Shi, Zhuangzi pasó junto a su tumba y contó la historia de un carpintero de Ying capaz de quitar con un hachazo una mota de yeso de la nariz de un compañero sin herirlo; cuando el compañero murió, el carpintero ya no pudo repetir la hazaña. Así se sentía él: sin Hui Shi, ya no tenía con quién hablar ([[obra.zhuangzi|Zhuangzi]], cap. 24 · C)."
+    },
+    {
+      "id": "autor.gongsun_long",
+      "tipo": "autor",
+      "nombre": "Gongsun Long",
+      "nombreOriginal": "公孫龍",
+      "alias": [
+        "Kung-sun Lung",
+        "Gongsun Longzi"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.filosofia_lenguaje"
+      ],
+      "escuelas": [
+        "escuela.mingjia"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Zhao",
+      "fechas": {
+        "activo": {
+          "min": -300,
+          "max": -250
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Activo en el siglo III a. C. como consejero en Zhao. Fechas de vida aproximadas: c. 320 – c. 250 a. C."
+      },
+      "resumen": "Disputador famoso por defender que [[tesis.caballo_blanco|un caballo blanco no es un caballo]], una paradoja sobre cómo se combinan los [[concepto.ming_shi|nombres]].",
+      "profundizacion": "Gongsun Long fue consejero del señor de Pingyuan, un príncipe del estado de Zhao, y defendió la paz entre estados. Del libro que lleva su nombre, el [[obra.gongsun_longzi|Gongsun Longzi]], se conservan pocos capítulos, y la autenticidad de algunos se discute. Su tesis del caballo blanco se ha leído de muchas maneras: como una distinción entre «ser idéntico a» y «ser un caso de», o como un análisis de cómo «blanco» y «caballo» nombran cosas distintas y su combinación nombra una tercera. Lo seguro es que obligó a sus contemporáneos a pensar la relación entre [[concepto.ming_shi|nombres y realidades]].",
+      "anecdotas": "Kong Chuan, descendiente de Confucio, le propuso hacerse su discípulo si abandonaba la tesis del caballo blanco. Gongsun Long le contestó que eso sería como pedirle que enseñara sin su enseñanza, y le recordó que el propio Confucio había distinguido entre «un hombre de Chu» y «un hombre», que es justo lo que él hacía con los caballos ([[obra.gongsun_longzi|Gongsun Longzi]], cap. 1 · C)."
+    },
+    {
+      "id": "autor.zou_yan",
+      "tipo": "autor",
+      "nombre": "Zou Yan",
+      "nombreOriginal": "鄒衍",
+      "alias": [
+        "Tsou Yen"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_historia",
+        "tematica.filosofia_ciencia"
+      ],
+      "escuelas": [
+        "escuela.yinyang"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Qi",
+      "fechas": {
+        "nacimiento": {
+          "min": -310,
+          "max": -300
+        },
+        "muerte": {
+          "min": -245,
+          "max": -235
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "c. 305 – 240 a. C."
+      },
+      "resumen": "Pensador de Qi que unió el [[concepto.yinyang|yin-yang]] y las [[concepto.wuxing|cinco fases]] en un sistema para explicar la naturaleza y la sucesión de las dinastías.",
+      "profundizacion": "Sus obras se perdieron, y lo conocemos sobre todo por lo que cuenta de él [[autor.sima_qian|Sima Qian]] en el [[obra.shiji|Shiji]] (cap. 74). Según esa fuente, defendió que cada dinastía gobierna bajo la virtud de una de las [[concepto.wuxing|cinco fases]], que se suceden en un orden fijo, y describió un mundo formado por nueve grandes continentes, de los que China sería solo una parte. Su sistema tuvo una enorme influencia en la cosmología oficial de la dinastía Han, que lo fundió con el confucianismo.",
+      "anecdotas": "Los reyes lo recibían con honores excepcionales: el rey Hui de Liang salió de la ciudad para darle la bienvenida, y el rey Zhao de Yan barrió con sus propias manos el camino por el que iba a pasar ([[obra.shiji|Shiji]], cap. 74 · C)."
+    },
+    {
+      "id": "autor.xunzi",
+      "tipo": "autor",
+      "nombre": "Xunzi",
+      "nombreOriginal": "荀子",
+      "alias": [
+        "Xun Kuang",
+        "Hsün Tzu",
+        "Xun Qing",
+        "Sun Qing",
+        "Maestro Xun"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.antropologia_filosofica",
+        "tematica.filosofia_politica",
+        "tematica.filosofia_lenguaje"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Zhao",
+      "fechas": {
+        "activo": {
+          "min": -289,
+          "max": -238
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Actividad documentada entre 289 y 238 a. C. Nacimiento hacia 310 a. C. o antes, incierto."
+      },
+      "resumen": "Confuciano riguroso que, frente a [[autor.mencio|Mencio]], sostuvo que [[tesis.naturaleza_mala|la naturaleza humana es mala]] y que la bondad es fruto del [[concepto.wei|esfuerzo deliberado]] y del [[concepto.li|ritual]].",
+      "profundizacion": "Para Xunzi, los seres humanos nacen con deseos que, sin guía, llevan al conflicto. Los sabios de la antigüedad crearon el [[concepto.li|ritual]] y las normas para ordenar esos deseos, igual que el artesano endereza la madera torcida. La bondad es, por tanto, un logro de la educación y la cultura, no un brote innato. Concibió el [[concepto.tian|Cielo]] como el curso regular de la naturaleza, sin voluntad moral, y escribió un tratado sobre la [[concepto.zhengming|rectificación de los nombres]] que es una teoría del lenguaje. Enseñó en la Academia Jixia del estado de Qi y fue maestro de [[autor.han_feizi|Han Feizi]] y de [[autor.li_si|Li Si]], que llegaría a ser canciller del primer emperador.",
+      "anecdotas": "En la Academia Jixia, el gran centro de debate del estado de Qi, fue tres veces el encargado de presidir los sacrificios, un honor reservado al maestro de más prestigio ([[obra.shiji|Shiji]], cap. 74 · B). Más tarde, por culpa de unas calumnias, se marchó al estado de Chu, donde fue magistrado de la ciudad de Lanling; cuando perdió el cargo se quedó a vivir allí, y allí murió ([[obra.shiji|Shiji]], cap. 74 · B)."
+    },
+    {
+      "id": "autor.han_feizi",
+      "tipo": "autor",
+      "nombre": "Han Feizi",
+      "nombreOriginal": "韓非子",
+      "alias": [
+        "Han Fei",
+        "Han Fei Tzu",
+        "Maestro Han Fei"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.fajia"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Estado de Han, de familia real",
+      "fechas": {
+        "nacimiento": {
+          "min": -285,
+          "max": -275
+        },
+        "muerte": {
+          "min": -233,
+          "max": -233
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "c. 280 – 233 a. C. La fecha de su muerte es la más firme."
+      },
+      "resumen": "Gran teórico del poder del Estado. Defendió que un país se gobierna con [[concepto.fa|leyes]] públicas, [[concepto.shu|técnicas]] para controlar a los funcionarios y la [[concepto.shi|posición]] de autoridad del gobernante, sin confiar en la virtud de nadie.",
+      "profundizacion": "Han Feizi reunió las ideas de tres consejeros políticos anteriores: [[autor.shang_yang|Shang Yang]], que reformó el estado de Qin con leyes estrictas; [[autor.shen_buhai|Shen Buhai]], ministro del estado de Han, que ideó técnicas para vigilar a los funcionarios; y [[autor.shen_dao|Shen Dao]], que destacó la fuerza que da ocupar el trono. Su punto de partida es realista: las personas buscan su propio interés, así que un buen gobierno no puede depender de que haya gobernantes sabios, sino de normas claras y de premios y castigos que se apliquen siempre. Critica a los [[escuela.ru|confucianos]] por querer gobernar imitando a los reyes de la antigüedad cuando las circunstancias ya son otras. Escribió además los comentarios más antiguos que se conservan del [[obra.daodejing|Daodejing]]. Sus ideas inspiraron al estado de Qin, que unificó China en el 221 a. C., doce años después de su muerte.",
+      "anecdotas": "Era tartamudo y no sabía defender sus ideas de palabra, pero escribía con gran brillantez ([[obra.shiji|Shiji]], cap. 63 · B). El rey de Qin, el futuro Primer Emperador, leyó dos de sus ensayos y exclamó que, si pudiera conocer a su autor y tratar con él, ya podría morir tranquilo. Cuando Han Fei llegó por fin a Qin como enviado, [[autor.li_si|Li Si]], que había estudiado con él junto a [[autor.xunzi|Xunzi]], temió que le hiciera sombra: lo acusó ante el rey, consiguió que lo encarcelaran y le hizo llegar veneno. El rey se arrepintió y mandó liberarlo, pero Han Fei ya había muerto ([[obra.shiji|Shiji]], cap. 63 · C)."
+    },
+    {
+      "id": "obra.analectas",
+      "tipo": "obra",
+      "nombre": "Analectas",
+      "nombreOriginal": "論語",
+      "alias": [
+        "Lunyu",
+        "Lun yu",
+        "Analectas de Confucio",
+        "Diálogos"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica",
+        "tematica.cultivo_de_si"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": -479,
+          "max": -150
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Compilada a lo largo de varias generaciones de discípulos."
+      },
+      "capas": [
+        {
+          "nombre": "Manuscrito de Dingzhou",
+          "fecha": -55,
+          "testimonio": "Texto parcial en tiras de bambú, hallado en 1973"
+        }
+      ],
+      "primerTestimonio": "Dingzhou, c. 55 a. C.",
+      "resumen": "Colección de dichos y breves diálogos de [[autor.confucio|Confucio]] con sus discípulos, en veinte libros. Es la fuente principal para conocerlo."
+    },
+    {
+      "id": "obra.mozi",
+      "tipo": "obra",
+      "nombre": "Mozi",
+      "nombreOriginal": "墨子",
+      "alias": [
+        "Libro del maestro Mo",
+        "Mo Tzu"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica",
+        "tematica.logica"
+      ],
+      "autoria": "escuela",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": -450,
+          "max": -221
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Sus partes van del siglo V al III a. C."
+      },
+      "resumen": "Obra colectiva de los mohistas: ensayos sobre el [[concepto.jianai|cuidado inclusivo]] y contra la guerra, diálogos con [[autor.mozi|Mozi]], tratados de defensa de ciudades y los Cánones de lógica."
+    },
+    {
+      "id": "obra.daodejing",
+      "tipo": "obra",
+      "nombre": "Daodejing",
+      "nombreOriginal": "道德經",
+      "alias": [
+        "Tao Te Ching",
+        "Tao te king",
+        "Laozi",
+        "Libro del curso y de la virtud",
+        "Libro del camino y la virtud"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_politica",
+        "tematica.cultivo_de_si"
+      ],
+      "autoria": "atribuida",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": -400,
+          "max": -250
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Texto compuesto por etapas; forma relativamente estable hacia mediados del siglo III a. C."
+      },
+      "capas": [
+        {
+          "nombre": "Tiras de Guodian",
+          "fecha": -300,
+          "testimonio": "Fragmentos en tiras de bambú de una tumba del reino de Chu; no contienen el texto completo ni el orden actual"
+        },
+        {
+          "nombre": "Sedas de Mawangdui",
+          "fecha": -168,
+          "testimonio": "Dos copias completas en seda, con la parte del de antes que la del dao"
+        },
+        {
+          "nombre": "Texto recibido de Wang Bi",
+          "fecha": 249,
+          "testimonio": "Edición con el comentario del pensador Wang Bi (s. III d. C.), base de la versión habitual en 81 capítulos"
+        }
+      ],
+      "primerTestimonio": "Guodian, c. 300 a. C.",
+      "resumen": "Breve texto en verso atribuido a [[autor.laozi|Laozi]] sobre el [[concepto.dao|dao]], la [[concepto.de|virtud]] y el [[concepto.wuwei|no actuar]]. Es uno de los libros más traducidos del mundo."
+    },
+    {
+      "id": "obra.mengzi",
+      "tipo": "obra",
+      "nombre": "Mengzi",
+      "nombreOriginal": "孟子",
+      "alias": [
+        "Mencio",
+        "Libro de Mencio",
+        "Meng Tzu"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.antropologia_filosofica",
+        "tematica.filosofia_politica"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": -320,
+          "max": -280
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "Recogido por Mencio y sus discípulos, en siete libros."
+      },
+      "resumen": "Diálogos y argumentos de [[autor.mencio|Mencio]] con reyes, discípulos y rivales. Contiene su defensa de la [[tesis.naturaleza_buena|bondad de la naturaleza humana]]."
+    },
+    {
+      "id": "obra.zhuangzi",
+      "tipo": "obra",
+      "nombre": "Zhuangzi",
+      "nombreOriginal": "莊子",
+      "alias": [
+        "Chuang Tzu",
+        "Zhuang Zi",
+        "Verdadero Clásico de Nanhua"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.epistemologia",
+        "tematica.filosofia_lenguaje",
+        "tematica.cultivo_de_si"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": -330,
+          "max": -150
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Capítulos interiores (1-7) atribuidos a Zhuangzi; el resto, de su escuela y otras corrientes, hasta época Han."
+      },
+      "capas": [
+        {
+          "nombre": "Capítulos interiores (1-7)",
+          "fecha": -300,
+          "testimonio": "Núcleo atribuido a Zhuangzi"
+        },
+        {
+          "nombre": "Capítulos exteriores y misceláneos (8-33)",
+          "fecha": -200,
+          "testimonio": "Escuela de Zhuangzi y otras corrientes"
+        },
+        {
+          "nombre": "Edición de Guo Xiang",
+          "fecha": 300,
+          "testimonio": "Edición del comentarista Guo Xiang (s. III-IV d. C.), base del texto actual en 33 capítulos"
+        }
+      ],
+      "resumen": "Colección de historias, diálogos y argumentos asociada a [[autor.zhuangzi|Zhuangzi]]. Su capítulo 33 es además la primera historia del pensamiento chino."
+    },
+    {
+      "id": "obra.gongsun_longzi",
+      "tipo": "obra",
+      "nombre": "Gongsun Longzi",
+      "nombreOriginal": "公孫龍子",
+      "alias": [
+        "Libro de Gongsun Long"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.filosofia_lenguaje"
+      ],
+      "autoria": "atribuida",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": -280,
+          "max": -250
+        },
+        "tipo": "aproximada",
+        "historicidad": "debatido",
+        "nota": "Se conservan pocos capítulos; la autenticidad de algunos se discute."
+      },
+      "resumen": "Breve obra que contiene el diálogo sobre el [[tesis.caballo_blanco|caballo blanco]] y otros análisis sobre [[concepto.ming_shi|nombres y realidades]]."
+    },
+    {
+      "id": "obra.xunzi",
+      "tipo": "obra",
+      "nombre": "Xunzi",
+      "nombreOriginal": "荀子",
+      "alias": [
+        "Libro de Xunzi",
+        "Hsün Tzu"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.antropologia_filosofica",
+        "tematica.filosofia_politica",
+        "tematica.filosofia_lenguaje"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": -289,
+          "max": -238
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "En su mayor parte obra de Xunzi; el bibliotecario imperial Liu Xiang lo ordenó en 32 capítulos en el siglo I a. C."
+      },
+      "resumen": "Ensayos argumentativos de [[autor.xunzi|Xunzi]]. Destacan el capítulo 22, sobre la [[concepto.zhengming|rectificación de los nombres]], y el 23, sobre la [[tesis.naturaleza_mala|naturaleza humana]]."
+    },
+    {
+      "id": "obra.han_feizi",
+      "tipo": "obra",
+      "nombre": "Han Feizi",
+      "nombreOriginal": "韓非子",
+      "alias": [
+        "Libro del maestro Han Fei",
+        "El arte de la política"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": -260,
+          "max": -233
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "Núcleo de Han Fei, con algunos capítulos añadidos por otros; 55 capítulos."
+      },
+      "resumen": "Tratado sobre el arte de gobernar de [[autor.han_feizi|Han Feizi]]: [[concepto.fa|ley]], [[concepto.shu|técnica]] y [[concepto.shi|posición]]. Incluye los comentarios más antiguos conservados del [[obra.daodejing|Daodejing]]."
+    },
+    {
+      "id": "obra.yijing",
+      "tipo": "obra",
+      "nombre": "Yijing",
+      "nombreOriginal": "易經",
+      "alias": [
+        "I Ching",
+        "I King",
+        "Libro de los cambios",
+        "Zhouyi"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.china_preclasica",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_religion"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "chino arcaico y clásico",
+      "fechas": {
+        "composicion": {
+          "min": -900,
+          "max": -100
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Núcleo adivinatorio de época Zhou; las «Diez Alas» filosóficas son de los Reinos Combatientes y de época Han. Su atribución a Confucio está abandonada."
+      },
+      "capas": [
+        {
+          "nombre": "Zhouyi (64 hexagramas y sus dictámenes)",
+          "fecha": -800,
+          "testimonio": "Manual de adivinación de época Zhou occidental"
+        },
+        {
+          "nombre": "Diez Alas",
+          "fecha": -250,
+          "testimonio": "Comentarios filosóficos posteriores, con la teoría del yin-yang"
+        }
+      ],
+      "resumen": "Manual de adivinación con 64 hexagramas que, gracias a sus comentarios posteriores, se convirtió en un texto de cosmología basado en el [[concepto.yinyang|yin-yang]] y el cambio."
+    },
+    {
+      "id": "concepto.tian",
+      "tipo": "concepto",
+      "nombre": "tian",
+      "nombreOriginal": "天",
+      "terminoOriginal": "天",
+      "transliteracion": "tiān",
+      "traduccion": "Cielo",
+      "notaTraduccion": "Puede designar una potencia con voluntad moral o simplemente el curso de la naturaleza, según el autor.",
+      "alias": [
+        "Cielo",
+        "t'ien"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.china_preclasica",
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_religion"
+      ],
+      "resumen": "El Cielo, fuente última del orden. Para unos es una voluntad que premia la virtud; para [[autor.xunzi|Xunzi]], solo el curso regular de la naturaleza."
+    },
+    {
+      "id": "concepto.tianming",
+      "tipo": "concepto",
+      "nombre": "tianming",
+      "nombreOriginal": "天命",
+      "terminoOriginal": "天命",
+      "transliteracion": "tiānmìng",
+      "traduccion": "Mandato del Cielo",
+      "alias": [
+        "Mandato del Cielo"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.china_preclasica",
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica",
+        "tematica.filosofia_historia"
+      ],
+      "resumen": "Idea Zhou según la cual el [[concepto.tian|Cielo]] concede el derecho a gobernar a quien tiene virtud y se lo retira al tirano."
+    },
+    {
+      "id": "concepto.dao",
+      "tipo": "concepto",
+      "nombre": "dao",
+      "nombreOriginal": "道",
+      "terminoOriginal": "道",
+      "transliteracion": "dào",
+      "traduccion": "vía, camino, curso",
+      "notaTraduccion": "Para los confucianos es la vía correcta de conducta; en el Daodejing, el origen innombrable de todas las cosas.",
+      "alias": [
+        "tao",
+        "camino",
+        "vía",
+        "curso"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.etica"
+      ],
+      "resumen": "La «vía». Todas las escuelas buscan el dao correcto; el [[obra.daodejing|Daodejing]] lo convierte en el principio anterior a todo nombre."
+    },
+    {
+      "id": "concepto.de",
+      "tipo": "concepto",
+      "nombre": "de",
+      "nombreOriginal": "德",
+      "terminoOriginal": "德",
+      "transliteracion": "dé",
+      "traduccion": "virtud, potencia",
+      "notaTraduccion": "No solo bondad moral: también la fuerza o eficacia que irradia una persona o una cosa.",
+      "alias": [
+        "te",
+        "virtud",
+        "potencia"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.china_preclasica",
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.metafisica"
+      ],
+      "resumen": "La virtud entendida como poder que atrae y transforma a otros sin coacción."
+    },
+    {
+      "id": "concepto.yinyang",
+      "tipo": "concepto",
+      "nombre": "yin-yang",
+      "nombreOriginal": "陰陽",
+      "terminoOriginal": "陰陽",
+      "transliteracion": "yīnyáng",
+      "traduccion": "lo sombrío y lo soleado",
+      "alias": [
+        "yin y yang"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_ciencia"
+      ],
+      "resumen": "Par de fuerzas complementarias, oscura y luminosa, cuya alternancia explica el cambio en la naturaleza."
+    },
+    {
+      "id": "concepto.wuxing",
+      "tipo": "concepto",
+      "nombre": "wuxing",
+      "nombreOriginal": "五行",
+      "terminoOriginal": "五行",
+      "transliteracion": "wǔxíng",
+      "traduccion": "cinco fases",
+      "notaTraduccion": "Mejor «fases» o «agentes» que «elementos»: son procesos que se suceden, no sustancias.",
+      "alias": [
+        "cinco fases",
+        "cinco elementos",
+        "cinco agentes"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_ciencia",
+        "tematica.filosofia_historia"
+      ],
+      "resumen": "Madera, fuego, tierra, metal y agua: cinco fases que se generan y se vencen unas a otras en ciclos."
+    },
+    {
+      "id": "concepto.ren",
+      "tipo": "concepto",
+      "nombre": "ren",
+      "nombreOriginal": "仁",
+      "terminoOriginal": "仁",
+      "transliteracion": "rén",
+      "traduccion": "humanidad, benevolencia",
+      "notaTraduccion": "Ninguna traducción cubre todo el término; designa la virtud completa de la persona en sus relaciones.",
+      "alias": [
+        "humanidad",
+        "benevolencia",
+        "jen"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.antropologia_filosofica"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "resumen": "Virtud central del confucianismo: tratar a los demás con plena humanidad, empezando por la familia."
+    },
+    {
+      "id": "concepto.li",
+      "tipo": "concepto",
+      "nombre": "li",
+      "nombreOriginal": "禮",
+      "terminoOriginal": "禮",
+      "transliteracion": "lǐ",
+      "traduccion": "ritual, decoro",
+      "notaTraduccion": "Abarca desde las ceremonias religiosas hasta la cortesía cotidiana.",
+      "alias": [
+        "ritual",
+        "ritos",
+        "decoro"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.cultivo_de_si"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "resumen": "Las formas establecidas de conducta, del rito al saludo, que dan cauce a los sentimientos y ordenan la convivencia."
+    },
+    {
+      "id": "concepto.yi",
+      "tipo": "concepto",
+      "nombre": "yi",
+      "nombreOriginal": "義",
+      "terminoOriginal": "義",
+      "transliteracion": "yì",
+      "traduccion": "rectitud, lo justo",
+      "alias": [
+        "rectitud"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "resumen": "El sentido de lo que es debido en cada situación, aunque vaya contra el propio interés."
+    },
+    {
+      "id": "concepto.xiao",
+      "tipo": "concepto",
+      "nombre": "xiao",
+      "nombreOriginal": "孝",
+      "terminoOriginal": "孝",
+      "transliteracion": "xiào",
+      "traduccion": "piedad filial",
+      "alias": [
+        "piedad filial"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "resumen": "Respeto y cuidado hacia los padres y antepasados; la raíz de la [[concepto.ren|humanidad]] para los confucianos."
+    },
+    {
+      "id": "concepto.junzi",
+      "tipo": "concepto",
+      "nombre": "junzi",
+      "nombreOriginal": "君子",
+      "terminoOriginal": "君子",
+      "transliteracion": "jūnzǐ",
+      "traduccion": "persona ejemplar, caballero",
+      "notaTraduccion": "Originalmente «hijo de señor»; Confucio lo convierte en un ideal moral abierto a cualquiera.",
+      "alias": [
+        "caballero",
+        "persona ejemplar",
+        "hombre noble"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.cultivo_de_si"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "resumen": "La persona que se ha cultivado moralmente y sirve de ejemplo a los demás."
+    },
+    {
+      "id": "concepto.zhengming",
+      "tipo": "concepto",
+      "nombre": "zhengming",
+      "nombreOriginal": "正名",
+      "terminoOriginal": "正名",
+      "transliteracion": "zhèngmíng",
+      "traduccion": "rectificación de los nombres",
+      "alias": [
+        "rectificación de los nombres"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_lenguaje",
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "resumen": "Hacer que los nombres correspondan a la realidad: que el padre actúe como padre y el gobernante como gobernante. [[autor.xunzi|Xunzi]] la convierte en una teoría del lenguaje."
+    },
+    {
+      "id": "concepto.xing",
+      "tipo": "concepto",
+      "nombre": "xing",
+      "nombreOriginal": "性",
+      "terminoOriginal": "性",
+      "transliteracion": "xìng",
+      "traduccion": "naturaleza humana",
+      "notaTraduccion": "Lo que un ser tiene de nacimiento y tiende a desarrollar.",
+      "alias": [
+        "naturaleza humana"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.antropologia_filosofica",
+        "tematica.etica"
+      ],
+      "resumen": "La naturaleza innata del ser humano, objeto del gran debate entre [[autor.mencio|Mencio]] y [[autor.xunzi|Xunzi]]."
+    },
+    {
+      "id": "concepto.siduan",
+      "tipo": "concepto",
+      "nombre": "siduan",
+      "nombreOriginal": "四端",
+      "terminoOriginal": "四端",
+      "transliteracion": "sìduān",
+      "traduccion": "los cuatro brotes",
+      "alias": [
+        "cuatro brotes",
+        "cuatro comienzos"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.antropologia_filosofica"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "resumen": "Según [[autor.mencio|Mencio]], los sentimientos innatos de compasión, vergüenza, respeto y aprobación, de los que crecen las cuatro virtudes."
+    },
+    {
+      "id": "concepto.wei",
+      "tipo": "concepto",
+      "nombre": "wei",
+      "nombreOriginal": "偽",
+      "terminoOriginal": "偽",
+      "transliteracion": "wěi",
+      "traduccion": "esfuerzo deliberado, artificio",
+      "notaTraduccion": "En otros textos significa «falso»; en Xunzi es lo que se hace con esfuerzo consciente, sin sentido negativo.",
+      "alias": [
+        "artificio",
+        "esfuerzo deliberado"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.antropologia_filosofica"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "resumen": "Para [[autor.xunzi|Xunzi]], todo lo bueno que no es innato, sino fruto del aprendizaje y el esfuerzo."
+    },
+    {
+      "id": "concepto.jianai",
+      "tipo": "concepto",
+      "nombre": "jian'ai",
+      "nombreOriginal": "兼愛",
+      "terminoOriginal": "兼愛",
+      "transliteracion": "jiān'ài",
+      "traduccion": "cuidado inclusivo",
+      "notaTraduccion": "Suele traducirse como «amor universal», pero se refiere a tener en cuenta por igual el bien de todos, no a un sentimiento.",
+      "alias": [
+        "amor universal",
+        "cuidado inclusivo",
+        "amor imparcial"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.mohismo"
+      ],
+      "resumen": "Principio mohista: preocuparse por los demás igual que por los propios, sin distinguir entre los nuestros y los ajenos."
+    },
+    {
+      "id": "concepto.wuwei",
+      "tipo": "concepto",
+      "nombre": "wuwei",
+      "nombreOriginal": "無為",
+      "terminoOriginal": "無為",
+      "transliteracion": "wúwéi",
+      "traduccion": "no actuar, no forzar",
+      "notaTraduccion": "No es pasividad, sino actuar sin forzar ni imponer.",
+      "alias": [
+        "wu wei",
+        "no acción",
+        "no actuar"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica",
+        "tematica.cultivo_de_si"
+      ],
+      "resumen": "Actuar sin forzar, dejando que las cosas sigan su curso; ideal del sabio y del gobernante en el [[obra.daodejing|Daodejing]]."
+    },
+    {
+      "id": "concepto.ziran",
+      "tipo": "concepto",
+      "nombre": "ziran",
+      "nombreOriginal": "自然",
+      "terminoOriginal": "自然",
+      "transliteracion": "zìrán",
+      "traduccion": "espontaneidad, ser así por sí mismo",
+      "alias": [
+        "espontaneidad",
+        "tzu-jan"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.cultivo_de_si"
+      ],
+      "resumen": "Lo que es así por sí mismo, sin intervención externa. El [[concepto.dao|dao]] sigue la espontaneidad."
+    },
+    {
+      "id": "concepto.fa",
+      "tipo": "concepto",
+      "nombre": "fa",
+      "nombreOriginal": "法",
+      "terminoOriginal": "法",
+      "transliteracion": "fǎ",
+      "traduccion": "modelo, estándar, ley",
+      "notaTraduccion": "Para los mohistas es un modelo de medida; para los legalistas, la ley escrita del Estado.",
+      "alias": [
+        "ley",
+        "modelo",
+        "estándar"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica",
+        "tematica.logica"
+      ],
+      "resumen": "Un estándar público con el que medir: la escuadra del carpintero para [[autor.mozi|Mozi]], la ley escrita para [[autor.han_feizi|Han Feizi]]."
+    },
+    {
+      "id": "concepto.shu",
+      "tipo": "concepto",
+      "nombre": "shu",
+      "nombreOriginal": "術",
+      "terminoOriginal": "術",
+      "transliteracion": "shù",
+      "traduccion": "técnica, método",
+      "alias": [
+        "técnica"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.fajia"
+      ],
+      "resumen": "Las técnicas con las que el gobernante controla a sus ministros, comparando lo que prometen con lo que hacen."
+    },
+    {
+      "id": "concepto.shi",
+      "tipo": "concepto",
+      "nombre": "shi",
+      "nombreOriginal": "勢",
+      "terminoOriginal": "勢",
+      "transliteracion": "shì",
+      "traduccion": "posición, potencial de poder",
+      "alias": [
+        "posición",
+        "autoridad"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.fajia"
+      ],
+      "resumen": "La fuerza que da ocupar una posición de autoridad, con independencia de las cualidades personales."
+    },
+    {
+      "id": "concepto.ming_shi",
+      "tipo": "concepto",
+      "nombre": "ming y shi",
+      "nombreOriginal": "名實",
+      "terminoOriginal": "名實",
+      "transliteracion": "míng shí",
+      "traduccion": "nombre y realidad",
+      "alias": [
+        "nombre y realidad",
+        "nombres y realidades"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_lenguaje",
+        "tematica.logica"
+      ],
+      "resumen": "La relación entre los nombres y las cosas que nombran, gran tema de los disputadores y de los mohistas tardíos."
+    },
+    {
+      "id": "tesis.naturaleza_buena",
+      "tipo": "tesis",
+      "nombre": "La naturaleza humana es buena",
+      "enunciado": "La naturaleza humana es buena: todos nacemos con brotes de virtud.",
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.antropologia_filosofica",
+        "tematica.etica"
+      ],
+      "resumen": "Tesis de [[autor.mencio|Mencio]]: la bondad forma parte de nuestra naturaleza, igual que dar árboles forma parte de la naturaleza de un monte; si un monte acaba pelado es porque lo han talado y pastoreado sin descanso, no porque sea su naturaleza."
+    },
+    {
+      "id": "tesis.naturaleza_mala",
+      "tipo": "tesis",
+      "nombre": "La naturaleza humana es mala",
+      "enunciado": "La naturaleza humana es mala; lo bueno en ella es fruto del esfuerzo deliberado.",
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.antropologia_filosofica",
+        "tematica.etica"
+      ],
+      "resumen": "Tesis de [[autor.xunzi|Xunzi]]: sin [[concepto.li|ritual]] ni educación, los deseos llevan al conflicto."
+    },
+    {
+      "id": "tesis.cuidado_inclusivo",
+      "tipo": "tesis",
+      "nombre": "Cuidar de todos sin parcialidad",
+      "enunciado": "Hay que preocuparse por los demás como por uno mismo y los suyos.",
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica"
+      ],
+      "resumen": "Tesis de [[autor.mozi|Mozi]]: la parcialidad hacia los propios es la raíz de robos, guerras y desorden."
+    },
+    {
+      "id": "tesis.dao_indecible",
+      "tipo": "tesis",
+      "nombre": "El dao que puede decirse no es el dao constante",
+      "enunciado": "El dao que puede decirse no es el dao constante; el nombre que puede nombrarse no es el nombre constante.",
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_lenguaje"
+      ],
+      "resumen": "Apertura del [[obra.daodejing|Daodejing]]: el principio de todo queda más allá del lenguaje."
+    },
+    {
+      "id": "tesis.perspectivas",
+      "tipo": "tesis",
+      "nombre": "Todo juicio depende de la perspectiva",
+      "enunciado": "Cada cosa es «esto» desde un lado y «aquello» desde otro; ninguna perspectiva es la definitiva.",
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.epistemologia",
+        "tematica.filosofia_lenguaje"
+      ],
+      "resumen": "Idea central del capítulo 2 del [[obra.zhuangzi|Zhuangzi]]: las disputas entre escuelas nacen de tomar un punto de vista por absoluto."
+    },
+    {
+      "id": "tesis.caballo_blanco",
+      "tipo": "tesis",
+      "nombre": "Un caballo blanco no es un caballo",
+      "enunciado": "Un caballo blanco no es un caballo.",
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.filosofia_lenguaje"
+      ],
+      "resumen": "Paradoja de [[autor.gongsun_long|Gongsun Long]]: si alguien pide un caballo, le sirve uno amarillo o uno negro; si pide un caballo blanco, no. Por tanto, «caballo blanco» y «caballo» no significan lo mismo."
+    },
+    {
+      "id": "tesis.divisibilidad",
+      "tipo": "tesis",
+      "nombre": "La vara que nunca se agota",
+      "enunciado": "Una vara de un pie, cortada por la mitad cada día, no se agota en diez mil generaciones.",
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.metafisica"
+      ],
+      "resumen": "Paradoja de los disputadores recogida en el capítulo 33 del [[obra.zhuangzi|Zhuangzi]], sobre la divisibilidad infinita."
+    },
+    {
+      "id": "tesis.gobierno_por_ley",
+      "tipo": "tesis",
+      "nombre": "Gobernar por la ley, no por la virtud",
+      "enunciado": "Un Estado se ordena con leyes claras, premios y castigos, no confiando en la virtud de los gobernantes.",
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica"
+      ],
+      "resumen": "Tesis de [[autor.han_feizi|Han Feizi]]: los gobernantes sabios son escasos; las buenas leyes funcionan con gobernantes corrientes."
+    },
+    {
+      "id": "tesis.ciclo_cinco_fases",
+      "tipo": "tesis",
+      "nombre": "Las dinastías siguen el ciclo de las cinco fases",
+      "enunciado": "Cada dinastía gobierna bajo la virtud de una de las cinco fases, que se suceden en un orden fijo.",
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.filosofia_historia"
+      ],
+      "resumen": "Tesis atribuida a [[autor.zou_yan|Zou Yan]] que convirtió la cosmología en filosofía de la historia."
+    },
+    {
+      "id": "autor.shang_yang",
+      "tipo": "autor",
+      "nombre": "Shang Yang",
+      "nombreOriginal": "商鞅",
+      "alias": [
+        "Señor de Shang",
+        "Gongsun Yang",
+        "Wei Yang"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.fajia"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Estado de Wey",
+      "fechas": {
+        "nacimiento": {
+          "min": -395,
+          "max": -385
+        },
+        "muerte": {
+          "min": -338,
+          "max": -338
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "c. 390 – 338 a. C. La fecha de su muerte es firme."
+      },
+      "resumen": "Ministro del estado de Qin que, con leyes duras y un sistema estricto de premios y castigos, lo convirtió en la potencia que acabaría unificando China. Se le atribuye el Libro del señor Shang.",
+      "anecdotas": "Cuando cayó en desgracia y tuvo que huir, quiso pasar la noche en una posada, pero el posadero lo rechazó: según la ley de Shang Yang, alojar a un viajero sin documentos estaba castigado. Él mismo había creado la ley que le cerraba la puerta. Poco después fue capturado y ejecutado ([[obra.shiji|Shiji]], cap. 68 · C)."
+    },
+    {
+      "id": "autor.shen_buhai",
+      "tipo": "autor",
+      "nombre": "Shen Buhai",
+      "nombreOriginal": "申不害",
+      "alias": [
+        "Shen Pu-hai",
+        "Shenzi"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.fajia"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Estado de Zheng",
+      "fechas": {
+        "nacimiento": {
+          "min": -405,
+          "max": -395
+        },
+        "muerte": {
+          "min": -337,
+          "max": -337
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "c. 400 – 337 a. C."
+      },
+      "resumen": "Canciller del estado de Han durante unos quince años. Ideó [[concepto.shu|técnicas]] para que el gobernante controlara a sus funcionarios comparando lo que cada uno prometía con lo que hacía."
+    },
+    {
+      "id": "autor.shen_dao",
+      "tipo": "autor",
+      "nombre": "Shen Dao",
+      "nombreOriginal": "慎到",
+      "alias": [
+        "Shen Tao",
+        "Shenzi"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.fajia"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Estado de Zhao",
+      "fechas": {
+        "nacimiento": {
+          "min": -360,
+          "max": -340
+        },
+        "muerte": {
+          "min": -285,
+          "max": -265
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "c. 350 – 275 a. C., fechas muy aproximadas."
+      },
+      "resumen": "Pensador del estado de Zhao que enseñó en la Academia Jixia de Qi. Sostuvo que el poder no depende de la sabiduría del gobernante, sino de la [[concepto.shi|posición]] que ocupa: un dragón sin nubes en las que volar no es más que un gusano."
+    },
+    {
+      "id": "autor.li_si",
+      "tipo": "autor",
+      "nombre": "Li Si",
+      "nombreOriginal": "李斯",
+      "alias": [
+        "Li Ssu"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas",
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.fajia"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Shangcai, estado de Chu",
+      "fechas": {
+        "nacimiento": {
+          "min": -285,
+          "max": -275
+        },
+        "muerte": {
+          "min": -208,
+          "max": -208
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "c. 280 – 208 a. C. La fecha de su muerte es firme."
+      },
+      "resumen": "Discípulo de [[autor.xunzi|Xunzi]] que llegó a canciller del primer emperador de China. Impulsó la unificación de la escritura y las medidas, y propuso la quema de libros del 213 a. C.",
+      "anecdotas": "De joven observó que las ratas de las letrinas vivían sucias y asustadas, mientras que las del granero comían tranquilas: concluyó que lo que una persona vale depende del lugar que ocupa, y decidió buscar fortuna en el estado de Qin. Murió ejecutado en el 208 a. C. tras una intriga de la corte ([[obra.shiji|Shiji]], cap. 87 · C)."
+    },
+    {
+      "id": "autor.yang_zhu",
+      "tipo": "autor",
+      "nombre": "Yang Zhu",
+      "nombreOriginal": "楊朱",
+      "alias": [
+        "Yangzi",
+        "Yang Chu"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.cien_escuelas"
+      ],
+      "tematicas": [
+        "tematica.etica"
+      ],
+      "escuelas": [],
+      "circulo": 2,
+      "lugarOrigen": "Desconocido",
+      "fechas": {
+        "activo": {
+          "min": -400,
+          "max": -330
+        },
+        "tipo": "actividad",
+        "historicidad": "probable",
+        "alternativas": [],
+        "nota": "Activo en el siglo IV a. C.; solo se conoce por lo que dicen sus críticos."
+      },
+      "resumen": "Pensador conocido solo a través de sus críticos. Defendía cuidar ante todo la propia vida y no dejarse dañar por ambiciones ni cargos. [[autor.mencio|Mencio]] lo caricaturizó diciendo que no se arrancaría un solo pelo aunque con ello beneficiara a todo el mundo."
+    },
+    {
+      "id": "autor.sima_qian",
+      "tipo": "autor",
+      "nombre": "Sima Qian",
+      "nombreOriginal": "司馬遷",
+      "alias": [
+        "Ssu-ma Ch'ien",
+        "Gran Historiador"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.filosofia_historia"
+      ],
+      "escuelas": [],
+      "circulo": 3,
+      "lugarOrigen": "Longmen",
+      "fechas": {
+        "nacimiento": {
+          "min": -145,
+          "max": -135
+        },
+        "muerte": {
+          "min": -90,
+          "max": -80
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "c. 145 – c. 86 a. C."
+      },
+      "resumen": "Historiador de la corte Han, autor del [[obra.shiji|Shiji]], la primera gran historia de China. Gran parte de lo que sabemos de los filósofos chinos antiguos procede de sus biografías.",
+      "anecdotas": "Por defender ante el emperador a un general caído en desgracia fue condenado a muerte. Eligió la castración en lugar de la ejecución para poder terminar la obra que había prometido a su padre, según explica él mismo en una carta a su amigo Ren An (Carta a Ren An · A)."
+    },
+    {
+      "id": "obra.shiji",
+      "tipo": "obra",
+      "nombre": "Shiji",
+      "nombreOriginal": "史記",
+      "alias": [
+        "Memorias históricas",
+        "Registros del historiador",
+        "Shih chi"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.filosofia_historia"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": -109,
+          "max": -91
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "Iniciado por Sima Tan y completado por su hijo Sima Qian hacia el 91 a. C."
+      },
+      "resumen": "Historia de China desde los tiempos legendarios hasta la época de su autor, [[autor.sima_qian|Sima Qian]], en 130 capítulos. Sus biografías son la fuente principal sobre muchos filósofos antiguos, aunque mezclan datos históricos con tradiciones."
+    },
+    {
+      "id": "obra.lienu_zhuan",
+      "tipo": "obra",
+      "nombre": "Biografías de mujeres ejemplares",
+      "nombreOriginal": "列女傳",
+      "alias": [
+        "Lienü zhuan",
+        "Lieh-nü chuan"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.etica"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": -33,
+          "max": -6
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "Reunida por el bibliotecario imperial Liu Xiang (77-6 a. C.)."
+      },
+      "resumen": "Colección de vidas de mujeres modélicas reunida por el bibliotecario imperial Liu Xiang en el siglo I a. C. Incluye las historias más conocidas de la madre de [[autor.mencio|Mencio]]."
+    }
+  ],
+  "relaciones": [
+    {
+      "id": "r0001",
+      "origen": "obra.analectas",
+      "tipo": "es_fuente_de",
+      "destino": "autor.confucio",
+      "certeza": "D"
+    },
+    {
+      "id": "r0002",
+      "origen": "obra.analectas",
+      "tipo": "trata_sobre",
+      "destino": "concepto.ren",
+      "certeza": "D"
+    },
+    {
+      "id": "r0003",
+      "origen": "obra.analectas",
+      "tipo": "trata_sobre",
+      "destino": "concepto.li",
+      "certeza": "D"
+    },
+    {
+      "id": "r0004",
+      "origen": "obra.analectas",
+      "tipo": "trata_sobre",
+      "destino": "concepto.junzi",
+      "certeza": "D"
+    },
+    {
+      "id": "r0005",
+      "origen": "obra.analectas",
+      "tipo": "trata_sobre",
+      "destino": "concepto.zhengming",
+      "certeza": "D",
+      "fuente": "Analectas 13.3"
+    },
+    {
+      "id": "r0006",
+      "origen": "obra.analectas",
+      "tipo": "trata_sobre",
+      "destino": "concepto.xiao",
+      "certeza": "D"
+    },
+    {
+      "id": "r0010",
+      "origen": "obra.mozi",
+      "tipo": "es_fuente_de",
+      "destino": "autor.mozi",
+      "certeza": "D"
+    },
+    {
+      "id": "r0011",
+      "origen": "obra.mozi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.jianai",
+      "certeza": "D"
+    },
+    {
+      "id": "r0012",
+      "origen": "obra.mozi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.fa",
+      "certeza": "D"
+    },
+    {
+      "id": "r0013",
+      "origen": "autor.mozi",
+      "tipo": "defiende",
+      "destino": "tesis.cuidado_inclusivo",
+      "certeza": "D"
+    },
+    {
+      "id": "r0014",
+      "origen": "tesis.cuidado_inclusivo",
+      "tipo": "trata_sobre",
+      "destino": "concepto.jianai",
+      "certeza": "D"
+    },
+    {
+      "id": "r0015",
+      "origen": "autor.mozi",
+      "tipo": "critica",
+      "destino": "escuela.ru",
+      "certeza": "D",
+      "fuente": "Mozi, cap. 39, «Contra los confucianos»"
+    },
+    {
+      "id": "r0020",
+      "origen": "autor.laozi",
+      "tipo": "escribio",
+      "destino": "obra.daodejing",
+      "certeza": "C",
+      "nota": "Autoría tradicional; el texto se compuso por etapas."
+    },
+    {
+      "id": "r0021",
+      "origen": "obra.daodejing",
+      "tipo": "trata_sobre",
+      "destino": "concepto.dao",
+      "certeza": "D"
+    },
+    {
+      "id": "r0022",
+      "origen": "obra.daodejing",
+      "tipo": "trata_sobre",
+      "destino": "concepto.de",
+      "certeza": "D"
+    },
+    {
+      "id": "r0023",
+      "origen": "obra.daodejing",
+      "tipo": "trata_sobre",
+      "destino": "concepto.wuwei",
+      "certeza": "D"
+    },
+    {
+      "id": "r0024",
+      "origen": "obra.daodejing",
+      "tipo": "trata_sobre",
+      "destino": "concepto.ziran",
+      "certeza": "D"
+    },
+    {
+      "id": "r0025",
+      "origen": "autor.laozi",
+      "tipo": "defiende",
+      "destino": "tesis.dao_indecible",
+      "certeza": "C",
+      "nota": "La tesis es del Daodejing; su atribución a Laozi es tradicional."
+    },
+    {
+      "id": "r0026",
+      "origen": "tesis.dao_indecible",
+      "tipo": "trata_sobre",
+      "destino": "concepto.dao",
+      "certeza": "D",
+      "fuente": "Daodejing 1"
+    },
+    {
+      "id": "r0030",
+      "origen": "autor.mencio",
+      "tipo": "escribio",
+      "destino": "obra.mengzi",
+      "certeza": "P",
+      "nota": "Recogido por Mencio y sus discípulos."
+    },
+    {
+      "id": "r0031",
+      "origen": "autor.mencio",
+      "tipo": "defiende",
+      "destino": "tesis.naturaleza_buena",
+      "certeza": "D",
+      "fuente": "Mengzi 6A"
+    },
+    {
+      "id": "r0032",
+      "origen": "tesis.naturaleza_buena",
+      "tipo": "trata_sobre",
+      "destino": "concepto.xing",
+      "certeza": "D"
+    },
+    {
+      "id": "r0033",
+      "origen": "obra.mengzi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.siduan",
+      "certeza": "D",
+      "fuente": "Mengzi 2A6"
+    },
+    {
+      "id": "r0034",
+      "origen": "autor.mencio",
+      "tipo": "desarrolla",
+      "destino": "concepto.ren",
+      "certeza": "D"
+    },
+    {
+      "id": "r0035",
+      "origen": "autor.mencio",
+      "tipo": "critica",
+      "destino": "autor.mozi",
+      "certeza": "D",
+      "fuente": "Mengzi 3B9"
+    },
+    {
+      "id": "r0036",
+      "origen": "obra.mengzi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.tianming",
+      "certeza": "D"
+    },
+    {
+      "id": "r0040",
+      "origen": "autor.zhuangzi",
+      "tipo": "escribio",
+      "destino": "obra.zhuangzi",
+      "certeza": "P",
+      "nota": "Solo los capítulos interiores (1-7); el resto procede de su escuela y otras corrientes."
+    },
+    {
+      "id": "r0041",
+      "origen": "autor.zhuangzi",
+      "tipo": "defiende",
+      "destino": "tesis.perspectivas",
+      "certeza": "D",
+      "fuente": "Zhuangzi 2"
+    },
+    {
+      "id": "r0042",
+      "origen": "obra.zhuangzi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.dao",
+      "certeza": "D"
+    },
+    {
+      "id": "r0043",
+      "origen": "obra.zhuangzi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.ziran",
+      "certeza": "D"
+    },
+    {
+      "id": "r0044",
+      "origen": "autor.zhuangzi",
+      "tipo": "responde_a",
+      "destino": "autor.hui_shi",
+      "certeza": "D",
+      "fuente": "Zhuangzi 17, debate sobre la alegría de los peces",
+      "nota": "Documentado como texto; la escena puede ser literaria."
+    },
+    {
+      "id": "r0045",
+      "origen": "obra.zhuangzi",
+      "tipo": "es_fuente_de",
+      "destino": "autor.hui_shi",
+      "certeza": "D",
+      "fuente": "Zhuangzi 33"
+    },
+    {
+      "id": "r0046",
+      "origen": "obra.zhuangzi",
+      "tipo": "es_fuente_de",
+      "destino": "escuela.mingjia",
+      "certeza": "D",
+      "fuente": "Zhuangzi 33"
+    },
+    {
+      "id": "r0050",
+      "origen": "autor.gongsun_long",
+      "tipo": "escribio",
+      "destino": "obra.gongsun_longzi",
+      "certeza": "P",
+      "nota": "Parte de los capítulos es de autenticidad discutida."
+    },
+    {
+      "id": "r0051",
+      "origen": "autor.gongsun_long",
+      "tipo": "defiende",
+      "destino": "tesis.caballo_blanco",
+      "certeza": "D"
+    },
+    {
+      "id": "r0052",
+      "origen": "tesis.caballo_blanco",
+      "tipo": "trata_sobre",
+      "destino": "concepto.ming_shi",
+      "certeza": "D"
+    },
+    {
+      "id": "r0053",
+      "origen": "escuela.mingjia",
+      "tipo": "defiende",
+      "destino": "tesis.divisibilidad",
+      "certeza": "D",
+      "fuente": "Zhuangzi 33"
+    },
+    {
+      "id": "r0060",
+      "origen": "autor.zou_yan",
+      "tipo": "defiende",
+      "destino": "tesis.ciclo_cinco_fases",
+      "certeza": "P",
+      "fuente": "Shiji 74",
+      "nota": "Sus obras se perdieron; se conoce por fuentes Han."
+    },
+    {
+      "id": "r0061",
+      "origen": "tesis.ciclo_cinco_fases",
+      "tipo": "trata_sobre",
+      "destino": "concepto.wuxing",
+      "certeza": "D"
+    },
+    {
+      "id": "r0062",
+      "origen": "autor.zou_yan",
+      "tipo": "desarrolla",
+      "destino": "concepto.yinyang",
+      "certeza": "P",
+      "fuente": "Shiji 74"
+    },
+    {
+      "id": "r0070",
+      "origen": "autor.xunzi",
+      "tipo": "escribio",
+      "destino": "obra.xunzi",
+      "certeza": "D",
+      "nota": "En su mayor parte; ordenado por Liu Xiang en el siglo I a. C."
+    },
+    {
+      "id": "r0071",
+      "origen": "autor.xunzi",
+      "tipo": "defiende",
+      "destino": "tesis.naturaleza_mala",
+      "certeza": "D",
+      "fuente": "Xunzi, cap. 23"
+    },
+    {
+      "id": "r0072",
+      "origen": "tesis.naturaleza_mala",
+      "tipo": "trata_sobre",
+      "destino": "concepto.xing",
+      "certeza": "D"
+    },
+    {
+      "id": "r0073",
+      "origen": "tesis.naturaleza_mala",
+      "tipo": "se_opone_a",
+      "destino": "tesis.naturaleza_buena",
+      "certeza": "D",
+      "fuente": "Xunzi, cap. 23"
+    },
+    {
+      "id": "r0074",
+      "origen": "autor.xunzi",
+      "tipo": "critica",
+      "destino": "autor.mencio",
+      "certeza": "D",
+      "fuente": "Xunzi, cap. 23"
+    },
+    {
+      "id": "r0075",
+      "origen": "obra.xunzi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.zhengming",
+      "certeza": "D",
+      "fuente": "Xunzi, cap. 22"
+    },
+    {
+      "id": "r0076",
+      "origen": "obra.xunzi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.wei",
+      "certeza": "D",
+      "fuente": "Xunzi, cap. 23"
+    },
+    {
+      "id": "r0077",
+      "origen": "obra.xunzi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.li",
+      "certeza": "D",
+      "fuente": "Xunzi, cap. 19"
+    },
+    {
+      "id": "r0078",
+      "origen": "autor.xunzi",
+      "tipo": "fue_maestro_de",
+      "destino": "autor.han_feizi",
+      "certeza": "P",
+      "fuente": "Shiji 63"
+    },
+    {
+      "id": "r0079",
+      "origen": "obra.xunzi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.tian",
+      "certeza": "D",
+      "fuente": "Xunzi, cap. 17"
+    },
+    {
+      "id": "r0080",
+      "origen": "autor.han_feizi",
+      "tipo": "escribio",
+      "destino": "obra.han_feizi",
+      "certeza": "P",
+      "nota": "Núcleo de Han Fei, con capítulos añadidos por otros."
+    },
+    {
+      "id": "r0081",
+      "origen": "autor.han_feizi",
+      "tipo": "defiende",
+      "destino": "tesis.gobierno_por_ley",
+      "certeza": "D"
+    },
+    {
+      "id": "r0082",
+      "origen": "tesis.gobierno_por_ley",
+      "tipo": "trata_sobre",
+      "destino": "concepto.fa",
+      "certeza": "D"
+    },
+    {
+      "id": "r0083",
+      "origen": "obra.han_feizi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.shu",
+      "certeza": "D"
+    },
+    {
+      "id": "r0084",
+      "origen": "obra.han_feizi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.shi",
+      "certeza": "D"
+    },
+    {
+      "id": "r0085",
+      "origen": "obra.han_feizi",
+      "tipo": "comenta",
+      "destino": "obra.daodejing",
+      "certeza": "D",
+      "fuente": "Han Feizi, caps. 20-21"
+    },
+    {
+      "id": "r0086",
+      "origen": "autor.han_feizi",
+      "tipo": "critica",
+      "destino": "escuela.ru",
+      "certeza": "D",
+      "fuente": "Han Feizi, cap. 49, «Las cinco plagas»"
+    },
+    {
+      "id": "r0090",
+      "origen": "obra.yijing",
+      "tipo": "trata_sobre",
+      "destino": "concepto.yinyang",
+      "certeza": "D",
+      "nota": "En las Diez Alas, no en el núcleo adivinatorio."
+    },
+    {
+      "id": "r0091",
+      "origen": "obra.mengzi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.yi",
+      "certeza": "D",
+      "fuente": "Mengzi 1A1"
+    },
+    {
+      "id": "r0100",
+      "origen": "autor.han_feizi",
+      "tipo": "desarrolla",
+      "destino": "autor.shang_yang",
+      "certeza": "D",
+      "fuente": "Han Feizi, cap. 43"
+    },
+    {
+      "id": "r0101",
+      "origen": "autor.han_feizi",
+      "tipo": "desarrolla",
+      "destino": "autor.shen_buhai",
+      "certeza": "D",
+      "fuente": "Han Feizi, cap. 43"
+    },
+    {
+      "id": "r0102",
+      "origen": "autor.han_feizi",
+      "tipo": "desarrolla",
+      "destino": "autor.shen_dao",
+      "certeza": "D",
+      "fuente": "Han Feizi, cap. 40"
+    },
+    {
+      "id": "r0103",
+      "origen": "autor.shang_yang",
+      "tipo": "desarrolla",
+      "destino": "concepto.fa",
+      "certeza": "D"
+    },
+    {
+      "id": "r0104",
+      "origen": "autor.shen_buhai",
+      "tipo": "desarrolla",
+      "destino": "concepto.shu",
+      "certeza": "D"
+    },
+    {
+      "id": "r0105",
+      "origen": "autor.shen_dao",
+      "tipo": "desarrolla",
+      "destino": "concepto.shi",
+      "certeza": "D"
+    },
+    {
+      "id": "r0106",
+      "origen": "autor.xunzi",
+      "tipo": "fue_maestro_de",
+      "destino": "autor.li_si",
+      "certeza": "P",
+      "fuente": "Shiji, cap. 87"
+    },
+    {
+      "id": "r0107",
+      "origen": "autor.mencio",
+      "tipo": "critica",
+      "destino": "autor.yang_zhu",
+      "certeza": "D",
+      "fuente": "Mengzi 3B9 y 7A26"
+    },
+    {
+      "id": "r0108",
+      "origen": "autor.sima_qian",
+      "tipo": "escribio",
+      "destino": "obra.shiji",
+      "certeza": "D",
+      "nota": "A partir del trabajo de su padre, Sima Tan."
+    },
+    {
+      "id": "r0109",
+      "origen": "obra.shiji",
+      "tipo": "es_fuente_de",
+      "destino": "autor.laozi",
+      "certeza": "D",
+      "fuente": "Shiji, cap. 63"
+    },
+    {
+      "id": "r0110",
+      "origen": "obra.shiji",
+      "tipo": "es_fuente_de",
+      "destino": "autor.han_feizi",
+      "certeza": "D",
+      "fuente": "Shiji, cap. 63"
+    },
+    {
+      "id": "r0111",
+      "origen": "obra.shiji",
+      "tipo": "es_fuente_de",
+      "destino": "autor.zou_yan",
+      "certeza": "D",
+      "fuente": "Shiji, cap. 74"
+    },
+    {
+      "id": "r0112",
+      "origen": "obra.shiji",
+      "tipo": "es_fuente_de",
+      "destino": "autor.xunzi",
+      "certeza": "D",
+      "fuente": "Shiji, cap. 74"
+    },
+    {
+      "id": "r0113",
+      "origen": "obra.shiji",
+      "tipo": "es_fuente_de",
+      "destino": "autor.shang_yang",
+      "certeza": "D",
+      "fuente": "Shiji, cap. 68"
+    },
+    {
+      "id": "r0114",
+      "origen": "obra.shiji",
+      "tipo": "es_fuente_de",
+      "destino": "autor.confucio",
+      "certeza": "D",
+      "fuente": "Shiji, cap. 47"
+    },
+    {
+      "id": "r0115",
+      "origen": "obra.lienu_zhuan",
+      "tipo": "es_fuente_de",
+      "destino": "autor.mencio",
+      "certeza": "C",
+      "nota": "Solo sobre su infancia y su madre; relatos edificantes."
+    },
+    {
+      "id": "r0116",
+      "origen": "obra.shiji",
+      "tipo": "es_fuente_de",
+      "destino": "autor.li_si",
+      "certeza": "D",
+      "fuente": "Shiji, cap. 87"
+    }
+  ]
+}

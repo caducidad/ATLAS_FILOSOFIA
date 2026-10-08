@@ -1,0 +1,187 @@
+{
+  "version": "0.1",
+  "actualizado": "2026-10-08",
+  "descripcion": "Elementos comunes a todas las tradiciones: catálogo de relaciones y temáticas",
+  "tiposRelacion": {
+    "escribio": {
+      "directo": "escribió",
+      "inverso": "escrita por",
+      "simetrica": false
+    },
+    "parte_de": {
+      "directo": "es parte de",
+      "inverso": "contiene",
+      "simetrica": false
+    },
+    "fue_maestro_de": {
+      "directo": "fue maestro de",
+      "inverso": "fue discípulo de",
+      "simetrica": false
+    },
+    "influyo_en": {
+      "directo": "influyó en",
+      "inverso": "recibió influencia de",
+      "simetrica": false
+    },
+    "critica": {
+      "directo": "critica",
+      "inverso": "es criticado por",
+      "simetrica": false
+    },
+    "desarrolla": {
+      "directo": "desarrolla",
+      "inverso": "es desarrollado por",
+      "simetrica": false
+    },
+    "responde_a": {
+      "directo": "responde a",
+      "inverso": "recibe respuesta de",
+      "simetrica": false
+    },
+    "defiende": {
+      "directo": "defiende",
+      "inverso": "es defendida por",
+      "simetrica": false
+    },
+    "trata_sobre": {
+      "directo": "trata sobre",
+      "inverso": "se trata en",
+      "simetrica": false
+    },
+    "comenta": {
+      "directo": "comenta",
+      "inverso": "es comentada por",
+      "simetrica": false
+    },
+    "es_fuente_de": {
+      "directo": "es fuente sobre",
+      "inverso": "se conoce a través de",
+      "simetrica": false
+    },
+    "se_opone_a": {
+      "directo": "se opone a",
+      "inverso": "se opone a",
+      "simetrica": true
+    },
+    "paralelo_a": {
+      "directo": "es paralelo a",
+      "inverso": "es paralelo a",
+      "simetrica": true
+    }
+  },
+  "nodos": [
+    {
+      "id": "tematica.metafisica",
+      "tipo": "tematica",
+      "nombre": "Metafísica",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por lo que hay, por el ser y por el orden último de la realidad."
+    },
+    {
+      "id": "tematica.epistemologia",
+      "tipo": "tematica",
+      "nombre": "Epistemología",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por el conocimiento: qué podemos saber y cómo lo justificamos."
+    },
+    {
+      "id": "tematica.etica",
+      "tipo": "tematica",
+      "nombre": "Ética",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por cómo debemos vivir y actuar."
+    },
+    {
+      "id": "tematica.filosofia_politica",
+      "tipo": "tematica",
+      "nombre": "Filosofía política",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por el poder, el gobierno y la vida en común."
+    },
+    {
+      "id": "tematica.estetica",
+      "tipo": "tematica",
+      "nombre": "Estética",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por la belleza, el arte y la experiencia sensible."
+    },
+    {
+      "id": "tematica.logica",
+      "tipo": "tematica",
+      "nombre": "Lógica",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Estudia el razonamiento correcto, la inferencia y la argumentación."
+    },
+    {
+      "id": "tematica.filosofia_mente",
+      "tipo": "tematica",
+      "nombre": "Filosofía de la mente",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por la mente, la conciencia y su relación con el cuerpo."
+    },
+    {
+      "id": "tematica.filosofia_lenguaje",
+      "tipo": "tematica",
+      "nombre": "Filosofía del lenguaje",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por el significado, los nombres y la relación entre palabras y cosas."
+    },
+    {
+      "id": "tematica.filosofia_ciencia",
+      "tipo": "tematica",
+      "nombre": "Filosofía de la ciencia",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por el conocimiento de la naturaleza y sus métodos. En la Antigüedad se trata como filosofía natural."
+    },
+    {
+      "id": "tematica.filosofia_religion",
+      "tipo": "tematica",
+      "nombre": "Filosofía de la religión",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por lo divino, lo sagrado y la fe. En la Antigüedad la frontera entre religión y filosofía es moderna."
+    },
+    {
+      "id": "tematica.antropologia_filosofica",
+      "tipo": "tematica",
+      "nombre": "Antropología filosófica",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por qué es el ser humano y cuál es su naturaleza."
+    },
+    {
+      "id": "tematica.filosofia_historia",
+      "tipo": "tematica",
+      "nombre": "Filosofía de la historia",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por el sentido y la forma del tiempo histórico."
+    },
+    {
+      "id": "tematica.soteriologia",
+      "tipo": "tematica",
+      "nombre": "Soteriología y vías de liberación",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Pregunta por cómo liberarse del sufrimiento o alcanzar la plenitud."
+    },
+    {
+      "id": "tematica.cultivo_de_si",
+      "tipo": "tematica",
+      "nombre": "Cultivo de sí y formas de vida",
+      "tradicion": "transversal",
+      "contextos": [],
+      "resumen": "Estudia las prácticas con las que una persona se transforma a sí misma."
+    }
+  ],
+  "relaciones": []
+}
