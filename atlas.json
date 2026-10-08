@@ -10,7 +10,18 @@
     "datos/grecorromana-antigua.json",
     "datos/proximo-oriente-antiguo.json"
   ],
-  "carriles": "tradicion",
+  "carriles": {
+    "campo": "tradicion",
+    "orden": [
+      "proximo_oriente",
+      "grecorromana",
+      "india",
+      "china"
+    ],
+    "secundarios": [
+      "proximo_oriente"
+    ]
+  },
   "camposPropios": {
     "tradicion": {
       "descripcion": "Tradición de pensamiento a la que pertenece el nodo; define los carriles de la vista cronológica.",

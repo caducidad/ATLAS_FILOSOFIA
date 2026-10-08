@@ -4,7 +4,7 @@ Mapa interactivo de la historia de la filosofía. Autores, obras, conceptos y te
 
 **Autor:** Juan Domínguez Gallego
 
-> Estado: en desarrollo. Ahora mismo el repositorio contiene los datos del piloto de la Antigüedad completo: tradiciones china, india y grecorromana y sabidurías del Próximo Oriente (353 nodos y 518 relaciones), además de la documentación del esquema. El código de la aplicación llegará con el primer prototipo.
+> Estado: en desarrollo. Ahora mismo el repositorio contiene los datos del piloto de la Antigüedad completo: tradiciones china, india y grecorromana y sabidurías del Próximo Oriente (353 nodos y 518 relaciones), además de la documentación del esquema. El primer prototipo de la app está en `app/`.
 
 ## Qué es
 
@@ -19,6 +19,7 @@ Mapa interactivo de la historia de la filosofía. Autores, obras, conceptos y te
 
 ```
 atlas.json      Configuración del atlas y sus extensiones del esquema común
+app/            Prototipo de la app (motor común en pruebas): index.html, motor.js y estilo.css
 datos/          Datos de la red, un archivo por tradición y época
   tematicas.json      Las 14 temáticas
   china-antigua.json  Piloto de la Antigüedad: tradición china

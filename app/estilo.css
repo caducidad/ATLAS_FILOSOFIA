@@ -1,0 +1,256 @@
+/* Atlas · motor de la colección. Estética nocturna: el mapa es un cielo y lo explorado arde como brasas.
+   Diseño de un solo tema (oscuro), elegido a propósito. */
+:root {
+  color-scheme: dark;
+  /* Cielo y tinta */
+  --cielo: #0c1322;
+  --cielo-alto: #121b2f;
+  --panel: #151f36;
+  --linea: #263252;
+  --tinta: #ece5d3;
+  --tenue: #93a0b8;
+  --apagado: #5c6984;
+  /* Brasas: la niebla de guerra */
+  --niebla: #55627e;
+  --brasa-1: #c2452f;
+  --brasa-2: #ec8a35;
+  --brasa-3: #f6d35b;
+  /* Interacción: luz fría, para no confundirse con las brasas */
+  --enlace: #9cc0ff;
+  --foco: #cfe0ff;
+  /* Tipografía */
+  --f-display: "Gentium Book Plus", "Gentium Plus", Georgia, "Times New Roman", serif;
+  --f-texto: "Gentium Book Plus", "Gentium Plus", Georgia, serif;
+  --f-ui: "Noto Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --t-xs: 0.75rem; --t-s: 0.85rem; --t-m: 1rem; --t-l: 1.2rem; --t-xl: 1.75rem;
+  --barra: 3.5rem;
+  --ficha: min(28rem, 100%);
+}
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--cielo);
+  color: var(--tinta);
+  font-family: var(--f-ui);
+  font-size: var(--t-m);
+  overflow: hidden;
+}
+button, input, select, textarea { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--foco); outline-offset: 2px; }
+
+#atlas { position: relative; height: 100%; display: grid; grid-template-rows: auto 1fr; }
+
+/* ---------- Barra superior ---------- */
+.barra {
+  display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;
+  padding: 0.5rem 1rem;
+  padding-top: calc(0.5rem + env(safe-area-inset-top, 0px));
+  background: var(--cielo-alto);
+  border-bottom: 1px solid var(--linea);
+  position: relative; z-index: 20;
+}
+.marca { font-family: var(--f-display); font-size: var(--t-l); letter-spacing: 0.02em; white-space: nowrap; margin-right: 0.25rem; }
+.marca b { font-weight: 700; }
+.buscador { position: relative; flex: 1 1 14rem; min-width: 0; max-width: 26rem; }
+.buscador input {
+  width: 100%; box-sizing: border-box; padding: 0.45rem 0.75rem;
+  background: var(--cielo); border: 1px solid var(--linea); border-radius: 0.4rem;
+}
+.buscador input::placeholder { color: var(--apagado); }
+.sugerencias {
+  position: absolute; top: calc(100% + 4px); left: 0; right: 0; margin: 0; padding: 0.25rem; list-style: none;
+  background: var(--panel); border: 1px solid var(--linea); border-radius: 0.4rem; max-height: 20rem; overflow-y: auto;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+.sugerencias li { padding: 0.4rem 0.5rem; border-radius: 0.3rem; cursor: pointer; display: flex; gap: 0.5rem; align-items: baseline; }
+.sugerencias li[aria-selected="true"], .sugerencias li:hover { background: var(--linea); }
+.sugerencias .tipo { font-size: var(--t-xs); color: var(--tenue); text-transform: uppercase; letter-spacing: 0.06em; flex: none; width: 5.5rem; }
+.sugerencias .nom { font-family: var(--f-display); }
+
+.vistas { display: inline-flex; border: 1px solid var(--linea); border-radius: 0.4rem; overflow: hidden; }
+.vistas button { background: none; border: 0; padding: 0.4rem 0.75rem; cursor: pointer; color: var(--tenue); font-size: var(--t-s); }
+.vistas button[aria-pressed="true"] { background: var(--linea); color: var(--tinta); }
+.boton {
+  background: none; border: 1px solid var(--linea); border-radius: 0.4rem; padding: 0.4rem 0.75rem;
+  cursor: pointer; font-size: var(--t-s); color: var(--tinta); white-space: nowrap;
+}
+.boton:hover { border-color: var(--tenue); }
+.boton .corto { display: none; }
+.boton.azar::before { content: "⁂ "; color: var(--brasa-2); }
+
+/* ---------- Escenario ---------- */
+.escenario { position: relative; overflow: hidden; min-height: 0; }
+.escenario svg { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+.escenario svg:active { cursor: grabbing; }
+.cargando { position: absolute; inset: 0; display: grid; place-items: center; color: var(--tenue); font-family: var(--f-display); font-size: var(--t-l); }
+
+/* Línea del tiempo */
+.eje text { fill: var(--tenue); font-size: 11px; font-family: var(--f-ui); font-variant-numeric: tabular-nums; }
+.eje line, .eje path { stroke: var(--linea); }
+.rejilla line { stroke: var(--linea); stroke-opacity: 0.45; }
+.carril-fondo { fill: var(--cielo-alto); }
+.carril-fondo.par { fill: var(--cielo); }
+.carril-nombre { fill: var(--tinta); font-family: var(--f-display); font-size: 15px; }
+.carril-nombre.secundario { fill: var(--tenue); font-size: 13px; }
+.carril-etiqueta-fondo { fill: var(--cielo-alto); fill-opacity: 0.92; }
+.epoca rect { fill: var(--linea); fill-opacity: 0.55; }
+.epoca text { fill: var(--tenue); font-size: 11px; font-family: var(--f-ui); letter-spacing: 0.04em; }
+.epoca.superada rect { fill: var(--brasa-3); fill-opacity: 0.25; }
+.epoca { cursor: pointer; }
+
+.item { cursor: pointer; }
+.item text { font-family: var(--f-display); font-size: 13px; fill: var(--tinta); paint-order: stroke; stroke: var(--cielo); stroke-width: 3px; stroke-linejoin: round; }
+.item.v0 text { fill: var(--tenue); }
+.item .nucleo, .item .borde { stroke-width: 1.2; }
+.item.v0 .nucleo { fill: none; stroke: var(--niebla); stroke-dasharray: 3 2; }
+.item.v0 .borde { fill: var(--niebla); fill-opacity: 0.15; }
+.item.v1 .nucleo, .item.v1 .borde { fill: var(--brasa-1); }
+.item.v2 .nucleo, .item.v2 .borde { fill: var(--brasa-2); }
+.item.v3 .nucleo, .item.v3 .borde { fill: var(--brasa-3); }
+.item .borde { fill-opacity: 0.35; }
+.item.leyenda .nucleo { stroke-dasharray: 1 3; }
+.item .fantasma { fill: none; stroke: var(--tenue); stroke-dasharray: 1 3; }
+.item.activo text { fill: var(--foco); }
+.item.activo .nucleo { stroke: var(--foco); stroke-width: 2; stroke-dasharray: none; }
+.item:hover text { fill: var(--foco); }
+
+/* Red */
+.arista { stroke: var(--linea); stroke-width: 1.4; fill: none; }
+.arista.c-P { stroke-dasharray: 6 3; }
+.arista.c-C { stroke-dasharray: 2 3; }
+.arista.c-L { stroke-dasharray: 1 5; }
+.arista.paralelo { stroke: var(--enlace); stroke-opacity: 0.5; }
+.arista-texto { fill: var(--tenue); font-size: 10.5px; font-family: var(--f-ui); paint-order: stroke; stroke: var(--cielo); stroke-width: 3px; }
+.nodo { cursor: pointer; }
+.nodo path { stroke-width: 1.4; }
+.nodo.v0 path { fill: var(--cielo); stroke: var(--niebla); stroke-dasharray: 3 2; }
+.nodo.v1 path { fill: var(--brasa-1); stroke: var(--brasa-1); }
+.nodo.v2 path { fill: var(--brasa-2); stroke: var(--brasa-2); }
+.nodo.v3 path { fill: var(--brasa-3); stroke: var(--brasa-3); }
+.nodo.centro path { stroke: var(--foco); stroke-width: 2.5; stroke-dasharray: none; }
+.nodo text { fill: var(--tinta); font-family: var(--f-display); font-size: 13px; paint-order: stroke; stroke: var(--cielo); stroke-width: 3.5px; stroke-linejoin: round; }
+.nodo.v0 text { fill: var(--tenue); }
+.nodo.centro text { font-size: 17px; fill: var(--foco); }
+.nodo:hover text { fill: var(--foco); }
+
+/* Controles flotantes sobre el mapa */
+.controles {
+  position: absolute; left: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom, 0px)); z-index: 5;
+  display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;
+  max-width: calc(100% - 2rem);
+}
+.chip {
+  background: var(--panel); border: 1px solid var(--linea); border-radius: 999px; padding: 0.25rem 0.7rem;
+  font-size: var(--t-xs); color: var(--tenue); cursor: pointer;
+}
+.chip[aria-pressed="true"] { color: var(--tinta); border-color: var(--tenue); }
+.leyenda-niebla { display: flex; gap: 0.6rem; align-items: center; font-size: var(--t-xs); color: var(--tenue);
+  background: var(--panel); border: 1px solid var(--linea); border-radius: 999px; padding: 0.25rem 0.7rem; }
+.leyenda-niebla i { display: inline-block; width: 0.7rem; height: 0.7rem; border-radius: 50%; vertical-align: -1px; margin-right: 0.25rem; }
+.leyenda-niebla .l0 { border: 1px dashed var(--niebla); }
+.leyenda-niebla .l1 { background: var(--brasa-1); }
+.leyenda-niebla .l2 { background: var(--brasa-2); }
+.leyenda-niebla .l3 { background: var(--brasa-3); }
+
+/* ---------- Ficha ---------- */
+.ficha {
+  position: absolute; top: 0; right: 0; bottom: 0; width: var(--ficha); box-sizing: border-box; z-index: 10;
+  background: var(--panel); border-left: 1px solid var(--linea);
+  overflow-y: auto; overscroll-behavior: contain;
+  padding: 1.25rem 1.25rem calc(2rem + env(safe-area-inset-bottom, 0px));
+  box-shadow: -18px 0 40px rgba(0, 0, 0, 0.35);
+}
+.ficha .cerrar { position: sticky; top: 0; float: right; background: var(--panel); border: 1px solid var(--linea); border-radius: 50%;
+  width: 2rem; height: 2rem; cursor: pointer; font-size: 1.1rem; line-height: 1; z-index: 1; }
+.ficha .antetitulo { font-size: var(--t-xs); color: var(--tenue); text-transform: uppercase; letter-spacing: 0.08em; display: flex; gap: 0.5rem; align-items: center; }
+.ficha .antetitulo .brasa { width: 0.6rem; height: 0.6rem; border-radius: 50%; display: inline-block; }
+.ficha h2 { font-family: var(--f-display); font-weight: 700; font-size: var(--t-xl); line-height: 1.15; margin: 0.35rem 0 0.15rem; text-wrap: balance; }
+.ficha .original { font-family: var(--f-display); color: var(--tenue); font-size: var(--t-l); margin: 0; }
+.ficha .fechas { font-size: var(--t-s); color: var(--tenue); margin: 0.5rem 0 0; font-variant-numeric: tabular-nums; }
+.ficha .fechas .alt { display: block; color: var(--apagado); }
+.ficha .texto { font-family: var(--f-texto); font-size: 1.06rem; line-height: 1.55; max-width: 65ch; }
+.ficha .texto p { margin: 0.75rem 0; }
+.ficha .enunciado { font-family: var(--f-display); font-style: italic; font-size: var(--t-l); line-height: 1.4; border-left: 2px solid var(--brasa-2); margin: 1rem 0; padding-left: 0.9rem; }
+.ficha a.e, .ficha button.e { color: var(--enlace); background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline; text-decoration-color: rgba(156, 192, 255, 0.35); text-underline-offset: 3px; font: inherit; text-align: left; }
+.ficha a.e:hover, .ficha button.e:hover { text-decoration-color: var(--enlace); }
+.ficha a.e.v0, .ficha button.e.v0 { color: var(--enlace); }
+.ficha h3 { font-family: var(--f-ui); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--tenue); font-weight: 600; margin: 1.5rem 0 0.5rem; }
+.ficha details { margin-top: 0.75rem; }
+.ficha summary { cursor: pointer; color: var(--enlace); font-size: var(--t-s); }
+.ficha dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.3rem 0.9rem; font-size: var(--t-s); margin: 0.75rem 0; }
+.ficha dt { color: var(--tenue); }
+.ficha dd { margin: 0; min-width: 0; }
+.ficha .grupo { margin: 0.6rem 0; }
+.ficha .grupo .rel { font-size: var(--t-s); color: var(--tenue); }
+.ficha .grupo ul { list-style: none; margin: 0.2rem 0 0; padding: 0; display: grid; gap: 0.3rem; }
+.ficha .grupo li { font-family: var(--f-texto); }
+.ficha .marca-certeza { font-family: var(--f-ui); font-size: var(--t-xs); color: var(--apagado); margin-left: 0.35rem; }
+.ficha .nota { display: block; font-size: var(--t-s); color: var(--tenue); line-height: 1.45; }
+.ficha .chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.ficha .chips .e { font-size: var(--t-s); text-decoration: none; border: 1px solid var(--linea); border-radius: 999px; padding: 0.15rem 0.6rem; font-family: var(--f-ui); }
+.ficha .acciones { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 1rem; }
+.anecdotas {
+  margin-top: 1.25rem; padding: 0.9rem 1rem; border: 1px solid var(--brasa-1); border-radius: 0.5rem;
+  background: linear-gradient(160deg, rgba(194, 69, 47, 0.12), transparent 60%);
+}
+.anecdotas h3 { margin-top: 0; color: var(--brasa-2); }
+.anecdotas .texto p { margin: 0.5rem 0; }
+.ref { font-family: var(--f-ui); font-size: var(--t-xs); color: var(--tenue); }
+.ref abbr { text-decoration: none; border-bottom: 1px dotted var(--apagado); cursor: help; }
+.nivel { font-size: var(--t-s); background: var(--cielo); border: 1px solid var(--linea); border-radius: 0.4rem; padding: 0.6rem 0.75rem; margin-top: 1rem; }
+.nivel .barra-nivel { height: 4px; background: var(--linea); border-radius: 2px; margin-top: 0.4rem; overflow: hidden; }
+.nivel .barra-nivel span { display: block; height: 100%; background: var(--brasa-2); }
+
+/* ---------- Panel de progreso y avisos ---------- */
+.capa { position: absolute; inset: 0; z-index: 30; background: rgba(5, 9, 18, 0.7); display: grid; place-items: center; padding: 1rem; }
+.dialogo {
+  background: var(--panel); border: 1px solid var(--linea); border-radius: 0.6rem; width: min(40rem, 100%); max-height: 100%;
+  overflow-y: auto; box-sizing: border-box; padding: 1.25rem 1.5rem 1.5rem;
+}
+.dialogo h2 { font-family: var(--f-display); font-size: var(--t-xl); margin: 0 0 0.25rem; }
+.dialogo p { line-height: 1.5; color: var(--tinta); }
+.dialogo .sub { color: var(--tenue); font-size: var(--t-s); margin-top: 0; }
+.cifras { display: grid; grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr)); gap: 0.75rem; margin: 1rem 0; }
+.cifras div { border: 1px solid var(--linea); border-radius: 0.4rem; padding: 0.6rem 0.75rem; }
+.cifras b { display: block; font-family: var(--f-display); font-size: var(--t-xl); font-variant-numeric: tabular-nums; }
+.cifras span { font-size: var(--t-xs); color: var(--tenue); }
+.niveles { list-style: none; padding: 0; margin: 0.5rem 0; display: grid; gap: 0.35rem; font-size: var(--t-s); }
+.niveles li { display: grid; grid-template-columns: 1fr auto; gap: 0.75rem; align-items: center; border-bottom: 1px solid var(--linea); padding: 0.35rem 0; }
+.niveles .estado { font-size: var(--t-xs); color: var(--tenue); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.niveles .estado.explorado { color: var(--brasa-2); }
+.dialogo textarea { width: 100%; box-sizing: border-box; min-height: 8rem; background: var(--cielo); border: 1px solid var(--linea); border-radius: 0.4rem; padding: 0.5rem; font-family: ui-monospace, monospace; font-size: var(--t-xs); }
+.dialogo .acciones { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem; align-items: center; }
+.dialogo h3 { font-family: var(--f-ui); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--tenue); font-weight: 600; margin: 1.5rem 0 0.5rem; }
+.dialogo .e { color: var(--enlace); background: none; border: 0; padding: 0; cursor: pointer; font-family: var(--f-display); font-size: var(--t-m); text-align: left; }
+.dialogo .e:hover { text-decoration: underline; }
+.dialogo .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.dialogo .mensaje { font-size: var(--t-s); color: var(--brasa-3); }
+.aviso {
+  position: absolute; left: 50%; transform: translateX(-50%); bottom: calc(4rem + env(safe-area-inset-bottom, 0px)); z-index: 15;
+  width: min(34rem, calc(100% - 2rem)); box-sizing: border-box;
+  background: var(--panel); border: 1px solid var(--linea); border-radius: 0.5rem; padding: 0.9rem 1rem;
+  font-size: var(--t-s); line-height: 1.5; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+.aviso p { margin: 0 0 0.6rem; }
+
+/* ---------- Pantallas estrechas: la ficha sube desde abajo ---------- */
+@media (max-width: 720px) {
+  .marca { font-size: var(--t-m); }
+  .marca span { display: none; }
+  .boton .largo { display: none; }
+  .boton .corto { display: inline; }
+  .barra { gap: 0.5rem; }
+  .buscador { order: 5; flex-basis: 100%; max-width: none; }
+  .ficha {
+    top: auto; left: 0; width: 100%; max-height: 72%;
+    border-left: 0; border-top: 1px solid var(--linea); border-radius: 0.9rem 0.9rem 0 0;
+    box-shadow: 0 -18px 40px rgba(0, 0, 0, 0.45);
+  }
+  .controles { bottom: calc(0.75rem + env(safe-area-inset-bottom, 0px)); left: 0.75rem; }
+  .leyenda-niebla { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
