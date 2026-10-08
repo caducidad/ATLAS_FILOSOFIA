@@ -121,6 +121,12 @@ def validar(nodos, relaciones, tipos):
             errores.append(f"{rid}: tipo de relación desconocido «{r.get('tipo')}»")
         if r.get("certeza") not in CERTEZAS:
             errores.append(f"{rid}: certeza debe ser D, P, C o L")
+        nota = r.get("nota", "")
+        if nota.count("[[") != nota.count("]]"):
+            errores.append(f"{rid}: corchetes desparejados en la nota")
+        for destino in ENLACE.findall(nota):
+            if destino not in ids:
+                errores.append(f"{rid}: enlace roto a «{destino}» en la nota")
         if r.get("tipo") == "paralelo_a" and not r.get("ejeComparacion"):
             errores.append(f"{rid}: «paralelo a» sin ejeComparacion")
         if (r.get("tipo") == "influyo_en"

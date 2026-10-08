@@ -1,0 +1,5372 @@
+{
+ "version": "0.1",
+ "actualizado": "2026-10-08",
+ "descripcion": "Piloto Antigüedad · Tradición grecorromana · Círculo 1 y figuras necesarias de los círculos 2 y 3",
+ "nodos": [
+  {
+   "id": "contexto.presocraticos",
+   "tipo": "contexto",
+   "nombre": "Los presocráticos",
+   "tradicion": "grecorromana",
+   "contextos": [],
+   "horquilla": {
+    "inicio": -600,
+    "fin": -400
+   },
+   "lugar": "Ciudades griegas de Jonia (costa de la actual Turquía), del sur de Italia y de Sicilia",
+   "resumen": "Los primeros filósofos griegos, que buscaron el [[concepto.arche|principio]] de todas las cosas en la propia [[concepto.physis|naturaleza]] y no en los mitos. Se les llama presocráticos porque la mayoría vivió antes de [[autor.socrates|Sócrates]].",
+   "profundizacion": "No forman una escuela, sino varias líneas de pensamiento. En Mileto, una ciudad de Jonia, [[autor.tales|Tales]], [[autor.anaximandro|Anaximandro]] y [[autor.anaximenes|Anaxímenes]] buscaron un único principio material. En el sur de Italia, [[autor.pitagoras|Pitágoras]] fundó una comunidad que unía matemáticas, música y doctrina del alma. [[autor.heraclito|Heráclito]] pensó el cambio y el [[concepto.logos|logos]]; [[autor.parmenides|Parménides]] y su discípulo [[autor.zenon_elea|Zenón]], en Elea, negaron que el cambio fuera posible. Para responderles, [[autor.empedocles|Empédocles]] y [[autor.anaxagoras|Anaxágoras]] propusieron varios principios, y [[autor.leucipo|Leucipo]] y [[autor.democrito|Demócrito]] imaginaron [[concepto.atomo|átomos]] y vacío. Casi todas sus obras se perdieron: las conocemos por fragmentos citados por autores posteriores, sobre todo [[autor.aristoteles|Aristóteles]] y sus comentaristas, y por las biografías de [[autor.diogenes_laercio|Diógenes Laercio]]. La etiqueta «presocráticos» es moderna, y algunos de ellos fueron en realidad contemporáneos de Sócrates."
+  },
+  {
+   "id": "contexto.atenas_clasica",
+   "tipo": "contexto",
+   "nombre": "Atenas clásica",
+   "tradicion": "grecorromana",
+   "contextos": [],
+   "horquilla": {
+    "inicio": -450,
+    "fin": -322
+   },
+   "lugar": "Atenas, con figuras procedentes de toda Grecia y del sur de Italia",
+   "resumen": "La época en que Atenas se convierte en el centro de la filosofía griega: los [[escuela.sofistica|sofistas]] enseñan a argumentar, [[autor.socrates|Sócrates]] interroga a sus conciudadanos y sus herederos, [[autor.platon|Platón]] y [[autor.aristoteles|Aristóteles]], fundan escuelas que durarán siglos.",
+   "profundizacion": "La democracia ateniense premiaba a quien sabía hablar en la asamblea y en los tribunales, y eso atrajo a maestros itinerantes de retórica, los [[escuela.sofistica|sofistas]], como [[autor.protagoras|Protágoras]] y [[autor.gorgias|Gorgias]]. Con ellos el interés pasa de la naturaleza al ser humano, la ley y el lenguaje. [[autor.socrates|Sócrates]] lleva esa preocupación a la ética, mediante la [[concepto.elenchos|refutación]] en el diálogo, y es condenado a muerte en el 399 a. C. Sus discípulos dan lugar a varias corrientes: [[autor.platon|Platón]] funda la [[escuela.academia|Academia]] hacia el 387 a. C.; [[autor.aristoteles|Aristóteles]], el [[escuela.liceo|Liceo]] en el 335 a. C.; otros, como [[autor.antistenes|Antístenes]], preparan el camino de los [[escuela.cinismo|cínicos]]. Es también la época de la guerra del Peloponeso entre Atenas y Esparta (431-404 a. C.). El periodo termina con la muerte de Aristóteles en el 322 a. C., un año después de la de [[autor.alejandro|Alejandro Magno]]."
+  },
+  {
+   "id": "contexto.helenistica",
+   "tipo": "contexto",
+   "nombre": "Filosofía helenística",
+   "tradicion": "grecorromana",
+   "contextos": [],
+   "horquilla": {
+    "inicio": -323,
+    "fin": -31
+   },
+   "lugar": "Atenas, Alejandría, Rodas y Pérgamo, en un mundo griego que llegaba hasta Bactria, en el actual Afganistán",
+   "resumen": "Tras las conquistas de [[autor.alejandro|Alejandro Magno]], el mundo griego se extiende hasta la India. Las nuevas escuelas, [[escuela.estoicismo|estoicos]], [[escuela.epicureismo|epicúreos]] y [[escuela.pirronismo|escépticos]], buscan sobre todo una forma de vida que dé serenidad.",
+   "profundizacion": "Las ciudades griegas pierden su independencia frente a los grandes reinos herederos de Alejandro, y la filosofía se vuelve sobre todo un arte de vivir. [[autor.epicuro|Epicuro]] funda el [[escuela.epicureismo|Jardín]] y enseña que el placer sereno es el bien supremo; [[autor.zenon_citio|Zenón de Citio]] funda la [[escuela.estoicismo|Estoa]], que sistematizará [[autor.crisipo|Crisipo]]; [[autor.pirron|Pirrón]] propone suspender el juicio para alcanzar la [[concepto.ataraxia|imperturbabilidad]]. La [[escuela.academia|Academia]] de [[autor.platon|Platón]] se vuelve escéptica con [[autor.arcesilao|Arcesilao]] y [[autor.carneades|Carnéades]], y los [[escuela.cinismo|cínicos]], herederos de [[autor.diogenes_sinope|Diógenes]], siguen provocando a la sociedad. Es también la época de los primeros contactos directos con la India: [[autor.pirron|Pirrón]] y [[autor.anaxarco|Anaxarco]] viajaron con el ejército de Alejandro, y el asceta indio [[autor.kalanos|Kálanos]] lo acompañó hasta Persia. El periodo se cierra en el 31 a. C., cuando Roma derrota al último gran reino helenístico, el Egipto de Cleopatra."
+  },
+  {
+   "id": "contexto.roma_imperio",
+   "tipo": "contexto",
+   "nombre": "Roma y el Alto Imperio",
+   "tradicion": "grecorromana",
+   "contextos": [],
+   "horquilla": {
+    "inicio": -155,
+    "fin": 250
+   },
+   "lugar": "Roma, Alejandría y las ciudades griegas de Asia Menor",
+   "resumen": "Roma conquista el mundo griego y adopta su filosofía. Autores como [[autor.lucrecio|Lucrecio]], [[autor.ciceron|Cicerón]] y [[autor.seneca|Séneca]] la vierten al latín, y el [[escuela.estoicismo|estoicismo]] se convierte en la filosofía de emperadores y esclavos.",
+   "profundizacion": "En el 155 a. C., Atenas envía a Roma una embajada de tres filósofos, entre ellos el académico [[autor.carneades|Carnéades]], que escandaliza a los romanos defendiendo un día la justicia y al siguiente lo contrario: suele tomarse como el comienzo de la filosofía en Roma. [[autor.lucrecio|Lucrecio]] expone el epicureísmo en un gran poema y [[autor.ciceron|Cicerón]] crea buena parte del vocabulario filosófico latino. En el Imperio, el estoicismo práctico une a figuras tan distintas como el consejero imperial [[autor.seneca|Séneca]], el antiguo esclavo [[autor.epicteto|Epicteto]] y el emperador [[autor.marco_aurelio|Marco Aurelio]]. [[autor.sexto_empirico|Sexto Empírico]] resume el escepticismo pirrónico, y en Alejandría el pensador judío Filón une la Biblia con la filosofía de [[autor.platon|Platón]]. Es también la época de compiladores como [[autor.plutarco|Plutarco]] y [[autor.diogenes_laercio|Diógenes Laercio]], a quienes debemos gran parte de lo que sabemos de los filósofos anteriores."
+  },
+  {
+   "id": "contexto.neoplatonismo",
+   "tipo": "contexto",
+   "nombre": "Neoplatonismo y Antigüedad tardía",
+   "tradicion": "grecorromana",
+   "contextos": [],
+   "horquilla": {
+    "inicio": 245,
+    "fin": 529
+   },
+   "lugar": "Roma, Alejandría, Apamea (en Siria) y Atenas",
+   "resumen": "Última gran escuela de la filosofía antigua: [[autor.plotino|Plotino]] y sus seguidores reinterpretan a [[autor.platon|Platón]] como un camino del alma hacia [[concepto.uno|el Uno]], principio de todo. Conviven y discuten con el cristianismo naciente.",
+   "profundizacion": "[[autor.plotino|Plotino]] enseña en Roma desde el 245 d. C., y su discípulo [[autor.porfirio|Porfirio]] edita sus escritos en las [[obra.eneadas|Enéadas]]. Después, Jámblico, en Siria, añade prácticas rituales, y Proclo, en Atenas, construye el sistema más completo de la escuela. En Alejandría enseña la matemática y filósofa Hipatia, asesinada por una turba cristiana en el 415. Los pensadores cristianos, como Agustín de Hipona, toman mucho del neoplatonismo. La época se cierra simbólicamente en el 529, cuando el emperador Justiniano prohíbe enseñar a los filósofos paganos en Atenas. Es la transición hacia la filosofía medieval."
+  },
+  {
+   "id": "escuela.milesios",
+   "tipo": "escuela",
+   "nombre": "Escuela de Mileto",
+   "alias": [
+    "milesios",
+    "jonios",
+    "escuela jónica"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "Nombre que se da a [[autor.tales|Tales]], [[autor.anaximandro|Anaximandro]] y [[autor.anaximenes|Anaxímenes]], tres pensadores de Mileto que buscaron un único [[concepto.arche|principio]] material de todas las cosas. No consta que formaran una escuela organizada."
+  },
+  {
+   "id": "escuela.pitagorismo",
+   "tipo": "escuela",
+   "nombre": "Pitagorismo",
+   "alias": [
+    "pitagóricos"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.cultivo_de_si",
+    "tematica.filosofia_ciencia"
+   ],
+   "naturaleza": "real",
+   "resumen": "Comunidad fundada por [[autor.pitagoras|Pitágoras]] en el sur de Italia, con normas de vida propias. Creían en la [[concepto.metempsicosis|transmigración]] de las almas y en que el número es la clave del orden del mundo."
+  },
+  {
+   "id": "escuela.eleatas",
+   "tipo": "escuela",
+   "nombre": "Escuela de Elea",
+   "alias": [
+    "eleatas",
+    "eleáticos"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica"
+   ],
+   "naturaleza": "real",
+   "resumen": "Pensadores de Elea, en el sur de Italia, encabezados por [[autor.parmenides|Parménides]] y [[autor.zenon_elea|Zenón]], que defendieron con argumentos que el ser es uno e inmóvil y que el cambio es una ilusión."
+  },
+  {
+   "id": "escuela.pluralistas",
+   "tipo": "escuela",
+   "nombre": "Pluralistas",
+   "alias": [
+    "pluralistas"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "Etiqueta moderna para [[autor.empedocles|Empédocles]] y [[autor.anaxagoras|Anaxágoras]], que respondieron a [[autor.parmenides|Parménides]] admitiendo varios principios eternos cuya mezcla explica el cambio."
+  },
+  {
+   "id": "escuela.atomismo",
+   "tipo": "escuela",
+   "nombre": "Atomismo",
+   "alias": [
+    "atomistas"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos",
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "naturaleza": "real",
+   "resumen": "Doctrina de [[autor.leucipo|Leucipo]] y [[autor.democrito|Demócrito]]: todo está hecho de [[concepto.atomo|átomos]] indivisibles que se mueven en el vacío. [[autor.epicuro|Epicuro]] la convirtió en base de su ética."
+  },
+  {
+   "id": "escuela.sofistica",
+   "tipo": "escuela",
+   "nombre": "Sofística",
+   "alias": [
+    "sofistas"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.filosofia_lenguaje",
+    "tematica.etica",
+    "tematica.filosofia_politica"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "No fue una escuela, sino una profesión: maestros itinerantes, como [[autor.protagoras|Protágoras]] y [[autor.gorgias|Gorgias]], que cobraban por enseñar retórica y el arte de tener éxito en la vida pública. Los conocemos sobre todo por su gran crítico, [[autor.platon|Platón]]."
+  },
+  {
+   "id": "escuela.academia",
+   "tipo": "escuela",
+   "nombre": "Academia (platonismo)",
+   "alias": [
+    "Academia",
+    "platonismo",
+    "académicos",
+    "Academia escéptica"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica",
+    "contexto.helenistica",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.epistemologia",
+    "tematica.etica"
+   ],
+   "naturaleza": "real",
+   "resumen": "Escuela fundada por [[autor.platon|Platón]] en Atenas hacia el 387 a. C., en un parque dedicado al héroe Academo. Entre los siglos III y I a. C. se volvió escéptica, con [[autor.arcesilao|Arcesilao]] y [[autor.carneades|Carnéades]]."
+  },
+  {
+   "id": "escuela.liceo",
+   "tipo": "escuela",
+   "nombre": "Liceo (peripatéticos)",
+   "alias": [
+    "Liceo",
+    "peripatéticos",
+    "aristotelismo",
+    "Peripato"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica",
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica",
+    "tematica.filosofia_ciencia"
+   ],
+   "naturaleza": "real",
+   "resumen": "Escuela fundada por [[autor.aristoteles|Aristóteles]] en Atenas en el 335 a. C. Sus miembros se llamaron peripatéticos, quizá por el paseo cubierto (perípatos) donde enseñaban."
+  },
+  {
+   "id": "escuela.cinismo",
+   "tipo": "escuela",
+   "nombre": "Cinismo",
+   "alias": [
+    "cínicos"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica",
+    "contexto.helenistica",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "naturaleza": "real",
+   "resumen": "Forma de vida, más que escuela, encarnada por [[autor.diogenes_sinope|Diógenes]]: vivir según la naturaleza, con lo mínimo, burlándose de las convenciones sociales. Su nombre viene de kyon, «perro»."
+  },
+  {
+   "id": "escuela.estoicismo",
+   "tipo": "escuela",
+   "nombre": "Estoicismo",
+   "alias": [
+    "estoicos",
+    "Estoa",
+    "Pórtico"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.logica",
+    "tematica.metafisica",
+    "tematica.cultivo_de_si"
+   ],
+   "naturaleza": "real",
+   "resumen": "Escuela fundada por [[autor.zenon_citio|Zenón de Citio]] en el Pórtico Pintado (Stoa) de Atenas. Enseña a [[tesis.vivir_segun_naturaleza|vivir de acuerdo con la naturaleza]], guiada por la razón, y a no dejarse dominar por las pasiones."
+  },
+  {
+   "id": "escuela.epicureismo",
+   "tipo": "escuela",
+   "nombre": "Epicureísmo",
+   "alias": [
+    "epicúreos",
+    "el Jardín"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.metafisica",
+    "tematica.cultivo_de_si"
+   ],
+   "naturaleza": "real",
+   "resumen": "Escuela fundada por [[autor.epicuro|Epicuro]] en su Jardín de Atenas. Une el [[escuela.atomismo|atomismo]] con una ética del placer moderado y la amistad, para vivir sin miedo a los dioses ni a la muerte."
+  },
+  {
+   "id": "escuela.pirronismo",
+   "tipo": "escuela",
+   "nombre": "Pirronismo",
+   "alias": [
+    "escepticismo pirrónico",
+    "escépticos",
+    "pirrónicos"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.cultivo_de_si"
+   ],
+   "naturaleza": "real",
+   "resumen": "Escepticismo inspirado en [[autor.pirron|Pirrón]]: como a todo argumento puede oponerse otro de igual fuerza, conviene [[concepto.epoje|suspender el juicio]], y así llega la [[concepto.ataraxia|tranquilidad]]."
+  },
+  {
+   "id": "escuela.neoplatonismo",
+   "tipo": "escuela",
+   "nombre": "Neoplatonismo",
+   "alias": [
+    "neoplatónicos",
+    "platonismo tardío"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.neoplatonismo"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.soteriologia",
+    "tematica.cultivo_de_si"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "Nombre moderno para el platonismo de [[autor.plotino|Plotino]] y sus sucesores, que ellos llamaban simplemente seguir a [[autor.platon|Platón]]. Todo procede de [[concepto.uno|el Uno]] y el alma puede volver a él."
+  },
+  {
+   "id": "escuela.gimnosofistas",
+   "tipo": "escuela",
+   "nombre": "Gimnosofistas",
+   "alias": [
+    "sabios desnudos",
+    "gimnosofistas indios",
+    "brahmanes y sramanes"
+   ],
+   "tradicion": "india",
+   "contextos": [
+    "contexto.sramana_maurya"
+   ],
+   "tematicas": [
+    "tematica.cultivo_de_si",
+    "tematica.soteriologia"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "«Sabios desnudos»: nombre que dieron los griegos a los ascetas indios que conocieron con [[autor.alejandro|Alejandro Magno]], como [[autor.kalanos|Kálanos]]. No sabemos con seguridad a qué corrientes indias pertenecían; pudieron ser brahmanes, jainas u otros renunciantes."
+  },
+  {
+   "id": "autor.tales",
+   "tipo": "autor",
+   "nombre": "Tales de Mileto",
+   "nombreOriginal": "Θαλῆς ὁ Μιλήσιος",
+   "alias": [
+    "Tales",
+    "Thales"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "escuelas": [
+    "escuela.milesios"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Mileto, en Jonia, en la costa de la actual Turquía",
+   "fechas": {
+    "nacimiento": {
+     "min": -630,
+     "max": -620
+    },
+    "muerte": {
+     "min": -548,
+     "max": -545
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 624 – c. 546 a. C. Se le asocia con el eclipse de sol del 585 a. C."
+   },
+   "resumen": "Considerado el primer filósofo griego. Buscó una explicación natural del mundo y propuso que el [[concepto.arche|principio]] de todas las cosas es [[tesis.agua_principio|el agua]].",
+   "profundizacion": "Tales no dejó escritos, o no se conservaron. Lo que sabemos de su pensamiento procede sobre todo de [[autor.aristoteles|Aristóteles]], que lo presenta como el iniciador de la búsqueda de un [[concepto.arche|principio]] material de todo. Aristóteles supone que llegó a la idea del agua observando que el alimento de todas las cosas es húmedo y que las semillas necesitan humedad. Se le atribuye también la frase «todo está lleno de dioses» y la idea de que el imán tiene alma porque mueve el hierro. La tradición le atribuye además conocimientos de geometría y astronomía, quizá aprendidos en Egipto y Mesopotamia, aunque es difícil separar los hechos de la leyenda. Lo decisivo es el cambio de actitud: explicar la naturaleza por sí misma y no por la voluntad de los dioses.",
+   "anecdotas": "Mientras observaba los astros cayó en un pozo, y una esclava tracia se rió de él porque quería saber lo que pasaba en el cielo y no veía lo que tenía a sus pies ([[obra.teeteto|Teeteto]] 174a · C). Para demostrar que la filosofía puede ser útil, previó por los astros una gran cosecha de aceitunas, alquiló en invierno todas las prensas de aceite de Mileto y Quíos y luego las realquiló a buen precio ([[obra.politica|Política]] I 11 · B). El historiador Heródoto cuenta que predijo el año de un eclipse de sol que interrumpió una batalla entre lidios y medos (Heródoto, Historia I 74 · B)."
+  },
+  {
+   "id": "autor.anaximandro",
+   "tipo": "autor",
+   "nombre": "Anaximandro",
+   "nombreOriginal": "Ἀναξίμανδρος",
+   "alias": [
+    "Anaximander"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "escuelas": [
+    "escuela.milesios"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Mileto, en Jonia",
+   "fechas": {
+    "nacimiento": {
+     "min": -612,
+     "max": -608
+    },
+    "muerte": {
+     "min": -548,
+     "max": -544
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 610 – c. 546 a. C."
+   },
+   "resumen": "Pensador de Mileto que propuso como principio de todo lo [[concepto.apeiron|ápeiron]], lo indefinido o ilimitado, y escribió el primer texto filosófico griego del que se conserva una frase.",
+   "profundizacion": "A diferencia de [[autor.tales|Tales]], Anaximandro no eligió un elemento concreto como principio, porque cualquiera de ellos acabaría imponiéndose a los demás. Propuso algo sin límites ni cualidades, el [[concepto.apeiron|ápeiron]], del que surgen los contrarios, como lo caliente y lo frío, y al que vuelven. Su única frase conservada, transmitida por el comentarista Simplicio (s. VI d. C.), dice que las cosas «se pagan unas a otras pena y retribución por su injusticia según el orden del tiempo»: el cambio natural se describe como una justicia cósmica. Imaginó la Tierra como un cilindro suspendido en el centro del universo, sin apoyarse en nada, y sostuvo que los primeros seres humanos nacieron de animales parecidos a peces.",
+   "anecdotas": "Fue, según la tradición, el primero en dibujar un mapa de la tierra y el mar ([[obra.vidas_filosofos|Vidas de los filósofos]] II 2 · B). Cuentan que, cuando cantaba, los niños se reían de él; al saberlo, dijo: «Entonces tendremos que cantar mejor, por los niños» ([[obra.vidas_filosofos|Vidas de los filósofos]] II 2 · C)."
+  },
+  {
+   "id": "autor.pitagoras",
+   "tipo": "autor",
+   "nombre": "Pitágoras",
+   "nombreOriginal": "Πυθαγόρας",
+   "alias": [
+    "Pythagoras",
+    "Pitágoras de Samos"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.cultivo_de_si",
+    "tematica.filosofia_ciencia"
+   ],
+   "escuelas": [
+    "escuela.pitagorismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Isla de Samos; emigró a Crotona, en el sur de Italia",
+   "fechas": {
+    "nacimiento": {
+     "min": -580,
+     "max": -560
+    },
+    "muerte": {
+     "min": -500,
+     "max": -480
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 570 – c. 490 a. C. Existió, pero casi todo lo que se le atribuye procede de fuentes muy posteriores y de su escuela."
+   },
+   "resumen": "Fundador de una comunidad en el sur de Italia que unía forma de vida, matemáticas y religión. Enseñó la [[concepto.metempsicosis|transmigración]] de las almas; la idea de que todo es número procede sobre todo de sus seguidores.",
+   "profundizacion": "Pitágoras no escribió nada, y su figura se llenó pronto de leyendas. De lo que dicen sus contemporáneos se deduce sobre todo que enseñaba la [[concepto.metempsicosis|transmigración]]: el alma es inmortal y renace en otros cuerpos, también de animales. Su comunidad, en Crotona, seguía normas estrictas: silencio, vida en común, prohibiciones alimentarias y examen diario de la conciencia. Los pitagóricos posteriores, como Filolao (s. V a. C.), sostuvieron que el número es el principio del orden del mundo, a partir del descubrimiento de que las consonancias musicales responden a proporciones numéricas. El teorema que lleva su nombre ya lo conocían los babilonios, y no hay pruebas de que él lo demostrara.",
+   "anecdotas": "Su contemporáneo, el poeta y filósofo Jenófanes, se burló de él contando que, al ver cómo golpeaban a un perrito, Pitágoras pidió que pararan porque había reconocido en sus gemidos el alma de un amigo muerto (Jenófanes, citado en [[obra.vidas_filosofos|Vidas de los filósofos]] VIII 36 · A). Entre las normas de su comunidad figuraba no comer habas, cuyo motivo ya discutían los antiguos ([[obra.vidas_filosofos|Vidas de los filósofos]] VIII 19 y 34 · C). Una leyenda decía que tenía un muslo de oro, señal de su naturaleza divina ([[obra.vidas_filosofos|Vidas de los filósofos]] VIII 11 · L)."
+  },
+  {
+   "id": "autor.heraclito",
+   "tipo": "autor",
+   "nombre": "Heráclito",
+   "nombreOriginal": "Ἡράκλειτος",
+   "alias": [
+    "Heraclito de Éfeso",
+    "el Oscuro",
+    "Heraclitus"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_lenguaje",
+    "tematica.epistemologia"
+   ],
+   "escuelas": [],
+   "circulo": 1,
+   "lugarOrigen": "Éfeso, en Jonia",
+   "fechas": {
+    "activo": {
+     "min": -510,
+     "max": -490
+    },
+    "tipo": "actividad",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Activo hacia el 500 a. C."
+   },
+   "resumen": "Pensador de Éfeso para quien todo está en cambio, como un río, pero según una medida común, el [[concepto.logos|logos]]. Escribió en frases breves y enigmáticas, por lo que lo llamaron «el Oscuro».",
+   "profundizacion": "Heráclito parte de que la mayoría de la gente no entiende el [[concepto.logos|logos]], la razón o ley común que gobierna todas las cosas, aunque está a la vista. Ese logos se manifiesta en la unidad de los contrarios: el camino hacia arriba y hacia abajo es uno y el mismo; la enfermedad hace agradable la salud. El mundo es un fuego siempre vivo que se enciende y se apaga con medida, y la guerra, es decir, la tensión entre opuestos, es «padre de todas las cosas». Su imagen del río, en el que no es posible bañarse dos veces, expresa que la identidad de las cosas se mantiene a través del cambio. De su libro se conservan unos 130 fragmentos. Criticó con dureza a poetas y sabios anteriores, como Homero y [[autor.pitagoras|Pitágoras]].",
+   "anecdotas": "Unos visitantes que querían conocerlo lo encontraron calentándose junto al horno de la cocina y dudaron en entrar; él les dijo: «Pasad, que también aquí hay dioses» ([[autor.aristoteles|Aristóteles]], Partes de los animales I 5 · B). Dicen que depositó su libro en el templo de Ártemis de Éfeso, y que lo escribió de forma oscura a propósito, para que solo lo entendieran los capaces ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 6 · C). Según una leyenda, enfermo de hidropesía se cubrió de estiércol para curarse y murió ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 3 · L)."
+  },
+  {
+   "id": "autor.parmenides",
+   "tipo": "autor",
+   "nombre": "Parménides",
+   "nombreOriginal": "Παρμενίδης",
+   "alias": [
+    "Parmenides de Elea"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica",
+    "tematica.epistemologia"
+   ],
+   "escuelas": [
+    "escuela.eleatas"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Elea, en el sur de Italia",
+   "fechas": {
+    "nacimiento": {
+     "min": -520,
+     "max": -510
+    },
+    "muerte": {
+     "min": -450,
+     "max": -440
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 515 – después del 450 a. C., según el encuentro con el joven Sócrates que narra Platón."
+   },
+   "resumen": "Pensador de Elea que, en un poema, argumentó que [[tesis.ser_es|lo que es, es, y no puede no ser]]: por tanto, el ser es uno, eterno e inmóvil, y el cambio que vemos es una apariencia.",
+   "profundizacion": "En su [[obra.poema_parmenides|poema]], una diosa muestra al narrador dos caminos de investigación: el de «es» y el de «no es». El segundo es impensable, porque no se puede conocer ni decir lo que no es. De ahí se siguen consecuencias radicales: el ser no puede nacer ni perecer, porque tendría que venir del no-ser o ir a él; no puede estar dividido ni moverse, porque entre sus partes habría no-ser. Los sentidos, que nos muestran nacimiento y cambio, nos engañan, y solo la razón alcanza la verdad. La segunda parte del poema expone, sin embargo, una explicación del mundo aparente. Su argumento obligó a todos los filósofos posteriores a explicar cómo es posible el cambio, desde [[autor.empedocles|Empédocles]] y [[autor.democrito|Demócrito]] hasta [[autor.platon|Platón]] y [[autor.aristoteles|Aristóteles]]. Es también uno de los primeros ejemplos de argumentación deductiva rigurosa.",
+   "anecdotas": "Según un diálogo de [[autor.platon|Platón]], ya anciano y de cabellos blancos viajó a Atenas con su discípulo [[autor.zenon_elea|Zenón]] para las fiestas Panateneas y conversó con un [[autor.socrates|Sócrates]] muy joven; el encuentro quizá sea una ficción literaria ([[autor.platon|Platón]], Parménides 127a-c · C). Se cuenta que redactó leyes para su ciudad, Elea, y que los ciudadanos juraban cumplirlas cada año ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 23 · C)."
+  },
+  {
+   "id": "autor.zenon_elea",
+   "tipo": "autor",
+   "nombre": "Zenón de Elea",
+   "nombreOriginal": "Ζήνων ὁ Ἐλεάτης",
+   "alias": [
+    "Zenón",
+    "Zeno de Elea"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.metafisica"
+   ],
+   "escuelas": [
+    "escuela.eleatas"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Elea, en el sur de Italia",
+   "fechas": {
+    "nacimiento": {
+     "min": -495,
+     "max": -485
+    },
+    "muerte": {
+     "min": -435,
+     "max": -425
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 490 – c. 430 a. C."
+   },
+   "resumen": "Discípulo de [[autor.parmenides|Parménides]], famoso por sus paradojas, como la de Aquiles y la tortuga, que intentan mostrar que [[tesis.movimiento_imposible|el movimiento es imposible]] si se acepta que el espacio y el tiempo son divisibles.",
+   "profundizacion": "Zenón defendió a su maestro por reducción al absurdo: si se admite la pluralidad y el movimiento, se llega a contradicciones. Sus argumentos más conocidos los transmite [[autor.aristoteles|Aristóteles]] en la [[obra.fisica|Física]]. En la dicotomía, para recorrer una distancia hay que recorrer primero la mitad, y antes la mitad de la mitad, y así sin fin, de modo que nunca se empieza. En el de Aquiles, el corredor más rápido nunca alcanza a la tortuga, porque cuando llega a donde ella estaba, ella ya ha avanzado un poco. En el de la flecha, una flecha en vuelo está en reposo en cada instante, y por tanto nunca se mueve. Aristóteles lo consideró el inventor de la dialéctica, el arte de argumentar a partir de las tesis del adversario. Sus paradojas sobre el infinito se discutieron hasta la matemática moderna.",
+   "anecdotas": "Una tradición cuenta que conspiró contra un tirano y que, al ser torturado para que delatara a sus cómplices, se mordió la lengua y se la escupió a la cara ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 26-27 · L). Más tarde se contaba que, cuando alguien sostenía ante [[autor.diogenes_sinope|Diógenes de Sinope]] que el movimiento no existe, este se levantó sin decir nada y se puso a andar ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 39 · C)."
+  },
+  {
+   "id": "autor.empedocles",
+   "tipo": "autor",
+   "nombre": "Empédocles",
+   "nombreOriginal": "Ἐμπεδοκλῆς",
+   "alias": [
+    "Empedocles de Agrigento"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia",
+    "tematica.soteriologia"
+   ],
+   "escuelas": [
+    "escuela.pluralistas"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Agrigento, en Sicilia",
+   "fechas": {
+    "nacimiento": {
+     "min": -500,
+     "max": -490
+    },
+    "muerte": {
+     "min": -440,
+     "max": -430
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 494 – c. 434 a. C."
+   },
+   "resumen": "Poeta, médico y filósofo de Sicilia. Explicó el cambio por la mezcla de cuatro raíces eternas, tierra, agua, aire y fuego, movidas por dos fuerzas: el Amor, que une, y la Discordia, que separa.",
+   "profundizacion": "Empédocles acepta con [[autor.parmenides|Parménides]] que nada nace de la nada ni perece del todo, pero no que el cambio sea ilusorio. Lo que llamamos nacer y morir es mezcla y separación de cuatro «raíces» eternas, la primera versión de los cuatro elementos que dominarán la ciencia durante dos mil años. Dos fuerzas, el Amor y la Discordia, predominan por turnos en un ciclo cósmico. En su otro poema, las Purificaciones, enseña que las almas son seres caídos que transmigran a lo largo de muchos cuerpos, de ahí que condene comer carne. Su obra mezcla así física, medicina y una doctrina de salvación cercana a la de los [[escuela.pitagorismo|pitagóricos]].",
+   "anecdotas": "En sus propios versos se presenta ante sus conciudadanos como «un dios inmortal, ya no mortal», al que siguen multitudes pidiendo profecías y curaciones ([[obra.poema_empedocles|Poemas de Empédocles]], fragmento B112 · A). La leyenda cuenta que, para que lo creyeran un dios, se arrojó al cráter del Etna, pero el volcán devolvió una de sus sandalias de bronce y delató su muerte ([[obra.vidas_filosofos|Vidas de los filósofos]] VIII 69 · L)."
+  },
+  {
+   "id": "autor.anaxagoras",
+   "tipo": "autor",
+   "nombre": "Anaxágoras",
+   "nombreOriginal": "Ἀναξαγόρας",
+   "alias": [
+    "Anaxagoras de Clazómenas"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos",
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "escuelas": [
+    "escuela.pluralistas"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Clazómenas, en Jonia; vivió muchos años en Atenas",
+   "fechas": {
+    "nacimiento": {
+     "min": -505,
+     "max": -495
+    },
+    "muerte": {
+     "min": -430,
+     "max": -426
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 500 – c. 428 a. C."
+   },
+   "resumen": "Primer filósofo que se estableció en Atenas. Sostuvo que en todo hay una porción de todo y que una inteligencia, el [[concepto.nous|nous]], puso en orden el universo.",
+   "profundizacion": "Como [[autor.empedocles|Empédocles]], Anaxágoras explica el cambio sin admitir que nada nazca de la nada. Pero en lugar de cuatro raíces propone infinitas sustancias mezcladas: en cada cosa hay una porción de todas las demás, y la llamamos por la que predomina. Así puede explicar que el pan se convierta en carne y hueso. El orden del mundo lo inició el [[concepto.nous|nous]], una inteligencia separada de la mezcla que puso todo en rotación. Explicó los fenómenos celestes de forma natural: la luna recibe su luz del sol, y el sol es una masa de piedra incandescente. Fue amigo y consejero del político ateniense Pericles.",
+   "anecdotas": "Fue acusado de impiedad en Atenas por decir que el sol era una piedra al rojo vivo, y tuvo que exiliarse a Lámpsaco, donde murió ([[obra.vidas_filosofos|Vidas de los filósofos]] II 12-14 · B). [[autor.socrates|Sócrates]] cuenta que leyó su libro con entusiasmo al saber que la inteligencia lo ordenaba todo, y que se desilusionó al ver que luego lo explicaba todo con aire, éter y agua, sin decir por qué cada cosa es lo mejor ([[obra.fedon|Fedón]] 97b-99c · B)."
+  },
+  {
+   "id": "autor.democrito",
+   "tipo": "autor",
+   "nombre": "Demócrito",
+   "nombreOriginal": "Δημόκριτος",
+   "alias": [
+    "Democrito de Abdera",
+    "el filósofo que ríe"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia",
+    "tematica.epistemologia",
+    "tematica.etica"
+   ],
+   "escuelas": [
+    "escuela.atomismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Abdera, en Tracia, en el norte de Grecia",
+   "fechas": {
+    "nacimiento": {
+     "min": -465,
+     "max": -455
+    },
+    "muerte": {
+     "min": -375,
+     "max": -365
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 460 – c. 370 a. C."
+   },
+   "resumen": "Desarrolló, a partir de su maestro [[autor.leucipo|Leucipo]], la teoría de que todo está formado por [[concepto.atomo|átomos]] indivisibles que se mueven en el vacío. Las cualidades que percibimos, como el color o el sabor, existen solo [[tesis.atomos_vacio|por convención]].",
+   "profundizacion": "Para responder a [[autor.parmenides|Parménides]], los atomistas admiten que el no-ser existe en forma de vacío. En él se mueven infinitos [[concepto.atomo|átomos]], partículas demasiado pequeñas para verse, que solo se distinguen por su forma, su orden y su posición. Al chocar y engancharse forman los cuerpos y los mundos, sin necesidad de ninguna inteligencia que los dirija. De ahí su célebre distinción: dulce, amargo, caliente o colorido existen por convención; en realidad, solo hay átomos y vacío. Escribió también sobre ética: la meta es el buen ánimo, una alegría tranquila que se logra con moderación. Fue un autor muy prolífico, pero sus obras se perdieron casi por completo. [[autor.epicuro|Epicuro]] retomó y transformó su atomismo.",
+   "anecdotas": "Él mismo habría escrito: «Fui a Atenas y nadie me conoció» ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 36 · B). Autores romanos lo convirtieron en «el filósofo que ríe» de la necedad humana, frente a [[autor.heraclito|Heráclito]], que lloraba por ella; es una imagen tardía y legendaria ([[autor.seneca|Séneca]], Sobre la ira II 10 · L)."
+  },
+  {
+   "id": "autor.protagoras",
+   "tipo": "autor",
+   "nombre": "Protágoras",
+   "nombreOriginal": "Πρωταγόρας",
+   "alias": [
+    "Protagoras de Abdera"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.filosofia_politica",
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [
+    "escuela.sofistica"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Abdera, en Tracia",
+   "fechas": {
+    "nacimiento": {
+     "min": -495,
+     "max": -485
+    },
+    "muerte": {
+     "min": -425,
+     "max": -415
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 490 – c. 420 a. C."
+   },
+   "resumen": "El más famoso de los [[escuela.sofistica|sofistas]]. Afirmó que [[tesis.homo_mensura|el ser humano es la medida de todas las cosas]] y se declaró incapaz de saber si los dioses existen.",
+   "profundizacion": "Protágoras enseñaba por dinero la «virtud política»: el arte de hablar bien y de dirigir los asuntos propios y los de la ciudad. Su frase más célebre, conservada por [[autor.platon|Platón]] en el [[obra.teeteto|Teeteto]], suele entenderse como un relativismo: las cosas son para cada uno tal como se le aparecen, y no hay un criterio superior para decidir quién tiene razón. Ante cualquier cuestión, enseñaba, hay dos argumentos opuestos, y el buen orador sabe hacer fuerte el más débil. Sobre los dioses mantuvo una posición agnóstica: la oscuridad del asunto y la brevedad de la vida impiden saberlo. Pericles le encargó redactar las leyes de Turios, una colonia ateniense en el sur de Italia. Platón lo trata con respeto, aunque discute sus ideas.",
+   "anecdotas": "Su libro sobre los dioses empezaba diciendo que no podía saber si existían o no. Según la tradición, los atenienses lo expulsaron por ello y quemaron sus libros en el ágora, después de recogerlos casa por casa ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 51-52 · C)."
+  },
+  {
+   "id": "autor.gorgias",
+   "tipo": "autor",
+   "nombre": "Gorgias",
+   "nombreOriginal": "Γοργίας",
+   "alias": [
+    "Gorgias de Leontinos"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.filosofia_lenguaje",
+    "tematica.estetica",
+    "tematica.epistemologia"
+   ],
+   "escuelas": [
+    "escuela.sofistica"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Leontinos, en Sicilia",
+   "fechas": {
+    "nacimiento": {
+     "min": -488,
+     "max": -478
+    },
+    "muerte": {
+     "min": -380,
+     "max": -370
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 483 – c. 376 a. C. Las fuentes dicen que vivió más de cien años."
+   },
+   "resumen": "Sofista y maestro de retórica. En su tratado [[obra.sobre_no_ser|Sobre el no ser]] defendió que [[tesis.nada_existe|nada existe; si existiera, no podría conocerse; y si se conociera, no podría comunicarse]].",
+   "profundizacion": "Gorgias llevó al extremo los argumentos de los [[escuela.eleatas|eleatas]] para volverlos contra ellos: su tratado [[obra.sobre_no_ser|Sobre el no ser]] encadena tres tesis cada vez más provocadoras sobre el ser, el conocimiento y el lenguaje. Se discute si era una parodia, un ejercicio retórico o una posición filosófica seria. Su gran tema es el poder de la palabra, a la que llama «un gran soberano» capaz de producir efectos como una droga en el cuerpo. En su Encomio de Helena defiende a la heroína de la guerra de Troya diciendo que, si la persuadieron con palabras, no es culpable. Fue maestro de oradores y su estilo, lleno de antítesis y ritmo, influyó en la prosa griega. [[autor.platon|Platón]] le dedicó un diálogo, el Gorgias, donde opone la retórica a la filosofía.",
+   "anecdotas": "En el 427 a. C. llegó a Atenas como embajador de su ciudad para pedir ayuda militar, y su forma de hablar, llena de figuras nunca oídas, deslumbró tanto a la asamblea que consiguió la alianza (el historiador Diodoro de Sicilia, Biblioteca histórica XII 53 · B)."
+  },
+  {
+   "id": "autor.socrates",
+   "tipo": "autor",
+   "nombre": "Sócrates",
+   "nombreOriginal": "Σωκράτης",
+   "alias": [
+    "Socrates"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.epistemologia",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [],
+   "circulo": 1,
+   "lugarOrigen": "Atenas",
+   "fechas": {
+    "nacimiento": {
+     "min": -470,
+     "max": -469
+    },
+    "muerte": {
+     "min": -399,
+     "max": -399
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "469 – 399 a. C. La fecha de su muerte, por condena judicial, es segura."
+   },
+   "resumen": "Filósofo ateniense que no escribió nada y dedicó su vida a interrogar a sus conciudadanos sobre la justicia y la virtud. Condenado a muerte en el 399 a. C., se convirtió en el modelo del filósofo.",
+   "profundizacion": "Conocemos a Sócrates por lo que contaron otros: sobre todo [[autor.platon|Platón]], pero también el historiador [[autor.jenofonte|Jenofonte]], que lo trató, y el comediógrafo Aristófanes, que se burló de él en Las nubes. Su método consistía en preguntar a quien creía saber algo, por ejemplo qué es la valentía, hasta mostrarle que sus respuestas se contradecían: la [[concepto.elenchos|refutación]]. Así descubría su propia ignorancia y la de los demás, y por eso se decía más sabio solo en saber que no sabía. Pensaba que la [[concepto.arete|virtud]] es una forma de saber y que [[tesis.nadie_obra_mal|nadie obra mal voluntariamente]]: quien hace el mal se equivoca sobre lo que le conviene. Lo esencial era cuidar el alma, más que el cuerpo o la riqueza. Fue acusado de no creer en los dioses de la ciudad y de corromper a los jóvenes, y condenado a beber cicuta. Es difícil separar al Sócrates histórico del personaje de los diálogos de Platón.",
+   "anecdotas": "Su amigo Querefonte preguntó al oráculo de Delfos si había alguien más sabio que Sócrates, y la sacerdotisa respondió que no; Sócrates dedicó su vida a entender aquella respuesta interrogando a quienes parecían sabios ([[obra.apologia|Apología de Sócrates]] 21a · B). Durante una campaña militar en Potidea se quedó de pie, absorto en un pensamiento, desde el amanecer de un día hasta el del día siguiente ([[obra.banquete|Banquete]] 220c-d · B). Contaba que desde niño oía una voz interior, su daimon, que nunca le empujaba a hacer algo, solo le detenía ([[obra.apologia|Apología de Sócrates]] 31d · B). Ya condenado, rechazó escapar de la cárcel y bebió la cicuta conversando con sus amigos sobre la inmortalidad del alma ([[obra.fedon|Fedón]] 116-118 · B)."
+  },
+  {
+   "id": "autor.platon",
+   "tipo": "autor",
+   "nombre": "Platón",
+   "nombreOriginal": "Πλάτων",
+   "alias": [
+    "Plato",
+    "Aristocles"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.epistemologia",
+    "tematica.etica",
+    "tematica.filosofia_politica",
+    "tematica.estetica",
+    "tematica.filosofia_mente"
+   ],
+   "escuelas": [
+    "escuela.academia"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Atenas",
+   "fechas": {
+    "nacimiento": {
+     "min": -428,
+     "max": -427
+    },
+    "muerte": {
+     "min": -348,
+     "max": -347
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "428/427 – 348/347 a. C."
+   },
+   "resumen": "Discípulo de [[autor.socrates|Sócrates]] y fundador de la [[escuela.academia|Academia]]. En sus diálogos defendió que, más allá de lo que vemos, existen las [[concepto.idea|Formas]] o Ideas, modelos eternos de las cosas, que solo la razón alcanza.",
+   "profundizacion": "Platón escribió unos treinta diálogos, casi todos protagonizados por Sócrates, en los que la filosofía avanza mediante preguntas y respuestas. Para explicar cómo es posible un conocimiento firme en un mundo cambiante, postuló las [[concepto.idea|Formas]]: lo bello en sí, lo justo en sí, la igualdad en sí, de las que las cosas sensibles son copias imperfectas. Aprender sería recordar lo que el alma contempló antes de nacer, la [[concepto.anamnesis|reminiscencia]], y el alma sería por tanto [[tesis.alma_inmortal|inmortal]]. En la [[obra.republica|República]] diseña una ciudad justa gobernada por filósofos y explica, con la [[obra.caverna|alegoría de la caverna]], el ascenso del alma desde las sombras hasta la luz del Bien. En sus últimos diálogos sometió a crítica su propia teoría. Su influencia en la filosofía occidental es tan grande que un filósofo del siglo XX, Alfred North Whitehead, dijo que toda ella era una serie de notas a pie de página a Platón.",
+   "anecdotas": "Según la tradición, su nombre verdadero era Aristocles, y «Platón», que significa «ancho», fue un apodo: por la anchura de su espalda de luchador, por la de su frente o por la riqueza de su elocuencia. Muchos estudiosos dudan de la historia, porque Platón era un nombre corriente en Atenas ([[obra.vidas_filosofos|Vidas de los filósofos]] III 4 · C). Viajó a Siracusa, en Sicilia, para educar a su gobernante, el tirano Dionisio; la relación acabó mal y, según cuentan, fue vendido como esclavo en la isla de Egina y rescatado por un admirador ([[obra.vidas_filosofos|Vidas de los filósofos]] III 18-20 · C)."
+  },
+  {
+   "id": "autor.aristoteles",
+   "tipo": "autor",
+   "nombre": "Aristóteles",
+   "nombreOriginal": "Ἀριστοτέλης",
+   "alias": [
+    "Aristoteles",
+    "el Estagirita",
+    "el Filósofo"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica",
+    "tematica.etica",
+    "tematica.filosofia_politica",
+    "tematica.filosofia_ciencia",
+    "tematica.filosofia_mente",
+    "tematica.estetica"
+   ],
+   "escuelas": [
+    "escuela.liceo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Estagira, en Macedonia",
+   "fechas": {
+    "nacimiento": {
+     "min": -384,
+     "max": -384
+    },
+    "muerte": {
+     "min": -322,
+     "max": -322
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "384 – 322 a. C."
+   },
+   "resumen": "Discípulo de [[autor.platon|Platón]] y fundador del [[escuela.liceo|Liceo]]. Creó la lógica como disciplina, estudió casi todos los campos del saber y explicó la realidad a partir de las cosas concretas, no de [[concepto.idea|Formas]] separadas.",
+   "profundizacion": "Aristóteles estudió veinte años en la [[escuela.academia|Academia]], pero rechazó que las [[concepto.idea|Formas]] existieran separadas de las cosas: la forma de un caballo está en los caballos. Lo real en sentido primero es la [[concepto.ousia|sustancia]] individual, compuesta de materia y forma, y el cambio se explica como paso de la [[concepto.potencia_acto|potencia al acto]], hacia un [[concepto.telos|fin]]. Para conocer algo hay que saber sus cuatro causas: de qué está hecho, qué es, qué lo produjo y para qué existe. En lógica formuló la teoría del [[concepto.silogismo|silogismo]], que fue la base de la lógica durante dos mil años. En ética, la meta de la vida es la [[concepto.eudaimonia|felicidad]], entendida como actividad conforme a la virtud, y la virtud es un término medio que la [[concepto.phronesis|prudencia]] sabe encontrar. En política definió al ser humano como [[tesis.animal_politico|animal político]]. Estudió además biología, astronomía, retórica y poesía. Las obras que conservamos son apuntes de clase editados en el siglo I a. C.; sus diálogos publicados, muy elogiados en la Antigüedad, se perdieron.",
+   "anecdotas": "El rey Filipo de Macedonia lo llamó para educar a su hijo Alejandro, el futuro [[autor.alejandro|Alejandro Magno]], que entonces tenía unos trece años; según [[autor.plutarco|Plutarco]], el joven decía que a su padre le debía la vida, pero a su maestro una vida digna ([[obra.vidas_paralelas|Vidas paralelas]], Alejandro 7-8 · B). A la muerte de Alejandro, acusado de impiedad, se marchó de Atenas diciendo que no permitiría que los atenienses pecaran dos veces contra la filosofía, en alusión a la condena de [[autor.socrates|Sócrates]] (el escritor romano Claudio Eliano, Historias curiosas III 36 · C)."
+  },
+  {
+   "id": "autor.diogenes_sinope",
+   "tipo": "autor",
+   "nombre": "Diógenes de Sinope",
+   "nombreOriginal": "Διογένης ὁ Σινωπεύς",
+   "alias": [
+    "Diógenes el Cínico",
+    "Diogenes",
+    "el Perro"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica",
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si",
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [
+    "escuela.cinismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Sinope, en la costa del mar Negro; vivió en Atenas y Corinto",
+   "fechas": {
+    "nacimiento": {
+     "min": -412,
+     "max": -404
+    },
+    "muerte": {
+     "min": -323,
+     "max": -323
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 412/404 – 323 a. C."
+   },
+   "resumen": "La gran figura del [[escuela.cinismo|cinismo]]. Vivió con lo mínimo, a la vista de todos, para demostrar que la felicidad no depende de las convenciones sociales, y se declaró «ciudadano del mundo».",
+   "profundizacion": "Diógenes llegó a Atenas exiliado de su ciudad natal y convirtió su pobreza en programa filosófico. Para él, la virtud consiste en vivir según la naturaleza, como los animales, sin necesidades artificiales: la [[concepto.autarkeia|autosuficiencia]]. Practicaba un entrenamiento duro, abrazando estatuas heladas en invierno y revolcándose en arena ardiente en verano. Sus herramientas eran el escándalo y el humor: comía, dormía y hacía sus necesidades en público, y hablaba con total [[concepto.parrhesia|franqueza]] a cualquiera, incluido el poderoso. Sus contemporáneos lo llamaban «el Perro», y él aceptó el apodo, de donde viene «cínico». Preguntado de dónde era, respondió «ciudadano del mundo», una de las primeras formulaciones del cosmopolitismo. No conservamos sus escritos; lo conocemos por cientos de anécdotas, muchas inventadas.",
+   "anecdotas": "Vivía en una gran tinaja de barro junto a un templo ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 23 · C). Al ver a un niño beber agua con las manos, tiró el único cuenco que tenía, diciendo que un niño le había ganado en sencillez ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 37 · C). [[autor.alejandro|Alejandro Magno]] se le acercó mientras tomaba el sol y le ofreció lo que quisiera; Diógenes le respondió: «Apártate, que me quitas el sol» ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 38 · C). Paseaba de día con una lámpara encendida diciendo: «Busco un hombre» ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 41 · C)."
+  },
+  {
+   "id": "autor.pirron",
+   "tipo": "autor",
+   "nombre": "Pirrón de Elis",
+   "nombreOriginal": "Πύρρων ὁ Ἠλεῖος",
+   "alias": [
+    "Pirrón",
+    "Pyrrho"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [
+    "escuela.pirronismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Elis, en el Peloponeso",
+   "fechas": {
+    "nacimiento": {
+     "min": -365,
+     "max": -355
+    },
+    "muerte": {
+     "min": -275,
+     "max": -265
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 360 – c. 270 a. C."
+   },
+   "resumen": "Inspirador del escepticismo. Sostuvo que no podemos saber cómo son las cosas en sí mismas y que, si renunciamos a afirmar nada, alcanzamos la [[concepto.ataraxia|imperturbabilidad]]. Viajó a la India con [[autor.alejandro|Alejandro Magno]].",
+   "profundizacion": "Pirrón no escribió nada; conocemos su pensamiento sobre todo por su discípulo, el poeta satírico Timón de Fliunte. Según un resumen de Timón, enseñaba que las cosas son indiferentes, inestables e indeterminables, de modo que ni nuestras percepciones ni nuestras opiniones son verdaderas o falsas. Por eso no debemos fiarnos de ellas, sino permanecer sin opiniones; de esa actitud nace primero el silencio y después la [[concepto.ataraxia|tranquilidad]]. Antes de ser filósofo fue pintor. Acompañó a su maestro [[autor.anaxarco|Anaxarco]] en la expedición de Alejandro Magno a la India, donde trató con los [[escuela.gimnosofistas|gimnosofistas]] y con los magos persas. Se discute si esos encuentros influyeron en su doctrina o si se basó en el escepticismo griego anterior. Siglos después, los escépticos tomaron su nombre para su escuela, el [[escuela.pirronismo|pirronismo]].",
+   "anecdotas": "Durante una tormenta en el mar, cuando todos los pasajeros estaban aterrados, señaló a un cerdo que seguía comiendo tranquilo y dijo que así debía estar el sabio (el filósofo estoico Posidonio, citado en [[obra.vidas_filosofos|Vidas de los filósofos]] IX 68 · C). Una tradición hostil contaba que no se apartaba de carros, perros ni precipicios, porque no se fiaba de sus sentidos, y que sus amigos tenían que protegerlo; otro escéptico, Enesidemo, replicó que eso era una caricatura y que en la vida práctica actuaba con prudencia ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 62 · L)."
+  },
+  {
+   "id": "autor.epicuro",
+   "tipo": "autor",
+   "nombre": "Epicuro",
+   "nombreOriginal": "Ἐπίκουρος",
+   "alias": [
+    "Epicurus"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.metafisica",
+    "tematica.cultivo_de_si",
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [
+    "escuela.epicureismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Isla de Samos; enseñó en Atenas",
+   "fechas": {
+    "nacimiento": {
+     "min": -341,
+     "max": -341
+    },
+    "muerte": {
+     "min": -270,
+     "max": -270
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "341 – 270 a. C."
+   },
+   "resumen": "Fundador del [[escuela.epicureismo|epicureísmo]]. Enseñó que la felicidad es un placer sereno, la ausencia de dolor en el cuerpo y de inquietud en el alma, y que [[tesis.muerte_nada|la muerte no es nada para nosotros]].",
+   "profundizacion": "En el 306 a. C. Epicuro compró en Atenas una casa con huerto, el Jardín, donde vivió con sus amigos, que incluían mujeres y esclavos, algo inusual. Su física sigue el [[escuela.atomismo|atomismo]] de [[autor.democrito|Demócrito]], con un cambio importante: los [[concepto.atomo|átomos]] sufren a veces una pequeña desviación, el [[concepto.clinamen|clinamen]], que rompe la cadena de causas y hace posible la libertad. Su objetivo es práctico: liberar de los miedos que nos atormentan. Los dioses existen, pero viven felices sin ocuparse de nosotros; la muerte es solo la disolución de los átomos, y donde está ella no estamos nosotros. El bien es el placer, pero entendido como [[concepto.ataraxia|imperturbabilidad]]: se logra con deseos naturales y simples, la amistad y una vida retirada de la política. Su fama de defensor del desenfreno es una caricatura de sus adversarios. De sus casi trescientos libros solo quedan tres cartas y dos colecciones de máximas.",
+   "anecdotas": "Escribió a un amigo pidiéndole un tarrito de queso «para darme un banquete cuando quiera»: así de poco necesitaba para disfrutar ([[obra.vidas_filosofos|Vidas de los filósofos]] X 11 · B). El día de su muerte, tras una enfermedad muy dolorosa, escribió a su discípulo Idomeneo que el recuerdo de sus conversaciones filosóficas compensaba todos sus dolores ([[obra.vidas_filosofos|Vidas de los filósofos]] X 22 · B). Según [[autor.seneca|Séneca]], a la entrada del Jardín se leía: «Huésped, aquí estarás bien; aquí el bien supremo es el placer» ([[obra.cartas_lucilio|Cartas a Lucilio]] 21.10 · B)."
+  },
+  {
+   "id": "autor.zenon_citio",
+   "tipo": "autor",
+   "nombre": "Zenón de Citio",
+   "nombreOriginal": "Ζήνων ὁ Κιτιεύς",
+   "alias": [
+    "Zenón el estoico",
+    "Zeno de Citio"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.logica",
+    "tematica.metafisica",
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [
+    "escuela.estoicismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Citio, en la isla de Chipre",
+   "fechas": {
+    "nacimiento": {
+     "min": -336,
+     "max": -332
+    },
+    "muerte": {
+     "min": -264,
+     "max": -260
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 334 – c. 262 a. C."
+   },
+   "resumen": "Fundador del [[escuela.estoicismo|estoicismo]]. Enseñó que la meta de la vida es [[tesis.vivir_segun_naturaleza|vivir de acuerdo con la naturaleza]], es decir, con la razón que gobierna el universo, y que la virtud es el único bien.",
+   "profundizacion": "Zenón, de familia de comerciantes, llegó a Atenas hacia el 312 a. C. y estudió con el cínico [[autor.crates|Crates]] y con maestros de otras escuelas antes de enseñar por su cuenta. Dividió la filosofía en tres partes, lógica, física y ética, que comparaba con la cáscara, la clara y la yema de un huevo. El universo es un ser vivo ordenado por el [[concepto.logos|logos]], una razón divina presente en todo; vivir bien es vivir de acuerdo con ella. Solo la virtud es buena y solo el vicio es malo: la salud, la riqueza o la fama son indiferentes, aunque unas sean preferibles a otras. Las pasiones, como el miedo o la ira, son juicios equivocados, y el sabio se libera de ellas, alcanzando la [[concepto.apatheia|apatheia]]. En su República, hoy perdida, imaginó una comunidad de sabios sin templos, tribunales ni dinero.",
+   "anecdotas": "Llegó a Atenas tras naufragar con un cargamento de púrpura. Sentado en una librería, leyó un libro de [[autor.jenofonte|Jenofonte]] sobre [[autor.socrates|Sócrates]] y preguntó dónde se podía encontrar a hombres así; en ese momento pasaba [[autor.crates|Crates]], y el librero le dijo: «Sigue a ese» ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 2-3 · C). Enseñaba paseando por el Pórtico Pintado, la Stoa Poikile del ágora de Atenas, y por eso a sus seguidores se les llamó estoicos ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 5 · B). Ya anciano, tropezó al salir de la escuela y se rompió un dedo; golpeando el suelo, dijo «Ya voy, ¿por qué me llamas?», y se dejó morir ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 28 · C)."
+  },
+  {
+   "id": "autor.crisipo",
+   "tipo": "autor",
+   "nombre": "Crisipo",
+   "nombreOriginal": "Χρύσιππος",
+   "alias": [
+    "Crisipo de Solos",
+    "Chrysippus"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.metafisica",
+    "tematica.etica"
+   ],
+   "escuelas": [
+    "escuela.estoicismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Solos, en Cilicia, en el sur de la actual Turquía",
+   "fechas": {
+    "nacimiento": {
+     "min": -281,
+     "max": -277
+    },
+    "muerte": {
+     "min": -208,
+     "max": -204
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 279 – c. 206 a. C."
+   },
+   "resumen": "Tercer director de la escuela estoica y su gran sistematizador. Desarrolló una lógica de proposiciones muy avanzada y defendió que el destino lo gobierna todo sin anular la responsabilidad humana.",
+   "profundizacion": "Discípulo de [[autor.cleantes|Cleantes]], Crisipo defendió el estoicismo frente a las críticas de la [[escuela.academia|Academia]] escéptica y le dio su forma clásica. Escribió más de setecientos libros, todos perdidos; lo conocemos por citas de autores posteriores, a menudo críticos. Su lógica no se basa, como la de [[autor.aristoteles|Aristóteles]], en términos como «hombre» o «mortal», sino en proposiciones enteras unidas por conectores como «si», «y» u «o», algo que la lógica moderna redescubrió en el siglo XIX. Sostuvo que todo sucede según el destino, una cadena de causas, pero distinguió causas externas e internas con la imagen de un cilindro: alguien lo empuja, pero rueda por su propia forma; del mismo modo, nuestra respuesta a lo que nos pasa depende de nuestro carácter. Analizó también las pasiones como juicios erróneos.",
+   "anecdotas": "Se decía que, si los dioses usaran la dialéctica, usarían la de Crisipo, y también: «Sin Crisipo no habría Estoa» ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 180 y 183 · C). Según una versión de su muerte, vio a un burro comerse sus higos y pidió que le dieran también vino puro para acompañarlos; le entró tal ataque de risa que murió ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 185 · L)."
+  },
+  {
+   "id": "autor.lucrecio",
+   "tipo": "autor",
+   "nombre": "Lucrecio",
+   "nombreOriginal": "Titus Lucretius Carus",
+   "alias": [
+    "Tito Lucrecio Caro",
+    "Lucretius"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia",
+    "tematica.etica",
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [
+    "escuela.epicureismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Probablemente Roma",
+   "fechas": {
+    "nacimiento": {
+     "min": -99,
+     "max": -94
+    },
+    "muerte": {
+     "min": -55,
+     "max": -50
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 99 – c. 55 a. C. Apenas se sabe nada seguro de su vida."
+   },
+   "resumen": "Poeta romano que expuso la filosofía de [[autor.epicuro|Epicuro]] en un gran poema en latín, [[obra.de_rerum_natura|Sobre la naturaleza de las cosas]], para librar a sus lectores del miedo a los dioses y a la muerte.",
+   "profundizacion": "Su poema, en seis libros, explica que todo está hecho de [[concepto.atomo|átomos]] y vacío, que el alma es material y muere con el cuerpo, y que los fenómenos naturales, como el rayo o los terremotos, tienen causas físicas y no divinas. El [[concepto.clinamen|clinamen]], la pequeña desviación de los átomos, explica la libertad. El libro quinto narra el origen del mundo, de la vida y de la civilización sin intervención divina. Lucrecio compara su poesía con la miel con la que el médico unta el borde del vaso para que el niño beba la medicina amarga. El poema se perdió en la Edad Media y fue redescubierto en 1417 por el humanista Poggio Bracciolini, con una enorme influencia en el Renacimiento y en la ciencia moderna.",
+   "anecdotas": "[[autor.ciceron|Cicerón]] escribió a su hermano Quinto, en el año 54 a. C., que los poemas de Lucrecio tenían muchos destellos de genio y también mucho arte (Cicerón, Cartas a su hermano Quinto II 10 · A). Cuatro siglos después, el escritor cristiano san Jerónimo contó que Lucrecio enloqueció por un filtro de amor, que escribió su obra en los intervalos de lucidez y que se suicidó a los cuarenta y cuatro años; la historia se considera una invención (San Jerónimo, Crónica · L)."
+  },
+  {
+   "id": "autor.ciceron",
+   "tipo": "autor",
+   "nombre": "Cicerón",
+   "nombreOriginal": "Marcus Tullius Cicero",
+   "alias": [
+    "Marco Tulio Cicerón",
+    "Cicero",
+    "Tulio"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_politica",
+    "tematica.epistemologia",
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [
+    "escuela.academia"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Arpino, en Italia central",
+   "fechas": {
+    "nacimiento": {
+     "min": -106,
+     "max": -106
+    },
+    "muerte": {
+     "min": -43,
+     "max": -43
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "106 – 43 a. C."
+   },
+   "resumen": "Orador y político romano que dio a la filosofía griega su vocabulario latino. Seguidor de la [[escuela.academia|Academia]] escéptica, expuso y discutió todas las escuelas, y sus libros transmitieron la filosofía antigua a la Edad Media y al Renacimiento.",
+   "profundizacion": "Cicerón fue el mayor orador de Roma y cónsul en el 63 a. C. Estudió filosofía en Atenas y Rodas, y en Roma con Filón de Larisa, último director de la Academia escéptica. De ella tomó su método: no afirmar nada como cierto, sino aceptar lo más probable tras examinar los argumentos de todas las escuelas. Casi toda su obra filosófica la escribió en dos años, del 46 al 44 a. C., apartado de la política y tras la muerte de su hija Tulia. En [[obra.academicos|Académicos]] discute la teoría del conocimiento; en Sobre los fines, la felicidad según epicúreos, estoicos y académicos; en [[obra.de_officiis|Sobre los deberes]], la ética de la vida pública, con fuerte influencia estoica. Inventó o fijó palabras latinas que aún usamos, como «cualidad». Gracias a él sabemos mucho de la filosofía helenística, cuyas obras se perdieron.",
+   "anecdotas": "Siendo gobernador en Sicilia buscó la tumba del matemático Arquímedes, que los siracusanos ya no sabían dónde estaba, y la reconoció entre las zarzas por la esfera y el cilindro grabados en ella (Cicerón, Disputaciones tusculanas V 64-66 · A). Tras atacar a Marco Antonio, rival de Octavio por el poder en Roma, fue declarado enemigo público; los soldados de Antonio lo alcanzaron en el 43 a. C., le cortaron la cabeza y las manos y las expusieron en la tribuna del foro desde la que había pronunciado sus discursos ([[autor.plutarco|Plutarco]], [[obra.vidas_paralelas|Vidas paralelas]], Cicerón 48-49 · B)."
+  },
+  {
+   "id": "autor.seneca",
+   "tipo": "autor",
+   "nombre": "Séneca",
+   "nombreOriginal": "Lucius Annaeus Seneca",
+   "alias": [
+    "Lucio Anneo Séneca",
+    "Seneca",
+    "Séneca el Joven"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si",
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [
+    "escuela.estoicismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Córdoba, en la provincia romana de Hispania",
+   "fechas": {
+    "nacimiento": {
+     "min": -4,
+     "max": 1
+    },
+    "muerte": {
+     "min": 65,
+     "max": 65
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 4 a. C. – 65 d. C."
+   },
+   "resumen": "Filósofo estoico nacido en Córdoba, consejero del emperador Nerón. En sus cartas y diálogos convirtió el [[escuela.estoicismo|estoicismo]] en una guía práctica para afrontar el tiempo, la ira, la adversidad y la muerte.",
+   "profundizacion": "Séneca fue uno de los hombres más ricos y poderosos de Roma: escritor de éxito, desterrado a Córcega por el emperador Claudio, llamado después como preceptor del joven Nerón y su principal consejero durante los primeros años de su reinado. Su obra filosófica no busca sistemas, sino ejercicios para el alma: examinar cada noche el día vivido, anticipar las desgracias para no ser sorprendido, aprovechar el tiempo, que es lo único verdaderamente nuestro. En las [[obra.cartas_lucilio|Cartas a Lucilio]] dialoga con un amigo sobre cómo progresar hacia la sabiduría, y no duda en citar a [[autor.epicuro|Epicuro]] cuando le parece acertado. Escribió también tratados sobre la ira, la brevedad de la vida y la clemencia, tragedias y un estudio de los fenómenos naturales. Sus críticos le reprocharon predicar la pobreza siendo inmensamente rico, y él respondió que el sabio no es esclavo de su riqueza.",
+   "anecdotas": "En el año 65, acusado de participar en una conspiración, recibió de Nerón la orden de quitarse la vida. Según el historiador Tácito, consoló a sus amigos, se abrió las venas y, como la sangre corría despacio por su edad, tomó veneno y finalmente se hizo llevar a un baño de vapor, donde murió (Tácito, Anales XV 60-64 · B)."
+  },
+  {
+   "id": "autor.epicteto",
+   "tipo": "autor",
+   "nombre": "Epicteto",
+   "nombreOriginal": "Ἐπίκτητος",
+   "alias": [
+    "Epictetus"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [
+    "escuela.estoicismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Hierápolis, en Frigia, en la actual Turquía",
+   "fechas": {
+    "nacimiento": {
+     "min": 45,
+     "max": 55
+    },
+    "muerte": {
+     "min": 130,
+     "max": 140
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 50 – c. 135 d. C."
+   },
+   "resumen": "Antiguo esclavo convertido en maestro estoico. Enseñó a distinguir entre lo que depende de nosotros, nuestros juicios y decisiones, y lo que no, todo lo demás: ahí está la clave de la libertad interior.",
+   "profundizacion": "Epicteto fue esclavo de Epafrodito, secretario del emperador Nerón, y con su permiso estudió con el estoico Musonio Rufo. Tras ser liberado enseñó en Roma, hasta que el emperador Domiciano expulsó a los filósofos de Italia hacia el año 93; entonces abrió una escuela en Nicópolis, en el noroeste de Grecia. No escribió nada: su alumno [[autor.arriano|Arriano]] recogió sus clases en las [[obra.disertaciones|Disertaciones]] y las resumió en el [[obra.manual_epicteto|Manual]]. Su enseñanza parte de una distinción: unas cosas dependen de nosotros, como nuestras opiniones, deseos y rechazos, y otras no, como el cuerpo, los bienes, la fama o los cargos. Sufrimos porque confundimos unas con otras; no nos perturban las cosas, sino nuestros juicios sobre ellas. Quien solo quiere lo que depende de él es libre aunque esté encadenado. Su influencia llega desde el emperador [[autor.marco_aurelio|Marco Aurelio]] hasta la psicoterapia cognitiva actual.",
+   "anecdotas": "Según una tradición recogida por el escritor cristiano Orígenes, su amo le retorcía la pierna; Epicteto le advirtió tranquilamente: «Me la vas a romper», y cuando se la rompió añadió: «¿No te lo decía?» (Orígenes, Contra Celso VII 53 · C). Vivía con tan pocas cosas que solo tenía una lámpara de hierro; cuando se la robaron compró una de barro, y tras su muerte un admirador pagó tres mil dracmas por ella (el escritor satírico Luciano de Samósata, Contra un ignorante que compraba muchos libros 13 · C)."
+  },
+  {
+   "id": "autor.marco_aurelio",
+   "tipo": "autor",
+   "nombre": "Marco Aurelio",
+   "nombreOriginal": "Marcus Aurelius Antoninus",
+   "alias": [
+    "Marcus Aurelius",
+    "el emperador filósofo"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [
+    "escuela.estoicismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Roma",
+   "fechas": {
+    "nacimiento": {
+     "min": 121,
+     "max": 121
+    },
+    "muerte": {
+     "min": 180,
+     "max": 180
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "121 – 180 d. C.; emperador desde el 161."
+   },
+   "resumen": "Emperador romano y filósofo estoico. En sus [[obra.meditaciones|Meditaciones]], notas escritas para sí mismo durante sus campañas militares, se exhorta a cumplir su deber con serenidad en un mundo que todo lo cambia.",
+   "profundizacion": "Marco Aurelio gobernó un imperio azotado por guerras en la frontera del Danubio y por una gran epidemia. Sus [[obra.meditaciones|Meditaciones]], escritas en griego y nunca pensadas para publicarse, son ejercicios espirituales: recordarse una y otra vez lo que considera verdadero para vivirlo. Vuelve sobre la brevedad de la vida y la [[concepto.anitya|impermanencia]] de todo, sobre la mirada «desde lo alto» que empequeñece la fama y las disputas, sobre la pertenencia de cada ser humano a una comunidad racional universal, y sobre la necesidad de aceptar lo que no depende de nosotros, siguiendo a [[autor.epicteto|Epicteto]]. Es uno de los raros casos de un gobernante que dejó un testimonio íntimo de su vida moral.",
+   "anecdotas": "El primer libro de sus notas es un agradecimiento a todos los que le enseñaron algo; entre ellos, a su maestro Rústico, que le prestó sus apuntes de las clases de [[autor.epicteto|Epicteto]] ([[obra.meditaciones|Meditaciones]] I 7 · A). El encabezado del segundo libro indica dónde lo escribía: «Entre los cuados, junto al Gran», un río afluente del Danubio, en plena campaña militar ([[obra.meditaciones|Meditaciones]] II, encabezado · A)."
+  },
+  {
+   "id": "autor.sexto_empirico",
+   "tipo": "autor",
+   "nombre": "Sexto Empírico",
+   "nombreOriginal": "Σέξτος Ἐμπειρικός",
+   "alias": [
+    "Sextus Empiricus",
+    "Sexto"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.logica"
+   ],
+   "escuelas": [
+    "escuela.pirronismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Desconocido",
+   "fechas": {
+    "activo": {
+     "min": 160,
+     "max": 240
+    },
+    "tipo": "actividad",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Activo hacia el año 200 d. C."
+   },
+   "resumen": "Médico y filósofo escéptico cuyas obras son la exposición más completa del [[escuela.pirronismo|pirronismo]]. Enseña a oponer argumentos de igual fuerza hasta [[concepto.epoje|suspender el juicio]] y alcanzar la [[concepto.ataraxia|tranquilidad]].",
+   "profundizacion": "De Sexto apenas sabemos nada, salvo que era médico de la escuela llamada empírica, de donde le viene el nombre. En sus [[obra.esbozos_pirronicos|Esbozos pirrónicos]] explica que el escéptico no niega que podamos conocer, sino que sigue investigando: ante cada cuestión encuentra argumentos opuestos de [[concepto.isostheneia|igual fuerza]] y, al no poder decidir, [[concepto.epoje|suspende el juicio]]. Para ello reúne los «modos» o tipos de argumento escéptico, como que una misma cosa parece distinta a animales diferentes o en circunstancias distintas. Mientras tanto, vive guiándose por las apariencias, las costumbres y las técnicas, sin afirmar que sean verdaderas. Sus obras, que discuten a todas las escuelas, nos han conservado mucha información sobre la filosofía helenística. Redescubiertas en el siglo XVI, influyeron en el ensayista francés Michel de Montaigne y en el debate moderno sobre el conocimiento.",
+   "anecdotas": "Sexto explica cómo llega la tranquilidad con la historia del pintor Apeles: no conseguía pintar la espuma de un caballo y, harto, arrojó contra el cuadro la esponja con la que limpiaba los pinceles; la mancha dibujó la espuma perfecta. Así, dice, el escéptico encuentra la calma justo cuando renuncia a decidir ([[obra.esbozos_pirronicos|Esbozos pirrónicos]] I 28 · C). Su vida es tan desconocida que lo único casi seguro es su lugar en la lista de maestros escépticos que recoge [[autor.diogenes_laercio|Diógenes Laercio]] ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 116 · B)."
+  },
+  {
+   "id": "autor.plotino",
+   "tipo": "autor",
+   "nombre": "Plotino",
+   "nombreOriginal": "Πλωτῖνος",
+   "alias": [
+    "Plotinus"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.neoplatonismo"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.soteriologia",
+    "tematica.cultivo_de_si",
+    "tematica.filosofia_mente"
+   ],
+   "escuelas": [
+    "escuela.neoplatonismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Probablemente Licópolis, en Egipto; enseñó en Roma",
+   "fechas": {
+    "nacimiento": {
+     "min": 204,
+     "max": 205
+    },
+    "muerte": {
+     "min": 270,
+     "max": 270
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "204/205 – 270 d. C."
+   },
+   "resumen": "Fundador del [[escuela.neoplatonismo|neoplatonismo]]. Enseñó que todo procede de un principio absolutamente simple e inefable, [[concepto.uno|el Uno]], y que el alma puede volver a unirse con él mediante la purificación y la contemplación.",
+   "profundizacion": "Plotino estudió once años en Alejandría con Amonio Saccas, un maestro que no escribió nada, y desde el 245 enseñó en Roma. Su pensamiento distingue tres niveles de realidad. En lo más alto está [[concepto.uno|el Uno]], más allá del ser y del pensamiento, que no puede describirse. De él procede, como la luz del sol, el Intelecto, el [[concepto.nous|nous]], donde están las [[concepto.idea|Formas]] de [[autor.platon|Platón]]. Del Intelecto procede el [[concepto.psyche|Alma]], que anima el mundo sensible. Esta [[tesis.emanacion|emanación]] no empobrece al Uno, igual que la luz no agota al sol. El alma humana, caída en el cuerpo, puede recorrer el camino inverso: purificarse, volverse hacia el Intelecto y, en raros momentos, unirse al Uno en una experiencia que está más allá de las palabras. Sus tratados, editados por su discípulo [[autor.porfirio|Porfirio]] en las [[obra.eneadas|Enéadas]], influyeron enormemente en el pensamiento cristiano, judío e islámico.",
+   "anecdotas": "Parecía avergonzarse de tener un cuerpo; por eso nunca quiso decir dónde ni cuándo había nacido, y se negó a posar para un retrato: «¿No basta con soportar esta imagen con la que la naturaleza nos ha rodeado?» ([[obra.vida_plotino|Vida de Plotino]] 1 · B). Con casi cuarenta años se unió a la expedición del emperador Gordiano III contra Persia, porque quería conocer la filosofía de los persas y de los indios; el emperador murió en la campaña y Plotino tuvo que huir ([[obra.vida_plotino|Vida de Plotino]] 3 · B). Su discípulo [[autor.porfirio|Porfirio]] cuenta que, en los seis años que pasó con él, Plotino alcanzó cuatro veces la unión con el Uno ([[obra.vida_plotino|Vida de Plotino]] 23 · B)."
+  },
+  {
+   "id": "autor.leucipo",
+   "tipo": "autor",
+   "nombre": "Leucipo",
+   "nombreOriginal": "Λεύκιππος",
+   "alias": [
+    "Leucippus"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "escuelas": [
+    "escuela.atomismo"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Mileto o Abdera, según las fuentes",
+   "fechas": {
+    "activo": {
+     "min": -450,
+     "max": -420
+    },
+    "tipo": "actividad",
+    "historicidad": "debatido",
+    "alternativas": [],
+    "nota": "Activo en el siglo V a. C. Según Diógenes Laercio, Epicuro llegó a decir que no había existido."
+   },
+   "resumen": "Fundador del [[escuela.atomismo|atomismo]] y maestro de [[autor.democrito|Demócrito]]. Apenas se sabe nada de él, y sus ideas se confunden con las de su discípulo."
+  },
+  {
+   "id": "autor.crates",
+   "tipo": "autor",
+   "nombre": "Crates de Tebas",
+   "nombreOriginal": "Κράτης ὁ Θηβαῖος",
+   "alias": [
+    "Crates"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [
+    "escuela.cinismo"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Tebas, en Grecia central",
+   "fechas": {
+    "nacimiento": {
+     "min": -370,
+     "max": -360
+    },
+    "muerte": {
+     "min": -290,
+     "max": -280
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 365 – c. 285 a. C."
+   },
+   "resumen": "Filósofo cínico, seguidor de [[autor.diogenes_sinope|Diógenes]] y maestro de [[autor.zenon_citio|Zenón de Citio]]. Renunció a su fortuna y vivió como cínico junto a su esposa, la filósofa Hiparquia. Lo llamaban «el abridor de puertas», porque entraba en las casas para dar consejo."
+  },
+  {
+   "id": "autor.cleantes",
+   "tipo": "autor",
+   "nombre": "Cleantes",
+   "nombreOriginal": "Κλεάνθης",
+   "alias": [
+    "Cleantes de Aso"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [
+    "escuela.estoicismo"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Aso, en Asia Menor",
+   "fechas": {
+    "nacimiento": {
+     "min": -335,
+     "max": -325
+    },
+    "muerte": {
+     "min": -235,
+     "max": -225
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 330 – c. 230 a. C."
+   },
+   "resumen": "Sucesor de [[autor.zenon_citio|Zenón]] al frente de la escuela estoica y maestro de [[autor.crisipo|Crisipo]]. Autor del Himno a Zeus, que celebra el [[concepto.logos|logos]] que gobierna el universo.",
+   "anecdotas": "Antiguo púgil y muy pobre, de noche sacaba agua de los pozos de los jardines para poder estudiar filosofía de día; cuando los jueces le preguntaron de qué vivía, presentó como testigos al jardinero y a una panadera ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 168-169 · C)."
+  },
+  {
+   "id": "autor.porfirio",
+   "tipo": "autor",
+   "nombre": "Porfirio",
+   "nombreOriginal": "Πορφύριος",
+   "alias": [
+    "Porphyry",
+    "Porfirio de Tiro"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.neoplatonismo"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.metafisica",
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [
+    "escuela.neoplatonismo"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Tiro, en la actual Líbano",
+   "fechas": {
+    "nacimiento": {
+     "min": 232,
+     "max": 236
+    },
+    "muerte": {
+     "min": 300,
+     "max": 310
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 234 – c. 305 d. C."
+   },
+   "resumen": "Discípulo de [[autor.plotino|Plotino]], editor de sus tratados en las [[obra.eneadas|Enéadas]] y autor de su biografía. Su Introducción a las Categorías de [[autor.aristoteles|Aristóteles]] fue un manual básico de lógica durante toda la Edad Media."
+  },
+  {
+   "id": "autor.arriano",
+   "tipo": "autor",
+   "nombre": "Arriano",
+   "nombreOriginal": "Ἀρριανός",
+   "alias": [
+    "Flavio Arriano",
+    "Arrian"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_historia"
+   ],
+   "escuelas": [
+    "escuela.estoicismo"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Nicomedia, en Bitinia, en la actual Turquía",
+   "fechas": {
+    "nacimiento": {
+     "min": 85,
+     "max": 90
+    },
+    "muerte": {
+     "min": 155,
+     "max": 165
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 86 – c. 160 d. C."
+   },
+   "resumen": "Alumno de [[autor.epicteto|Epicteto]], cuyas clases recogió en las [[obra.disertaciones|Disertaciones]] y el [[obra.manual_epicteto|Manual]]. Fue también alto cargo romano e historiador de [[autor.alejandro|Alejandro Magno]] en la [[obra.anabasis|Anábasis]]."
+  },
+  {
+   "id": "autor.plutarco",
+   "tipo": "autor",
+   "nombre": "Plutarco",
+   "nombreOriginal": "Πλούταρχος",
+   "alias": [
+    "Plutarch",
+    "Plutarco de Queronea"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_historia",
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [
+    "escuela.academia"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Queronea, en Grecia central",
+   "fechas": {
+    "nacimiento": {
+     "min": 45,
+     "max": 50
+    },
+    "muerte": {
+     "min": 119,
+     "max": 125
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 46 – c. 120 d. C."
+   },
+   "resumen": "Filósofo platónico y sacerdote en el santuario de Delfos. Sus [[obra.vidas_paralelas|Vidas paralelas]] de griegos y romanos y sus numerosos tratados morales son una fuente principal sobre la Antigüedad."
+  },
+  {
+   "id": "autor.diogenes_laercio",
+   "tipo": "autor",
+   "nombre": "Diógenes Laercio",
+   "nombreOriginal": "Διογένης Λαέρτιος",
+   "alias": [
+    "Diogenes Laertius",
+    "Laercio"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.filosofia_historia"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Desconocido",
+   "fechas": {
+    "activo": {
+     "min": 200,
+     "max": 250
+    },
+    "tipo": "actividad",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Probablemente activo en la primera mitad del siglo III d. C.; no se sabe nada de su vida."
+   },
+   "resumen": "Autor de las [[obra.vidas_filosofos|Vidas de los filósofos]], la única historia de la filosofía griega antigua que se ha conservado completa. Recopilador entusiasta pero poco crítico, a él debemos la mayoría de las anécdotas sobre los filósofos griegos."
+  },
+  {
+   "id": "autor.anaxarco",
+   "tipo": "autor",
+   "nombre": "Anaxarco",
+   "nombreOriginal": "Ἀνάξαρχος",
+   "alias": [
+    "Anaxarco de Abdera",
+    "Anaxarchus"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.epistemologia"
+   ],
+   "escuelas": [
+    "escuela.atomismo"
+   ],
+   "circulo": 3,
+   "lugarOrigen": "Abdera, en Tracia",
+   "fechas": {
+    "nacimiento": {
+     "min": -385,
+     "max": -375
+    },
+    "muerte": {
+     "min": -325,
+     "max": -315
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 380 – c. 320 a. C."
+   },
+   "resumen": "Filósofo de la tradición de [[autor.democrito|Demócrito]] que acompañó a [[autor.alejandro|Alejandro Magno]] hasta la India, junto con su discípulo [[autor.pirron|Pirrón]]. Lo llamaban «el feliz» por su imperturbabilidad."
+  },
+  {
+   "id": "autor.kalanos",
+   "tipo": "autor",
+   "nombre": "Kálanos",
+   "nombreOriginal": "Κάλανος",
+   "alias": [
+    "Calanus",
+    "Kalanos",
+    "Calano"
+   ],
+   "tradicion": "india",
+   "contextos": [
+    "contexto.sramana_maurya",
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.cultivo_de_si",
+    "tematica.soteriologia"
+   ],
+   "escuelas": [
+    "escuela.gimnosofistas"
+   ],
+   "circulo": 3,
+   "lugarOrigen": "Región de Taxila, en el noroeste de la India",
+   "fechas": {
+    "activo": {
+     "min": -330,
+     "max": -323
+    },
+    "tipo": "actividad",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Conoció a Alejandro en Taxila en el 326 a. C. y murió en el 323 a. C."
+   },
+   "resumen": "Asceta indio que conoció a [[autor.alejandro|Alejandro Magno]] en Taxila y lo acompañó en su regreso hacia Persia. Es uno de los primeros pensadores indios cuyo encuentro con griegos está documentado.",
+   "anecdotas": "Ya anciano y enfermo, pidió que le prepararan una pira funeraria y se dejó quemar en ella, sin moverse, ante el ejército de Alejandro formado en su honor ([[autor.arriano|Arriano]], [[obra.anabasis|Anábasis]] VII 3 · B)."
+  },
+  {
+   "id": "obra.vidas_filosofos",
+   "tipo": "obra",
+   "nombre": "Vidas de los filósofos",
+   "nombreOriginal": "Βίοι καὶ γνῶμαι τῶν ἐν φιλοσοφίᾳ εὐδοκιμησάντων",
+   "alias": [
+    "Vidas y opiniones de los filósofos ilustres",
+    "Vidas de los filósofos ilustres",
+    "Diógenes Laercio"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.filosofia_historia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 200,
+     "max": 250
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Diez libros; probablemente de la primera mitad del siglo III d. C."
+   },
+   "resumen": "Obra de [[autor.diogenes_laercio|Diógenes Laercio]] en diez libros: biografías, opiniones y anécdotas de los filósofos griegos, de [[autor.tales|Tales]] a [[autor.epicuro|Epicuro]]. Mezcla datos valiosos con chismes y leyendas, por lo que hay que leerla con cautela."
+  },
+  {
+   "id": "obra.apologia",
+   "tipo": "obra",
+   "nombre": "Apología de Sócrates",
+   "nombreOriginal": "Ἀπολογία Σωκράτους",
+   "alias": [
+    "Apología"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -399,
+     "max": -385
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrita por Platón poco después del juicio."
+   },
+   "resumen": "Versión de [[autor.platon|Platón]] del discurso de defensa de [[autor.socrates|Sócrates]] en su juicio del 399 a. C., en el que explica su misión filosófica y acepta la condena antes que renunciar a ella."
+  },
+  {
+   "id": "obra.banquete",
+   "tipo": "obra",
+   "nombre": "Banquete",
+   "nombreOriginal": "Συμπόσιον",
+   "alias": [
+    "El banquete",
+    "Symposium"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.estetica",
+    "tematica.etica",
+    "tematica.metafisica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -385,
+     "max": -370
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Diálogo de madurez de Platón."
+   },
+   "resumen": "Diálogo de [[autor.platon|Platón]] en el que varios invitados a una cena pronuncian discursos sobre el amor. [[autor.socrates|Sócrates]] lo presenta como un ascenso desde la belleza de un cuerpo hasta la [[concepto.idea|Forma]] de la belleza en sí."
+  },
+  {
+   "id": "obra.fedon",
+   "tipo": "obra",
+   "nombre": "Fedón",
+   "nombreOriginal": "Φαίδων",
+   "alias": [
+    "Phaedo",
+    "Sobre el alma"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.filosofia_mente",
+    "tematica.metafisica",
+    "tematica.soteriologia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -385,
+     "max": -370
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Diálogo de madurez de Platón."
+   },
+   "resumen": "Diálogo de [[autor.platon|Platón]] que narra las últimas horas de [[autor.socrates|Sócrates]] en la cárcel, discutiendo con sus amigos las pruebas de que [[tesis.alma_inmortal|el alma es inmortal]]."
+  },
+  {
+   "id": "obra.republica",
+   "tipo": "obra",
+   "nombre": "República",
+   "nombreOriginal": "Πολιτεία",
+   "alias": [
+    "La República",
+    "Politeia",
+    "Sobre la justicia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica",
+    "tematica.etica",
+    "tematica.metafisica",
+    "tematica.epistemologia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -380,
+     "max": -370
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Diez libros."
+   },
+   "resumen": "La obra más extensa de [[autor.platon|Platón]]. Para saber qué es la justicia, diseña una ciudad ideal gobernada por filósofos, y la relaciona con el orden del alma y con el conocimiento del Bien."
+  },
+  {
+   "id": "obra.caverna",
+   "tipo": "obra",
+   "nombre": "Alegoría de la caverna",
+   "alias": [
+    "Mito de la caverna",
+    "República VII"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.metafisica",
+    "tematica.filosofia_politica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -380,
+     "max": -370
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "República 514a-517a."
+   },
+   "resumen": "Pasaje del libro VII de la [[obra.republica|República]]: unos prisioneros encadenados en una cueva solo ven sombras y las toman por la realidad. Uno de ellos se libera, sale a la luz del sol y, al volver para liberar a los demás, se burlan de él. Es una imagen de la educación filosófica."
+  },
+  {
+   "id": "obra.teeteto",
+   "tipo": "obra",
+   "nombre": "Teeteto",
+   "nombreOriginal": "Θεαίτητος",
+   "alias": [
+    "Theaetetus",
+    "Sobre la ciencia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.epistemologia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -370,
+     "max": -365
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Diálogo tardío de Platón."
+   },
+   "resumen": "Diálogo de [[autor.platon|Platón]] sobre qué es el conocimiento. Examina y rechaza tres definiciones, entre ellas que conocer es percibir, ligada a la tesis de [[autor.protagoras|Protágoras]]."
+  },
+  {
+   "id": "obra.metafisica",
+   "tipo": "obra",
+   "nombre": "Metafísica",
+   "nombreOriginal": "Τὰ μετὰ τὰ φυσικά",
+   "alias": [
+    "Metaphysica"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_historia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -350,
+     "max": -322
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Catorce libros de distintas épocas, reunidos después de Aristóteles; el título significa «los libros que van después de los de física»."
+   },
+   "resumen": "Tratados de [[autor.aristoteles|Aristóteles]] sobre el ser en cuanto ser, la [[concepto.ousia|sustancia]], las causas y el primer motor. Su libro I es la primera historia de la filosofía y nuestra fuente principal sobre los presocráticos."
+  },
+  {
+   "id": "obra.fisica",
+   "tipo": "obra",
+   "nombre": "Física",
+   "nombreOriginal": "Φυσικὴ ἀκρόασις",
+   "alias": [
+    "Physica",
+    "Física de Aristóteles"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.filosofia_ciencia",
+    "tematica.metafisica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -350,
+     "max": -322
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Ocho libros."
+   },
+   "resumen": "Tratado de [[autor.aristoteles|Aristóteles]] sobre la naturaleza, el cambio, las causas, el tiempo, el lugar y el infinito. Recoge y discute las paradojas de [[autor.zenon_elea|Zenón]]."
+  },
+  {
+   "id": "obra.etica_nicomaco",
+   "tipo": "obra",
+   "nombre": "Ética a Nicómaco",
+   "nombreOriginal": "Ἠθικὰ Νικομάχεια",
+   "alias": [
+    "Ética nicomaquea",
+    "Ethica Nicomachea"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.antropologia_filosofica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -340,
+     "max": -322
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Diez libros; su nombre quizá se debe a Nicómaco, hijo de Aristóteles."
+   },
+   "resumen": "La principal obra ética de [[autor.aristoteles|Aristóteles]]: la [[concepto.eudaimonia|felicidad]] como fin de la vida, la virtud como término medio, la [[concepto.phronesis|prudencia]], la justicia y la amistad."
+  },
+  {
+   "id": "obra.politica",
+   "tipo": "obra",
+   "nombre": "Política",
+   "nombreOriginal": "Πολιτικά",
+   "alias": [
+    "Politica"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -340,
+     "max": -322
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Ocho libros."
+   },
+   "resumen": "Tratado de [[autor.aristoteles|Aristóteles]] sobre la ciudad, la familia, las formas de gobierno y la mejor constitución. Parte de que [[tesis.animal_politico|el ser humano es un animal político]]."
+  },
+  {
+   "id": "obra.organon",
+   "tipo": "obra",
+   "nombre": "Órganon",
+   "nombreOriginal": "Ὄργανον",
+   "alias": [
+    "Organon",
+    "tratados de lógica",
+    "Analíticos primeros"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.filosofia_lenguaje",
+    "tematica.epistemologia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -355,
+     "max": -322
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Nombre dado por los comentaristas a los seis tratados lógicos de Aristóteles."
+   },
+   "resumen": "Conjunto de seis tratados de lógica de [[autor.aristoteles|Aristóteles]]; su nombre significa «instrumento», porque la lógica es la herramienta de todas las ciencias. Los Analíticos primeros exponen el [[concepto.silogismo|silogismo]]."
+  },
+  {
+   "id": "obra.poema_parmenides",
+   "tipo": "obra",
+   "nombre": "Poema de Parménides",
+   "alias": [
+    "Sobre la naturaleza (Parménides)",
+    "Peri physeos"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.epistemologia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -490,
+     "max": -470
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Se conservan unos 160 versos citados por autores posteriores."
+   },
+   "resumen": "Poema en hexámetros de [[autor.parmenides|Parménides]], conservado en fragmentos. Una diosa revela la vía de la verdad, [[tesis.ser_es|lo que es, es]], y la de las opiniones de los mortales."
+  },
+  {
+   "id": "obra.fragmentos_heraclito",
+   "tipo": "obra",
+   "nombre": "Fragmentos de Heráclito",
+   "alias": [
+    "Sobre la naturaleza (Heráclito)",
+    "libro de Heráclito"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -510,
+     "max": -490
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Unos 130 fragmentos breves de un libro perdido."
+   },
+   "resumen": "Lo que queda del libro de [[autor.heraclito|Heráclito]]: frases breves y densas sobre el [[concepto.logos|logos]], la unidad de los contrarios y el cambio."
+  },
+  {
+   "id": "obra.poema_empedocles",
+   "tipo": "obra",
+   "nombre": "Poemas de Empédocles",
+   "alias": [
+    "Sobre la naturaleza (Empédocles)",
+    "Purificaciones"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.soteriologia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -460,
+     "max": -440
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Fragmentos de dos poemas; en 1999 se publicaron nuevos versos hallados en un papiro de Estrasburgo."
+   },
+   "resumen": "Fragmentos de los dos poemas de [[autor.empedocles|Empédocles]]: Sobre la naturaleza, con las cuatro raíces y las fuerzas del Amor y la Discordia, y Purificaciones, sobre el destino de las almas."
+  },
+  {
+   "id": "obra.sobre_no_ser",
+   "tipo": "obra",
+   "nombre": "Sobre el no ser",
+   "alias": [
+    "Sobre la naturaleza o el no ser",
+    "Peri tou me ontos"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.epistemologia",
+    "tematica.filosofia_lenguaje"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -445,
+     "max": -430
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Perdido; se conoce por dos resúmenes, uno de ellos de Sexto Empírico."
+   },
+   "resumen": "Tratado de [[autor.gorgias|Gorgias]], conocido por resúmenes posteriores, que defiende tres tesis encadenadas: [[tesis.nada_existe|nada existe; si existiera, no podría conocerse; y si se conociera, no podría comunicarse]]."
+  },
+  {
+   "id": "obra.carta_meneceo",
+   "tipo": "obra",
+   "nombre": "Carta a Meneceo",
+   "alias": [
+    "Carta sobre la felicidad"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -306,
+     "max": -270
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Conservada por Diógenes Laercio en el libro X."
+   },
+   "resumen": "Breve carta en la que [[autor.epicuro|Epicuro]] resume su ética: no temer a los dioses ni a la muerte, distinguir los deseos naturales de los vanos y buscar un placer sereno."
+  },
+  {
+   "id": "obra.de_rerum_natura",
+   "tipo": "obra",
+   "nombre": "Sobre la naturaleza de las cosas",
+   "nombreOriginal": "De rerum natura",
+   "alias": [
+    "De rerum natura",
+    "De la naturaleza"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia",
+    "tematica.etica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": -60,
+     "max": -50
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Seis libros en hexámetros; redescubierto en 1417."
+   },
+   "resumen": "Poema de [[autor.lucrecio|Lucrecio]] que expone en verso latino la física y la ética de [[autor.epicuro|Epicuro]]: [[concepto.atomo|átomos]], vacío, mortalidad del alma y origen natural del mundo y de la civilización."
+  },
+  {
+   "id": "obra.academicos",
+   "tipo": "obra",
+   "nombre": "Académicos",
+   "nombreOriginal": "Academica",
+   "alias": [
+    "Academica",
+    "Cuestiones académicas"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.epistemologia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": -45,
+     "max": -45
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "nota": "Conservado solo en parte."
+   },
+   "resumen": "Diálogo de [[autor.ciceron|Cicerón]] sobre si es posible el conocimiento cierto. Enfrenta la posición estoica con el escepticismo de la [[escuela.academia|Academia]]."
+  },
+  {
+   "id": "obra.de_officiis",
+   "tipo": "obra",
+   "nombre": "Sobre los deberes",
+   "nombreOriginal": "De officiis",
+   "alias": [
+    "De officiis",
+    "Los oficios"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_politica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": -44,
+     "max": -44
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "nota": "Escrita en forma de carta a su hijo Marco."
+   },
+   "resumen": "Tratado de [[autor.ciceron|Cicerón]], muy inspirado en el estoico Panecio, sobre cómo conciliar lo honesto y lo útil en la vida pública. Fue uno de los libros de ética más leídos en Europa hasta el siglo XVIII."
+  },
+  {
+   "id": "obra.cartas_lucilio",
+   "tipo": "obra",
+   "nombre": "Cartas a Lucilio",
+   "nombreOriginal": "Epistulae morales ad Lucilium",
+   "alias": [
+    "Epístolas morales a Lucilio",
+    "Cartas morales"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 62,
+     "max": 65
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "124 cartas en veinte libros."
+   },
+   "resumen": "Colección de 124 cartas de [[autor.seneca|Séneca]] a su amigo Lucilio con consejos para progresar en la sabiduría: el uso del tiempo, la amistad, la muerte, la libertad interior."
+  },
+  {
+   "id": "obra.disertaciones",
+   "tipo": "obra",
+   "nombre": "Disertaciones",
+   "nombreOriginal": "Διατριβαί",
+   "alias": [
+    "Diatribas",
+    "Discursos de Epicteto",
+    "Pláticas"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "autoria": "compilacion",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 105,
+     "max": 115
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Se conservan cuatro de los libros originales."
+   },
+   "resumen": "Apuntes de las clases de [[autor.epicteto|Epicteto]] tomados por su alumno [[autor.arriano|Arriano]], que conservan el tono vivo y directo del maestro."
+  },
+  {
+   "id": "obra.manual_epicteto",
+   "tipo": "obra",
+   "nombre": "Manual de Epicteto",
+   "nombreOriginal": "Ἐγχειρίδιον",
+   "alias": [
+    "Enquiridión",
+    "Enchiridion",
+    "Manual"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "autoria": "compilacion",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 105,
+     "max": 130
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Resumen breve de la enseñanza de Epicteto."
+   },
+   "resumen": "Breve resumen de la enseñanza de [[autor.epicteto|Epicteto]] hecho por [[autor.arriano|Arriano]]. Empieza con la distinción entre lo que depende de nosotros y lo que no."
+  },
+  {
+   "id": "obra.meditaciones",
+   "tipo": "obra",
+   "nombre": "Meditaciones",
+   "nombreOriginal": "Τὰ εἰς ἑαυτόν",
+   "alias": [
+    "Pensamientos",
+    "A sí mismo",
+    "Soliloquios"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 170,
+     "max": 180
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Doce libros; su título original significa «para sí mismo»."
+   },
+   "resumen": "Notas personales de [[autor.marco_aurelio|Marco Aurelio]], escritas en griego durante sus campañas, para recordarse cómo vivir según la razón."
+  },
+  {
+   "id": "obra.esbozos_pirronicos",
+   "tipo": "obra",
+   "nombre": "Esbozos pirrónicos",
+   "nombreOriginal": "Πυρρώνειοι ὑποτυπώσεις",
+   "alias": [
+    "Hipotiposis pirrónicas",
+    "Outlines of Pyrrhonism"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.logica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 180,
+     "max": 220
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Tres libros."
+   },
+   "resumen": "Obra de [[autor.sexto_empirico|Sexto Empírico]] en tres libros: la exposición más completa del escepticismo pirrónico y de sus argumentos contra las demás escuelas."
+  },
+  {
+   "id": "obra.eneadas",
+   "tipo": "obra",
+   "nombre": "Enéadas",
+   "nombreOriginal": "Ἐννεάδες",
+   "alias": [
+    "Enneades",
+    "Enneads"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.neoplatonismo"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.soteriologia",
+    "tematica.filosofia_mente"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 253,
+     "max": 270
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Editadas por Porfirio hacia el año 300."
+   },
+   "resumen": "Los 54 tratados de [[autor.plotino|Plotino]], ordenados por su discípulo [[autor.porfirio|Porfirio]] en seis grupos de nueve, de ahí el nombre (en griego, ennéa es «nueve»)."
+  },
+  {
+   "id": "obra.vida_plotino",
+   "tipo": "obra",
+   "nombre": "Vida de Plotino",
+   "nombreOriginal": "Περὶ τοῦ Πλωτίνου βίου",
+   "alias": [
+    "Vita Plotini"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.neoplatonismo"
+   ],
+   "tematicas": [
+    "tematica.filosofia_historia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 298,
+     "max": 305
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrita como introducción a las Enéadas."
+   },
+   "resumen": "Biografía de [[autor.plotino|Plotino]] escrita por su discípulo [[autor.porfirio|Porfirio]], que lo conoció personalmente: una fuente de primera mano, aunque llena de admiración."
+  },
+  {
+   "id": "obra.vidas_paralelas",
+   "tipo": "obra",
+   "nombre": "Vidas paralelas",
+   "nombreOriginal": "Βίοι παράλληλοι",
+   "alias": [
+    "Vidas",
+    "Vidas de Plutarco"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.filosofia_historia",
+    "tematica.etica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 100,
+     "max": 120
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Biografías emparejadas de un griego y un romano."
+   },
+   "resumen": "Biografías de [[autor.plutarco|Plutarco]] que comparan a parejas de griegos y romanos ilustres, como [[autor.alejandro|Alejandro]] y César o Demóstenes y [[autor.ciceron|Cicerón]], para extraer lecciones morales."
+  },
+  {
+   "id": "obra.anabasis",
+   "tipo": "obra",
+   "nombre": "Anábasis de Alejandro",
+   "nombreOriginal": "Ἀλεξάνδρου ἀνάβασις",
+   "alias": [
+    "Anábasis",
+    "Historia de Alejandro"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.filosofia_historia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 130,
+     "max": 160
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Basada en fuentes contemporáneas de Alejandro, hoy perdidas."
+   },
+   "resumen": "Historia de las campañas de [[autor.alejandro|Alejandro Magno]] escrita por [[autor.arriano|Arriano]], la más fiable de las conservadas. Narra el encuentro de los griegos con los ascetas indios."
+  },
+  {
+   "id": "concepto.arche",
+   "tipo": "concepto",
+   "nombre": "arché",
+   "nombreOriginal": "ἀρχή",
+   "terminoOriginal": "ἀρχή",
+   "transliteracion": "arkhḗ",
+   "traduccion": "principio, origen",
+   "alias": [
+    "arje",
+    "arkhe",
+    "principio"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "El principio u origen del que procede y del que está hecho todo, que buscaron los primeros filósofos: el agua, el [[concepto.apeiron|ápeiron]], el aire, el fuego…"
+  },
+  {
+   "id": "concepto.physis",
+   "tipo": "concepto",
+   "nombre": "physis",
+   "nombreOriginal": "φύσις",
+   "terminoOriginal": "φύσις",
+   "transliteracion": "phýsis",
+   "traduccion": "naturaleza",
+   "notaTraduccion": "Viene de un verbo que significa «crecer»: la naturaleza como fuerza que hace surgir las cosas, no solo como conjunto de seres.",
+   "alias": [
+    "fisis",
+    "naturaleza"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "resumen": "La naturaleza, entendida como el principio por el que las cosas nacen, crecen y cambian. Los primeros filósofos escribieron libros titulados «Sobre la naturaleza»."
+  },
+  {
+   "id": "concepto.apeiron",
+   "tipo": "concepto",
+   "nombre": "ápeiron",
+   "nombreOriginal": "ἄπειρον",
+   "terminoOriginal": "ἄπειρον",
+   "transliteracion": "ápeiron",
+   "traduccion": "lo indefinido, lo ilimitado",
+   "alias": [
+    "apeiron",
+    "lo indeterminado",
+    "lo infinito"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "Para [[autor.anaximandro|Anaximandro]], el principio sin límites ni cualidades del que surgen todas las cosas y al que vuelven."
+  },
+  {
+   "id": "concepto.logos",
+   "tipo": "concepto",
+   "nombre": "lógos",
+   "nombreOriginal": "λόγος",
+   "terminoOriginal": "λόγος",
+   "transliteracion": "lógos",
+   "traduccion": "palabra, razón, medida, proporción",
+   "notaTraduccion": "Uno de los términos más ricos del griego: discurso, argumento, cuenta, proporción y razón.",
+   "alias": [
+    "logos",
+    "razón",
+    "palabra"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos",
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_lenguaje",
+    "tematica.logica"
+   ],
+   "resumen": "Para [[autor.heraclito|Heráclito]], la razón o ley común que ordena todas las cosas; para los estoicos, la razón divina presente en el universo."
+  },
+  {
+   "id": "concepto.nous",
+   "tipo": "concepto",
+   "nombre": "nous",
+   "nombreOriginal": "νοῦς",
+   "terminoOriginal": "νοῦς",
+   "transliteracion": "noûs",
+   "traduccion": "intelecto, inteligencia",
+   "alias": [
+    "nus",
+    "intelecto",
+    "inteligencia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos",
+    "contexto.neoplatonismo"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_mente"
+   ],
+   "resumen": "La inteligencia. Para [[autor.anaxagoras|Anaxágoras]], la que puso en orden el cosmos; para [[autor.plotino|Plotino]], el segundo nivel de la realidad, donde están las [[concepto.idea|Formas]]."
+  },
+  {
+   "id": "concepto.psyche",
+   "tipo": "concepto",
+   "nombre": "psyché",
+   "nombreOriginal": "ψυχή",
+   "terminoOriginal": "ψυχή",
+   "transliteracion": "psychḗ",
+   "traduccion": "alma, principio vital",
+   "alias": [
+    "psique",
+    "alma"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos",
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.filosofia_mente",
+    "tematica.antropologia_filosofica"
+   ],
+   "resumen": "El alma, entendida a la vez como lo que da vida al cuerpo y como sede del pensamiento y del carácter."
+  },
+  {
+   "id": "concepto.metempsicosis",
+   "tipo": "concepto",
+   "nombre": "metempsicosis",
+   "nombreOriginal": "μετεμψύχωσις",
+   "terminoOriginal": "μετεμψύχωσις",
+   "transliteracion": "metempsýchōsis",
+   "traduccion": "transmigración de las almas",
+   "alias": [
+    "transmigración",
+    "reencarnación",
+    "palingenesia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.soteriologia",
+    "tematica.metafisica"
+   ],
+   "resumen": "La creencia de que el alma, tras la muerte, pasa a otro cuerpo humano o animal. La enseñaron [[autor.pitagoras|Pitágoras]] y [[autor.empedocles|Empédocles]], y [[autor.platon|Platón]] la recoge en sus mitos."
+  },
+  {
+   "id": "concepto.arete",
+   "tipo": "concepto",
+   "nombre": "areté",
+   "nombreOriginal": "ἀρετή",
+   "terminoOriginal": "ἀρετή",
+   "transliteracion": "aretḗ",
+   "traduccion": "virtud, excelencia",
+   "notaTraduccion": "No es solo virtud moral: es la excelencia propia de cada cosa, como la del caballo es correr bien.",
+   "alias": [
+    "arete",
+    "virtud",
+    "excelencia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "resumen": "La excelencia de algo en su función propia; en el ser humano, la virtud. [[autor.socrates|Sócrates]] la entendió como una forma de saber."
+  },
+  {
+   "id": "concepto.elenchos",
+   "tipo": "concepto",
+   "nombre": "élenchos",
+   "nombreOriginal": "ἔλεγχος",
+   "terminoOriginal": "ἔλεγχος",
+   "transliteracion": "élenchos",
+   "traduccion": "refutación, examen",
+   "alias": [
+    "elenco",
+    "refutación",
+    "método socrático",
+    "mayéutica"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.epistemologia"
+   ],
+   "resumen": "El método de [[autor.socrates|Sócrates]]: examinar las respuestas del interlocutor hasta mostrar que se contradicen, para que reconozca que no sabe lo que creía saber."
+  },
+  {
+   "id": "concepto.idea",
+   "tipo": "concepto",
+   "nombre": "Forma (Idea)",
+   "nombreOriginal": "εἶδος / ἰδέα",
+   "terminoOriginal": "εἶδος",
+   "transliteracion": "eîdos, idéa",
+   "traduccion": "forma, idea",
+   "notaTraduccion": "No es una idea mental: es una realidad que existe por sí misma y que la mente capta.",
+   "alias": [
+    "Idea",
+    "Ideas",
+    "Formas",
+    "teoría de las Ideas",
+    "eidos",
+    "mundo de las Ideas"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.epistemologia"
+   ],
+   "resumen": "Para [[autor.platon|Platón]], la realidad eterna e inmutable de la que las cosas sensibles son copias: lo bello en sí, lo justo en sí. Solo se conoce con la razón."
+  },
+  {
+   "id": "concepto.anamnesis",
+   "tipo": "concepto",
+   "nombre": "anámnesis",
+   "nombreOriginal": "ἀνάμνησις",
+   "terminoOriginal": "ἀνάμνησις",
+   "transliteracion": "anámnēsis",
+   "traduccion": "reminiscencia",
+   "alias": [
+    "anamnesis",
+    "reminiscencia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.epistemologia"
+   ],
+   "resumen": "La tesis de [[autor.platon|Platón]] de que aprender es recordar lo que el alma conoció antes de nacer."
+  },
+  {
+   "id": "concepto.ousia",
+   "tipo": "concepto",
+   "nombre": "ousía",
+   "nombreOriginal": "οὐσία",
+   "terminoOriginal": "οὐσία",
+   "transliteracion": "ousía",
+   "traduccion": "sustancia, esencia",
+   "alias": [
+    "ousia",
+    "sustancia",
+    "substancia",
+    "entidad"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "Para [[autor.aristoteles|Aristóteles]], lo que existe en sentido primero: el individuo concreto, como este caballo, compuesto de materia y forma."
+  },
+  {
+   "id": "concepto.potencia_acto",
+   "tipo": "concepto",
+   "nombre": "potencia y acto",
+   "nombreOriginal": "δύναμις / ἐνέργεια",
+   "terminoOriginal": "δύναμις / ἐνέργεια",
+   "transliteracion": "dýnamis / enérgeia",
+   "traduccion": "potencia y acto",
+   "alias": [
+    "potencia",
+    "acto",
+    "dynamis",
+    "energeia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "Distinción de [[autor.aristoteles|Aristóteles]] para explicar el cambio frente a [[autor.parmenides|Parménides]]: la semilla es árbol en potencia y llega a serlo en acto."
+  },
+  {
+   "id": "concepto.telos",
+   "tipo": "concepto",
+   "nombre": "télos",
+   "nombreOriginal": "τέλος",
+   "terminoOriginal": "τέλος",
+   "transliteracion": "télos",
+   "traduccion": "fin, finalidad",
+   "alias": [
+    "telos",
+    "fin",
+    "causa final",
+    "teleología"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.etica"
+   ],
+   "resumen": "El fin o propósito hacia el que tiende algo. Para [[autor.aristoteles|Aristóteles]], la naturaleza no hace nada en vano."
+  },
+  {
+   "id": "concepto.eudaimonia",
+   "tipo": "concepto",
+   "nombre": "eudaimonía",
+   "nombreOriginal": "εὐδαιμονία",
+   "terminoOriginal": "εὐδαιμονία",
+   "transliteracion": "eudaimonía",
+   "traduccion": "felicidad, vida lograda",
+   "notaTraduccion": "No es un estado de ánimo pasajero, sino una vida entera bien vivida.",
+   "alias": [
+    "eudemonia",
+    "felicidad",
+    "vida buena"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica",
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "resumen": "La vida plenamente lograda, meta de casi todas las éticas griegas. Para [[autor.aristoteles|Aristóteles]], es la actividad del alma conforme a la virtud."
+  },
+  {
+   "id": "concepto.phronesis",
+   "tipo": "concepto",
+   "nombre": "phrónesis",
+   "nombreOriginal": "φρόνησις",
+   "terminoOriginal": "φρόνησις",
+   "transliteracion": "phrónēsis",
+   "traduccion": "prudencia, sabiduría práctica",
+   "alias": [
+    "fronesis",
+    "prudencia",
+    "sabiduría práctica"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "resumen": "Para [[autor.aristoteles|Aristóteles]], la capacidad de deliberar bien sobre lo que conviene hacer en cada situación concreta."
+  },
+  {
+   "id": "concepto.silogismo",
+   "tipo": "concepto",
+   "nombre": "silogismo",
+   "nombreOriginal": "συλλογισμός",
+   "terminoOriginal": "συλλογισμός",
+   "transliteracion": "syllogismós",
+   "traduccion": "razonamiento deductivo",
+   "alias": [
+    "syllogismos",
+    "lógica aristotélica"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.logica"
+   ],
+   "resumen": "Razonamiento en el que, de dos premisas, se sigue necesariamente una conclusión: «todo hombre es mortal; todo griego es hombre; luego todo griego es mortal». Lo sistematizó [[autor.aristoteles|Aristóteles]]."
+  },
+  {
+   "id": "concepto.atomo",
+   "tipo": "concepto",
+   "nombre": "átomo",
+   "nombreOriginal": "ἄτομον",
+   "terminoOriginal": "ἄτομον",
+   "transliteracion": "átomon",
+   "traduccion": "indivisible",
+   "alias": [
+    "atomo",
+    "átomos",
+    "atomismo"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos",
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "resumen": "Para los atomistas, la partícula mínima, eterna e indivisible de la que están hechas todas las cosas; su nombre significa precisamente «lo que no se puede cortar»."
+  },
+  {
+   "id": "concepto.ataraxia",
+   "tipo": "concepto",
+   "nombre": "ataraxia",
+   "nombreOriginal": "ἀταραξία",
+   "terminoOriginal": "ἀταραξία",
+   "transliteracion": "ataraxía",
+   "traduccion": "imperturbabilidad, serenidad",
+   "alias": [
+    "ataraxía",
+    "imperturbabilidad",
+    "serenidad"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "resumen": "La ausencia de inquietud en el alma, meta de [[escuela.epicureismo|epicúreos]] y [[escuela.pirronismo|escépticos]], aunque la alcanzan por caminos distintos."
+  },
+  {
+   "id": "concepto.apatheia",
+   "tipo": "concepto",
+   "nombre": "apatheia",
+   "nombreOriginal": "ἀπάθεια",
+   "terminoOriginal": "ἀπάθεια",
+   "transliteracion": "apátheia",
+   "traduccion": "ausencia de pasiones",
+   "notaTraduccion": "No es indiferencia ni apatía en sentido actual, sino estar libre de pasiones desordenadas como el miedo o la ira.",
+   "alias": [
+    "apatía",
+    "apateia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "resumen": "Para los [[escuela.estoicismo|estoicos]], el estado del sabio libre de pasiones, que son juicios equivocados sobre lo que es bueno o malo."
+  },
+  {
+   "id": "concepto.oikeiosis",
+   "tipo": "concepto",
+   "nombre": "oikeíosis",
+   "nombreOriginal": "οἰκείωσις",
+   "terminoOriginal": "οἰκείωσις",
+   "transliteracion": "oikeíōsis",
+   "traduccion": "apropiación, familiarización",
+   "alias": [
+    "oikeiosis",
+    "apropiación"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.antropologia_filosofica"
+   ],
+   "resumen": "Doctrina estoica: todo ser vivo siente desde que nace apego por sí mismo, y en el ser humano ese apego se extiende por círculos a la familia, la ciudad y toda la humanidad."
+  },
+  {
+   "id": "concepto.autarkeia",
+   "tipo": "concepto",
+   "nombre": "autárkeia",
+   "nombreOriginal": "αὐτάρκεια",
+   "terminoOriginal": "αὐτάρκεια",
+   "transliteracion": "autárkeia",
+   "traduccion": "autosuficiencia",
+   "alias": [
+    "autarquía",
+    "autosuficiencia",
+    "autarkeia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica",
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "resumen": "Bastarse a sí mismo, no depender de nada externo para ser feliz. Ideal de cínicos, estoicos y epicúreos."
+  },
+  {
+   "id": "concepto.parrhesia",
+   "tipo": "concepto",
+   "nombre": "parresía",
+   "nombreOriginal": "παρρησία",
+   "terminoOriginal": "παρρησία",
+   "transliteracion": "parrhēsía",
+   "traduccion": "franqueza, decirlo todo",
+   "alias": [
+    "parrhesia",
+    "franqueza"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica",
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_politica"
+   ],
+   "resumen": "La libertad de decir la verdad abiertamente, aunque sea arriesgado. Los [[escuela.cinismo|cínicos]] hicieron de ella su seña de identidad."
+  },
+  {
+   "id": "concepto.epoje",
+   "tipo": "concepto",
+   "nombre": "epojé",
+   "nombreOriginal": "ἐποχή",
+   "terminoOriginal": "ἐποχή",
+   "transliteracion": "epochḗ",
+   "traduccion": "suspensión del juicio",
+   "alias": [
+    "epoche",
+    "suspensión del juicio"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.epistemologia"
+   ],
+   "resumen": "Para los escépticos, abstenerse de afirmar o negar nada sobre cómo son las cosas en sí mismas."
+  },
+  {
+   "id": "concepto.isostheneia",
+   "tipo": "concepto",
+   "nombre": "isosthéneia",
+   "nombreOriginal": "ἰσοσθένεια",
+   "terminoOriginal": "ἰσοσθένεια",
+   "transliteracion": "isosthéneia",
+   "traduccion": "equipolencia, igual fuerza",
+   "alias": [
+    "isostenia",
+    "equipolencia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.logica"
+   ],
+   "resumen": "La situación en la que los argumentos a favor y en contra de una tesis tienen la misma fuerza, lo que conduce a [[concepto.epoje|suspender el juicio]]."
+  },
+  {
+   "id": "concepto.clinamen",
+   "tipo": "concepto",
+   "nombre": "clinamen",
+   "nombreOriginal": "clinamen",
+   "terminoOriginal": "παρέγκλισις",
+   "transliteracion": "parénklisis",
+   "traduccion": "desviación",
+   "notaTraduccion": "La palabra latina es de Lucrecio; Epicuro usaba la griega parénklisis.",
+   "alias": [
+    "desviación de los átomos",
+    "parenklisis"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_mente"
+   ],
+   "resumen": "La pequeña e imprevisible desviación de los [[concepto.atomo|átomos]] en su caída, que según los epicúreos rompe el determinismo y hace posible la libertad."
+  },
+  {
+   "id": "concepto.uno",
+   "tipo": "concepto",
+   "nombre": "el Uno",
+   "nombreOriginal": "τὸ ἕν",
+   "terminoOriginal": "τὸ ἕν",
+   "transliteracion": "tò hén",
+   "traduccion": "el Uno",
+   "alias": [
+    "Uno",
+    "to hen",
+    "lo Uno"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.neoplatonismo"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.soteriologia"
+   ],
+   "resumen": "Para [[autor.plotino|Plotino]], el primer principio, absolutamente simple, del que procede todo. Está más allá del ser y del pensamiento, y solo puede alcanzarse en una unión que supera las palabras."
+  },
+  {
+   "id": "tesis.agua_principio",
+   "tipo": "tesis",
+   "nombre": "El principio de todo es el agua",
+   "enunciado": "El agua es el principio de todas las cosas.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "Tesis atribuida a [[autor.tales|Tales]] por [[autor.aristoteles|Aristóteles]]; es el primer intento conocido en Grecia de explicar todo a partir de un único [[concepto.arche|principio]] natural."
+  },
+  {
+   "id": "tesis.rio",
+   "tipo": "tesis",
+   "nombre": "No es posible bañarse dos veces en el mismo río",
+   "enunciado": "En los mismos ríos entramos y no entramos; somos y no somos.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "Imagen de [[autor.heraclito|Heráclito]]: todo cambia, pero el río sigue siendo el mismo río. La fórmula «todo fluye» es posterior."
+  },
+  {
+   "id": "tesis.ser_es",
+   "tipo": "tesis",
+   "nombre": "Lo que es, es, y no puede no ser",
+   "enunciado": "Lo que es, es, y no puede no ser; lo que no es no puede pensarse ni decirse.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica"
+   ],
+   "resumen": "Punto de partida de [[autor.parmenides|Parménides]], del que deduce que el ser es único, eterno e inmóvil."
+  },
+  {
+   "id": "tesis.movimiento_imposible",
+   "tipo": "tesis",
+   "nombre": "El movimiento es imposible",
+   "enunciado": "Si el espacio es divisible sin fin, nada puede recorrerlo: el movimiento es imposible.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.metafisica"
+   ],
+   "resumen": "Conclusión de las paradojas de [[autor.zenon_elea|Zenón]], como la de Aquiles y la tortuga."
+  },
+  {
+   "id": "tesis.atomos_vacio",
+   "tipo": "tesis",
+   "nombre": "Solo existen átomos y vacío",
+   "enunciado": "Por convención lo dulce, lo amargo, el color; en realidad, átomos y vacío.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.epistemologia"
+   ],
+   "resumen": "Tesis de [[autor.democrito|Demócrito]]: las cualidades sensibles dependen de nosotros; lo real son las partículas y el espacio vacío."
+  },
+  {
+   "id": "tesis.homo_mensura",
+   "tipo": "tesis",
+   "nombre": "El ser humano es la medida de todas las cosas",
+   "enunciado": "El ser humano es la medida de todas las cosas: de las que son, en cuanto que son, y de las que no son, en cuanto que no son.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.epistemologia"
+   ],
+   "resumen": "Frase de [[autor.protagoras|Protágoras]], conservada por [[autor.platon|Platón]]; suele leerse como la primera formulación del relativismo."
+  },
+  {
+   "id": "tesis.nada_existe",
+   "tipo": "tesis",
+   "nombre": "Nada existe",
+   "enunciado": "Nada existe; si existiera, no podría conocerse; y si se conociera, no podría comunicarse a otros.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.epistemologia",
+    "tematica.filosofia_lenguaje"
+   ],
+   "resumen": "Las tres tesis encadenadas de [[autor.gorgias|Gorgias]] en [[obra.sobre_no_ser|Sobre el no ser]]."
+  },
+  {
+   "id": "tesis.nadie_obra_mal",
+   "tipo": "tesis",
+   "nombre": "Nadie obra mal voluntariamente",
+   "enunciado": "Nadie hace el mal a sabiendas: quien obra mal se equivoca sobre lo que es bueno para él.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "resumen": "Tesis de [[autor.socrates|Sócrates]], llamada intelectualismo moral: si la virtud es saber, el vicio es ignorancia."
+  },
+  {
+   "id": "tesis.alma_inmortal",
+   "tipo": "tesis",
+   "nombre": "El alma es inmortal",
+   "enunciado": "El alma existe antes del cuerpo y sobrevive a su muerte.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.filosofia_mente",
+    "tematica.metafisica"
+   ],
+   "resumen": "Tesis que [[autor.platon|Platón]] defiende con varios argumentos en el [[obra.fedon|Fedón]], ligada a la teoría de las [[concepto.idea|Formas]] y a la [[concepto.anamnesis|reminiscencia]]."
+  },
+  {
+   "id": "tesis.animal_politico",
+   "tipo": "tesis",
+   "nombre": "El ser humano es un animal político",
+   "enunciado": "El ser humano es por naturaleza un animal político: solo en la ciudad puede vivir bien.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica",
+    "tematica.antropologia_filosofica"
+   ],
+   "resumen": "Tesis de [[autor.aristoteles|Aristóteles]] en la [[obra.politica|Política]]: quien vive fuera de la comunidad es «o una bestia o un dios»."
+  },
+  {
+   "id": "tesis.muerte_nada",
+   "tipo": "tesis",
+   "nombre": "La muerte no es nada para nosotros",
+   "enunciado": "La muerte no es nada para nosotros: mientras existimos, ella no está; cuando ella llega, ya no existimos.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "resumen": "Argumento de [[autor.epicuro|Epicuro]] en la [[obra.carta_meneceo|Carta a Meneceo]] para liberar del miedo a la muerte."
+  },
+  {
+   "id": "tesis.vivir_segun_naturaleza",
+   "tipo": "tesis",
+   "nombre": "Vivir de acuerdo con la naturaleza",
+   "enunciado": "El fin de la vida es vivir de acuerdo con la naturaleza, es decir, según la razón que gobierna el universo.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "resumen": "Fórmula central del [[escuela.estoicismo|estoicismo]], desde [[autor.zenon_citio|Zenón]]: la virtud es vivir en armonía con el [[concepto.logos|logos]]."
+  },
+  {
+   "id": "tesis.epoje_ataraxia",
+   "tipo": "tesis",
+   "nombre": "Suspender el juicio trae la tranquilidad",
+   "enunciado": "A todo argumento se opone otro de igual fuerza; por eso suspendemos el juicio, y a la suspensión sigue la tranquilidad.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.cultivo_de_si"
+   ],
+   "resumen": "El camino del [[escuela.pirronismo|pirronismo]], de la [[concepto.isostheneia|equipolencia]] a la [[concepto.epoje|epojé]] y de esta a la [[concepto.ataraxia|ataraxia]]."
+  },
+  {
+   "id": "tesis.emanacion",
+   "tipo": "tesis",
+   "nombre": "Todo procede del Uno",
+   "enunciado": "Todo procede del Uno sin que el Uno disminuya, como la luz procede del sol.",
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.neoplatonismo"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "Tesis de [[autor.plotino|Plotino]]: del [[concepto.uno|Uno]] procede el [[concepto.nous|Intelecto]], y de este el [[concepto.psyche|Alma]]; el alma humana puede recorrer el camino de vuelta."
+  },
+  {
+   "id": "autor.alejandro",
+   "tipo": "autor",
+   "nombre": "Alejandro Magno",
+   "nombreOriginal": "Ἀλέξανδρος ὁ Μέγας",
+   "alias": [
+    "Alejandro de Macedonia",
+    "Alejandro III"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica",
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Pela, capital de Macedonia",
+   "fechas": {
+    "nacimiento": {
+     "min": -356,
+     "max": -356
+    },
+    "muerte": {
+     "min": -323,
+     "max": -323
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Rey de Macedonia desde el 336 a. C."
+   },
+   "resumen": "Rey de Macedonia y alumno de [[autor.aristoteles|Aristóteles]]. Sus conquistas llevaron la cultura griega hasta Egipto y la India y abrieron la [[contexto.helenistica|época helenística]]. En su expedición viajaron filósofos griegos, como [[autor.anaxarco|Anaxarco]] y [[autor.pirron|Pirrón]], que conocieron a los ascetas indios."
+  },
+  {
+   "id": "autor.anaximenes",
+   "tipo": "autor",
+   "nombre": "Anaxímenes",
+   "nombreOriginal": "Ἀναξιμένης",
+   "alias": [
+    "Anaximenes"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.presocraticos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "escuelas": [
+    "escuela.milesios"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Mileto, en Jonia",
+   "fechas": {
+    "activo": {
+     "min": -560,
+     "max": -530
+    },
+    "tipo": "actividad",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Activo a mediados del siglo VI a. C."
+   },
+   "resumen": "El tercero de los filósofos de Mileto. Para él, el [[concepto.arche|principio]] de todo es el aire, que al condensarse se convierte en agua y tierra, y al enrarecerse en fuego. Es el primero que explica los cambios de la materia por un único proceso."
+  },
+  {
+   "id": "autor.antistenes",
+   "tipo": "autor",
+   "nombre": "Antístenes",
+   "nombreOriginal": "Ἀντισθένης",
+   "alias": [
+    "Antisthenes"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "escuelas": [
+    "escuela.cinismo"
+   ],
+   "circulo": 3,
+   "lugarOrigen": "Atenas",
+   "fechas": {
+    "nacimiento": {
+     "min": -446,
+     "max": -444
+    },
+    "muerte": {
+     "min": -366,
+     "max": -365
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": []
+   },
+   "resumen": "Discípulo de [[autor.socrates|Sócrates]] que estuvo presente en su muerte. Enseñó que la virtud basta para ser feliz y despreció el placer y las riquezas; por eso los antiguos lo tuvieron por fundador del [[escuela.cinismo|cinismo]]."
+  },
+  {
+   "id": "autor.jenofonte",
+   "tipo": "autor",
+   "nombre": "Jenofonte",
+   "nombreOriginal": "Ξενοφῶν",
+   "alias": [
+    "Xenophon"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.atenas_clasica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_historia"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Atenas",
+   "fechas": {
+    "nacimiento": {
+     "min": -430,
+     "max": -425
+    },
+    "muerte": {
+     "min": -355,
+     "max": -350
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": []
+   },
+   "resumen": "Historiador y militar ateniense, discípulo de [[autor.socrates|Sócrates]]. Sus Recuerdos de Sócrates, junto con los diálogos de [[autor.platon|Platón]], son nuestra principal fuente sobre el maestro, aunque lo pintan de forma más práctica y menos especulativa."
+  },
+  {
+   "id": "autor.arcesilao",
+   "tipo": "autor",
+   "nombre": "Arcesilao",
+   "nombreOriginal": "Ἀρκεσίλαος",
+   "alias": [
+    "Arcesilaus"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.epistemologia"
+   ],
+   "escuelas": [
+    "escuela.academia"
+   ],
+   "circulo": 3,
+   "lugarOrigen": "Pítane, en Asia Menor",
+   "fechas": {
+    "nacimiento": {
+     "min": -316,
+     "max": -315
+    },
+    "muerte": {
+     "min": -241,
+     "max": -240
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": []
+   },
+   "resumen": "Director de la [[escuela.academia|Academia]] que la convirtió al escepticismo. Siguiendo el ejemplo de [[autor.socrates|Sócrates]], que decía no saber nada, argumentaba a favor y en contra de todo y recomendaba [[concepto.epoje|suspender el juicio]]."
+  },
+  {
+   "id": "autor.carneades",
+   "tipo": "autor",
+   "nombre": "Carnéades",
+   "nombreOriginal": "Καρνεάδης",
+   "alias": [
+    "Carneades"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.etica"
+   ],
+   "escuelas": [
+    "escuela.academia"
+   ],
+   "circulo": 3,
+   "lugarOrigen": "Cirene, en el norte de África",
+   "fechas": {
+    "nacimiento": {
+     "min": -214,
+     "max": -213
+    },
+    "muerte": {
+     "min": -129,
+     "max": -128
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": []
+   },
+   "resumen": "Director de la [[escuela.academia|Academia]] escéptica y el gran adversario de los [[escuela.estoicismo|estoicos]]. Para orientarse en la vida sin certezas propuso guiarse por lo «persuasivo», lo que parece más probable. No escribió nada; lo conocemos sobre todo por [[autor.ciceron|Cicerón]].",
+   "anecdotas": "En el 155 a. C. fue a Roma con una embajada de Atenas. Un día dio un discurso a favor de la justicia, y al día siguiente otro en contra igual de convincente; el severo Catón el Viejo, político romano, pidió que despacharan pronto a los embajadores para que no corrompieran a los jóvenes ([[autor.plutarco|Plutarco]], Vida de Catón el Viejo 22 · B)."
+  }
+ ],
+ "relaciones": [
+  {
+   "id": "r2001",
+   "origen": "autor.platon",
+   "tipo": "escribio",
+   "destino": "obra.apologia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2002",
+   "origen": "autor.platon",
+   "tipo": "escribio",
+   "destino": "obra.banquete",
+   "certeza": "D"
+  },
+  {
+   "id": "r2003",
+   "origen": "autor.platon",
+   "tipo": "escribio",
+   "destino": "obra.fedon",
+   "certeza": "D"
+  },
+  {
+   "id": "r2004",
+   "origen": "autor.platon",
+   "tipo": "escribio",
+   "destino": "obra.republica",
+   "certeza": "D"
+  },
+  {
+   "id": "r2005",
+   "origen": "autor.platon",
+   "tipo": "escribio",
+   "destino": "obra.teeteto",
+   "certeza": "D"
+  },
+  {
+   "id": "r2006",
+   "origen": "autor.aristoteles",
+   "tipo": "escribio",
+   "destino": "obra.metafisica",
+   "certeza": "D"
+  },
+  {
+   "id": "r2007",
+   "origen": "autor.aristoteles",
+   "tipo": "escribio",
+   "destino": "obra.fisica",
+   "certeza": "D"
+  },
+  {
+   "id": "r2008",
+   "origen": "autor.aristoteles",
+   "tipo": "escribio",
+   "destino": "obra.etica_nicomaco",
+   "certeza": "D"
+  },
+  {
+   "id": "r2009",
+   "origen": "autor.aristoteles",
+   "tipo": "escribio",
+   "destino": "obra.politica",
+   "certeza": "D"
+  },
+  {
+   "id": "r2010",
+   "origen": "autor.aristoteles",
+   "tipo": "escribio",
+   "destino": "obra.organon",
+   "certeza": "D"
+  },
+  {
+   "id": "r2011",
+   "origen": "autor.parmenides",
+   "tipo": "escribio",
+   "destino": "obra.poema_parmenides",
+   "certeza": "D"
+  },
+  {
+   "id": "r2012",
+   "origen": "autor.heraclito",
+   "tipo": "escribio",
+   "destino": "obra.fragmentos_heraclito",
+   "certeza": "D"
+  },
+  {
+   "id": "r2013",
+   "origen": "autor.empedocles",
+   "tipo": "escribio",
+   "destino": "obra.poema_empedocles",
+   "certeza": "D"
+  },
+  {
+   "id": "r2014",
+   "origen": "autor.gorgias",
+   "tipo": "escribio",
+   "destino": "obra.sobre_no_ser",
+   "certeza": "D"
+  },
+  {
+   "id": "r2015",
+   "origen": "autor.epicuro",
+   "tipo": "escribio",
+   "destino": "obra.carta_meneceo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2016",
+   "origen": "autor.lucrecio",
+   "tipo": "escribio",
+   "destino": "obra.de_rerum_natura",
+   "certeza": "D"
+  },
+  {
+   "id": "r2017",
+   "origen": "autor.ciceron",
+   "tipo": "escribio",
+   "destino": "obra.academicos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2018",
+   "origen": "autor.ciceron",
+   "tipo": "escribio",
+   "destino": "obra.de_officiis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2019",
+   "origen": "autor.seneca",
+   "tipo": "escribio",
+   "destino": "obra.cartas_lucilio",
+   "certeza": "D"
+  },
+  {
+   "id": "r2020",
+   "origen": "autor.arriano",
+   "tipo": "escribio",
+   "destino": "obra.disertaciones",
+   "certeza": "D",
+   "nota": "Arriano puso por escrito las clases de su maestro [[autor.epicteto|Epicteto]], que no escribió nada."
+  },
+  {
+   "id": "r2021",
+   "origen": "autor.arriano",
+   "tipo": "escribio",
+   "destino": "obra.manual_epicteto",
+   "certeza": "D",
+   "nota": "Resumen de la enseñanza de [[autor.epicteto|Epicteto]]."
+  },
+  {
+   "id": "r2022",
+   "origen": "autor.arriano",
+   "tipo": "escribio",
+   "destino": "obra.anabasis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2023",
+   "origen": "autor.marco_aurelio",
+   "tipo": "escribio",
+   "destino": "obra.meditaciones",
+   "certeza": "D"
+  },
+  {
+   "id": "r2024",
+   "origen": "autor.sexto_empirico",
+   "tipo": "escribio",
+   "destino": "obra.esbozos_pirronicos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2025",
+   "origen": "autor.plotino",
+   "tipo": "escribio",
+   "destino": "obra.eneadas",
+   "certeza": "D"
+  },
+  {
+   "id": "r2026",
+   "origen": "autor.porfirio",
+   "tipo": "escribio",
+   "destino": "obra.vida_plotino",
+   "certeza": "D"
+  },
+  {
+   "id": "r2027",
+   "origen": "autor.plutarco",
+   "tipo": "escribio",
+   "destino": "obra.vidas_paralelas",
+   "certeza": "D"
+  },
+  {
+   "id": "r2028",
+   "origen": "autor.diogenes_laercio",
+   "tipo": "escribio",
+   "destino": "obra.vidas_filosofos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2029",
+   "origen": "obra.caverna",
+   "tipo": "parte_de",
+   "destino": "obra.republica",
+   "certeza": "D",
+   "fuente": "República VII, 514a-517a"
+  },
+  {
+   "id": "r2030",
+   "origen": "autor.porfirio",
+   "tipo": "comenta",
+   "destino": "obra.organon",
+   "certeza": "D",
+   "nota": "Su Isagoge, una introducción a las Categorías de [[autor.aristoteles|Aristóteles]], fue el manual de lógica básico durante toda la Edad Media."
+  },
+  {
+   "id": "r2031",
+   "origen": "obra.apologia",
+   "tipo": "es_fuente_de",
+   "destino": "autor.socrates",
+   "certeza": "D",
+   "nota": "Es la versión de [[autor.platon|Platón]], que asistió al juicio; [[autor.socrates|Sócrates]] no escribió nada."
+  },
+  {
+   "id": "r2032",
+   "origen": "obra.disertaciones",
+   "tipo": "es_fuente_de",
+   "destino": "autor.epicteto",
+   "certeza": "D"
+  },
+  {
+   "id": "r2033",
+   "origen": "obra.manual_epicteto",
+   "tipo": "es_fuente_de",
+   "destino": "autor.epicteto",
+   "certeza": "D"
+  },
+  {
+   "id": "r2034",
+   "origen": "obra.vida_plotino",
+   "tipo": "es_fuente_de",
+   "destino": "autor.plotino",
+   "certeza": "D"
+  },
+  {
+   "id": "r2035",
+   "origen": "obra.metafisica",
+   "tipo": "es_fuente_de",
+   "destino": "autor.tales",
+   "certeza": "D",
+   "fuente": "Metafísica I 3, 983b"
+  },
+  {
+   "id": "r2036",
+   "origen": "obra.teeteto",
+   "tipo": "es_fuente_de",
+   "destino": "autor.protagoras",
+   "certeza": "D",
+   "fuente": "Teeteto 152a"
+  },
+  {
+   "id": "r2037",
+   "origen": "obra.fisica",
+   "tipo": "es_fuente_de",
+   "destino": "autor.zenon_elea",
+   "certeza": "D",
+   "fuente": "Física VI 9, 239b"
+  },
+  {
+   "id": "r2038",
+   "origen": "obra.esbozos_pirronicos",
+   "tipo": "es_fuente_de",
+   "destino": "escuela.pirronismo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2039",
+   "origen": "obra.esbozos_pirronicos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.gorgias",
+   "certeza": "D",
+   "nota": "[[autor.sexto_empirico|Sexto Empírico]] conserva uno de los dos resúmenes de [[obra.sobre_no_ser|Sobre el no ser]], en su obra Contra los lógicos."
+  },
+  {
+   "id": "r2040",
+   "origen": "obra.anabasis",
+   "tipo": "es_fuente_de",
+   "destino": "autor.kalanos",
+   "certeza": "D",
+   "fuente": "Anábasis VII 2-3"
+  },
+  {
+   "id": "r2041",
+   "origen": "obra.anabasis",
+   "tipo": "es_fuente_de",
+   "destino": "escuela.gimnosofistas",
+   "certeza": "D",
+   "fuente": "Anábasis VII 1-3"
+  },
+  {
+   "id": "r2042",
+   "origen": "obra.vidas_paralelas",
+   "tipo": "es_fuente_de",
+   "destino": "autor.ciceron",
+   "certeza": "D",
+   "nota": "Contiene una Vida de Cicerón."
+  },
+  {
+   "id": "r2043",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.tales",
+   "certeza": "D"
+  },
+  {
+   "id": "r2044",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.socrates",
+   "certeza": "D"
+  },
+  {
+   "id": "r2045",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.diogenes_sinope",
+   "certeza": "D"
+  },
+  {
+   "id": "r2046",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.pirron",
+   "certeza": "D"
+  },
+  {
+   "id": "r2047",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.epicuro",
+   "certeza": "D"
+  },
+  {
+   "id": "r2048",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.zenon_citio",
+   "certeza": "D"
+  },
+  {
+   "id": "r2049",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.crisipo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2050",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.democrito",
+   "certeza": "D"
+  },
+  {
+   "id": "r2051",
+   "origen": "autor.socrates",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.platon",
+   "certeza": "D"
+  },
+  {
+   "id": "r2052",
+   "origen": "autor.platon",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.aristoteles",
+   "certeza": "D",
+   "nota": "[[autor.aristoteles|Aristóteles]] estudió unos veinte años en la [[escuela.academia|Academia]]."
+  },
+  {
+   "id": "r2053",
+   "origen": "autor.tales",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.anaximandro",
+   "certeza": "C",
+   "nota": "La relación maestro-discípulo entre los milesios es una construcción de los historiadores antiguos."
+  },
+  {
+   "id": "r2054",
+   "origen": "autor.parmenides",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.zenon_elea",
+   "certeza": "P",
+   "fuente": "Platón, Parménides 127a-128e"
+  },
+  {
+   "id": "r2055",
+   "origen": "autor.leucipo",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.democrito",
+   "certeza": "P",
+   "nota": "La existencia misma de [[autor.leucipo|Leucipo]] fue puesta en duda ya en la Antigüedad."
+  },
+  {
+   "id": "r2056",
+   "origen": "autor.diogenes_sinope",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.crates",
+   "certeza": "P",
+   "fuente": "Diógenes Laercio, Vidas VI 85-87"
+  },
+  {
+   "id": "r2057",
+   "origen": "autor.crates",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.zenon_citio",
+   "certeza": "D",
+   "fuente": "Diógenes Laercio, Vidas VII 2-3"
+  },
+  {
+   "id": "r2058",
+   "origen": "autor.zenon_citio",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.cleantes",
+   "certeza": "D"
+  },
+  {
+   "id": "r2059",
+   "origen": "autor.cleantes",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.crisipo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2060",
+   "origen": "autor.anaxarco",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.pirron",
+   "certeza": "D",
+   "fuente": "Diógenes Laercio, Vidas IX 61"
+  },
+  {
+   "id": "r2061",
+   "origen": "autor.epicteto",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.arriano",
+   "certeza": "D"
+  },
+  {
+   "id": "r2062",
+   "origen": "autor.plotino",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.porfirio",
+   "certeza": "D"
+  },
+  {
+   "id": "r2063",
+   "origen": "autor.epicteto",
+   "tipo": "influyo_en",
+   "destino": "autor.marco_aurelio",
+   "certeza": "D",
+   "fuente": "Meditaciones I 7",
+   "nota": "[[autor.marco_aurelio|Marco Aurelio]] agradece a su maestro Rústico haberle dado a leer las lecciones de [[autor.epicteto|Epicteto]]."
+  },
+  {
+   "id": "r2064",
+   "origen": "autor.democrito",
+   "tipo": "influyo_en",
+   "destino": "autor.epicuro",
+   "certeza": "D"
+  },
+  {
+   "id": "r2065",
+   "origen": "autor.epicuro",
+   "tipo": "influyo_en",
+   "destino": "autor.lucrecio",
+   "certeza": "D"
+  },
+  {
+   "id": "r2066",
+   "origen": "autor.platon",
+   "tipo": "influyo_en",
+   "destino": "autor.plotino",
+   "certeza": "D"
+  },
+  {
+   "id": "r2067",
+   "origen": "autor.parmenides",
+   "tipo": "influyo_en",
+   "destino": "autor.platon",
+   "certeza": "D"
+  },
+  {
+   "id": "r2068",
+   "origen": "autor.pitagoras",
+   "tipo": "influyo_en",
+   "destino": "autor.platon",
+   "certeza": "P",
+   "nota": "A través de pitagóricos posteriores, como Arquitas de Tarento, amigo de [[autor.platon|Platón]]."
+  },
+  {
+   "id": "r2069",
+   "origen": "autor.heraclito",
+   "tipo": "influyo_en",
+   "destino": "escuela.estoicismo",
+   "certeza": "P",
+   "nota": "Los estoicos tomaron de [[autor.heraclito|Heráclito]] el fuego como principio y el [[concepto.logos|logos]] que ordena el mundo."
+  },
+  {
+   "id": "r2070",
+   "origen": "autor.socrates",
+   "tipo": "influyo_en",
+   "destino": "escuela.cinismo",
+   "certeza": "P",
+   "nota": "A través de [[autor.antistenes|Antístenes]], discípulo de [[autor.socrates|Sócrates]], a quien los antiguos tenían por fundador del cinismo."
+  },
+  {
+   "id": "r2071",
+   "origen": "escuela.cinismo",
+   "tipo": "influyo_en",
+   "destino": "escuela.estoicismo",
+   "certeza": "D",
+   "fuente": "Diógenes Laercio, Vidas VII 2-4"
+  },
+  {
+   "id": "r2072",
+   "origen": "autor.pirron",
+   "tipo": "influyo_en",
+   "destino": "autor.sexto_empirico",
+   "certeza": "D",
+   "nota": "Influencia a distancia de cinco siglos: la escuela escéptica tomó el nombre de [[autor.pirron|Pirrón]]."
+  },
+  {
+   "id": "r2073",
+   "origen": "escuela.academia",
+   "tipo": "influyo_en",
+   "destino": "autor.ciceron",
+   "certeza": "D",
+   "nota": "[[autor.ciceron|Cicerón]] se declaraba seguidor de la Academia de su tiempo, que era escéptica."
+  },
+  {
+   "id": "r2074",
+   "origen": "escuela.estoicismo",
+   "tipo": "influyo_en",
+   "destino": "autor.seneca",
+   "certeza": "D"
+  },
+  {
+   "id": "r2075",
+   "origen": "escuela.gimnosofistas",
+   "tipo": "influyo_en",
+   "destino": "autor.pirron",
+   "certeza": "C",
+   "fuente": "Diógenes Laercio, Vidas IX 61",
+   "nota": "Según [[autor.diogenes_laercio|Diógenes Laercio]], [[autor.pirron|Pirrón]] adoptó su filosofía de la suspensión del juicio tras tratar con los ascetas indios en la expedición de [[autor.alejandro|Alejandro]]. Es un testimonio tardío y muy discutido."
+  },
+  {
+   "id": "r2076",
+   "origen": "autor.aristoteles",
+   "tipo": "critica",
+   "destino": "concepto.idea",
+   "certeza": "D",
+   "fuente": "Metafísica I 9"
+  },
+  {
+   "id": "r2077",
+   "origen": "autor.aristoteles",
+   "tipo": "critica",
+   "destino": "tesis.movimiento_imposible",
+   "certeza": "D",
+   "fuente": "Física VI 9"
+  },
+  {
+   "id": "r2078",
+   "origen": "autor.platon",
+   "tipo": "critica",
+   "destino": "tesis.homo_mensura",
+   "certeza": "D",
+   "fuente": "Teeteto 161c-171d"
+  },
+  {
+   "id": "r2079",
+   "origen": "autor.platon",
+   "tipo": "critica",
+   "destino": "escuela.sofistica",
+   "certeza": "D"
+  },
+  {
+   "id": "r2080",
+   "origen": "autor.sexto_empirico",
+   "tipo": "critica",
+   "destino": "escuela.estoicismo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2081",
+   "origen": "obra.academicos",
+   "tipo": "critica",
+   "destino": "escuela.estoicismo",
+   "certeza": "D",
+   "nota": "El diálogo expone la crítica de la [[escuela.academia|Academia]] escéptica a la teoría estoica del conocimiento."
+  },
+  {
+   "id": "r2082",
+   "origen": "autor.diogenes_sinope",
+   "tipo": "critica",
+   "destino": "autor.platon",
+   "certeza": "C",
+   "fuente": "Diógenes Laercio, Vidas VI 24-53",
+   "nota": "Las burlas de [[autor.diogenes_sinope|Diógenes]] a [[autor.platon|Platón]] se conocen solo por anécdotas tardías."
+  },
+  {
+   "id": "r2083",
+   "origen": "autor.parmenides",
+   "tipo": "critica",
+   "destino": "autor.heraclito",
+   "certeza": "C",
+   "nota": "Algunos ven en los «mortales de dos cabezas» del [[obra.poema_parmenides|poema de Parménides]] una alusión a [[autor.heraclito|Heráclito]]; otros lo niegan."
+  },
+  {
+   "id": "r2084",
+   "origen": "concepto.potencia_acto",
+   "tipo": "responde_a",
+   "destino": "tesis.ser_es",
+   "certeza": "D",
+   "fuente": "Física I 8"
+  },
+  {
+   "id": "r2085",
+   "origen": "tesis.atomos_vacio",
+   "tipo": "responde_a",
+   "destino": "tesis.ser_es",
+   "certeza": "P",
+   "nota": "Los atomistas aceptan que el ser no nace de la nada, pero admiten el vacío para hacer posible el movimiento."
+  },
+  {
+   "id": "r2086",
+   "origen": "autor.empedocles",
+   "tipo": "responde_a",
+   "destino": "autor.parmenides",
+   "certeza": "P"
+  },
+  {
+   "id": "r2087",
+   "origen": "autor.anaxagoras",
+   "tipo": "responde_a",
+   "destino": "autor.parmenides",
+   "certeza": "P"
+  },
+  {
+   "id": "r2088",
+   "origen": "escuela.epicureismo",
+   "tipo": "se_opone_a",
+   "destino": "escuela.estoicismo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2089",
+   "origen": "tesis.muerte_nada",
+   "tipo": "se_opone_a",
+   "destino": "tesis.alma_inmortal",
+   "certeza": "D"
+  },
+  {
+   "id": "r2090",
+   "origen": "tesis.ser_es",
+   "tipo": "se_opone_a",
+   "destino": "tesis.rio",
+   "certeza": "P"
+  },
+  {
+   "id": "r2091",
+   "origen": "autor.tales",
+   "tipo": "defiende",
+   "destino": "tesis.agua_principio",
+   "certeza": "P"
+  },
+  {
+   "id": "r2092",
+   "origen": "autor.heraclito",
+   "tipo": "defiende",
+   "destino": "tesis.rio",
+   "certeza": "D"
+  },
+  {
+   "id": "r2093",
+   "origen": "autor.parmenides",
+   "tipo": "defiende",
+   "destino": "tesis.ser_es",
+   "certeza": "D"
+  },
+  {
+   "id": "r2094",
+   "origen": "autor.zenon_elea",
+   "tipo": "defiende",
+   "destino": "tesis.movimiento_imposible",
+   "certeza": "D"
+  },
+  {
+   "id": "r2095",
+   "origen": "autor.democrito",
+   "tipo": "defiende",
+   "destino": "tesis.atomos_vacio",
+   "certeza": "D"
+  },
+  {
+   "id": "r2096",
+   "origen": "autor.leucipo",
+   "tipo": "defiende",
+   "destino": "tesis.atomos_vacio",
+   "certeza": "P"
+  },
+  {
+   "id": "r2097",
+   "origen": "autor.protagoras",
+   "tipo": "defiende",
+   "destino": "tesis.homo_mensura",
+   "certeza": "D"
+  },
+  {
+   "id": "r2098",
+   "origen": "autor.gorgias",
+   "tipo": "defiende",
+   "destino": "tesis.nada_existe",
+   "certeza": "D"
+  },
+  {
+   "id": "r2099",
+   "origen": "autor.socrates",
+   "tipo": "defiende",
+   "destino": "tesis.nadie_obra_mal",
+   "certeza": "D"
+  },
+  {
+   "id": "r2100",
+   "origen": "autor.platon",
+   "tipo": "defiende",
+   "destino": "tesis.alma_inmortal",
+   "certeza": "D"
+  },
+  {
+   "id": "r2101",
+   "origen": "autor.aristoteles",
+   "tipo": "defiende",
+   "destino": "tesis.animal_politico",
+   "certeza": "D"
+  },
+  {
+   "id": "r2102",
+   "origen": "autor.epicuro",
+   "tipo": "defiende",
+   "destino": "tesis.muerte_nada",
+   "certeza": "D"
+  },
+  {
+   "id": "r2103",
+   "origen": "autor.lucrecio",
+   "tipo": "defiende",
+   "destino": "tesis.muerte_nada",
+   "certeza": "D"
+  },
+  {
+   "id": "r2104",
+   "origen": "autor.zenon_citio",
+   "tipo": "defiende",
+   "destino": "tesis.vivir_segun_naturaleza",
+   "certeza": "D"
+  },
+  {
+   "id": "r2105",
+   "origen": "autor.crisipo",
+   "tipo": "defiende",
+   "destino": "tesis.vivir_segun_naturaleza",
+   "certeza": "D"
+  },
+  {
+   "id": "r2106",
+   "origen": "autor.pirron",
+   "tipo": "defiende",
+   "destino": "tesis.epoje_ataraxia",
+   "certeza": "P"
+  },
+  {
+   "id": "r2107",
+   "origen": "autor.sexto_empirico",
+   "tipo": "defiende",
+   "destino": "tesis.epoje_ataraxia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2108",
+   "origen": "autor.plotino",
+   "tipo": "defiende",
+   "destino": "tesis.emanacion",
+   "certeza": "D"
+  },
+  {
+   "id": "r2109",
+   "origen": "escuela.eleatas",
+   "tipo": "defiende",
+   "destino": "tesis.ser_es",
+   "certeza": "D"
+  },
+  {
+   "id": "r2110",
+   "origen": "escuela.atomismo",
+   "tipo": "defiende",
+   "destino": "tesis.atomos_vacio",
+   "certeza": "D"
+  },
+  {
+   "id": "r2111",
+   "origen": "escuela.pirronismo",
+   "tipo": "defiende",
+   "destino": "tesis.epoje_ataraxia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2112",
+   "origen": "autor.anaximandro",
+   "tipo": "desarrolla",
+   "destino": "concepto.apeiron",
+   "certeza": "D"
+  },
+  {
+   "id": "r2113",
+   "origen": "autor.anaximandro",
+   "tipo": "desarrolla",
+   "destino": "concepto.arche",
+   "certeza": "P"
+  },
+  {
+   "id": "r2114",
+   "origen": "autor.heraclito",
+   "tipo": "desarrolla",
+   "destino": "concepto.logos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2115",
+   "origen": "autor.anaxagoras",
+   "tipo": "desarrolla",
+   "destino": "concepto.nous",
+   "certeza": "D"
+  },
+  {
+   "id": "r2116",
+   "origen": "autor.pitagoras",
+   "tipo": "desarrolla",
+   "destino": "concepto.metempsicosis",
+   "certeza": "P"
+  },
+  {
+   "id": "r2117",
+   "origen": "autor.empedocles",
+   "tipo": "desarrolla",
+   "destino": "concepto.metempsicosis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2118",
+   "origen": "autor.democrito",
+   "tipo": "desarrolla",
+   "destino": "concepto.atomo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2119",
+   "origen": "autor.leucipo",
+   "tipo": "desarrolla",
+   "destino": "concepto.atomo",
+   "certeza": "P"
+  },
+  {
+   "id": "r2120",
+   "origen": "autor.socrates",
+   "tipo": "desarrolla",
+   "destino": "concepto.elenchos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2121",
+   "origen": "autor.socrates",
+   "tipo": "desarrolla",
+   "destino": "concepto.arete",
+   "certeza": "D"
+  },
+  {
+   "id": "r2122",
+   "origen": "autor.platon",
+   "tipo": "desarrolla",
+   "destino": "concepto.idea",
+   "certeza": "D"
+  },
+  {
+   "id": "r2123",
+   "origen": "autor.platon",
+   "tipo": "desarrolla",
+   "destino": "concepto.anamnesis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2124",
+   "origen": "autor.platon",
+   "tipo": "desarrolla",
+   "destino": "concepto.psyche",
+   "certeza": "D"
+  },
+  {
+   "id": "r2125",
+   "origen": "autor.aristoteles",
+   "tipo": "desarrolla",
+   "destino": "concepto.ousia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2126",
+   "origen": "autor.aristoteles",
+   "tipo": "desarrolla",
+   "destino": "concepto.potencia_acto",
+   "certeza": "D"
+  },
+  {
+   "id": "r2127",
+   "origen": "autor.aristoteles",
+   "tipo": "desarrolla",
+   "destino": "concepto.telos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2128",
+   "origen": "autor.aristoteles",
+   "tipo": "desarrolla",
+   "destino": "concepto.eudaimonia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2129",
+   "origen": "autor.aristoteles",
+   "tipo": "desarrolla",
+   "destino": "concepto.phronesis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2130",
+   "origen": "autor.aristoteles",
+   "tipo": "desarrolla",
+   "destino": "concepto.silogismo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2131",
+   "origen": "autor.epicuro",
+   "tipo": "desarrolla",
+   "destino": "concepto.ataraxia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2132",
+   "origen": "autor.epicuro",
+   "tipo": "desarrolla",
+   "destino": "concepto.clinamen",
+   "certeza": "P"
+  },
+  {
+   "id": "r2133",
+   "origen": "autor.lucrecio",
+   "tipo": "desarrolla",
+   "destino": "concepto.clinamen",
+   "certeza": "D"
+  },
+  {
+   "id": "r2134",
+   "origen": "autor.crisipo",
+   "tipo": "desarrolla",
+   "destino": "concepto.oikeiosis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2135",
+   "origen": "autor.zenon_citio",
+   "tipo": "desarrolla",
+   "destino": "concepto.apatheia",
+   "certeza": "P"
+  },
+  {
+   "id": "r2136",
+   "origen": "autor.diogenes_sinope",
+   "tipo": "desarrolla",
+   "destino": "concepto.parrhesia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2137",
+   "origen": "autor.diogenes_sinope",
+   "tipo": "desarrolla",
+   "destino": "concepto.autarkeia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2138",
+   "origen": "autor.pirron",
+   "tipo": "desarrolla",
+   "destino": "concepto.epoje",
+   "certeza": "P"
+  },
+  {
+   "id": "r2139",
+   "origen": "autor.sexto_empirico",
+   "tipo": "desarrolla",
+   "destino": "concepto.isostheneia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2140",
+   "origen": "autor.plotino",
+   "tipo": "desarrolla",
+   "destino": "concepto.uno",
+   "certeza": "D"
+  },
+  {
+   "id": "r2141",
+   "origen": "autor.plotino",
+   "tipo": "desarrolla",
+   "destino": "concepto.nous",
+   "certeza": "D"
+  },
+  {
+   "id": "r2142",
+   "origen": "escuela.milesios",
+   "tipo": "desarrolla",
+   "destino": "concepto.physis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2143",
+   "origen": "escuela.milesios",
+   "tipo": "desarrolla",
+   "destino": "concepto.arche",
+   "certeza": "D"
+  },
+  {
+   "id": "r2144",
+   "origen": "escuela.pitagorismo",
+   "tipo": "desarrolla",
+   "destino": "concepto.metempsicosis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2145",
+   "origen": "escuela.estoicismo",
+   "tipo": "desarrolla",
+   "destino": "concepto.logos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2146",
+   "origen": "escuela.cinismo",
+   "tipo": "desarrolla",
+   "destino": "concepto.autarkeia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2147",
+   "origen": "escuela.neoplatonismo",
+   "tipo": "desarrolla",
+   "destino": "escuela.academia",
+   "certeza": "P",
+   "nota": "Los neoplatónicos se consideraban simples intérpretes de [[autor.platon|Platón]]; el nombre «neoplatonismo» es moderno."
+  },
+  {
+   "id": "r2148",
+   "origen": "escuela.pluralistas",
+   "tipo": "responde_a",
+   "destino": "escuela.eleatas",
+   "certeza": "P"
+  },
+  {
+   "id": "r2149",
+   "origen": "escuela.liceo",
+   "tipo": "desarrolla",
+   "destino": "concepto.telos",
+   "certeza": "P"
+  },
+  {
+   "id": "r2150",
+   "origen": "obra.republica",
+   "tipo": "trata_sobre",
+   "destino": "concepto.idea",
+   "certeza": "D"
+  },
+  {
+   "id": "r2151",
+   "origen": "obra.caverna",
+   "tipo": "trata_sobre",
+   "destino": "concepto.idea",
+   "certeza": "D"
+  },
+  {
+   "id": "r2152",
+   "origen": "obra.banquete",
+   "tipo": "trata_sobre",
+   "destino": "concepto.idea",
+   "certeza": "D"
+  },
+  {
+   "id": "r2153",
+   "origen": "obra.fedon",
+   "tipo": "trata_sobre",
+   "destino": "tesis.alma_inmortal",
+   "certeza": "D"
+  },
+  {
+   "id": "r2154",
+   "origen": "obra.fedon",
+   "tipo": "trata_sobre",
+   "destino": "concepto.anamnesis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2155",
+   "origen": "obra.fedon",
+   "tipo": "trata_sobre",
+   "destino": "concepto.psyche",
+   "certeza": "D"
+  },
+  {
+   "id": "r2156",
+   "origen": "obra.teeteto",
+   "tipo": "trata_sobre",
+   "destino": "tesis.homo_mensura",
+   "certeza": "D"
+  },
+  {
+   "id": "r2157",
+   "origen": "obra.apologia",
+   "tipo": "trata_sobre",
+   "destino": "concepto.elenchos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2158",
+   "origen": "obra.apologia",
+   "tipo": "trata_sobre",
+   "destino": "concepto.arete",
+   "certeza": "D"
+  },
+  {
+   "id": "r2159",
+   "origen": "obra.metafisica",
+   "tipo": "trata_sobre",
+   "destino": "concepto.ousia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2160",
+   "origen": "obra.metafisica",
+   "tipo": "trata_sobre",
+   "destino": "concepto.arche",
+   "certeza": "D"
+  },
+  {
+   "id": "r2161",
+   "origen": "obra.fisica",
+   "tipo": "trata_sobre",
+   "destino": "concepto.physis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2162",
+   "origen": "obra.fisica",
+   "tipo": "trata_sobre",
+   "destino": "concepto.potencia_acto",
+   "certeza": "D"
+  },
+  {
+   "id": "r2163",
+   "origen": "obra.fisica",
+   "tipo": "trata_sobre",
+   "destino": "tesis.movimiento_imposible",
+   "certeza": "D"
+  },
+  {
+   "id": "r2164",
+   "origen": "obra.etica_nicomaco",
+   "tipo": "trata_sobre",
+   "destino": "concepto.eudaimonia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2165",
+   "origen": "obra.etica_nicomaco",
+   "tipo": "trata_sobre",
+   "destino": "concepto.phronesis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2166",
+   "origen": "obra.etica_nicomaco",
+   "tipo": "trata_sobre",
+   "destino": "concepto.arete",
+   "certeza": "D"
+  },
+  {
+   "id": "r2167",
+   "origen": "obra.politica",
+   "tipo": "trata_sobre",
+   "destino": "tesis.animal_politico",
+   "certeza": "D"
+  },
+  {
+   "id": "r2168",
+   "origen": "obra.organon",
+   "tipo": "trata_sobre",
+   "destino": "concepto.silogismo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2169",
+   "origen": "obra.poema_parmenides",
+   "tipo": "trata_sobre",
+   "destino": "tesis.ser_es",
+   "certeza": "D"
+  },
+  {
+   "id": "r2170",
+   "origen": "obra.fragmentos_heraclito",
+   "tipo": "trata_sobre",
+   "destino": "concepto.logos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2171",
+   "origen": "obra.fragmentos_heraclito",
+   "tipo": "trata_sobre",
+   "destino": "tesis.rio",
+   "certeza": "D"
+  },
+  {
+   "id": "r2172",
+   "origen": "obra.poema_empedocles",
+   "tipo": "trata_sobre",
+   "destino": "concepto.metempsicosis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2173",
+   "origen": "obra.sobre_no_ser",
+   "tipo": "trata_sobre",
+   "destino": "tesis.nada_existe",
+   "certeza": "D"
+  },
+  {
+   "id": "r2174",
+   "origen": "obra.carta_meneceo",
+   "tipo": "trata_sobre",
+   "destino": "tesis.muerte_nada",
+   "certeza": "D"
+  },
+  {
+   "id": "r2175",
+   "origen": "obra.carta_meneceo",
+   "tipo": "trata_sobre",
+   "destino": "concepto.ataraxia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2176",
+   "origen": "obra.de_rerum_natura",
+   "tipo": "trata_sobre",
+   "destino": "concepto.atomo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2177",
+   "origen": "obra.de_rerum_natura",
+   "tipo": "trata_sobre",
+   "destino": "concepto.clinamen",
+   "certeza": "D"
+  },
+  {
+   "id": "r2178",
+   "origen": "obra.academicos",
+   "tipo": "trata_sobre",
+   "destino": "concepto.epoje",
+   "certeza": "D"
+  },
+  {
+   "id": "r2179",
+   "origen": "obra.de_officiis",
+   "tipo": "trata_sobre",
+   "destino": "concepto.oikeiosis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2180",
+   "origen": "obra.cartas_lucilio",
+   "tipo": "trata_sobre",
+   "destino": "concepto.apatheia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2181",
+   "origen": "obra.cartas_lucilio",
+   "tipo": "trata_sobre",
+   "destino": "concepto.autarkeia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2182",
+   "origen": "obra.manual_epicteto",
+   "tipo": "trata_sobre",
+   "destino": "concepto.apatheia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2183",
+   "origen": "obra.disertaciones",
+   "tipo": "trata_sobre",
+   "destino": "concepto.parrhesia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2184",
+   "origen": "obra.meditaciones",
+   "tipo": "trata_sobre",
+   "destino": "concepto.logos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2185",
+   "origen": "obra.esbozos_pirronicos",
+   "tipo": "trata_sobre",
+   "destino": "concepto.isostheneia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2186",
+   "origen": "obra.esbozos_pirronicos",
+   "tipo": "trata_sobre",
+   "destino": "concepto.epoje",
+   "certeza": "D"
+  },
+  {
+   "id": "r2187",
+   "origen": "obra.esbozos_pirronicos",
+   "tipo": "trata_sobre",
+   "destino": "tesis.epoje_ataraxia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2188",
+   "origen": "obra.eneadas",
+   "tipo": "trata_sobre",
+   "destino": "concepto.uno",
+   "certeza": "D"
+  },
+  {
+   "id": "r2189",
+   "origen": "obra.eneadas",
+   "tipo": "trata_sobre",
+   "destino": "tesis.emanacion",
+   "certeza": "D"
+  },
+  {
+   "id": "r2190",
+   "origen": "obra.eneadas",
+   "tipo": "trata_sobre",
+   "destino": "concepto.nous",
+   "certeza": "D"
+  },
+  {
+   "id": "r2191",
+   "origen": "tesis.agua_principio",
+   "tipo": "trata_sobre",
+   "destino": "concepto.arche",
+   "certeza": "D"
+  },
+  {
+   "id": "r2192",
+   "origen": "tesis.ser_es",
+   "tipo": "trata_sobre",
+   "destino": "concepto.physis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2193",
+   "origen": "tesis.atomos_vacio",
+   "tipo": "trata_sobre",
+   "destino": "concepto.atomo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2194",
+   "origen": "tesis.nadie_obra_mal",
+   "tipo": "trata_sobre",
+   "destino": "concepto.arete",
+   "certeza": "D"
+  },
+  {
+   "id": "r2195",
+   "origen": "tesis.alma_inmortal",
+   "tipo": "trata_sobre",
+   "destino": "concepto.psyche",
+   "certeza": "D"
+  },
+  {
+   "id": "r2196",
+   "origen": "tesis.alma_inmortal",
+   "tipo": "trata_sobre",
+   "destino": "concepto.metempsicosis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2197",
+   "origen": "tesis.animal_politico",
+   "tipo": "trata_sobre",
+   "destino": "concepto.telos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2198",
+   "origen": "tesis.muerte_nada",
+   "tipo": "trata_sobre",
+   "destino": "concepto.ataraxia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2199",
+   "origen": "tesis.vivir_segun_naturaleza",
+   "tipo": "trata_sobre",
+   "destino": "concepto.logos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2200",
+   "origen": "tesis.vivir_segun_naturaleza",
+   "tipo": "trata_sobre",
+   "destino": "concepto.apatheia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2201",
+   "origen": "tesis.vivir_segun_naturaleza",
+   "tipo": "trata_sobre",
+   "destino": "concepto.oikeiosis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2202",
+   "origen": "tesis.epoje_ataraxia",
+   "tipo": "trata_sobre",
+   "destino": "concepto.epoje",
+   "certeza": "D"
+  },
+  {
+   "id": "r2203",
+   "origen": "tesis.epoje_ataraxia",
+   "tipo": "trata_sobre",
+   "destino": "concepto.isostheneia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2204",
+   "origen": "tesis.epoje_ataraxia",
+   "tipo": "trata_sobre",
+   "destino": "concepto.ataraxia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2205",
+   "origen": "tesis.emanacion",
+   "tipo": "trata_sobre",
+   "destino": "concepto.uno",
+   "certeza": "D"
+  },
+  {
+   "id": "r2206",
+   "origen": "tesis.emanacion",
+   "tipo": "trata_sobre",
+   "destino": "concepto.nous",
+   "certeza": "D"
+  },
+  {
+   "id": "r2207",
+   "origen": "tesis.rio",
+   "tipo": "trata_sobre",
+   "destino": "concepto.logos",
+   "certeza": "D"
+  },
+  {
+   "id": "r2208",
+   "origen": "tesis.homo_mensura",
+   "tipo": "trata_sobre",
+   "destino": "concepto.physis",
+   "certeza": "D"
+  },
+  {
+   "id": "r2209",
+   "origen": "tesis.rio",
+   "tipo": "paralelo_a",
+   "destino": "concepto.anitya",
+   "certeza": "P",
+   "ejeComparacion": "Impermanencia de todo lo que existe",
+   "nota": "[[autor.heraclito|Heráclito]] y el budismo coinciden en que nada permanece igual, aunque Heráclito ve un orden estable, el [[concepto.logos|logos]], bajo el cambio. Sin contacto conocido."
+  },
+  {
+   "id": "r2210",
+   "origen": "tesis.ser_es",
+   "tipo": "paralelo_a",
+   "destino": "tesis.ser_no_nace_de_nada",
+   "certeza": "P",
+   "ejeComparacion": "El ser no puede surgir del no ser",
+   "nota": "[[autor.parmenides|Parménides]] y [[autor.uddalaka|Uddālaka]] rechazan, casi a la vez y sin contacto conocido, que algo pueda nacer de la nada."
+  },
+  {
+   "id": "r2211",
+   "origen": "concepto.metempsicosis",
+   "tipo": "paralelo_a",
+   "destino": "concepto.samsara",
+   "certeza": "P",
+   "ejeComparacion": "Ciclo de renacimientos",
+   "nota": "Ambas tradiciones creen que el alma renace en otros cuerpos. Algunos estudiosos han propuesto una influencia india sobre [[autor.pitagoras|Pitágoras]], pero no hay pruebas."
+  },
+  {
+   "id": "r2212",
+   "origen": "concepto.atomo",
+   "tipo": "paralelo_a",
+   "destino": "concepto.paramanu",
+   "certeza": "P",
+   "ejeComparacion": "Partículas mínimas e indivisibles",
+   "nota": "El atomismo griego y el [[escuela.vaisesika|Vaiśeṣika]] llegan a la idea de partículas indivisibles; el indio las distingue por elementos, el griego solo por forma y tamaño."
+  },
+  {
+   "id": "r2213",
+   "origen": "escuela.epicureismo",
+   "tipo": "paralelo_a",
+   "destino": "escuela.carvaka",
+   "certeza": "P",
+   "ejeComparacion": "Materialismo y ética del placer",
+   "nota": "Ambas escuelas niegan la vida después de la muerte y ponen el placer como bien. Del [[escuela.carvaka|Cārvāka]] solo sabemos lo que cuentan sus adversarios."
+  },
+  {
+   "id": "r2214",
+   "origen": "tesis.movimiento_imposible",
+   "tipo": "paralelo_a",
+   "destino": "tesis.divisibilidad",
+   "certeza": "P",
+   "ejeComparacion": "Paradojas de la división infinita",
+   "nota": "[[autor.zenon_elea|Zenón]] y [[autor.hui_shi|Hui Shi]] juegan con lo que ocurre si algo se divide sin fin, aunque sacan conclusiones distintas."
+  },
+  {
+   "id": "r2215",
+   "origen": "autor.socrates",
+   "tipo": "paralelo_a",
+   "destino": "autor.confucio",
+   "certeza": "P",
+   "ejeComparacion": "Maestros que no escribieron y enseñaron conversando",
+   "nota": "Ambos son conocidos por lo que escribieron sus discípulos y hicieron de la virtud el centro de la enseñanza; [[autor.confucio|Confucio]] la liga a la tradición y los ritos, [[autor.socrates|Sócrates]] al examen racional."
+  },
+  {
+   "id": "r2216",
+   "origen": "concepto.epoje",
+   "tipo": "paralelo_a",
+   "destino": "tesis.vacuidad",
+   "certeza": "P",
+   "ejeComparacion": "Rechazo a afirmar la naturaleza propia de las cosas",
+   "nota": "La suspensión del juicio escéptica y la vacuidad de [[autor.nagarjuna|Nāgārjuna]] se han comparado a menudo. Algunos autores ven aquí una huella del viaje de [[autor.pirron|Pirrón]] a la India; es una hipótesis discutida."
+  },
+  {
+   "id": "r2217",
+   "origen": "escuela.sofistica",
+   "tipo": "paralelo_a",
+   "destino": "escuela.mingjia",
+   "certeza": "P",
+   "ejeComparacion": "Argumentación y paradojas sobre el lenguaje",
+   "nota": "Sofistas griegos y la Escuela de los Nombres china cultivaron el debate y las paradojas, y ambos fueron acusados de juegos de palabras."
+  },
+  {
+   "id": "r2218",
+   "origen": "tesis.vivir_segun_naturaleza",
+   "tipo": "paralelo_a",
+   "destino": "concepto.ziran",
+   "certeza": "P",
+   "ejeComparacion": "Vivir de acuerdo con el curso de la naturaleza",
+   "nota": "Los estoicos y los daoístas proponen acompasar la vida al orden natural, pero para los estoicos ese orden es racional y para los daoístas, espontáneo."
+  },
+  {
+   "id": "r2219",
+   "origen": "autor.diogenes_sinope",
+   "tipo": "paralelo_a",
+   "destino": "autor.zhuangzi",
+   "certeza": "P",
+   "ejeComparacion": "Burla de las convenciones y vida sencilla",
+   "nota": "[[autor.diogenes_sinope|Diógenes]] y [[autor.zhuangzi|Zhuangzi]] se ríen de los honores y del poder y prefieren una vida libre y austera, con humor y provocación."
+  },
+  {
+   "id": "r2220",
+   "origen": "concepto.uno",
+   "tipo": "paralelo_a",
+   "destino": "concepto.brahman",
+   "certeza": "P",
+   "ejeComparacion": "Principio único más allá de las palabras",
+   "nota": "El Uno de [[autor.plotino|Plotino]] y el brahman de las [[obra.upanisad|Upaniṣad]] son el fondo de toda la realidad y solo pueden alcanzarse más allá del lenguaje."
+  },
+  {
+   "id": "r2221",
+   "origen": "concepto.silogismo",
+   "tipo": "paralelo_a",
+   "destino": "concepto.pramana",
+   "certeza": "P",
+   "ejeComparacion": "Teoría de la inferencia válida",
+   "nota": "[[autor.aristoteles|Aristóteles]] y el [[obra.nyaya_sutra|Nyāya-sūtra]] analizan de forma independiente qué hace válida una inferencia; el modelo indio tiene cinco miembros y exige un ejemplo."
+  },
+  {
+   "id": "r2222",
+   "origen": "autor.aristoteles",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.alejandro",
+   "certeza": "D",
+   "fuente": "Plutarco, Vida de Alejandro 7-8"
+  },
+  {
+   "id": "r2223",
+   "origen": "obra.anabasis",
+   "tipo": "es_fuente_de",
+   "destino": "autor.alejandro",
+   "certeza": "D"
+  },
+  {
+   "id": "r2224",
+   "origen": "obra.vidas_paralelas",
+   "tipo": "es_fuente_de",
+   "destino": "autor.alejandro",
+   "certeza": "D",
+   "nota": "Contiene una Vida de Alejandro."
+  },
+  {
+   "id": "r2225",
+   "origen": "autor.anaximandro",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.anaximenes",
+   "certeza": "C",
+   "nota": "Relación transmitida por los historiadores antiguos de la filosofía; puede ser una construcción."
+  },
+  {
+   "id": "r2226",
+   "origen": "autor.anaximenes",
+   "tipo": "desarrolla",
+   "destino": "concepto.arche",
+   "certeza": "D"
+  },
+  {
+   "id": "r2227",
+   "origen": "autor.socrates",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.antistenes",
+   "certeza": "D"
+  },
+  {
+   "id": "r2228",
+   "origen": "autor.antistenes",
+   "tipo": "influyo_en",
+   "destino": "escuela.cinismo",
+   "certeza": "P",
+   "nota": "Los antiguos lo consideraban fundador del cinismo; hoy se discute si [[autor.diogenes_sinope|Diógenes]] fue realmente su discípulo."
+  },
+  {
+   "id": "r2229",
+   "origen": "autor.antistenes",
+   "tipo": "desarrolla",
+   "destino": "concepto.autarkeia",
+   "certeza": "D"
+  },
+  {
+   "id": "r2230",
+   "origen": "autor.socrates",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.jenofonte",
+   "certeza": "D"
+  },
+  {
+   "id": "r2231",
+   "origen": "autor.arcesilao",
+   "tipo": "desarrolla",
+   "destino": "concepto.epoje",
+   "certeza": "D"
+  },
+  {
+   "id": "r2232",
+   "origen": "autor.arcesilao",
+   "tipo": "critica",
+   "destino": "escuela.estoicismo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2233",
+   "origen": "autor.carneades",
+   "tipo": "critica",
+   "destino": "escuela.estoicismo",
+   "certeza": "D"
+  },
+  {
+   "id": "r2234",
+   "origen": "obra.academicos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.arcesilao",
+   "certeza": "D"
+  },
+  {
+   "id": "r2235",
+   "origen": "obra.academicos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.carneades",
+   "certeza": "D"
+  }
+ ]
+}

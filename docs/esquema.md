@@ -22,7 +22,8 @@ Los datos se reparten en varios archivos que la app carga y une al arrancar:
 | `comun.json` | Catálogo de tipos de relación (`tiposRelacion`) y las 14 temáticas |
 | `china-antigua.json` | Tradición china de la Antigüedad |
 | `india-antigua.json` | Tradición india de la Antigüedad |
-| `grecorromana-antigua.json`… | Resto de tradiciones y épocas (pendientes) |
+| `grecorromana-antigua.json` | Tradición grecorromana de la Antigüedad |
+| `proximo-oriente-antiguo.json`… | Resto de tradiciones y épocas (pendientes) |
 
 Cada archivo tiene la misma forma:
 
