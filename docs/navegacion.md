@@ -75,6 +75,12 @@ Los rangos y logros quedaron fuera del núcleo del juego.
 
 **Qué necesita:** `paralelo_a`, `ejeComparacion` y `tradicion`.
 
+### 6. Grandes preguntas (decidido)
+
+**Qué es.** Una pregunta de fondo en el centro («¿De qué está hecho todo?», «¿Cómo hay que vivir?») y alrededor las respuestas de cada tradición, agrupadas por carril. Es una puerta de entrada más, junto a la cronológica, la temática y la libre.
+
+**Qué necesita:** nodos de tipo `pregunta` y relaciones `responde_a` desde las tesis que les responden. Para la Antigüedad se prevén unas doce preguntas.
+
 ## Entradas a un nodo
 
 A cualquier nodo se llega por varias vías, y todas registran la visita y el paso en el recorrido:
@@ -83,7 +89,10 @@ A cualquier nodo se llega por varias vías, y todas registran la visita y el pas
 - un enlace `[[id|texto]]` dentro de un texto;
 - una relación de la ficha;
 - un nodo del mapa en cualquier punto de vista;
-- un reto o una misión.
+- un reto o una misión;
+- el botón **«Llévame a algún sitio»**, que elige un nodo al azar con preferencia por lo no explorado.
+
+El juego (niebla, niveles por época, examen opcional y azar) está descrito para toda la colección en el [`docs/juego.md` del núcleo](https://github.com/caducidad/ATLAS_NUCLEO/blob/main/docs/juego.md).
 
 ## Qué es general y qué es propio de filosofía
 
