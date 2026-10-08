@@ -19,6 +19,7 @@ import sys
 TIPOS_NODO = {"autor", "obra", "concepto", "tesis", "escuela", "contexto", "tematica"}
 TRADICIONES = {"grecorromana", "india", "china", "proximo_oriente", "transversal"}
 CERTEZAS = set("DPCL")
+AUTORIAS = {"autor", "atribuida", "escuela", "compilacion", "anonima"}
 TIPOS_IMAGEN = {"retrato_imaginario", "escultura", "manuscrito", "inscripcion", "lugar", "objeto", "otro"}
 LICENCIAS = {"dominio_publico", "CC0"} | {f"CC-{t}-{v}" for t in ("BY", "BY-SA") for v in ("2.0", "2.5", "3.0", "4.0")}
 RAIZ = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
@@ -64,6 +65,8 @@ def validar(nodos, relaciones, tipos):
                 errores.append(f"{i}: falta el campo obligatorio «{campo}»")
         if n.get("tradicion") not in TRADICIONES:
             errores.append(f"{i}: tradición desconocida «{n.get('tradicion')}»")
+        if n.get("tipo") == "obra" and n.get("autoria") not in AUTORIAS:
+            errores.append(f"{i}: autoria debe ser una de {', '.join(sorted(AUTORIAS))}")
         for campo in ("contextos", "tematicas", "escuelas"):
             for ref in n.get(campo, []):
                 if ref not in ids:

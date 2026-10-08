@@ -1,0 +1,1913 @@
+{
+ "version": "0.1",
+ "actualizado": "2026-10-08",
+ "descripcion": "Piloto Antigüedad · Sabidurías del Próximo Oriente (Egipto, Mesopotamia, Irán e Israel) · Carril secundario",
+ "nodos": [
+  {
+   "id": "contexto.egipto_mesopotamia",
+   "tipo": "contexto",
+   "nombre": "Sabiduría de Egipto y Mesopotamia",
+   "tradicion": "proximo_oriente",
+   "contextos": [],
+   "horquilla": {
+    "inicio": -2500,
+    "fin": -300
+   },
+   "lugar": "Valle del Nilo y llanura entre los ríos Tigris y Éufrates, en el actual Irak",
+   "resumen": "Las dos civilizaciones más antiguas del Próximo Oriente dejaron una literatura «sapiencial»: consejos para vivir bien, lamentos por el sufrimiento de los justos y reflexiones sobre la muerte. No es filosofía en sentido estricto, porque no argumenta en forma ni crea escuelas, pero plantea muchas de sus preguntas.",
+   "profundizacion": "En Egipto, los escribas copiaban «enseñanzas» (en egipcio, sebayt) en las que un padre o un alto funcionario aconseja a su hijo. La más antigua conservada completa es la [[obra.ensenanza_ptahhotep|Enseñanza de Ptahhotep]], y una de las últimas, la [[obra.ensenanza_amenemope|de Amenemope]], pasó en parte a la Biblia. Su idea central es la [[concepto.maat|maat]], el orden justo del mundo. Algunos textos, como el [[obra.dialogo_ba|Diálogo de un hombre con su ba]], se atreven a dudar del sentido de la vida. En Mesopotamia, la tierra de sumerios, babilonios y asirios, el [[obra.gilgamesh|Poema de Gilgamesh]] trata de la amistad, la muerte y los límites humanos, y poemas como [[obra.ludlul|Ludlul bēl nēmeqi]] y la [[obra.teodicea_babilonica|Teodicea babilónica]] preguntan por qué sufren los justos. Los griegos admiraban la antigüedad de estas culturas, y algunos contaron que [[autor.tales|Tales]], [[autor.pitagoras|Pitágoras]] o [[autor.platon|Platón]] aprendieron en Egipto; son relatos tardíos y difíciles de comprobar."
+  },
+  {
+   "id": "contexto.iran_antiguo",
+   "tipo": "contexto",
+   "nombre": "Irán antiguo y mazdeísmo",
+   "tradicion": "proximo_oriente",
+   "contextos": [],
+   "horquilla": {
+    "inicio": -1500,
+    "fin": -330
+   },
+   "lugar": "Irán oriental y Asia central; después, todo el Imperio persa, del Mediterráneo al río Indo",
+   "resumen": "La época de [[autor.zaratustra|Zaratustra]] y de la religión que fundó, el [[escuela.mazdeismo|mazdeísmo]]: el mundo es el escenario de una lucha entre la Verdad y la Mentira, y cada persona debe elegir su bando.",
+   "profundizacion": "Las fechas de [[autor.zaratustra|Zaratustra]] son muy inciertas. Por la lengua arcaica de sus himnos, los [[obra.gatha|Gāthā]], hoy se tiende a situarlo hacia el 1000 a. C., en las estepas de Irán oriental o de Asia central. Su religión, centrada en el dios [[concepto.ahura_mazda|Ahura Mazdā]], acabó siendo la de los reyes del Imperio persa aqueménida (550-330 a. C.): el rey Darío I, en una inscripción grabada en la roca de Behistún, en el oeste de Irán, acusa a sus enemigos de haber seguido la «Mentira», la [[concepto.druj|druj]]. Los sacerdotes de esta religión, los magos, fascinaron a los griegos, que los tuvieron por sabios antiquísimos. La conquista de [[autor.alejandro|Alejandro Magno]] en el 330 a. C. cierra la época. Los textos del [[obra.avesta|Avesta]] solo se pusieron por escrito mucho después, bajo la dinastía persa de los sasánidas (siglos III-VII d. C.)."
+  },
+  {
+   "id": "contexto.sabiduria_hebrea",
+   "tipo": "contexto",
+   "nombre": "Sabiduría hebrea y judaísmo helenístico",
+   "tradicion": "proximo_oriente",
+   "contextos": [],
+   "horquilla": {
+    "inicio": -600,
+    "fin": 100
+   },
+   "lugar": "Judea y, desde el siglo III a. C., Alejandría, en Egipto",
+   "resumen": "Época en que los sabios de Israel escribieron libros que reflexionan sobre la vida buena, el sufrimiento y la muerte, como [[obra.job|Job]] y [[obra.qohelet|Qohélet]], y en que el judaísmo entró en diálogo con la filosofía griega, sobre todo con [[autor.filon|Filón de Alejandría]].",
+   "profundizacion": "Tras el destierro de una parte del pueblo judío a Babilonia en el 587 a. C. y su regreso bajo el dominio persa, se completan las colecciones de [[obra.proverbios|Proverbios]], que confían en que al justo le va bien, y aparecen libros que lo ponen en duda: [[obra.job|Job]] protesta por el sufrimiento de un inocente y [[obra.qohelet|Qohélet]] declara que todo es «soplo». Después de las conquistas de [[autor.alejandro|Alejandro Magno]], Judea queda bajo reyes griegos y una gran comunidad judía se instala en Alejandría, donde la Biblia hebrea se traduce al griego. [[autor.ben_sira|Ben Sira]] identifica la [[concepto.hokhmah|sabiduría]] con la Torá, la Ley que la tradición atribuía a Moisés; la [[obra.sabiduria_salomon|Sabiduría de Salomón]] adopta ideas griegas, como la inmortalidad del alma y las cuatro virtudes; y [[autor.filon|Filón]] lee la Biblia con los ojos de [[autor.platon|Platón]] y de los [[escuela.estoicismo|estoicos]]. La época se cierra hacia el año 100 d. C."
+  },
+  {
+   "id": "escuela.mazdeismo",
+   "tipo": "escuela",
+   "nombre": "Mazdeísmo",
+   "alias": [
+    "zoroastrismo",
+    "religión de Zaratustra",
+    "magos"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.iran_antiguo"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica",
+    "tematica.soteriologia"
+   ],
+   "naturaleza": "real",
+   "resumen": "La religión fundada por [[autor.zaratustra|Zaratustra]], llamada así por su dios supremo, [[concepto.ahura_mazda|Ahura Mazdā]]. Enseña que el mundo es una lucha entre la [[concepto.asha|Verdad]] y la [[concepto.druj|Mentira]] que terminará con la victoria del bien. Sus sacerdotes eran los magos. Sigue viva hoy en Irán y en la India, donde sus fieles se llaman parsis."
+  },
+  {
+   "id": "escuela.sapienciales_hebreos",
+   "tipo": "escuela",
+   "nombre": "Literatura sapiencial hebrea",
+   "alias": [
+    "libros sapienciales",
+    "sabiduría de Israel"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_religion",
+    "tematica.antropologia_filosofica"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "Nombre moderno para un grupo de libros de la Biblia y obras afines, como [[obra.proverbios|Proverbios]], [[obra.job|Job]], [[obra.qohelet|Qohélet]] y el [[obra.ben_sira|Sirácida]], que en lugar de narrar la historia de Israel reflexionan sobre cómo vivir bien. Su tema común es la [[concepto.hokhmah|sabiduría]]."
+  },
+  {
+   "id": "escuela.judaismo_helenistico",
+   "tipo": "escuela",
+   "nombre": "Judaísmo helenístico",
+   "alias": [
+    "judaísmo alejandrino"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.metafisica"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "Nombre que dan los historiadores al judaísmo de época griega y romana que escribía en griego y dialogaba con la filosofía, sobre todo en Alejandría. Sus obras principales son la [[obra.sabiduria_salomon|Sabiduría de Salomón]] y los tratados de [[autor.filon|Filón]]."
+  },
+  {
+   "id": "autor.zaratustra",
+   "tipo": "autor",
+   "nombre": "Zaratustra",
+   "nombreOriginal": "Zaraθuštra",
+   "alias": [
+    "Zoroastro",
+    "Zarathushtra",
+    "Zardusht"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.iran_antiguo"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica",
+    "tematica.metafisica",
+    "tematica.soteriologia"
+   ],
+   "escuelas": [
+    "escuela.mazdeismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Irán oriental o Asia central; el lugar exacto se desconoce",
+   "fechas": {
+    "activo": {
+     "min": -1100,
+     "max": -900
+    },
+    "tipo": "actividad",
+    "historicidad": "debatido",
+    "alternativas": [
+     {
+      "etiqueta": "Tradicional zoroástrica: «258 años antes de Alejandro»",
+      "nacimiento": {
+       "min": -628,
+       "max": -628
+      },
+      "muerte": {
+       "min": -551,
+       "max": -551
+      }
+     },
+     {
+      "etiqueta": "Autores griegos: seis mil años antes de la muerte de Platón",
+      "activo": {
+       "min": -6347,
+       "max": -6347
+      }
+     }
+    ],
+    "nota": "La enciclopedia de referencia Encyclopaedia Iranica propone hacia el 1000 a. C., con un margen de un siglo, por la lengua de los Gāthā. Se han defendido fechas entre el 1750 y el 550 a. C."
+   },
+   "resumen": "Profeta y pensador del antiguo Irán, fundador del [[escuela.mazdeismo|mazdeísmo]]. En sus himnos, los [[obra.gatha|Gāthā]], presenta el mundo como una lucha entre la [[concepto.asha|Verdad]] y la [[concepto.druj|Mentira]], y pide a cada persona que elija libremente de qué lado ponerse.",
+   "profundizacion": "De Zaratustra solo sabemos con cierta seguridad lo que dicen los diecisiete himnos que se le atribuyen, los [[obra.gatha|Gāthā]], escritos en avéstico antiguo, una lengua muy cercana a la del [[obra.rigveda|Ṛgveda]] indio. Era sacerdote, tuvo dificultades para ser escuchado y encontró la protección de un príncipe llamado Vīštāspa. Su gran novedad fue moral: el dios supremo, [[concepto.ahura_mazda|Ahura Mazdā]] («el Señor Sabio»), es solo bueno, y el mal procede de otro principio, el [[concepto.dos_espiritus|Espíritu Destructor]]. Los seres humanos no son juguetes de los dioses: con sus «buenos pensamientos, buenas palabras y buenas obras», como resumirá la tradición, deciden la victoria final del bien, la [[concepto.frashokereti|renovación del mundo]]. Algunos especialistas, como el iranista belga Jean Kellens, dudan de que los Gāthā sean obra de una sola persona e incluso de que Zaratustra existiera. Los griegos lo conocieron como Zoroastro, el primero de los magos, y [[autor.aristoteles|Aristóteles]] ya sabía que los magos creían en dos principios, uno bueno y otro malo ([[obra.vidas_filosofos|Vidas de los filósofos]] I 8).",
+   "anecdotas": "Según el naturalista romano Plinio el Viejo, fue el único ser humano que rió el mismo día en que nació, y su cerebro latía con tanta fuerza que apartaba la mano que se le ponía encima, presagio de su sabiduría (Plinio el Viejo, Historia natural VII 72 · L). Los griegos lo creían antiquísimo: según el astrónomo Eudoxo de Cnido y según [[autor.aristoteles|Aristóteles]], vivió seis mil años antes de la muerte de [[autor.platon|Platón]] (Plinio el Viejo, Historia natural XXX 3 · L). En uno de sus himnos se queja de su soledad: «¿A qué tierra huir? ¿Adónde iré? Me apartan de mi familia y de mi clan» ([[obra.gatha|Gāthā]], Yasna 46, 1 · A)."
+  },
+  {
+   "id": "autor.ptahhotep",
+   "tipo": "autor",
+   "nombre": "Ptahhotep",
+   "nombreOriginal": "Ptḥ-ḥtp",
+   "alias": [
+    "Ptah-hotep",
+    "Ptahhotep"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [],
+   "circulo": 2,
+   "lugarOrigen": "Menfis, capital de Egipto en el Reino Antiguo",
+   "fechas": {
+    "activo": {
+     "min": -2410,
+     "max": -2350
+    },
+    "tipo": "actividad",
+    "historicidad": "probable",
+    "alternativas": [],
+    "nota": "Visir del faraón Djedkare Isesi, de la dinastía V. La enseñanza que lleva su nombre se compuso varios siglos después, en el Reino Medio."
+   },
+   "resumen": "Visir, es decir, primer ministro, del faraón Djedkare Isesi en el siglo XXIV a. C. Se le atribuye la [[obra.ensenanza_ptahhotep|Enseñanza de Ptahhotep]], el texto de sabiduría completo más antiguo que se conserva, aunque probablemente se escribió varios siglos después de su muerte.",
+   "profundizacion": "Atribuir los consejos a un sabio famoso del pasado era una costumbre de la literatura egipcia, porque daba autoridad al texto. La enseñanza presenta a Ptahhotep, ya muy anciano, pidiendo permiso al faraón para formar a su hijo como sucesor, como «bastón de su vejez», y transmitirle lo que aprendió de los antepasados.",
+   "anecdotas": "En el prólogo de su enseñanza describe la vejez con crudeza: los ojos se debilitan, los oídos se vuelven sordos, el corazón olvida y los huesos duelen, de modo que «lo que la vejez hace a los hombres es malo en todo» ([[obra.ensenanza_ptahhotep|Enseñanza de Ptahhotep]], prólogo · C)."
+  },
+  {
+   "id": "autor.amenemope",
+   "tipo": "autor",
+   "nombre": "Amenemope",
+   "nombreOriginal": "Jmn-m-jpt",
+   "alias": [
+    "Amenemope hijo de Kanakht",
+    "Amenemopet",
+    "Amenemipet"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "escuelas": [],
+   "circulo": 2,
+   "lugarOrigen": "Akhmim, en el Alto Egipto",
+   "fechas": {
+    "activo": {
+     "min": -1300,
+     "max": -1075
+    },
+    "tipo": "actividad",
+    "historicidad": "probable",
+    "alternativas": [],
+    "nota": "Época ramésida, según la lengua del texto."
+   },
+   "resumen": "Escriba egipcio encargado de los graneros en la ciudad de Akhmim, al que se atribuye una enseñanza para su hijo en treinta capítulos, la [[obra.ensenanza_amenemope|Enseñanza de Amenemope]]. Una parte fue adaptada en el libro bíblico de los [[obra.proverbios|Proverbios]]."
+  },
+  {
+   "id": "autor.sin_leqi_unninni",
+   "tipo": "autor",
+   "nombre": "Sîn-lēqi-unninni",
+   "alias": [
+    "Sin-leqi-unninni"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.antropologia_filosofica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Uruk, en el sur de Mesopotamia",
+   "fechas": {
+    "activo": {
+     "min": -1300,
+     "max": -1000
+    },
+    "tipo": "actividad",
+    "historicidad": "probable",
+    "alternativas": [],
+    "nota": "Un catálogo asirio de textos y autores del siglo VII a. C. le atribuye la versión estándar del poema; varias familias de escribas de Uruk lo tenían por antepasado."
+   },
+   "resumen": "Sacerdote exorcista y escriba babilonio al que la tradición atribuye la versión clásica del [[obra.gilgamesh|Poema de Gilgamesh]], en doce tablillas. Más que inventarlo, reelaboró poemas sumerios y babilonios mucho más antiguos."
+  },
+  {
+   "id": "autor.saggil_kinam_ubbib",
+   "tipo": "autor",
+   "nombre": "Saggil-kīnam-ubbib",
+   "alias": [
+    "Esagil-kini-ubba",
+    "Saggil-kinam-ubbib"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Babilonia",
+   "fechas": {
+    "activo": {
+     "min": -1125,
+     "max": -1047
+    },
+    "tipo": "actividad",
+    "historicidad": "probable",
+    "alternativas": [],
+    "nota": "Una lista de sabios hallada en Uruk lo sitúa como consejero de los reyes babilonios Nabucodonosor I y Adad-apla-iddina."
+   },
+   "resumen": "Sacerdote exorcista y sabio de la corte de Babilonia, autor de la [[obra.teodicea_babilonica|Teodicea babilónica]]. Conocemos su nombre porque lo escondió en el poema: las primeras sílabas de las estrofas forman la frase «Yo, Saggil-kīnam-ubbib, el exorcista, soy devoto del dios y del rey»."
+  },
+  {
+   "id": "autor.qohelet",
+   "tipo": "autor",
+   "nombre": "Qohélet",
+   "nombreOriginal": "קֹהֶלֶת",
+   "alias": [
+    "Eclesiastés",
+    "Cohélet",
+    "Koheleth",
+    "el Predicador"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_religion",
+    "tematica.antropologia_filosofica"
+   ],
+   "escuelas": [
+    "escuela.sapienciales_hebreos"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Probablemente Jerusalén",
+   "fechas": {
+    "activo": {
+     "min": -300,
+     "max": -200
+    },
+    "tipo": "actividad",
+    "historicidad": "debatido",
+    "alternativas": [],
+    "nota": "Qohélet es un seudónimo. El libro se presenta como obra del rey Salomón (siglo X a. C.), pero su lengua es de la época persa tardía o helenística."
+   },
+   "resumen": "Seudónimo del sabio judío autor del libro bíblico que lleva su nombre. Significa «el que reúne a la asamblea»; de ahí su traducción griega, Eclesiastés. Su conclusión, que [[tesis.vanidad|todo es vanidad]], es decir, [[concepto.hebel|soplo]], es una de las más radicales de la Biblia.",
+   "profundizacion": "El autor se presenta como «hijo de David, rey en Jerusalén», es decir, como Salomón, el rey sabio por excelencia, para examinar desde la posición más alta todo lo que puede dar sentido a la vida: el saber, el placer, las obras, la riqueza. Nada resiste, porque la muerte iguala al sabio y al necio, y la justicia no siempre se cumple en este mundo. Aun así, no cae en la desesperación: recomienda disfrutar con sencillez de lo que se tiene, como un regalo de Dios.",
+   "anecdotas": "Los sabios judíos discutieron si su libro debía considerarse sagrado: según la Misná, la gran recopilación de la ley oral judía, la escuela del maestro Shammai lo negaba y la del maestro Hillel lo afirmaba, y acabó imponiéndose esta última (Misná, tratado Yadayim 3, 5 · B)."
+  },
+  {
+   "id": "autor.ben_sira",
+   "tipo": "autor",
+   "nombre": "Ben Sira",
+   "nombreOriginal": "יְהוֹשֻׁעַ בֶּן סִירָא",
+   "alias": [
+    "Jesús ben Sira",
+    "Sirácida",
+    "Sirach"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [
+    "escuela.sapienciales_hebreos"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Jerusalén",
+   "fechas": {
+    "activo": {
+     "min": -200,
+     "max": -175
+    },
+    "tipo": "actividad",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Escribió hacia el 190-180 a. C.; su nieto tradujo el libro al griego en Egipto después del 132 a. C."
+   },
+   "resumen": "Escriba y maestro de Jerusalén, autor del [[obra.ben_sira|Sirácida]], que forma parte de las Biblias católica y ortodoxa pero no de la judía. Identificó la [[concepto.hokhmah|sabiduría]] con la Torá, la Ley de Israel, y defendió la tradición judía frente al atractivo de la cultura griega."
+  },
+  {
+   "id": "autor.filon",
+   "tipo": "autor",
+   "nombre": "Filón de Alejandría",
+   "nombreOriginal": "Φίλων ὁ Ἀλεξανδρεύς",
+   "alias": [
+    "Filón",
+    "Filón el Judío",
+    "Philo Judaeus"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea",
+    "contexto.roma_imperio"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.metafisica",
+    "tematica.etica"
+   ],
+   "escuelas": [
+    "escuela.judaismo_helenistico"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Alejandría, en Egipto",
+   "fechas": {
+    "nacimiento": {
+     "min": -20,
+     "max": -15
+    },
+    "muerte": {
+     "min": 45,
+     "max": 50
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el año 40 d. C. se describe a sí mismo como anciano."
+   },
+   "resumen": "Filósofo judío de Alejandría que interpretó la Biblia con las ideas de [[autor.platon|Platón]] y de los [[escuela.estoicismo|estoicos]]. Para él, Dios creó el mundo por medio del [[concepto.logos|Logos]], su razón, y los relatos bíblicos tienen un sentido alegórico más profundo que el literal.",
+   "profundizacion": "Filón perteneció a una de las familias judías más ricas e influyentes de Alejandría, entonces la gran capital cultural del mundo griego. Escribió en griego decenas de tratados, casi todos comentarios a los cinco primeros libros de la Biblia, que la tradición atribuía al legislador Moisés. Su método es la alegoría: los personajes y sucesos bíblicos significan también realidades del alma; el patriarca Abraham, por ejemplo, que abandona su tierra, representa al alma que deja lo sensible para buscar a Dios. En [[obra.creacion_mundo|Sobre la creación del mundo]] explica el relato del Génesis con ideas del diálogo Timeo de [[autor.platon|Platón]]: Dios concibe primero un modelo inteligible del mundo y luego lo realiza. El intermediario entre el Dios trascendente y el mundo es el [[concepto.logos|Logos]], al que llega a llamar «segundo dios». Los judíos posteriores lo olvidaron casi por completo, pero los primeros pensadores cristianos, como Clemente y Orígenes de Alejandría, lo leyeron con entusiasmo y conservaron sus obras.",
+   "anecdotas": "En el año 40, ya anciano, encabezó una embajada de los judíos de Alejandría ante el emperador Calígula para protestar por la violencia que sufrían. El emperador los recibió mientras inspeccionaba unas villas, sin dejar de dar órdenes a los obreros, y en medio de la audiencia les preguntó, entre las risas de los presentes, por qué no comían cerdo ([[obra.embajada_gayo|Embajada a Gayo]] 351-367 · A). Entre los griegos circulaba este dicho: «O Platón filoniza, o Filón platoniza» (el escritor cristiano san Jerónimo, Sobre los hombres ilustres 11 · B)."
+  },
+  {
+   "id": "obra.ensenanza_ptahhotep",
+   "tipo": "obra",
+   "nombre": "Enseñanza de Ptahhotep",
+   "alias": [
+    "Máximas de Ptahhotep",
+    "Instrucción de Ptahhotep"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_politica"
+   ],
+   "autoria": "atribuida",
+   "idiomaOriginal": "egipcio medio",
+   "fechas": {
+    "composicion": {
+     "min": -2000,
+     "max": -1800
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Se presenta como obra del visir Ptahhotep (siglo XXIV a. C.), pero su lengua es del Reino Medio."
+   },
+   "primerTestimonio": "Papiro Prisse, de la dinastía XII (hacia 1850 a. C.), hoy en la Biblioteca Nacional de Francia",
+   "resumen": "Treinta y siete máximas en las que el anciano visir [[autor.ptahhotep|Ptahhotep]] aconseja a su hijo cómo comportarse: escuchar, ser moderado, no ser codicioso, hablar solo cuando se sabe y actuar conforme a la [[concepto.maat|maat]]. Es el texto de sabiduría completo más antiguo que se conserva.",
+   "profundizacion": "Empieza con una lección de humildad: «No te enorgullezcas de tu saber; no hay límite para el arte, y ningún artista alcanza la perfección». Y recuerda que la sabiduría no es privilegio de los poderosos: «La buena palabra está más escondida que la piedra verde, y sin embargo se encuentra entre las criadas que muelen el grano»."
+  },
+  {
+   "id": "obra.ensenanza_amenemope",
+   "tipo": "obra",
+   "nombre": "Enseñanza de Amenemope",
+   "alias": [
+    "Instrucción de Amenemope"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "autoria": "atribuida",
+   "idiomaOriginal": "neoegipcio",
+   "fechas": {
+    "composicion": {
+     "min": -1300,
+     "max": -1075
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Treinta capítulos."
+   },
+   "primerTestimonio": "Papiro EA 10474 del Museo Británico, copiado entre los siglos X y VII a. C.",
+   "resumen": "Enseñanza de [[autor.amenemope|Amenemope]] a su hijo en treinta capítulos. Prefiere al «silencioso», modesto y dueño de sí, frente al «acalorado», impulsivo y violento, y recomienda la honradez con los pobres y la confianza en el dios. En 1924, el egiptólogo alemán Adolf Erman mostró que un pasaje de los [[obra.proverbios|Proverbios]] bíblicos la adapta."
+  },
+  {
+   "id": "obra.dialogo_ba",
+   "tipo": "obra",
+   "nombre": "Diálogo de un hombre con su ba",
+   "alias": [
+    "Disputa sobre el suicidio",
+    "El hombre cansado de vivir"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.antropologia_filosofica"
+   ],
+   "autoria": "anonima",
+   "idiomaOriginal": "egipcio medio",
+   "fechas": {
+    "composicion": {
+     "min": -1950,
+     "max": -1800
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Le falta el comienzo."
+   },
+   "primerTestimonio": "Papiro Berlín 3024, de la dinastía XII",
+   "resumen": "Texto egipcio en el que un hombre desesperado discute con su [[concepto.ba|ba]], una parte de su propia persona, si vale la pena seguir viviendo. El hombre canta a la muerte como una liberación; el ba le aconseja disfrutar de la vida y olvidar las preocupaciones. Es una de las reflexiones más antiguas sobre el suicidio y el sentido de la vida."
+  },
+  {
+   "id": "obra.gilgamesh",
+   "tipo": "obra",
+   "nombre": "Poema de Gilgamesh",
+   "alias": [
+    "Epopeya de Gilgamesh",
+    "El que vio lo profundo",
+    "Gilgamesh"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.antropologia_filosofica",
+    "tematica.etica"
+   ],
+   "autoria": "atribuida",
+   "idiomaOriginal": "acadio",
+   "fechas": {
+    "composicion": {
+     "min": -2000,
+     "max": -1100
+    },
+    "tipo": "aproximada",
+    "historicidad": "colectivo",
+    "nota": "Reescrito durante más de mil años."
+   },
+   "capas": [
+    {
+     "nombre": "Poemas sumerios sobre Gilgamesh",
+     "fecha": -2000,
+     "testimonio": "Relatos sueltos copiados en época paleobabilónica"
+    },
+    {
+     "nombre": "Versión paleobabilónica",
+     "fecha": -1800,
+     "testimonio": "Primera epopeya unificada en acadio; incluye el consejo de la tabernera Siduri"
+    },
+    {
+     "nombre": "Versión estándar en doce tablillas",
+     "fecha": -1150,
+     "testimonio": "Atribuida a Sîn-lēqi-unninni"
+    },
+    {
+     "nombre": "Copias de la biblioteca del rey asirio Asurbanipal",
+     "fecha": -650,
+     "testimonio": "Halladas en Nínive a mediados del siglo XIX"
+    }
+   ],
+   "resumen": "El gran poema de Mesopotamia. Gilgamesh, rey de la ciudad de Uruk, pierde a su amigo Enkidu y, aterrado por la muerte, busca la inmortalidad hasta los confines del mundo. Fracasa, y vuelve a casa aceptando los límites humanos.",
+   "profundizacion": "El protagonista quizá se inspira en un rey histórico de Uruk, hacia el 2700 a. C. El poema se fue reescribiendo durante más de mil años: de relatos sumerios sueltos se pasó a una epopeya en acadio, la lengua de Babilonia, y hacia finales del segundo milenio a la versión estándar en doce tablillas que la tradición atribuye a [[autor.sin_leqi_unninni|Sîn-lēqi-unninni]]. En su búsqueda, Gilgamesh visita a Utnapishtim, el único hombre al que los dioses dieron la inmortalidad tras sobrevivir a un diluvio, en un relato muy parecido al de Noé en la Biblia. En la versión paleobabilónica, la tabernera Siduri le da un consejo que resume una actitud ante la vida: [[tesis.goza_la_vida|ya que la muerte es inevitable, disfruta de lo que tienes]]."
+  },
+  {
+   "id": "obra.ludlul",
+   "tipo": "obra",
+   "nombre": "Ludlul bēl nēmeqi",
+   "alias": [
+    "Alabaré al señor de la sabiduría",
+    "Job babilónico",
+    "Poema del justo que sufre"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "autoria": "anonima",
+   "idiomaOriginal": "acadio",
+   "fechas": {
+    "composicion": {
+     "min": -1300,
+     "max": -1100
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Época casita, según la mayoría de los especialistas. Cuatro tablillas."
+   },
+   "resumen": "Poema babilonio cuyo título, tomado de sus primeras palabras, significa «Alabaré al señor de la sabiduría», es decir, al dios Marduk. Un alto funcionario, Šubši-mešrê-Šakkan, cuenta cómo perdió la salud, el favor del rey y la estima de todos sin saber por qué, hasta que Marduk lo salvó. Plantea el problema del [[tesis.justo_sufriente|sufrimiento del justo]] y la imposibilidad de conocer la voluntad de los dioses."
+  },
+  {
+   "id": "obra.teodicea_babilonica",
+   "tipo": "obra",
+   "nombre": "Teodicea babilónica",
+   "alias": [
+    "Diálogo entre un hombre que sufre y su amigo"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "acadio",
+   "fechas": {
+    "composicion": {
+     "min": -1125,
+     "max": -1000
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Veintisiete estrofas de once versos."
+   },
+   "resumen": "Diálogo en veintisiete estrofas entre un hombre que sufre y un amigo que defiende la justicia de los dioses. El que sufre observa que a los malvados les va bien y a los piadosos mal; el amigo acaba admitiendo que los dioses hicieron a los humanos inclinados a la mentira. Su autor, [[autor.saggil_kinam_ubbib|Saggil-kīnam-ubbib]], firmó la obra en un acróstico."
+  },
+  {
+   "id": "obra.gatha",
+   "tipo": "obra",
+   "nombre": "Gāthā",
+   "alias": [
+    "Gathas",
+    "Himnos de Zaratustra"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.iran_antiguo"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica",
+    "tematica.metafisica"
+   ],
+   "autoria": "atribuida",
+   "idiomaOriginal": "avéstico antiguo",
+   "fechas": {
+    "composicion": {
+     "min": -1200,
+     "max": -900
+    },
+    "tipo": "aproximada",
+    "historicidad": "debatido",
+    "nota": "Diecisiete himnos, recogidos en los capítulos 28-34, 43-51 y 53 del Yasna, la liturgia principal. Se transmitieron de memoria durante muchos siglos."
+   },
+   "resumen": "Los diecisiete himnos atribuidos a [[autor.zaratustra|Zaratustra]], la parte más antigua del [[obra.avesta|Avesta]]. Son poemas difíciles, dirigidos a [[concepto.ahura_mazda|Ahura Mazdā]], que plantean la elección entre la [[concepto.asha|Verdad]] y la [[concepto.druj|Mentira]]."
+  },
+  {
+   "id": "obra.avesta",
+   "tipo": "obra",
+   "nombre": "Avesta",
+   "alias": [
+    "Zend-Avesta"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.iran_antiguo"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "compilacion",
+   "idiomaOriginal": "avéstico",
+   "fechas": {
+    "composicion": {
+     "min": -1200,
+     "max": 600
+    },
+    "tipo": "aproximada",
+    "historicidad": "colectivo",
+    "nota": "Transmitido de memoria; puesto por escrito con un alfabeto creado para ello bajo los sasánidas."
+   },
+   "capas": [
+    {
+     "nombre": "Avesta antiguo",
+     "fecha": -1000,
+     "testimonio": "Los Gāthā y la Liturgia de los Siete Capítulos"
+    },
+    {
+     "nombre": "Avesta reciente",
+     "fecha": -500,
+     "testimonio": "Himnos a otras divinidades (Yašt) y leyes de pureza (Vīdēvdād)"
+    },
+    {
+     "nombre": "Puesta por escrito",
+     "fecha": 500,
+     "testimonio": "Bajo la dinastía persa de los sasánidas"
+    }
+   ],
+   "primerTestimonio": "Manuscritos de finales del siglo XIII d. C.",
+   "resumen": "Conjunto de textos sagrados del [[escuela.mazdeismo|mazdeísmo]], en lengua avéstica. Solo se conserva la parte que se usaba en la liturgia. Su núcleo más antiguo son los [[obra.gatha|Gāthā]] de [[autor.zaratustra|Zaratustra]]."
+  },
+  {
+   "id": "obra.proverbios",
+   "tipo": "obra",
+   "nombre": "Proverbios",
+   "nombreOriginal": "מִשְׁלֵי",
+   "alias": [
+    "Libro de los Proverbios",
+    "Mishlé"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "autoria": "compilacion",
+   "idiomaOriginal": "hebreo",
+   "fechas": {
+    "composicion": {
+     "min": -900,
+     "max": -300
+    },
+    "tipo": "aproximada",
+    "historicidad": "colectivo",
+    "nota": "Colecciones de varias épocas atribuidas al rey Salomón (siglo X a. C.) y a otros sabios; la edición final es de época persa o helenística."
+   },
+   "resumen": "Libro bíblico que reúne colecciones de dichos sobre la vida buena, el trabajo, la familia y el uso de la palabra. La [[concepto.hokhmah|sabiduría]] aparece personificada como una mujer que llama a los jóvenes. Confía en que [[tesis.retribucion|al justo le va bien y al malvado mal]].",
+   "profundizacion": "Su lema es que [[tesis.temor_sabiduria|el temor del Señor es el principio de la sabiduría]] (Proverbios 1, 7). La sección titulada «Palabras de los sabios» (22, 17 - 24, 22) adapta varios consejos de la [[obra.ensenanza_amenemope|Enseñanza de Amenemope]] egipcia, e incluso alude a «treinta» dichos, como los treinta capítulos del texto egipcio."
+  },
+  {
+   "id": "obra.job",
+   "tipo": "obra",
+   "nombre": "Job",
+   "nombreOriginal": "אִיּוֹב",
+   "alias": [
+    "Libro de Job"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "autoria": "anonima",
+   "idiomaOriginal": "hebreo",
+   "fechas": {
+    "composicion": {
+     "min": -600,
+     "max": -400
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Fecha muy discutida; la mayoría la sitúa entre los siglos VI y IV a. C."
+   },
+   "resumen": "Libro bíblico sobre un hombre justo, Job, que pierde a sus hijos, sus bienes y su salud. Sus amigos insisten en que algo habrá hecho para merecerlo; Job lo niega y exige a Dios una explicación. Dios le responde desde una tormenta mostrándole la inmensidad de la creación, sin decirle el porqué, y al final da la razón a Job frente a sus amigos.",
+   "profundizacion": "El libro combina un relato en prosa, al principio y al final, con un largo poema en el centro. Es la obra más profunda del mundo antiguo sobre el [[tesis.justo_sufriente|sufrimiento del inocente]], y discute directamente la [[tesis.retribucion|doctrina de la retribución]]: la idea de que cada uno recibe en esta vida lo que merece."
+  },
+  {
+   "id": "obra.qohelet",
+   "tipo": "obra",
+   "nombre": "Qohélet",
+   "nombreOriginal": "קֹהֶלֶת",
+   "alias": [
+    "Eclesiastés",
+    "Libro del Eclesiastés"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.antropologia_filosofica",
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "hebreo",
+   "fechas": {
+    "composicion": {
+     "min": -300,
+     "max": -200
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Siglo III a. C., según la mayoría."
+   },
+   "resumen": "Libro bíblico en el que [[autor.qohelet|Qohélet]] examina todo lo que hacen los seres humanos «bajo el sol», el trabajo, el saber, el placer, la riqueza, y concluye que todo es [[concepto.hebel|soplo]], porque la muerte iguala al sabio y al necio. Su consejo es disfrutar con sencillez de lo que Dios da.",
+   "profundizacion": "Empieza con una frase célebre, [[tesis.vanidad|«Vanidad de vanidades, todo es vanidad»]] (Qohélet 1, 2), y observa que «lo que fue, eso será; no hay nada nuevo bajo el sol» (1, 9). Su escepticismo ante las promesas de la sabiduría tradicional y su consejo de comer, beber y disfrutar con la persona amada (9, 7-9) recuerdan al [[obra.gilgamesh|Poema de Gilgamesh]] y, según algunos estudiosos, a los [[escuela.epicureismo|epicúreos]]. Unos versos finales, probablemente añadidos por otra mano, recomiendan temer a Dios y cumplir sus mandamientos."
+  },
+  {
+   "id": "obra.ben_sira",
+   "tipo": "obra",
+   "nombre": "Sirácida",
+   "alias": [
+    "Eclesiástico",
+    "Ben Sira",
+    "Sabiduría de Jesús ben Sira"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "hebreo",
+   "fechas": {
+    "composicion": {
+     "min": -190,
+     "max": -175
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Conservado completo solo en la traducción griega del nieto del autor."
+   },
+   "primerTestimonio": "Fragmentos hebreos hallados en el depósito de manuscritos de una sinagoga de El Cairo (1896) y en la fortaleza de Masada (1964)",
+   "resumen": "Libro de [[autor.ben_sira|Ben Sira]] con consejos sobre la familia, la amistad, la riqueza y el comportamiento en sociedad. En su capítulo 24, la [[concepto.hokhmah|Sabiduría]] habla en primera persona y cuenta que vino a habitar en Israel en forma de Ley. El nieto del autor lo tradujo al griego en Egipto, y así se conservó."
+  },
+  {
+   "id": "obra.sabiduria_salomon",
+   "tipo": "obra",
+   "nombre": "Sabiduría de Salomón",
+   "alias": [
+    "Libro de la Sabiduría",
+    "Sabiduría"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "autoria": "atribuida",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": -50,
+     "max": 40
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrito en Alejandría; forma parte de las Biblias católica y ortodoxa."
+   },
+   "resumen": "Libro escrito en griego por un judío de Alejandría que se presenta como el rey Salomón. Une la tradición bíblica con ideas griegas: el alma inmortal, las cuatro virtudes de templanza, prudencia, justicia y fortaleza (8, 7) y un Dios que «todo lo dispuso con medida, número y peso» (11, 20)."
+  },
+  {
+   "id": "obra.creacion_mundo",
+   "tipo": "obra",
+   "nombre": "Sobre la creación del mundo",
+   "nombreOriginal": "Περὶ τῆς κατὰ Μωυσέα κοσμοποιίας",
+   "alias": [
+    "De opificio mundi"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 20,
+     "max": 50
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico"
+   },
+   "resumen": "Tratado de [[autor.filon|Filón]] que explica el relato bíblico de la creación con la filosofía de [[autor.platon|Platón]]: Dios concibe primero en su [[concepto.logos|Logos]] un modelo inteligible del mundo, como un arquitecto que proyecta una ciudad antes de construirla, y luego lo realiza en la materia."
+  },
+  {
+   "id": "obra.embajada_gayo",
+   "tipo": "obra",
+   "nombre": "Embajada a Gayo",
+   "nombreOriginal": "Πρεσβεία πρὸς Γάιον",
+   "alias": [
+    "Legatio ad Gaium"
+   ],
+   "tradicion": "proximo_oriente",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "griego",
+   "fechas": {
+    "composicion": {
+     "min": 41,
+     "max": 50
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrita tras la muerte de Calígula, en el 41."
+   },
+   "resumen": "Relato de [[autor.filon|Filón]] sobre la embajada de los judíos de Alejandría ante el emperador Gayo, más conocido como Calígula, en el año 40, que él mismo encabezó. Es un testimonio directo de la persecución que sufrieron y una reflexión sobre el poder que se cree divino."
+  },
+  {
+   "id": "concepto.maat",
+   "tipo": "concepto",
+   "nombre": "maat",
+   "nombreOriginal": "mꜣꜥt",
+   "alias": [
+    "Maat",
+    "Maʿat",
+    "Ma'at"
+   ],
+   "tradicion": "proximo_oriente",
+   "terminoOriginal": "mꜣꜥt",
+   "transliteracion": "maʿat",
+   "traduccion": "verdad, justicia, orden",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.metafisica",
+    "tematica.filosofia_politica"
+   ],
+   "resumen": "El orden justo del mundo según los egipcios. El faraón debía mantenerlo frente al caos, y cada persona debía vivir conforme a él: hablar con verdad, ser justa y moderada. En el juicio tras la muerte, el corazón del difunto se pesaba en una balanza frente a la pluma de la maat.",
+   "notaTraduccion": "No tiene equivalente exacto: es a la vez el orden del cosmos, la justicia social y la verdad al hablar. Se representaba como una diosa con una pluma en la cabeza."
+  },
+  {
+   "id": "concepto.ba",
+   "tipo": "concepto",
+   "nombre": "ba",
+   "nombreOriginal": "bꜣ",
+   "alias": [
+    "ba"
+   ],
+   "tradicion": "proximo_oriente",
+   "terminoOriginal": "bꜣ",
+   "transliteracion": "ba",
+   "traduccion": "alma, capacidad de manifestarse",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.antropologia_filosofica",
+    "tematica.filosofia_mente"
+   ],
+   "resumen": "Para los egipcios, uno de los componentes de la persona: su capacidad de actuar y de hacerse presente, que tras la muerte podía salir de la tumba y volver a ella.",
+   "notaTraduccion": "Traducirlo por «alma» es engañoso: era solo una de las partes de la persona, la que podía moverse libremente tras la muerte, y se representaba como un pájaro con cabeza humana."
+  },
+  {
+   "id": "concepto.asha",
+   "tipo": "concepto",
+   "nombre": "aša",
+   "nombreOriginal": "aša",
+   "alias": [
+    "asha",
+    "arta",
+    "Verdad"
+   ],
+   "tradicion": "proximo_oriente",
+   "terminoOriginal": "aša",
+   "transliteracion": "aša, en persa antiguo arta",
+   "traduccion": "verdad, orden justo",
+   "contextos": [
+    "contexto.iran_antiguo"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.metafisica"
+   ],
+   "resumen": "Para [[autor.zaratustra|Zaratustra]], la Verdad: el orden justo del mundo creado por [[concepto.ahura_mazda|Ahura Mazdā]], que cada persona debe defender con sus pensamientos, palabras y obras.",
+   "notaTraduccion": "Es la misma palabra que el ṛta de los Veda: ambas proceden de la lengua común de los antiguos indoiranios."
+  },
+  {
+   "id": "concepto.druj",
+   "tipo": "concepto",
+   "nombre": "druj",
+   "nombreOriginal": "druj",
+   "alias": [
+    "Mentira",
+    "drauga",
+    "druj"
+   ],
+   "tradicion": "proximo_oriente",
+   "terminoOriginal": "druj",
+   "transliteracion": "druj, en persa antiguo drauga",
+   "traduccion": "mentira, engaño",
+   "contextos": [
+    "contexto.iran_antiguo"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "resumen": "La Mentira, el principio opuesto a la [[concepto.asha|Verdad]]: el engaño, el desorden y la violencia. Para [[autor.zaratustra|Zaratustra]], quienes la siguen son los «seguidores de la Mentira»."
+  },
+  {
+   "id": "concepto.ahura_mazda",
+   "tipo": "concepto",
+   "nombre": "Ahura Mazdā",
+   "nombreOriginal": "Ahura Mazdā",
+   "alias": [
+    "Ahura Mazda",
+    "Ormuz",
+    "Oromasdes",
+    "Ohrmazd"
+   ],
+   "tradicion": "proximo_oriente",
+   "terminoOriginal": "Ahura Mazdā",
+   "transliteracion": "ahura mazdā",
+   "traduccion": "Señor Sabio",
+   "contextos": [
+    "contexto.iran_antiguo"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "El dios supremo del [[escuela.mazdeismo|mazdeísmo]], creador del mundo y fuente de todo bien. Los griegos lo llamaban Oromasdes y lo identificaban con su dios Zeus."
+  },
+  {
+   "id": "concepto.dos_espiritus",
+   "tipo": "concepto",
+   "nombre": "los dos espíritus",
+   "nombreOriginal": "Spəṇta Mainyu / Aŋra Mainyu",
+   "alias": [
+    "Angra Mainyu",
+    "Ahrimán",
+    "Arimanio",
+    "Spenta Mainyu",
+    "dualismo mazdeísta"
+   ],
+   "tradicion": "proximo_oriente",
+   "terminoOriginal": "Spəṇta Mainyu / Aŋra Mainyu",
+   "transliteracion": "spənta mainiiu / aŋra mainiiu",
+   "traduccion": "Espíritu Benéfico y Espíritu Destructor",
+   "contextos": [
+    "contexto.iran_antiguo"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.etica"
+   ],
+   "resumen": "Según los [[obra.gatha|Gāthā]], al principio dos espíritus gemelos eligieron: uno el bien y otro el mal. El Espíritu Destructor, Aŋra Mainyu, se convertirá en el Ahrimán de la tradición posterior, el gran enemigo de [[concepto.ahura_mazda|Ahura Mazdā]]."
+  },
+  {
+   "id": "concepto.frashokereti",
+   "tipo": "concepto",
+   "nombre": "frašō.kərəti",
+   "nombreOriginal": "frašō.kərəti",
+   "alias": [
+    "renovación del mundo",
+    "Frashokereti"
+   ],
+   "tradicion": "proximo_oriente",
+   "terminoOriginal": "frašō.kərəti",
+   "transliteracion": "frashokereti",
+   "traduccion": "hacer maravilloso (el mundo)",
+   "contextos": [
+    "contexto.iran_antiguo"
+   ],
+   "tematicas": [
+    "tematica.soteriologia",
+    "tematica.filosofia_historia"
+   ],
+   "resumen": "La renovación final del mundo en el [[escuela.mazdeismo|mazdeísmo]]: al terminar la historia, el mal será derrotado, los muertos resucitarán y la creación volverá a ser perfecta. Es una de las primeras ideas de un fin de la historia con sentido moral."
+  },
+  {
+   "id": "concepto.hokhmah",
+   "tipo": "concepto",
+   "nombre": "jojmá",
+   "nombreOriginal": "חָכְמָה",
+   "alias": [
+    "hokhmah",
+    "chokmah",
+    "Sabiduría",
+    "sophía"
+   ],
+   "tradicion": "proximo_oriente",
+   "terminoOriginal": "חָכְמָה",
+   "transliteracion": "ḥokmāh",
+   "traduccion": "sabiduría",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "La sabiduría en la Biblia hebrea: saber vivir bien y con justicia. En algunos textos aparece personificada como una mujer que estaba junto a Dios cuando creó el mundo.",
+   "notaTraduccion": "Abarca desde la habilidad práctica de un artesano hasta el saber vivir; en griego se tradujo por sophía."
+  },
+  {
+   "id": "concepto.hebel",
+   "tipo": "concepto",
+   "nombre": "hével",
+   "nombreOriginal": "הֶבֶל",
+   "alias": [
+    "hebel",
+    "vanidad",
+    "soplo"
+   ],
+   "tradicion": "proximo_oriente",
+   "terminoOriginal": "הֶבֶל",
+   "transliteracion": "hebel",
+   "traduccion": "soplo, vaho, vanidad",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.antropologia_filosofica"
+   ],
+   "resumen": "Palabra clave de [[autor.qohelet|Qohélet]], que la repite treinta y ocho veces: todo lo humano es como un soplo, fugaz e imposible de retener.",
+   "notaTraduccion": "La traducción tradicional, «vanidad», viene del latín vanitas; el sentido original es el de un vapor que se desvanece: algo efímero e inasible."
+  },
+  {
+   "id": "tesis.maat_eterna",
+   "tipo": "tesis",
+   "nombre": "La maat es grande y duradera",
+   "tradicion": "proximo_oriente",
+   "enunciado": "Grande es la maat, duradera su eficacia; no ha sido alterada desde el tiempo de Osiris.",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "resumen": "Máxima de la [[obra.ensenanza_ptahhotep|Enseñanza de Ptahhotep]]: quien actúa conforme a la [[concepto.maat|maat]] perdura, y la injusticia, aunque se enriquezca, acaba castigada. Osiris era el dios que, según el mito, reinó en Egipto al principio de los tiempos."
+  },
+  {
+   "id": "tesis.muerte_alivio",
+   "tipo": "tesis",
+   "nombre": "La muerte como liberación",
+   "tradicion": "proximo_oriente",
+   "enunciado": "La muerte está hoy ante mí como la curación de un enfermo, como salir al aire libre después de un encierro.",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.antropologia_filosofica"
+   ],
+   "resumen": "Lamento del protagonista del [[obra.dialogo_ba|Diálogo de un hombre con su ba]], cansado de un mundo en el que ya no hay justicia ni amigos en quien confiar."
+  },
+  {
+   "id": "tesis.goza_la_vida",
+   "tipo": "tesis",
+   "nombre": "Disfruta de la vida, porque la muerte es inevitable",
+   "tradicion": "proximo_oriente",
+   "enunciado": "Cuando los dioses crearon a la humanidad, le asignaron la muerte; tú, Gilgamesh, llena tu vientre, disfruta día y noche y alegra a la mujer que abraces.",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "resumen": "Consejo de la tabernera Siduri a Gilgamesh en la versión paleobabilónica del [[obra.gilgamesh|Poema de Gilgamesh]]. Un consejo muy parecido aparece en [[obra.qohelet|Qohélet]] 9, 7-9."
+  },
+  {
+   "id": "tesis.justo_sufriente",
+   "tipo": "tesis",
+   "nombre": "El justo puede sufrir sin culpa",
+   "tradicion": "proximo_oriente",
+   "enunciado": "El sufrimiento no siempre es castigo de una falta: también los justos sufren, y la razón escapa a los seres humanos.",
+   "contextos": [
+    "contexto.egipto_mesopotamia"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "resumen": "Problema que plantean los poemas babilonios [[obra.ludlul|Ludlul bēl nēmeqi]] y la [[obra.teodicea_babilonica|Teodicea babilónica]] y, con más profundidad, el libro de [[obra.job|Job]]."
+  },
+  {
+   "id": "tesis.retribucion",
+   "tipo": "tesis",
+   "nombre": "Al justo le va bien y al malvado mal",
+   "tradicion": "proximo_oriente",
+   "enunciado": "Dios premia en esta vida al justo y castiga al malvado.",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "resumen": "La doctrina de la retribución, presente en buena parte de los [[obra.proverbios|Proverbios]] y en la sabiduría egipcia y babilónica. La discuten [[obra.job|Job]] y [[obra.qohelet|Qohélet]]."
+  },
+  {
+   "id": "tesis.eleccion_verdad_mentira",
+   "tipo": "tesis",
+   "nombre": "Cada persona elige entre la Verdad y la Mentira",
+   "tradicion": "proximo_oriente",
+   "enunciado": "Al principio, los dos espíritus eligieron entre el bien y el mal; cada ser humano debe elegir también, libremente, entre la Verdad y la Mentira.",
+   "contextos": [
+    "contexto.iran_antiguo"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.soteriologia"
+   ],
+   "resumen": "Núcleo ético de los [[obra.gatha|Gāthā]] de [[autor.zaratustra|Zaratustra]] (Yasna 30): la responsabilidad personal decide el destino de cada uno y el del mundo."
+  },
+  {
+   "id": "tesis.temor_sabiduria",
+   "tipo": "tesis",
+   "nombre": "El temor de Dios es el principio de la sabiduría",
+   "tradicion": "proximo_oriente",
+   "enunciado": "El temor del Señor es el principio de la sabiduría.",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_religion",
+    "tematica.epistemologia"
+   ],
+   "resumen": "Lema de la sabiduría bíblica, en [[obra.proverbios|Proverbios]] 1, 7 y en el [[obra.ben_sira|Sirácida]] 1, 14: el respeto a Dios es la base del saber vivir. «Temor» no significa aquí miedo, sino reverencia."
+  },
+  {
+   "id": "tesis.vanidad",
+   "tipo": "tesis",
+   "nombre": "Todo es vanidad",
+   "tradicion": "proximo_oriente",
+   "enunciado": "Vanidad de vanidades, todo es vanidad: ¿qué saca el ser humano de todo el trabajo con que se afana bajo el sol?",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.antropologia_filosofica"
+   ],
+   "resumen": "Tesis central de [[autor.qohelet|Qohélet]]: nada de lo que se consigue en la vida dura ni se puede retener, porque todo es [[concepto.hebel|soplo]]."
+  },
+  {
+   "id": "tesis.logos_mediador",
+   "tipo": "tesis",
+   "nombre": "Dios crea el mundo por medio del Logos",
+   "tradicion": "proximo_oriente",
+   "enunciado": "Dios, que está por encima de todo, crea y gobierna el mundo por medio de su Logos, imagen suya y modelo de todas las cosas.",
+   "contextos": [
+    "contexto.sabiduria_hebrea"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "Tesis de [[autor.filon|Filón]] que une el Dios bíblico con el [[concepto.logos|logos]] de la filosofía griega. El Evangelio de Juan, escrito a finales del siglo I, empieza de forma parecida: «En el principio era el Logos»."
+  }
+ ],
+ "relaciones": [
+  {
+   "id": "r3001",
+   "origen": "autor.ptahhotep",
+   "tipo": "escribio",
+   "destino": "obra.ensenanza_ptahhotep",
+   "certeza": "C",
+   "nota": "Atribución literaria: el texto se compuso siglos después de la vida del visir."
+  },
+  {
+   "id": "r3002",
+   "origen": "autor.amenemope",
+   "tipo": "escribio",
+   "destino": "obra.ensenanza_amenemope",
+   "certeza": "P",
+   "nota": "El propio texto se presenta como enseñanza de [[autor.amenemope|Amenemope]] a su hijo."
+  },
+  {
+   "id": "r3003",
+   "origen": "autor.sin_leqi_unninni",
+   "tipo": "escribio",
+   "destino": "obra.gilgamesh",
+   "certeza": "P",
+   "nota": "Autor de la versión estándar en doce tablillas, según un catálogo asirio de textos y autores."
+  },
+  {
+   "id": "r3004",
+   "origen": "autor.saggil_kinam_ubbib",
+   "tipo": "escribio",
+   "destino": "obra.teodicea_babilonica",
+   "certeza": "D",
+   "nota": "El nombre del autor aparece en el acróstico del poema."
+  },
+  {
+   "id": "r3005",
+   "origen": "autor.zaratustra",
+   "tipo": "escribio",
+   "destino": "obra.gatha",
+   "certeza": "P",
+   "nota": "Atribución tradicional; algunos especialistas la discuten."
+  },
+  {
+   "id": "r3006",
+   "origen": "autor.qohelet",
+   "tipo": "escribio",
+   "destino": "obra.qohelet",
+   "certeza": "D"
+  },
+  {
+   "id": "r3007",
+   "origen": "autor.ben_sira",
+   "tipo": "escribio",
+   "destino": "obra.ben_sira",
+   "certeza": "D",
+   "fuente": "Sirácida 50, 27 y prólogo del traductor"
+  },
+  {
+   "id": "r3008",
+   "origen": "autor.filon",
+   "tipo": "escribio",
+   "destino": "obra.creacion_mundo",
+   "certeza": "D"
+  },
+  {
+   "id": "r3009",
+   "origen": "autor.filon",
+   "tipo": "escribio",
+   "destino": "obra.embajada_gayo",
+   "certeza": "D"
+  },
+  {
+   "id": "r3010",
+   "origen": "obra.gatha",
+   "tipo": "parte_de",
+   "destino": "obra.avesta",
+   "certeza": "D",
+   "fuente": "Yasna 28-34, 43-51 y 53"
+  },
+  {
+   "id": "r3011",
+   "origen": "obra.gatha",
+   "tipo": "es_fuente_de",
+   "destino": "autor.zaratustra",
+   "certeza": "D"
+  },
+  {
+   "id": "r3012",
+   "origen": "obra.avesta",
+   "tipo": "es_fuente_de",
+   "destino": "escuela.mazdeismo",
+   "certeza": "D"
+  },
+  {
+   "id": "r3013",
+   "origen": "obra.embajada_gayo",
+   "tipo": "es_fuente_de",
+   "destino": "autor.filon",
+   "certeza": "D"
+  },
+  {
+   "id": "r3014",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.zaratustra",
+   "certeza": "D",
+   "fuente": "Diógenes Laercio, Vidas I 2 y I 8"
+  },
+  {
+   "id": "r3015",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "escuela.mazdeismo",
+   "certeza": "D",
+   "fuente": "Diógenes Laercio, Vidas I 6-9",
+   "nota": "El prólogo de [[obra.vidas_filosofos|Vidas de los filósofos]] recoge lo que los griegos sabían de los magos persas."
+  },
+  {
+   "id": "r3016",
+   "origen": "obra.ensenanza_amenemope",
+   "tipo": "influyo_en",
+   "destino": "obra.proverbios",
+   "certeza": "D",
+   "fuente": "Proverbios 22, 17 - 24, 22",
+   "nota": "Es la influencia entre culturas mejor documentada de este carril: la demostró el egiptólogo alemán Adolf Erman en 1924."
+  },
+  {
+   "id": "r3017",
+   "origen": "obra.gilgamesh",
+   "tipo": "influyo_en",
+   "destino": "obra.qohelet",
+   "certeza": "C",
+   "fuente": "Qohélet 9, 7-9",
+   "nota": "El consejo de [[obra.qohelet|Qohélet]] de comer, beber y disfrutar con la persona amada se parece mucho al de la tabernera Siduri; se discute si hay dependencia o solo un lugar común de la sabiduría antigua."
+  },
+  {
+   "id": "r3018",
+   "origen": "autor.zaratustra",
+   "tipo": "influyo_en",
+   "destino": "autor.pitagoras",
+   "certeza": "L",
+   "fuente": "Porfirio, Vida de Pitágoras 12; Hipólito, Refutación de todas las herejías I 2, 12",
+   "nota": "Autores griegos tardíos cuentan que [[autor.pitagoras|Pitágoras]] estudió en Babilonia con un tal Zaratas el caldeo, al que identifican con Zoroastro. Es una leyenda."
+  },
+  {
+   "id": "r3019",
+   "origen": "escuela.mazdeismo",
+   "tipo": "influyo_en",
+   "destino": "autor.pirron",
+   "certeza": "C",
+   "fuente": "Diógenes Laercio, Vidas IX 61",
+   "nota": "Según [[autor.diogenes_laercio|Diógenes Laercio]], en la expedición de [[autor.alejandro|Alejandro Magno]] [[autor.pirron|Pirrón]] trató con los magos persas además de con los ascetas indios."
+  },
+  {
+   "id": "r3020",
+   "origen": "autor.platon",
+   "tipo": "influyo_en",
+   "destino": "autor.filon",
+   "certeza": "D",
+   "fuente": "Filón, Sobre la creación del mundo 16-25",
+   "nota": "[[autor.filon|Filón]] explica la creación con ideas del Timeo de [[autor.platon|Platón]]."
+  },
+  {
+   "id": "r3021",
+   "origen": "escuela.estoicismo",
+   "tipo": "influyo_en",
+   "destino": "autor.filon",
+   "certeza": "P",
+   "fuente": "Filón, Sobre la eternidad del mundo",
+   "nota": "[[autor.filon|Filón]] toma de los [[escuela.estoicismo|estoicos]] la idea del [[concepto.logos|logos]] que ordena el universo y buena parte de su ética."
+  },
+  {
+   "id": "r3022",
+   "origen": "autor.platon",
+   "tipo": "influyo_en",
+   "destino": "obra.sabiduria_salomon",
+   "certeza": "P",
+   "fuente": "Sabiduría de Salomón 8, 7 y 9, 15",
+   "nota": "Las cuatro virtudes cardinales y la imagen del cuerpo como peso del alma proceden de la tradición platónica."
+  },
+  {
+   "id": "r3023",
+   "origen": "obra.job",
+   "tipo": "critica",
+   "destino": "tesis.retribucion",
+   "certeza": "D"
+  },
+  {
+   "id": "r3024",
+   "origen": "obra.qohelet",
+   "tipo": "critica",
+   "destino": "tesis.retribucion",
+   "certeza": "D",
+   "fuente": "Qohélet 8, 14"
+  },
+  {
+   "id": "r3025",
+   "origen": "obra.teodicea_babilonica",
+   "tipo": "critica",
+   "destino": "tesis.retribucion",
+   "certeza": "D"
+  },
+  {
+   "id": "r3026",
+   "origen": "obra.sabiduria_salomon",
+   "tipo": "responde_a",
+   "destino": "obra.qohelet",
+   "certeza": "P",
+   "fuente": "Sabiduría de Salomón 2, 1-9",
+   "nota": "Pone en boca de los impíos un discurso, «la vida es breve, disfrutemos», que muchos leen como respuesta a [[obra.qohelet|Qohélet]]."
+  },
+  {
+   "id": "r3027",
+   "origen": "concepto.asha",
+   "tipo": "se_opone_a",
+   "destino": "concepto.druj",
+   "certeza": "D"
+  },
+  {
+   "id": "r3028",
+   "origen": "tesis.justo_sufriente",
+   "tipo": "se_opone_a",
+   "destino": "tesis.retribucion",
+   "certeza": "D"
+  },
+  {
+   "id": "r3029",
+   "origen": "tesis.muerte_alivio",
+   "tipo": "se_opone_a",
+   "destino": "tesis.goza_la_vida",
+   "certeza": "P",
+   "nota": "En el [[obra.dialogo_ba|Diálogo de un hombre con su ba]], el propio ba responde al hombre con un consejo parecido al de la tabernera Siduri en el [[obra.gilgamesh|Poema de Gilgamesh]]: olvidar las preocupaciones y disfrutar."
+  },
+  {
+   "id": "r3030",
+   "origen": "autor.ptahhotep",
+   "tipo": "defiende",
+   "destino": "tesis.maat_eterna",
+   "certeza": "C",
+   "nota": "A través de la enseñanza que se le atribuye."
+  },
+  {
+   "id": "r3031",
+   "origen": "autor.zaratustra",
+   "tipo": "defiende",
+   "destino": "tesis.eleccion_verdad_mentira",
+   "certeza": "P"
+  },
+  {
+   "id": "r3032",
+   "origen": "escuela.mazdeismo",
+   "tipo": "defiende",
+   "destino": "tesis.eleccion_verdad_mentira",
+   "certeza": "D"
+  },
+  {
+   "id": "r3033",
+   "origen": "autor.qohelet",
+   "tipo": "defiende",
+   "destino": "tesis.vanidad",
+   "certeza": "D"
+  },
+  {
+   "id": "r3034",
+   "origen": "autor.ben_sira",
+   "tipo": "defiende",
+   "destino": "tesis.temor_sabiduria",
+   "certeza": "D",
+   "fuente": "Sirácida 1, 14"
+  },
+  {
+   "id": "r3035",
+   "origen": "escuela.sapienciales_hebreos",
+   "tipo": "defiende",
+   "destino": "tesis.temor_sabiduria",
+   "certeza": "D"
+  },
+  {
+   "id": "r3036",
+   "origen": "autor.filon",
+   "tipo": "defiende",
+   "destino": "tesis.logos_mediador",
+   "certeza": "D"
+  },
+  {
+   "id": "r3037",
+   "origen": "autor.saggil_kinam_ubbib",
+   "tipo": "defiende",
+   "destino": "tesis.justo_sufriente",
+   "certeza": "D"
+  },
+  {
+   "id": "r3038",
+   "origen": "autor.zaratustra",
+   "tipo": "desarrolla",
+   "destino": "concepto.asha",
+   "certeza": "D"
+  },
+  {
+   "id": "r3039",
+   "origen": "autor.zaratustra",
+   "tipo": "desarrolla",
+   "destino": "concepto.druj",
+   "certeza": "D"
+  },
+  {
+   "id": "r3040",
+   "origen": "autor.zaratustra",
+   "tipo": "desarrolla",
+   "destino": "concepto.ahura_mazda",
+   "certeza": "D"
+  },
+  {
+   "id": "r3041",
+   "origen": "autor.zaratustra",
+   "tipo": "desarrolla",
+   "destino": "concepto.dos_espiritus",
+   "certeza": "D"
+  },
+  {
+   "id": "r3042",
+   "origen": "autor.ptahhotep",
+   "tipo": "desarrolla",
+   "destino": "concepto.maat",
+   "certeza": "C"
+  },
+  {
+   "id": "r3043",
+   "origen": "autor.amenemope",
+   "tipo": "desarrolla",
+   "destino": "concepto.maat",
+   "certeza": "P"
+  },
+  {
+   "id": "r3044",
+   "origen": "autor.qohelet",
+   "tipo": "desarrolla",
+   "destino": "concepto.hebel",
+   "certeza": "D"
+  },
+  {
+   "id": "r3045",
+   "origen": "autor.ben_sira",
+   "tipo": "desarrolla",
+   "destino": "concepto.hokhmah",
+   "certeza": "D"
+  },
+  {
+   "id": "r3046",
+   "origen": "autor.filon",
+   "tipo": "desarrolla",
+   "destino": "concepto.logos",
+   "certeza": "D"
+  },
+  {
+   "id": "r3047",
+   "origen": "escuela.mazdeismo",
+   "tipo": "desarrolla",
+   "destino": "concepto.frashokereti",
+   "certeza": "D"
+  },
+  {
+   "id": "r3048",
+   "origen": "escuela.sapienciales_hebreos",
+   "tipo": "desarrolla",
+   "destino": "concepto.hokhmah",
+   "certeza": "D"
+  },
+  {
+   "id": "r3049",
+   "origen": "escuela.judaismo_helenistico",
+   "tipo": "desarrolla",
+   "destino": "escuela.sapienciales_hebreos",
+   "certeza": "P",
+   "nota": "Continúa la tradición sapiencial hebrea, ahora en griego y en diálogo con la filosofía."
+  },
+  {
+   "id": "r3050",
+   "origen": "obra.ensenanza_ptahhotep",
+   "tipo": "trata_sobre",
+   "destino": "concepto.maat",
+   "certeza": "D"
+  },
+  {
+   "id": "r3051",
+   "origen": "obra.ensenanza_ptahhotep",
+   "tipo": "trata_sobre",
+   "destino": "tesis.maat_eterna",
+   "certeza": "D"
+  },
+  {
+   "id": "r3052",
+   "origen": "obra.ensenanza_amenemope",
+   "tipo": "trata_sobre",
+   "destino": "concepto.maat",
+   "certeza": "D"
+  },
+  {
+   "id": "r3053",
+   "origen": "obra.dialogo_ba",
+   "tipo": "trata_sobre",
+   "destino": "concepto.ba",
+   "certeza": "D"
+  },
+  {
+   "id": "r3054",
+   "origen": "obra.dialogo_ba",
+   "tipo": "trata_sobre",
+   "destino": "tesis.muerte_alivio",
+   "certeza": "D"
+  },
+  {
+   "id": "r3055",
+   "origen": "obra.gilgamesh",
+   "tipo": "trata_sobre",
+   "destino": "tesis.goza_la_vida",
+   "certeza": "D"
+  },
+  {
+   "id": "r3056",
+   "origen": "obra.ludlul",
+   "tipo": "trata_sobre",
+   "destino": "tesis.justo_sufriente",
+   "certeza": "D"
+  },
+  {
+   "id": "r3057",
+   "origen": "obra.teodicea_babilonica",
+   "tipo": "trata_sobre",
+   "destino": "tesis.justo_sufriente",
+   "certeza": "D"
+  },
+  {
+   "id": "r3058",
+   "origen": "obra.gatha",
+   "tipo": "trata_sobre",
+   "destino": "concepto.asha",
+   "certeza": "D"
+  },
+  {
+   "id": "r3059",
+   "origen": "obra.gatha",
+   "tipo": "trata_sobre",
+   "destino": "concepto.druj",
+   "certeza": "D"
+  },
+  {
+   "id": "r3060",
+   "origen": "obra.gatha",
+   "tipo": "trata_sobre",
+   "destino": "concepto.dos_espiritus",
+   "certeza": "D"
+  },
+  {
+   "id": "r3061",
+   "origen": "obra.gatha",
+   "tipo": "trata_sobre",
+   "destino": "tesis.eleccion_verdad_mentira",
+   "certeza": "D"
+  },
+  {
+   "id": "r3062",
+   "origen": "obra.avesta",
+   "tipo": "trata_sobre",
+   "destino": "concepto.ahura_mazda",
+   "certeza": "D"
+  },
+  {
+   "id": "r3063",
+   "origen": "obra.avesta",
+   "tipo": "trata_sobre",
+   "destino": "concepto.frashokereti",
+   "certeza": "D"
+  },
+  {
+   "id": "r3064",
+   "origen": "obra.proverbios",
+   "tipo": "trata_sobre",
+   "destino": "concepto.hokhmah",
+   "certeza": "D"
+  },
+  {
+   "id": "r3065",
+   "origen": "obra.proverbios",
+   "tipo": "trata_sobre",
+   "destino": "tesis.temor_sabiduria",
+   "certeza": "D"
+  },
+  {
+   "id": "r3066",
+   "origen": "obra.proverbios",
+   "tipo": "trata_sobre",
+   "destino": "tesis.retribucion",
+   "certeza": "D"
+  },
+  {
+   "id": "r3067",
+   "origen": "obra.job",
+   "tipo": "trata_sobre",
+   "destino": "tesis.justo_sufriente",
+   "certeza": "D"
+  },
+  {
+   "id": "r3068",
+   "origen": "obra.qohelet",
+   "tipo": "trata_sobre",
+   "destino": "concepto.hebel",
+   "certeza": "D"
+  },
+  {
+   "id": "r3069",
+   "origen": "obra.qohelet",
+   "tipo": "trata_sobre",
+   "destino": "tesis.vanidad",
+   "certeza": "D"
+  },
+  {
+   "id": "r3070",
+   "origen": "obra.qohelet",
+   "tipo": "trata_sobre",
+   "destino": "tesis.goza_la_vida",
+   "certeza": "D"
+  },
+  {
+   "id": "r3071",
+   "origen": "obra.ben_sira",
+   "tipo": "trata_sobre",
+   "destino": "concepto.hokhmah",
+   "certeza": "D"
+  },
+  {
+   "id": "r3072",
+   "origen": "obra.ben_sira",
+   "tipo": "trata_sobre",
+   "destino": "tesis.temor_sabiduria",
+   "certeza": "D"
+  },
+  {
+   "id": "r3073",
+   "origen": "obra.sabiduria_salomon",
+   "tipo": "trata_sobre",
+   "destino": "concepto.hokhmah",
+   "certeza": "D"
+  },
+  {
+   "id": "r3074",
+   "origen": "obra.creacion_mundo",
+   "tipo": "trata_sobre",
+   "destino": "tesis.logos_mediador",
+   "certeza": "D"
+  },
+  {
+   "id": "r3075",
+   "origen": "obra.creacion_mundo",
+   "tipo": "trata_sobre",
+   "destino": "concepto.logos",
+   "certeza": "D"
+  },
+  {
+   "id": "r3076",
+   "origen": "tesis.maat_eterna",
+   "tipo": "trata_sobre",
+   "destino": "concepto.maat",
+   "certeza": "D"
+  },
+  {
+   "id": "r3077",
+   "origen": "tesis.muerte_alivio",
+   "tipo": "trata_sobre",
+   "destino": "concepto.ba",
+   "certeza": "D"
+  },
+  {
+   "id": "r3078",
+   "origen": "tesis.eleccion_verdad_mentira",
+   "tipo": "trata_sobre",
+   "destino": "concepto.asha",
+   "certeza": "D"
+  },
+  {
+   "id": "r3079",
+   "origen": "tesis.eleccion_verdad_mentira",
+   "tipo": "trata_sobre",
+   "destino": "concepto.druj",
+   "certeza": "D"
+  },
+  {
+   "id": "r3080",
+   "origen": "tesis.eleccion_verdad_mentira",
+   "tipo": "trata_sobre",
+   "destino": "concepto.dos_espiritus",
+   "certeza": "D"
+  },
+  {
+   "id": "r3081",
+   "origen": "tesis.vanidad",
+   "tipo": "trata_sobre",
+   "destino": "concepto.hebel",
+   "certeza": "D"
+  },
+  {
+   "id": "r3082",
+   "origen": "tesis.temor_sabiduria",
+   "tipo": "trata_sobre",
+   "destino": "concepto.hokhmah",
+   "certeza": "D"
+  },
+  {
+   "id": "r3083",
+   "origen": "tesis.logos_mediador",
+   "tipo": "trata_sobre",
+   "destino": "concepto.logos",
+   "certeza": "D"
+  },
+  {
+   "id": "r3084",
+   "origen": "tesis.retribucion",
+   "tipo": "trata_sobre",
+   "destino": "concepto.maat",
+   "certeza": "D"
+  },
+  {
+   "id": "r3085",
+   "origen": "concepto.asha",
+   "tipo": "paralelo_a",
+   "destino": "concepto.rta",
+   "certeza": "D",
+   "ejeComparacion": "Orden cósmico y verdad",
+   "nota": "No es una coincidencia: aša y [[concepto.rta|ṛta]] son la misma palabra, heredada de la lengua común de los antiguos indoiranios. En la India evolucionó hacia el [[concepto.dharma|dharma]]; en Irán, hacia la lucha moral entre la Verdad y la Mentira."
+  },
+  {
+   "id": "r3086",
+   "origen": "concepto.maat",
+   "tipo": "paralelo_a",
+   "destino": "concepto.asha",
+   "certeza": "P",
+   "ejeComparacion": "Orden cósmico, verdad y justicia",
+   "nota": "Egipcios e iranios unen en una sola palabra el orden del mundo, la justicia y la verdad al hablar. Sin relación de origen conocida."
+  },
+  {
+   "id": "r3087",
+   "origen": "concepto.hebel",
+   "tipo": "paralelo_a",
+   "destino": "concepto.anitya",
+   "certeza": "P",
+   "ejeComparacion": "Fugacidad de todo lo que existe",
+   "nota": "[[autor.qohelet|Qohélet]] y el budismo insisten en que nada permanece; pero Qohélet no busca liberarse del ciclo de las existencias, sino vivir con sencillez el tiempo que se tiene. Sin contacto conocido."
+  },
+  {
+   "id": "r3088",
+   "origen": "tesis.goza_la_vida",
+   "tipo": "paralelo_a",
+   "destino": "escuela.epicureismo",
+   "certeza": "P",
+   "ejeComparacion": "Disfrutar del presente ante la muerte",
+   "nota": "La tabernera Siduri, [[autor.qohelet|Qohélet]] y [[autor.epicuro|Epicuro]] responden a la muerte con un placer sencillo; Epicuro, además, lo argumenta y lo convierte en una disciplina."
+  },
+  {
+   "id": "r3089",
+   "origen": "concepto.ba",
+   "tipo": "paralelo_a",
+   "destino": "concepto.psyche",
+   "certeza": "C",
+   "ejeComparacion": "Principio personal que sobrevive a la muerte",
+   "nota": "El historiador griego Heródoto afirmó que los griegos aprendieron de los egipcios la transmigración de las almas (Historia II 123), pero los textos egipcios no la enseñan: es un paralelo aproximado, no una influencia probada."
+  },
+  {
+   "id": "r3090",
+   "origen": "concepto.dos_espiritus",
+   "tipo": "paralelo_a",
+   "destino": "concepto.yinyang",
+   "certeza": "P",
+   "ejeComparacion": "Dos principios que explican el mundo",
+   "nota": "El mazdeísmo y el pensamiento chino del [[concepto.yinyang|yin y el yang]] ven el mundo como obra de dos principios, pero con sentidos opuestos: en Irán luchan el bien y el mal, y solo uno debe vencer; en China se complementan y se necesitan."
+  }
+ ]
+}

@@ -4,7 +4,7 @@ Mapa interactivo de la historia de la filosofía. Autores, obras, conceptos y te
 
 **Autor:** Juan Domínguez Gallego
 
-> Estado: en desarrollo. Ahora mismo el repositorio contiene los datos del piloto de la Antigüedad para las tradiciones china, india y grecorromana (306 nodos y 428 relaciones) y la documentación del esquema. El Próximo Oriente está en preparación; el código de la aplicación llegará con el primer prototipo.
+> Estado: en desarrollo. Ahora mismo el repositorio contiene los datos del piloto de la Antigüedad completo: tradiciones china, india y grecorromana y sabidurías del Próximo Oriente (353 nodos y 518 relaciones), además de la documentación del esquema. El código de la aplicación llegará con el primer prototipo.
 
 ## Qué es
 
@@ -23,6 +23,7 @@ datos/          Datos de la red, un archivo por tradición y época
   china-antigua.json  Piloto de la Antigüedad: tradición china
   india-antigua.json  Piloto de la Antigüedad: tradición india
   grecorromana-antigua.json  Piloto de la Antigüedad: Grecia y Roma
+  proximo-oriente-antiguo.json  Piloto de la Antigüedad: Egipto, Mesopotamia, Irán e Israel
 herramientas/   Utilidades de mantenimiento
   validar.py          Comprueba enlaces, relaciones, fechas, referencias e imágenes
 docs/           Documentación

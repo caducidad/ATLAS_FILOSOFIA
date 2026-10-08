@@ -23,7 +23,8 @@ Los datos se reparten en varios archivos que la app carga y une al arrancar:
 | `china-antigua.json` | Tradición china de la Antigüedad |
 | `india-antigua.json` | Tradición india de la Antigüedad |
 | `grecorromana-antigua.json` | Tradición grecorromana de la Antigüedad |
-| `proximo-oriente-antiguo.json`… | Resto de tradiciones y épocas (pendientes) |
+| `proximo-oriente-antiguo.json` | Sabidurías del Próximo Oriente: Egipto, Mesopotamia, Irán e Israel |
+| … | Otras épocas (pendientes) |
 
 Cada archivo tiene la misma forma:
 
@@ -87,7 +88,7 @@ Una relación o un enlace puede apuntar a un nodo de otro archivo; por eso el va
 | Tipo | Campos propios |
 | --- | --- |
 | **autor** | `lugarOrigen`, `circulo` (1 canon, 2 secundario, 3 puente), `anecdotas` |
-| **obra** | `autoria` (autor, atribuida, escuela o compilacion), `idiomaOriginal`, `capas` (estratos del texto con su fecha y testimonio), `primerTestimonio` |
+| **obra** | `autoria` (autor, atribuida, escuela, compilacion o anonima), `idiomaOriginal`, `capas` (estratos del texto con su fecha y testimonio), `primerTestimonio` |
 | **concepto** | `terminoOriginal`, `transliteracion`, `traduccion`, `notaTraduccion` (para términos polisémicos como *dharma* o *ren*) |
 | **tesis** | `enunciado` (la afirmación en una frase) |
 | **escuela** | `naturaleza`: real o rotulo_historiografico (la «Escuela de los Nombres», el «legalismo») |
