@@ -19,6 +19,9 @@ import sys
 TIPOS_NODO = {"autor", "obra", "concepto", "tesis", "escuela", "contexto", "tematica"}
 TRADICIONES = {"grecorromana", "india", "china", "proximo_oriente", "transversal"}
 CERTEZAS = set("DPCL")
+TIPOS_IMAGEN = {"retrato_imaginario", "escultura", "manuscrito", "inscripcion", "lugar", "objeto", "otro"}
+LICENCIAS = {"dominio_publico", "CC0"} | {f"CC-{t}-{v}" for t in ("BY", "BY-SA") for v in ("2.0", "2.5", "3.0", "4.0")}
+RAIZ = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 ENLACE = re.compile(r"\[\[([^\]|]+)(?:\|[^\]]*)?\]\]")
 REFERENCIA = re.compile(r"\(([^()]*· [^()]*)\)")
 
@@ -72,6 +75,20 @@ def validar(nodos, relaciones, tipos):
             for destino in ENLACE.findall(texto):
                 if destino not in ids:
                     errores.append(f"{i}: enlace roto a «{destino}» en {campo}")
+        for k, img in enumerate(n.get("imagenes", []), 1):
+            etiqueta = f"{i}: imagen {k}"
+            for campo in ("archivo", "fuente", "tipo", "pie", "licencia"):
+                if not img.get(campo):
+                    errores.append(f"{etiqueta}: falta «{campo}»")
+            if img.get("tipo") and img["tipo"] not in TIPOS_IMAGEN:
+                errores.append(f"{etiqueta}: tipo desconocido «{img['tipo']}»")
+            licencia = img.get("licencia", "")
+            if licencia and licencia not in LICENCIAS:
+                errores.append(f"{etiqueta}: licencia «{licencia}» no admitida (se excluyen NC y ND)")
+            if licencia.startswith("CC-BY") and not img.get("credito"):
+                errores.append(f"{etiqueta}: la licencia {licencia} exige «credito»")
+            if img.get("archivo") and not os.path.exists(os.path.join(RAIZ, img["archivo"])):
+                errores.append(f"{etiqueta}: no existe el archivo {img['archivo']}")
         if n.get("tipo") == "autor":
             if n.get("circulo") not in (1, 2, 3):
                 errores.append(f"{i}: círculo debe ser 1, 2 o 3")

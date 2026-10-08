@@ -1,0 +1,3574 @@
+{
+  "version": "0.1",
+  "actualizado": "2026-10-08",
+  "descripcion": "Piloto Antigüedad · Tradición india · Círculo 1 y figuras necesarias de los círculos 2 y 3",
+  "nodos": [
+    {
+      "id": "contexto.india_vedica",
+      "tipo": "contexto",
+      "nombre": "India védica y de las Upaniṣad",
+      "tradicion": "india",
+      "contextos": [],
+      "horquilla": {
+        "inicio": -1500,
+        "fin": -500
+      },
+      "lugar": "Del Panyab, en el noroeste, a la llanura del Ganges",
+      "resumen": "Época de los [[obra.veda|Veda]], los textos sagrados más antiguos de la India. Empieza con himnos para el sacrificio y termina con las [[obra.upanisad|Upaniṣad]], que buscan el conocimiento del [[concepto.atman|sí mismo]] y de [[concepto.brahman|brahman]].",
+      "profundizacion": "Los [[obra.veda|Veda]] se transmitieron de memoria durante siglos y se organizan en capas. Las más antiguas son las colecciones de himnos, como el [[obra.rigveda|Ṛgveda]]; después vienen los Brāhmaṇa, que explican el ritual, los Āraṇyaka o «textos del bosque» y, por último, las [[obra.upanisad|Upaniṣad]]. En esa última capa el centro se desplaza del sacrificio exterior al conocimiento interior: maestros como [[autor.yajnavalkya|Yājñavalkya]] y [[autor.uddalaka|Uddālaka Āruṇi]] discuten qué es el yo y cuál es el fundamento de todo. Aquí aparecen por primera vez las ideas de [[concepto.karman|karma]], [[concepto.samsara|renacimiento]] y [[concepto.moksa|liberación]], que marcarán toda la filosofía india posterior. Las Upaniṣad más antiguas, en prosa, son anteriores al budismo; las más recientes, en verso, se compusieron ya en la época siguiente."
+    },
+    {
+      "id": "contexto.sramana_maurya",
+      "tipo": "contexto",
+      "nombre": "Los renunciantes y el imperio maurya",
+      "tradicion": "india",
+      "contextos": [],
+      "horquilla": {
+        "inicio": -500,
+        "fin": -185
+      },
+      "lugar": "Reinos de Magadha y Kosala, en el valle del Ganges; capital maurya en Pāṭaliputra, la actual Patna",
+      "resumen": "Época de los śramaṇa, ascetas errantes que rechazaban la autoridad de los [[obra.veda|Veda]]. De ellos surgen el [[escuela.budismo|budismo]], el [[escuela.jainismo|jainismo]] y otras escuelas, en un mundo de nuevas ciudades y reinos en expansión.",
+      "profundizacion": "En el valle del Ganges crecen ciudades, comercio y monarquías, y con ellos aparece una figura nueva: el renunciante que abandona la vida familiar para buscar la liberación. Los textos budistas recuerdan a varios maestros rivales: el [[autor.buda|Buda]], [[autor.mahavira|Mahāvīra]], el determinista [[autor.makkhali_gosala|Makkhali Gosāla]] o el materialista [[autor.ajita_kesakambali|Ajita Kesakambalī]]. En el siglo IV a. C., Candragupta, fundador de la dinastía maurya, unifica casi todo el norte de la India; su nieto [[autor.asoka|Aśoka]] extiende el imperio y difunde en inscripciones públicas un [[concepto.dharma|dharma]] moral de inspiración budista. Es también la época del primer contacto directo con los griegos, tras la llegada de Alejandro Magno al valle del Indo en el 326 a. C. Hacia esta época, o poco antes, el gramático [[autor.panini|Pāṇini]] describe la lengua sánscrita. El periodo termina hacia el 185 a. C., cuando el general Puṣyamitra Śuṅga mata al último rey maurya."
+    },
+    {
+      "id": "contexto.darsana",
+      "tipo": "contexto",
+      "nombre": "Formación de las escuelas (darśana)",
+      "tradicion": "india",
+      "contextos": [],
+      "horquilla": {
+        "inicio": -200,
+        "fin": 500
+      },
+      "lugar": "De Gandhāra y Taxila, en el noroeste, hasta el Deccan y el sur de la India",
+      "resumen": "Época en la que el pensamiento indio se organiza en escuelas, cada una con un texto raíz breve, llamado sūtra, y una cadena de comentarios. Cada escuela se presenta como una «visión» (darśana) de la realidad.",
+      "profundizacion": "Las escuelas brahmánicas fijan sus textos raíz: el [[obra.vaisesika_sutra|Vaiśeṣikasūtra]], el [[obra.nyaya_sutra|Nyāyasūtra]], el [[obra.mimamsa_sutra|Mīmāṃsāsūtra]] y el [[obra.brahma_sutra|Brahmasūtra]]; más tarde llegan la [[obra.samkhyakarika|Sāṃkhyakārikā]] y el [[obra.yogasutra|Yogasūtra]]. La [[obra.bhagavadgita|Bhagavadgītā]] ofrece una síntesis religiosa y filosófica de gran influencia. En el budismo surgen el Mahāyāna, o «gran vehículo», y la escuela del camino medio de [[autor.nagarjuna|Nāgārjuna]]; en el jainismo, el pensador Umāsvāti escribe el primer gran resumen de su doctrina en sánscrito. Las escuelas debaten entre sí y se refutan por escrito, lo que impulsa la lógica y la teoría del conocimiento. En el noroeste reinan dinastías de origen griego, como la del rey Menandro, y después el imperio kuṣāṇa, que une Asia central con el norte de la India. La agrupación tradicional de seis «visiones» ortodoxas es una clasificación muy posterior."
+    },
+    {
+      "id": "obra.veda",
+      "tipo": "obra",
+      "nombre": "Veda",
+      "nombreOriginal": "वेद",
+      "alias": [
+        "Vedas",
+        "los Veda",
+        "textos védicos",
+        "śruti"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.filosofia_religion",
+        "tematica.metafisica"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "sánscrito védico",
+      "fechas": {
+        "composicion": {
+          "min": -1500,
+          "max": -300
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Corpus formado a lo largo de más de un milenio y transmitido de memoria."
+      },
+      "capas": [
+        {
+          "nombre": "Colecciones de himnos (saṃhitā)",
+          "fecha": -1200,
+          "testimonio": "Ṛgveda, Sāmaveda, Yajurveda y Atharvaveda"
+        },
+        {
+          "nombre": "Brāhmaṇa",
+          "fecha": -800,
+          "testimonio": "Explicaciones del ritual"
+        },
+        {
+          "nombre": "Āraṇyaka, o «textos del bosque»",
+          "fecha": -700,
+          "testimonio": "Reflexiones sobre el sentido del ritual"
+        },
+        {
+          "nombre": "Upaniṣad",
+          "fecha": -600,
+          "testimonio": "Enseñanzas sobre el ātman y brahman"
+        }
+      ],
+      "resumen": "Los textos sagrados más antiguos de la India, «el saber» revelado. Agrupan cuatro colecciones de himnos, como el [[obra.rigveda|Ṛgveda]], con sus comentarios rituales y, en su última capa, las [[obra.upanisad|Upaniṣad]]. Se consideran revelados y no compuestos."
+    },
+    {
+      "id": "obra.upanisad",
+      "tipo": "obra",
+      "nombre": "Upaniṣad",
+      "nombreOriginal": "उपनिषद्",
+      "alias": [
+        "Upanishads",
+        "Upanisads",
+        "Upaniṣads",
+        "Vedānta (en sentido antiguo)"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica",
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia",
+        "tematica.filosofia_mente"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "sánscrito védico",
+      "fechas": {
+        "composicion": {
+          "min": -700,
+          "max": -100
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Las más antiguas, en prosa, son anteriores al budismo; las más recientes, en verso, son posteriores."
+      },
+      "resumen": "Última capa de los [[obra.veda|Veda]]: diálogos y enseñanzas sobre el [[concepto.atman|ātman]], [[concepto.brahman|brahman]] y la [[concepto.moksa|liberación]]. Su nombre suele explicarse como «sentarse cerca» del maestro. Las principales son una docena, como la [[obra.brihadaranyaka|Bṛhadāraṇyaka]] y la [[obra.chandogya|Chāndogya]]."
+    },
+    {
+      "id": "escuela.budismo",
+      "tipo": "escuela",
+      "nombre": "Budismo",
+      "nombreOriginal": "बौद्ध धर्म",
+      "alias": [
+        "buddhismo",
+        "buddha-dharma"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.soteriologia",
+        "tematica.etica",
+        "tematica.filosofia_mente"
+      ],
+      "naturaleza": "real",
+      "resumen": "Movimiento fundado por el [[autor.buda|Buda]] que busca liberarse del sufrimiento comprendiendo que todo es [[concepto.anitya|impermanente]] y [[concepto.anatman|carece de un yo permanente]]."
+    },
+    {
+      "id": "escuela.jainismo",
+      "tipo": "escuela",
+      "nombre": "Jainismo",
+      "nombreOriginal": "जैन धर्म",
+      "alias": [
+        "jainas",
+        "nirgrantha"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.soteriologia",
+        "tematica.etica",
+        "tematica.epistemologia"
+      ],
+      "naturaleza": "real",
+      "resumen": "Tradición renunciante, organizada en torno a [[autor.mahavira|Mahāvīra]], que busca liberar el alma del karma mediante la ascesis y la [[concepto.ahimsa|no violencia]] llevada al extremo."
+    },
+    {
+      "id": "escuela.ajivika",
+      "tipo": "escuela",
+      "nombre": "Ājīvika",
+      "nombreOriginal": "आजीविक",
+      "alias": [
+        "ajivika",
+        "ajivikas"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.soteriologia",
+        "tematica.metafisica"
+      ],
+      "naturaleza": "real",
+      "resumen": "Movimiento ascético dirigido por [[autor.makkhali_gosala|Makkhali Gosāla]] que defendía un destino fijo: todos los seres recorren un número establecido de renacimientos, hagan lo que hagan. Sus textos se perdieron y lo conocemos por sus rivales."
+    },
+    {
+      "id": "escuela.carvaka",
+      "tipo": "escuela",
+      "nombre": "Cārvāka (Lokāyata)",
+      "nombreOriginal": "चार्वाक",
+      "alias": [
+        "carvaka",
+        "lokayata",
+        "materialistas indios",
+        "charvaka"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.epistemologia",
+        "tematica.metafisica",
+        "tematica.filosofia_religion"
+      ],
+      "naturaleza": "real",
+      "resumen": "Escuela materialista: niega el alma inmortal, el [[concepto.karman|karma]] y el renacimiento, y solo acepta lo que se percibe. Todos sus textos se perdieron; la conocemos por lo que citan sus adversarios, que la refutan."
+    },
+    {
+      "id": "escuela.vyakarana",
+      "tipo": "escuela",
+      "nombre": "Gramática (vyākaraṇa)",
+      "nombreOriginal": "व्याकरण",
+      "alias": [
+        "vyakarana",
+        "gramáticos"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.filosofia_lenguaje",
+        "tematica.logica"
+      ],
+      "naturaleza": "real",
+      "resumen": "Tradición de análisis del sánscrito iniciada en época védica y culminada por [[autor.panini|Pāṇini]]. Más tarde dio lugar a una filosofía del lenguaje propia."
+    },
+    {
+      "id": "escuela.samkhya",
+      "tipo": "escuela",
+      "nombre": "Sāṃkhya",
+      "nombreOriginal": "साङ्ख्य",
+      "alias": [
+        "samkhya",
+        "sankhya",
+        "escuela de la enumeración"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia",
+        "tematica.filosofia_mente"
+      ],
+      "naturaleza": "real",
+      "resumen": "Escuela dualista que distingue la [[concepto.purusa|conciencia]] pura de la [[concepto.prakrti|naturaleza]] material. Su nombre significa «enumeración», porque cuenta los principios que forman la realidad."
+    },
+    {
+      "id": "escuela.yoga",
+      "tipo": "escuela",
+      "nombre": "Yoga",
+      "nombreOriginal": "योग",
+      "alias": [
+        "yoga clásico",
+        "yoga de Patañjali"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.cultivo_de_si",
+        "tematica.soteriologia",
+        "tematica.filosofia_mente"
+      ],
+      "naturaleza": "real",
+      "resumen": "Escuela de práctica meditativa sistematizada por [[autor.patanjali|Patañjali]]. Comparte la base dualista del [[escuela.samkhya|Sāṃkhya]] y añade un camino de disciplina para aquietar la mente."
+    },
+    {
+      "id": "escuela.nyaya",
+      "tipo": "escuela",
+      "nombre": "Nyāya",
+      "nombreOriginal": "न्याय",
+      "alias": [
+        "nyaya",
+        "escuela de la lógica"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.epistemologia"
+      ],
+      "naturaleza": "real",
+      "resumen": "Escuela de la lógica y la argumentación. Estudia los [[concepto.pramana|medios de conocimiento válido]], la inferencia y las reglas del debate."
+    },
+    {
+      "id": "escuela.vaisesika",
+      "tipo": "escuela",
+      "nombre": "Vaiśeṣika",
+      "nombreOriginal": "वैशेषिक",
+      "alias": [
+        "vaisesika",
+        "vaisheshika",
+        "atomismo indio"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_ciencia"
+      ],
+      "naturaleza": "real",
+      "resumen": "Escuela que clasifica todo lo que existe en [[concepto.padartha|categorías]] y explica el mundo físico mediante [[concepto.paramanu|átomos]] eternos e indivisibles."
+    },
+    {
+      "id": "escuela.mimamsa",
+      "tipo": "escuela",
+      "nombre": "Mīmāṃsā",
+      "nombreOriginal": "मीमांसा",
+      "alias": [
+        "mimamsa",
+        "purva mimamsa",
+        "exégesis"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.filosofia_lenguaje",
+        "tematica.filosofia_religion",
+        "tematica.etica"
+      ],
+      "naturaleza": "real",
+      "resumen": "Escuela de interpretación de los [[obra.veda|Veda]], centrada en el ritual. Defiende que los Veda son [[concepto.apauruseya|eternos y sin autor]] y desarrolla una teoría del lenguaje y del deber."
+    },
+    {
+      "id": "escuela.vedanta",
+      "tipo": "escuela",
+      "nombre": "Vedānta",
+      "nombreOriginal": "वेदान्त",
+      "alias": [
+        "vedanta",
+        "uttara mimamsa"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia"
+      ],
+      "naturaleza": "real",
+      "resumen": "«Culminación de los [[obra.veda|Veda]]»: escuela que sistematiza la enseñanza de las [[obra.upanisad|Upaniṣad]] sobre [[concepto.brahman|brahman]]. Sus grandes corrientes, enfrentadas entre sí, son medievales."
+    },
+    {
+      "id": "escuela.madhyamaka",
+      "tipo": "escuela",
+      "nombre": "Madhyamaka",
+      "nombreOriginal": "मध्यमक",
+      "alias": [
+        "madhyamaka",
+        "camino medio",
+        "vía media",
+        "escuela de la vacuidad"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.epistemologia",
+        "tematica.soteriologia"
+      ],
+      "naturaleza": "real",
+      "resumen": "Escuela budista del «camino medio», fundada por [[autor.nagarjuna|Nāgārjuna]]. Sostiene que nada tiene [[concepto.svabhava|naturaleza propia]]: todo es [[concepto.sunyata|vacío]]."
+    },
+    {
+      "id": "autor.yajnavalkya",
+      "tipo": "autor",
+      "nombre": "Yājñavalkya",
+      "nombreOriginal": "याज्ञवल्क्य",
+      "alias": [
+        "Yajnavalkya",
+        "Yājñavalkya Vājasaneya"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_mente",
+        "tematica.soteriologia"
+      ],
+      "escuelas": [],
+      "circulo": 1,
+      "lugarOrigen": "Corte de Janaka, rey de Videha, en el norte del actual Bihar",
+      "fechas": {
+        "activo": {
+          "min": -700,
+          "max": -500
+        },
+        "tipo": "actividad",
+        "historicidad": "debatido",
+        "alternativas": [],
+        "nota": "Personaje de la Bṛhadāraṇyaka Upaniṣad (s. VII-VI a. C., con un margen de un siglo). Sus diálogos son obra de varias generaciones de redactores."
+      },
+      "resumen": "El gran sabio de la [[obra.brihadaranyaka|Bṛhadāraṇyaka Upaniṣad]]. Enseñó que el verdadero yo, el [[concepto.atman|ātman]], es el sujeto que conoce y nunca puede convertirse en objeto, y que ese yo es [[concepto.brahman|brahman]].",
+      "profundizacion": "En los diálogos que le atribuye la [[obra.brihadaranyaka|Bṛhadāraṇyaka Upaniṣad]], Yājñavalkya derrota en debate a los sabios reunidos en la corte de Janaka, rey de Videha. Su idea central es que el [[concepto.atman|ātman]] es quien ve, oye y piensa, pero no puede ser visto ni pensado: «no puedes ver al que ve la visión». Por eso solo puede describirse negando cualquier cualidad, con la fórmula [[tesis.neti_neti|«no así, no así»]]. Formuló también una de las primeras versiones de la idea de [[concepto.karman|karma]]: «según actúa uno y según se comporta, así llega a ser». Enseñó estas ideas a sus esposas, en especial a [[autor.maitreyi|Maitreyī]], y discutió con la pensadora [[autor.gargi|Gārgī]] y con su propio maestro, [[autor.uddalaka|Uddālaka Āruṇi]]. La tradición le atribuye además la escuela del Yajurveda blanco, una de las ramas de los [[obra.veda|Veda]].",
+      "anecdotas": "Janaka, rey de Videha, ofreció mil vacas, cada una con diez monedas de oro atadas a los cuernos, al más sabio de los sacerdotes reunidos en su corte. Mientras los demás dudaban, Yājñavalkya pidió a su discípulo que se las llevara a casa, y después tuvo que defender esa audacia derrotando uno a uno a todos los que le preguntaron ([[obra.brihadaranyaka|Bṛhadāraṇyaka Upaniṣad]] 3.1 · C). Cuando [[autor.gargi|Gārgī]] siguió preguntando qué sostenía a cada mundo, hasta llegar a brahman, él la detuvo: «Gārgī, no preguntes demasiado, no sea que se te caiga la cabeza» ([[obra.brihadaranyaka|Bṛhadāraṇyaka Upaniṣad]] 3.6 · C). Antes de retirarse a la vida errante quiso repartir sus bienes entre sus dos esposas; [[autor.maitreyi|Maitreyī]] le preguntó si la tierra entera llena de riquezas la haría inmortal y, al oír que no, respondió: «¿Para qué quiero entonces algo que no me hace inmortal?» ([[obra.brihadaranyaka|Bṛhadāraṇyaka Upaniṣad]] 2.4 · C)."
+    },
+    {
+      "id": "autor.uddalaka",
+      "tipo": "autor",
+      "nombre": "Uddālaka Āruṇi",
+      "nombreOriginal": "उद्दालक आरुणि",
+      "alias": [
+        "Uddalaka",
+        "Uddalaka Aruni",
+        "Aruni"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_ciencia"
+      ],
+      "escuelas": [],
+      "circulo": 1,
+      "lugarOrigen": "Región de Kuru-Pañcāla, en la llanura del Ganges",
+      "fechas": {
+        "activo": {
+          "min": -700,
+          "max": -500
+        },
+        "tipo": "actividad",
+        "historicidad": "debatido",
+        "alternativas": [],
+        "nota": "Personaje de la Chāndogya y la Bṛhadāraṇyaka Upaniṣad (s. VII-VI a. C., con un margen de un siglo)."
+      },
+      "resumen": "Maestro de la [[obra.chandogya|Chāndogya Upaniṣad]] que enseña a su hijo que todo procede de un único ser y que ese ser es también lo más íntimo de cada uno: [[tesis.tat_tvam_asi|«eso eres tú»]].",
+      "profundizacion": "En la [[obra.chandogya|Chāndogya Upaniṣad]], Uddālaka explica a su hijo Śvetaketu que al principio solo había el ser, uno y sin segundo, y rechaza a quienes dicen que el mundo nació del no-ser: [[tesis.ser_no_nace_de_nada|¿cómo podría el ser nacer del no-ser?]]. Ese ser se multiplicó y dio lugar al calor, al agua y al alimento, de cuya combinación nacen todas las cosas. Para enseñarlo usa experimentos sencillos: la sal disuelta en el agua, la semilla de un árbol, el barro del que se hacen todas las vasijas. Cada lección termina con la misma frase: la esencia sutil de todo es la verdad, es el yo, y [[tesis.tat_tvam_asi|«eso eres tú»]]. En la [[obra.brihadaranyaka|Bṛhadāraṇyaka Upaniṣad]] aparece como maestro de [[autor.yajnavalkya|Yājñavalkya]] y también como uno de los sabios que lo interrogan.",
+      "anecdotas": "Su hijo Śvetaketu se fue a estudiar a los doce años y volvió a los veinticuatro, tras aprender todos los [[obra.veda|Veda]], muy orgulloso de sí mismo. Uddālaka le preguntó si había aprendido aquella enseñanza por la que lo no oído se vuelve oído y lo no pensado se vuelve pensado; el joven tuvo que reconocer que sus maestros no la conocían ([[obra.chandogya|Chāndogya Upaniṣad]] 6.1 · C). Otro día le pidió que echara sal en un vaso de agua y que se la devolviera a la mañana siguiente. Śvetaketu no encontró la sal, pero el agua sabía salada arriba, en medio y abajo: así, le explicó su padre, el ser está presente en todo aunque no se vea ([[obra.chandogya|Chāndogya Upaniṣad]] 6.13 · C)."
+    },
+    {
+      "id": "autor.buda",
+      "tipo": "autor",
+      "nombre": "Buda",
+      "nombreOriginal": "बुद्ध",
+      "alias": [
+        "Buddha",
+        "Siddhārtha Gautama",
+        "Siddharta Gautama",
+        "Gotama",
+        "Śākyamuni",
+        "Sakyamuni",
+        "el Despierto"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.soteriologia",
+        "tematica.etica",
+        "tematica.filosofia_mente",
+        "tematica.metafisica"
+      ],
+      "escuelas": [
+        "escuela.budismo"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Lumbinī, en el actual Nepal; murió en Kuśinagara, en el norte de la India",
+      "fechas": {
+        "nacimiento": {
+          "min": -500,
+          "max": -460
+        },
+        "muerte": {
+          "min": -420,
+          "max": -380
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [
+          {
+            "etiqueta": "Tradicional theravāda",
+            "nacimiento": {
+              "min": -624,
+              "max": -624
+            },
+            "muerte": {
+              "min": -544,
+              "max": -544
+            }
+          },
+          {
+            "etiqueta": "Cronología larga corregida",
+            "nacimiento": {
+              "min": -563,
+              "max": -563
+            },
+            "muerte": {
+              "min": -483,
+              "max": -483
+            }
+          }
+        ],
+        "nota": "c. 480 – c. 400 a. C. Desde el congreso de Gotinga (1988), la mayoría de los especialistas sitúa su muerte en torno al 400 a. C., con un margen de unos veinte años."
+      },
+      "resumen": "Siddhārtha Gautama, llamado el Buda, «el Despierto». Enseñó que la vida está marcada por la [[concepto.duhkha|insatisfacción]], que esta tiene una causa y que existe un camino para extinguirla y alcanzar el [[concepto.nirvana|nirvana]].",
+      "profundizacion": "Nació en el clan de los śākya, que gobernaba una pequeña república al pie del Himalaya. Según los textos, abandonó su casa para buscar el fin del sufrimiento, aprendió meditación con dos maestros, Āḷāra Kālāma y Uddaka Rāmaputta, y practicó años de ascetismo extremo que acabó rechazando: propuso un «camino medio» entre el placer y la mortificación. Tras su despertar en Bodhgayā, en el actual estado indio de Bihar, enseñó durante unos cuarenta y cinco años en el valle del Ganges. Su primer sermón, cerca de Benarés, expone las [[tesis.cuatro_verdades|cuatro nobles verdades]]. Su enseñanza combina un diagnóstico (todo lo condicionado es [[concepto.anitya|impermanente]], insatisfactorio y [[concepto.anatman|sin un yo permanente]]), una explicación causal, la [[concepto.pratityasamutpada|originación dependiente]], y un camino práctico de ética, meditación y sabiduría. Se negó a responder preguntas metafísicas que consideraba inútiles para liberarse, como si el mundo es eterno o no. No escribió nada: sus discursos se transmitieron de memoria y se pusieron por escrito siglos después en el [[obra.canon_pali|Canon pali]].",
+      "anecdotas": "Una joven madre, Kisā Gotamī, llegó con su hijo muerto en brazos pidiendo una medicina. El Buda le dijo que la curaría con un grano de mostaza traído de una casa donde nunca hubiera muerto nadie; ella recorrió la ciudad, no encontró ninguna y comprendió que la muerte alcanza a todos (comentario pali al [[obra.dhammapada|Dhammapada]] · C). Sus últimas palabras, según los discursos que narran su muerte, fueron: «Todas las cosas compuestas están sujetas a desaparecer; esforzaos con diligencia» ([[obra.digha_nikaya|Dīgha Nikāya]] 16 · B). La famosa historia de los cuatro encuentros, en la que el joven príncipe descubre a un anciano, un enfermo, un muerto y un asceta, se cuenta en los textos antiguos de un buda anterior, Vipassī, y solo más tarde, en biografías como la del poeta Aśvaghoṣa (s. II d. C.), se aplica a Siddhārtha ([[obra.digha_nikaya|Dīgha Nikāya]] 14 · L)."
+    },
+    {
+      "id": "autor.mahavira",
+      "tipo": "autor",
+      "nombre": "Mahāvīra",
+      "nombreOriginal": "महावीर",
+      "alias": [
+        "Mahavira",
+        "Vardhamāna",
+        "Vardhamana",
+        "Nigaṇṭha Nātaputta",
+        "Nigantha Nataputta",
+        "Jina"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.soteriologia",
+        "tematica.etica",
+        "tematica.cultivo_de_si"
+      ],
+      "escuelas": [
+        "escuela.jainismo"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Kuṇḍagrāma, cerca de Vaiśālī, en el actual estado indio de Bihar; murió en Pāvā",
+      "fechas": {
+        "nacimiento": {
+          "min": -510,
+          "max": -490
+        },
+        "muerte": {
+          "min": -435,
+          "max": -415
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [
+          {
+            "etiqueta": "Tradicional jaina śvetāmbara",
+            "nacimiento": {
+              "min": -599,
+              "max": -599
+            },
+            "muerte": {
+              "min": -527,
+              "max": -527
+            }
+          },
+          {
+            "etiqueta": "Tradicional jaina digambara",
+            "nacimiento": {
+              "min": -599,
+              "max": -599
+            },
+            "muerte": {
+              "min": -510,
+              "max": -510
+            }
+          }
+        ],
+        "nota": "La cronología académica (c. 499 – 427 a. C., según Long; Dundas sitúa su muerte hacia el 425 a. C.) se basa en que los textos budistas lo hacen contemporáneo del Buda."
+      },
+      "resumen": "Vardhamāna, llamado Mahāvīra, «el gran héroe». Organizó la comunidad jaina y enseñó que el alma solo se libera del [[concepto.karman|karma]] mediante la ascesis y la [[concepto.ahimsa|no violencia]] hacia todo ser vivo.",
+      "profundizacion": "Según la tradición jaina, Mahāvīra no fundó una religión nueva, sino que renovó la de Pārśva, al que considera su predecesor. Renunció a la vida familiar a los treinta años, pasó más de doce años de ascetismo extremo y alcanzó la omnisciencia; después enseñó durante unos treinta años. Para el jainismo, el universo contiene innumerables almas, o [[concepto.jiva|jīva]], atrapadas por el [[concepto.karman|karma]], que concibe como una materia sutil que se pega al alma con cada acción. La liberación exige impedir que entre nuevo karma y quemar el acumulado, mediante cinco grandes votos: no violencia, verdad, no robar, castidad y no poseer nada. La [[concepto.ahimsa|no violencia]] se extiende a los seres más pequeños, como los insectos. Los textos budistas lo llaman Nigaṇṭha Nātaputta y lo presentan como rival del [[autor.buda|Buda]]. Siglos después, la comunidad se dividió en dos ramas, la de los digambara, cuyos monjes van desnudos, y la de los śvetāmbara, que visten de blanco.",
+      "anecdotas": "Durante algo más de un año llevó una sola prenda; después dejó de vestirse y vagó desnudo, sin casa ni posesiones ([[obra.acaranga|Ācārāṅga Sūtra]] 1.8 · B). En la región de Lāḍha, la gente le lanzaba los perros y lo golpeaba, y él lo soportaba sin responder ([[obra.acaranga|Ācārāṅga Sūtra]] 1.8 · B). Los textos budistas cuentan que, cuando murió en la ciudad de Pāvā, sus seguidores se dividieron en dos bandos y se enzarzaron en disputas sobre su doctrina ([[obra.digha_nikaya|Dīgha Nikāya]] 29 · B)."
+    },
+    {
+      "id": "autor.panini",
+      "tipo": "autor",
+      "nombre": "Pāṇini",
+      "nombreOriginal": "पाणिनि",
+      "alias": [
+        "Panini",
+        "Dākṣīputra"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.filosofia_lenguaje",
+        "tematica.logica"
+      ],
+      "escuelas": [
+        "escuela.vyakarana"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Śalātura, en Gandhāra, en el actual Pakistán",
+      "fechas": {
+        "activo": {
+          "min": -370,
+          "max": -330
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [
+          {
+            "etiqueta": "Datación temprana por criterios lingüísticos",
+            "activo": {
+              "min": -600,
+              "max": -400
+            }
+          }
+        ],
+        "nota": "Hacia el 350 a. C. según las monedas que menciona su gramática (von Hinüber, Falk; aceptado por Houben y Bronkhorst). Cardona: no antes del 400 a. C. Otros autores lo sitúan en los siglos VI-V a. C."
+      },
+      "resumen": "Gramático que describió el sánscrito con unas cuatro mil reglas breves, ordenadas como un sistema casi matemático. Su [[obra.ashtadhyayi|Aṣṭādhyāyī]] es considerada la primera gran obra de lingüística científica.",
+      "profundizacion": "La [[obra.ashtadhyayi|Aṣṭādhyāyī]], «la obra en ocho capítulos», reúne unos 3.960 sūtras que, aplicados en orden, generan todas las formas correctas del sánscrito de su tiempo. Para lograr esa brevedad, Pāṇini inventó un metalenguaje propio, con marcas técnicas, abreviaturas y reglas sobre cómo aplicar las reglas. Su obra fue comentada por el gramático Kātyāyana y, en el siglo II a. C., por [[autor.patanjali_gramatico|Patañjali]], y convirtió la gramática en la ciencia modelo de la India antigua: otras disciplinas imitaron su estilo de sūtras. A partir de ella surgió una filosofía del lenguaje que pregunta cómo las palabras significan. Los lingüistas europeos del siglo XIX y XX la estudiaron con admiración.",
+      "anecdotas": "Siglos después, el peregrino budista chino Xuanzang (s. VII) visitó Śalātura, su ciudad natal, y anotó que allí había nacido el sabio que creó la gramática y que se conservaba una estatua en su memoria (Xuanzang, Memorias de las regiones occidentales, libro 2 · B). Un verso de la colección de fábulas Pañcatantra afirma que un león le arrebató la vida, ejemplo de que ni los sabios escapan a la muerte (verso del Pañcatantra · L)."
+    },
+    {
+      "id": "autor.nagarjuna",
+      "tipo": "autor",
+      "nombre": "Nāgārjuna",
+      "nombreOriginal": "नागार्जुन",
+      "alias": [
+        "Nagarjuna",
+        "Longshu",
+        "Klu sgrub"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.epistemologia",
+        "tematica.logica",
+        "tematica.soteriologia"
+      ],
+      "escuelas": [
+        "escuela.madhyamaka"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Sur de la India",
+      "fechas": {
+        "nacimiento": {
+          "min": 140,
+          "max": 160
+        },
+        "muerte": {
+          "min": 240,
+          "max": 260
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "c. 150 – 250 d. C., fecha convencional. Apenas se sabe nada seguro de su vida."
+      },
+      "resumen": "Filósofo budista, fundador de la escuela del [[escuela.madhyamaka|camino medio]]. Argumentó que nada tiene [[concepto.svabhava|naturaleza propia]]: todo existe en dependencia de otras cosas y, por eso, es [[concepto.sunyata|vacío]].",
+      "profundizacion": "En sus [[obra.mulamadhyamakakarika|Versos sobre el camino medio]], Nāgārjuna examina una a una las nociones básicas, como la causalidad, el movimiento, el tiempo o el propio yo, y muestra que, si las cosas tuvieran una esencia fija e independiente, no podrían cambiar ni relacionarse. Como todo surge de forma dependiente, nada tiene esencia: esa es la [[concepto.sunyata|vacuidad]]. No se trata de que nada exista, sino de un camino medio entre afirmar esencias y negarlo todo. Distingue dos niveles de verdad, la [[concepto.dos_verdades|convencional y la última]], y aplica la vacuidad a la propia vacuidad, que tampoco es una esencia. En la [[obra.vigrahavyavartani|Refutación de las objeciones]] responde a quien le acusa de contradecirse: si todo es vacío, su propia tesis también lo es; Nāgārjuna contesta que él no defiende ninguna tesis propia. Su pensamiento marcó todo el budismo Mahāyāna, o «gran vehículo», posterior, en la India, el Tíbet, China y Japón.",
+      "anecdotas": "Su biografía más antigua, escrita en China siglos después, cuenta que de joven aprendió con tres amigos una fórmula para hacerse invisibles y se colaron en el harén del rey; los guardias esparcieron arena para ver sus huellas y mataron a los amigos, pero Nāgārjuna se salvó pegándose al rey. La experiencia le hizo comprender que el deseo causa sufrimiento, y se hizo monje (Vida de Nāgārjuna, atribuida al monje traductor Kumārajīva · L). La misma biografía cuenta que el rey de los nāga, seres serpentinos de las aguas, lo llevó a su palacio submarino y le mostró los sūtras de la sabiduría que estaban ocultos allí (Vida de Nāgārjuna, atribuida al monje traductor Kumārajīva · L)."
+    },
+    {
+      "id": "autor.kanada",
+      "tipo": "autor",
+      "nombre": "Kaṇāda",
+      "nombreOriginal": "कणाद",
+      "alias": [
+        "Kanada",
+        "Kaṇabhuj",
+        "Ulūka",
+        "Kashyapa"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_ciencia"
+      ],
+      "escuelas": [
+        "escuela.vaisesika"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Desconocido",
+      "fechas": {
+        "activo": {
+          "min": -200,
+          "max": -100
+        },
+        "tipo": "actividad",
+        "historicidad": "debatido",
+        "alternativas": [],
+        "nota": "Siglo II a. C. según la cronología de la Stanford Encyclopedia of Philosophy; fecha muy insegura. Su nombre puede ser un apodo."
+      },
+      "resumen": "Autor tradicional del [[obra.vaisesika_sutra|Vaiśeṣikasūtra]]. Clasificó todo lo que existe en [[concepto.padartha|categorías]] y explicó el mundo físico mediante [[concepto.paramanu|átomos]] indivisibles.",
+      "profundizacion": "El [[escuela.vaisesika|Vaiśeṣika]] toma su nombre de viśeṣa, «particularidad»: lo que distingue a cada cosa, incluso a cada átomo, de las demás. Kaṇāda reparte la realidad en seis [[concepto.padartha|categorías]]: sustancia, cualidad, acción, universal, particularidad e inherencia, la relación que une, por ejemplo, una cualidad con su sustancia. Las sustancias son nueve: tierra, agua, fuego, aire, éter, tiempo, espacio, el yo y la mente. Las cuatro primeras están formadas por [[concepto.paramanu|átomos]] eternos e invisibles, que se combinan para formar los cuerpos visibles. Para esta escuela, el efecto es algo nuevo que no existía en sus causas, la tesis del [[tesis.asatkaryavada|asatkāryavāda]]. Más tarde el Vaiśeṣika se unió a la escuela [[escuela.nyaya|Nyāya]] en una sola tradición.",
+      "anecdotas": "Su obra, que es un tratado sobre los componentes del mundo, empieza anunciando que va a explicar el dharma, el deber, y lo define como aquello de lo que procede la prosperidad y el bien supremo: para su autor, conocer la naturaleza era parte del camino hacia la liberación ([[obra.vaisesika_sutra|Vaiśeṣikasūtra]] 1.1.1-2 · A). Su nombre puede leerse como «comedor de partículas»; la tradición posterior lo explicó diciendo que vivía de los granos que recogía en los campos después de la cosecha (explicación tradicional del nombre · L)."
+    },
+    {
+      "id": "autor.akshapada",
+      "tipo": "autor",
+      "nombre": "Akṣapāda Gautama",
+      "nombreOriginal": "अक्षपाद गौतम",
+      "alias": [
+        "Gautama",
+        "Gotama",
+        "Akshapada",
+        "Akṣapāda"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.epistemologia",
+        "tematica.soteriologia"
+      ],
+      "escuelas": [
+        "escuela.nyaya"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Desconocido",
+      "fechas": {
+        "activo": {
+          "min": 100,
+          "max": 200
+        },
+        "tipo": "actividad",
+        "historicidad": "debatido",
+        "alternativas": [],
+        "nota": "Siglo II d. C. según la cronología de la Stanford Encyclopedia of Philosophy; las propuestas van del s. VI a. C. al s. II d. C. El Nyāyasūtra pudo crecer en varias etapas."
+      },
+      "resumen": "Autor tradicional del [[obra.nyaya_sutra|Nyāyasūtra]], base de la lógica india. Estableció cuáles son los [[concepto.pramana|medios de conocimiento válido]] y cómo debe construirse un argumento.",
+      "profundizacion": "El Nyāyasūtra reconoce cuatro [[concepto.pramana|medios de conocimiento válido]]: la percepción, la inferencia, la comparación y el testimonio de una persona fiable. Su modelo de inferencia tiene cinco pasos: la tesis («en la montaña hay fuego»), la razón («porque hay humo»), el ejemplo («donde hay humo hay fuego, como en la cocina»), la aplicación y la conclusión. El texto clasifica además los tipos de debate, distinguiendo la discusión honesta en busca de la verdad de la que solo busca ganar, y cataloga los razonamientos falaces. Todo ello tiene un fin práctico: el conocimiento verdadero elimina el error y conduce a la liberación. Su primer gran comentarista fue [[autor.vatsyayana|Vātsyāyana]], y la escuela polemizó durante siglos con los budistas, entre ellos [[autor.nagarjuna|Nāgārjuna]].",
+      "anecdotas": "Su obra empieza enumerando dieciséis temas, desde los medios de conocimiento hasta los trucos de los malos debatientes, y promete que conocerlos bien lleva al bien supremo: un manual de lógica que se presenta como camino de liberación ([[obra.nyaya_sutra|Nyāyasūtra]] 1.1.1 · A). Su sobrenombre, Akṣapāda, significa «el que tiene ojos en los pies»; una leyenda popular cuenta que iba tan absorto en sus pensamientos que cayó en un pozo, y que por eso recibió ojos en los pies para ver por dónde pisaba (leyenda popular sobre el nombre · L)."
+    },
+    {
+      "id": "autor.jaimini",
+      "tipo": "autor",
+      "nombre": "Jaimini",
+      "nombreOriginal": "जैमिनि",
+      "alias": [
+        "Jaimini"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.filosofia_lenguaje",
+        "tematica.filosofia_religion",
+        "tematica.etica"
+      ],
+      "escuelas": [
+        "escuela.mimamsa"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Desconocido",
+      "fechas": {
+        "activo": {
+          "min": -200,
+          "max": -100
+        },
+        "tipo": "actividad",
+        "historicidad": "debatido",
+        "alternativas": [],
+        "nota": "Siglo II a. C. según la cronología de la Stanford Encyclopedia of Philosophy; fecha insegura."
+      },
+      "resumen": "Autor tradicional del [[obra.mimamsa_sutra|Mīmāṃsāsūtra]], el texto fundador de la exégesis de los [[obra.veda|Veda]]. Defendió que el [[concepto.dharma|dharma]] solo se conoce por los mandatos de los Veda, que son [[concepto.apauruseya|eternos y sin autor]].",
+      "profundizacion": "La [[escuela.mimamsa|Mīmāṃsā]] nace para resolver problemas prácticos del ritual: qué ordena exactamente cada frase de los [[obra.veda|Veda]] y cómo conciliar pasajes que parecen contradictorios. Para ello Jaimini desarrolla reglas de interpretación que luego influyeron en el derecho indio. Su punto de partida es que el [[concepto.dharma|dharma]], el deber, no puede conocerse por la percepción ni por la razón, sino solo por los mandatos de los Veda. Como los Veda no tienen autor humano ni divino, no pueden contener los errores que cometería un autor: son [[tesis.veda_sin_autor|eternos y válidos por sí mismos]]. De ahí surge una teoría del lenguaje según la cual la relación entre palabra y significado es natural y eterna. Su comentarista principal fue Śabara, varios siglos después.",
+      "anecdotas": "Su obra y el [[obra.brahma_sutra|Brahmasūtra]] de [[autor.badarayana|Bādarāyaṇa]] se citan mutuamente: Jaimini menciona la opinión de Bādarāyaṇa en sus primeros sūtras, y Bādarāyaṇa recoge la de Jaimini en varios pasajes, como si dialogaran ([[obra.mimamsa_sutra|Mīmāṃsāsūtra]] 1.1.5 · A). La tradición posterior lo convierte en discípulo del sabio Vyāsa, a quien identifica con Bādarāyaṇa y atribuye la recopilación de los [[obra.veda|Veda]] (tradición purāṇica · L)."
+    },
+    {
+      "id": "autor.badarayana",
+      "tipo": "autor",
+      "nombre": "Bādarāyaṇa",
+      "nombreOriginal": "बादरायण",
+      "alias": [
+        "Badarayana",
+        "Vyāsa",
+        "Vyasa"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia"
+      ],
+      "escuelas": [
+        "escuela.vedanta"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Desconocido",
+      "fechas": {
+        "activo": {
+          "min": -300,
+          "max": -100
+        },
+        "tipo": "actividad",
+        "historicidad": "debatido",
+        "alternativas": [
+          {
+            "etiqueta": "Redacción final tardía (Jacobi)",
+            "activo": {
+              "min": 400,
+              "max": 450
+            }
+          }
+        ],
+        "nota": "Núcleo del Brahmasūtra hacia el 200 a. C.; la fecha de la redacción final se discute: Jacobi la llevó al s. V d. C., Ingalls defendió que estaba cerrado antes de la era común."
+      },
+      "resumen": "Autor tradicional del [[obra.brahma_sutra|Brahmasūtra]], que ordena en aforismos la enseñanza de las [[obra.upanisad|Upaniṣad]] sobre [[concepto.brahman|brahman]] y es el texto fundador del [[escuela.vedanta|Vedānta]].",
+      "profundizacion": "El Brahmasūtra parte de una pregunta: qué es [[concepto.brahman|brahman]], y lo define como aquello de lo que procede, en lo que se sostiene y en lo que se disuelve este mundo. Su objetivo es mostrar que todas las [[obra.upanisad|Upaniṣad]] enseñan una misma doctrina coherente. Para ello refuta a las escuelas rivales: al [[escuela.samkhya|Sāṃkhya]], que pone como causa del mundo una materia sin conciencia; al atomismo del [[escuela.vaisesika|Vaiśeṣika]]; y a budistas y jainas. Sus sūtras son tan breves que no se entienden sin comentario, y los grandes comentaristas medievales los leyeron de formas opuestas: el filósofo Śaṅkara (s. VIII) vio en ellos una doctrina de la no dualidad absoluta entre el yo y brahman; Rāmānuja (s. XI-XII), una no dualidad matizada. Así nacieron las grandes escuelas del Vedānta.",
+      "anecdotas": "Su obra tiene unos 555 sūtras, y algunos constan de solo dos o tres palabras: sin un maestro o un comentario que los explique, son casi imposibles de entender, y por eso cada escuela del Vedānta pudo leerlos a su manera ([[obra.brahma_sutra|Brahmasūtra]] · A). La tradición lo identifica con Vyāsa, el sabio legendario al que atribuye la recopilación de los [[obra.veda|Veda]] y la composición del gran poema Mahābhārata (identificación tradicional, aceptada por comentaristas medievales · L)."
+    },
+    {
+      "id": "autor.isvarakrsna",
+      "tipo": "autor",
+      "nombre": "Īśvarakṛṣṇa",
+      "nombreOriginal": "ईश्वरकृष्ण",
+      "alias": [
+        "Isvarakrsna",
+        "Ishvarakrishna",
+        "Isvara Krishna"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia",
+        "tematica.filosofia_mente"
+      ],
+      "escuelas": [
+        "escuela.samkhya"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Desconocido",
+      "fechas": {
+        "activo": {
+          "min": 350,
+          "max": 450
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [
+          {
+            "etiqueta": "Propuesta de Yang (2025)",
+            "activo": {
+              "min": 447,
+              "max": 490
+            }
+          }
+        ],
+        "nota": "c. 350 – 450 d. C. Fecha límite: la traducción china de su obra por Paramārtha, hecha entre 557 y 569."
+      },
+      "resumen": "Autor de la [[obra.samkhyakarika|Sāṃkhyakārikā]], el texto más antiguo conservado del [[escuela.samkhya|Sāṃkhya]]. Explica la realidad como la unión de una [[concepto.purusa|conciencia]] inmóvil y una [[concepto.prakrti|naturaleza]] en continua transformación.",
+      "profundizacion": "En unos setenta versos, Īśvarakṛṣṇa expone veinticinco principios. Por un lado están las conciencias, o [[concepto.purusa|puruṣa]]: muchas, puras, inactivas, meros testigos. Por otro, la [[concepto.prakrti|naturaleza]] primordial, formada por tres [[concepto.guna|cualidades]] en equilibrio, de la que surgen el intelecto, el sentido del yo, la mente, los sentidos y los elementos. Lo que llamamos pensar pertenece, por tanto, a la materia, y la conciencia solo lo ilumina. Para explicar cómo cooperan dos principios tan distintos usa la imagen de un cojo que ve y un ciego que camina, que se ayudan para avanzar. Defiende además que el efecto ya existe en su causa antes de producirse, la tesis del [[tesis.satkaryavada|satkāryavāda]]. La liberación llega cuando se distingue con claridad la conciencia de la naturaleza: entonces la conciencia queda [[concepto.kaivalya|aislada]] y libre, como cuando una bailarina deja de bailar después de haberse mostrado a su público.",
+      "anecdotas": "Al final de su obra afirma que esta doctrina pasó del sabio [[autor.kapila|Kapila]] a su discípulo Āsuri, de este a Pañcaśikha y, a través de una larga cadena de maestros, hasta él mismo ([[obra.samkhyakarika|Sāṃkhyakārikā]] 70-71 · A). Los versos finales, quizá añadidos poco después, aseguran que sus setenta estrofas resumen todo un tratado anterior, hoy perdido, dejando fuera solo las historias ilustrativas y las polémicas contra otras escuelas ([[obra.samkhyakarika|Sāṃkhyakārikā]] 72 · B)."
+    },
+    {
+      "id": "autor.patanjali",
+      "tipo": "autor",
+      "nombre": "Patañjali (yoga)",
+      "nombreOriginal": "पतञ्जलि",
+      "alias": [
+        "Patanjali",
+        "Patañjali"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.cultivo_de_si",
+        "tematica.soteriologia",
+        "tematica.filosofia_mente"
+      ],
+      "escuelas": [
+        "escuela.yoga"
+      ],
+      "circulo": 1,
+      "lugarOrigen": "Desconocido",
+      "fechas": {
+        "activo": {
+          "min": 325,
+          "max": 425
+        },
+        "tipo": "actividad",
+        "historicidad": "probable",
+        "alternativas": [],
+        "nota": "Philipp Maas fecha el Pātañjalayogaśāstra, es decir, los sūtras y su comentario como una sola obra, entre 325 y 425 d. C. Su identificación con el gramático del mismo nombre (s. II a. C.) es una confusión de la tradición."
+      },
+      "resumen": "Autor del [[obra.yogasutra|Yogasūtra]], el texto clásico del yoga. Define el yoga como [[tesis.yoga_detencion|la detención de los movimientos de la mente]] y propone un camino de ocho etapas hacia la liberación.",
+      "profundizacion": "El Yogasūtra, en cuatro capítulos, parte de la metafísica del [[escuela.samkhya|Sāṃkhya]]: la [[concepto.purusa|conciencia]] se confunde con los contenidos de la mente, que pertenecen a la [[concepto.prakrti|naturaleza]]. El yoga consiste en aquietar esos contenidos hasta que la conciencia se reconozca a sí misma y quede [[concepto.kaivalya|aislada]], es decir, liberada. El camino tiene ocho miembros: normas éticas, empezando por la [[concepto.ahimsa|no violencia]]; disciplinas personales; postura; control de la respiración; retirada de los sentidos; concentración; meditación; y absorción. A diferencia del Sāṃkhya, admite un Señor, Īśvara, entendido como una conciencia especial nunca atada al sufrimiento, que sirve de modelo y apoyo al meditador. Según el indólogo Philipp Maas, los sūtras y su comentario, que la tradición atribuía a otro autor, forman una sola obra escrita hacia el año 400. Conviene no confundirlo con el yoga postural moderno: en el texto, la postura es solo una manera de sentarse «estable y cómoda» para meditar.",
+      "anecdotas": "Una leyenda tradicional lo presenta como encarnación de Śeṣa, la serpiente divina sobre la que reposa el dios Viṣṇu, y explica su nombre así: cayó (pat) del cielo, en forma de pequeña serpiente, en las manos juntas en ofrenda (añjali) de su madre (leyenda tradicional · L). Un verso tradicional, que se suele atribuir al rey Bhoja de Dhārā (s. XI), alaba a Patañjali por haber purificado la mente con el yoga, el habla con la gramática y el cuerpo con la medicina; así se fundieron en una sola figura el autor del [[obra.yogasutra|Yogasūtra]] y el gramático [[autor.patanjali_gramatico|Patañjali]] (verso atribuido al rey Bhoja · L)."
+    },
+    {
+      "id": "autor.gargi",
+      "tipo": "autor",
+      "nombre": "Gārgī Vācaknavī",
+      "nombreOriginal": "गार्गी वाचक्नवी",
+      "alias": [
+        "Gargi",
+        "Gārgī"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "escuelas": [],
+      "circulo": 2,
+      "lugarOrigen": "Corte de Janaka, rey de Videha",
+      "fechas": {
+        "activo": {
+          "min": -700,
+          "max": -500
+        },
+        "tipo": "actividad",
+        "historicidad": "debatido",
+        "alternativas": [],
+        "nota": "Personaje de la Bṛhadāraṇyaka Upaniṣad."
+      },
+      "resumen": "Pensadora que interroga a [[autor.yajnavalkya|Yājñavalkya]] en la corte del rey Janaka. Es una de las pocas mujeres que intervienen como filósofas en los textos antiguos de la India; sus preguntas sobre qué sostiene el universo llevan el debate hasta [[concepto.brahman|brahman]]."
+    },
+    {
+      "id": "autor.maitreyi",
+      "tipo": "autor",
+      "nombre": "Maitreyī",
+      "nombreOriginal": "मैत्रेयी",
+      "alias": [
+        "Maitreyi"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia"
+      ],
+      "escuelas": [],
+      "circulo": 2,
+      "lugarOrigen": "Videha",
+      "fechas": {
+        "activo": {
+          "min": -700,
+          "max": -500
+        },
+        "tipo": "actividad",
+        "historicidad": "debatido",
+        "alternativas": [],
+        "nota": "Personaje de la Bṛhadāraṇyaka Upaniṣad."
+      },
+      "resumen": "Esposa de [[autor.yajnavalkya|Yājñavalkya]]. Rechaza la herencia material y le pide que le enseñe lo que conduce a la inmortalidad; él le explica entonces la doctrina del [[concepto.atman|ātman]]."
+    },
+    {
+      "id": "autor.makkhali_gosala",
+      "tipo": "autor",
+      "nombre": "Makkhali Gosāla",
+      "alias": [
+        "Makkhali Gosala",
+        "Maskarin Gośālīputra",
+        "Gosala"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia"
+      ],
+      "escuelas": [
+        "escuela.ajivika"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Valle del Ganges",
+      "fechas": {
+        "activo": {
+          "min": -500,
+          "max": -430
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Contemporáneo del Buda y de Mahāvīra; según textos jainas, murió dieciséis años antes que Mahāvīra."
+      },
+      "resumen": "Jefe de los [[escuela.ajivika|ājīvika]]. Defendía que todo está determinado por el destino (niyati): cada ser recorre un número fijo de renacimientos y el esfuerzo humano no cambia nada. Lo conocemos solo por las críticas de budistas y jainas."
+    },
+    {
+      "id": "autor.ajita_kesakambali",
+      "tipo": "autor",
+      "nombre": "Ajita Kesakambalī",
+      "alias": [
+        "Ajita Kesakambali",
+        "Ajita el del manto de pelo"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.etica"
+      ],
+      "escuelas": [],
+      "circulo": 2,
+      "lugarOrigen": "Valle del Ganges",
+      "fechas": {
+        "activo": {
+          "min": -500,
+          "max": -430
+        },
+        "tipo": "actividad",
+        "historicidad": "probable",
+        "alternativas": [],
+        "nota": "Contemporáneo del Buda; solo se conoce por los textos budistas."
+      },
+      "resumen": "Maestro materialista, llamado así por el manto de pelo humano que vestía. Sostenía que la persona está hecha de cuatro elementos que se disuelven al morir, sin alma que sobreviva ni fruto de las buenas o malas acciones. Se le considera un precursor del [[escuela.carvaka|Cārvāka]]."
+    },
+    {
+      "id": "autor.kapila",
+      "tipo": "autor",
+      "nombre": "Kapila",
+      "nombreOriginal": "कपिल",
+      "alias": [
+        "Kapila"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "escuelas": [
+        "escuela.samkhya"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Desconocido",
+      "fechas": {
+        "activo": {
+          "min": -800,
+          "max": -400
+        },
+        "tipo": "tradicional",
+        "historicidad": "legendario",
+        "alternativas": [],
+        "nota": "Fundador legendario del Sāṃkhya; no hay datos históricos sobre él."
+      },
+      "resumen": "Sabio legendario al que la tradición atribuye la fundación del [[escuela.samkhya|Sāṃkhya]]. La [[obra.samkhyakarika|Sāṃkhyakārikā]] lo sitúa al comienzo de la cadena de maestros de la escuela."
+    },
+    {
+      "id": "autor.patanjali_gramatico",
+      "tipo": "autor",
+      "nombre": "Patañjali (gramático)",
+      "nombreOriginal": "पतञ्जलि",
+      "alias": [
+        "Patanjali el gramático",
+        "autor del Mahābhāṣya"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.filosofia_lenguaje"
+      ],
+      "escuelas": [
+        "escuela.vyakarana"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Norte de la India",
+      "fechas": {
+        "activo": {
+          "min": -200,
+          "max": -100
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Siglo II a. C."
+      },
+      "resumen": "Autor del Mahābhāṣya, el «gran comentario» a la gramática de [[autor.panini|Pāṇini]]. No es la misma persona que el [[autor.patanjali|Patañjali]] del [[obra.yogasutra|Yogasūtra]], aunque la tradición los confundió."
+    },
+    {
+      "id": "autor.vatsyayana",
+      "tipo": "autor",
+      "nombre": "Vātsyāyana",
+      "nombreOriginal": "वात्स्यायन",
+      "alias": [
+        "Vatsyayana",
+        "Pakṣilasvāmin"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.epistemologia"
+      ],
+      "escuelas": [
+        "escuela.nyaya"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Desconocido",
+      "fechas": {
+        "activo": {
+          "min": 350,
+          "max": 450
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Siglo IV d. C. según la Stanford Encyclopedia of Philosophy; hacia el 450 según Philipp Maas. No es el autor del Kāmasūtra, aunque tenga el mismo nombre."
+      },
+      "resumen": "Autor del [[obra.nyaya_bhasya|Nyāyabhāṣya]], el primer comentario conservado del [[obra.nyaya_sutra|Nyāyasūtra]]. Defendió la lógica del [[escuela.nyaya|Nyāya]] frente a las críticas budistas."
+    },
+    {
+      "id": "autor.asoka",
+      "tipo": "autor",
+      "nombre": "Aśoka",
+      "nombreOriginal": "अशोक",
+      "alias": [
+        "Ashoka",
+        "Asoka",
+        "Devānampiya Piyadasi"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica"
+      ],
+      "escuelas": [
+        "escuela.budismo"
+      ],
+      "circulo": 3,
+      "lugarOrigen": "Pāṭaliputra, capital del imperio maurya",
+      "fechas": {
+        "activo": {
+          "min": -268,
+          "max": -232
+        },
+        "tipo": "actividad",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "Reinó c. 268 – 232 a. C."
+      },
+      "resumen": "Emperador maurya que, tras una guerra sangrienta, adoptó el budismo y difundió por todo su imperio inscripciones con un [[concepto.dharma|dharma]] moral: respeto, generosidad y [[concepto.ahimsa|no violencia]]. Algunas de ellas están en griego y en arameo.",
+      "anecdotas": "En el octavo año de su reinado conquistó la región de Kaliṅga, en la costa oriental: según su propia inscripción, ciento cincuenta mil personas fueron deportadas, cien mil murieron en combate y muchas más después. Aśoka escribió que sentía un profundo pesar por aquella matanza y que desde entonces solo buscaba la conquista por el dharma ([[obra.edictos_asoka|Edictos de Aśoka]], edicto de roca 13 · A)."
+    },
+    {
+      "id": "obra.rigveda",
+      "tipo": "obra",
+      "nombre": "Ṛgveda",
+      "nombreOriginal": "ऋग्वेद",
+      "alias": [
+        "Rigveda",
+        "Rig Veda",
+        "Rgveda"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.filosofia_religion",
+        "tematica.metafisica"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "sánscrito védico",
+      "fechas": {
+        "composicion": {
+          "min": -1500,
+          "max": -1000
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Himnos compuestos a lo largo de varios siglos y transmitidos oralmente con gran fidelidad."
+      },
+      "resumen": "La más antigua colección de himnos de la India: 1.028 cantos en diez libros, dirigidos a los dioses del sacrificio. Contiene ya preguntas filosóficas sobre el origen del mundo y la idea de un [[concepto.rta|orden cósmico]]."
+    },
+    {
+      "id": "obra.himno_creacion",
+      "tipo": "obra",
+      "nombre": "Himno de la creación (Nāsadīya)",
+      "nombreOriginal": "नासदीय सूक्त",
+      "alias": [
+        "Nasadiya",
+        "Nāsadīya sūkta",
+        "Ṛgveda 10.129",
+        "Rigveda 10.129"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "sánscrito védico",
+      "fechas": {
+        "composicion": {
+          "min": -1100,
+          "max": -900
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Pertenece al libro 10, uno de los más recientes del Ṛgveda."
+      },
+      "resumen": "Himno del [[obra.rigveda|Ṛgveda]] (10.129) que pregunta cómo surgió todo: «Entonces no había ni no-ser ni ser». Termina con una duda: quizá ni siquiera quien vigila desde lo más alto lo sabe."
+    },
+    {
+      "id": "obra.brihadaranyaka",
+      "tipo": "obra",
+      "nombre": "Bṛhadāraṇyaka Upaniṣad",
+      "nombreOriginal": "बृहदारण्यक उपनिषद्",
+      "alias": [
+        "Brihadaranyaka",
+        "Gran Upanisad del bosque",
+        "Brhadaranyaka Upanishad"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_mente",
+        "tematica.soteriologia"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "sánscrito védico",
+      "fechas": {
+        "composicion": {
+          "min": -700,
+          "max": -500
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Anterior al budismo según Olivelle, con un margen de un siglo. Es una antología editada a partir de materiales de distintas épocas."
+      },
+      "resumen": "«La gran [[obra.upanisad|Upaniṣad]] del bosque», una de las más antiguas y extensas. Recoge los debates de [[autor.yajnavalkya|Yājñavalkya]] sobre el [[concepto.atman|ātman]] y [[concepto.brahman|brahman]], y las primeras formulaciones del [[concepto.karman|karma]] y el [[concepto.samsara|renacimiento]]."
+    },
+    {
+      "id": "obra.chandogya",
+      "tipo": "obra",
+      "nombre": "Chāndogya Upaniṣad",
+      "nombreOriginal": "छान्दोग्य उपनिषद्",
+      "alias": [
+        "Chandogya",
+        "Chandogya Upanishad"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "sánscrito védico",
+      "fechas": {
+        "composicion": {
+          "min": -700,
+          "max": -500
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Anterior al budismo según Olivelle, con un margen de un siglo."
+      },
+      "resumen": "[[obra.upanisad|Upaniṣad]] antigua cuyo capítulo 6 recoge la enseñanza de [[autor.uddalaka|Uddālaka Āruṇi]] a su hijo, con la célebre fórmula [[tesis.tat_tvam_asi|«eso eres tú»]]."
+    },
+    {
+      "id": "obra.canon_pali",
+      "tipo": "obra",
+      "nombre": "Canon pali",
+      "nombreOriginal": "तिपिटक",
+      "alias": [
+        "Tipiṭaka",
+        "Tipitaka",
+        "Tripitaka",
+        "Tres cestos"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.soteriologia",
+        "tematica.etica",
+        "tematica.filosofia_mente"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "pali",
+      "fechas": {
+        "composicion": {
+          "min": -400,
+          "max": -30
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Transmitido de memoria durante siglos; puesto por escrito en Sri Lanka en el siglo I a. C., según las crónicas de la isla."
+      },
+      "capas": [
+        {
+          "nombre": "Transmisión oral",
+          "fecha": -400,
+          "testimonio": "Los discursos se recitaban y memorizaban en las comunidades de monjes"
+        },
+        {
+          "nombre": "Puesta por escrito en Sri Lanka",
+          "fecha": -30,
+          "testimonio": "Según las crónicas de Sri Lanka, durante el reinado de Vaṭṭagāmaṇi"
+        }
+      ],
+      "resumen": "Colección de los textos del budismo theravāda en lengua pali, dividida en «tres cestos»: las normas de la comunidad de monjes, los discursos del [[autor.buda|Buda]] y los tratados doctrinales. Es la fuente más completa sobre el budismo antiguo."
+    },
+    {
+      "id": "obra.digha_nikaya",
+      "tipo": "obra",
+      "nombre": "Dīgha Nikāya",
+      "alias": [
+        "Digha Nikaya",
+        "Discursos largos",
+        "Diálogos mayores de Buda"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.soteriologia",
+        "tematica.etica"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "pali",
+      "fechas": {
+        "composicion": {
+          "min": -400,
+          "max": -100
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Colección de 34 discursos del Canon pali."
+      },
+      "resumen": "«Colección de los discursos largos», 34 textos del [[obra.canon_pali|Canon pali]]. Incluye el relato de la muerte del [[autor.buda|Buda]] y el resumen de las doctrinas de sus rivales, como [[autor.makkhali_gosala|Makkhali Gosāla]] y [[autor.ajita_kesakambali|Ajita Kesakambalī]]."
+    },
+    {
+      "id": "obra.dhammapada",
+      "tipo": "obra",
+      "nombre": "Dhammapada",
+      "nombreOriginal": "धम्मपद",
+      "alias": [
+        "Dhammapada",
+        "Dharmapada",
+        "El camino del dharma"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.cultivo_de_si"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "pali",
+      "fechas": {
+        "composicion": {
+          "min": -350,
+          "max": -100
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Existen versiones paralelas en otras lenguas indias antiguas."
+      },
+      "resumen": "Antología de 423 versos atribuidos al [[autor.buda|Buda]], en 26 capítulos, sobre la mente, la conducta y el camino a la liberación. Es uno de los textos budistas más leídos."
+    },
+    {
+      "id": "obra.acaranga",
+      "tipo": "obra",
+      "nombre": "Ācārāṅga Sūtra",
+      "nombreOriginal": "आचाराङ्ग सूत्र",
+      "alias": [
+        "Acaranga",
+        "Āyāraṃga",
+        "Ayaranga"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.cultivo_de_si",
+        "tematica.soteriologia"
+      ],
+      "autoria": "compilacion",
+      "idiomaOriginal": "prácrito ardhamāgadhī",
+      "fechas": {
+        "composicion": {
+          "min": -400,
+          "max": -100
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Su primer libro es de los textos más antiguos del canon jaina."
+      },
+      "resumen": "Texto jaina sobre la conducta del monje. Su primer libro describe la vida ascética de [[autor.mahavira|Mahāvīra]] y expone con detalle la [[concepto.ahimsa|no violencia]] hacia todos los seres."
+    },
+    {
+      "id": "obra.ashtadhyayi",
+      "tipo": "obra",
+      "nombre": "Aṣṭādhyāyī",
+      "nombreOriginal": "अष्टाध्यायी",
+      "alias": [
+        "Ashtadhyayi",
+        "Astadhyayi",
+        "La obra en ocho capítulos"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.filosofia_lenguaje",
+        "tematica.logica"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": -370,
+          "max": -330
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "Hacia el 350 a. C., según la datación más aceptada."
+      },
+      "resumen": "Gramática del sánscrito de [[autor.panini|Pāṇini]]: unas 3.960 reglas en ocho capítulos que, aplicadas en orden, producen todas las formas correctas de la lengua."
+    },
+    {
+      "id": "obra.mulamadhyamakakarika",
+      "tipo": "obra",
+      "nombre": "Versos sobre el camino medio",
+      "nombreOriginal": "मूलमध्यमककारिका",
+      "alias": [
+        "Mūlamadhyamakakārikā",
+        "Mulamadhyamakakarika",
+        "MMK",
+        "Fundamentos de la vía media",
+        "Versos sobre los fundamentos del camino medio"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.epistemologia",
+        "tematica.logica"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": 150,
+          "max": 250
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "Unos 450 versos en 27 capítulos."
+      },
+      "resumen": "Obra principal de [[autor.nagarjuna|Nāgārjuna]]. En 27 capítulos examina las nociones básicas, como causa, movimiento, tiempo o yo, para mostrar que todo es [[concepto.sunyata|vacío]] de naturaleza propia."
+    },
+    {
+      "id": "obra.vigrahavyavartani",
+      "tipo": "obra",
+      "nombre": "Refutación de las objeciones",
+      "nombreOriginal": "विग्रहव्यावर्तनी",
+      "alias": [
+        "Vigrahavyāvartanī",
+        "Vigrahavyavartani",
+        "Abandono de la discusión"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.epistemologia",
+        "tematica.logica"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": 150,
+          "max": 250
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "La autoría de Nāgārjuna es la más aceptada."
+      },
+      "resumen": "Breve obra de [[autor.nagarjuna|Nāgārjuna]] que responde a sus críticos y discute si los [[concepto.pramana|medios de conocimiento]] pueden fundamentarse a sí mismos."
+    },
+    {
+      "id": "obra.vaisesika_sutra",
+      "tipo": "obra",
+      "nombre": "Vaiśeṣikasūtra",
+      "nombreOriginal": "वैशेषिकसूत्र",
+      "alias": [
+        "Vaisesika Sutra",
+        "Vaisheshika Sutra"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_ciencia"
+      ],
+      "autoria": "atribuida",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": -200,
+          "max": 100
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Núcleo del s. II a. C., ampliado después."
+      },
+      "resumen": "Texto raíz del [[escuela.vaisesika|Vaiśeṣika]], atribuido a [[autor.kanada|Kaṇāda]]. Expone las [[concepto.padartha|categorías]] de lo real y la teoría de los [[concepto.paramanu|átomos]]."
+    },
+    {
+      "id": "obra.nyaya_sutra",
+      "tipo": "obra",
+      "nombre": "Nyāyasūtra",
+      "nombreOriginal": "न्यायसूत्र",
+      "alias": [
+        "Nyaya Sutra",
+        "Nyayasutra"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.epistemologia"
+      ],
+      "autoria": "atribuida",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": 100,
+          "max": 200
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Pudo crecer en varias etapas; cinco libros."
+      },
+      "resumen": "Texto raíz del [[escuela.nyaya|Nyāya]], atribuido a [[autor.akshapada|Akṣapāda Gautama]]. Trata de los [[concepto.pramana|medios de conocimiento]], la inferencia en cinco pasos, el debate y las falacias."
+    },
+    {
+      "id": "obra.nyaya_bhasya",
+      "tipo": "obra",
+      "nombre": "Nyāyabhāṣya",
+      "nombreOriginal": "न्यायभाष्य",
+      "alias": [
+        "Nyayabhasya",
+        "Comentario al Nyāyasūtra"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.logica",
+        "tematica.epistemologia"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": 350,
+          "max": 450
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "Primer comentario conservado del Nyāyasūtra."
+      },
+      "resumen": "Comentario de [[autor.vatsyayana|Vātsyāyana]] al [[obra.nyaya_sutra|Nyāyasūtra]]. Sin él, muchos sūtras serían incomprensibles."
+    },
+    {
+      "id": "obra.mimamsa_sutra",
+      "tipo": "obra",
+      "nombre": "Mīmāṃsāsūtra",
+      "nombreOriginal": "मीमांसासूत्र",
+      "alias": [
+        "Mimamsa Sutra",
+        "Purva Mimamsa Sutra"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.filosofia_lenguaje",
+        "tematica.filosofia_religion",
+        "tematica.etica"
+      ],
+      "autoria": "atribuida",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": -200,
+          "max": -100
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Unos 2.700 sūtras en doce capítulos."
+      },
+      "resumen": "Texto raíz de la [[escuela.mimamsa|Mīmāṃsā]], atribuido a [[autor.jaimini|Jaimini]]. Empieza: «Ahora, pues, el deseo de conocer el [[concepto.dharma|dharma]]»."
+    },
+    {
+      "id": "obra.brahma_sutra",
+      "tipo": "obra",
+      "nombre": "Brahmasūtra",
+      "nombreOriginal": "ब्रह्मसूत्र",
+      "alias": [
+        "Brahma Sutra",
+        "Vedanta Sutra",
+        "Uttara Mimamsa Sutra"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia"
+      ],
+      "autoria": "atribuida",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": -200,
+          "max": 450
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Núcleo hacia el 200 a. C.; la fecha de la redacción final se discute."
+      },
+      "resumen": "Texto raíz del [[escuela.vedanta|Vedānta]], atribuido a [[autor.badarayana|Bādarāyaṇa]]. Empieza: «Ahora, pues, el deseo de conocer [[concepto.brahman|brahman]]»."
+    },
+    {
+      "id": "obra.samkhyakarika",
+      "tipo": "obra",
+      "nombre": "Sāṃkhyakārikā",
+      "nombreOriginal": "साङ्ख्यकारिका",
+      "alias": [
+        "Samkhyakarika",
+        "Samkhya Karika",
+        "Versos sobre la enumeración"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia",
+        "tematica.filosofia_mente"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": 350,
+          "max": 490
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "Unos 72 versos; traducida al chino por Paramārtha entre 557 y 569."
+      },
+      "primerTestimonio": "Traducción china de Paramārtha, 557-569",
+      "resumen": "Obra de [[autor.isvarakrsna|Īśvarakṛṣṇa]] en unos setenta versos: el texto más antiguo conservado del [[escuela.samkhya|Sāṃkhya]]."
+    },
+    {
+      "id": "obra.yogasutra",
+      "tipo": "obra",
+      "nombre": "Yogasūtra",
+      "nombreOriginal": "योगसूत्र",
+      "alias": [
+        "Yoga Sutra",
+        "Yoga Sutras",
+        "Pātañjalayogaśāstra",
+        "Patanjalayogasastra"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.cultivo_de_si",
+        "tematica.soteriologia",
+        "tematica.filosofia_mente"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": 325,
+          "max": 425
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "Según Philipp Maas, los 195 sūtras y su comentario forman una sola obra, el Pātañjalayogaśāstra."
+      },
+      "resumen": "Texto clásico del [[escuela.yoga|yoga]], de [[autor.patanjali|Patañjali]], en cuatro capítulos. Define el yoga como la detención de los movimientos de la mente y describe un camino de ocho miembros."
+    },
+    {
+      "id": "obra.bhagavadgita",
+      "tipo": "obra",
+      "nombre": "Bhagavadgītā",
+      "nombreOriginal": "भगवद्गीता",
+      "alias": [
+        "Bhagavad Gita",
+        "Bhagavadgita",
+        "Canto del Señor",
+        "Gita"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.soteriologia",
+        "tematica.filosofia_religion"
+      ],
+      "autoria": "atribuida",
+      "idiomaOriginal": "sánscrito",
+      "fechas": {
+        "composicion": {
+          "min": -200,
+          "max": 200
+        },
+        "tipo": "aproximada",
+        "historicidad": "colectivo",
+        "nota": "Forma parte del gran poema épico Mahābhārata, cuya composición se extendió durante siglos."
+      },
+      "resumen": "«Canto del Señor»: diálogo de 700 versos, incluido en el gran poema épico Mahābhārata, entre el guerrero Arjuna, que duda antes de una batalla, y el dios Kṛṣṇa. Enseña a cumplir el propio [[concepto.dharma|deber]] sin apego a sus frutos."
+    },
+    {
+      "id": "obra.edictos_asoka",
+      "tipo": "obra",
+      "nombre": "Edictos de Aśoka",
+      "alias": [
+        "Edictos de Ashoka",
+        "Inscripciones de Aśoka"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_politica"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "prácritos indios; algunos en griego y arameo",
+      "fechas": {
+        "composicion": {
+          "min": -260,
+          "max": -232
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "nota": "Grabados en rocas y columnas por todo el imperio maurya; son los documentos escritos descifrables más antiguos de la India."
+      },
+      "resumen": "Inscripciones que [[autor.asoka|Aśoka]] mandó grabar en rocas y columnas de todo su imperio para difundir un [[concepto.dharma|dharma]] moral. Son el testimonio escrito descifrable más antiguo de la India."
+    },
+    {
+      "id": "concepto.rta",
+      "tipo": "concepto",
+      "nombre": "ṛta",
+      "nombreOriginal": "ऋत",
+      "terminoOriginal": "ऋत",
+      "transliteracion": "ṛta",
+      "traduccion": "orden cósmico, verdad",
+      "alias": [
+        "rta",
+        "rita",
+        "orden cósmico"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.etica"
+      ],
+      "resumen": "En los himnos védicos, el orden que regula a la vez la naturaleza, el sacrificio y la conducta humana. Es un antecedente del [[concepto.dharma|dharma]]."
+    },
+    {
+      "id": "concepto.brahman",
+      "tipo": "concepto",
+      "nombre": "brahman",
+      "nombreOriginal": "ब्रह्मन्",
+      "terminoOriginal": "ब्रह्मन्",
+      "transliteracion": "brahman",
+      "traduccion": "lo absoluto, el fundamento de todo",
+      "notaTraduccion": "Término neutro. No debe confundirse con Brahmā, dios creador, ni con brahmán, miembro de la casta sacerdotal.",
+      "alias": [
+        "brahman",
+        "lo absoluto"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_religion"
+      ],
+      "resumen": "En las [[obra.upanisad|Upaniṣad]], la realidad última de la que todo procede y en la que todo se sostiene."
+    },
+    {
+      "id": "concepto.atman",
+      "tipo": "concepto",
+      "nombre": "ātman",
+      "nombreOriginal": "आत्मन्",
+      "terminoOriginal": "आत्मन्",
+      "transliteracion": "ātman",
+      "traduccion": "sí mismo, yo, alma",
+      "notaTraduccion": "No es el yo psicológico, sino el núcleo último del ser, el sujeto que conoce.",
+      "alias": [
+        "atman",
+        "atma",
+        "sí mismo",
+        "yo"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_mente",
+        "tematica.antropologia_filosofica"
+      ],
+      "resumen": "El verdadero yo. Las [[obra.upanisad|Upaniṣad]] lo identifican con [[concepto.brahman|brahman]]; el budismo niega que exista un yo así, permanente."
+    },
+    {
+      "id": "concepto.karman",
+      "tipo": "concepto",
+      "nombre": "karma",
+      "nombreOriginal": "कर्मन्",
+      "terminoOriginal": "कर्मन्",
+      "transliteracion": "karman",
+      "traduccion": "acción y su fruto",
+      "notaTraduccion": "Significa primero «acción», especialmente ritual; después, la ley según la cual cada acción deja consecuencias que maduran en esta vida o en otra.",
+      "alias": [
+        "karma",
+        "karman",
+        "kamma"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica",
+        "contexto.sramana_maurya",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.metafisica",
+        "tematica.soteriologia"
+      ],
+      "resumen": "La idea de que cada acción produce consecuencias que determinan el renacimiento futuro. Compartida, con matices, por casi todas las escuelas indias."
+    },
+    {
+      "id": "concepto.samsara",
+      "tipo": "concepto",
+      "nombre": "samsara",
+      "nombreOriginal": "संसार",
+      "terminoOriginal": "संसार",
+      "transliteracion": "saṃsāra",
+      "traduccion": "ciclo de renacimientos",
+      "alias": [
+        "samsara",
+        "saṃsāra",
+        "rueda de renacimientos",
+        "transmigración"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica",
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia"
+      ],
+      "resumen": "El ciclo sin principio de nacimientos y muertes, movido por el [[concepto.karman|karma]], del que las escuelas indias buscan salir."
+    },
+    {
+      "id": "concepto.moksa",
+      "tipo": "concepto",
+      "nombre": "mokṣa",
+      "nombreOriginal": "मोक्ष",
+      "terminoOriginal": "मोक्ष",
+      "transliteracion": "mokṣa",
+      "traduccion": "liberación",
+      "alias": [
+        "moksha",
+        "moksa",
+        "liberación"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.soteriologia"
+      ],
+      "resumen": "La liberación definitiva del [[concepto.samsara|ciclo de renacimientos]]. Cada escuela la entiende a su manera."
+    },
+    {
+      "id": "concepto.dharma",
+      "tipo": "concepto",
+      "nombre": "dharma",
+      "nombreOriginal": "धर्म",
+      "terminoOriginal": "धर्म",
+      "transliteracion": "dharma",
+      "traduccion": "deber, orden, ley, enseñanza",
+      "notaTraduccion": "Término muy polisémico: el deber de cada uno, el orden del mundo, la ley moral o religiosa y, en el budismo, la enseñanza del Buda y los elementos últimos de la realidad.",
+      "alias": [
+        "dharma",
+        "dhamma"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica",
+        "contexto.sramana_maurya",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_religion"
+      ],
+      "resumen": "Lo que sostiene el orden: el deber, la ley moral, la enseñanza verdadera. Su sentido cambia mucho según la escuela."
+    },
+    {
+      "id": "concepto.duhkha",
+      "tipo": "concepto",
+      "nombre": "duḥkha",
+      "nombreOriginal": "दुःख",
+      "terminoOriginal": "दुःख",
+      "transliteracion": "duḥkha",
+      "traduccion": "sufrimiento, insatisfacción",
+      "notaTraduccion": "Más amplio que el dolor: la insatisfacción de todo lo que cambia y no puede retenerse. En pali, dukkha.",
+      "alias": [
+        "dukkha",
+        "duhkha",
+        "sufrimiento"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.soteriologia",
+        "tematica.antropologia_filosofica"
+      ],
+      "escuelas": [
+        "escuela.budismo"
+      ],
+      "resumen": "La insatisfacción que marca toda existencia condicionada; punto de partida de la enseñanza del [[autor.buda|Buda]]."
+    },
+    {
+      "id": "concepto.anatman",
+      "tipo": "concepto",
+      "nombre": "anātman",
+      "nombreOriginal": "अनात्मन्",
+      "terminoOriginal": "अनात्मन्",
+      "transliteracion": "anātman",
+      "traduccion": "no-yo",
+      "notaTraduccion": "En pali, anattā. No niega la persona que actúa, sino que exista en ella un núcleo permanente e independiente.",
+      "alias": [
+        "anatta",
+        "anattā",
+        "anatman",
+        "no-yo"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_mente"
+      ],
+      "escuelas": [
+        "escuela.budismo"
+      ],
+      "resumen": "La doctrina budista de que no hay un yo permanente: la persona es un proceso de elementos físicos y mentales en cambio continuo."
+    },
+    {
+      "id": "concepto.anitya",
+      "tipo": "concepto",
+      "nombre": "anitya",
+      "nombreOriginal": "अनित्य",
+      "terminoOriginal": "अनित्य",
+      "transliteracion": "anitya",
+      "traduccion": "impermanencia",
+      "alias": [
+        "anicca",
+        "anitya",
+        "impermanencia"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "escuelas": [
+        "escuela.budismo"
+      ],
+      "resumen": "Para el budismo, todo lo condicionado surge y desaparece; nada permanece igual."
+    },
+    {
+      "id": "concepto.pratityasamutpada",
+      "tipo": "concepto",
+      "nombre": "pratītyasamutpāda",
+      "nombreOriginal": "प्रतीत्यसमुत्पाद",
+      "terminoOriginal": "प्रतीत्यसमुत्पाद",
+      "transliteracion": "pratītyasamutpāda",
+      "traduccion": "originación dependiente",
+      "alias": [
+        "originación dependiente",
+        "paticcasamuppada",
+        "coproducción condicionada",
+        "pratityasamutpada"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "escuelas": [
+        "escuela.budismo"
+      ],
+      "resumen": "Principio budista: «si esto existe, aquello surge; si esto cesa, aquello cesa». Nada existe por sí solo; todo surge en dependencia de condiciones."
+    },
+    {
+      "id": "concepto.nirvana",
+      "tipo": "concepto",
+      "nombre": "nirvana",
+      "nombreOriginal": "निर्वाण",
+      "terminoOriginal": "निर्वाण",
+      "transliteracion": "nirvāṇa",
+      "traduccion": "extinción",
+      "notaTraduccion": "Literalmente «apagamiento», como el de una llama: la extinción del deseo, el odio y la ignorancia. En pali, nibbāna.",
+      "alias": [
+        "nirvana",
+        "nirvāṇa",
+        "nibbana",
+        "nibbāna"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.soteriologia"
+      ],
+      "escuelas": [
+        "escuela.budismo"
+      ],
+      "resumen": "La meta budista: la extinción del deseo y del sufrimiento, y el fin de los renacimientos."
+    },
+    {
+      "id": "concepto.sunyata",
+      "tipo": "concepto",
+      "nombre": "śūnyatā",
+      "nombreOriginal": "शून्यता",
+      "terminoOriginal": "शून्यता",
+      "transliteracion": "śūnyatā",
+      "traduccion": "vacuidad",
+      "notaTraduccion": "No significa que nada exista, sino que nada existe con una esencia propia e independiente.",
+      "alias": [
+        "sunyata",
+        "shunyata",
+        "vacuidad",
+        "vacío"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.soteriologia"
+      ],
+      "escuelas": [
+        "escuela.madhyamaka"
+      ],
+      "resumen": "Para [[autor.nagarjuna|Nāgārjuna]], la ausencia de [[concepto.svabhava|naturaleza propia]] en todas las cosas, que es otra forma de decir que todo surge de manera dependiente."
+    },
+    {
+      "id": "concepto.svabhava",
+      "tipo": "concepto",
+      "nombre": "svabhāva",
+      "nombreOriginal": "स्वभाव",
+      "terminoOriginal": "स्वभाव",
+      "transliteracion": "svabhāva",
+      "traduccion": "naturaleza propia, esencia",
+      "alias": [
+        "svabhava",
+        "naturaleza propia",
+        "esencia"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "resumen": "La supuesta esencia fija e independiente de una cosa. [[autor.nagarjuna|Nāgārjuna]] niega que exista."
+    },
+    {
+      "id": "concepto.dos_verdades",
+      "tipo": "concepto",
+      "nombre": "dos verdades",
+      "nombreOriginal": "सत्यद्वय",
+      "terminoOriginal": "सत्यद्वय",
+      "transliteracion": "satyadvaya",
+      "traduccion": "dos verdades: convencional y última",
+      "alias": [
+        "dos verdades",
+        "verdad convencional",
+        "verdad última",
+        "saṃvṛti",
+        "paramārtha"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.epistemologia",
+        "tematica.metafisica"
+      ],
+      "escuelas": [
+        "escuela.madhyamaka",
+        "escuela.budismo"
+      ],
+      "resumen": "Distinción budista entre la verdad convencional, la del lenguaje y la vida cotidiana, y la verdad última, la [[concepto.sunyata|vacuidad]] de todo."
+    },
+    {
+      "id": "concepto.jiva",
+      "tipo": "concepto",
+      "nombre": "jīva",
+      "nombreOriginal": "जीव",
+      "terminoOriginal": "जीव",
+      "transliteracion": "jīva",
+      "traduccion": "alma, ser vivo",
+      "alias": [
+        "jiva",
+        "alma"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.antropologia_filosofica"
+      ],
+      "escuelas": [
+        "escuela.jainismo"
+      ],
+      "resumen": "Para el jainismo, el alma consciente presente en cada ser vivo, hasta en las plantas y los elementos, atrapada por el [[concepto.karman|karma]]."
+    },
+    {
+      "id": "concepto.ahimsa",
+      "tipo": "concepto",
+      "nombre": "ahiṃsā",
+      "nombreOriginal": "अहिंसा",
+      "terminoOriginal": "अहिंसा",
+      "transliteracion": "ahiṃsā",
+      "traduccion": "no violencia",
+      "alias": [
+        "ahimsa",
+        "no violencia",
+        "no dañar"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.cultivo_de_si"
+      ],
+      "resumen": "No dañar a ningún ser vivo. Central en el jainismo, importante en el budismo y el yoga, y propuesta como norma de gobierno por [[autor.asoka|Aśoka]]."
+    },
+    {
+      "id": "concepto.anekantavada",
+      "tipo": "concepto",
+      "nombre": "anekāntavāda",
+      "nombreOriginal": "अनेकान्तवाद",
+      "terminoOriginal": "अनेकान्तवाद",
+      "transliteracion": "anekāntavāda",
+      "traduccion": "doctrina de la no unilateralidad",
+      "alias": [
+        "anekantavada",
+        "pluralismo jaina",
+        "no unilateralidad"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.epistemologia",
+        "tematica.metafisica"
+      ],
+      "escuelas": [
+        "escuela.jainismo"
+      ],
+      "resumen": "Doctrina jaina: la realidad tiene muchos aspectos, y toda afirmación sobre ella es verdadera solo desde un punto de vista. Se ilustra con la parábola de los ciegos que tocan un elefante."
+    },
+    {
+      "id": "concepto.purusa",
+      "tipo": "concepto",
+      "nombre": "puruṣa",
+      "nombreOriginal": "पुरुष",
+      "terminoOriginal": "पुरुष",
+      "transliteracion": "puruṣa",
+      "traduccion": "conciencia, espíritu",
+      "notaTraduccion": "Literalmente «persona» u «hombre»; en el Sāṃkhya, la conciencia pura, inactiva y múltiple.",
+      "alias": [
+        "purusa",
+        "purusha",
+        "conciencia"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_mente"
+      ],
+      "escuelas": [
+        "escuela.samkhya",
+        "escuela.yoga"
+      ],
+      "resumen": "En el [[escuela.samkhya|Sāṃkhya]] y el yoga, la conciencia pura que contempla sin actuar; distinta de la [[concepto.prakrti|naturaleza]]."
+    },
+    {
+      "id": "concepto.prakrti",
+      "tipo": "concepto",
+      "nombre": "prakṛti",
+      "nombreOriginal": "प्रकृति",
+      "terminoOriginal": "प्रकृति",
+      "transliteracion": "prakṛti",
+      "traduccion": "naturaleza, materia primordial",
+      "alias": [
+        "prakrti",
+        "prakriti",
+        "naturaleza"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "escuelas": [
+        "escuela.samkhya",
+        "escuela.yoga"
+      ],
+      "resumen": "En el [[escuela.samkhya|Sāṃkhya]], la naturaleza primordial de la que surge todo lo material, incluida la mente. Está formada por tres [[concepto.guna|cualidades]]."
+    },
+    {
+      "id": "concepto.guna",
+      "tipo": "concepto",
+      "nombre": "guṇa",
+      "nombreOriginal": "गुण",
+      "terminoOriginal": "गुण",
+      "transliteracion": "guṇa",
+      "traduccion": "cualidad, hebra",
+      "notaTraduccion": "Literalmente «hebra» de una cuerda. Las tres son sattva (luminosidad), rajas (actividad) y tamas (inercia).",
+      "alias": [
+        "guna",
+        "tres cualidades",
+        "sattva",
+        "rajas",
+        "tamas"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "escuelas": [
+        "escuela.samkhya"
+      ],
+      "resumen": "Las tres cualidades que componen la [[concepto.prakrti|naturaleza]]: luminosidad, actividad e inercia. Sus proporciones explican la variedad de las cosas."
+    },
+    {
+      "id": "concepto.kaivalya",
+      "tipo": "concepto",
+      "nombre": "kaivalya",
+      "nombreOriginal": "कैवल्य",
+      "terminoOriginal": "कैवल्य",
+      "transliteracion": "kaivalya",
+      "traduccion": "aislamiento, liberación",
+      "alias": [
+        "kaivalya",
+        "aislamiento"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.soteriologia"
+      ],
+      "escuelas": [
+        "escuela.samkhya",
+        "escuela.yoga"
+      ],
+      "resumen": "En el [[escuela.samkhya|Sāṃkhya]] y el yoga, la liberación entendida como la separación definitiva de la [[concepto.purusa|conciencia]] respecto de la [[concepto.prakrti|naturaleza]]."
+    },
+    {
+      "id": "concepto.padartha",
+      "tipo": "concepto",
+      "nombre": "padārtha",
+      "nombreOriginal": "पदार्थ",
+      "terminoOriginal": "पदार्थ",
+      "transliteracion": "padārtha",
+      "traduccion": "categoría",
+      "notaTraduccion": "Literalmente «lo que significa una palabra»: lo que puede nombrarse y conocerse.",
+      "alias": [
+        "padartha",
+        "categorías"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "escuelas": [
+        "escuela.vaisesika",
+        "escuela.nyaya"
+      ],
+      "resumen": "Los tipos básicos de lo que existe. El [[escuela.vaisesika|Vaiśeṣika]] distingue seis: sustancia, cualidad, acción, universal, particularidad e inherencia."
+    },
+    {
+      "id": "concepto.paramanu",
+      "tipo": "concepto",
+      "nombre": "paramāṇu",
+      "nombreOriginal": "परमाणु",
+      "terminoOriginal": "परमाणु",
+      "transliteracion": "paramāṇu",
+      "traduccion": "átomo",
+      "alias": [
+        "paramanu",
+        "átomo",
+        "atomismo indio"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_ciencia"
+      ],
+      "escuelas": [
+        "escuela.vaisesika"
+      ],
+      "resumen": "En el [[escuela.vaisesika|Vaiśeṣika]], la partícula mínima, eterna e indivisible de tierra, agua, fuego o aire, de cuya combinación nacen los cuerpos."
+    },
+    {
+      "id": "concepto.pramana",
+      "tipo": "concepto",
+      "nombre": "pramāṇa",
+      "nombreOriginal": "प्रमाण",
+      "terminoOriginal": "प्रमाण",
+      "transliteracion": "pramāṇa",
+      "traduccion": "medio de conocimiento válido",
+      "alias": [
+        "pramana",
+        "medios de conocimiento",
+        "fuentes de conocimiento"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.epistemologia",
+        "tematica.logica"
+      ],
+      "resumen": "Las fuentes fiables de conocimiento. Cada escuela acepta un número distinto: el [[escuela.carvaka|Cārvāka]], solo la percepción; el [[escuela.nyaya|Nyāya]], cuatro."
+    },
+    {
+      "id": "concepto.apauruseya",
+      "tipo": "concepto",
+      "nombre": "apauruṣeya",
+      "nombreOriginal": "अपौरुषेय",
+      "terminoOriginal": "अपौरुषेय",
+      "transliteracion": "apauruṣeya",
+      "traduccion": "sin autor",
+      "alias": [
+        "apauruseya",
+        "sin autor"
+      ],
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.filosofia_religion",
+        "tematica.filosofia_lenguaje"
+      ],
+      "escuelas": [
+        "escuela.mimamsa"
+      ],
+      "resumen": "La tesis de que los [[obra.veda|Veda]] no tienen autor, ni humano ni divino, y por eso no pueden contener errores."
+    },
+    {
+      "id": "tesis.ayam_atma_brahma",
+      "tipo": "tesis",
+      "nombre": "Este ātman es brahman",
+      "enunciado": "El sí mismo de cada uno es idéntico a brahman, el fundamento de todo.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "resumen": "Fórmula de la [[obra.brihadaranyaka|Bṛhadāraṇyaka Upaniṣad]] que une el [[concepto.atman|ātman]] y [[concepto.brahman|brahman]]. El [[escuela.vedanta|Vedānta]] la convirtió en su idea central."
+    },
+    {
+      "id": "tesis.neti_neti",
+      "tipo": "tesis",
+      "nombre": "No así, no así",
+      "enunciado": "El ātman solo puede describirse negando: no es esto, no es aquello.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_lenguaje"
+      ],
+      "resumen": "Fórmula de [[autor.yajnavalkya|Yājñavalkya]]: como el [[concepto.atman|ātman]] es el sujeto que conoce, ninguna descripción positiva puede alcanzarlo."
+    },
+    {
+      "id": "tesis.tat_tvam_asi",
+      "tipo": "tesis",
+      "nombre": "Eso eres tú",
+      "enunciado": "La esencia sutil de todas las cosas es también tu propio ser: eso eres tú.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.antropologia_filosofica"
+      ],
+      "resumen": "Estribillo de la enseñanza de [[autor.uddalaka|Uddālaka]] a su hijo en la [[obra.chandogya|Chāndogya Upaniṣad]]. Es una de las frases más comentadas de la filosofía india."
+    },
+    {
+      "id": "tesis.ser_no_nace_de_nada",
+      "tipo": "tesis",
+      "nombre": "El ser no puede nacer del no-ser",
+      "enunciado": "Al principio solo había ser, uno y sin segundo: ¿cómo podría el ser nacer del no-ser?",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.india_vedica"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "resumen": "Argumento de [[autor.uddalaka|Uddālaka]] contra quienes decían que el mundo surgió de la nada."
+    },
+    {
+      "id": "tesis.no_yo",
+      "tipo": "tesis",
+      "nombre": "No hay un yo permanente",
+      "enunciado": "Ninguno de los elementos que forman a la persona, ni su conjunto, es un yo permanente.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.metafisica",
+        "tematica.filosofia_mente"
+      ],
+      "resumen": "Tesis del [[autor.buda|Buda]]: el cuerpo, las sensaciones, las percepciones, las disposiciones y la conciencia cambian sin cesar; nada de ello puede llamarse «yo»."
+    },
+    {
+      "id": "tesis.cuatro_verdades",
+      "tipo": "tesis",
+      "nombre": "Las cuatro nobles verdades",
+      "enunciado": "Existe el sufrimiento; tiene una causa, el deseo; puede cesar; y hay un camino para que cese.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya"
+      ],
+      "tematicas": [
+        "tematica.soteriologia",
+        "tematica.antropologia_filosofica"
+      ],
+      "resumen": "Núcleo del primer sermón del [[autor.buda|Buda]], formulado como un diagnóstico médico: enfermedad, causa, curación y tratamiento."
+    },
+    {
+      "id": "tesis.vacuidad",
+      "tipo": "tesis",
+      "nombre": "Todo es vacío de naturaleza propia",
+      "enunciado": "Lo que surge de forma dependiente es lo que llamamos vacuidad.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "resumen": "Tesis central de [[autor.nagarjuna|Nāgārjuna]] en sus [[obra.mulamadhyamakakarika|Versos sobre el camino medio]] (24.18)."
+    },
+    {
+      "id": "tesis.solo_percepcion",
+      "tipo": "tesis",
+      "nombre": "Solo la percepción da conocimiento válido",
+      "enunciado": "Solo la percepción es un medio fiable de conocimiento; la inferencia sobre lo que no se ve no lo es.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.sramana_maurya",
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.epistemologia"
+      ],
+      "resumen": "Tesis del [[escuela.carvaka|Cārvāka]], con la que niega el alma, el más allá y el [[concepto.karman|karma]], que nadie ha percibido."
+    },
+    {
+      "id": "tesis.satkaryavada",
+      "tipo": "tesis",
+      "nombre": "El efecto preexiste en su causa",
+      "enunciado": "El efecto ya existe en su causa antes de producirse; producir es solo hacer manifiesto lo que estaba oculto.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "resumen": "Tesis del [[escuela.samkhya|Sāṃkhya]] (satkāryavāda): del aceite sale aceite de sésamo y no de la arena, porque el aceite ya estaba en el sésamo."
+    },
+    {
+      "id": "tesis.asatkaryavada",
+      "tipo": "tesis",
+      "nombre": "El efecto es algo nuevo",
+      "enunciado": "El efecto no existe antes de producirse: es una realidad nueva que surge de sus causas.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.metafisica"
+      ],
+      "resumen": "Tesis del [[escuela.nyaya|Nyāya]] y el [[escuela.vaisesika|Vaiśeṣika]] (asatkāryavāda), opuesta a la del Sāṃkhya."
+    },
+    {
+      "id": "tesis.yoga_detencion",
+      "tipo": "tesis",
+      "nombre": "El yoga es la detención de los movimientos de la mente",
+      "enunciado": "El yoga es la detención de los movimientos de la mente.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.cultivo_de_si",
+        "tematica.filosofia_mente"
+      ],
+      "resumen": "Definición del [[obra.yogasutra|Yogasūtra]] (1.2): cuando la mente se aquieta, la [[concepto.purusa|conciencia]] se reconoce en su propia naturaleza."
+    },
+    {
+      "id": "tesis.veda_sin_autor",
+      "tipo": "tesis",
+      "nombre": "Los Veda no tienen autor",
+      "enunciado": "Los Veda son eternos y no tienen autor; por eso son válidos por sí mismos.",
+      "tradicion": "india",
+      "contextos": [
+        "contexto.darsana"
+      ],
+      "tematicas": [
+        "tematica.filosofia_religion",
+        "tematica.epistemologia"
+      ],
+      "resumen": "Tesis de la [[escuela.mimamsa|Mīmāṃsā]]: un texto sin autor no puede contener los errores, engaños o descuidos de un autor."
+    }
+  ],
+  "relaciones": [
+    {
+      "id": "r1001",
+      "origen": "obra.brihadaranyaka",
+      "tipo": "es_fuente_de",
+      "destino": "autor.yajnavalkya",
+      "certeza": "D"
+    },
+    {
+      "id": "r1002",
+      "origen": "obra.chandogya",
+      "tipo": "es_fuente_de",
+      "destino": "autor.uddalaka",
+      "certeza": "D"
+    },
+    {
+      "id": "r1003",
+      "origen": "obra.brihadaranyaka",
+      "tipo": "es_fuente_de",
+      "destino": "autor.gargi",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 3.6 y 3.8"
+    },
+    {
+      "id": "r1004",
+      "origen": "obra.brihadaranyaka",
+      "tipo": "es_fuente_de",
+      "destino": "autor.maitreyi",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 2.4 y 4.5"
+    },
+    {
+      "id": "r1005",
+      "origen": "autor.uddalaka",
+      "tipo": "fue_maestro_de",
+      "destino": "autor.yajnavalkya",
+      "certeza": "P",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 6.3.7",
+      "nota": "Según una lista de maestros de la propia Upaniṣad; ambos son en parte personajes literarios."
+    },
+    {
+      "id": "r1006",
+      "origen": "autor.yajnavalkya",
+      "tipo": "responde_a",
+      "destino": "autor.uddalaka",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 3.7",
+      "nota": "En el debate de la corte de Janaka; documentado como texto."
+    },
+    {
+      "id": "r1007",
+      "origen": "autor.yajnavalkya",
+      "tipo": "responde_a",
+      "destino": "autor.gargi",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 3.6 y 3.8"
+    },
+    {
+      "id": "r1008",
+      "origen": "autor.yajnavalkya",
+      "tipo": "responde_a",
+      "destino": "autor.maitreyi",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 2.4"
+    },
+    {
+      "id": "r1009",
+      "origen": "autor.yajnavalkya",
+      "tipo": "defiende",
+      "destino": "tesis.ayam_atma_brahma",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 4.4.5",
+      "nota": "Atribución de la propia Upaniṣad."
+    },
+    {
+      "id": "r1010",
+      "origen": "autor.yajnavalkya",
+      "tipo": "defiende",
+      "destino": "tesis.neti_neti",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 3.9.26 y 4.2.4"
+    },
+    {
+      "id": "r1011",
+      "origen": "autor.uddalaka",
+      "tipo": "defiende",
+      "destino": "tesis.tat_tvam_asi",
+      "certeza": "D",
+      "fuente": "Chāndogya Upaniṣad 6.8.7"
+    },
+    {
+      "id": "r1012",
+      "origen": "autor.uddalaka",
+      "tipo": "defiende",
+      "destino": "tesis.ser_no_nace_de_nada",
+      "certeza": "D",
+      "fuente": "Chāndogya Upaniṣad 6.2.1-2"
+    },
+    {
+      "id": "r1013",
+      "origen": "tesis.ayam_atma_brahma",
+      "tipo": "trata_sobre",
+      "destino": "concepto.atman",
+      "certeza": "D"
+    },
+    {
+      "id": "r1014",
+      "origen": "tesis.ayam_atma_brahma",
+      "tipo": "trata_sobre",
+      "destino": "concepto.brahman",
+      "certeza": "D"
+    },
+    {
+      "id": "r1015",
+      "origen": "tesis.tat_tvam_asi",
+      "tipo": "trata_sobre",
+      "destino": "concepto.atman",
+      "certeza": "D"
+    },
+    {
+      "id": "r1016",
+      "origen": "tesis.neti_neti",
+      "tipo": "trata_sobre",
+      "destino": "concepto.atman",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 3.9.26"
+    },
+    {
+      "id": "r1017",
+      "origen": "obra.brihadaranyaka",
+      "tipo": "trata_sobre",
+      "destino": "concepto.karman",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 3.2.13 y 4.4.5"
+    },
+    {
+      "id": "r1018",
+      "origen": "obra.brihadaranyaka",
+      "tipo": "trata_sobre",
+      "destino": "concepto.samsara",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 6.2"
+    },
+    {
+      "id": "r1019",
+      "origen": "obra.brihadaranyaka",
+      "tipo": "trata_sobre",
+      "destino": "concepto.moksa",
+      "certeza": "D",
+      "fuente": "Bṛhadāraṇyaka Upaniṣad 4.4.6-7"
+    },
+    {
+      "id": "r1020",
+      "origen": "obra.chandogya",
+      "tipo": "trata_sobre",
+      "destino": "concepto.brahman",
+      "certeza": "D"
+    },
+    {
+      "id": "r1021",
+      "origen": "obra.himno_creacion",
+      "tipo": "parte_de",
+      "destino": "obra.rigveda",
+      "certeza": "D",
+      "fuente": "Ṛgveda 10.129"
+    },
+    {
+      "id": "r1022",
+      "origen": "obra.rigveda",
+      "tipo": "trata_sobre",
+      "destino": "concepto.rta",
+      "certeza": "D"
+    },
+    {
+      "id": "r1023",
+      "origen": "tesis.ser_no_nace_de_nada",
+      "tipo": "responde_a",
+      "destino": "obra.himno_creacion",
+      "certeza": "C",
+      "nota": "Ambos textos discuten si al principio hubo ser o no-ser; no hay prueba de que Uddālaka responda directamente al himno."
+    },
+    {
+      "id": "r1024",
+      "origen": "obra.rigveda",
+      "tipo": "parte_de",
+      "destino": "obra.veda",
+      "certeza": "D"
+    },
+    {
+      "id": "r1025",
+      "origen": "obra.upanisad",
+      "tipo": "parte_de",
+      "destino": "obra.veda",
+      "certeza": "D"
+    },
+    {
+      "id": "r1026",
+      "origen": "obra.brihadaranyaka",
+      "tipo": "parte_de",
+      "destino": "obra.upanisad",
+      "certeza": "D"
+    },
+    {
+      "id": "r1027",
+      "origen": "obra.chandogya",
+      "tipo": "parte_de",
+      "destino": "obra.upanisad",
+      "certeza": "D"
+    },
+    {
+      "id": "r1028",
+      "origen": "obra.upanisad",
+      "tipo": "trata_sobre",
+      "destino": "concepto.atman",
+      "certeza": "D"
+    },
+    {
+      "id": "r1029",
+      "origen": "obra.brahma_sutra",
+      "tipo": "comenta",
+      "destino": "obra.upanisad",
+      "certeza": "D",
+      "nota": "Sistematiza en aforismos la enseñanza de las Upaniṣad."
+    },
+    {
+      "id": "r1030",
+      "origen": "obra.canon_pali",
+      "tipo": "es_fuente_de",
+      "destino": "autor.buda",
+      "certeza": "D",
+      "nota": "Transmitido de memoria y puesto por escrito en el s. I a. C."
+    },
+    {
+      "id": "r1031",
+      "origen": "obra.digha_nikaya",
+      "tipo": "parte_de",
+      "destino": "obra.canon_pali",
+      "certeza": "D"
+    },
+    {
+      "id": "r1032",
+      "origen": "obra.dhammapada",
+      "tipo": "parte_de",
+      "destino": "obra.canon_pali",
+      "certeza": "D"
+    },
+    {
+      "id": "r1033",
+      "origen": "autor.buda",
+      "tipo": "defiende",
+      "destino": "tesis.no_yo",
+      "certeza": "D",
+      "fuente": "Saṃyutta Nikāya 22.59"
+    },
+    {
+      "id": "r1034",
+      "origen": "autor.buda",
+      "tipo": "defiende",
+      "destino": "tesis.cuatro_verdades",
+      "certeza": "D",
+      "fuente": "Saṃyutta Nikāya 56.11"
+    },
+    {
+      "id": "r1035",
+      "origen": "tesis.no_yo",
+      "tipo": "trata_sobre",
+      "destino": "concepto.anatman",
+      "certeza": "D"
+    },
+    {
+      "id": "r1036",
+      "origen": "tesis.no_yo",
+      "tipo": "se_opone_a",
+      "destino": "tesis.ayam_atma_brahma",
+      "certeza": "P",
+      "nota": "Se discute si los discursos del Buda apuntan directamente a las Upaniṣad o a ideas del yo más generales."
+    },
+    {
+      "id": "r1037",
+      "origen": "tesis.cuatro_verdades",
+      "tipo": "trata_sobre",
+      "destino": "concepto.duhkha",
+      "certeza": "D"
+    },
+    {
+      "id": "r1038",
+      "origen": "tesis.cuatro_verdades",
+      "tipo": "trata_sobre",
+      "destino": "concepto.nirvana",
+      "certeza": "D"
+    },
+    {
+      "id": "r1039",
+      "origen": "obra.canon_pali",
+      "tipo": "trata_sobre",
+      "destino": "concepto.pratityasamutpada",
+      "certeza": "D"
+    },
+    {
+      "id": "r1040",
+      "origen": "obra.canon_pali",
+      "tipo": "trata_sobre",
+      "destino": "concepto.anitya",
+      "certeza": "D"
+    },
+    {
+      "id": "r1041",
+      "origen": "obra.dhammapada",
+      "tipo": "trata_sobre",
+      "destino": "concepto.dharma",
+      "certeza": "D"
+    },
+    {
+      "id": "r1042",
+      "origen": "obra.digha_nikaya",
+      "tipo": "es_fuente_de",
+      "destino": "autor.makkhali_gosala",
+      "certeza": "D",
+      "fuente": "Dīgha Nikāya 2"
+    },
+    {
+      "id": "r1043",
+      "origen": "obra.digha_nikaya",
+      "tipo": "es_fuente_de",
+      "destino": "autor.ajita_kesakambali",
+      "certeza": "D",
+      "fuente": "Dīgha Nikāya 2"
+    },
+    {
+      "id": "r1044",
+      "origen": "obra.digha_nikaya",
+      "tipo": "es_fuente_de",
+      "destino": "autor.mahavira",
+      "certeza": "D",
+      "fuente": "Dīgha Nikāya 2 y 29",
+      "nota": "Donde aparece como Nigaṇṭha Nātaputta."
+    },
+    {
+      "id": "r1045",
+      "origen": "autor.buda",
+      "tipo": "critica",
+      "destino": "autor.makkhali_gosala",
+      "certeza": "D",
+      "fuente": "Aṅguttara Nikāya 3.137"
+    },
+    {
+      "id": "r1046",
+      "origen": "autor.buda",
+      "tipo": "critica",
+      "destino": "autor.ajita_kesakambali",
+      "certeza": "P",
+      "fuente": "Dīgha Nikāya 2",
+      "nota": "El canon presenta su materialismo entre las doctrinas erróneas."
+    },
+    {
+      "id": "r1047",
+      "origen": "autor.buda",
+      "tipo": "critica",
+      "destino": "escuela.jainismo",
+      "certeza": "D",
+      "fuente": "Majjhima Nikāya 56"
+    },
+    {
+      "id": "r1048",
+      "origen": "obra.canon_pali",
+      "tipo": "trata_sobre",
+      "destino": "concepto.karman",
+      "certeza": "D"
+    },
+    {
+      "id": "r1050",
+      "origen": "autor.nagarjuna",
+      "tipo": "escribio",
+      "destino": "obra.mulamadhyamakakarika",
+      "certeza": "D"
+    },
+    {
+      "id": "r1051",
+      "origen": "autor.nagarjuna",
+      "tipo": "escribio",
+      "destino": "obra.vigrahavyavartani",
+      "certeza": "P"
+    },
+    {
+      "id": "r1052",
+      "origen": "autor.nagarjuna",
+      "tipo": "defiende",
+      "destino": "tesis.vacuidad",
+      "certeza": "D",
+      "fuente": "Mūlamadhyamakakārikā 24.18"
+    },
+    {
+      "id": "r1053",
+      "origen": "tesis.vacuidad",
+      "tipo": "trata_sobre",
+      "destino": "concepto.sunyata",
+      "certeza": "D"
+    },
+    {
+      "id": "r1054",
+      "origen": "tesis.vacuidad",
+      "tipo": "trata_sobre",
+      "destino": "concepto.svabhava",
+      "certeza": "D"
+    },
+    {
+      "id": "r1055",
+      "origen": "autor.nagarjuna",
+      "tipo": "desarrolla",
+      "destino": "concepto.pratityasamutpada",
+      "certeza": "D",
+      "fuente": "Mūlamadhyamakakārikā 24.18"
+    },
+    {
+      "id": "r1056",
+      "origen": "obra.mulamadhyamakakarika",
+      "tipo": "trata_sobre",
+      "destino": "concepto.dos_verdades",
+      "certeza": "D",
+      "fuente": "Mūlamadhyamakakārikā 24.8-10"
+    },
+    {
+      "id": "r1057",
+      "origen": "obra.vigrahavyavartani",
+      "tipo": "critica",
+      "destino": "concepto.pramana",
+      "certeza": "P",
+      "nota": "Se discute si apunta al Nyāya o a una teoría del conocimiento más general."
+    },
+    {
+      "id": "r1058",
+      "origen": "escuela.madhyamaka",
+      "tipo": "desarrolla",
+      "destino": "escuela.budismo",
+      "certeza": "D"
+    },
+    {
+      "id": "r1060",
+      "origen": "obra.acaranga",
+      "tipo": "es_fuente_de",
+      "destino": "autor.mahavira",
+      "certeza": "D",
+      "fuente": "Ācārāṅga Sūtra 1.8"
+    },
+    {
+      "id": "r1061",
+      "origen": "autor.mahavira",
+      "tipo": "desarrolla",
+      "destino": "concepto.ahimsa",
+      "certeza": "D"
+    },
+    {
+      "id": "r1062",
+      "origen": "obra.acaranga",
+      "tipo": "trata_sobre",
+      "destino": "concepto.ahimsa",
+      "certeza": "D"
+    },
+    {
+      "id": "r1063",
+      "origen": "obra.acaranga",
+      "tipo": "trata_sobre",
+      "destino": "concepto.jiva",
+      "certeza": "D"
+    },
+    {
+      "id": "r1064",
+      "origen": "escuela.jainismo",
+      "tipo": "desarrolla",
+      "destino": "concepto.anekantavada",
+      "certeza": "D",
+      "nota": "Formulado plenamente en textos posteriores a Mahāvīra."
+    },
+    {
+      "id": "r1065",
+      "origen": "autor.mahavira",
+      "tipo": "critica",
+      "destino": "autor.makkhali_gosala",
+      "certeza": "P",
+      "fuente": "Bhagavatī Sūtra 15",
+      "nota": "Según textos jainas, fueron compañeros de ascesis durante seis años antes de enfrentarse."
+    },
+    {
+      "id": "r1066",
+      "origen": "autor.mahavira",
+      "tipo": "desarrolla",
+      "destino": "concepto.karman",
+      "certeza": "D",
+      "nota": "Concibe el karma como una materia sutil que se adhiere al alma."
+    },
+    {
+      "id": "r1070",
+      "origen": "escuela.carvaka",
+      "tipo": "defiende",
+      "destino": "tesis.solo_percepcion",
+      "certeza": "P",
+      "nota": "Conocido solo por las refutaciones de sus adversarios."
+    },
+    {
+      "id": "r1071",
+      "origen": "tesis.solo_percepcion",
+      "tipo": "trata_sobre",
+      "destino": "concepto.pramana",
+      "certeza": "D"
+    },
+    {
+      "id": "r1072",
+      "origen": "escuela.carvaka",
+      "tipo": "critica",
+      "destino": "concepto.karman",
+      "certeza": "P",
+      "nota": "Conocido solo por las refutaciones de sus adversarios."
+    },
+    {
+      "id": "r1073",
+      "origen": "autor.ajita_kesakambali",
+      "tipo": "influyo_en",
+      "destino": "escuela.carvaka",
+      "certeza": "C",
+      "nota": "Suele considerarse un precursor; no hay prueba de continuidad directa."
+    },
+    {
+      "id": "r1080",
+      "origen": "autor.panini",
+      "tipo": "escribio",
+      "destino": "obra.ashtadhyayi",
+      "certeza": "D"
+    },
+    {
+      "id": "r1081",
+      "origen": "autor.patanjali_gramatico",
+      "tipo": "desarrolla",
+      "destino": "autor.panini",
+      "certeza": "D",
+      "nota": "En su Mahābhāṣya, el «gran comentario» a la gramática de Pāṇini."
+    },
+    {
+      "id": "r1090",
+      "origen": "autor.kanada",
+      "tipo": "escribio",
+      "destino": "obra.vaisesika_sutra",
+      "certeza": "C",
+      "nota": "Autoría tradicional; el texto creció en varias etapas."
+    },
+    {
+      "id": "r1091",
+      "origen": "obra.vaisesika_sutra",
+      "tipo": "trata_sobre",
+      "destino": "concepto.paramanu",
+      "certeza": "D"
+    },
+    {
+      "id": "r1092",
+      "origen": "obra.vaisesika_sutra",
+      "tipo": "trata_sobre",
+      "destino": "concepto.padartha",
+      "certeza": "D"
+    },
+    {
+      "id": "r1093",
+      "origen": "obra.vaisesika_sutra",
+      "tipo": "trata_sobre",
+      "destino": "concepto.dharma",
+      "certeza": "D",
+      "fuente": "Vaiśeṣikasūtra 1.1.1-2"
+    },
+    {
+      "id": "r1094",
+      "origen": "escuela.vaisesika",
+      "tipo": "defiende",
+      "destino": "tesis.asatkaryavada",
+      "certeza": "D"
+    },
+    {
+      "id": "r1100",
+      "origen": "autor.akshapada",
+      "tipo": "escribio",
+      "destino": "obra.nyaya_sutra",
+      "certeza": "C",
+      "nota": "Autoría tradicional; el texto pudo crecer en varias etapas."
+    },
+    {
+      "id": "r1101",
+      "origen": "obra.nyaya_sutra",
+      "tipo": "trata_sobre",
+      "destino": "concepto.pramana",
+      "certeza": "D",
+      "fuente": "Nyāyasūtra 1.1.3"
+    },
+    {
+      "id": "r1102",
+      "origen": "autor.vatsyayana",
+      "tipo": "escribio",
+      "destino": "obra.nyaya_bhasya",
+      "certeza": "D"
+    },
+    {
+      "id": "r1103",
+      "origen": "obra.nyaya_bhasya",
+      "tipo": "comenta",
+      "destino": "obra.nyaya_sutra",
+      "certeza": "D"
+    },
+    {
+      "id": "r1104",
+      "origen": "escuela.nyaya",
+      "tipo": "defiende",
+      "destino": "tesis.asatkaryavada",
+      "certeza": "D"
+    },
+    {
+      "id": "r1110",
+      "origen": "autor.jaimini",
+      "tipo": "escribio",
+      "destino": "obra.mimamsa_sutra",
+      "certeza": "C",
+      "nota": "Autoría tradicional."
+    },
+    {
+      "id": "r1111",
+      "origen": "autor.jaimini",
+      "tipo": "defiende",
+      "destino": "tesis.veda_sin_autor",
+      "certeza": "P",
+      "fuente": "Mīmāṃsāsūtra 1.1.27-32"
+    },
+    {
+      "id": "r1112",
+      "origen": "tesis.veda_sin_autor",
+      "tipo": "trata_sobre",
+      "destino": "concepto.apauruseya",
+      "certeza": "D"
+    },
+    {
+      "id": "r1113",
+      "origen": "obra.mimamsa_sutra",
+      "tipo": "trata_sobre",
+      "destino": "concepto.dharma",
+      "certeza": "D",
+      "fuente": "Mīmāṃsāsūtra 1.1.1-2"
+    },
+    {
+      "id": "r1114",
+      "origen": "autor.badarayana",
+      "tipo": "responde_a",
+      "destino": "autor.jaimini",
+      "certeza": "D",
+      "fuente": "Brahmasūtra 3.4.2 y otros pasajes; Mīmāṃsāsūtra 1.1.5",
+      "nota": "Ambos textos se citan mutuamente."
+    },
+    {
+      "id": "r1120",
+      "origen": "autor.badarayana",
+      "tipo": "escribio",
+      "destino": "obra.brahma_sutra",
+      "certeza": "C",
+      "nota": "Autoría tradicional."
+    },
+    {
+      "id": "r1121",
+      "origen": "obra.brahma_sutra",
+      "tipo": "trata_sobre",
+      "destino": "concepto.brahman",
+      "certeza": "D",
+      "fuente": "Brahmasūtra 1.1.1-2"
+    },
+    {
+      "id": "r1122",
+      "origen": "obra.brahma_sutra",
+      "tipo": "trata_sobre",
+      "destino": "concepto.atman",
+      "certeza": "D"
+    },
+    {
+      "id": "r1123",
+      "origen": "obra.brahma_sutra",
+      "tipo": "critica",
+      "destino": "escuela.samkhya",
+      "certeza": "D",
+      "fuente": "Brahmasūtra 2.2.1-10"
+    },
+    {
+      "id": "r1124",
+      "origen": "obra.brahma_sutra",
+      "tipo": "critica",
+      "destino": "escuela.vaisesika",
+      "certeza": "D",
+      "fuente": "Brahmasūtra 2.2.11-17"
+    },
+    {
+      "id": "r1125",
+      "origen": "obra.brahma_sutra",
+      "tipo": "critica",
+      "destino": "escuela.budismo",
+      "certeza": "D",
+      "fuente": "Brahmasūtra 2.2.18-32"
+    },
+    {
+      "id": "r1126",
+      "origen": "obra.brahma_sutra",
+      "tipo": "critica",
+      "destino": "escuela.jainismo",
+      "certeza": "D",
+      "fuente": "Brahmasūtra 2.2.33-36"
+    },
+    {
+      "id": "r1127",
+      "origen": "escuela.vedanta",
+      "tipo": "desarrolla",
+      "destino": "tesis.ayam_atma_brahma",
+      "certeza": "D",
+      "nota": "Las escuelas del Vedānta la interpretan de formas distintas."
+    },
+    {
+      "id": "r1130",
+      "origen": "autor.isvarakrsna",
+      "tipo": "escribio",
+      "destino": "obra.samkhyakarika",
+      "certeza": "D"
+    },
+    {
+      "id": "r1131",
+      "origen": "escuela.samkhya",
+      "tipo": "defiende",
+      "destino": "tesis.satkaryavada",
+      "certeza": "D",
+      "fuente": "Sāṃkhyakārikā 9"
+    },
+    {
+      "id": "r1132",
+      "origen": "tesis.satkaryavada",
+      "tipo": "se_opone_a",
+      "destino": "tesis.asatkaryavada",
+      "certeza": "D"
+    },
+    {
+      "id": "r1133",
+      "origen": "obra.samkhyakarika",
+      "tipo": "trata_sobre",
+      "destino": "concepto.purusa",
+      "certeza": "D"
+    },
+    {
+      "id": "r1134",
+      "origen": "obra.samkhyakarika",
+      "tipo": "trata_sobre",
+      "destino": "concepto.prakrti",
+      "certeza": "D"
+    },
+    {
+      "id": "r1135",
+      "origen": "obra.samkhyakarika",
+      "tipo": "trata_sobre",
+      "destino": "concepto.guna",
+      "certeza": "D"
+    },
+    {
+      "id": "r1136",
+      "origen": "obra.samkhyakarika",
+      "tipo": "trata_sobre",
+      "destino": "concepto.kaivalya",
+      "certeza": "D",
+      "fuente": "Sāṃkhyakārikā 68"
+    },
+    {
+      "id": "r1137",
+      "origen": "autor.isvarakrsna",
+      "tipo": "desarrolla",
+      "destino": "autor.kapila",
+      "certeza": "C",
+      "fuente": "Sāṃkhyakārikā 70-71",
+      "nota": "Según la propia obra; Kapila es una figura legendaria."
+    },
+    {
+      "id": "r1140",
+      "origen": "autor.patanjali",
+      "tipo": "escribio",
+      "destino": "obra.yogasutra",
+      "certeza": "P",
+      "nota": "Según Philipp Maas, los sūtras y su comentario son obra de un mismo autor."
+    },
+    {
+      "id": "r1141",
+      "origen": "autor.patanjali",
+      "tipo": "defiende",
+      "destino": "tesis.yoga_detencion",
+      "certeza": "D",
+      "fuente": "Yogasūtra 1.2"
+    },
+    {
+      "id": "r1142",
+      "origen": "autor.patanjali",
+      "tipo": "desarrolla",
+      "destino": "escuela.samkhya",
+      "certeza": "D"
+    },
+    {
+      "id": "r1143",
+      "origen": "obra.yogasutra",
+      "tipo": "trata_sobre",
+      "destino": "concepto.kaivalya",
+      "certeza": "D"
+    },
+    {
+      "id": "r1144",
+      "origen": "obra.yogasutra",
+      "tipo": "trata_sobre",
+      "destino": "concepto.purusa",
+      "certeza": "D"
+    },
+    {
+      "id": "r1145",
+      "origen": "obra.yogasutra",
+      "tipo": "trata_sobre",
+      "destino": "concepto.ahimsa",
+      "certeza": "D",
+      "fuente": "Yogasūtra 2.30"
+    },
+    {
+      "id": "r1146",
+      "origen": "tesis.yoga_detencion",
+      "tipo": "trata_sobre",
+      "destino": "concepto.purusa",
+      "certeza": "D",
+      "fuente": "Yogasūtra 1.3"
+    },
+    {
+      "id": "r1150",
+      "origen": "obra.bhagavadgita",
+      "tipo": "trata_sobre",
+      "destino": "concepto.dharma",
+      "certeza": "D"
+    },
+    {
+      "id": "r1151",
+      "origen": "obra.bhagavadgita",
+      "tipo": "trata_sobre",
+      "destino": "concepto.karman",
+      "certeza": "D"
+    },
+    {
+      "id": "r1152",
+      "origen": "obra.bhagavadgita",
+      "tipo": "trata_sobre",
+      "destino": "concepto.moksa",
+      "certeza": "D"
+    },
+    {
+      "id": "r1160",
+      "origen": "autor.asoka",
+      "tipo": "escribio",
+      "destino": "obra.edictos_asoka",
+      "certeza": "D"
+    },
+    {
+      "id": "r1161",
+      "origen": "obra.edictos_asoka",
+      "tipo": "trata_sobre",
+      "destino": "concepto.dharma",
+      "certeza": "D",
+      "nota": "Aśoka usa dhamma en sentido moral: respeto, generosidad y no violencia."
+    },
+    {
+      "id": "r1162",
+      "origen": "obra.edictos_asoka",
+      "tipo": "trata_sobre",
+      "destino": "concepto.ahimsa",
+      "certeza": "D",
+      "fuente": "Edicto de roca 1"
+    },
+    {
+      "id": "r1170",
+      "origen": "concepto.anekantavada",
+      "tipo": "paralelo_a",
+      "destino": "tesis.perspectivas",
+      "certeza": "P",
+      "ejeComparacion": "Relatividad de los puntos de vista",
+      "nota": "Ambas tradiciones sostienen que cada afirmación depende de una perspectiva. Sin contacto conocido entre ellas."
+    },
+    {
+      "id": "r1171",
+      "origen": "concepto.paramanu",
+      "tipo": "paralelo_a",
+      "destino": "tesis.divisibilidad",
+      "certeza": "P",
+      "ejeComparacion": "¿Es la materia divisible sin fin?",
+      "nota": "Respuestas opuestas: el Vaiśeṣika postula átomos indivisibles; la paradoja china, una divisibilidad infinita. Sin contacto conocido."
+    },
+    {
+      "id": "r1172",
+      "origen": "autor.buda",
+      "tipo": "paralelo_a",
+      "destino": "autor.confucio",
+      "certeza": "P",
+      "ejeComparacion": "Maestros que no escribieron: su enseñanza nos llega por sus discípulos",
+      "nota": "Casi contemporáneos y sin contacto conocido."
+    }
+  ]
+}

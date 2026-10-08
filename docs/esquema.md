@@ -21,7 +21,8 @@ Los datos se reparten en varios archivos que la app carga y une al arrancar:
 | --- | --- |
 | `comun.json` | Catálogo de tipos de relación (`tiposRelacion`) y las 14 temáticas |
 | `china-antigua.json` | Tradición china de la Antigüedad |
-| `india-antigua.json`, `grecorromana-antigua.json`… | Resto de tradiciones y épocas (pendientes) |
+| `india-antigua.json` | Tradición india de la Antigüedad |
+| `grecorromana-antigua.json`… | Resto de tradiciones y épocas (pendientes) |
 
 Cada archivo tiene la misma forma:
 
@@ -39,7 +40,7 @@ Una relación o un enlace puede apuntar a un nodo de otro archivo; por eso el va
 
 **Identificadores:** `tipo.nombre` en minúsculas, sin tildes ni espacios: `autor.platon`, `obra.republica`, `concepto.ren`, `contexto.cien_escuelas`. El prefijo evita choques como «Zhuangzi» autor frente a *Zhuangzi* obra (`autor.zhuangzi` y `obra.zhuangzi`).
 
-**Ids de relación:** únicos en todo el proyecto. Cada archivo usa su propio rango para no chocar (China antigua: `r0001`–`r0999`).
+**Ids de relación:** únicos en todo el proyecto. Cada archivo usa su propio rango para no chocar: China antigua `r0001`–`r0999`, India antigua `r1000`–`r1999`, Grecia y Roma `r2000`–`r2999`, Próximo Oriente `r3000`–`r3999`.
 
 **Años:** números enteros, negativos antes de Cristo (−551 = 551 a. C.). No existe el año 0: de −1 se pasa a 1. La app se encarga de mostrarlos como «551 a. C.».
 
@@ -99,6 +100,34 @@ Una relación o un enlace puede apuntar a un nodo de otro archivo; por eso el va
 ```
 
 Escala de fiabilidad: **A** fuente contemporánea, **B** fuente antigua seria pero tardía, **C** tradición antigua o anécdota literaria, **L** leyenda. La app nunca muestra la letra suelta, sino su significado. Toda la caja se desbloquea como carta coleccionable al visitar al autor.
+
+## Imágenes
+
+Cualquier nodo puede llevar un campo opcional `imagenes`, una lista de imágenes libres de derechos o con licencia compatible:
+
+```json
+"imagenes": [
+  {
+    "archivo": "imagenes/china/confucio-retrato.webp",
+    "fuente": "https://commons.wikimedia.org/wiki/File:…",
+    "tipo": "retrato_imaginario",
+    "pie": "Confucio. Representación imaginaria, grabado de época Ming (s. XVI).",
+    "fechaObra": "s. XVI",
+    "autorObra": "Anónimo",
+    "licencia": "dominio_publico",
+    "credito": ""
+  }
+]
+```
+
+- `tipo`: retrato_imaginario, escultura, manuscrito, inscripcion, lugar, objeto u otro.
+- `licencia`: dominio_publico, CC0, CC-BY-4.0, CC-BY-SA-4.0 (o versiones 2.0, 2.5 y 3.0 de las dos últimas). **No se admiten licencias no comerciales (NC) ni sin obras derivadas (ND)**, porque son incompatibles con la licencia CC BY-SA de los datos.
+- `credito`: obligatorio con licencias CC BY y CC BY-SA; es el texto de atribución que la app muestra bajo la imagen.
+- **La obra frente a la foto.** Una obra antigua es de dominio público, pero la foto de un objeto en tres dimensiones (una estatua, un relieve) puede tener derechos del fotógrafo: la licencia que cuenta es la de la foto.
+- **Rigor en el pie.** Casi no existen retratos reales de filósofos antiguos. Toda imagen de una persona hecha mucho después indica que es una representación imaginaria y su fecha.
+- **Tamaño.** Las imágenes se guardan en `imagenes/`, en formato WebP y con unos 800 píxeles de lado mayor (alrededor de 100 KB), y la app solo las carga al abrir la ficha.
+
+El validador comprueba los campos obligatorios, las licencias admitidas y que el archivo exista.
 
 ## Relaciones
 

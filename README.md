@@ -4,7 +4,7 @@ Mapa interactivo de la historia de la filosofía. Autores, obras, conceptos y te
 
 **Autor:** Juan Domínguez Gallego
 
-> Estado: en desarrollo. Ahora mismo el repositorio contiene los primeros datos del piloto de la Antigüedad (tradición china) y la documentación del esquema. El código de la aplicación llegará con el primer prototipo.
+> Estado: en desarrollo. Ahora mismo el repositorio contiene los datos del piloto de la Antigüedad para las tradiciones china e india y la documentación del esquema. Grecia y Roma y el Próximo Oriente están en preparación; el código de la aplicación llegará con el primer prototipo.
 
 ## Qué es
 
@@ -21,8 +21,9 @@ Mapa interactivo de la historia de la filosofía. Autores, obras, conceptos y te
 datos/          Datos de la red, un archivo por tradición y época
   comun.json          Catálogo de tipos de relación y las 14 temáticas
   china-antigua.json  Piloto de la Antigüedad: tradición china
+  india-antigua.json  Piloto de la Antigüedad: tradición india
 herramientas/   Utilidades de mantenimiento
-  validar.py          Comprueba enlaces, relaciones, fechas y referencias
+  validar.py          Comprueba enlaces, relaciones, fechas, referencias e imágenes
 docs/           Documentación
   esquema.md          Formato de los datos y guía de redacción
 ```
