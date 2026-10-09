@@ -227,6 +227,7 @@
   }
 
   function cambiarVista(v, centro) {
+    if (v !== E.vista) posPrevias = new Map();
     E.vista = v;
     if (centro) E.centro = centro;
     raiz.querySelectorAll(".vistas button").forEach((b, i) =>
@@ -450,65 +451,113 @@
   }
 
   // ------------------------------------------------------------------ vista en red
+  // El nodo elegido en el centro y sus relaciones alrededor, agrupadas por tipo en sectores,
+  // con un solo rótulo por grupo. Al cambiar de centro, los nodos se desplazan con una transición.
   const FORMA = {
     autor: d3.symbolCircle, obra: d3.symbolSquare, concepto: d3.symbolDiamond, tesis: d3.symbolTriangle,
-    escuela: d3.symbolWye, pregunta: d3.symbolStar, experimento: d3.symbolCross,
+    escuela: d3.symbolStar, pregunta: d3.symbolCross, experimento: d3.symbolWye,
   };
+  let posPrevias = new Map();
+  function ordenGrupo(etiqueta) {
+    // Orden de lectura alrededor del reloj: personas, obras, ideas, debates y paralelos.
+    const orden = ["fue discípulo de", "fue maestro de", "recibió influencia de", "influyó en", "escribió", "escrita por",
+      "se conoce a través de", "es fuente sobre", "desarrolla", "es desarrollado por", "defiende", "es defendida por",
+      "trata sobre", "se trata en", "responde a", "recibe respuesta de", "critica", "es criticado por", "se opone a",
+      "comenta", "es comentada por", "es parte de", "contiene", "es paralelo a"];
+    const k = orden.indexOf(etiqueta);
+    return k < 0 ? 50 : k;
+  }
   function dibujarRed() {
     const ancho = escenario.clientWidth, alto = escenario.clientHeight;
-    const anchoUtil = fichaEl && !fichaEl.hidden && ancho > 720 ? ancho - fichaEl.offsetWidth : ancho;
+    const anchoUtil = ancho - anchoFicha();
     if (!E.centro || !E.nodos.has(E.centro)) E.centro = "autor.socrates";
     if (!E.nodos.has(E.centro)) E.centro = [...E.nodos.keys()].find((k) => k.startsWith("autor."));
     const c = E.centro;
+    const cx = anchoUtil / 2, cy = alto / 2;
 
+    // Vecinos agrupados por cómo se leen desde el centro
     const rels = [...(E.salen.get(c) || []), ...(E.entran.get(c) || [])].filter((r) => E.certezas.has(r.certeza));
-    const ids = new Set([c]);
-    rels.forEach((r) => { ids.add(r.origen); ids.add(r.destino); });
-    const nodos = [...ids].map((id) => ({ id, n: E.nodos.get(id) }));
-    const porId = new Map(nodos.map((d) => [d.id, d]));
-    const enlaces = rels.map((r) => ({ r, source: porId.get(r.origen), target: porId.get(r.destino) }));
-    const central = porId.get(c);
-    central.fx = anchoUtil / 2; central.fy = alto / 2;
-
-    const g = svg.append("g");
-    const zoom = d3.zoom().scaleExtent([0.3, 4]).on("zoom", (ev) => g.attr("transform", ev.transform));
-    svg.call(zoom).on("dblclick.zoom", null);
-
-    const radio = Math.min(anchoUtil, alto) * 0.36;
-    const muchos = nodos.length > 26;
-    const sim = d3.forceSimulation(nodos)
-      .force("enlace", d3.forceLink(enlaces).distance(muchos ? radio * 0.95 : radio).strength(0.6))
-      .force("carga", d3.forceManyBody().strength(muchos ? -260 : -420))
-      .force("choque", d3.forceCollide().radius(muchos ? 34 : 46))
-      .force("x", d3.forceX(anchoUtil / 2).strength(0.03))
-      .force("y", d3.forceY(alto / 2).strength(0.05))
-      .stop();
-    for (let i = 0; i < 260; i++) sim.tick();
-
-    const aristas = g.append("g").selectAll("line").data(enlaces).join("line")
-      .attr("class", (d) => `arista c-${d.r.certeza} ${d.r.tipo === "paralelo_a" ? "paralelo" : ""}`)
-      .attr("x1", (d) => d.source.x).attr("y1", (d) => d.source.y).attr("x2", (d) => d.target.x).attr("y2", (d) => d.target.y);
-    aristas.append("title").text((d) => leerRelacion(d.r, c).frase);
-
-    if (!muchos) {
-      g.append("g").selectAll("text").data(enlaces).join("text").attr("class", "arista-texto")
-        .attr("x", (d) => (d.source.x + d.target.x) / 2).attr("y", (d) => (d.source.y + d.target.y) / 2)
-        .attr("text-anchor", "middle").text((d) => leerRelacion(d.r, c).etiqueta);
+    const grupos = [...d3.group(rels.map((r) => ({ r, ...leerRelacion(r, c) })), (d) => d.etiqueta)]
+      .sort((a, b) => ordenGrupo(a[0]) - ordenGrupo(b[0]));
+    const total = rels.length;
+    const R = Math.max(130, Math.min(anchoUtil, alto) * 0.36);
+    const hueco = total > 1 ? 0.18 : 0;              // separación entre sectores, en radianes
+    const libre = 2 * Math.PI - hueco * grupos.length;
+    let angulo = -Math.PI / 2 - (grupos.length > 1 ? 0 : 0);
+    const vecinos = [], rotulos = [];
+    for (const [etiqueta, lista] of grupos) {
+      const ancho_ = total ? (libre * lista.length) / total : 0;
+      lista.forEach((d, k) => {
+        const a = angulo + ancho_ * (lista.length === 1 ? 0.5 : (k + 0.5) / lista.length);
+        // Si hay muchos vecinos, alternan dos radios para que los nombres no choquen.
+        const radio = total > 14 && k % 2 ? R + 46 : R;
+        vecinos.push({ id: d.otro, n: E.nodos.get(d.otro), r: d.r, a, x: cx + radio * Math.cos(a), y: cy + radio * Math.sin(a), etiqueta });
+      });
+      const medio = angulo + ancho_ / 2;
+      rotulos.push({ etiqueta, n: lista.length, a: medio });
+      angulo += ancho_ + hueco;
     }
 
-    const nodosG = g.append("g").selectAll("g").data(nodos).join("g")
-      .attr("class", (d) => `nodo v${nivelNiebla(d.id)} ${d.id === c ? "centro" : ""}`)
-      .attr("transform", (d) => `translate(${d.x},${d.y})`)
+    const g = svg.append("g");
+    const zoom = d3.zoom().scaleExtent([0.4, 3]).on("zoom", (ev) => g.attr("transform", ev.transform));
+    svg.call(zoom).on("dblclick.zoom", null);
+
+    // Posición de partida para la transición: donde estaba cada nodo, o donde estaba el nuevo centro.
+    const origen = posPrevias.get(c) || { x: cx, y: cy };
+    const desde = (id) => posPrevias.get(id) || origen;
+    const dur = posPrevias.size && !window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 550 : 0;
+
+    // Aristas
+    const aristas = g.append("g").selectAll("line").data(vecinos).join("line")
+      .attr("class", (d) => `arista c-${d.r.certeza} ${d.r.tipo === "paralelo_a" ? "paralelo" : ""}`)
+      .attr("x1", origen.x).attr("y1", origen.y).attr("x2", (d) => desde(d.id).x).attr("y2", (d) => desde(d.id).y);
+    aristas.append("title").text((d) => leerRelacion(d.r, c).frase);
+    aristas.transition().duration(dur).attr("x1", cx).attr("y1", cy).attr("x2", (d) => d.x).attr("y2", (d) => d.y);
+
+    // Un rótulo por grupo, sobre el sector
+    g.append("g").selectAll("text").data(rotulos).join("text").attr("class", "sector")
+      .attr("text-anchor", "middle")
+      .attr("x", (d, i) => cx + R * (0.42 + 0.17 * (i % 2)) * Math.cos(d.a)).attr("y", (d, i) => cy + R * (0.42 + 0.17 * (i % 2)) * Math.sin(d.a) + 4)
+      .text((d) => (d.n > 1 ? `${d.etiqueta} (${d.n})` : d.etiqueta))
+      .attr("opacity", 0).transition().delay(dur * 0.6).duration(250).attr("opacity", 1);
+
+    // Nodos
+    const nodosDatos = [{ id: c, n: E.nodos.get(c), x: cx, y: cy, centro: true }, ...vecinos];
+    const nodosG = g.append("g").selectAll("g").data(nodosDatos).join("g")
+      .attr("class", (d) => `nodo v${nivelNiebla(d.id)} ${d.centro ? "centro" : ""}`)
+      .attr("transform", (d) => `translate(${desde(d.id).x},${desde(d.id).y})`)
       .attr("tabindex", 0).attr("role", "button").attr("aria-label", (d) => d.n.nombre)
-      .on("click", (ev, d) => irA(d.id, c))
-      .on("keydown", (ev, d) => { if (ev.key === "Enter") irA(d.id, c); });
-    nodosG.append("path").attr("d", (d) => d3.symbol(FORMA[d.n.tipo] || d3.symbolCircle, d.id === c ? 420 : 170)());
-    nodosG.append("text").attr("y", (d) => (d.id === c ? 30 : 22)).attr("text-anchor", "middle").text((d) => d.n.nombre);
+      .on("click", (ev, d) => irA(d.id))
+      .on("keydown", (ev, d) => { if (ev.key === "Enter") irA(d.id); });
+    nodosG.transition().duration(dur).attr("transform", (d) => `translate(${d.x},${d.y})`);
+    nodosG.append("path").attr("d", (d) => d3.symbol(FORMA[d.n.tipo] || d3.symbolCircle, d.centro ? 700 : 260)());
+    // El nombre va hacia fuera del círculo, para no pisar las aristas.
+    nodosG.append("text")
+      .attr("text-anchor", (d) => (d.centro ? "middle" : Math.cos(d.a) > 0.25 ? "start" : Math.cos(d.a) < -0.25 ? "end" : "middle"))
+      .attr("x", (d) => (d.centro ? 0 : Math.cos(d.a) > 0.25 ? 14 : Math.cos(d.a) < -0.25 ? -14 : 0))
+      .attr("y", (d) => (d.centro ? 38 : Math.sin(d.a) > 0.5 ? 26 : Math.sin(d.a) < -0.5 ? -16 : 5))
+      .text((d) => corto(d.n.nombre, d.centro ? 40 : 28));
     nodosG.append("title").text((d) => `${ETIQUETA_TIPO[d.n.tipo] || d.n.tipo}: ${d.n.nombre}`);
 
-    function irA(id, desde) {
+    // Encuadre: si los nombres se salen de la pantalla, se aleja lo justo para que quepa todo.
+    let x0_ = cx, x1_ = cx, y0_ = cy - 30, y1_ = cy + 50;
+    for (const d of vecinos) {
+      const w = corto(d.n.nombre, 28).length * 7.4 + 16;
+      const izq = Math.cos(d.a) < -0.25 ? d.x - w : Math.cos(d.a) > 0.25 ? d.x : d.x - w / 2;
+      x0_ = Math.min(x0_, izq); x1_ = Math.max(x1_, izq + w);
+      y0_ = Math.min(y0_, d.y - 30); y1_ = Math.max(y1_, d.y + 34);
+    }
+    const margen = 20, abajo = 60;
+    const escala = Math.min(1, (anchoUtil - 2 * margen) / (x1_ - x0_), (alto - margen - abajo) / (y1_ - y0_));
+    const tx = anchoUtil / 2 - escala * (x0_ + x1_) / 2, tyR = (alto - abajo + margen) / 2 - escala * (y0_ + y1_) / 2;
+    svg.call(zoom.transform, d3.zoomIdentity.translate(tx, tyR).scale(escala));
+
+    posPrevias = new Map(nodosDatos.map((d) => [d.id, { x: d.x, y: d.y }]));
+
+    function irA(id) {
+      if (id === c) { abrirFicha(id); return; }
       E.centro = id;
-      abrirFicha(id, desde);
+      abrirFicha(id, c);
     }
 
     const certezas = E.base.certezas;
@@ -521,11 +570,14 @@
       leyendaNiebla(),
     ]);
     if (rels.length === 0) {
-      g.append("text").attr("x", anchoUtil / 2).attr("y", alto / 2 + 60).attr("text-anchor", "middle")
-        .attr("class", "arista-texto").text("Este nodo no tiene relaciones con los filtros elegidos.");
+      g.append("text").attr("x", cx).attr("y", cy + 70).attr("text-anchor", "middle")
+        .attr("class", "sector").text("Este nodo no tiene relaciones con los filtros elegidos.");
     }
   }
 
+  function corto(texto, max) {
+    return texto.length <= max ? texto : texto.slice(0, max - 1).replace(/\s+\S*$/, "") + "…";
+  }
   function leerRelacion(r, desde) {
     const t = E.tipos[r.tipo] || { directo: r.tipo, inverso: r.tipo };
     const sale = r.origen === desde;
@@ -571,7 +623,7 @@
         fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista c-L"/>'), "Puntos sueltos: legendaria."),
         fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista paralelo"/>'), "Azul: paralelo entre tradiciones, sin influencia conocida."),
       ]));
-      panel.append(crear("p", { text: "Forma de cada nodo: círculo, autor; cuadrado, obra; rombo, concepto; triángulo, tesis." }));
+      panel.append(crear("p", { text: "Forma de cada nodo: círculo, autor; cuadrado, obra; rombo, concepto; triángulo, tesis; estrella, escuela. Pulsa un nodo para ponerlo en el centro." }));
     }
     const boton = crear("button", {
       class: "chip", "aria-expanded": "false", "aria-controls": "leyenda-panel", text: "Cómo leer el mapa",

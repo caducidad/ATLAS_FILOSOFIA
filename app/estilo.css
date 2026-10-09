@@ -7,6 +7,7 @@
   --cielo-alto: #121b2f;
   --panel: #151f36;
   --linea: #263252;
+  --arista: #34436a;
   --tinta: #ece5d3;
   --tenue: #93a0b8;
   --apagado: #5c6984;
@@ -116,7 +117,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .item:hover text { fill: var(--foco); }
 
 /* Red */
-.arista { stroke: var(--linea); stroke-width: 1.4; fill: none; }
+.arista { stroke: var(--arista); stroke-width: 1.4; fill: none; }
 .arista.c-P { stroke-dasharray: 6 3; }
 .arista.c-C { stroke-dasharray: 2 3; }
 .arista.c-L { stroke-dasharray: 1 5; }
@@ -128,10 +129,13 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .nodo.v1 path { fill: var(--brasa-1); stroke: var(--brasa-1); }
 .nodo.v2 path { fill: var(--brasa-2); stroke: var(--brasa-2); }
 .nodo.v3 path { fill: var(--brasa-3); stroke: var(--brasa-3); }
-.nodo.centro path { stroke: var(--foco); stroke-width: 2.5; stroke-dasharray: none; }
+.nodo.centro path { stroke: var(--foco); stroke-width: 2.5; }
+.nodo.centro.v0 path { fill: var(--cielo-alto); }
 .nodo text { fill: var(--tinta); font-family: var(--f-display); font-size: 13px; paint-order: stroke; stroke: var(--cielo); stroke-width: 3.5px; stroke-linejoin: round; }
 .nodo.v0 text { fill: var(--tenue); }
-.nodo.centro text { font-size: 17px; fill: var(--foco); }
+.nodo.centro text { font-size: 19px; fill: var(--foco); font-weight: 700; }
+.nodo text { font-size: 14px; }
+.sector { fill: var(--tenue); font-family: var(--f-ui); font-size: 11px; letter-spacing: 0.04em; paint-order: stroke; stroke: var(--cielo); stroke-width: 4px; }
 .nodo:hover text { fill: var(--foco); }
 
 /* Controles flotantes sobre el mapa */
