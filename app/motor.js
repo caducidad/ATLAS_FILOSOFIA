@@ -34,7 +34,7 @@
     atlas: null, nodos: new Map(), relaciones: [], tipos: {}, base: null,
     salen: new Map(), entran: new Map(), miembros: new Map(),
     vista: "cronologica", centro: null, ficha: null, anterior: null,
-    verObras: false, modoRed: "centro", certezas: new Set(["D", "P", "C", "L"]),
+    verObras: false, modoRed: "todo", certezas: new Set(["D", "P", "C", "L"]),
   };
 
   // ------------------------------------------------------------------ utilidades
@@ -468,11 +468,10 @@
     return k < 0 ? 50 : k;
   }
   function dibujarRed() {
-    if (E.modoRed === "todo") { dibujarRedCompleta(); return; }
+    // Sin ningún nodo elegido, la red se abre entera.
+    if (E.modoRed === "todo" || !E.centro || !E.nodos.has(E.centro)) { E.modoRed = "todo"; dibujarRedCompleta(); return; }
     const ancho = escenario.clientWidth, alto = escenario.clientHeight;
     const anchoUtil = ancho - anchoFicha();
-    if (!E.centro || !E.nodos.has(E.centro)) E.centro = "autor.socrates";
-    if (!E.nodos.has(E.centro)) E.centro = [...E.nodos.keys()].find((k) => k.startsWith("autor."));
     const c = E.centro;
     const cx = anchoUtil / 2, cy = alto / 2;
 
@@ -587,9 +586,14 @@
   }
 
   function conmutadorRed() {
-    const nombre = E.nodos.get(E.centro) ? E.nodos.get(E.centro).nombre : "un nodo";
+    const elegido = E.nodos.get(E.centro);
+    const nombre = elegido ? elegido.nombre : "un nodo";
     const grupo = crear("div", { class: "vistas pequena", role: "group", "aria-label": "Qué parte de la red" }, [
-      crear("button", { "aria-pressed": String(E.modoRed === "centro"), text: `Alrededor de ${corto(nombre, 22)}`, onclick: () => { E.modoRed = "centro"; dibujar(); } }),
+      crear("button", {
+        "aria-pressed": String(E.modoRed === "centro"), text: `Alrededor de ${corto(nombre, 22)}`, disabled: !elegido,
+        title: elegido ? "" : "Elige antes un nodo: pulsa uno, búscalo o usa «Llévame a algún sitio»",
+        onclick: () => { E.modoRed = "centro"; dibujar(); },
+      }),
       crear("button", { "aria-pressed": String(E.modoRed === "todo"), text: "Toda la red", onclick: () => { E.modoRed = "todo"; dibujar(); } }),
     ]);
     return grupo;
@@ -919,7 +923,7 @@
     const acciones = [];
     // En el móvil la ficha tapa el mapa: al pedir verlo, se recoge.
     const recoger = () => { if (escenario.clientWidth <= 720) fichaEl.hidden = true; };
-    if (rels.length) acciones.push(crear("button", { class: "boton", text: "Ver en la red", onclick: () => { recoger(); E.centro = id; cambiarVista("libre"); } }));
+    if (rels.length) acciones.push(crear("button", { class: "boton", text: "Ver en la red", onclick: () => { recoger(); E.centro = id; E.modoRed = "centro"; cambiarVista("libre"); } }));
     if (extension(n.fechas)) acciones.push(crear("button", {
       class: "boton", text: "Ver en la línea del tiempo",
       onclick: () => { recoger(); cambiarVista("cronologica"); setTimeout(() => crono && crono.irA(id), 30); },
@@ -977,6 +981,7 @@
       entrada.value = ""; resultados = []; pintar(); entrada.blur();
       if (E.vista === "cronologica" && !extension(n.fechas)) E.vista = "libre";
       E.centro = n.id;
+      E.modoRed = "centro";
       abrirFicha(n.id, null);
       cambiarVista(E.vista);
       if (E.vista === "cronologica") setTimeout(() => crono && crono.irA(n.id), 30);
@@ -1018,6 +1023,7 @@
     for (const n of candidatos) { r -= peso(n); if (r <= 0) { elegido = n; break; } }
     if (!extension(elegido.fechas)) E.vista = "libre";
     E.centro = elegido.id;
+      E.modoRed = "centro";
     abrirFicha(elegido.id, null);
     cambiarVista(E.vista);
     if (E.vista === "cronologica") setTimeout(() => crono && crono.irA(elegido.id), 30);
@@ -1128,6 +1134,7 @@
       const n = E.nodos.get(id);
       if (!extension(n.fechas)) E.vista = "libre";
       E.centro = id;
+      E.modoRed = "centro";
       abrirFicha(id, null);
       cambiarVista(E.vista);
     }

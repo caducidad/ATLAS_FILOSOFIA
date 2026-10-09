@@ -273,6 +273,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .cuna { fill: var(--cuna); }
 .cuna.impar { fill: var(--cuna-2); }
 .vistas.pequena button { font-size: var(--t-xs); padding: 0.3rem 0.65rem; }
+.vistas button:disabled { color: var(--apagado); cursor: not-allowed; }
 .vistas.pequena { background: var(--panel); }
 .m-forma { fill: none; stroke: var(--tinta); stroke-width: 1.3; }
 .arista.tenue { stroke-opacity: 0.35; stroke-width: 0.9; }
