@@ -223,6 +223,7 @@
       if (ev.ctrlKey || ev.metaKey || ev.altKey || (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA"))) return;
       if (raiz.querySelector(".capa")) return;
       if (E.vista === "cronologica" && crono && crono.teclado && crono.teclado(ev)) ev.preventDefault();
+      else if (E.vista === "libre" && teclaRed(ev)) ev.preventDefault();
     });
   }
 
@@ -419,7 +420,7 @@
     empaquetar(k);
     ty = clampY(ty);
     // La rueda desplaza (arriba y abajo, y a los lados en los paneles táctiles); con Ctrl, o pellizcando, acerca el tiempo.
-    zoom.filter((ev) => (ev.type === "wheel" ? ev.ctrlKey : !ev.button));
+    zoom.filter((ev) => (ev.type === "wheel" ? ev.ctrlKey : !ev.button)).wheelDelta(ruedaSuave);
     svg.call(zoom).on("dblclick.zoom", null);
     svg.on("wheel.desplazar", (ev) => {
       if (ev.ctrlKey) return;
@@ -500,6 +501,7 @@
 
     const g = svg.append("g");
     const zoom = d3.zoom().scaleExtent([0.4, 3]).on("zoom", (ev) => g.attr("transform", ev.transform));
+    prepararZoomRed(zoom, [cx, cy]);
     svg.call(zoom).on("dblclick.zoom", null);
 
     // Posición de partida para la transición: donde estaba cada nodo, o donde estaba el nuevo centro.
@@ -571,6 +573,7 @@
 
     const certezas = E.base.certezas;
     controles([
+      ...botonesZoom((f) => zoomRed.acercar(f)),
       conmutadorRed(),
       ...Object.entries(certezas).map(([k, v]) => crear("button", {
         class: "chip", "aria-pressed": String(E.certezas.has(k)), text: v,
@@ -583,6 +586,31 @@
       g.append("text").attr("x", cx).attr("y", cy + 70).attr("text-anchor", "middle")
         .attr("class", "sector").text("Este nodo no tiene relaciones con los filtros elegidos.");
     }
+  }
+
+  // Zoom de las vistas de red: rueda suave, botones + y −, teclas + y − y flechas, todo con transición.
+  let zoomRed = null;
+  const ruedaSuave = (ev) => -ev.deltaY * (ev.deltaMode === 1 ? 0.03 : ev.deltaMode ? 1 : 0.0012) * (ev.ctrlKey ? 6 : 1);
+  function prepararZoomRed(zoom, punto) {
+    zoom.wheelDelta(ruedaSuave);
+    zoomRed = {
+      acercar(f) { svg.transition().duration(250).call(zoom.scaleBy, f, punto); },
+      mover(dx, dy) { const k = d3.zoomTransform(svg.node()).k; svg.transition().duration(150).call(zoom.translateBy, dx / k, dy / k); },
+    };
+  }
+  function botonesZoom(acercar) {
+    return [
+      crear("button", { class: "chip", text: "＋", "aria-label": "Acercar", title: "Acercar (también la tecla +, la rueda o pellizcando)", onclick: () => acercar(1.5) }),
+      crear("button", { class: "chip", text: "－", "aria-label": "Alejar", title: "Alejar (también la tecla −)", onclick: () => acercar(1 / 1.5) }),
+    ];
+  }
+  function teclaRed(ev) {
+    if (!zoomRed) return false;
+    const pasos = { ArrowLeft: [100, 0], ArrowRight: [-100, 0], ArrowUp: [0, 100], ArrowDown: [0, -100] };
+    if (pasos[ev.key]) { zoomRed.mover(...pasos[ev.key]); return true; }
+    if (ev.key === "+" || ev.key === "=") { zoomRed.acercar(1.4); return true; }
+    if (ev.key === "-" || ev.key === "_") { zoomRed.acercar(1 / 1.4); return true; }
+    return false;
   }
 
   function conmutadorRed() {
@@ -672,6 +700,7 @@
       g.classed("cerca", ev.transform.k >= 1.6);
       E.transRed = ev.transform;
     });
+    prepararZoomRed(zoom, [anchoUtil / 2, alto / 2]);
     svg.call(zoom).on("dblclick.zoom", null);
     if (E.transRed) svg.call(zoom.transform, E.transRed);
     else {
@@ -681,6 +710,7 @@
       svg.call(zoom.transform, d3.zoomIdentity.translate(anchoUtil / 2 - k * (x0 + x1) / 2, (alto - 60) / 2 - k * (y0 + y1) / 2).scale(k));
     }
     controles([
+      ...botonesZoom((f) => zoomRed.acercar(f)),
       conmutadorRed(),
       ...Object.entries(E.base.certezas).map(([k, v]) => crear("button", {
         class: "chip", "aria-pressed": String(E.certezas.has(k)), text: v,
@@ -747,6 +777,7 @@
       panel.append(crear("p", { text: E.modoRed === "todo"
         ? "Toda la red: cada tradición forma una constelación y las líneas azules son los paralelos entre tradiciones. Acerca para ver todos los nombres; pulsa un nodo para abrir su ficha y resaltar sus relaciones."
         : "Alrededor de un nodo: cada sector sombreado agrupa las relaciones del mismo tipo, y el rótulo se lee desde el centro hacia fuera. «Fue maestro de (3)» quiere decir que el nodo central fue maestro de los tres nodos de ese sector. Pulsa un nodo para ponerlo en el centro." }));
+      panel.append(crear("p", { text: "Para moverte: arrastra o usa las flechas del teclado. Para acercar o alejar: los botones + y −, las teclas + y −, la rueda del ratón o pellizcando con dos dedos." }));
     }
     const boton = crear("button", {
       class: "chip", "aria-expanded": "false", "aria-controls": "leyenda-panel", text: "Cómo leer el mapa",
