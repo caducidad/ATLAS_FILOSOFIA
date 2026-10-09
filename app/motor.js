@@ -34,7 +34,7 @@
     atlas: null, nodos: new Map(), relaciones: [], tipos: {}, base: null,
     salen: new Map(), entran: new Map(), miembros: new Map(),
     vista: "cronologica", centro: null, ficha: null, anterior: null,
-    verObras: false, certezas: new Set(["D", "P", "C", "L"]),
+    verObras: false, modoRed: "centro", certezas: new Set(["D", "P", "C", "L"]),
   };
 
   // ------------------------------------------------------------------ utilidades
@@ -468,6 +468,7 @@
     return k < 0 ? 50 : k;
   }
   function dibujarRed() {
+    if (E.modoRed === "todo") { dibujarRedCompleta(); return; }
     const ancho = escenario.clientWidth, alto = escenario.clientHeight;
     const anchoUtil = ancho - anchoFicha();
     if (!E.centro || !E.nodos.has(E.centro)) E.centro = "autor.socrates";
@@ -494,7 +495,7 @@
         vecinos.push({ id: d.otro, n: E.nodos.get(d.otro), r: d.r, a, x: cx + radio * Math.cos(a), y: cy + radio * Math.sin(a), etiqueta });
       });
       const medio = angulo + ancho_ / 2;
-      rotulos.push({ etiqueta, n: lista.length, a: medio });
+      rotulos.push({ etiqueta, n: lista.length, a: medio, a0: angulo, a1: angulo + ancho_ });
       angulo += ancho_ + hueco;
     }
 
@@ -506,6 +507,15 @@
     const origen = posPrevias.get(c) || { x: cx, y: cy };
     const desde = (id) => posPrevias.get(id) || origen;
     const dur = posPrevias.size && !window.matchMedia("(prefers-reduced-motion: reduce)").matches ? 550 : 0;
+
+    // Un sector sombreado por grupo: las líneas que caen dentro comparten la misma relación.
+    const exterior = R + (total > 14 ? 70 : 34);
+    g.append("g").selectAll("path").data(rotulos).join("path")
+      .attr("class", (d, i) => `cuna ${i % 2 ? "impar" : ""}`)
+      .attr("transform", `translate(${cx},${cy})`)
+      .attr("d", (d) => d3.arc().innerRadius(34).outerRadius(exterior).cornerRadius(6)
+        .startAngle(d.a0 - 0.06 + Math.PI / 2).endAngle(d.a1 + 0.06 + Math.PI / 2)())
+      .attr("opacity", 0).transition().delay(dur * 0.5).duration(300).attr("opacity", 1);
 
     // Aristas
     const aristas = g.append("g").selectAll("line").data(vecinos).join("line")
@@ -562,6 +572,7 @@
 
     const certezas = E.base.certezas;
     controles([
+      conmutadorRed(),
       ...Object.entries(certezas).map(([k, v]) => crear("button", {
         class: "chip", "aria-pressed": String(E.certezas.has(k)), text: v,
         title: `Mostrar u ocultar las relaciones con certeza «${v}»`,
@@ -573,6 +584,107 @@
       g.append("text").attr("x", cx).attr("y", cy + 70).attr("text-anchor", "middle")
         .attr("class", "sector").text("Este nodo no tiene relaciones con los filtros elegidos.");
     }
+  }
+
+  function conmutadorRed() {
+    const nombre = E.nodos.get(E.centro) ? E.nodos.get(E.centro).nombre : "un nodo";
+    const grupo = crear("div", { class: "vistas pequena", role: "group", "aria-label": "Qué parte de la red" }, [
+      crear("button", { "aria-pressed": String(E.modoRed === "centro"), text: `Alrededor de ${corto(nombre, 22)}`, onclick: () => { E.modoRed = "centro"; dibujar(); } }),
+      crear("button", { "aria-pressed": String(E.modoRed === "todo"), text: "Toda la red", onclick: () => { E.modoRed = "todo"; dibujar(); } }),
+    ]);
+    return grupo;
+  }
+
+  // Toda la red: cada tradición es una constelación. Lo explorado brilla; al acercarse aparecen los nombres.
+  let redCompleta = null;
+  function calcularRedCompleta() {
+    const cfg = configCarriles();
+    const nodos = [...E.nodos.values()].filter((n) => !["tematica", "contexto"].includes(n.tipo)).map((n) => ({ id: n.id, n }));
+    const porId = new Map(nodos.map((d) => [d.id, d]));
+    const enlaces = E.relaciones.filter((r) => porId.has(r.origen) && porId.has(r.destino))
+      .map((r) => ({ r, source: porId.get(r.origen), target: porId.get(r.destino) }));
+    // Centro de cada constelación: las tradiciones principales en círculo, las secundarias más cerca del borde.
+    const carriles = cfg.orden;
+    const centros = new Map(carriles.map((c, i) => {
+      const a = -Math.PI / 2 + (2 * Math.PI * i) / carriles.length;
+      const r = cfg.secundarios.includes(c) ? 330 : 300;
+      return [c, { x: r * Math.cos(a), y: r * Math.sin(a) }];
+    }));
+    const centroDe = (d) => centros.get(valorCarril(d.n, cfg)) || { x: 0, y: 0 };
+    nodos.forEach((d, i) => { const c0 = centroDe(d); d.x = c0.x + Math.cos(i) * 40; d.y = c0.y + Math.sin(i) * 40; });
+    const sim = d3.forceSimulation(nodos)
+      .force("enlace", d3.forceLink(enlaces).distance((l) => (l.r.tipo === "paralelo_a" ? 200 : 34)).strength((l) => (l.r.tipo === "paralelo_a" ? 0.005 : 0.25)))
+      .force("carga", d3.forceManyBody().strength(-38).distanceMax(220))
+      .force("choque", d3.forceCollide(9))
+      .force("x", d3.forceX((d) => centroDe(d).x).strength(0.09))
+      .force("y", d3.forceY((d) => centroDe(d).y).strength(0.09))
+      .stop();
+    for (let i = 0; i < 420; i++) sim.tick();
+    const rotulos = carriles.map((c) => {
+      const del = nodos.filter((d) => valorCarril(d.n, cfg) === c);
+      const minY = d3.min(del, (d) => d.y), mx = d3.mean(del, (d) => d.x);
+      return { c, x: mx, y: minY - 22, nombre: etiquetaCarril(c, cfg), secundario: cfg.secundarios.includes(c) };
+    });
+    return { nodos, enlaces, rotulos, porId };
+  }
+  function dibujarRedCompleta() {
+    if (!redCompleta) redCompleta = calcularRedCompleta();
+    const { nodos, enlaces, rotulos } = redCompleta;
+    const ancho = escenario.clientWidth, alto = escenario.clientHeight;
+    const anchoUtil = ancho - anchoFicha();
+    const g = svg.append("g").attr("class", "red-completa");
+
+    // Si hay una ficha abierta, se resaltan el nodo y sus vecinos.
+    const foco = E.ficha && redCompleta.porId.has(E.ficha) ? E.ficha : null;
+    const vecinos = new Set();
+    if (foco) {
+      vecinos.add(foco);
+      for (const r of [...(E.salen.get(foco) || []), ...(E.entran.get(foco) || [])]) { vecinos.add(r.origen); vecinos.add(r.destino); }
+    }
+    g.classed("con-foco", !!foco);
+
+    g.append("g").selectAll("line").data(enlaces.filter((l) => E.certezas.has(l.r.certeza))).join("line")
+      .attr("class", (l) => `arista tenue c-${l.r.certeza} ${l.r.tipo === "paralelo_a" ? "paralelo" : ""} ${foco && (l.r.origen === foco || l.r.destino === foco) ? "resaltada" : ""}`)
+      .attr("x1", (l) => l.source.x).attr("y1", (l) => l.source.y).attr("x2", (l) => l.target.x).attr("y2", (l) => l.target.y);
+
+    g.append("g").selectAll("text").data(rotulos).join("text")
+      .attr("class", (d) => `constelacion ${d.secundario ? "secundario" : ""}`).attr("text-anchor", "middle")
+      .attr("x", (d) => d.x).attr("y", (d) => d.y).text((d) => d.nombre);
+
+    const principal = (d) => d.n.circulo === 1;
+    const ng = g.append("g").selectAll("g").data(nodos).join("g")
+      .attr("class", (d) => `nodo v${nivelNiebla(d.id)} ${principal(d) ? "principal" : "menor"} ${foco ? (vecinos.has(d.id) ? "en-foco" : "fuera") : ""} ${d.id === foco ? "centro" : ""}`)
+      .attr("transform", (d) => `translate(${d.x},${d.y})`)
+      .attr("tabindex", 0).attr("role", "button").attr("aria-label", (d) => d.n.nombre)
+      .on("click", (ev, d) => { E.centro = d.id; abrirFicha(d.id); })
+      .on("keydown", (ev, d) => { if (ev.key === "Enter") { E.centro = d.id; abrirFicha(d.id); } });
+    ng.append("path").attr("d", (d) => d3.symbol(FORMA[d.n.tipo] || d3.symbolCircle, principal(d) ? 110 : 45)());
+    ng.append("text").attr("text-anchor", "middle").attr("y", (d) => (principal(d) ? 18 : 14)).text((d) => corto(d.n.nombre, 26));
+    ng.append("title").text((d) => `${ETIQUETA_TIPO[d.n.tipo] || d.n.tipo}: ${d.n.nombre}`);
+
+    // Zum semántico: con poco acercamiento solo se leen los autores principales y lo que está en foco.
+    const zoom = d3.zoom().scaleExtent([0.2, 5]).on("zoom", (ev) => {
+      g.attr("transform", ev.transform);
+      g.classed("cerca", ev.transform.k >= 1.6);
+      E.transRed = ev.transform;
+    });
+    svg.call(zoom).on("dblclick.zoom", null);
+    if (E.transRed) svg.call(zoom.transform, E.transRed);
+    else {
+      const x0 = d3.min(nodos, (d) => d.x) - 40, x1 = d3.max(nodos, (d) => d.x) + 40;
+      const y0 = d3.min(nodos, (d) => d.y) - 50, y1 = d3.max(nodos, (d) => d.y) + 30;
+      const k = Math.min((anchoUtil - 20) / (x1 - x0), (alto - 80) / (y1 - y0));
+      svg.call(zoom.transform, d3.zoomIdentity.translate(anchoUtil / 2 - k * (x0 + x1) / 2, (alto - 60) / 2 - k * (y0 + y1) / 2).scale(k));
+    }
+    controles([
+      conmutadorRed(),
+      ...Object.entries(E.base.certezas).map(([k, v]) => crear("button", {
+        class: "chip", "aria-pressed": String(E.certezas.has(k)), text: v,
+        title: `Mostrar u ocultar las relaciones con certeza «${v}»`,
+        onclick: () => { E.certezas.has(k) ? E.certezas.delete(k) : E.certezas.add(k); dibujar(); },
+      })),
+      leyendaNiebla(),
+    ]);
   }
 
   function corto(texto, max) {
@@ -623,7 +735,14 @@
         fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista c-L"/>'), "Puntos sueltos: legendaria."),
         fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista paralelo"/>'), "Azul: paralelo entre tradiciones, sin influencia conocida."),
       ]));
-      panel.append(crear("p", { text: "Forma de cada nodo: círculo, autor; cuadrado, obra; rombo, concepto; triángulo, tesis; estrella, escuela. Pulsa un nodo para ponerlo en el centro." }));
+      const forma = (tipo) => { const sp = crear("span", { class: "muestra" }); sp.innerHTML = `<svg width="46" height="18" aria-hidden="true"><path transform="translate(23,9)" class="m-forma" d="${d3.symbol(FORMA[tipo], 90)()}"/></svg>`; return sp; };
+      panel.append(crear("h4", { text: "Las formas" }), crear("ul", {}, [
+        fila(forma("autor"), "Autor"), fila(forma("obra"), "Obra"), fila(forma("concepto"), "Concepto"),
+        fila(forma("tesis"), "Tesis"), fila(forma("escuela"), "Escuela o corriente"),
+      ]));
+      panel.append(crear("p", { text: E.modoRed === "todo"
+        ? "Toda la red: cada tradición forma una constelación y las líneas azules son los paralelos entre tradiciones. Acerca para ver todos los nombres; pulsa un nodo para abrir su ficha y resaltar sus relaciones."
+        : "Alrededor de un nodo: cada sector sombreado agrupa las relaciones del mismo tipo, y el rótulo se lee desde el centro hacia fuera. «Fue maestro de (3)» quiere decir que el nodo central fue maestro de los tres nodos de ese sector. Pulsa un nodo para ponerlo en el centro." }));
     }
     const boton = crear("button", {
       class: "chip", "aria-expanded": "false", "aria-controls": "leyenda-panel", text: "Cómo leer el mapa",
