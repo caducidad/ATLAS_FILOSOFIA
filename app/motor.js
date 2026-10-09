@@ -218,6 +218,12 @@
     svg = d3.select(escenario).append("svg").attr("role", "img").attr("aria-label", "Mapa del atlas");
     window.addEventListener("resize", () => dibujar());
     window.addEventListener("hashchange", desdeHash);
+    document.addEventListener("keydown", (ev) => {
+      const t = ev.target;
+      if (ev.ctrlKey || ev.metaKey || ev.altKey || (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA"))) return;
+      if (raiz.querySelector(".capa")) return;
+      if (E.vista === "cronologica" && crono && crono.teclado && crono.teclado(ev)) ev.preventDefault();
+    });
   }
 
   function cambiarVista(v, centro) {
@@ -268,7 +274,13 @@
 
     // Reparte cada carril en filas sin solapes, contando el ancho del nombre en pantalla.
     let carriles = [], altoTotal = 0;
-    function empaquetar() {
+    // El reparto en filas depende solo del nivel de acercamiento, no de hacia dónde se ha movido el lector,
+    // así que desplazarse nunca recoloca los nombres. A poca escala solo se rotulan los autores principales.
+    let kEmpaquetado = 1;
+    const rotulado = (d) => d.n.circulo === 1 || d.n.tipo !== "autor" || kEmpaquetado * (x0.range()[1] - x0.range()[0]) / (x0.domain()[1] - x0.domain()[0]) > 0.55;
+    function empaquetar(k) {
+      kEmpaquetado = k;
+      const u = (a) => k * x0(a);
       const porCarril = d3.group(items, (d) => d.carril);
       const epocasPorCarril = d3.group(epocas, (n) => valorCarril(n, cfg) || "_");
       let y = cabecera;
@@ -284,8 +296,9 @@
         const filas = [];
         const lista = (porCarril.get(c) || []).slice().sort((a, b) => a.ext.a - b.ext.a);
         for (const d of lista) {
-          const px0 = Math.max(x(d.ext.a), margenIzq + 6);
-          const px1 = Math.max(x(d.ext.b), px0 + 12 + d.n.nombre.length * 6.8);
+          d.rotulo = rotulado(d);
+          const px0 = u(d.ext.a);
+          const px1 = Math.max(u(d.ext.b), px0 + (d.rotulo ? 12 + d.n.nombre.length * 6.8 : 6));
           let f = filas.findIndex((fin) => fin + 8 <= px0);
           if (f < 0) { f = filas.length; filas.push(-Infinity); }
           filas[f] = px1;
@@ -341,13 +354,6 @@
           .on("keydown", (ev, d) => { if (ev.key === "Enter") abrirFicha(d.id); });
         g.append("rect").attr("class", "borde");
         g.append("rect").attr("class", "nucleo");
-        g.each(function (d) {
-          for (const alt of (d.n.fechas && d.n.fechas.alternativas) || []) {
-            const ea = extension(alt);
-            if (ea && ea.a >= x0.domain()[0]) d3.select(this).append("rect").datum(Object.assign({ ea, alt }, {})).attr("class", "fantasma")
-              .append("title").text(`${alt.etiqueta}: ${textoFechas(alt)}`);
-          }
-        });
         g.append("text").text((d) => (d.n.tipo === "obra" ? `«${d.n.nombre}»` : d.n.nombre));
         g.append("title").text((d) => `${d.n.nombre} · ${textoFechas(d.n.fechas)}`);
         return g;
@@ -361,13 +367,9 @@
       gi.select("rect.nucleo").attr("y", yc).attr("height", alto_).attr("rx", (d) => alto_(d) / 2)
         .attr("x", (d) => x(Math.min(Math.max(d.ext.nucleoA, d.ext.a), d.ext.b)))
         .attr("width", (d) => Math.max(3, x(Math.max(Math.min(d.ext.nucleoB, d.ext.b), d.ext.a)) - x(Math.min(Math.max(d.ext.nucleoA, d.ext.a), d.ext.b))));
-      gi.each(function (d) {
-        d3.select(this).selectAll("rect.fantasma").attr("x", (f) => x(f.ea.a)).attr("y", yc(d) - 2).attr("height", alto_(d) + 4).attr("rx", 3)
-          .attr("width", (f) => Math.max(2, x(f.ea.b) - x(f.ea.a)));
-      });
       // El nombre se queda a la vista aunque el comienzo de la barra salga por la izquierda.
       gi.select("text").attr("x", (d) => Math.max(x(d.ext.a), margenIzq + 6)).attr("y", (d) => d.yy + ty - 0.5)
-        .attr("opacity", (d) => (x(d.ext.b) < margenIzq + 6 ? 0 : 1));
+        .attr("opacity", (d) => (!d.rotulo || x(d.ext.b) < margenIzq + 6 ? 0 : 1));
 
       // Eje y rejilla
       const ticks = x.ticks(Math.max(4, Math.floor((ancho - margenIzq) / 110))).filter((t) => t !== 0);
@@ -389,8 +391,11 @@
         x = t.rescaleX(x0);
         crono.dominio = x.domain(); crono.ty = ty;
         posicionar();
-      })
-      .on("end", () => { empaquetar(); ty = clampY(ty); posicionar(); });
+        if (Math.abs(t.k - kEmpaquetado) / kEmpaquetado > 0.03) {
+          clearTimeout(crono.espera);
+          crono.espera = setTimeout(() => { empaquetar(t.k); ty = clampY(ty); posicionar(); }, 250);
+        }
+      });
 
     const inicio = crono && crono.dominio ? crono.dominio : [-800, 300];
     crono = Object.assign(crono || {}, {
@@ -410,7 +415,7 @@
     });
     const k = (x0.domain()[1] - x0.domain()[0]) / (inicio[1] - inicio[0]);
     x = d3.zoomIdentity.translate(margenIzq + 10 - k * x0(inicio[0]), ty).scale(k).rescaleX(x0);
-    empaquetar();
+    empaquetar(k);
     ty = clampY(ty);
     // La rueda desplaza (arriba y abajo, y a los lados en los paneles táctiles); con Ctrl, o pellizcando, acerca el tiempo.
     zoom.filter((ev) => (ev.type === "wheel" ? ev.ctrlKey : !ev.button));
@@ -422,6 +427,15 @@
       svg.call(zoom.translateBy, -ev.deltaX / kActual, -ev.deltaY / kActual);
     }, { passive: false });
     svg.call(zoom.transform, d3.zoomIdentity.translate(margenIzq + 10 - k * x0(inicio[0]), ty).scale(k));
+    // Teclado: flechas para moverse, + y − para acercar o alejar.
+    crono.teclado = (ev) => {
+      const kActual = d3.zoomTransform(svg.node()).k;
+      const pasos = { ArrowLeft: [120, 0], ArrowRight: [-120, 0], ArrowUp: [0, 90], ArrowDown: [0, -90] };
+      if (pasos[ev.key]) { svg.transition().duration(150).call(zoom.translateBy, pasos[ev.key][0] / kActual, pasos[ev.key][1] / kActual); return true; }
+      if (ev.key === "+" || ev.key === "=") { crono.acercar(1.4); return true; }
+      if (ev.key === "-" || ev.key === "_") { crono.acercar(1 / 1.4); return true; }
+      return false;
+    };
     crono.acercar = (f) => svg.transition().duration(250).call(zoom.scaleBy, f, [(margenIzq + ancho - anchoFicha()) / 2, alto / 2]);
 
     controles([
@@ -540,10 +554,10 @@
     if (E.vista === "cronologica") {
       panel.append(crear("h4", { text: "Las fechas" }), crear("ul", {}, [
         fila(muestra('<rect x="2" y="5" width="42" height="2" class="m-v2"/><rect x="14" y="2" width="20" height="7" rx="3.5" class="m-v2"/>'),
-          "Barra gruesa: los años seguros. Línea fina: el margen de duda sobre el nacimiento o la muerte."),
-        fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-dudosa"/>'), "Borde discontinuo: su existencia histórica es dudosa o legendaria."),
-        fila(muestra('<rect x="2" y="1" width="42" height="10" rx="3" class="m-fantasma"/>'), "Punteado: otra cronología, como la tradicional. Pasa el ratón por encima para ver cuál."),
+          "Cada barra es una vida. La parte gruesa son los años seguros; la línea fina, el margen de duda."),
+        fila(crear("span", { class: "muestra-texto", text: "Laozi" }), "Nombre en cursiva: su existencia histórica es dudosa o legendaria."),
       ]));
+      panel.append(crear("p", { text: "Otras cronologías, como la tradicional, aparecen en la ficha. Para moverte: arrastra, usa la rueda o las flechas del teclado; para acercar o alejar, los botones + y −, las teclas + y −, Ctrl con la rueda o pellizcando con dos dedos. Con poco acercamiento solo se rotulan los autores principales." }));
       const cfg = configCarriles();
       if (cfg.secundarios.length) {
         panel.append(crear("p", { text: `${cfg.secundarios.map((c) => etiquetaCarril(c, cfg)).join(", ")}: ${cfg.rotuloSecundarios || "carril secundario"}. Va en un carril más discreto porque son sabidurías que preceden a la filosofía, no filosofía en sentido estricto.` }));

@@ -110,9 +110,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .item.v2 .nucleo, .item.v2 .borde { fill: var(--brasa-2); stroke: var(--brasa-2); }
 .item.v3 .nucleo, .item.v3 .borde { fill: var(--brasa-3); stroke: var(--brasa-3); }
 .item .borde { stroke: none; }
-.item.dudosa .nucleo { stroke-dasharray: 4 3; fill-opacity: 0.45; }
-.item.v0.dudosa .nucleo { fill-opacity: 1; }
-.item .fantasma { fill: none; stroke: var(--tenue); stroke-dasharray: 1 3; stroke-opacity: 0.8; }
+.item.dudosa text { font-style: italic; }
 .item.activo text { fill: var(--foco); }
 .item.activo .nucleo { stroke: var(--foco); stroke-width: 2; stroke-dasharray: none; }
 .item:hover text { fill: var(--foco); }
@@ -126,7 +124,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .arista-texto { fill: var(--tenue); font-size: 10.5px; font-family: var(--f-ui); paint-order: stroke; stroke: var(--cielo); stroke-width: 3px; }
 .nodo { cursor: pointer; }
 .nodo path { stroke-width: 1.4; }
-.nodo.v0 path { fill: var(--cielo); stroke: var(--niebla); stroke-dasharray: 3 2; }
+.nodo.v0 path { fill: var(--cielo); stroke: var(--niebla); }
 .nodo.v1 path { fill: var(--brasa-1); stroke: var(--brasa-1); }
 .nodo.v2 path { fill: var(--brasa-2); stroke: var(--brasa-2); }
 .nodo.v3 path { fill: var(--brasa-3); stroke: var(--brasa-3); }
@@ -158,12 +156,11 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .leyenda-panel li { display: grid; grid-template-columns: 3.2rem 1fr; gap: 0.5rem; align-items: center; }
 .leyenda-panel p { margin: 0.5rem 0 0; color: var(--tenue); }
 .muestra svg { display: block; }
+.muestra-texto { font-family: var(--f-display); font-style: italic; }
 .m-v0 { fill: var(--cielo); stroke: var(--niebla); }
 .m-v1 { fill: var(--brasa-1); }
 .m-v2 { fill: var(--brasa-2); }
 .m-v3 { fill: var(--brasa-3); }
-.m-dudosa { fill: var(--brasa-2); fill-opacity: 0.2; stroke: var(--brasa-2); stroke-dasharray: 4 3; }
-.m-fantasma { fill: none; stroke: var(--tenue); stroke-dasharray: 1 3; }
 
 /* ---------- Ficha ---------- */
 .ficha {
