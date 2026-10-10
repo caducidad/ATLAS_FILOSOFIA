@@ -161,6 +161,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .leyenda-panel ul { list-style: none; margin: 0 0 0.5rem; padding: 0; display: grid; gap: 0.45rem; }
 .leyenda-panel li { display: grid; grid-template-columns: 3.2rem 1fr; gap: 0.5rem; align-items: center; }
 .leyenda-panel p { margin: 0.5rem 0 0; color: var(--tenue); }
+.leyenda-panel p.intro { margin: 0 0 0.5rem; }
 .muestra svg { display: block; }
 .muestra-texto { font-family: var(--f-display); font-style: italic; }
 .m-v0 { fill: var(--cielo); stroke: var(--niebla); }

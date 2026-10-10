@@ -590,7 +590,7 @@
     ]);
     if (rels.length === 0) {
       g.append("text").attr("x", cx).attr("y", cy + 70).attr("text-anchor", "middle")
-        .attr("class", "sector").text("Este nodo no tiene relaciones con los filtros elegidos.");
+        .attr("class", "sector").text("No tiene relaciones con los filtros elegidos.");
     }
   }
 
@@ -621,11 +621,11 @@
 
   function conmutadorRed() {
     const elegido = E.nodos.get(E.centro);
-    const nombre = elegido ? elegido.nombre : "un nodo";
+    const nombre = elegido ? elegido.nombre : "…";
     const grupo = crear("div", { class: "vistas pequena", role: "group", "aria-label": "Qué parte de la red" }, [
       crear("button", {
         "aria-pressed": String(E.modoRed === "centro"), text: `Alrededor de ${corto(nombre, 22)}`, disabled: !elegido,
-        title: elegido ? "" : "Elige antes un nodo: pulsa uno, búscalo o usa «Llévame a algún sitio»",
+        title: elegido ? "" : "Elige antes un autor, una obra o un concepto: pulsa uno, búscalo o usa «Llévame a algún sitio»",
         onclick: () => { E.modoRed = "centro"; dibujar(); },
       }),
       crear("button", { "aria-pressed": String(E.modoRed === "todo"), text: "Toda la red", onclick: () => { E.modoRed = "todo"; dibujar(); } }),
@@ -749,22 +749,22 @@
     const muestra = (svgInterior) => { const sp = crear("span", { class: "muestra" }); sp.innerHTML = `<svg width="46" height="12" aria-hidden="true">${svgInterior}</svg>`; return sp; };
     const fila = (m, texto) => crear("li", {}, [m, document.createTextNode(texto)]);
     const niebla = crear("ul", {}, [
-      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v0"/>'), "Sin explorar"),
+      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v0"/>'), "Aún sin visitar"),
       fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v1"/>'), "Visitado una vez"),
-      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v2"/>'), "De 2 a 4 visitas"),
-      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v3"/>'), "5 visitas o más"),
+      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v2"/>'), "Visitado de 2 a 4 veces"),
+      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v3"/>'), "Visitado 5 veces o más"),
     ]);
-    panel.append(crear("h4", { text: "La niebla: lo explorado se enciende" }), niebla);
+    panel.append(crear("h4", { text: "Lo que ya has visitado se ilumina" }), crear("p", { class: "intro", text: "Cada vez que abres la ficha de un autor, una obra o un concepto, se ilumina un poco más. Así ves de un vistazo qué parte del mapa ya conoces." }), niebla);
     if (E.vista === "cronologica") {
       panel.append(crear("h4", { text: "Las fechas" }), crear("ul", {}, [
         fila(muestra('<rect x="2" y="5" width="42" height="2" class="m-v2"/><rect x="14" y="2" width="20" height="7" rx="3.5" class="m-v2"/>'),
           "Cada barra es una vida. La parte gruesa son los años seguros; la línea fina, el margen de duda."),
         fila(crear("span", { class: "muestra-texto", text: "Laozi" }), "Nombre en cursiva: su existencia histórica es dudosa o legendaria."),
       ]));
-      panel.append(crear("p", { text: "Otras cronologías, como la tradicional, aparecen en la ficha. Para moverte: arrastra, usa la rueda o las flechas del teclado; para acercar o alejar, los botones + y −, las teclas + y −, Ctrl con la rueda o pellizcando con dos dedos. Con poco acercamiento solo se rotulan los autores principales." }));
+      panel.append(crear("p", { text: "Algunas figuras tienen fechas distintas según quién las cuente: la tradición budista, por ejemplo, sitúa al Buda más de un siglo antes que los historiadores actuales. El mapa usa las fechas de los historiadores; las demás aparecen en la ficha de cada autor. Para moverte: arrastra, usa la rueda o las flechas del teclado; para acercar o alejar, los botones + y −, las teclas + y −, Ctrl con la rueda o pellizcando con dos dedos. Con poco acercamiento solo se rotulan los autores principales." }));
       const cfg = configCarriles();
       if (cfg.secundarios.length) {
-        panel.append(crear("p", { text: `${cfg.secundarios.map((c) => etiquetaCarril(c, cfg)).join(", ")}: ${cfg.rotuloSecundarios || "carril secundario"}. Va en un carril más discreto porque son sabidurías que preceden a la filosofía, no filosofía en sentido estricto.` }));
+        panel.append(crear("p", { text: `${cfg.secundarios.map((c) => etiquetaCarril(c, cfg)).join(", ")} aparece más discreto porque recoge las sabidurías que precedieron a la filosofía, como un ${cfg.rotuloSecundarios || "preámbulo"}, y no filosofía en sentido estricto.` }));
       }
     }
     if (E.vista === "libre") {
@@ -781,8 +781,8 @@
         fila(forma("tesis"), "Tesis"), fila(forma("escuela"), "Escuela o corriente"),
       ]));
       panel.append(crear("p", { text: E.modoRed === "todo"
-        ? "Toda la red: cada tradición forma una constelación y las líneas azules son los paralelos entre tradiciones. Acerca para ver todos los nombres; pulsa un nodo para abrir su ficha y resaltar sus relaciones."
-        : "Alrededor de un nodo: cada sector sombreado agrupa las relaciones del mismo tipo, y el rótulo se lee desde el centro hacia fuera. «Fue maestro de (3)» quiere decir que el nodo central fue maestro de los tres nodos de ese sector. Pulsa un nodo para ponerlo en el centro." }));
+        ? "Toda la red: cada tradición forma una constelación y las líneas azules son los paralelos entre tradiciones. Acerca para ver todos los nombres; pulsa un autor, una obra o un concepto para abrir su ficha y resaltar sus relaciones."
+        : "Alrededor de un elemento: cada sector sombreado agrupa las relaciones del mismo tipo, y el rótulo se lee desde el centro hacia fuera. «Fue maestro de (3)» quiere decir que el del centro fue maestro de los tres de ese sector. Pulsa cualquiera para ponerlo en el centro." }));
       panel.append(crear("p", { text: "Para moverte: arrastra o usa las flechas del teclado. Para acercar o alejar: los botones + y −, las teclas + y −, la rueda del ratón o pellizcando con dos dedos." }));
     }
     const boton = crear("button", {
@@ -943,7 +943,7 @@
     // Miembros (épocas, escuelas, temáticas)
     const miembros = (E.miembros.get(id) || []).filter((m) => E.nodos.get(m).tipo !== "tematica");
     if (miembros.length) {
-      fichaEl.append(crear("h3", { text: n.tipo === "contexto" ? "En esta época" : n.tipo === "escuela" ? "Pertenecen a esta escuela" : "Nodos de esta temática" }));
+      fichaEl.append(crear("h3", { text: n.tipo === "contexto" ? "En esta época" : n.tipo === "escuela" ? "Pertenecen a esta escuela" : "En esta temática" }));
       const orden = ["autor", "obra", "concepto", "tesis", "escuela"];
       const lista = miembros.slice().sort((a, b) => orden.indexOf(E.nodos.get(a).tipo) - orden.indexOf(E.nodos.get(b).tipo));
       fichaEl.append(crear("div", { class: "chips" }, lista.slice(0, 60).map((m) => enlaceNodo(m, id))));
@@ -1144,7 +1144,7 @@
       if (nuevo.formato !== "atlas-progreso" || typeof nuevo.visitas !== "object") throw new Error("formato");
       memoria = Object.assign(progresoVacio(), nuevo);
       guardarProgreso();
-      mensaje.textContent = `Importado: ${Object.keys(memoria.visitas).length} nodos visitados.`;
+      mensaje.textContent = `Importado: ${Object.keys(memoria.visitas).length} fichas visitadas.`;
       dibujar();
     } catch (e) {
       mensaje.textContent = "Ese texto no es un progreso del Atlas. Comprueba que lo has copiado entero.";
