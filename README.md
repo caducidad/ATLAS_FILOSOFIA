@@ -31,6 +31,7 @@ herramientas/
 docs/           Documentación
   esquema.md          Lo propio de la filosofía (el resto está en el esquema base del núcleo)
   navegacion.md       Puntos de vista, pantallas y qué necesita cada uno de los datos
+  blogger.md          Cómo publicar el atlas en Blogger con GitHub Pages
 ```
 
 ## La colección Atlas

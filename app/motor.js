@@ -212,7 +212,13 @@
     const azar = crear("button", { class: "boton azar", title: "Llévame a algún sitio", onclick: llevame }, [crear("span", { class: "largo", text: "Llévame a algún sitio" }), crear("span", { class: "corto", text: "Al azar" })]);
     const progreso = crear("button", { class: "boton", text: "Mi progreso", onclick: abrirProgreso });
 
-    const barra = crear("header", { class: "barra" }, [marca, buscador, vistas, azar, progreso]);
+    // Dentro del blog el atlas va en un marco: se ofrece verlo a pantalla completa.
+    const enMarco = window.self !== window.top;
+    const pantalla = enMarco && document.fullscreenEnabled ? crear("button", {
+      class: "boton", title: "Ver el atlas a pantalla completa",
+      onclick: () => { if (document.fullscreenElement) document.exitFullscreen(); else document.documentElement.requestFullscreen().catch(() => {}); },
+    }, [crear("span", { class: "largo", text: "Pantalla completa" }), crear("span", { class: "corto", text: "⛶" })]) : null;
+    const barra = crear("header", { class: "barra" }, [marca, buscador, vistas, azar, progreso, pantalla]);
     escenario = crear("main", { class: "escenario" });
     raiz.append(barra, escenario);
     svg = d3.select(escenario).append("svg").attr("role", "img").attr("aria-label", "Mapa del atlas");
