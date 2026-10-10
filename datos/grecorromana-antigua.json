@@ -879,7 +879,17 @@
    },
    "resumen": "Discípulo de [[autor.socrates|Sócrates]] y fundador de la [[escuela.academia|Academia]]. En sus diálogos defendió que, más allá de lo que vemos, existen las [[concepto.idea|Formas]] o Ideas, modelos eternos de las cosas, que solo la razón alcanza.",
    "profundizacion": "Platón escribió unos treinta diálogos, casi todos protagonizados por Sócrates, en los que la filosofía avanza mediante preguntas y respuestas. Para explicar cómo es posible un conocimiento firme en un mundo cambiante, postuló las [[concepto.idea|Formas]]: lo bello en sí, lo justo en sí, la igualdad en sí, de las que las cosas sensibles son copias imperfectas. Aprender sería recordar lo que el alma contempló antes de nacer, la [[concepto.anamnesis|reminiscencia]], y el alma sería por tanto [[tesis.alma_inmortal|inmortal]]. En la [[obra.republica|República]] diseña una ciudad justa gobernada por filósofos y explica, con la [[obra.caverna|alegoría de la caverna]], el ascenso del alma desde las sombras hasta la luz del Bien. En sus últimos diálogos sometió a crítica su propia teoría. Su influencia en la filosofía occidental es tan grande que un filósofo del siglo XX, Alfred North Whitehead, dijo que toda ella era una serie de notas a pie de página a Platón.",
-   "anecdotas": "Según la tradición, su nombre verdadero era Aristocles, y «Platón», que significa «ancho», fue un apodo: por la anchura de su espalda de luchador, por la de su frente o por la riqueza de su elocuencia. Muchos estudiosos dudan de la historia, porque Platón era un nombre corriente en Atenas ([[obra.vidas_filosofos|Vidas de los filósofos]] III 4 · C). Viajó a Siracusa, en Sicilia, para educar a su gobernante, el tirano Dionisio; la relación acabó mal y, según cuentan, fue vendido como esclavo en la isla de Egina y rescatado por un admirador ([[obra.vidas_filosofos|Vidas de los filósofos]] III 18-20 · C)."
+   "anecdotas": "Según la tradición, su nombre verdadero era Aristocles, y «Platón», que significa «ancho», fue un apodo: por la anchura de su espalda de luchador, por la de su frente o por la riqueza de su elocuencia. Muchos estudiosos dudan de la historia, porque Platón era un nombre corriente en Atenas ([[obra.vidas_filosofos|Vidas de los filósofos]] III 4 · C). Viajó a Siracusa, en Sicilia, para educar a su gobernante, el tirano Dionisio; la relación acabó mal y, según cuentan, fue vendido como esclavo en la isla de Egina y rescatado por un admirador ([[obra.vidas_filosofos|Vidas de los filósofos]] III 18-20 · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Platón",
+     "autorEntrada": "Ignacio Yarza de la Sierra",
+     "url": "https://www.philosophica.info/voces/platon/Platon.html",
+     "idioma": "es"
+    }
+   ]
   },
   {
    "id": "autor.aristoteles",

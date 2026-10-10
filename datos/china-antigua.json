@@ -218,7 +218,25 @@
       },
       "resumen": "Maestro de Lu que no dejó nada escrito. Sus discípulos recogieron sus enseñanzas en las [[obra.analectas|Analectas]], centradas en la [[concepto.ren|humanidad]], el [[concepto.li|ritual]] y la figura de la [[concepto.junzi|persona ejemplar]].",
       "profundizacion": "Confucio se presentaba como transmisor y no como creador: quería recuperar el orden de los primeros reyes de la dinastía Zhou. Su novedad fue convertir la nobleza en una cuestión de carácter y no de nacimiento: el [[concepto.junzi|junzi]] es quien se cultiva a sí mismo. La [[concepto.ren|humanidad]] se aprende primero en la familia, mediante la [[concepto.xiao|piedad filial]], y se expresa en el [[concepto.li|ritual]], que da forma a las relaciones. En política defendió gobernar con el ejemplo moral y [[concepto.zhengming|rectificar los nombres]], para que cada cargo cumpla lo que su nombre exige. No consiguió un puesto estable en ninguna corte, pero formó a un grupo de discípulos que convirtió su enseñanza en tradición.",
-      "anecdotas": "Tras oír la música Shao, pasó tres meses sin notar el sabor de la carne ([[obra.analectas|Analectas]] 7.14 · B). Contemplando un río, exclamó: «¡Todo pasa así, sin cesar, día y noche!» ([[obra.analectas|Analectas]] 9.17 · B). Cuando un hombre lo describió como un perro sin hogar, aceptó la comparación riendo ([[obra.shiji|Shiji]], cap. 47 · C)."
+      "anecdotas": "Tras oír la música Shao, pasó tres meses sin notar el sabor de la carne ([[obra.analectas|Analectas]] 7.14 · B). Contemplando un río, exclamó: «¡Todo pasa así, sin cesar, día y noche!» ([[obra.analectas|Analectas]] 9.17 · B). Cuando un hombre lo describió como un perro sin hogar, aceptó la comparación riendo ([[obra.shiji|Shiji]], cap. 47 · C).",
+      "paraSaberMas": [
+        {
+          "tipo": "enciclopedia",
+          "obra": "Stanford Encyclopedia of Philosophy",
+          "titulo": "Confucius",
+          "autorEntrada": "Mark Csikszentmihalyi",
+          "url": "https://plato.stanford.edu/entries/confucius/",
+          "idioma": "en"
+        },
+        {
+          "tipo": "enciclopedia",
+          "obra": "Internet Encyclopedia of Philosophy",
+          "titulo": "Confucius",
+          "autorEntrada": "Jeff Richey",
+          "url": "https://iep.utm.edu/confucius/",
+          "idioma": "en"
+        }
+      ]
     },
     {
       "id": "autor.mozi",

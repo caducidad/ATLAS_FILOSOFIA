@@ -346,3 +346,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .vistas .corto { display: inline; }
   .preguntas { padding: 1rem 1rem calc(3rem + env(safe-area-inset-bottom, 0px)); }
 }
+
+/* Para saber más: enlaces que salen del atlas */
+.ficha .saber-mas { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+.ficha .saber-mas a { color: var(--enlace); font-family: var(--f-texto); text-decoration: underline; text-decoration-color: rgba(156, 192, 255, 0.35); text-underline-offset: 3px; }
+.ficha .saber-mas a::after { content: " ↗"; font-family: var(--f-ui); font-size: var(--t-xs); text-decoration: none; display: inline-block; }
+.ficha .saber-mas a:hover { text-decoration-color: var(--enlace); }

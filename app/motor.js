@@ -26,6 +26,11 @@
   const AUTORIA = {
     autor: "de autor", atribuida: "atribuida", escuela: "de escuela", compilacion: "compilación", anonima: "anónima",
   };
+  const TIPO_SABER = { texto_original: "texto original", traduccion: "traducción", estudio: "estudio", audio: "audio" };
+  const IDIOMAS = {
+    es: "español", en: "inglés", fr: "francés", de: "alemán", it: "italiano", pt: "portugués", ca: "catalán",
+    la: "latín", grc: "griego antiguo", zh: "chino", sa: "sánscrito", pi: "pali", he: "hebreo", ar: "árabe",
+  };
   const TIPOS_AZAR = ["autor", "obra", "concepto", "tesis"];
   const PLURAL = { autor: "autores", obra: "obras", concepto: "conceptos", tesis: "tesis", escuela: "escuelas", contexto: "épocas", pregunta: "grandes preguntas", experimento: "experimentos" };
 
@@ -1109,6 +1114,22 @@
       if (n[campo] && n[campo].length) clasif.push(crear("dt", { text: titulo }), crear("dd", {}, crear("div", { class: "chips" }, n[campo].map((r) => enlaceNodo(r, id)))));
     }
     if (clasif.length) fichaEl.append(crear("h3", { text: "Clasificación" }), crear("dl", {}, clasif));
+
+    // Para saber más: fuentes abiertas fuera del atlas, primero las de la lengua del atlas.
+    if (n.paraSaberMas && n.paraSaberMas.length) {
+      const lengua = E.atlas.idioma || "es";
+      const lista = n.paraSaberMas.slice().sort((a, b) => (b.idioma === lengua) - (a.idioma === lengua));
+      fichaEl.append(crear("h3", { text: "Para saber más" }));
+      fichaEl.append(crear("ul", { class: "saber-mas" }, lista.map((e) => crear("li", {}, [
+        crear("a", { href: e.url, target: "_blank", rel: "noopener", text: e.titulo }),
+        crear("span", { class: "nota", text: [
+          e.autorEntrada ? `de ${e.autorEntrada}` : "",
+          e.obra,
+          TIPO_SABER[e.tipo] || "",
+          e.idioma !== lengua ? (IDIOMAS[e.idioma] ? `en ${IDIOMAS[e.idioma]}` : e.idioma) : "",
+        ].filter(Boolean).join(" · ") }),
+      ]))));
+    }
 
     // Acciones
     const acciones = [];
