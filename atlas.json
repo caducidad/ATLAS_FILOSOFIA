@@ -8,7 +8,8 @@
     "datos/china-antigua.json",
     "datos/india-antigua.json",
     "datos/grecorromana-antigua.json",
-    "datos/proximo-oriente-antiguo.json"
+    "datos/proximo-oriente-antiguo.json",
+    "datos/preguntas.json"
   ],
   "carriles": {
     "campo": "tradicion",

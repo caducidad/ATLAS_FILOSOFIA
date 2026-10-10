@@ -33,7 +33,7 @@
   const E = {
     atlas: null, nodos: new Map(), relaciones: [], tipos: {}, base: null,
     salen: new Map(), entran: new Map(), miembros: new Map(),
-    vista: "cronologica", centro: null, ficha: null, anterior: null,
+    vista: "cronologica", centro: null, ficha: null, anterior: null, pregunta: null,
     verObras: false, modoRed: "todo", certezas: new Set(["D", "P", "C", "L"]),
   };
 
@@ -233,9 +233,14 @@
     const buscador = crear("div", { class: "buscador" }, [entrada, lista]);
     prepararBuscador(entrada, lista);
 
-    const bCrono = crear("button", { "aria-pressed": "true", text: "Línea del tiempo", onclick: () => cambiarVista("cronologica") });
-    const bRed = crear("button", { "aria-pressed": "false", text: "Red", onclick: () => cambiarVista("libre") });
-    const vistas = crear("div", { class: "vistas", role: "group", "aria-label": "Punto de vista" }, [bCrono, bRed]);
+    const bCrono = crear("button", { "aria-pressed": "true", "data-vista": "cronologica", text: "Línea del tiempo", onclick: () => cambiarVista("cronologica") });
+    const bRed = crear("button", { "aria-pressed": "false", "data-vista": "libre", text: "Red", onclick: () => cambiarVista("libre") });
+    // Las grandes preguntas son otra puerta de entrada, si el atlas las tiene.
+    const bPreg = hayPreguntas() ? crear("button", {
+      "aria-pressed": "false", "data-vista": "preguntas", title: "Grandes preguntas: cómo respondió cada tradición",
+      onclick: () => { E.pregunta = null; cambiarVista("preguntas"); },
+    }, [crear("span", { class: "largo", text: "Grandes preguntas" }), crear("span", { class: "corto", text: "Preguntas" })]) : null;
+    const vistas = crear("div", { class: "vistas", role: "group", "aria-label": "Punto de vista" }, [bCrono, bRed, bPreg]);
     const azar = crear("button", { class: "boton azar", title: "Llévame a algún sitio", onclick: llevame }, [crear("span", { class: "largo", text: "Llévame a algún sitio" }), crear("span", { class: "corto", text: "Al azar" })]);
     const progreso = crear("button", { class: "boton", text: "Mi progreso", onclick: abrirProgreso });
 
@@ -264,15 +269,25 @@
     if (v !== E.vista) posPrevias = new Map();
     E.vista = v;
     if (centro) E.centro = centro;
-    raiz.querySelectorAll(".vistas button").forEach((b, i) =>
-      b.setAttribute("aria-pressed", String((i === 0) === (v === "cronologica"))));
+    raiz.querySelectorAll(".barra .vistas button").forEach((b) =>
+      b.setAttribute("aria-pressed", String(b.dataset.vista === v)));
     dibujar();
   }
   function dibujar() {
     svg.selectAll("*").remove();
     escenario.querySelectorAll(".controles").forEach((c) => c.remove());
-    if (E.vista === "cronologica") dibujarCronologica();
+    const enPreguntas = E.vista === "preguntas";
+    svg.style("display", enPreguntas ? "none" : null);
+    if (panelPreguntas && !enPreguntas) { panelPreguntas.remove(); panelPreguntas = null; }
+    if (enPreguntas) dibujarPreguntas();
+    else if (E.vista === "cronologica") dibujarCronologica();
     else dibujarRed();
+  }
+  // Al ir a un nodo desde el buscador, el azar o un enlace: qué vista conviene.
+  function vistaPara(n) {
+    if (E.vista === "preguntas") return "preguntas";
+    if (E.vista === "cronologica" && !extension(n.fechas)) return "libre";
+    return E.vista;
   }
 
   // ------------------------------------------------------------------ vista cronológica
@@ -812,10 +827,10 @@
         fila(linea("paralelo"), "Línea azul: se parecen, pero no consta que uno influyera en el otro."),
       ]), crear("p", { class: "intro", text: "Los botones de abajo (Consta, Probable, Hipótesis y Leyenda) muestran u ocultan cada tipo de línea." }));
       const forma = (tipo) => muestra(`<path transform="translate(23,9)" class="m-forma" d="${d3.symbol(FORMA[tipo], 90)()}"/>`, 18);
-      seccion("Las formas", crear("ul", {}, [
-        fila(forma("autor"), "Autor"), fila(forma("obra"), "Obra"), fila(forma("concepto"), "Concepto"),
-        fila(forma("tesis"), "Tesis"), fila(forma("escuela"), "Escuela o corriente"),
-      ]));
+      const presentes = new Set([...E.nodos.values()].map((n) => n.tipo));
+      const nombreForma = { escuela: "Escuela o corriente" };
+      seccion("Las formas", crear("ul", {}, Object.keys(FORMA).filter((t) => presentes.has(t))
+        .map((t) => fila(forma(t), nombreForma[t] || ETIQUETA_TIPO[t] || t))));
       seccion("Lo que ya has visitado se ilumina", crear("p", { class: "intro", text: textoVisitas }), visitas("circulo"));
       seccion("Cómo moverte", moverte("Arrastra o usa las flechas del teclado. Para acercar o alejar: los botones + y −, las teclas + y −, la rueda del ratón o pellizcando con dos dedos."));
     }
@@ -828,6 +843,109 @@
   }
 
 
+
+  // ------------------------------------------------------------------ grandes preguntas
+  // Primero, la lista de preguntas; al elegir una, sus respuestas agrupadas por carril (en filosofía, por tradición).
+  let panelPreguntas = null;
+  const hayPreguntas = () => [...E.nodos.values()].some((n) => n.tipo === "pregunta");
+  function respuestasDe(idPregunta) {
+    return (E.entran.get(idPregunta) || []).filter((r) => r.tipo === "responde_a").map((r) => ({ r, n: E.nodos.get(r.origen) }));
+  }
+  // Quién sostiene una respuesta: los autores que la defienden, la desarrollan o la escribieron.
+  function autoresDe(id) {
+    const tipos = ["defiende", "desarrolla", "escribio"];
+    const ids = (E.entran.get(id) || []).filter((r) => tipos.includes(r.tipo) && E.nodos.get(r.origen).tipo === "autor").map((r) => r.origen);
+    return [...new Set(ids)].slice(0, 3);
+  }
+  // Una pregunta se abre en su propia vista, no en la ficha: allí se ven sus respuestas.
+  function irAPregunta(id, desde) {
+    E.pregunta = id;
+    registrarVisita(id, desde || null);
+    // En el móvil la ficha taparía la pregunta: se recoge.
+    if (fichaEl && (E.ficha === id || escenario.clientWidth <= 720)) { fichaEl.hidden = true; E.ficha = null; }
+    if (location.hash.slice(1) !== id) history.replaceState(null, "", "#" + id);
+    if (E.vista === "preguntas") dibujar(); else cambiarVista("preguntas");
+  }
+  function dibujarPreguntas() {
+    const nuevo = !panelPreguntas;
+    if (nuevo) {
+      panelPreguntas = crear("section", { class: "preguntas", "aria-label": "Grandes preguntas" });
+      escenario.prepend(panelPreguntas);
+    }
+    const p = panelPreguntas;
+    const mismaPregunta = p.dataset.pregunta === (E.pregunta || "");
+    const scroll = mismaPregunta ? p.scrollTop : 0;
+    p.dataset.pregunta = E.pregunta || "";
+    p.style.paddingRight = anchoFicha() ? `calc(${anchoFicha()}px + 1.5rem)` : "";
+    p.innerHTML = "";
+    const cfg = configCarriles();
+    const interior = crear("div", { class: "preguntas-interior" });
+    p.append(interior);
+    const preguntas = [...E.nodos.values()].filter((n) => n.tipo === "pregunta");
+
+    if (!E.pregunta || !E.nodos.has(E.pregunta)) {
+      interior.append(crear("h2", { text: "Grandes preguntas" }));
+      interior.append(crear("p", { class: "intro", text: texto("preguntas.intro", "Hay preguntas que se hicieron, cada una a su manera, tradiciones que apenas sabían unas de otras. Elige una para ver qué respondió cada una.") }));
+      const lista = crear("ul", { class: "lista-preguntas" });
+      for (const q of preguntas) {
+        const resp = respuestasDe(q.id);
+        const carriles = [...new Set(resp.map((d) => valorCarril(d.n, cfg)).filter(Boolean))]
+          .sort((a, b) => cfg.orden.indexOf(a) - cfg.orden.indexOf(b)).map((c) => etiquetaCarril(c, cfg));
+        lista.append(crear("li", {}, crear("button", {
+          class: `tarjeta-pregunta v${nivelNiebla(q.id)}`,
+          onclick: () => irAPregunta(q.id),
+        }, [
+          crear("span", { class: "q", text: q.nombre }),
+          crear("span", { class: "meta", text: `${resp.length} ${resp.length === 1 ? "respuesta" : "respuestas"}${carriles.length ? " · " + carriles.join(", ") : ""}` }),
+        ])));
+      }
+      interior.append(lista);
+    } else {
+      const q = E.nodos.get(E.pregunta);
+      interior.append(crear("button", { class: "volver", text: "← Todas las preguntas", onclick: () => { E.pregunta = null; history.replaceState(null, "", location.pathname); dibujar(); } }));
+      interior.append(crear("h2", { text: q.nombre }));
+      if (q.enunciado && q.enunciado !== q.nombre) interior.append(crear("p", { class: "enunciado", text: q.enunciado }));
+      if (q.resumen) interior.append(crear("p", { class: "intro" }, textoEnlazado(q.resumen, q.id)));
+      // Columnas en el orden de los carriles; lo que no tiene carril, al final.
+      const grupos = d3.group(respuestasDe(q.id), (d) => valorCarril(d.n, cfg) || "_otras");
+      const orden = [...grupos.keys()].sort((a, b) => {
+        const ia = cfg.orden.indexOf(a), ib = cfg.orden.indexOf(b);
+        return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+      });
+      const columnas = crear("div", { class: "columnas" });
+      for (const c of orden) {
+        const col = crear("section", { class: "columna" }, crear("h3", { text: c === "_otras" ? "Otras respuestas" : etiquetaCarril(c, cfg) }));
+        const ul = crear("ul");
+        for (const { r, n } of grupos.get(c)) {
+          const li = crear("li", { class: `v${nivelNiebla(n.id)}` });
+          li.append(crear("span", { class: "tipo", text: ETIQUETA_TIPO[n.tipo] || n.tipo }));
+          li.append(crear("button", { class: "e nombre", text: n.nombre, onclick: () => abrirFicha(n.id, q.id) }));
+          if (n.enunciado) li.append(crear("span", { class: "enunciado-tesis", text: n.enunciado }));
+          if (r.nota) li.append(crear("span", { class: "nota" }, textoEnlazado(r.nota, q.id)));
+          const autores = autoresDe(n.id);
+          if (autores.length && !(r.nota || "").includes(autores[0])) {
+            const s = crear("span", { class: "quien" }, document.createTextNode("— "));
+            autores.forEach((a, i) => { if (i) s.append(document.createTextNode(", ")); s.append(crear("button", { class: "e", text: E.nodos.get(a).nombre, onclick: () => abrirFicha(a, q.id) })); });
+            li.append(s);
+          }
+          if (r.certeza && r.certeza !== "D") li.append(crear("span", { class: "marca-certeza", text: (CERTEZA_UI[r.certeza] || "").toLowerCase() }));
+          ul.append(li);
+        }
+        col.append(ul);
+        columnas.append(col);
+      }
+      interior.append(columnas);
+      const otras = preguntas.filter((o) => o.id !== q.id);
+      if (otras.length) {
+        interior.append(crear("h3", { class: "otras", text: "Otras grandes preguntas" }));
+        interior.append(crear("div", { class: "chips" }, otras.map((o) => crear("button", {
+          class: `chip-pregunta v${nivelNiebla(o.id)}`, text: o.nombre,
+          onclick: () => irAPregunta(o.id, q.id),
+        }))));
+      }
+    }
+    p.scrollTop = scroll;
+  }
 
   // ------------------------------------------------------------------ textos con enlaces
   function textoEnlazado(texto, desde) {
@@ -879,6 +997,7 @@
   function abrirFicha(id, desde) {
     const n = E.nodos.get(id);
     if (!n) return;
+    if (n.tipo === "pregunta" && E.vista === "preguntas") { irAPregunta(id, desde !== undefined ? desde : E.ficha); return; }
     registrarVisita(id, desde !== undefined ? desde : E.ficha);
     E.anterior = E.ficha;
     E.ficha = id;
@@ -995,6 +1114,10 @@
     const acciones = [];
     // En el móvil la ficha tapa el mapa: al pedir verlo, se recoge.
     const recoger = () => { if (escenario.clientWidth <= 720) fichaEl.hidden = true; };
+    if (n.tipo === "pregunta") acciones.push(crear("button", {
+      class: "boton", text: "Ver las respuestas de cada tradición",
+      onclick: () => irAPregunta(id),
+    }));
     if (rels.length) acciones.push(crear("button", { class: "boton", text: "Ver en la red", onclick: () => { recoger(); E.centro = id; E.modoRed = "centro"; cambiarVista("libre"); } }));
     if (extension(n.fechas)) acciones.push(crear("button", {
       class: "boton", text: "Ver en la línea del tiempo",
@@ -1051,7 +1174,8 @@
       p.busquedas.push({ atlas: E.atlas.atlas, texto: entrada.value, t: new Date().toISOString().slice(0, 16) });
       if (p.busquedas.length > 200) p.busquedas = p.busquedas.slice(-200);
       entrada.value = ""; resultados = []; pintar(); entrada.blur();
-      if (E.vista === "cronologica" && !extension(n.fechas)) E.vista = "libre";
+      if (n.tipo === "pregunta" && hayPreguntas()) { irAPregunta(n.id); return; }
+      E.vista = vistaPara(n);
       E.centro = n.id;
       E.modoRed = "centro";
       abrirFicha(n.id, null);
@@ -1093,9 +1217,9 @@
     let r = Math.random() * total;
     let elegido = candidatos[0];
     for (const n of candidatos) { r -= peso(n); if (r <= 0) { elegido = n; break; } }
-    if (!extension(elegido.fechas)) E.vista = "libre";
+    E.vista = vistaPara(elegido);
     E.centro = elegido.id;
-      E.modoRed = "centro";
+    E.modoRed = "centro";
     abrirFicha(elegido.id, null);
     cambiarVista(E.vista);
     if (E.vista === "cronologica") setTimeout(() => crono && crono.irA(elegido.id), 30);
@@ -1204,7 +1328,8 @@
     const id = decodeURIComponent(location.hash.slice(1));
     if (id && E.nodos.has(id) && id !== E.ficha) {
       const n = E.nodos.get(id);
-      if (!extension(n.fechas)) E.vista = "libre";
+      if (n.tipo === "pregunta" && hayPreguntas()) { irAPregunta(id); return; }
+      E.vista = extension(n.fechas) ? E.vista : "libre";
       E.centro = id;
       E.modoRed = "centro";
       abrirFicha(id, null);

@@ -77,9 +77,9 @@ Los rangos y logros quedaron fuera del núcleo del juego.
 
 ### 6. Grandes preguntas (decidido)
 
-**Qué es.** Una pregunta de fondo en el centro («¿De qué está hecho todo?», «¿Cómo hay que vivir?») y alrededor las respuestas de cada tradición, agrupadas por carril. Es una puerta de entrada más, junto a la cronológica, la temática y la libre.
+**Qué es.** Una puerta de entrada más, con su propio botón en la barra («Grandes preguntas»). Primero se ve la lista de preguntas, cada una con cuántas respuestas tiene y de qué tradiciones. Al elegir una («¿De qué está hecho todo?», «¿Cómo hay que vivir?») aparecen sus respuestas en columnas, una por tradición: cada respuesta lleva su enunciado o una nota que explica cómo responde, y quién la sostiene. Todo enlaza con su ficha. Programado en el prototipo.
 
-**Qué necesita:** nodos de tipo `pregunta` y relaciones `responde_a` desde las tesis que les responden. Para la Antigüedad se prevén unas doce preguntas.
+**Qué necesita:** nodos de tipo `pregunta` y relaciones `responde_a` desde las tesis, conceptos u obras que les responden. Para la Antigüedad hay doce preguntas y 78 respuestas, en `datos/preguntas.json`.
 
 ## Entradas a un nodo
 

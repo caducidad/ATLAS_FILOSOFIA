@@ -297,3 +297,52 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .m-linea.c-C { stroke-dasharray: 2.2 3.2; stroke-linecap: round; }
 .m-linea.c-L { stroke-dasharray: 1 7; stroke-linecap: round; }
 .m-linea.paralelo { stroke: var(--enlace); }
+
+/* ---------- Grandes preguntas ---------- */
+.vistas .corto { display: none; }
+.preguntas {
+  position: absolute; inset: 0; overflow-y: auto; overscroll-behavior: contain; box-sizing: border-box;
+  padding: 1.5rem 1.5rem calc(3rem + env(safe-area-inset-bottom, 0px));
+}
+.preguntas-interior { max-width: 72rem; margin: 0 auto; }
+.preguntas h2 { font-family: var(--f-display); font-size: var(--t-xl); font-weight: 700; margin: 0.25rem 0 0.4rem; text-wrap: balance; }
+.preguntas .intro { font-family: var(--f-texto); font-size: 1.06rem; line-height: 1.55; color: var(--tinta); max-width: 65ch; margin: 0.5rem 0 1.25rem; }
+.preguntas .enunciado { font-family: var(--f-display); font-style: italic; font-size: var(--t-l); line-height: 1.4; border-left: 2px solid var(--brasa-2); margin: 0.75rem 0; padding-left: 0.9rem; max-width: 60ch; }
+.preguntas button.e { color: var(--enlace); background: none; border: 0; padding: 0; cursor: pointer; font: inherit; text-align: left;
+  text-decoration: underline; text-decoration-color: rgba(156, 192, 255, 0.35); text-underline-offset: 3px; }
+.preguntas button.e:hover { text-decoration-color: var(--enlace); }
+.lista-preguntas { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 0.75rem; }
+.tarjeta-pregunta {
+  width: 100%; height: 100%; box-sizing: border-box; text-align: left; cursor: pointer;
+  background: var(--panel); border: 1px solid var(--linea); border-left: 3px solid var(--niebla); border-radius: 0.5rem;
+  padding: 0.9rem 1rem; display: flex; flex-direction: column; gap: 0.4rem;
+}
+.tarjeta-pregunta:hover { border-color: var(--tenue); }
+.tarjeta-pregunta .q { font-family: var(--f-display); font-size: var(--t-l); line-height: 1.25; color: var(--tinta); }
+.tarjeta-pregunta .meta { font-size: var(--t-xs); color: var(--tenue); line-height: 1.4; }
+.tarjeta-pregunta.v1 { border-left-color: var(--brasa-1); }
+.tarjeta-pregunta.v2 { border-left-color: var(--brasa-2); }
+.tarjeta-pregunta.v3 { border-left-color: var(--brasa-3); }
+.preguntas .volver { background: none; border: 0; padding: 0; color: var(--enlace); cursor: pointer; font-size: var(--t-s); }
+.columnas { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; align-items: start; }
+.columna { background: var(--cielo-alto); border: 1px solid var(--linea); border-radius: 0.5rem; padding: 0.75rem 0.9rem; }
+.columna h3 { font-family: var(--f-display); font-size: var(--t-l); font-weight: 700; margin: 0 0 0.5rem; color: var(--tinta); }
+.columna ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.85rem; }
+.columna li { border-left: 3px solid var(--niebla); padding-left: 0.65rem; display: flex; flex-direction: column; gap: 0.15rem; }
+.columna li.v1 { border-left-color: var(--brasa-1); }
+.columna li.v2 { border-left-color: var(--brasa-2); }
+.columna li.v3 { border-left-color: var(--brasa-3); }
+.columna .tipo { font-size: var(--t-xs); color: var(--apagado); text-transform: uppercase; letter-spacing: 0.08em; }
+.columna .nombre { font-family: var(--f-display); font-size: 1.08rem; }
+.columna .enunciado-tesis { font-family: var(--f-texto); font-style: italic; line-height: 1.45; }
+.columna .nota, .columna .quien { font-size: var(--t-s); color: var(--tenue); line-height: 1.45; }
+.columna .marca-certeza { font-size: var(--t-xs); color: var(--apagado); }
+.preguntas h3.otras { font-family: var(--f-ui); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--tenue); font-weight: 600; margin: 2rem 0 0.5rem; }
+.preguntas .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.chip-pregunta { background: var(--panel); border: 1px solid var(--linea); border-radius: 999px; padding: 0.25rem 0.75rem; cursor: pointer; font-family: var(--f-display); font-size: var(--t-s); color: var(--tinta); }
+.chip-pregunta:hover { border-color: var(--tenue); }
+@media (max-width: 720px) {
+  .vistas .largo { display: none; }
+  .vistas .corto { display: inline; }
+  .preguntas { padding: 1rem 1rem calc(3rem + env(safe-area-inset-bottom, 0px)); }
+}

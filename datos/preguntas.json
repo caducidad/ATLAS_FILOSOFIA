@@ -1,0 +1,732 @@
+{
+ "version": "0.1",
+ "actualizado": "2026-10-10",
+ "descripcion": "Grandes preguntas de la filosofía antigua y las respuestas de cada tradición",
+ "prefijoRelaciones": "pq",
+ "nodos": [
+  {
+   "id": "pregunta.de_que_esta_hecho",
+   "tipo": "pregunta",
+   "nombre": "¿De qué está hecho todo?",
+   "enunciado": "¿De qué está hecho todo lo que existe, y de dónde procede?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "resumen": "La primera pregunta de muchas tradiciones: buscar, detrás de la variedad de las cosas, un [[concepto.arche|principio]] o un fundamento común. Unos responden con una materia; otros, con algo que no se ve."
+  },
+  {
+   "id": "pregunta.cambio_permanencia",
+   "tipo": "pregunta",
+   "nombre": "¿Cambia todo o algo permanece?",
+   "enunciado": "¿Todo está en cambio constante, o hay algo que permanece igual?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "Vemos que las cosas nacen, crecen y mueren. ¿Hay algo estable detrás de ese cambio, o la estabilidad es una ilusión? Es una de las discusiones más antiguas de la filosofía."
+  },
+  {
+   "id": "pregunta.algo_de_la_nada",
+   "tipo": "pregunta",
+   "nombre": "¿Puede algo surgir de la nada?",
+   "enunciado": "¿Puede algo surgir de la nada, o todo lo que existe procede de algo que ya existía?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica"
+   ],
+   "resumen": "Si de la nada no sale nada, ¿de dónde viene el mundo? Y si un efecto ya estaba en su causa, ¿hay verdadera novedad? Tradiciones sin contacto entre sí llegaron a respuestas sorprendentemente parecidas."
+  },
+  {
+   "id": "pregunta.conocer_certeza",
+   "tipo": "pregunta",
+   "nombre": "¿Se puede conocer algo con certeza?",
+   "enunciado": "¿Podemos conocer algo con certeza, y por qué medios?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.epistemologia"
+   ],
+   "resumen": "Antes de afirmar nada sobre el mundo hay que preguntarse cómo lo sabemos. Unos confían en los sentidos, otros en la razón o en la palabra revelada; otros piensan que lo prudente es no afirmar nada."
+  },
+  {
+   "id": "pregunta.que_es_el_yo",
+   "tipo": "pregunta",
+   "nombre": "¿Qué es el yo?",
+   "enunciado": "¿Qué somos en el fondo: hay un yo o un alma, y qué es?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.filosofia_mente",
+    "tematica.antropologia_filosofica"
+   ],
+   "resumen": "Decimos «yo» constantemente, pero ¿hay algo que permanezca igual desde que nacemos hasta que morimos? Las respuestas van desde un alma inmortal hasta la negación de que exista un yo."
+  },
+  {
+   "id": "pregunta.naturaleza_humana",
+   "tipo": "pregunta",
+   "nombre": "¿Es buena la naturaleza humana?",
+   "enunciado": "¿Nacemos inclinados al bien, al mal, o a ninguno de los dos?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.antropologia_filosofica"
+   ],
+   "resumen": "De la respuesta depende cómo educar y cómo gobernar: si somos buenos, basta con no estropearnos; si no, hace falta corregirnos. En la China antigua enfrentó a [[autor.mencio|Mencio]] y [[autor.xunzi|Xunzi]]."
+  },
+  {
+   "id": "pregunta.como_vivir",
+   "tipo": "pregunta",
+   "nombre": "¿Cómo hay que vivir?",
+   "enunciado": "¿En qué consiste una vida buena y cómo se alcanza?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si",
+    "tematica.soteriologia"
+   ],
+   "resumen": "La pregunta práctica por excelencia. Casi todas las escuelas antiguas fueron, ante todo, una forma de vida."
+  },
+  {
+   "id": "pregunta.como_gobernar",
+   "tipo": "pregunta",
+   "nombre": "¿Cómo debe gobernarse?",
+   "enunciado": "¿Qué hace legítimo y bueno un gobierno?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "resumen": "¿Debe mandar el más virtuoso, el más sabio o la ley? ¿Y con qué derecho? Las respuestas antiguas siguen presentes en los debates políticos de hoy."
+  },
+  {
+   "id": "pregunta.despues_muerte",
+   "tipo": "pregunta",
+   "nombre": "¿Qué hay después de la muerte?",
+   "enunciado": "¿Termina todo con la muerte, o algo continúa?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.soteriologia",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "Una pregunta que ninguna tradición ha dejado de hacerse. Las respuestas van desde la inmortalidad del alma hasta la tranquila aceptación de que la muerte no es nada."
+  },
+  {
+   "id": "pregunta.sufre_el_justo",
+   "tipo": "pregunta",
+   "nombre": "¿Por qué sufre el justo?",
+   "enunciado": "Si el mundo tiene un orden justo, ¿por qué sufren quienes no lo merecen?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "resumen": "Es la pregunta que hoy se llama de la teodicea. Ya la plantearon los poetas de [[contexto.egipto_mesopotamia|Babilonia]] y el libro bíblico de [[obra.job|Job]], y cada tradición le dio su respuesta."
+  },
+  {
+   "id": "pregunta.lenguaje_realidad",
+   "tipo": "pregunta",
+   "nombre": "¿Puede el lenguaje decir la realidad?",
+   "enunciado": "¿Pueden las palabras expresar cómo son de verdad las cosas?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.filosofia_lenguaje"
+   ],
+   "resumen": "Pensamos y discutimos con palabras, pero varias tradiciones sospecharon que lo más importante queda fuera de ellas, y otras jugaron con las trampas del lenguaje."
+  },
+  {
+   "id": "pregunta.division_sin_fin",
+   "tipo": "pregunta",
+   "nombre": "¿Se puede dividir algo sin fin?",
+   "enunciado": "¿Puede dividirse cualquier cosa indefinidamente, o hay partes mínimas indivisibles?",
+   "contextos": [],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica",
+    "tematica.filosofia_ciencia"
+   ],
+   "resumen": "Una pregunta que parece técnica y que llevó a algunas de las paradojas más famosas de la historia. Griegos, indios y chinos la plantearon casi a la vez."
+  }
+ ],
+ "relaciones": [
+  {
+   "id": "pq-0001",
+   "origen": "tesis.agua_principio",
+   "tipo": "responde_a",
+   "destino": "pregunta.de_que_esta_hecho",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0002",
+   "origen": "concepto.apeiron",
+   "tipo": "responde_a",
+   "destino": "pregunta.de_que_esta_hecho",
+   "certeza": "D",
+   "nota": "Para [[autor.anaximandro|Anaximandro]], un principio sin límites ni cualidades."
+  },
+  {
+   "id": "pq-0003",
+   "origen": "tesis.atomos_vacio",
+   "tipo": "responde_a",
+   "destino": "pregunta.de_que_esta_hecho",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0004",
+   "origen": "concepto.paramanu",
+   "tipo": "responde_a",
+   "destino": "pregunta.de_que_esta_hecho",
+   "certeza": "D",
+   "nota": "Para el [[escuela.vaisesika|Vaiśeṣika]], partículas indivisibles de tierra, agua, fuego y aire."
+  },
+  {
+   "id": "pq-0005",
+   "origen": "concepto.prakrti",
+   "tipo": "responde_a",
+   "destino": "pregunta.de_que_esta_hecho",
+   "certeza": "D",
+   "nota": "Para el [[escuela.samkhya|Sāṃkhya]], la materia primordial de la que se despliega todo lo que no es conciencia."
+  },
+  {
+   "id": "pq-0006",
+   "origen": "concepto.brahman",
+   "tipo": "responde_a",
+   "destino": "pregunta.de_que_esta_hecho",
+   "certeza": "D",
+   "nota": "Para las [[obra.upanisad|Upaniṣad]], el fundamento único de todo."
+  },
+  {
+   "id": "pq-0007",
+   "origen": "concepto.dao",
+   "tipo": "responde_a",
+   "destino": "pregunta.de_que_esta_hecho",
+   "certeza": "D",
+   "nota": "Para los [[escuela.daojia|taoístas]], el camino del que nacen los diez mil seres."
+  },
+  {
+   "id": "pq-0008",
+   "origen": "tesis.emanacion",
+   "tipo": "responde_a",
+   "destino": "pregunta.de_que_esta_hecho",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0009",
+   "origen": "tesis.rio",
+   "tipo": "responde_a",
+   "destino": "pregunta.cambio_permanencia",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0010",
+   "origen": "tesis.ser_es",
+   "tipo": "responde_a",
+   "destino": "pregunta.cambio_permanencia",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0011",
+   "origen": "concepto.anitya",
+   "tipo": "responde_a",
+   "destino": "pregunta.cambio_permanencia",
+   "certeza": "D",
+   "nota": "Para el [[escuela.budismo|budismo]], nada compuesto permanece."
+  },
+  {
+   "id": "pq-0012",
+   "origen": "concepto.hebel",
+   "tipo": "responde_a",
+   "destino": "pregunta.cambio_permanencia",
+   "certeza": "D",
+   "nota": "Para [[autor.qohelet|Qohélet]], todo es soplo que se desvanece."
+  },
+  {
+   "id": "pq-0013",
+   "origen": "concepto.yinyang",
+   "tipo": "responde_a",
+   "destino": "pregunta.cambio_permanencia",
+   "certeza": "D",
+   "nota": "Para la [[escuela.yinyang|escuela del yin-yang]], el cambio es la alternancia ordenada de dos fuerzas complementarias."
+  },
+  {
+   "id": "pq-0014",
+   "origen": "concepto.atman",
+   "tipo": "responde_a",
+   "destino": "pregunta.cambio_permanencia",
+   "certeza": "D",
+   "nota": "Para las [[obra.upanisad|Upaniṣad]], el sí mismo permanece bajo todos los cambios."
+  },
+  {
+   "id": "pq-0015",
+   "origen": "tesis.ser_no_nace_de_nada",
+   "tipo": "responde_a",
+   "destino": "pregunta.algo_de_la_nada",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0016",
+   "origen": "tesis.ser_es",
+   "tipo": "responde_a",
+   "destino": "pregunta.algo_de_la_nada",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0017",
+   "origen": "tesis.satkaryavada",
+   "tipo": "responde_a",
+   "destino": "pregunta.algo_de_la_nada",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0018",
+   "origen": "tesis.asatkaryavada",
+   "tipo": "responde_a",
+   "destino": "pregunta.algo_de_la_nada",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0019",
+   "origen": "tesis.homo_mensura",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0020",
+   "origen": "tesis.nada_existe",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0021",
+   "origen": "tesis.epoje_ataraxia",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0022",
+   "origen": "tesis.solo_percepcion",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0023",
+   "origen": "concepto.pramana",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D",
+   "nota": "Para el [[escuela.nyaya|Nyāya]], hay varios medios fiables: percepción, inferencia, comparación y testimonio."
+  },
+  {
+   "id": "pq-0024",
+   "origen": "tesis.perspectivas",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0025",
+   "origen": "concepto.anekantavada",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D",
+   "nota": "Para el [[escuela.jainismo|jainismo]], toda afirmación es verdadera solo desde un punto de vista."
+  },
+  {
+   "id": "pq-0026",
+   "origen": "tesis.veda_sin_autor",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0027",
+   "origen": "tesis.ayam_atma_brahma",
+   "tipo": "responde_a",
+   "destino": "pregunta.que_es_el_yo",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0028",
+   "origen": "tesis.tat_tvam_asi",
+   "tipo": "responde_a",
+   "destino": "pregunta.que_es_el_yo",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0029",
+   "origen": "tesis.neti_neti",
+   "tipo": "responde_a",
+   "destino": "pregunta.que_es_el_yo",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0030",
+   "origen": "tesis.no_yo",
+   "tipo": "responde_a",
+   "destino": "pregunta.que_es_el_yo",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0031",
+   "origen": "tesis.alma_inmortal",
+   "tipo": "responde_a",
+   "destino": "pregunta.que_es_el_yo",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0032",
+   "origen": "concepto.purusa",
+   "tipo": "responde_a",
+   "destino": "pregunta.que_es_el_yo",
+   "certeza": "D",
+   "nota": "Para el [[escuela.samkhya|Sāṃkhya]], la conciencia pura, distinta de todo lo material."
+  },
+  {
+   "id": "pq-0033",
+   "origen": "concepto.jiva",
+   "tipo": "responde_a",
+   "destino": "pregunta.que_es_el_yo",
+   "certeza": "D",
+   "nota": "Para el [[escuela.jainismo|jainismo]], cada ser vivo tiene un alma individual."
+  },
+  {
+   "id": "pq-0034",
+   "origen": "concepto.ba",
+   "tipo": "responde_a",
+   "destino": "pregunta.que_es_el_yo",
+   "certeza": "D",
+   "nota": "Para los [[contexto.egipto_mesopotamia|egipcios]], una de las partes de la persona, que sobrevive a la muerte."
+  },
+  {
+   "id": "pq-0035",
+   "origen": "tesis.naturaleza_buena",
+   "tipo": "responde_a",
+   "destino": "pregunta.naturaleza_humana",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0036",
+   "origen": "tesis.naturaleza_mala",
+   "tipo": "responde_a",
+   "destino": "pregunta.naturaleza_humana",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0037",
+   "origen": "tesis.nadie_obra_mal",
+   "tipo": "responde_a",
+   "destino": "pregunta.naturaleza_humana",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0038",
+   "origen": "tesis.gobierno_por_ley",
+   "tipo": "responde_a",
+   "destino": "pregunta.naturaleza_humana",
+   "certeza": "D",
+   "nota": "Los [[escuela.fajia|legistas]] no confían en la bondad de nadie: el orden depende de premios y castigos."
+  },
+  {
+   "id": "pq-0039",
+   "origen": "tesis.vivir_segun_naturaleza",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0040",
+   "origen": "concepto.eudaimonia",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D",
+   "nota": "Para [[autor.aristoteles|Aristóteles]], la vida plena se alcanza ejerciendo la virtud."
+  },
+  {
+   "id": "pq-0041",
+   "origen": "concepto.ataraxia",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D",
+   "nota": "Para [[autor.epicuro|Epicuro]] y los [[escuela.pirronismo|escépticos]], la serenidad del alma."
+  },
+  {
+   "id": "pq-0042",
+   "origen": "concepto.ren",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D",
+   "nota": "Para [[autor.confucio|Confucio]], la humanidad: tratar bien a los demás."
+  },
+  {
+   "id": "pq-0043",
+   "origen": "tesis.cuidado_inclusivo",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0044",
+   "origen": "concepto.wuwei",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D",
+   "nota": "Para los [[escuela.daojia|taoístas]], actuar sin forzar las cosas."
+  },
+  {
+   "id": "pq-0045",
+   "origen": "tesis.cuatro_verdades",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0046",
+   "origen": "concepto.ahimsa",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D",
+   "nota": "Para [[escuela.jainismo|jainistas]] y [[escuela.budismo|budistas]], no hacer daño a ningún ser vivo."
+  },
+  {
+   "id": "pq-0047",
+   "origen": "tesis.goza_la_vida",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0048",
+   "origen": "tesis.temor_sabiduria",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0049",
+   "origen": "tesis.eleccion_verdad_mentira",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0050",
+   "origen": "tesis.gobierno_por_ley",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_gobernar",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0051",
+   "origen": "tesis.animal_politico",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_gobernar",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0052",
+   "origen": "obra.republica",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_gobernar",
+   "certeza": "D",
+   "nota": "[[autor.platon|Platón]] propone que gobiernen los filósofos."
+  },
+  {
+   "id": "pq-0053",
+   "origen": "concepto.tianming",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_gobernar",
+   "certeza": "D",
+   "nota": "Para la China antigua, el mandato del [[concepto.tian|Cielo]], que se pierde cuando se gobierna mal."
+  },
+  {
+   "id": "pq-0054",
+   "origen": "concepto.li",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_gobernar",
+   "certeza": "D",
+   "nota": "Para los [[escuela.ru|confucianos]], los ritos, que ordenan la sociedad mejor que los castigos."
+  },
+  {
+   "id": "pq-0055",
+   "origen": "concepto.maat",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_gobernar",
+   "certeza": "D",
+   "nota": "Para los [[contexto.egipto_mesopotamia|egipcios]], el faraón debe mantener el orden justo del mundo."
+  },
+  {
+   "id": "pq-0056",
+   "origen": "tesis.ciclo_cinco_fases",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_gobernar",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0057",
+   "origen": "tesis.alma_inmortal",
+   "tipo": "responde_a",
+   "destino": "pregunta.despues_muerte",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0058",
+   "origen": "tesis.muerte_nada",
+   "tipo": "responde_a",
+   "destino": "pregunta.despues_muerte",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0059",
+   "origen": "concepto.metempsicosis",
+   "tipo": "responde_a",
+   "destino": "pregunta.despues_muerte",
+   "certeza": "D",
+   "nota": "Para [[autor.pitagoras|Pitágoras]] y [[autor.empedocles|Empédocles]], el alma pasa a otros cuerpos."
+  },
+  {
+   "id": "pq-0060",
+   "origen": "concepto.samsara",
+   "tipo": "responde_a",
+   "destino": "pregunta.despues_muerte",
+   "certeza": "D",
+   "nota": "Para las tradiciones indias, el ciclo de renacimientos."
+  },
+  {
+   "id": "pq-0061",
+   "origen": "concepto.nirvana",
+   "tipo": "responde_a",
+   "destino": "pregunta.despues_muerte",
+   "certeza": "D",
+   "nota": "Para el [[escuela.budismo|budismo]], la extinción del deseo, que pone fin a los renacimientos."
+  },
+  {
+   "id": "pq-0062",
+   "origen": "concepto.frashokereti",
+   "tipo": "responde_a",
+   "destino": "pregunta.despues_muerte",
+   "certeza": "D",
+   "nota": "Para el [[escuela.mazdeismo|mazdeísmo]], la resurrección y la renovación final del mundo."
+  },
+  {
+   "id": "pq-0063",
+   "origen": "tesis.goza_la_vida",
+   "tipo": "responde_a",
+   "destino": "pregunta.despues_muerte",
+   "certeza": "D",
+   "nota": "En el [[obra.gilgamesh|Poema de Gilgamesh]], la inmortalidad está reservada a los dioses."
+  },
+  {
+   "id": "pq-0064",
+   "origen": "tesis.justo_sufriente",
+   "tipo": "responde_a",
+   "destino": "pregunta.sufre_el_justo",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0065",
+   "origen": "tesis.retribucion",
+   "tipo": "responde_a",
+   "destino": "pregunta.sufre_el_justo",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0066",
+   "origen": "concepto.karman",
+   "tipo": "responde_a",
+   "destino": "pregunta.sufre_el_justo",
+   "certeza": "D",
+   "nota": "Para las tradiciones indias, cada acto trae sus frutos, en esta vida o en otra."
+  },
+  {
+   "id": "pq-0067",
+   "origen": "tesis.cuatro_verdades",
+   "tipo": "responde_a",
+   "destino": "pregunta.sufre_el_justo",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0068",
+   "origen": "tesis.vanidad",
+   "tipo": "responde_a",
+   "destino": "pregunta.sufre_el_justo",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0069",
+   "origen": "tesis.dao_indecible",
+   "tipo": "responde_a",
+   "destino": "pregunta.lenguaje_realidad",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0070",
+   "origen": "tesis.neti_neti",
+   "tipo": "responde_a",
+   "destino": "pregunta.lenguaje_realidad",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0071",
+   "origen": "tesis.caballo_blanco",
+   "tipo": "responde_a",
+   "destino": "pregunta.lenguaje_realidad",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0072",
+   "origen": "tesis.nada_existe",
+   "tipo": "responde_a",
+   "destino": "pregunta.lenguaje_realidad",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0073",
+   "origen": "concepto.zhengming",
+   "tipo": "responde_a",
+   "destino": "pregunta.lenguaje_realidad",
+   "certeza": "D",
+   "nota": "Para [[autor.confucio|Confucio]], hay que corregir los nombres para que correspondan a la realidad."
+  },
+  {
+   "id": "pq-0074",
+   "origen": "concepto.uno",
+   "tipo": "responde_a",
+   "destino": "pregunta.lenguaje_realidad",
+   "certeza": "D",
+   "nota": "Para [[autor.plotino|Plotino]], el principio de todo está más allá de las palabras."
+  },
+  {
+   "id": "pq-0075",
+   "origen": "tesis.movimiento_imposible",
+   "tipo": "responde_a",
+   "destino": "pregunta.division_sin_fin",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0076",
+   "origen": "tesis.divisibilidad",
+   "tipo": "responde_a",
+   "destino": "pregunta.division_sin_fin",
+   "certeza": "D"
+  },
+  {
+   "id": "pq-0077",
+   "origen": "concepto.atomo",
+   "tipo": "responde_a",
+   "destino": "pregunta.division_sin_fin",
+   "certeza": "D",
+   "nota": "Para los [[escuela.atomismo|atomistas]] griegos, hay partículas que ya no pueden dividirse."
+  },
+  {
+   "id": "pq-0078",
+   "origen": "concepto.paramanu",
+   "tipo": "responde_a",
+   "destino": "pregunta.division_sin_fin",
+   "certeza": "D",
+   "nota": "Para el [[escuela.vaisesika|Vaiśeṣika]], la división termina en partículas indivisibles."
+  }
+ ]
+}
