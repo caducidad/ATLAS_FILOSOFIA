@@ -156,6 +156,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
   position: absolute; bottom: calc(100% + 0.5rem); left: 0; width: min(24rem, calc(100vw - 2rem)); box-sizing: border-box;
   background: var(--panel); border: 1px solid var(--linea); border-radius: 0.5rem; padding: 0.75rem 0.9rem;
   font-size: var(--t-s); line-height: 1.4; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+  max-height: min(70vh, 40rem); overflow-y: auto; overscroll-behavior: contain;
 }
 .leyenda-panel h4 { margin: 0.4rem 0 0.4rem; font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.08em; color: var(--tenue); font-weight: 600; }
 .leyenda-panel ul { list-style: none; margin: 0 0 0.5rem; padding: 0; display: grid; gap: 0.45rem; }
@@ -289,3 +290,10 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .red-completa .nodo.centro text { font-size: 15px; }
 .constelacion { fill: var(--tinta); font-family: var(--f-display); font-size: 22px; letter-spacing: 0.04em; opacity: 0.8; paint-order: stroke; stroke: var(--cielo); stroke-width: 5px; }
 .constelacion.secundario { font-size: 17px; fill: var(--tenue); }
+
+/* Muestras de la leyenda de la red: más gruesas para que se distingan */
+.m-linea { stroke: var(--tinta); stroke-width: 2.2; stroke-opacity: 0.85; }
+.m-linea.c-P { stroke-dasharray: 7 4; }
+.m-linea.c-C { stroke-dasharray: 2.2 3.2; stroke-linecap: round; }
+.m-linea.c-L { stroke-dasharray: 1 7; stroke-linecap: round; }
+.m-linea.paralelo { stroke: var(--enlace); }

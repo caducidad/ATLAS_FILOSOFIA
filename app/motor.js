@@ -577,15 +577,10 @@
       abrirFicha(id, c);
     }
 
-    const certezas = E.base.certezas;
     controles([
       ...botonesZoom((f) => zoomRed.acercar(f)),
       conmutadorRed(),
-      ...Object.entries(certezas).map(([k, v]) => crear("button", {
-        class: "chip", "aria-pressed": String(E.certezas.has(k)), text: v,
-        title: `Mostrar u ocultar las relaciones con certeza «${v}»`,
-        onclick: () => { E.certezas.has(k) ? E.certezas.delete(k) : E.certezas.add(k); dibujar(); },
-      })),
+      ...botonesCerteza(),
       leyendaNiebla(),
     ]);
     if (rels.length === 0) {
@@ -718,11 +713,7 @@
     controles([
       ...botonesZoom((f) => zoomRed.acercar(f)),
       conmutadorRed(),
-      ...Object.entries(E.base.certezas).map(([k, v]) => crear("button", {
-        class: "chip", "aria-pressed": String(E.certezas.has(k)), text: v,
-        title: `Mostrar u ocultar las relaciones con certeza «${v}»`,
-        onclick: () => { E.certezas.has(k) ? E.certezas.delete(k) : E.certezas.add(k); dibujar(); },
-      })),
+      ...botonesCerteza(),
       leyendaNiebla(),
     ]);
   }
@@ -742,48 +733,64 @@
   function controles(elementos) {
     escenario.append(crear("div", { class: "controles" }, elementos));
   }
+  // Palabras que ve el lector para la certeza de cada relación (los botones y la leyenda dicen lo mismo).
+  const CERTEZA_UI = { D: "Consta", P: "Probable", C: "Hipótesis", L: "Leyenda" };
+  const CERTEZA_FRASE = {
+    D: "Línea continua: consta en las fuentes.",
+    P: "Rayas: es probable, aunque no consta directamente.",
+    C: "Puntos: es una hipótesis de los estudiosos.",
+    L: "Puntos separados: solo lo cuenta una leyenda.",
+  };
+  function botonesCerteza() {
+    return Object.keys(E.base.certezas).map((k) => crear("button", {
+      class: "chip", "aria-pressed": String(E.certezas.has(k)), text: CERTEZA_UI[k] || E.base.certezas[k],
+      title: `Mostrar u ocultar las líneas de este tipo: ${(CERTEZA_FRASE[k] || "").toLowerCase()}`,
+      onclick: () => { E.certezas.has(k) ? E.certezas.delete(k) : E.certezas.add(k); dibujar(); },
+    }));
+  }
+
   function leyendaNiebla() {
-    // «Cómo leer el mapa»: la niebla, y en la línea del tiempo, qué significa cada trazo.
+    // «Cómo leer el mapa»: primero cómo se lee la vista en que estás; después los detalles.
     const cont = crear("div", { class: "leyenda" });
     const panel = crear("div", { class: "leyenda-panel", hidden: true, id: "leyenda-panel" });
-    const muestra = (svgInterior) => { const sp = crear("span", { class: "muestra" }); sp.innerHTML = `<svg width="46" height="12" aria-hidden="true">${svgInterior}</svg>`; return sp; };
+    const muestra = (svgInterior, alto = 12) => { const sp = crear("span", { class: "muestra" }); sp.innerHTML = `<svg width="46" height="${alto}" aria-hidden="true">${svgInterior}</svg>`; return sp; };
     const fila = (m, texto) => crear("li", {}, [m, document.createTextNode(texto)]);
-    const niebla = crear("ul", {}, [
-      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v0"/>'), "Aún sin visitar"),
-      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v1"/>'), "Visitado una vez"),
-      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v2"/>'), "Visitado de 2 a 4 veces"),
-      fila(muestra('<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v3"/>'), "Visitado 5 veces o más"),
-    ]);
-    panel.append(crear("h4", { text: "Lo que ya has visitado se ilumina" }), crear("p", { class: "intro", text: "Cada vez que abres la ficha de un autor, una obra o un concepto, se ilumina un poco más. Así ves de un vistazo qué parte del mapa ya conoces." }), niebla);
+    const seccion = (titulo, ...hijos) => panel.append(crear("h4", { text: titulo }), ...hijos);
+    const textoVisitas = "Cada vez que abres la ficha de un autor, una obra o un concepto, se ilumina un poco más. Así ves de un vistazo qué parte del mapa ya conoces.";
+    const visitas = (forma) => crear("ul", {}, ["Aún sin visitar", "Visitado una vez", "Visitado de 2 a 4 veces", "Visitado 5 veces o más"]
+      .map((t, k) => fila(forma === "barra"
+        ? muestra(`<rect x="2" y="2" width="42" height="7" rx="3.5" class="m-v${k}"/>`)
+        : muestra(`<circle cx="23" cy="8" r="6" class="m-v${k}"/>`, 16), t)));
+    const moverte = (texto) => crear("p", { text: texto });
+
     if (E.vista === "cronologica") {
-      panel.append(crear("h4", { text: "Las fechas" }), crear("ul", {}, [
+      seccion("Lo que ya has visitado se ilumina", crear("p", { class: "intro", text: textoVisitas }), visitas("barra"));
+      seccion("Las fechas", crear("ul", {}, [
         fila(muestra('<rect x="2" y="5" width="42" height="2" class="m-v2"/><rect x="14" y="2" width="20" height="7" rx="3.5" class="m-v2"/>'),
           "Cada barra es una vida. La parte gruesa son los años seguros; la línea fina, el margen de duda."),
         fila(crear("span", { class: "muestra-texto", text: "Laozi" }), "Nombre en cursiva: su existencia histórica es dudosa o legendaria."),
-      ]));
-      panel.append(crear("p", { text: "Algunas figuras tienen fechas distintas según quién las cuente: la tradición budista, por ejemplo, sitúa al Buda más de un siglo antes que los historiadores actuales. El mapa usa las fechas de los historiadores; las demás aparecen en la ficha de cada autor. Para moverte: arrastra, usa la rueda o las flechas del teclado; para acercar o alejar, los botones + y −, las teclas + y −, Ctrl con la rueda o pellizcando con dos dedos. Con poco acercamiento solo se rotulan los autores principales." }));
+      ]), crear("p", { text: "Algunas figuras tienen fechas distintas según quién las cuente: la tradición budista, por ejemplo, sitúa al Buda más de un siglo antes que los historiadores actuales. El mapa usa las fechas de los historiadores; las demás aparecen en la ficha de cada autor." }));
       const cfg = configCarriles();
       if (cfg.secundarios.length) {
         panel.append(crear("p", { text: `${cfg.secundarios.map((c) => etiquetaCarril(c, cfg)).join(", ")} aparece más discreto porque recoge las sabidurías que precedieron a la filosofía, como un ${cfg.rotuloSecundarios || "preámbulo"}, y no filosofía en sentido estricto.` }));
       }
-    }
-    if (E.vista === "libre") {
-      panel.append(crear("h4", { text: "Las relaciones" }), crear("ul", {}, [
-        fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista"/>'), "Línea continua: documentada."),
-        fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista c-P"/>'), "Rayas: probable."),
-        fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista c-C"/>'), "Puntos: conjetural."),
-        fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista c-L"/>'), "Puntos sueltos: legendaria."),
-        fila(muestra('<line x1="2" y1="6" x2="44" y2="6" class="arista paralelo"/>'), "Azul: paralelo entre tradiciones, sin influencia conocida."),
-      ]));
-      const forma = (tipo) => { const sp = crear("span", { class: "muestra" }); sp.innerHTML = `<svg width="46" height="18" aria-hidden="true"><path transform="translate(23,9)" class="m-forma" d="${d3.symbol(FORMA[tipo], 90)()}"/></svg>`; return sp; };
-      panel.append(crear("h4", { text: "Las formas" }), crear("ul", {}, [
+      seccion("Cómo moverte", moverte("Arrastra, usa la rueda del ratón o las flechas del teclado. Para acercar o alejar: los botones + y −, las teclas + y −, Ctrl con la rueda o pellizcando con dos dedos. Con el mapa alejado solo se rotulan los autores principales."));
+    } else {
+      seccion("Cómo se lee", crear("p", { class: "intro", text: E.modoRed === "todo"
+        ? "Toda la red a la vez: cada tradición forma un grupo, como una constelación, y las líneas que cruzan de un grupo a otro unen tradiciones distintas. Al acercarte aparecen todos los nombres. Pulsa un autor, una obra o un concepto para abrir su ficha y resaltar lo que se relaciona con él."
+        : "En el centro, el elemento elegido. Alrededor, todo lo que se relaciona con él, agrupado en sectores sombreados: cada sector es un tipo de relación, y se lee desde el centro hacia fuera. «Fue maestro de (3)» quiere decir que el del centro fue maestro de los tres de ese sector. Pulsa cualquiera para ponerlo en el centro." }));
+      const linea = (clase) => muestra(`<line x1="2" y1="7" x2="44" y2="7" class="m-linea ${clase}"/>`, 14);
+      seccion("¿Qué seguridad hay?", crear("ul", {}, [
+        ...Object.keys(E.base.certezas).map((k) => fila(linea(`c-${k}`), CERTEZA_FRASE[k] || E.base.certezas[k])),
+        fila(linea("paralelo"), "Línea azul: se parecen, pero no consta que uno influyera en el otro."),
+      ]), crear("p", { class: "intro", text: "Los botones de abajo (Consta, Probable, Hipótesis y Leyenda) muestran u ocultan cada tipo de línea." }));
+      const forma = (tipo) => muestra(`<path transform="translate(23,9)" class="m-forma" d="${d3.symbol(FORMA[tipo], 90)()}"/>`, 18);
+      seccion("Las formas", crear("ul", {}, [
         fila(forma("autor"), "Autor"), fila(forma("obra"), "Obra"), fila(forma("concepto"), "Concepto"),
         fila(forma("tesis"), "Tesis"), fila(forma("escuela"), "Escuela o corriente"),
       ]));
-      panel.append(crear("p", { text: E.modoRed === "todo"
-        ? "Toda la red: cada tradición forma una constelación y las líneas azules son los paralelos entre tradiciones. Acerca para ver todos los nombres; pulsa un autor, una obra o un concepto para abrir su ficha y resaltar sus relaciones."
-        : "Alrededor de un elemento: cada sector sombreado agrupa las relaciones del mismo tipo, y el rótulo se lee desde el centro hacia fuera. «Fue maestro de (3)» quiere decir que el del centro fue maestro de los tres de ese sector. Pulsa cualquiera para ponerlo en el centro." }));
-      panel.append(crear("p", { text: "Para moverte: arrastra o usa las flechas del teclado. Para acercar o alejar: los botones + y −, las teclas + y −, la rueda del ratón o pellizcando con dos dedos." }));
+      seccion("Lo que ya has visitado se ilumina", crear("p", { class: "intro", text: textoVisitas }), visitas("circulo"));
+      seccion("Cómo moverte", moverte("Arrastra o usa las flechas del teclado. Para acercar o alejar: los botones + y −, las teclas + y −, la rueda del ratón o pellizcando con dos dedos."));
     }
     const boton = crear("button", {
       class: "chip", "aria-expanded": "false", "aria-controls": "leyenda-panel", text: "Cómo leer el mapa",
@@ -792,6 +799,7 @@
     cont.append(panel, boton);
     return cont;
   }
+
 
 
   // ------------------------------------------------------------------ textos con enlaces
@@ -930,7 +938,7 @@
         const ul = crear("ul");
         for (const d of lista) {
           const li = crear("li", {}, [enlaceNodo(d.otro, id)]);
-          if (d.r.certeza !== "D") li.append(crear("span", { class: "marca-certeza", text: E.base.certezas[d.r.certeza] }));
+          if (d.r.certeza !== "D") li.append(crear("span", { class: "marca-certeza", text: (CERTEZA_UI[d.r.certeza] || "").toLowerCase() }));
           if (d.r.ejeComparacion) li.append(crear("span", { class: "nota", text: `Comparten: ${d.r.ejeComparacion}` }));
           if (d.r.nota) { const s = crear("span", { class: "nota" }); s.append(textoEnlazado(d.r.nota, id)); li.append(s); }
           if (d.r.fuente) li.append(crear("span", { class: "nota", text: `Fuente: ${d.r.fuente}` }));
