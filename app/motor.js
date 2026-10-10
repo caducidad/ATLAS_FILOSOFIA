@@ -55,7 +55,8 @@
 
   function anio(a) {
     if (a < 0) return `${-a} a. C.`;
-    return `${a} d. C.`;
+    // «d. C.» solo donde hace falta distinguir: en los primeros siglos de la era.
+    return a < 1000 ? `${a} d. C.` : `${a}`;
   }
   function tramo(t, aprox) {
     if (!t) return "";
@@ -162,6 +163,32 @@
         }
       }
     }
+  }
+
+  // ------------------------------------------------------------------ configuración del atlas
+  // Cada atlas puede declarar en atlas.json su color (tema), textos propios de su disciplina
+  // y la etiqueta, el plural y la forma de sus tipos de nodo propios.
+  const FORMAS_POR_NOMBRE = {
+    circulo: d3.symbolCircle, cuadrado: d3.symbolSquare, rombo: d3.symbolDiamond, triangulo: d3.symbolTriangle,
+    estrella: d3.symbolStar, cruz: d3.symbolCross, y: d3.symbolWye,
+  };
+  const VARIABLES_TEMA = {
+    acento: "--enlace", acentoClaro: "--foco", cielo: "--cielo", cieloAlto: "--cielo-alto", panel: "--panel", linea: "--linea",
+  };
+  function aplicarAtlas() {
+    const tema = E.atlas.tema || {};
+    for (const [clave, variable] of Object.entries(VARIABLES_TEMA)) {
+      if (tema[clave]) document.documentElement.style.setProperty(variable, tema[clave]);
+    }
+    for (const [tipo, def] of Object.entries(E.atlas.tiposNodo || {})) {
+      if (def.etiqueta) ETIQUETA_TIPO[tipo] = def.etiqueta;
+      if (def.plural) PLURAL[tipo] = def.plural;
+      if (def.forma && FORMAS_POR_NOMBRE[def.forma]) FORMA[tipo] = FORMAS_POR_NOMBRE[def.forma];
+    }
+  }
+  function texto(clave, porDefecto, datos = {}) {
+    const t = (E.atlas.textos && E.atlas.textos[clave]) || porDefecto;
+    return t.replace(/\{(\w+)\}/g, (m, k) => (k in datos ? datos[k] : m));
   }
 
   // ------------------------------------------------------------------ carriles
@@ -707,7 +734,7 @@
     else {
       const x0 = d3.min(nodos, (d) => d.x) - 40, x1 = d3.max(nodos, (d) => d.x) + 40;
       const y0 = d3.min(nodos, (d) => d.y) - 50, y1 = d3.max(nodos, (d) => d.y) + 30;
-      const k = Math.min((anchoUtil - 20) / (x1 - x0), (alto - 80) / (y1 - y0));
+      const k = Math.min(1.4, (anchoUtil - 20) / (x1 - x0), (alto - 80) / (y1 - y0));
       svg.call(zoom.transform, d3.zoomIdentity.translate(anchoUtil / 2 - k * (x0 + x1) / 2, (alto - 60) / 2 - k * (y0 + y1) / 2).scale(k));
     }
     controles([
@@ -769,10 +796,10 @@
         fila(muestra('<rect x="2" y="5" width="42" height="2" class="m-v2"/><rect x="14" y="2" width="20" height="7" rx="3.5" class="m-v2"/>'),
           "Cada barra es una vida. La parte gruesa son los años seguros; la línea fina, el margen de duda."),
         fila(crear("span", { class: "muestra-texto", text: "Laozi" }), "Nombre en cursiva: su existencia histórica es dudosa o legendaria."),
-      ]), crear("p", { text: "Algunas figuras tienen fechas distintas según quién las cuente: la tradición budista, por ejemplo, sitúa al Buda más de un siglo antes que los historiadores actuales. El mapa usa las fechas de los historiadores; las demás aparecen en la ficha de cada autor." }));
+      ]), crear("p", { text: texto("leyenda.fechasAlternativas", "Algunas figuras tienen fechas distintas según quién las cuente. El mapa usa las fechas de los historiadores actuales; las demás aparecen en la ficha de cada autor.") }));
       const cfg = configCarriles();
       if (cfg.secundarios.length) {
-        panel.append(crear("p", { text: `${cfg.secundarios.map((c) => etiquetaCarril(c, cfg)).join(", ")} aparece más discreto porque recoge las sabidurías que precedieron a la filosofía, como un ${cfg.rotuloSecundarios || "preámbulo"}, y no filosofía en sentido estricto.` }));
+        panel.append(crear("p", { text: texto("leyenda.carrilesSecundarios", "{carriles} aparece en una franja más discreta.", { carriles: cfg.secundarios.map((c) => etiquetaCarril(c, cfg)).join(", ") }) }));
       }
       seccion("Cómo moverte", moverte("Arrastra, usa la rueda del ratón o las flechas del teclado. Para acercar o alejar: los botones + y −, las teclas + y −, Ctrl con la rueda o pellizcando con dos dedos. Con el mapa alejado solo se rotulan los autores principales."));
     } else {
@@ -1195,6 +1222,7 @@
       return;
     }
     document.title = E.atlas.nombre || document.title;
+    aplicarAtlas();
     montar();
     dibujar();
     avisoInicial();
