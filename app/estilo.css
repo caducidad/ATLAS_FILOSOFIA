@@ -300,17 +300,17 @@ button, input, select, textarea { font: inherit; color: inherit; }
 
 /* ---------- Grandes preguntas ---------- */
 .vistas .corto { display: none; }
-.preguntas {
+.panel-vista {
   position: absolute; inset: 0; overflow-y: auto; overscroll-behavior: contain; box-sizing: border-box;
   padding: 1.5rem 1.5rem calc(3rem + env(safe-area-inset-bottom, 0px));
 }
-.preguntas-interior { max-width: 72rem; margin: 0 auto; }
-.preguntas h2 { font-family: var(--f-display); font-size: var(--t-xl); font-weight: 700; margin: 0.25rem 0 0.4rem; text-wrap: balance; }
-.preguntas .intro { font-family: var(--f-texto); font-size: 1.06rem; line-height: 1.55; color: var(--tinta); max-width: 65ch; margin: 0.5rem 0 1.25rem; }
-.preguntas .enunciado { font-family: var(--f-display); font-style: italic; font-size: var(--t-l); line-height: 1.4; border-left: 2px solid var(--brasa-2); margin: 0.75rem 0; padding-left: 0.9rem; max-width: 60ch; }
-.preguntas button.e { color: var(--enlace); background: none; border: 0; padding: 0; cursor: pointer; font: inherit; text-align: left;
+.panel-interior { max-width: 72rem; margin: 0 auto; }
+.panel-vista h2 { font-family: var(--f-display); font-size: var(--t-xl); font-weight: 700; margin: 0.25rem 0 0.4rem; text-wrap: balance; }
+.panel-vista .intro { font-family: var(--f-texto); font-size: 1.06rem; line-height: 1.55; color: var(--tinta); max-width: 65ch; margin: 0.5rem 0 1.25rem; }
+.panel-vista .enunciado { font-family: var(--f-display); font-style: italic; font-size: var(--t-l); line-height: 1.4; border-left: 2px solid var(--brasa-2); margin: 0.75rem 0; padding-left: 0.9rem; max-width: 60ch; }
+.panel-vista button.e { color: var(--enlace); background: none; border: 0; padding: 0; cursor: pointer; font: inherit; text-align: left;
   text-decoration: underline; text-decoration-color: rgba(156, 192, 255, 0.35); text-underline-offset: 3px; }
-.preguntas button.e:hover { text-decoration-color: var(--enlace); }
+.panel-vista button.e:hover { text-decoration-color: var(--enlace); }
 .lista-preguntas { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 0.75rem; }
 .tarjeta-pregunta {
   width: 100%; height: 100%; box-sizing: border-box; text-align: left; cursor: pointer;
@@ -323,7 +323,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .tarjeta-pregunta.v1 { border-left-color: var(--brasa-1); }
 .tarjeta-pregunta.v2 { border-left-color: var(--brasa-2); }
 .tarjeta-pregunta.v3 { border-left-color: var(--brasa-3); }
-.preguntas .volver { background: none; border: 0; padding: 0; color: var(--enlace); cursor: pointer; font-size: var(--t-s); }
+.panel-vista .volver { background: none; border: 0; padding: 0; color: var(--enlace); cursor: pointer; font-size: var(--t-s); }
 .columnas { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; align-items: start; }
 .columna { background: var(--cielo-alto); border: 1px solid var(--linea); border-radius: 0.5rem; padding: 0.75rem 0.9rem; }
 .columna h3 { font-family: var(--f-display); font-size: var(--t-l); font-weight: 700; margin: 0 0 0.5rem; color: var(--tinta); }
@@ -337,14 +337,14 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .columna .enunciado-tesis { font-family: var(--f-texto); font-style: italic; line-height: 1.45; }
 .columna .nota, .columna .quien { font-size: var(--t-s); color: var(--tenue); line-height: 1.45; }
 .columna .marca-certeza { font-size: var(--t-xs); color: var(--apagado); }
-.preguntas h3.otras { font-family: var(--f-ui); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--tenue); font-weight: 600; margin: 2rem 0 0.5rem; }
-.preguntas .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.panel-vista h3.otras { font-family: var(--f-ui); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--tenue); font-weight: 600; margin: 2rem 0 0.5rem; }
+.panel-vista .chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .chip-pregunta { background: var(--panel); border: 1px solid var(--linea); border-radius: 999px; padding: 0.25rem 0.75rem; cursor: pointer; font-family: var(--f-display); font-size: var(--t-s); color: var(--tinta); }
 .chip-pregunta:hover { border-color: var(--tenue); }
 @media (max-width: 720px) {
   .vistas .largo { display: none; }
   .vistas .corto { display: inline; }
-  .preguntas { padding: 1rem 1rem calc(3rem + env(safe-area-inset-bottom, 0px)); }
+  .panel-vista { padding: 1rem 1rem calc(3rem + env(safe-area-inset-bottom, 0px)); }
 }
 
 /* Para saber más: enlaces que salen del atlas */
@@ -352,3 +352,72 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .ficha .saber-mas a { color: var(--enlace); font-family: var(--f-texto); text-decoration: underline; text-decoration-color: rgba(156, 192, 255, 0.35); text-underline-offset: 3px; }
 .ficha .saber-mas a::after { content: " ↗"; font-family: var(--f-ui); font-size: var(--t-xs); text-decoration: none; display: inline-block; }
 .ficha .saber-mas a:hover { text-decoration-color: var(--enlace); }
+
+/* ---------- Pon a prueba ---------- */
+.prueba .panel-interior { max-width: 46rem; }
+.prueba h3.seccion { font-family: var(--f-ui); font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--tenue); font-weight: 600; margin: 1.75rem 0 0.6rem; }
+.prueba .sub { color: var(--tenue); font-size: var(--t-s); line-height: 1.45; margin: 0.25rem 0 0.75rem; }
+.grupo-epocas h4 { font-family: var(--f-display); font-size: var(--t-l); margin: 1rem 0 0.4rem; }
+.lista-epocas { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; }
+.lista-epocas li { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; flex-wrap: wrap;
+  background: var(--panel); border: 1px solid var(--linea); border-left: 3px solid var(--linea); border-radius: 0.4rem; padding: 0.55rem 0.75rem; }
+.lista-epocas li.intentado { border-left-color: var(--brasa-2); }
+.lista-epocas li.superado { border-left-color: var(--brasa-3); background: linear-gradient(90deg, rgba(246, 211, 91, 0.08), var(--panel) 50%); }
+.lista-epocas .nombre-epoca { display: flex; flex-direction: column; gap: 0.1rem; min-width: 0; }
+.lista-epocas .nombre-epoca .e { font-family: var(--f-display); font-size: 1.05rem; text-decoration: none; }
+.lista-epocas .estado { font-size: var(--t-xs); color: var(--tenue); }
+.lista-epocas li.superado .estado { color: var(--brasa-3); }
+.lista-epocas .botones { display: flex; gap: 0.4rem; align-items: center; }
+.lista-epocas .botones .sub { margin: 0; font-size: var(--t-xs); }
+
+.cabecera-prueba { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+.cabecera-prueba .modo { font-size: var(--t-xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--tenue); }
+.puntos { display: flex; gap: 0.35rem; margin: 0.9rem 0 0.25rem; }
+.puntos span { width: 0.7rem; height: 0.7rem; border-radius: 50%; border: 1px solid var(--niebla); }
+.puntos span.actual { border-color: var(--foco); }
+.puntos span.acierto { background: var(--brasa-3); border-color: var(--brasa-3); }
+.puntos span.fallo { background: var(--brasa-1); border-color: var(--brasa-1); }
+.enunciado-prueba { font-family: var(--f-display); font-size: 1.6rem !important; line-height: 1.25; margin: 0.25rem 0 0.75rem !important; }
+.cita-prueba { font-family: var(--f-texto); font-style: italic; font-size: 1.08rem; line-height: 1.55; border-left: 2px solid var(--brasa-2); margin: 0 0 1rem; padding: 0.1rem 0 0.1rem 0.9rem; }
+.opciones { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+.opcion {
+  width: 100%; text-align: left; display: flex; gap: 0.75rem; align-items: center; cursor: pointer;
+  background: var(--panel); border: 1px solid var(--linea); border-radius: 0.5rem; padding: 0.7rem 0.9rem;
+  font-family: var(--f-display); font-size: 1.08rem; color: var(--tinta); line-height: 1.35;
+}
+.opcion:hover:not(:disabled) { border-color: var(--enlace); }
+.opcion:disabled { cursor: default; }
+.opcion .tecla { flex: none; width: 1.6rem; height: 1.6rem; border-radius: 50%; display: grid; place-items: center; border: 1px solid var(--linea); font-family: var(--f-ui); font-size: var(--t-xs); color: var(--tenue); }
+.opcion.correcta { border-color: var(--brasa-3); background: rgba(246, 211, 91, 0.1); }
+.opcion.correcta .tecla { background: var(--brasa-3); border-color: var(--brasa-3); color: var(--cielo); }
+.opcion.fallo { border-color: var(--brasa-1); background: rgba(194, 69, 47, 0.12); }
+.opcion.fallo .tecla { background: var(--brasa-1); border-color: var(--brasa-1); color: var(--tinta); }
+.opcion.apagada { opacity: 0.55; }
+.explicacion { margin-top: 1rem; border: 1px solid var(--linea); border-radius: 0.5rem; padding: 0.8rem 1rem; background: var(--cielo-alto); font-family: var(--f-texto); font-size: 1.04rem; line-height: 1.55; }
+.explicacion.bien { border-color: rgba(246, 211, 91, 0.5); }
+.explicacion.mal { border-color: rgba(194, 69, 47, 0.6); }
+.explicacion p { margin: 0.4rem 0; }
+.explicacion .veredicto { font-family: var(--f-ui); font-weight: 600; font-size: var(--t-s); }
+.explicacion.bien .veredicto { color: var(--brasa-3); }
+.explicacion.mal .veredicto { color: var(--brasa-2); }
+.panel-vista .acciones { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-top: 0.75rem; }
+.boton.principal { border-color: var(--enlace); color: var(--foco); }
+.avisar { font-size: var(--t-xs); color: var(--apagado); margin-left: auto; }
+.avisar:hover { color: var(--tenue); }
+.nota-final { font-family: var(--f-display); font-size: var(--t-xl); color: var(--tenue); margin: 1rem 0 0; }
+.nota-final b { font-size: 3.5rem; color: var(--tinta); }
+.nota-final.superado b { color: var(--brasa-3); }
+.repaso { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
+.repaso li { border-left: 3px solid var(--brasa-1); padding-left: 0.75rem; display: grid; gap: 0.25rem; }
+.repaso .q { font-family: var(--f-texto); }
+.repaso .respuesta { font-size: var(--t-s); color: var(--tenue); }
+.repaso .chips .e { font-size: var(--t-s); text-decoration: none; border: 1px solid var(--linea); border-radius: 999px; padding: 0.15rem 0.6rem; font-family: var(--f-ui); }
+
+/* Caja del examen en la ficha de una época */
+.nivel .titulo-nivel { font-weight: 600; }
+.nivel .sub { color: var(--tenue); margin-top: 0.2rem; }
+.nivel .acciones { margin-top: 0.5rem; }
+.nivel .explorado { margin-top: 0.6rem; font-size: var(--t-xs); }
+.nivel.superado { border-color: rgba(246, 211, 91, 0.55); }
+.nivel.superado .titulo-nivel { color: var(--brasa-3); }
+.niveles .estado.superado { color: var(--brasa-3); }

@@ -108,5 +108,6 @@
   "textos": {
     "leyenda.fechasAlternativas": "Algunas figuras tienen fechas distintas según quién las cuente: la tradición budista, por ejemplo, sitúa al Buda más de un siglo antes que los historiadores actuales. El mapa usa las fechas de los historiadores; las demás aparecen en la ficha de cada autor.",
     "leyenda.carrilesSecundarios": "{carriles} aparece más discreto porque recoge las sabidurías que precedieron a la filosofía, como un preámbulo, y no filosofía en sentido estricto."
-  }
+  },
+  "avisos": "https://github.com/caducidad/ATLAS_FILOSOFIA/issues/new"
 }

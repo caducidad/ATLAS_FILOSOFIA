@@ -38,7 +38,7 @@
   const E = {
     atlas: null, nodos: new Map(), relaciones: [], tipos: {}, base: null,
     salen: new Map(), entran: new Map(), miembros: new Map(),
-    vista: "cronologica", centro: null, ficha: null, anterior: null, pregunta: null,
+    vista: "cronologica", centro: null, ficha: null, anterior: null, pregunta: null, prueba: null,
     verObras: false, modoRed: "todo", certezas: new Set(["D", "P", "C", "L"]),
   };
 
@@ -238,14 +238,18 @@
     const buscador = crear("div", { class: "buscador" }, [entrada, lista]);
     prepararBuscador(entrada, lista);
 
-    const bCrono = crear("button", { "aria-pressed": "true", "data-vista": "cronologica", text: "Línea del tiempo", onclick: () => cambiarVista("cronologica") });
+    const bCrono = crear("button", { "aria-pressed": "true", "data-vista": "cronologica", onclick: () => cambiarVista("cronologica") },
+      [crear("span", { class: "largo", text: "Línea del tiempo" }), crear("span", { class: "corto", text: "Tiempo" })]);
     const bRed = crear("button", { "aria-pressed": "false", "data-vista": "libre", text: "Red", onclick: () => cambiarVista("libre") });
     // Las grandes preguntas son otra puerta de entrada, si el atlas las tiene.
     const bPreg = hayPreguntas() ? crear("button", {
       "aria-pressed": "false", "data-vista": "preguntas", title: "Grandes preguntas: cómo respondió cada tradición",
       onclick: () => { E.pregunta = null; cambiarVista("preguntas"); },
     }, [crear("span", { class: "largo", text: "Grandes preguntas" }), crear("span", { class: "corto", text: "Preguntas" })]) : null;
-    const vistas = crear("div", { class: "vistas", role: "group", "aria-label": "Punto de vista" }, [bCrono, bRed, bPreg]);
+    // Pon a prueba: otra puerta de entrada, para quien prefiere empezar comprobando lo que sabe.
+    const bPrueba = crear("button", { "aria-pressed": "false", "data-vista": "prueba", title: "Pon a prueba lo que sabes: retos y exámenes", onclick: () => cambiarVista("prueba") },
+      [crear("span", { class: "largo", text: "Pon a prueba" }), crear("span", { class: "corto", text: "Prueba" })]);
+    const vistas = crear("div", { class: "vistas", role: "group", "aria-label": "Punto de vista" }, [bCrono, bRed, bPreg, bPrueba]);
     const azar = crear("button", { class: "boton azar", title: "Llévame a algún sitio", onclick: llevame }, [crear("span", { class: "largo", text: "Llévame a algún sitio" }), crear("span", { class: "corto", text: "Al azar" })]);
     const progreso = crear("button", { class: "boton", text: "Mi progreso", onclick: abrirProgreso });
 
@@ -267,6 +271,7 @@
       if (raiz.querySelector(".capa")) return;
       if (E.vista === "cronologica" && crono && crono.teclado && crono.teclado(ev)) ev.preventDefault();
       else if (E.vista === "libre" && teclaRed(ev)) ev.preventDefault();
+      else if (E.vista === "prueba" && teclaPrueba(ev)) ev.preventDefault();
     });
   }
 
@@ -281,16 +286,17 @@
   function dibujar() {
     svg.selectAll("*").remove();
     escenario.querySelectorAll(".controles").forEach((c) => c.remove());
-    const enPreguntas = E.vista === "preguntas";
-    svg.style("display", enPreguntas ? "none" : null);
-    if (panelPreguntas && !enPreguntas) { panelPreguntas.remove(); panelPreguntas = null; }
-    if (enPreguntas) dibujarPreguntas();
+    const enPanel = VISTAS_PANEL.includes(E.vista);
+    svg.style("display", enPanel ? "none" : null);
+    if (panelHtml && panelHtml.dataset.vista !== (enPanel ? E.vista : "")) { panelHtml.remove(); panelHtml = null; }
+    if (E.vista === "preguntas") dibujarPreguntas();
+    else if (E.vista === "prueba") dibujarPrueba();
     else if (E.vista === "cronologica") dibujarCronologica();
     else dibujarRed();
   }
   // Al ir a un nodo desde el buscador, el azar o un enlace: qué vista conviene.
   function vistaPara(n) {
-    if (E.vista === "preguntas") return "preguntas";
+    if (VISTAS_PANEL.includes(E.vista)) return E.vista;
     if (E.vista === "cronologica" && !extension(n.fechas)) return "libre";
     return E.vista;
   }
@@ -396,7 +402,7 @@
         g.append("title").text((e) => `${e.n.nombre} · ${tramo({ min: e.n.horquilla.inicio, max: e.n.horquilla.fin })}`);
         return g;
       });
-      ge.classed("superada", (e) => !!leerProgreso().niveles[pid(e.id)]);
+      ge.classed("superada", (e) => !!(leerProgreso().niveles[pid(e.id)] || {}).superado);
       ge.select("rect").attr("x", (e) => x(e.n.horquilla.inicio)).attr("y", (e) => e.yb + ty + 8 + e.fila * epocaAlto)
         .attr("width", (e) => Math.max(2, x(e.n.horquilla.fin) - x(e.n.horquilla.inicio)));
       ge.select("text").attr("x", (e) => Math.max(x(e.n.horquilla.inicio), margenIzq + 6) + 4).attr("y", (e) => e.yb + ty + 18.5 + e.fila * epocaAlto);
@@ -851,7 +857,25 @@
 
   // ------------------------------------------------------------------ grandes preguntas
   // Primero, la lista de preguntas; al elegir una, sus respuestas agrupadas por carril (en filosofía, por tradición).
-  let panelPreguntas = null;
+  // Las vistas que no son un mapa (grandes preguntas, pon a prueba) se pintan en un panel de HTML.
+  const VISTAS_PANEL = ["preguntas", "prueba"];
+  let panelHtml = null;
+  // Devuelve el panel vacío de la vista, conservando el desplazamiento si se repinta el mismo contenido.
+  function abrirPanel(vista, etiqueta, clave) {
+    if (!panelHtml) {
+      panelHtml = crear("section", { class: "panel-vista", "aria-label": etiqueta });
+      panelHtml.dataset.vista = vista;
+      escenario.prepend(panelHtml);
+    }
+    const p = panelHtml;
+    const scroll = p.dataset.clave === clave ? p.scrollTop : 0;
+    p.dataset.clave = clave;
+    p.style.paddingRight = anchoFicha() ? `calc(${anchoFicha()}px + 1.5rem)` : "";
+    p.innerHTML = "";
+    const interior = crear("div", { class: "panel-interior" });
+    p.append(interior);
+    return { p, interior, restaurar: () => { p.scrollTop = scroll; } };
+  }
   const hayPreguntas = () => [...E.nodos.values()].some((n) => n.tipo === "pregunta");
   function respuestasDe(idPregunta) {
     return (E.entran.get(idPregunta) || []).filter((r) => r.tipo === "responde_a").map((r) => ({ r, n: E.nodos.get(r.origen) }));
@@ -872,20 +896,9 @@
     if (E.vista === "preguntas") dibujar(); else cambiarVista("preguntas");
   }
   function dibujarPreguntas() {
-    const nuevo = !panelPreguntas;
-    if (nuevo) {
-      panelPreguntas = crear("section", { class: "preguntas", "aria-label": "Grandes preguntas" });
-      escenario.prepend(panelPreguntas);
-    }
-    const p = panelPreguntas;
-    const mismaPregunta = p.dataset.pregunta === (E.pregunta || "");
-    const scroll = mismaPregunta ? p.scrollTop : 0;
-    p.dataset.pregunta = E.pregunta || "";
-    p.style.paddingRight = anchoFicha() ? `calc(${anchoFicha()}px + 1.5rem)` : "";
-    p.innerHTML = "";
+    const { p, interior, restaurar } = abrirPanel("preguntas", "Grandes preguntas", E.pregunta || "");
+    p.classList.add("preguntas");
     const cfg = configCarriles();
-    const interior = crear("div", { class: "preguntas-interior" });
-    p.append(interior);
     const preguntas = [...E.nodos.values()].filter((n) => n.tipo === "pregunta");
 
     if (!E.pregunta || !E.nodos.has(E.pregunta)) {
@@ -949,7 +962,492 @@
         }))));
       }
     }
-    p.scrollTop = scroll;
+    restaurar();
+  }
+
+  // ------------------------------------------------------------------ pon a prueba: retos y examen
+  // Preguntas generadas desde los datos, sin escribir nada nuevo. Reglas (docs/juego.md del núcleo):
+  // solo relaciones que constan o son probables (D, P); las opciones falsas son del mismo tipo y, si se puede,
+  // de la misma tradición y época; y se comprueba en el grafo que ninguna opción falsa sea también correcta.
+  const FIABLES = new Set(["D", "P"]);
+  const RETO = 5, EXAMEN = 10, MINIMO_EXAMEN = 5;
+  const barajar = (a) => {
+    const b = a.slice();
+    for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; }
+    return b;
+  };
+  const enlace = (id) => `[[${id}|${E.nodos.get(id).nombre}]]`;
+  const de = (tipo) => [...E.nodos.values()].filter((n) => n.tipo === tipo).map((n) => n.id);
+  // Relaciones fiables de un tipo, y todas (cualquier certeza) para descartar opciones que también serían correctas.
+  const relsFiables = (tipo) => E.relaciones.filter((r) => r.tipo === tipo && FIABLES.has(r.certeza) && E.nodos.has(r.origen) && E.nodos.has(r.destino));
+  const origenesDe = (tipo, destino) => new Set((E.entran.get(destino) || []).filter((r) => r.tipo === tipo).map((r) => r.origen));
+  const destinosDe = (tipo, origen) => new Set((E.salen.get(origen) || []).filter((r) => r.tipo === tipo).map((r) => r.destino));
+  // Palabras del nombre de un nodo que delatarían la respuesta si aparecen en la pregunta.
+  const palabras = (n) => [n.nombre, n.nombreOriginal, ...(n.alias || [])].filter(Boolean)
+    .flatMap((t) => sinTildes(t).split(/[^a-z0-9ñ]+/)).filter((w) => w.length >= 4 && !["escuela", "tradicion"].includes(w));
+  const delata = (texto, n) => { const t = sinTildes(texto); return palabras(n).some((w) => t.includes(w)); };
+
+  // Elige n opciones falsas: primero de la misma época, luego de la misma tradición, luego cualquiera.
+  function falsas(correcto, candidatos, excluir, n = 3, mismaTradicion = false) {
+    const cfg = configCarriles();
+    const c = E.nodos.get(correcto);
+    const nombres = new Set([sinTildes(c.nombre)]);
+    const libre = candidatos.filter((id) => id !== correcto && !excluir.has(id));
+    const carril = libre.filter((id) => valorCarril(E.nodos.get(id), cfg) === valorCarril(c, cfg));
+    const epoca = carril.filter((id) => (E.nodos.get(id).contextos || []).some((x) => (c.contextos || []).includes(x)));
+    const elegidos = [];
+    for (const grupo of mismaTradicion ? [epoca, carril] : [epoca, carril, libre]) {
+      for (const id of barajar(grupo)) {
+        const nom = sinTildes(E.nodos.get(id).nombre);
+        if (elegidos.length < n && !elegidos.includes(id) && !nombres.has(nom)) { elegidos.push(id); nombres.add(nom); }
+      }
+    }
+    return elegidos.length === n ? elegidos : null;
+  }
+  const op = (id) => ({ id, texto: E.nodos.get(id).nombre });
+  function hacer(o) {
+    const opciones = barajar([{ ...o.correcta, ok: true }, ...o.falsas.map((f) => ({ ...f, ok: false }))]);
+    return { ...o, opciones, correcta: opciones.findIndex((x) => x.ok) };
+  }
+  const nota = (r) => (r.nota ? " " + r.nota : "");
+
+  // Cada plantilla devuelve todas las preguntas posibles. «sujetos» son los nodos de los que trata la pregunta:
+  // sirven para el ámbito (una época, una tradición) y para no repetir el mismo tema en una tanda.
+  const PLANTILLAS = {
+    maestro() {
+      const autores = de("autor");
+      return relsFiables("fue_maestro_de").flatMap((r) => {
+        const sale = [];
+        const expl = `${enlace(r.origen)} fue maestro de ${enlace(r.destino)}.${nota(r)}`;
+        // Ni el propio discípulo ni sus maestros conocidos pueden ser opciones falsas (y al revés).
+        let f = falsas(r.origen, autores, new Set([r.destino, ...origenesDe("fue_maestro_de", r.destino)]));
+        if (f) sale.push(hacer({ clave: `maestro:${r.destino}`, sujetos: [r.destino, r.origen], enunciado: `¿Quién fue maestro de ${E.nodos.get(r.destino).nombre}?`, correcta: op(r.origen), falsas: f.map(op), explicacion: expl, repasar: [r.origen, r.destino] }));
+        f = falsas(r.destino, autores, new Set([r.origen, ...destinosDe("fue_maestro_de", r.origen)]));
+        if (f) sale.push(hacer({ clave: `discipulo:${r.origen}`, sujetos: [r.origen, r.destino], enunciado: `¿Quién fue discípulo de ${E.nodos.get(r.origen).nombre}?`, correcta: op(r.destino), falsas: f.map(op), explicacion: expl, repasar: [r.destino, r.origen] }));
+        return sale;
+      });
+    },
+    escribio() {
+      const autores = de("autor");
+      return relsFiables("escribio").flatMap((r) => {
+        const obra = E.nodos.get(r.destino), autor = E.nodos.get(r.origen);
+        if (!["autor", "atribuida"].includes(obra.autoria) || delata(obra.nombre, autor)) return [];
+        const f = falsas(r.origen, autores, origenesDe("escribio", r.destino));
+        if (!f) return [];
+        const atribuida = obra.autoria === "atribuida";
+        return [hacer({
+          clave: `escribio:${r.destino}`, sujetos: [r.destino, r.origen],
+          enunciado: atribuida ? `¿A quién se atribuye la obra «${obra.nombre}»?` : `¿Quién escribió «${obra.nombre}»?`,
+          correcta: op(r.origen), falsas: f.map(op),
+          explicacion: `${enlace(r.destino)} ${atribuida ? "se atribuye a" : "es obra de"} ${enlace(r.origen)}.${nota(r)}`, repasar: [r.origen, r.destino],
+        })];
+      });
+    },
+    defiende() {
+      const autores = de("autor");
+      return relsFiables("defiende").flatMap((r) => {
+        const tesis = E.nodos.get(r.destino), autor = E.nodos.get(r.origen);
+        if (autor.tipo !== "autor" || !tesis.enunciado || delata(tesis.enunciado + " " + tesis.nombre, autor)) return [];
+        const excluir = new Set([...origenesDe("defiende", r.destino), ...origenesDe("desarrolla", r.destino)]);
+        const f = falsas(r.origen, autores, excluir);
+        if (!f) return [];
+        return [hacer({
+          clave: `defiende:${r.destino}`, sujetos: [r.destino, r.origen], enunciado: "¿Quién defendió esta idea?", cita: tesis.enunciado,
+          correcta: op(r.origen), falsas: f.map(op), explicacion: `La defendió ${enlace(r.origen)}: es la tesis [[${r.destino}|«${tesis.nombre}»]].${nota(r)}`, repasar: [r.origen, r.destino],
+        })];
+      });
+    },
+    desarrolla() {
+      const autores = de("autor");
+      return relsFiables("desarrolla").flatMap((r) => {
+        const idea = E.nodos.get(r.destino), autor = E.nodos.get(r.origen);
+        if (autor.tipo !== "autor" || idea.tipo !== "concepto" || delata(idea.nombre, autor)) return [];
+        const quienes = origenesDe("desarrolla", r.destino);
+        if (quienes.size > 2) return [];   // un concepto que trabajaron muchos no sirve: otras opciones también serían correctas
+        const f = falsas(r.origen, autores, quienes);
+        if (!f) return [];
+        return [hacer({
+          clave: `desarrolla:${r.destino}`, sujetos: [r.destino, r.origen], enunciado: `¿Quién desarrolló el concepto de «${idea.nombre}»?`,
+          correcta: op(r.origen), falsas: f.map(op), explicacion: `${enlace(r.origen)} desarrolló el concepto de ${enlace(r.destino)}.${nota(r)}`, repasar: [r.destino, r.origen],
+        })];
+      });
+    },
+    termino() {
+      const cfg = configCarriles();
+      const conceptos = [...E.nodos.values()].filter((n) => n.tipo === "concepto" && n.traduccion);
+      const claves = (t) => new Set(sinTildes(t).split(/[^a-z0-9ñ]+/).filter((w) => w.length >= 5));
+      return conceptos.flatMap((c) => {
+        const mias = claves(c.traduccion);
+        const parecida = (t) => [...claves(t)].some((w) => mias.has(w)) || sinTildes(t) === sinTildes(c.traduccion);
+        const otros = barajar(conceptos.filter((o) => o.id !== c.id && !parecida(o.traduccion)));
+        const orden = [...otros.filter((o) => valorCarril(o, cfg) === valorCarril(c, cfg)), ...otros];
+        const textos = [];
+        for (const o of orden) if (textos.length < 3 && !textos.some((t) => sinTildes(t) === sinTildes(o.traduccion) || [...claves(t)].some((w) => claves(o.traduccion).has(w)))) textos.push(o.traduccion);
+        if (textos.length < 3) return [];
+        const original = c.terminoOriginal && c.terminoOriginal !== c.nombre ? ` (${c.terminoOriginal})` : "";
+        return [hacer({
+          clave: `termino:${c.id}`, sujetos: [c.id], enunciado: `¿Qué significa «${c.nombre}»${original}?`,
+          correcta: { texto: c.traduccion }, falsas: textos.map((t) => ({ texto: t })),
+          explicacion: `${enlace(c.id)} significa «${c.traduccion}».`, repasar: [c.id],
+        })];
+      });
+    },
+    anecdota() {
+      const autores = [...E.nodos.values()].filter((n) => n.tipo === "autor" && n.anecdotas);
+      const conAnecdotas = autores.map((n) => n.id);
+      return autores.flatMap((a) => {
+        const trozos = a.anecdotas.split(/(?<=· [ABCL]\)\.?)\s+/);
+        return trozos.flatMap((trozo, k) => {
+          // Sin enlaces, sin la referencia final y con el nombre del autor tapado.
+          let t = trozo.replace(/\[\[([^\]|]+)(?:\|([^\]]*))?\]\]/g, (m, id, vis) => (id === a.id ? "[…]" : vis || (E.nodos.get(id) || {}).nombre || id));
+          t = t.replace(/\s*\([^()]*· [ABCL]\)\.?\s*$/, ".").replace(/\.\.$/, ".");
+          for (const w of [a.nombre, a.nombreOriginal, ...(a.alias || [])].filter(Boolean)) t = t.split(w).join("[…]");
+          // También cada palabra del nombre por separado («Diógenes» en una anécdota de Diógenes de Sinope).
+          for (const w of [a.nombre, ...(a.alias || [])].join(" ").split(/\s+/).filter((x) => x.length >= 4 && x !== "[…]")) {
+            t = t.replace(new RegExp(`(^|[^\\p{L}])${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?=[^\\p{L}]|$)`, "gu"), "$1[…]");
+          }
+          if (t.length < 80 || delata(t, a)) return [];
+          const f = falsas(a.id, conAnecdotas, new Set());
+          if (!f) return [];
+          return [hacer({
+            clave: `anecdota:${a.id}:${k}`, sujetos: [a.id], enunciado: "¿De quién se cuenta esta anécdota?", cita: t,
+            correcta: op(a.id), falsas: f.map(op), explicacion: `Se cuenta de ${enlace(a.id)}. ${trozo}`, repasar: [a.id],
+          })];
+        });
+      });
+    },
+    antes() {
+      // Tres autores cuyas vidas no se solapan ni contando el margen de duda.
+      const seguros = [...E.nodos.values()].filter((n) => n.tipo === "autor" && extension(n.fechas) && !["legendario", "debatido"].includes(n.fechas.historicidad));
+      const sale = [];
+      for (let intento = 0; intento < 160 && sale.length < 40; intento++) {
+        const trio = barajar(seguros).slice(0, 3).map((n) => ({ n, e: extension(n.fechas) })).sort((x, y) => x.e.a - y.e.a);
+        if (trio.length < 3 || trio[0].e.b >= trio[1].e.a || trio[1].e.b >= trio[2].e.a) continue;
+        const clave = "antes:" + trio.map((d) => d.n.id).sort().join(",");
+        if (sale.some((q) => q.clave === clave)) continue;
+        sale.push(hacer({
+          clave, sujetos: trio.map((d) => d.n.id), enunciado: "¿Cuál de estos vivió antes?",
+          correcta: op(trio[0].n.id), falsas: trio.slice(1).map((d) => op(d.n.id)),
+          explicacion: trio.map((d) => `${enlace(d.n.id)}: ${textoFechas(d.n.fechas)}.`).join(" "), repasar: trio.map((d) => d.n.id),
+        }));
+      }
+      return sale;
+    },
+    paralelo() {
+      const cfg = configCarriles();
+      return relsFiables("paralelo_a").flatMap((r) => [[r.origen, r.destino], [r.destino, r.origen]].flatMap(([x, y]) => {
+        const nx = E.nodos.get(x), ny = E.nodos.get(y);
+        const cy = valorCarril(ny, cfg);
+        if (!cy || cy === valorCarril(nx, cfg)) return [];
+        const candidatos = de(ny.tipo).filter((id) => valorCarril(E.nodos.get(id), cfg) === cy);
+        const excluir = new Set([...destinosDe("paralelo_a", x), ...origenesDe("paralelo_a", x)]);
+        const f = falsas(y, candidatos, excluir, 3, true);
+        if (!f) return [];
+        return [hacer({
+          clave: `paralelo:${x}`, sujetos: [x, y],
+          enunciado: `¿Con qué ${(ETIQUETA_TIPO[ny.tipo] || ny.tipo).toLowerCase()} de ${etiquetaCarril(cy, cfg)} se ha comparado ${nx.tipo === "autor" ? "a " + nx.nombre : `«${nx.nombre}»`}?`,
+          correcta: op(y), falsas: f.map(op),
+          explicacion: `${enlace(x)} y ${enlace(y)} se parecen: ${r.ejeComparacion}. Es un paralelo: no consta que uno influyera en el otro.${nota(r)}`, repasar: [x, y],
+        })];
+      }));
+    },
+    responde() {
+      const preguntas = de("pregunta");
+      return relsFiables("responde_a").flatMap((r) => {
+        const s = E.nodos.get(r.origen);
+        if (s.tipo === "pregunta" || E.nodos.get(r.destino).tipo !== "pregunta") return [];
+        // Tampoco valen las preguntas que responden sus vecinos cercanos (la tesis que trata de ese concepto, por ejemplo):
+        // si el átomo responde a «¿se puede dividir sin fin?», la tesis de los átomos responde a «¿de qué está hecho todo?».
+        const vecinos = [...destinosDe("trata_sobre", r.origen), ...origenesDe("trata_sobre", r.origen), ...destinosDe("desarrolla", r.origen), ...origenesDe("desarrolla", r.origen)]
+          .filter((id) => ["tesis", "concepto"].includes(E.nodos.get(id).tipo));
+        const excluir = new Set([...destinosDe("responde_a", r.origen), ...vecinos.flatMap((v) => [...destinosDe("responde_a", v)])]);
+        const f = falsas(r.destino, preguntas, excluir);
+        if (!f) return [];
+        return [hacer({
+          clave: `responde:${r.origen}`, sujetos: [r.origen],
+          enunciado: s.enunciado ? "¿A qué gran pregunta responde esta idea?" : `¿A qué gran pregunta responde «${s.nombre}»?`, cita: s.enunciado,
+          correcta: op(r.destino), falsas: f.map(op),
+          explicacion: `${enlace(r.origen)} es una de las respuestas a ${enlace(r.destino)}.${nota(r)}`, repasar: [r.origen, r.destino],
+        })];
+      });
+    },
+    escuela() {
+      const escuelas = de("escuela");
+      return [...E.nodos.values()].filter((n) => n.tipo === "autor" && (n.escuelas || []).length && E.nodos.has(n.escuelas[0])).flatMap((n) => {
+        const esc = E.nodos.get(n.escuelas[0]);
+        if (delata(esc.nombre, n)) return [];
+        const f = falsas(esc.id, escuelas, new Set(n.escuelas));
+        if (!f) return [];
+        return [hacer({
+          clave: `escuela:${n.id}`, sujetos: [n.id, esc.id], enunciado: `¿A qué escuela o corriente perteneció ${n.nombre}?`,
+          correcta: op(esc.id), falsas: f.map(op), explicacion: `${enlace(n.id)} pertenece a ${enlace(esc.id)}.`, repasar: [n.id, esc.id],
+        })];
+      });
+    },
+    epoca(ambito) {
+      if (ambito.tipo === "epoca") return [];   // en el examen de una época, la respuesta sería siempre la misma
+      const cfg = configCarriles();
+      return [...E.nodos.values()].filter((n) => ["autor", "obra"].includes(n.tipo) && (n.contextos || []).length).flatMap((n) => {
+        const ctx = n.contextos[0];
+        const otras = de("contexto").filter((id) => !n.contextos.includes(id) && valorCarril(E.nodos.get(id), cfg) === valorCarril(n, cfg));
+        if (otras.length < 2) return [];
+        const f = barajar(otras).slice(0, 3);
+        return [hacer({
+          clave: `epoca:${n.id}`, sujetos: [n.id], enunciado: `¿En qué época se sitúa ${n.tipo === "obra" ? "la obra " : ""}${n.nombre}?`,
+          correcta: op(ctx), falsas: f.map(op), explicacion: `${enlace(n.id)} pertenece a la época ${enlace(ctx)}.`, repasar: [n.id, ctx],
+        })];
+      });
+    },
+  };
+
+  function enAmbito(id, ambito) {
+    const n = E.nodos.get(id);
+    if (!n || ambito.tipo === "todo") return !!n;
+    if (ambito.tipo === "carril") return valorCarril(n, configCarriles()) === ambito.valor;
+    return (n.contextos || []).includes(ambito.valor);
+  }
+  function candidatas(ambito) {
+    const sale = {};
+    for (const [nombre, f] of Object.entries(PLANTILLAS)) {
+      sale[nombre] = f(ambito).filter((q) => q.sujetos.some((id) => enAmbito(id, ambito)) && q.opciones.every((o) => o.texto));
+    }
+    return sale;
+  }
+  // Una tanda variada: se van tomando plantillas por turnos y no se repite tema ni respuesta.
+  function generar(ambito, cuantas) {
+    const porPlantilla = Object.entries(candidatas(ambito)).map(([k, v]) => [k, barajar(v)]).filter(([, v]) => v.length);
+    const usados = new Set(), tanda = [];
+    let ronda = barajar(porPlantilla);
+    while (tanda.length < cuantas && ronda.length) {
+      const siguiente = [];
+      for (const [k, lista] of ronda) {
+        if (tanda.length >= cuantas) break;
+        const i = lista.findIndex((q) => !q.sujetos.some((s) => usados.has(s)) && !usados.has(q.opciones[q.correcta].id || q.opciones[q.correcta].texto));
+        if (i < 0) continue;
+        const q = lista.splice(i, 1)[0];
+        q.sujetos.forEach((s) => usados.add(s));
+        usados.add(q.opciones[q.correcta].id || q.opciones[q.correcta].texto);
+        tanda.push(q);
+        if (lista.length) siguiente.push([k, lista]);
+      }
+      ronda = barajar(siguiente);
+    }
+    return barajar(tanda);
+  }
+  const posibles = new Map();   // cuántas preguntas distintas admite cada examen (se calcula una vez)
+  function preguntasPosibles(ctxId) {
+    if (!posibles.has(ctxId)) posibles.set(ctxId, generar({ tipo: "epoca", valor: ctxId }, EXAMEN).length);
+    return posibles.get(ctxId);
+  }
+
+  function nombreAmbito(a) {
+    if (a.tipo === "todo") return "todo el atlas";
+    if (a.tipo === "carril") return etiquetaCarril(a.valor, configCarriles());
+    return E.nodos.get(a.valor).nombre;
+  }
+  function claveAmbito(a) { return a.tipo === "todo" ? "todo" : `${a.tipo}:${a.valor}`; }
+
+  function empezar(modo, ambito) {
+    const cuantas = modo === "examen" ? EXAMEN : RETO;
+    const preguntas = generar(ambito, cuantas);
+    E.prueba = { fase: "pregunta", modo, ambito, preguntas, i: 0, respuestas: [] };
+    if (E.vista !== "prueba") cambiarVista("prueba"); else dibujar();
+  }
+  function responder(k) {
+    const P = E.prueba;
+    if (!P || P.fase !== "pregunta" || P.respuestas[P.i] !== undefined) return;
+    P.respuestas[P.i] = k;
+    dibujar();
+  }
+  function avanzar() {
+    const P = E.prueba;
+    if (!P || P.respuestas[P.i] === undefined) return;
+    if (P.i + 1 < P.preguntas.length) { P.i++; dibujar(); return; }
+    terminar();
+  }
+  function terminar() {
+    const P = E.prueba;
+    P.fase = "resultado";
+    P.aciertos = P.preguntas.filter((q, i) => P.respuestas[i] === q.correcta).length;
+    P.aprobar = Math.ceil(P.preguntas.length * 0.8);
+    const prog = leerProgreso();
+    const hoy = new Date().toISOString().slice(0, 10);
+    if (P.modo === "examen") {
+      const clave = pid(P.ambito.valor);
+      const antes = prog.niveles[clave] || { intentos: 0, mejor: 0 };
+      const ahora = { ...antes, intentos: (antes.intentos || 0) + 1, mejor: Math.max(antes.mejor || 0, P.aciertos), de: P.preguntas.length, ultimo: hoy };
+      P.superadoAhora = P.aciertos >= P.aprobar && !antes.superado;
+      if (P.aciertos >= P.aprobar && !antes.superado) ahora.superado = hoy;
+      prog.niveles[clave] = ahora;
+    } else {
+      const clave = `${E.atlas.atlas}:${claveAmbito(P.ambito)}`;
+      const antes = prog.retos[clave] || { intentos: 0, mejor: 0 };
+      prog.retos[clave] = { intentos: antes.intentos + 1, mejor: Math.max(antes.mejor, P.aciertos), de: P.preguntas.length, ultimo: hoy };
+    }
+    guardarProgreso();
+    // Si está abierta la ficha de la época, se repinta para que muestre el nuevo estado del examen.
+    if (fichaEl && !fichaEl.hidden && E.ficha && E.nodos.get(E.ficha).tipo === "contexto") pintarFicha(E.nodos.get(E.ficha));
+    dibujar();
+  }
+  function teclaPrueba(ev) {
+    const P = E.prueba;
+    if (!P || P.fase !== "pregunta") return false;
+    const n = Number(ev.key);
+    if (n >= 1 && n <= P.preguntas[P.i].opciones.length && P.respuestas[P.i] === undefined) { responder(n - 1); return true; }
+    if (ev.key === "Enter" && P.respuestas[P.i] !== undefined) { avanzar(); return true; }
+    return false;
+  }
+  function enlaceAviso(q) {
+    const base = E.atlas.avisos;
+    if (!base) return null;
+    const cuerpo = `Pregunta: ${q.enunciado}\n${q.cita ? `«${q.cita}»\n` : ""}\nOpciones:\n${q.opciones.map((o, i) => `${i === q.correcta ? "(correcta) " : ""}${o.texto}`).join("\n")}\n\nClave interna: ${q.clave}\n\nQué está mal:\n`;
+    return crear("a", {
+      class: "avisar", target: "_blank", rel: "noopener", text: "¿Esta pregunta está mal? Avísanos",
+      href: `${base}?title=${encodeURIComponent("Pregunta mal: " + q.enunciado)}&body=${encodeURIComponent(cuerpo)}`,
+    });
+  }
+
+  function estadoExamen(ctxId) {
+    const r = leerProgreso().niveles[pid(ctxId)];
+    if (!r) return { texto: "Sin intentar", clase: "" };
+    if (r.superado) return { texto: `Superado · mejor nota ${r.mejor} de ${r.de || EXAMEN}`, clase: "superado" };
+    return { texto: `Mejor intento: ${r.mejor} de ${r.de || EXAMEN}`, clase: "intentado" };
+  }
+
+  function dibujarPrueba() {
+    const P = E.prueba;
+    const clave = !P || P.fase === "inicio" ? "inicio" : `${P.fase}:${P.i}:${P.respuestas[P.i] !== undefined}`;
+    const { p, interior, restaurar } = abrirPanel("prueba", "Pon a prueba lo que sabes", clave);
+    p.classList.add("prueba");
+    if (!P || P.fase === "inicio") pintarInicioPrueba(interior);
+    else if (P.fase === "pregunta") pintarPregunta(interior, P);
+    else pintarResultado(interior, P);
+    restaurar();
+  }
+
+  function pintarInicioPrueba(cont) {
+    const cfg = configCarriles();
+    cont.append(crear("h2", { text: "Pon a prueba lo que sabes" }));
+    cont.append(crear("p", { class: "intro", text: "Antes de leer nada o después de explorar: tú eliges. Las preguntas salen del propio atlas y cambian cada vez. Cada respuesta, acertada o no, lleva a la ficha donde se explica." }));
+
+    cont.append(crear("h3", { class: "seccion", text: `Un reto rápido · ${RETO} preguntas` }));
+    const carriles = cfg.campo ? cfg.orden : [];
+    cont.append(crear("div", { class: "chips" }, [
+      crear("button", { class: "chip-pregunta", text: "De todo el atlas", onclick: () => empezar("reto", { tipo: "todo" }) }),
+      ...carriles.map((c) => crear("button", { class: "chip-pregunta", text: etiquetaCarril(c, cfg), onclick: () => empezar("reto", { tipo: "carril", valor: c }) })),
+    ]));
+
+    cont.append(crear("h3", { class: "seccion", text: `Por épocas · reto de ${RETO} o examen de ${EXAMEN}` }));
+    cont.append(crear("p", { class: "sub", text: `El examen se aprueba con ${Math.ceil(EXAMEN * 0.8)} aciertos y se puede repetir siempre que quieras. Al superarlo, la época se ilumina en dorado en la línea del tiempo.` }));
+    const epocas = [...E.nodos.values()].filter((n) => n.tipo === "contexto");
+    const grupos = d3.group(epocas, (n) => valorCarril(n, cfg) || "_");
+    const orden = [...grupos.keys()].sort((a, b) => cfg.orden.indexOf(a) - cfg.orden.indexOf(b));
+    for (const c of orden) {
+      const lista = grupos.get(c).sort((a, b) => (a.horquilla ? a.horquilla.inicio : 0) - (b.horquilla ? b.horquilla.inicio : 0));
+      const bloque = crear("section", { class: "grupo-epocas" });
+      if (c !== "_") bloque.append(crear("h4", { text: etiquetaCarril(c, cfg) }));
+      const ul = crear("ul", { class: "lista-epocas" });
+      for (const ctx of lista) {
+        const posibles_ = preguntasPosibles(ctx.id);
+        const est = estadoExamen(ctx.id);
+        if (!est.clase && posibles_ >= MINIMO_EXAMEN && posibles_ < EXAMEN) est.texto = `Examen de ${posibles_} preguntas (aún hay poco contenido)`;
+        const examen = posibles_ >= MINIMO_EXAMEN
+          ? crear("button", { class: "boton", text: "Examen", title: posibles_ < EXAMEN ? `Esta época aún tiene poco contenido: el examen será de ${posibles_} preguntas` : "", onclick: () => empezar("examen", { tipo: "epoca", valor: ctx.id }) })
+          : crear("span", { class: "sub", text: "Aún poco contenido para un examen" });
+        ul.append(crear("li", { class: est.clase }, [
+          crear("div", { class: "nombre-epoca" }, [
+            crear("button", { class: "e", text: ctx.nombre, onclick: () => abrirFicha(ctx.id) }),
+            crear("span", { class: "estado", text: est.texto }),
+          ]),
+          crear("div", { class: "botones" }, [
+            posibles_ >= 3 ? crear("button", { class: "boton", text: "Reto", onclick: () => empezar("reto", { tipo: "epoca", valor: ctx.id }) }) : null,
+            examen,
+          ]),
+        ]));
+      }
+      bloque.append(ul);
+      cont.append(bloque);
+    }
+  }
+
+  function pintarPregunta(cont, P) {
+    const q = P.preguntas[P.i];
+    const elegida = P.respuestas[P.i];
+    const respondida = elegida !== undefined;
+    cont.append(crear("div", { class: "cabecera-prueba" }, [
+      crear("span", { class: "modo", text: `${P.modo === "examen" ? "Examen" : "Reto"} · ${nombreAmbito(P.ambito)}` }),
+      crear("button", { class: "volver", text: "Dejarlo", onclick: () => { E.prueba = null; dibujar(); } }),
+    ]));
+    const puntos = crear("div", { class: "puntos", "aria-hidden": "true" }, P.preguntas.map((pq, i) => {
+      const r = P.respuestas[i];
+      return crear("span", { class: r === undefined ? (i === P.i ? "actual" : "") : r === pq.correcta ? "acierto" : "fallo" });
+    }));
+    cont.append(puntos, crear("p", { class: "sub", text: `Pregunta ${P.i + 1} de ${P.preguntas.length}` }));
+    cont.append(crear("h2", { class: "enunciado-prueba", text: q.enunciado }));
+    if (q.cita) cont.append(crear("blockquote", { class: "cita-prueba", text: q.cita }));
+    const ul = crear("ul", { class: "opciones" });
+    q.opciones.forEach((o, k) => {
+      const clase = !respondida ? "" : k === q.correcta ? "correcta" : k === elegida ? "fallo" : "apagada";
+      ul.append(crear("li", {}, crear("button", {
+        class: `opcion ${clase}`, disabled: respondida, onclick: () => responder(k),
+        "aria-label": `${k + 1}. ${o.texto}${respondida && k === q.correcta ? " (respuesta correcta)" : ""}`,
+      }, [crear("span", { class: "tecla", text: String(k + 1) }), crear("span", { text: o.texto })])));
+    });
+    cont.append(ul);
+    if (respondida) {
+      const bien = elegida === q.correcta;
+      const caja = crear("div", { class: `explicacion ${bien ? "bien" : "mal"}`, role: "status" });
+      caja.append(crear("p", { class: "veredicto", text: bien ? "¡Correcto!" : `No era esa. La respuesta es: ${q.opciones[q.correcta].texto}.` }));
+      caja.append(crear("p", {}, textoEnlazado(q.explicacion, null)));
+      caja.append(crear("div", { class: "acciones" }, [
+        crear("button", { class: "boton principal", text: P.i + 1 < P.preguntas.length ? "Siguiente" : "Ver el resultado", onclick: avanzar }),
+        enlaceAviso(q),
+      ]));
+      cont.append(caja);
+      // Solo la primera vez: si luego se abre una ficha desde la explicación, no se le roba el foco.
+      if (P.enfocada !== P.i) {
+        P.enfocada = P.i;
+        setTimeout(() => { const b = caja.querySelector(".principal"); if (b) b.focus({ preventScroll: true }); caja.scrollIntoView({ block: "nearest", behavior: "smooth" }); }, 30);
+      }
+    }
+  }
+
+  function pintarResultado(cont, P) {
+    const n = P.preguntas.length;
+    const examen = P.modo === "examen";
+    const aprobado = examen && P.aciertos >= P.aprobar;
+    cont.append(crear("div", { class: "cabecera-prueba" }, [crear("span", { class: "modo", text: `${examen ? "Examen" : "Reto"} · ${nombreAmbito(P.ambito)}` })]));
+    cont.append(crear("p", { class: `nota-final ${aprobado ? "superado" : ""}` }, [crear("b", { text: `${P.aciertos}` }), document.createTextNode(` de ${n}`)]));
+    let mensaje;
+    if (examen) {
+      mensaje = aprobado
+        ? (P.superadoAhora ? "¡Examen superado! La época ya brilla en dorado en la línea del tiempo." : "¡Aprobado otra vez! Esta época ya estaba superada.")
+        : `Para superarlo hacen falta ${P.aprobar}. Puedes repetirlo cuando quieras: cada vez salen preguntas distintas. Mientras, las fichas de abajo son un buen sitio por donde empezar.`;
+    } else {
+      mensaje = P.aciertos === n ? "¡Todas! Prueba con otra tradición o con el examen de una época."
+        : P.aciertos >= n * 0.6 ? "Bien. Lo que falló tiene su ficha abajo, por si te pica la curiosidad."
+        : "Es un buen comienzo: ahora ya sabes por dónde empezar a explorar. Las fichas de abajo explican cada respuesta.";
+    }
+    cont.append(crear("p", { class: "intro", text: mensaje }));
+
+    const fallos = P.preguntas.map((q, i) => ({ q, r: P.respuestas[i] })).filter((d) => d.r !== d.q.correcta);
+    if (fallos.length) {
+      cont.append(crear("h3", { class: "seccion", text: "Para repasar" }));
+      const ul = crear("ul", { class: "repaso" });
+      for (const { q } of fallos) {
+        const li = crear("li");
+        li.append(crear("span", { class: "q", text: q.enunciado + (q.cita ? ` «${corto(q.cita, 90)}»` : "") }));
+        li.append(crear("span", { class: "respuesta", text: `Respuesta: ${q.opciones[q.correcta].texto}` }));
+        li.append(crear("div", { class: "chips" }, q.repasar.filter((id) => E.nodos.has(id)).map((id) => enlaceNodo(id, null))));
+        ul.append(li);
+      }
+      cont.append(ul);
+    }
+    cont.append(crear("div", { class: "acciones" }, [
+      crear("button", { class: "boton principal", text: examen ? "Repetir el examen" : "Otro reto igual", onclick: () => empezar(P.modo, P.ambito) }),
+      crear("button", { class: "boton", text: "Elegir otra prueba", onclick: () => { E.prueba = null; dibujar(); } }),
+      crear("button", { class: "boton", text: "Explorar la línea del tiempo", onclick: () => cambiarVista("cronologica") }),
+    ]));
   }
 
   // ------------------------------------------------------------------ textos con enlaces
@@ -1156,20 +1654,30 @@
     const canon = autores.filter((a) => a.circulo === 1);
     const objetivo = canon.length ? canon : autores;
     const vistos = objetivo.filter((a) => visitas(a.id) > 0).length;
-    const superado = leerProgreso().niveles[pid(ctx.id)];
+    const superado = (leerProgreso().niveles[pid(ctx.id)] || {}).superado;
     return { total: objetivo.length, vistos, explorado: objetivo.length > 0 && vistos === objetivo.length, superado };
   }
   function cajaNivel(ctx) {
+    // El examen está siempre abierto; lo explorado es solo un indicador de lo recorrido.
     const s = estadoNivel(ctx);
-    const caja = crear("div", { class: "nivel" });
-    const texto = s.superado ? "Nivel superado."
-      : s.explorado ? "Época explorada: has visitado todos sus autores principales. El examen opcional llegará pronto."
-      : s.total === 0 ? "Esta época todavía no tiene autores en el atlas."
-      : `Para explorar esta época, visita sus autores principales: llevas ${s.vistos} de ${s.total}.`;
-    caja.append(crear("div", { text: texto }));
-    const barra = crear("div", { class: "barra-nivel" }, crear("span"));
-    barra.firstChild.style.width = s.total ? `${(100 * s.vistos) / s.total}%` : "0";
-    caja.append(barra);
+    const caja = crear("div", { class: `nivel ${s.superado ? "superado" : ""}` });
+    const est = estadoExamen(ctx.id);
+    const posibles_ = preguntasPosibles(ctx.id);
+    const n = Math.min(EXAMEN, posibles_);
+    caja.append(crear("div", { class: "titulo-nivel", text: s.superado ? "Época superada" : "Examen de esta época" }));
+    caja.append(crear("div", { class: "sub", text: est.clase ? est.texto
+      : posibles_ >= MINIMO_EXAMEN ? `${n} preguntas; se aprueba con ${Math.ceil(n * 0.8)}. Puedes hacerlo cuando quieras, antes o después de explorar.`
+      : "Esta época tiene todavía poco contenido para un examen." }));
+    const botones = [];
+    if (posibles_ >= MINIMO_EXAMEN) botones.push(crear("button", { class: "boton", text: s.superado ? "Repetir el examen" : "Hacer el examen", onclick: () => { if (escenario.clientWidth <= 720) fichaEl.hidden = true; empezar("examen", { tipo: "epoca", valor: ctx.id }); } }));
+    if (posibles_ >= 3) botones.push(crear("button", { class: "boton", text: `Reto de ${RETO}`, onclick: () => { if (escenario.clientWidth <= 720) fichaEl.hidden = true; empezar("reto", { tipo: "epoca", valor: ctx.id }); } }));
+    if (botones.length) caja.append(crear("div", { class: "acciones" }, botones));
+    if (s.total) {
+      caja.append(crear("div", { class: "sub explorado", text: s.explorado ? "Has visitado todos sus autores principales." : `Autores principales visitados: ${s.vistos} de ${s.total}.` }));
+      const barra = crear("div", { class: "barra-nivel" }, crear("span"));
+      barra.firstChild.style.width = `${(100 * s.vistos) / s.total}%`;
+      caja.append(barra);
+    }
     return caja;
   }
 
@@ -1271,10 +1779,12 @@
     const epocas = [...E.nodos.values()].filter((n) => n.tipo === "contexto").sort((a, b) => a.horquilla.inicio - b.horquilla.inicio);
     for (const ctx of epocas) {
       const s = estadoNivel(ctx);
-      const estado = s.superado ? "superada" : s.explorado ? "explorada" : s.total === 0 ? "sin autores todavía" : `${s.vistos} de ${s.total} ${s.total === 1 ? "autor" : "autores"}`;
+      const ex = estadoExamen(ctx.id);
+      const visitados = s.total === 0 ? "" : s.explorado ? "explorada" : `${s.vistos} de ${s.total} ${s.total === 1 ? "autor" : "autores"}`;
+      const estado = [ex.clase ? (s.superado ? "superada" : ex.texto.toLowerCase()) : "", visitados].filter(Boolean).join(" · ") || "sin autores todavía";
       ul.append(crear("li", {}, [
         crear("button", { class: "e", text: ctx.nombre, onclick: () => { capa.remove(); abrirFicha(ctx.id); } }),
-        crear("span", { class: `estado ${s.explorado ? "explorado" : ""}`, text: estado }),
+        crear("span", { class: `estado ${s.superado ? "superado" : s.explorado ? "explorado" : ""}`, text: estado }),
       ]));
     }
     d.append(ul);
@@ -1350,7 +1860,8 @@
     if (id && E.nodos.has(id) && id !== E.ficha) {
       const n = E.nodos.get(id);
       if (n.tipo === "pregunta" && hayPreguntas()) { irAPregunta(id); return; }
-      E.vista = extension(n.fechas) ? E.vista : "libre";
+      // Las épocas se ven en la línea del tiempo; lo que no tiene fechas, en la red.
+      E.vista = extension(n.fechas) || (n.horquilla && E.vista === "cronologica") ? E.vista : "libre";
       E.centro = id;
       E.modoRed = "centro";
       abrirFicha(id, null);
@@ -1359,6 +1870,9 @@
   }
 
   // ------------------------------------------------------------------ arranque
+  // Para comprobar el generador desde las pruebas automáticas.
+  window.atlasPruebas = { generar: (a, n) => generar(a, n), candidatas: (a) => candidatas(a), estado: () => E.prueba };
+
   (async function arrancar() {
     raiz.innerHTML = '<div class="cargando">Abriendo el atlas…</div>';
     try {

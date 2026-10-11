@@ -25,7 +25,7 @@ La app es una sola página: en Blogger vive dentro de una entrada, y las «panta
 | **Mapa** | La red con zoom y arrastre, en el punto de vista elegido. |
 | **Ficha** | Resumen, profundización desplegable, palabras enlazadas, relaciones agrupadas por tipo, anécdotas, imágenes, fechas (con las cronologías alternativas) y el botón «centrar el mapa aquí». |
 | **Mi progreso** | Vista de águila de todo el mapa con la niebla, el mapa del recorrido personal, la colección de anécdotas y los botones de exportar e importar. |
-| **Retos y misiones** | Preguntas generadas desde el grafo y encargos de exploración; al resolverse devuelven al mapa. |
+| **Pon a prueba** | Retos de cinco preguntas (de todo el atlas, de una tradición o de una época) y el examen de cada época, siempre abierto: diez preguntas, se aprueba con ocho. Las preguntas salen del grafo y cada respuesta lleva a su ficha. Programado en el prototipo; las misiones (encargos de exploración) quedan para después. |
 
 Los rangos y logros quedaron fuera del núcleo del juego.
 
