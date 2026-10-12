@@ -421,3 +421,9 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .nivel.superado { border-color: rgba(246, 211, 91, 0.55); }
 .nivel.superado .titulo-nivel { color: var(--brasa-3); }
 .niveles .estado.superado { color: var(--brasa-3); }
+
+/* Imagen de la ficha */
+.ficha .imagen { margin: 0.9rem 0 0.5rem; }
+.ficha .imagen img { display: block; max-width: 100%; max-height: 20rem; margin: 0 auto; border-radius: 0.35rem; background: var(--cielo); }
+.ficha .imagen figcaption { font-size: var(--t-xs); color: var(--tenue); line-height: 1.45; margin-top: 0.4rem; }
+.ficha .imagen .credito { color: var(--apagado); }

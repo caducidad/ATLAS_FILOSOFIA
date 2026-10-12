@@ -26,6 +26,7 @@
   const AUTORIA = {
     autor: "de autor", atribuida: "atribuida", escuela: "de escuela", compilacion: "compilación", anonima: "anónima",
   };
+  const LICENCIAS = { dominio_publico: "dominio público", CC0: "CC0" };
   const TIPO_SABER = { texto_original: "texto original", traduccion: "traducción", estudio: "estudio", audio: "audio" };
   const IDIOMAS = {
     es: "español", en: "inglés", fr: "francés", de: "alemán", it: "italiano", pt: "portugués", ca: "catalán",
@@ -74,7 +75,7 @@
   function textoFechas(f) {
     if (!f) return "";
     const aprox = f.tipo === "aproximada" || f.tipo === "actividad";
-    if (f.activo) return `Activo ${tramo(f.activo, aprox)}`;
+    if (f.activo) return `En activo ${tramo(f.activo, aprox)}`;
     if (f.composicion) return `Compuesta ${tramo(f.composicion, aprox)}`;
     const partes = [tramo(f.nacimiento, aprox), tramo(f.muerte, aprox)].filter(Boolean);
     return partes.join(" — ");
@@ -1531,6 +1532,19 @@
     fichaEl.append(crear("div", { class: "antetitulo" }, [brasa, document.createTextNode([ETIQUETA_TIPO[n.tipo] || n.tipo, carril].filter(Boolean).join(" · "))]));
     fichaEl.append(crear("h2", { text: n.nombre }));
     if (n.nombreOriginal && n.nombreOriginal !== n.nombre) fichaEl.append(crear("p", { class: "original", text: n.nombreOriginal }));
+
+    // Imagen: enlazada desde Wikimedia (url) o guardada en el atlas (archivo). Se carga solo al abrir la ficha.
+    const img = (n.imagenes || [])[0];
+    if (img) {
+      const fuente = img.url || RUTA_ATLAS + img.archivo;
+      const pie = crear("figcaption", {}, [document.createTextNode(img.pie + " ")]);
+      const datos_ = [img.credito, LICENCIAS[img.licencia] || img.licencia].filter(Boolean).join(" · ");
+      pie.append(crear("a", { href: img.fuente, target: "_blank", rel: "noopener", class: "credito", text: datos_ || "Fuente" }));
+      const im = crear("img", { src: fuente, alt: img.pie, loading: "lazy", decoding: "async" });
+      im.addEventListener("error", () => figura.remove());   // si la imagen desaparece del origen, la ficha sigue sin ella
+      const figura = crear("figure", { class: "imagen" }, [im, pie]);
+      fichaEl.append(figura);
+    }
 
     // Fechas
     if (n.fechas || n.horquilla) {

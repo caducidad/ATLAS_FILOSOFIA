@@ -404,7 +404,33 @@
    },
    "resumen": "Filósofo judío de Alejandría que interpretó la Biblia con las ideas de [[autor.platon|Platón]] y de los [[escuela.estoicismo|estoicos]]. Para él, Dios creó el mundo por medio del [[concepto.logos|Logos]], su razón, y los relatos bíblicos tienen un sentido alegórico más profundo que el literal.",
    "profundizacion": "Filón perteneció a una de las familias judías más ricas e influyentes de Alejandría, entonces la gran capital cultural del mundo griego. Escribió en griego decenas de tratados, casi todos comentarios a los cinco primeros libros de la Biblia, que la tradición atribuía al legislador Moisés. Su método es la alegoría: los personajes y sucesos bíblicos significan también realidades del alma; el patriarca Abraham, por ejemplo, que abandona su tierra, representa al alma que deja lo sensible para buscar a Dios. En [[obra.creacion_mundo|Sobre la creación del mundo]] explica el relato del Génesis con ideas del diálogo Timeo de [[autor.platon|Platón]]: Dios concibe primero un modelo inteligible del mundo y luego lo realiza. El intermediario entre el Dios trascendente y el mundo es el [[concepto.logos|Logos]], al que llega a llamar «segundo dios». Los judíos posteriores lo olvidaron casi por completo, pero los primeros pensadores cristianos, como Clemente y Orígenes de Alejandría, lo leyeron con entusiasmo y conservaron sus obras.",
-   "anecdotas": "En el año 40, ya anciano, encabezó una embajada de los judíos de Alejandría ante el emperador Calígula para protestar por la violencia que sufrían. El emperador los recibió mientras inspeccionaba unas villas, sin dejar de dar órdenes a los obreros, y en medio de la audiencia les preguntó, entre las risas de los presentes, por qué no comían cerdo ([[obra.embajada_gayo|Embajada a Gayo]] 351-367 · A). Entre los griegos circulaba este dicho: «O Platón filoniza, o Filón platoniza» (el escritor cristiano san Jerónimo, Sobre los hombres ilustres 11 · B)."
+   "anecdotas": "En el año 40, ya anciano, encabezó una embajada de los judíos de Alejandría ante el emperador Calígula para protestar por la violencia que sufrían. El emperador los recibió mientras inspeccionaba unas villas, sin dejar de dar órdenes a los obreros, y en medio de la audiencia les preguntó, entre las risas de los presentes, por qué no comían cerdo ([[obra.embajada_gayo|Embajada a Gayo]] 351-367 · A). Entre los griegos circulaba este dicho: «O Platón filoniza, o Filón platoniza» (el escritor cristiano san Jerónimo, Sobre los hombres ilustres 11 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Filón de Alejandría",
+     "autorEntrada": "Tomás Rodríguez Hevia",
+     "url": "https://www.philosophica.info/voces/filon/Filon.html",
+     "idioma": "es"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Philo of Alexandria",
+     "url": "https://plato.stanford.edu/entries/philo/",
+     "idioma": "en",
+     "autorEntrada": "Carlos Lévy"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Philo of Alexandria",
+     "url": "https://iep.utm.edu/philo/",
+     "idioma": "en",
+     "autorEntrada": "Marian Hillar"
+    }
+   ]
   },
   {
    "id": "obra.ensenanza_ptahhotep",
@@ -1368,7 +1394,7 @@
    "destino": "obra.qohelet",
    "certeza": "C",
    "fuente": "Qohélet 9, 7-9",
-   "nota": "El consejo de [[obra.qohelet|Qohélet]] de comer, beber y disfrutar con la persona amada se parece mucho al de la tabernera Siduri; se discute si hay dependencia o solo un lugar común de la sabiduría antigua."
+   "nota": "El consejo de [[obra.qohelet|Qohélet]] de comer, beber y disfrutar con la persona amada se parece mucho al de la tabernera Siduri en el [[obra.gilgamesh|Poema de Gilgamesh]]; se discute si hay dependencia o solo un lugar común de la sabiduría antigua."
   },
   {
    "id": "po-0018",
@@ -1890,7 +1916,7 @@
    "destino": "escuela.epicureismo",
    "certeza": "P",
    "ejeComparacion": "Disfrutar del presente ante la muerte",
-   "nota": "La tabernera Siduri, [[autor.qohelet|Qohélet]] y [[autor.epicuro|Epicuro]] responden a la muerte con un placer sencillo; Epicuro, además, lo argumenta y lo convierte en una disciplina."
+   "nota": "La tabernera Siduri del [[obra.gilgamesh|Poema de Gilgamesh]], [[autor.qohelet|Qohélet]] y [[autor.epicuro|Epicuro]] responden a la muerte con un placer sencillo; Epicuro, además, lo argumenta y lo convierte en una disciplina."
   },
   {
    "id": "po-0089",

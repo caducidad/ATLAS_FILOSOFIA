@@ -72,7 +72,7 @@
    },
    "lugar": "Roma, Alejandría, Apamea (en Siria) y Atenas",
    "resumen": "Última gran escuela de la filosofía antigua: [[autor.plotino|Plotino]] y sus seguidores reinterpretan a [[autor.platon|Platón]] como un camino del alma hacia [[concepto.uno|el Uno]], principio de todo. Conviven y discuten con el cristianismo naciente.",
-   "profundizacion": "[[autor.plotino|Plotino]] enseña en Roma desde el 245 d. C., y su discípulo [[autor.porfirio|Porfirio]] edita sus escritos en las [[obra.eneadas|Enéadas]]. Después, Jámblico, en Siria, añade prácticas rituales, y Proclo, en Atenas, construye el sistema más completo de la escuela. En Alejandría enseña la matemática y filósofa Hipatia, asesinada por una turba cristiana en el 415. Los pensadores cristianos, como Agustín de Hipona, toman mucho del neoplatonismo. La época se cierra simbólicamente en el 529, cuando el emperador Justiniano prohíbe enseñar a los filósofos paganos en Atenas. Es la transición hacia la filosofía medieval."
+   "profundizacion": "[[autor.plotino|Plotino]] enseña en Roma desde el 245 d. C., y su discípulo [[autor.porfirio|Porfirio]] edita sus escritos en las [[obra.eneadas|Enéadas]]. Después, Jámblico, en Siria, añade prácticas rituales, y Proclo, en Atenas, construye el sistema más completo de la escuela. En Alejandría enseña la matemática y filósofa [[autor.hipatia|Hipatia]], asesinada por una turba cristiana en el 415. Los pensadores cristianos, como Agustín de Hipona, toman mucho del neoplatonismo. La época se cierra simbólicamente en el 529, cuando el emperador Justiniano prohíbe enseñar a los filósofos paganos en Atenas. Es la transición hacia la filosofía medieval."
   },
   {
    "id": "escuela.milesios",
@@ -399,7 +399,33 @@
    },
    "resumen": "Considerado el primer filósofo griego. Buscó una explicación natural del mundo y propuso que el [[concepto.arche|principio]] de todas las cosas es [[tesis.agua_principio|el agua]].",
    "profundizacion": "Tales no dejó escritos, o no se conservaron. Lo que sabemos de su pensamiento procede sobre todo de [[autor.aristoteles|Aristóteles]], que lo presenta como el iniciador de la búsqueda de un [[concepto.arche|principio]] material de todo. Aristóteles supone que llegó a la idea del agua observando que el alimento de todas las cosas es húmedo y que las semillas necesitan humedad. Se le atribuye también la frase «todo está lleno de dioses» y la idea de que el imán tiene alma porque mueve el hierro. La tradición le atribuye además conocimientos de geometría y astronomía, quizá aprendidos en [[contexto.egipto_mesopotamia|Egipto y Mesopotamia]], aunque es difícil separar los hechos de la leyenda. Lo decisivo es el cambio de actitud: explicar la naturaleza por sí misma y no por la voluntad de los dioses.",
-   "anecdotas": "Mientras observaba los astros cayó en un pozo, y una esclava tracia se rió de él porque quería saber lo que pasaba en el cielo y no veía lo que tenía a sus pies ([[obra.teeteto|Teeteto]] 174a · C). Para demostrar que la filosofía puede ser útil, previó por los astros una gran cosecha de aceitunas, alquiló en invierno todas las prensas de aceite de Mileto y Quíos y luego las realquiló a buen precio ([[obra.politica|Política]] I 11 · B). El historiador Heródoto cuenta que predijo el año de un eclipse de sol que interrumpió una batalla entre lidios y medos (Heródoto, Historia I 74 · B)."
+   "anecdotas": "Mientras observaba los astros cayó en un pozo, y una esclava tracia se rió de él porque quería saber lo que pasaba en el cielo y no veía lo que tenía a sus pies ([[obra.teeteto|Teeteto]] 174a · C). Para demostrar que la filosofía puede ser útil, previó por los astros una gran cosecha de aceitunas, alquiló en invierno todas las prensas de aceite de Mileto y Quíos y luego las realquiló a buen precio ([[obra.politica|Política]] I 11 · B). El historiador Heródoto cuenta que predijo el año de un eclipse de sol que interrumpió una batalla entre lidios y medos (Heródoto, Historia I 74 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Tales de Mileto",
+     "autorEntrada": "Pedro Cervio",
+     "url": "https://www.philosophica.info/voces/tales/Tales.html",
+     "idioma": "es"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Thales of Miletus",
+     "url": "https://iep.utm.edu/thales/",
+     "idioma": "en",
+     "autorEntrada": "Patricia O’Grady"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro I: Tales",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=1:chapter=1",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.anaximandro",
@@ -438,7 +464,33 @@
    },
    "resumen": "Pensador de Mileto que propuso como principio de todo lo [[concepto.apeiron|ápeiron]], lo indefinido o ilimitado, y escribió el primer texto filosófico griego del que se conserva una frase.",
    "profundizacion": "A diferencia de [[autor.tales|Tales]], Anaximandro no eligió un elemento concreto como principio, porque cualquiera de ellos acabaría imponiéndose a los demás. Propuso algo sin límites ni cualidades, el [[concepto.apeiron|ápeiron]], del que surgen los contrarios, como lo caliente y lo frío, y al que vuelven. Su única frase conservada, transmitida por el comentarista Simplicio (s. VI d. C.), dice que las cosas «se pagan unas a otras pena y retribución por su injusticia según el orden del tiempo»: el cambio natural se describe como una justicia cósmica. Imaginó la Tierra como un cilindro suspendido en el centro del universo, sin apoyarse en nada, y sostuvo que los primeros seres humanos nacieron de animales parecidos a peces.",
-   "anecdotas": "Fue, según la tradición, el primero en dibujar un mapa de la tierra y el mar ([[obra.vidas_filosofos|Vidas de los filósofos]] II 2 · B). Cuentan que, cuando cantaba, los niños se reían de él; al saberlo, dijo: «Entonces tendremos que cantar mejor, por los niños» ([[obra.vidas_filosofos|Vidas de los filósofos]] II 2 · C)."
+   "anecdotas": "Fue, según la tradición, el primero en dibujar un mapa de la tierra y el mar ([[obra.vidas_filosofos|Vidas de los filósofos]] II 2 · B). Cuentan que, cuando cantaba, los niños se reían de él; al saberlo, dijo: «Entonces tendremos que cantar mejor, por los niños» ([[obra.vidas_filosofos|Vidas de los filósofos]] II 2 · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Anaximandro",
+     "autorEntrada": "Pedro Cervio",
+     "url": "https://www.philosophica.info/voces/anaximandro/Anaximandro.html",
+     "idioma": "es"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Anaximander",
+     "url": "https://iep.utm.edu/anaximander/",
+     "idioma": "en",
+     "autorEntrada": "Dirk L. Couprie"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro II: Anaximandro",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=2:chapter=1",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.pitagoras",
@@ -479,7 +531,32 @@
    },
    "resumen": "Fundador de una comunidad en el sur de Italia que unía forma de vida, matemáticas y religión. Enseñó la [[concepto.metempsicosis|transmigración]] de las almas; la idea de que todo es número procede sobre todo de sus seguidores.",
    "profundizacion": "Pitágoras no escribió nada, y su figura se llenó pronto de leyendas. De lo que dicen sus contemporáneos se deduce sobre todo que enseñaba la [[concepto.metempsicosis|transmigración]]: el alma es inmortal y renace en otros cuerpos, también de animales. Su comunidad, en Crotona, seguía normas estrictas: silencio, vida en común, prohibiciones alimentarias y examen diario de la conciencia. Los pitagóricos posteriores, como Filolao (s. V a. C.), sostuvieron que el número es el principio del orden del mundo, a partir del descubrimiento de que las consonancias musicales responden a proporciones numéricas. El teorema que lleva su nombre ya lo conocían los babilonios, y no hay pruebas de que él lo demostrara.",
-   "anecdotas": "Su contemporáneo, el poeta y filósofo Jenófanes, se burló de él contando que, al ver cómo golpeaban a un perrito, Pitágoras pidió que pararan porque había reconocido en sus gemidos el alma de un amigo muerto (Jenófanes, citado en [[obra.vidas_filosofos|Vidas de los filósofos]] VIII 36 · A). Entre las normas de su comunidad figuraba no comer habas, cuyo motivo ya discutían los antiguos ([[obra.vidas_filosofos|Vidas de los filósofos]] VIII 19 y 34 · C). Una leyenda decía que tenía un muslo de oro, señal de su naturaleza divina ([[obra.vidas_filosofos|Vidas de los filósofos]] VIII 11 · L)."
+   "anecdotas": "Su contemporáneo, el poeta y filósofo Jenófanes, se burló de él contando que, al ver cómo golpeaban a un perrito, Pitágoras pidió que pararan porque había reconocido en sus gemidos el alma de un amigo muerto (Jenófanes, citado en [[obra.vidas_filosofos|Vidas de los filósofos]] VIII 36 · A). Entre las normas de su comunidad figuraba no comer habas, cuyo motivo ya discutían los antiguos ([[obra.vidas_filosofos|Vidas de los filósofos]] VIII 19 y 34 · C). Una leyenda decía que tenía un muslo de oro, señal de su naturaleza divina ([[obra.vidas_filosofos|Vidas de los filósofos]] VIII 11 · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Pythagoras",
+     "url": "https://plato.stanford.edu/entries/pythagoras/",
+     "idioma": "en",
+     "autorEntrada": "Carl Huffman"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Pythagoras",
+     "url": "https://iep.utm.edu/pythagoras/",
+     "idioma": "en"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro VIII: Pitágoras",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=8:chapter=1",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.heraclito",
@@ -515,7 +592,25 @@
    },
    "resumen": "Pensador de Éfeso para quien todo está en cambio, como un río, pero según una medida común, el [[concepto.logos|logos]]. Escribió en frases breves y enigmáticas, por lo que lo llamaron «el Oscuro».",
    "profundizacion": "Heráclito parte de que la mayoría de la gente no entiende el [[concepto.logos|logos]], la razón o ley común que gobierna todas las cosas, aunque está a la vista. Ese logos se manifiesta en la unidad de los contrarios: el camino hacia arriba y hacia abajo es uno y el mismo; la enfermedad hace agradable la salud. El mundo es un fuego siempre vivo que se enciende y se apaga con medida, y la guerra, es decir, la tensión entre opuestos, es «padre de todas las cosas». Su imagen del río, en el que no es posible bañarse dos veces, expresa que la identidad de las cosas se mantiene a través del cambio. De su libro se conservan unos 130 fragmentos. Criticó con dureza a poetas y sabios anteriores, como Homero y [[autor.pitagoras|Pitágoras]].",
-   "anecdotas": "Unos visitantes que querían conocerlo lo encontraron calentándose junto al horno de la cocina y dudaron en entrar; él les dijo: «Pasad, que también aquí hay dioses» ([[autor.aristoteles|Aristóteles]], Partes de los animales I 5 · B). Dicen que depositó su libro en el templo de Ártemis de Éfeso, y que lo escribió de forma oscura a propósito, para que solo lo entendieran los capaces ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 6 · C). Según una leyenda, enfermo de hidropesía se cubrió de estiércol para curarse y murió ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 3 · L)."
+   "anecdotas": "Unos visitantes que querían conocerlo lo encontraron calentándose junto al horno de la cocina y dudaron en entrar; él les dijo: «Pasad, que también aquí hay dioses» ([[autor.aristoteles|Aristóteles]], Partes de los animales I 5 · B). Dicen que depositó su libro en el templo de Ártemis de Éfeso, y que lo escribió de forma oscura a propósito, para que solo lo entendieran los capaces ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 6 · C). Según una leyenda, enfermo de hidropesía se cubrió de estiércol para curarse y murió ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 3 · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Heraclitus",
+     "url": "https://plato.stanford.edu/entries/heraclitus/",
+     "idioma": "en",
+     "autorEntrada": "Daniel W. Graham"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro IX: Heráclito",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=9:chapter=1",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.parmenides",
@@ -550,12 +645,38 @@
     },
     "tipo": "aproximada",
     "historicidad": "historico",
-    "alternativas": [],
-    "nota": "c. 515 – después del 450 a. C., según el encuentro con el joven Sócrates que narra Platón."
+    "alternativas": [
+     {
+      "etiqueta": "Cronología de Apolodoro, que recoge Diógenes Laercio (IX 23): en su plenitud hacia el 504-501 a. C.",
+      "nacimiento": {
+       "min": -545,
+       "max": -535
+      }
+     }
+    ],
+    "nota": "c. 515 – después del 450 a. C., según el encuentro con el joven Sócrates que narra Platón. Otra cronología antigua lo hace unos veinte años mayor."
    },
    "resumen": "Pensador de Elea que, en un poema, argumentó que [[tesis.ser_es|lo que es, es, y no puede no ser]]: por tanto, el ser es uno, eterno e inmóvil, y el cambio que vemos es una apariencia.",
    "profundizacion": "En su [[obra.poema_parmenides|poema]], una diosa muestra al narrador dos caminos de investigación: el de «es» y el de «no es». El segundo es impensable, porque no se puede conocer ni decir lo que no es. De ahí se siguen consecuencias radicales: el ser no puede nacer ni perecer, porque tendría que venir del no-ser o ir a él; no puede estar dividido ni moverse, porque entre sus partes habría no-ser. Los sentidos, que nos muestran nacimiento y cambio, nos engañan, y solo la razón alcanza la verdad. La segunda parte del poema expone, sin embargo, una explicación del mundo aparente. Su argumento obligó a todos los filósofos posteriores a explicar cómo es posible el cambio, desde [[autor.empedocles|Empédocles]] y [[autor.democrito|Demócrito]] hasta [[autor.platon|Platón]] y [[autor.aristoteles|Aristóteles]]. Es también uno de los primeros ejemplos de argumentación deductiva rigurosa.",
-   "anecdotas": "Según un diálogo de [[autor.platon|Platón]], ya anciano y de cabellos blancos viajó a Atenas con su discípulo [[autor.zenon_elea|Zenón]] para las fiestas Panateneas y conversó con un [[autor.socrates|Sócrates]] muy joven; el encuentro quizá sea una ficción literaria ([[autor.platon|Platón]], Parménides 127a-c · C). Se cuenta que redactó leyes para su ciudad, Elea, y que los ciudadanos juraban cumplirlas cada año ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 23 · C)."
+   "anecdotas": "Según un diálogo de [[autor.platon|Platón]], ya anciano y de cabellos blancos viajó a Atenas con su discípulo [[autor.zenon_elea|Zenón]] para las fiestas Panateneas y conversó con un [[autor.socrates|Sócrates]] muy joven; el encuentro quizá sea una ficción literaria ([[autor.platon|Platón]], Parménides 127a-c · C). Se cuenta que redactó leyes para su ciudad, Elea ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 23 · C), y, según [[autor.plutarco|Plutarco]], que cada año los magistrados hacían jurar a los ciudadanos que las cumplirían ([[autor.plutarco|Plutarco]], Contra Colotes 32 · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Parmenides",
+     "url": "https://plato.stanford.edu/entries/parmenides/",
+     "idioma": "en",
+     "autorEntrada": "John Palmer"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro IX: Parménides",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=9:chapter=3",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.zenon_elea",
@@ -595,7 +716,25 @@
    },
    "resumen": "Discípulo de [[autor.parmenides|Parménides]], famoso por sus paradojas, como la de Aquiles y la tortuga, que intentan mostrar que [[tesis.movimiento_imposible|el movimiento es imposible]] si se acepta que el espacio y el tiempo son divisibles.",
    "profundizacion": "Zenón defendió a su maestro por reducción al absurdo: si se admite la pluralidad y el movimiento, se llega a contradicciones. Sus argumentos más conocidos los transmite [[autor.aristoteles|Aristóteles]] en la [[obra.fisica|Física]]. En la dicotomía, para recorrer una distancia hay que recorrer primero la mitad, y antes la mitad de la mitad, y así sin fin, de modo que nunca se empieza. En el de Aquiles, el corredor más rápido nunca alcanza a la tortuga, porque cuando llega a donde ella estaba, ella ya ha avanzado un poco. En el de la flecha, una flecha en vuelo está en reposo en cada instante, y por tanto nunca se mueve. Aristóteles lo consideró el inventor de la dialéctica, el arte de argumentar a partir de las tesis del adversario. Sus paradojas sobre el infinito se discutieron hasta la matemática moderna.",
-   "anecdotas": "Una tradición cuenta que conspiró contra un tirano y que, al ser torturado para que delatara a sus cómplices, se mordió la lengua y se la escupió a la cara ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 26-27 · L). Más tarde se contaba que, cuando alguien sostenía ante [[autor.diogenes_sinope|Diógenes de Sinope]] que el movimiento no existe, este se levantó sin decir nada y se puso a andar ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 39 · C)."
+   "anecdotas": "Una tradición cuenta que conspiró contra un tirano y que, al ser torturado para que delatara a sus cómplices, se mordió la lengua y se la escupió a la cara ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 26-27 · L). Más tarde se contaba que, cuando alguien sostenía ante [[autor.diogenes_sinope|Diógenes de Sinope]] que el movimiento no existe, este se levantó sin decir nada y se puso a andar ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 39 · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Zeno of Elea",
+     "url": "https://plato.stanford.edu/entries/zeno-elea/",
+     "idioma": "en",
+     "autorEntrada": "John Palmer"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro IX: Zenón de Elea",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=9:chapter=5",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.empedocles",
@@ -635,7 +774,33 @@
    },
    "resumen": "Poeta, médico y filósofo de Sicilia. Explicó el cambio por la mezcla de cuatro raíces eternas, tierra, agua, aire y fuego, movidas por dos fuerzas: el Amor, que une, y la Discordia, que separa.",
    "profundizacion": "Empédocles acepta con [[autor.parmenides|Parménides]] que nada nace de la nada ni perece del todo, pero no que el cambio sea ilusorio. Lo que llamamos nacer y morir es mezcla y separación de cuatro «raíces» eternas, la primera versión de los cuatro elementos que dominarán la ciencia durante dos mil años. Dos fuerzas, el Amor y la Discordia, predominan por turnos en un ciclo cósmico. En su otro poema, las Purificaciones, enseña que las almas son seres caídos que transmigran a lo largo de muchos cuerpos, de ahí que condene comer carne. Su obra mezcla así física, medicina y una doctrina de salvación cercana a la de los [[escuela.pitagorismo|pitagóricos]].",
-   "anecdotas": "En sus propios versos se presenta ante sus conciudadanos como «un dios inmortal, ya no mortal», al que siguen multitudes pidiendo profecías y curaciones ([[obra.poema_empedocles|Poemas de Empédocles]], fragmento B112 · A). La leyenda cuenta que, para que lo creyeran un dios, se arrojó al cráter del Etna, pero el volcán devolvió una de sus sandalias de bronce y delató su muerte ([[obra.vidas_filosofos|Vidas de los filósofos]] VIII 69 · L)."
+   "anecdotas": "En sus propios versos se presenta ante sus conciudadanos como «un dios inmortal, ya no mortal», al que siguen multitudes pidiendo profecías y curaciones ([[obra.poema_empedocles|Poemas de Empédocles]], fragmento B112 · A). La leyenda cuenta que, para que lo creyeran un dios, se arrojó al cráter del Etna, pero el volcán devolvió una de sus sandalias de bronce y delató su muerte ([[obra.vidas_filosofos|Vidas de los filósofos]] VIII 69 · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Empedocles",
+     "url": "https://plato.stanford.edu/entries/empedocles/",
+     "idioma": "en",
+     "autorEntrada": "K. Scarlett Kingsley y Richard Parry"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Empedocles",
+     "url": "https://iep.utm.edu/empedocles/",
+     "idioma": "en",
+     "autorEntrada": "Gordon Campbell"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro VIII: Empédocles",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=8:chapter=2",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.anaxagoras",
@@ -675,7 +840,41 @@
    },
    "resumen": "Primer filósofo que se estableció en Atenas. Sostuvo que en todo hay una porción de todo y que una inteligencia, el [[concepto.nous|nous]], puso en orden el universo.",
    "profundizacion": "Como [[autor.empedocles|Empédocles]], Anaxágoras explica el cambio sin admitir que nada nazca de la nada. Pero en lugar de cuatro raíces propone infinitas sustancias mezcladas: en cada cosa hay una porción de todas las demás, y la llamamos por la que predomina. Así puede explicar que el pan se convierta en carne y hueso. El orden del mundo lo inició el [[concepto.nous|nous]], una inteligencia separada de la mezcla que puso todo en rotación. Explicó los fenómenos celestes de forma natural: la luna recibe su luz del sol, y el sol es una masa de piedra incandescente. Fue amigo y consejero del político ateniense Pericles.",
-   "anecdotas": "Fue acusado de impiedad en Atenas por decir que el sol era una piedra al rojo vivo, y tuvo que exiliarse a Lámpsaco, donde murió ([[obra.vidas_filosofos|Vidas de los filósofos]] II 12-14 · B). [[autor.socrates|Sócrates]] cuenta que leyó su libro con entusiasmo al saber que la inteligencia lo ordenaba todo, y que se desilusionó al ver que luego lo explicaba todo con aire, éter y agua, sin decir por qué cada cosa es lo mejor ([[obra.fedon|Fedón]] 97b-99c · B)."
+   "anecdotas": "Fue acusado de impiedad en Atenas por decir que el sol era una piedra al rojo vivo, y tuvo que exiliarse a Lámpsaco, donde murió ([[obra.vidas_filosofos|Vidas de los filósofos]] II 12-15 · B). [[autor.socrates|Sócrates]] cuenta que leyó su libro con entusiasmo al saber que la inteligencia lo ordenaba todo, y que se desilusionó al ver que luego lo explicaba todo con aire, éter y agua, sin decir por qué cada cosa es lo mejor ([[obra.fedon|Fedón]] 97b-99c · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Anaxágoras de Clazomene",
+     "autorEntrada": "David Torrijos Castrillejo",
+     "url": "https://www.philosophica.info/voces/anaxagoras/Anaxagoras.html",
+     "idioma": "es"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Anaxagoras",
+     "url": "https://plato.stanford.edu/entries/anaxagoras/",
+     "idioma": "en",
+     "autorEntrada": "John Sisko y Patricia Curd"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Anaxagoras",
+     "url": "https://iep.utm.edu/anaxagoras/",
+     "idioma": "en",
+     "autorEntrada": "Michael Patzia"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro II: Anaxágoras",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=2:chapter=3",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.democrito",
@@ -717,7 +916,25 @@
    },
    "resumen": "Desarrolló, a partir de su maestro [[autor.leucipo|Leucipo]], la teoría de que todo está formado por [[concepto.atomo|átomos]] indivisibles que se mueven en el vacío. Las cualidades que percibimos, como el color o el sabor, existen solo [[tesis.atomos_vacio|por convención]].",
    "profundizacion": "Para responder a [[autor.parmenides|Parménides]], los atomistas admiten que el no-ser existe en forma de vacío. En él se mueven infinitos [[concepto.atomo|átomos]], partículas demasiado pequeñas para verse, que solo se distinguen por su forma, su orden y su posición. Al chocar y engancharse forman los cuerpos y los mundos, sin necesidad de ninguna inteligencia que los dirija. De ahí su célebre distinción: dulce, amargo, caliente o colorido existen por convención; en realidad, solo hay átomos y vacío. Escribió también sobre ética: la meta es el buen ánimo, una alegría tranquila que se logra con moderación. Fue un autor muy prolífico, pero sus obras se perdieron casi por completo. [[autor.epicuro|Epicuro]] retomó y transformó su atomismo.",
-   "anecdotas": "Él mismo habría escrito: «Fui a Atenas y nadie me conoció» ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 36 · B). Autores romanos lo convirtieron en «el filósofo que ríe» de la necedad humana, frente a [[autor.heraclito|Heráclito]], que lloraba por ella; es una imagen tardía y legendaria ([[autor.seneca|Séneca]], Sobre la ira II 10 · L)."
+   "anecdotas": "Él mismo habría escrito: «Fui a Atenas y nadie me conoció» ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 36 · B). Autores romanos lo convirtieron en «el filósofo que ríe» de la necedad humana, frente a [[autor.heraclito|Heráclito]], que lloraba por ella; es una imagen tardía y legendaria ([[autor.seneca|Séneca]], Sobre la ira II 10 · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Democritus",
+     "url": "https://plato.stanford.edu/entries/democritus/",
+     "idioma": "en",
+     "autorEntrada": "Sylvia Berryman"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro IX: Demócrito",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=9:chapter=7",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.protagoras",
@@ -757,7 +974,25 @@
    },
    "resumen": "El más famoso de los [[escuela.sofistica|sofistas]]. Afirmó que [[tesis.homo_mensura|el ser humano es la medida de todas las cosas]] y se declaró incapaz de saber si los dioses existen.",
    "profundizacion": "Protágoras enseñaba por dinero la «virtud política»: el arte de hablar bien y de dirigir los asuntos propios y los de la ciudad. Su frase más célebre, conservada por [[autor.platon|Platón]] en el [[obra.teeteto|Teeteto]], suele entenderse como un relativismo: las cosas son para cada uno tal como se le aparecen, y no hay un criterio superior para decidir quién tiene razón. Ante cualquier cuestión, enseñaba, hay dos argumentos opuestos, y el buen orador sabe hacer fuerte el más débil. Sobre los dioses mantuvo una posición agnóstica: la oscuridad del asunto y la brevedad de la vida impiden saberlo. Pericles le encargó redactar las leyes de Turios, una colonia ateniense en el sur de Italia. Platón lo trata con respeto, aunque discute sus ideas.",
-   "anecdotas": "Su libro sobre los dioses empezaba diciendo que no podía saber si existían o no. Según la tradición, los atenienses lo expulsaron por ello y quemaron sus libros en el ágora, después de recogerlos casa por casa ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 51-52 · C)."
+   "anecdotas": "Su libro sobre los dioses empezaba diciendo que no podía saber si existían o no. Según la tradición, los atenienses lo expulsaron por ello y quemaron sus libros en el ágora, después de recogerlos casa por casa ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 51-52 · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Protagoras",
+     "url": "https://plato.stanford.edu/entries/protagoras/",
+     "idioma": "en",
+     "autorEntrada": "Mauro Bonazzi"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro IX: Protágoras",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=9:chapter=8",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.gorgias",
@@ -797,7 +1032,17 @@
    },
    "resumen": "Sofista y maestro de retórica. En su tratado [[obra.sobre_no_ser|Sobre el no ser]] defendió que [[tesis.nada_existe|nada existe; si existiera, no podría conocerse; y si se conociera, no podría comunicarse]].",
    "profundizacion": "Gorgias llevó al extremo los argumentos de los [[escuela.eleatas|eleatas]] para volverlos contra ellos: su tratado [[obra.sobre_no_ser|Sobre el no ser]] encadena tres tesis cada vez más provocadoras sobre el ser, el conocimiento y el lenguaje. Se discute si era una parodia, un ejercicio retórico o una posición filosófica seria. Su gran tema es el poder de la palabra, a la que llama «un gran soberano» capaz de producir efectos como una droga en el cuerpo. En su Encomio de Helena defiende a la heroína de la guerra de Troya diciendo que, si la persuadieron con palabras, no es culpable. Fue maestro de oradores y su estilo, lleno de antítesis y ritmo, influyó en la prosa griega. [[autor.platon|Platón]] le dedicó un diálogo, el Gorgias, donde opone la retórica a la filosofía.",
-   "anecdotas": "En el 427 a. C. llegó a Atenas como embajador de su ciudad para pedir ayuda militar, y su forma de hablar, llena de figuras nunca oídas, deslumbró tanto a la asamblea que consiguió la alianza (el historiador Diodoro de Sicilia, Biblioteca histórica XII 53 · B)."
+   "anecdotas": "En el 427 a. C. llegó a Atenas como embajador de su ciudad para pedir ayuda militar, y su forma de hablar, llena de figuras nunca oídas, deslumbró tanto a la asamblea que consiguió la alianza (el historiador Diodoro de Sicilia, Biblioteca histórica XII 53 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Gorgias",
+     "url": "https://iep.utm.edu/gorgias/",
+     "idioma": "en",
+     "autorEntrada": "C. Francis Higgins"
+    }
+   ]
   },
   {
    "id": "autor.socrates",
@@ -835,7 +1080,41 @@
    },
    "resumen": "Filósofo ateniense que no escribió nada y dedicó su vida a interrogar a sus conciudadanos sobre la justicia y la virtud. Condenado a muerte en el 399 a. C., se convirtió en el modelo del filósofo.",
    "profundizacion": "Conocemos a Sócrates por lo que contaron otros: sobre todo [[autor.platon|Platón]], pero también el historiador [[autor.jenofonte|Jenofonte]], que lo trató, y el comediógrafo Aristófanes, que se burló de él en Las nubes. Su método consistía en preguntar a quien creía saber algo, por ejemplo qué es la valentía, hasta mostrarle que sus respuestas se contradecían: la [[concepto.elenchos|refutación]]. Así descubría su propia ignorancia y la de los demás, y por eso se decía más sabio solo en saber que no sabía. Pensaba que la [[concepto.arete|virtud]] es una forma de saber y que [[tesis.nadie_obra_mal|nadie obra mal voluntariamente]]: quien hace el mal se equivoca sobre lo que le conviene. Lo esencial era cuidar el alma, más que el cuerpo o la riqueza. Fue acusado de no creer en los dioses de la ciudad y de corromper a los jóvenes, y condenado a beber cicuta. Es difícil separar al Sócrates histórico del personaje de los diálogos de Platón.",
-   "anecdotas": "Su amigo Querefonte preguntó al oráculo de Delfos si había alguien más sabio que Sócrates, y la sacerdotisa respondió que no; Sócrates dedicó su vida a entender aquella respuesta interrogando a quienes parecían sabios ([[obra.apologia|Apología de Sócrates]] 21a · B). Durante una campaña militar en Potidea se quedó de pie, absorto en un pensamiento, desde el amanecer de un día hasta el del día siguiente ([[obra.banquete|Banquete]] 220c-d · B). Contaba que desde niño oía una voz interior, su daimon, que nunca le empujaba a hacer algo, solo le detenía ([[obra.apologia|Apología de Sócrates]] 31d · B). Ya condenado, rechazó escapar de la cárcel y bebió la cicuta conversando con sus amigos sobre la inmortalidad del alma ([[obra.fedon|Fedón]] 116-118 · B)."
+   "anecdotas": "Su amigo Querefonte preguntó al oráculo de Delfos si había alguien más sabio que Sócrates, y la sacerdotisa respondió que no; Sócrates dedicó su vida a entender aquella respuesta interrogando a quienes parecían sabios ([[obra.apologia|Apología de Sócrates]] 21a · B). Durante una campaña militar en Potidea se quedó de pie, absorto en un pensamiento, desde el amanecer de un día hasta el del día siguiente ([[obra.banquete|Banquete]] 220c-d · B). Contaba que desde niño oía una voz interior, su daimon, que nunca le empujaba a hacer algo, solo le detenía ([[obra.apologia|Apología de Sócrates]] 31d · B). Ya condenado, rechazó escapar de la cárcel y bebió la cicuta conversando con sus amigos sobre la inmortalidad del alma ([[obra.fedon|Fedón]] 116-118 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Sócrates",
+     "autorEntrada": "Miguel Pérez de Laborda",
+     "url": "https://www.philosophica.info/voces/socrates/Socrates.html",
+     "idioma": "es"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Socrates",
+     "url": "https://plato.stanford.edu/entries/socrates/",
+     "idioma": "en",
+     "autorEntrada": "Debra Nails y S. Sara Monoson"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Socrates",
+     "url": "https://iep.utm.edu/socrates/",
+     "idioma": "en",
+     "autorEntrada": "James M. Ambury"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro II: Sócrates",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=2:chapter=5",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.platon",
@@ -888,6 +1167,30 @@
      "autorEntrada": "Ignacio Yarza de la Sierra",
      "url": "https://www.philosophica.info/voces/platon/Platon.html",
      "idioma": "es"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Plato",
+     "url": "https://plato.stanford.edu/entries/plato/",
+     "idioma": "en",
+     "autorEntrada": "Richard Kraut"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Plato",
+     "url": "https://iep.utm.edu/plato/",
+     "idioma": "en",
+     "autorEntrada": "Thomas Brickhouse"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro III: Platón",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=3:chapter=1",
+     "idioma": "en"
     }
    ]
   },
@@ -935,7 +1238,41 @@
    },
    "resumen": "Discípulo de [[autor.platon|Platón]] y fundador del [[escuela.liceo|Liceo]]. Creó la lógica como disciplina, estudió casi todos los campos del saber y explicó la realidad a partir de las cosas concretas, no de [[concepto.idea|Formas]] separadas.",
    "profundizacion": "Aristóteles estudió veinte años en la [[escuela.academia|Academia]], pero rechazó que las [[concepto.idea|Formas]] existieran separadas de las cosas: la forma de un caballo está en los caballos. Lo real en sentido primero es la [[concepto.ousia|sustancia]] individual, compuesta de materia y forma, y el cambio se explica como paso de la [[concepto.potencia_acto|potencia al acto]], hacia un [[concepto.telos|fin]]. Para conocer algo hay que saber sus cuatro causas: de qué está hecho, qué es, qué lo produjo y para qué existe. En lógica formuló la teoría del [[concepto.silogismo|silogismo]], que fue la base de la lógica durante dos mil años. En ética, la meta de la vida es la [[concepto.eudaimonia|felicidad]], entendida como actividad conforme a la virtud, y la virtud es un término medio que la [[concepto.phronesis|prudencia]] sabe encontrar. En política definió al ser humano como [[tesis.animal_politico|animal político]]. Estudió además biología, astronomía, retórica y poesía. Las obras que conservamos son apuntes de clase editados en el siglo I a. C.; sus diálogos publicados, muy elogiados en la Antigüedad, se perdieron.",
-   "anecdotas": "El rey Filipo de Macedonia lo llamó para educar a su hijo Alejandro, el futuro [[autor.alejandro|Alejandro Magno]], que entonces tenía unos trece años; según [[autor.plutarco|Plutarco]], el joven decía que a su padre le debía la vida, pero a su maestro una vida digna ([[obra.vidas_paralelas|Vidas paralelas]], Alejandro 7-8 · B). A la muerte de Alejandro, acusado de impiedad, se marchó de Atenas diciendo que no permitiría que los atenienses pecaran dos veces contra la filosofía, en alusión a la condena de [[autor.socrates|Sócrates]] (el escritor romano Claudio Eliano, Historias curiosas III 36 · C)."
+   "anecdotas": "El rey Filipo de Macedonia lo llamó para educar a su hijo Alejandro, el futuro [[autor.alejandro|Alejandro Magno]], que entonces tenía unos trece años; según [[autor.plutarco|Plutarco]], el joven decía que a su padre le debía la vida, pero a su maestro una vida digna ([[obra.vidas_paralelas|Vidas paralelas]], Alejandro 7-8 · B). A la muerte de Alejandro, acusado de impiedad, se marchó de Atenas diciendo que no permitiría que los atenienses pecaran dos veces contra la filosofía, en alusión a la condena de [[autor.socrates|Sócrates]] (el escritor romano Claudio Eliano, Historias curiosas III 36 · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Aristóteles",
+     "autorEntrada": "Ignacio Yarza de la Sierra",
+     "url": "https://www.philosophica.info/voces/aristoteles/Aristoteles.html",
+     "idioma": "es"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Aristotle",
+     "url": "https://plato.stanford.edu/entries/aristotle/",
+     "idioma": "en",
+     "autorEntrada": "Christopher Shields"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Aristotle",
+     "url": "https://iep.utm.edu/aristotle/",
+     "idioma": "en",
+     "autorEntrada": "Justin Humphreys"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro V: Aristóteles",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=5:chapter=1",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.diogenes_sinope",
@@ -978,7 +1315,25 @@
    },
    "resumen": "La gran figura del [[escuela.cinismo|cinismo]]. Vivió con lo mínimo, a la vista de todos, para demostrar que la felicidad no depende de las convenciones sociales, y se declaró «ciudadano del mundo».",
    "profundizacion": "Diógenes llegó a Atenas exiliado de su ciudad natal y convirtió su pobreza en programa filosófico. Para él, la virtud consiste en vivir según la naturaleza, como los animales, sin necesidades artificiales: la [[concepto.autarkeia|autosuficiencia]]. Practicaba un entrenamiento duro, abrazando estatuas heladas en invierno y revolcándose en arena ardiente en verano. Sus herramientas eran el escándalo y el humor: comía, dormía y hacía sus necesidades en público, y hablaba con total [[concepto.parrhesia|franqueza]] a cualquiera, incluido el poderoso. Sus contemporáneos lo llamaban «el Perro», y él aceptó el apodo, de donde viene «cínico». Preguntado de dónde era, respondió «ciudadano del mundo», una de las primeras formulaciones del cosmopolitismo. No conservamos sus escritos; lo conocemos por cientos de anécdotas, muchas inventadas.",
-   "anecdotas": "Vivía en una gran tinaja de barro junto a un templo ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 23 · C). Al ver a un niño beber agua con las manos, tiró el único cuenco que tenía, diciendo que un niño le había ganado en sencillez ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 37 · C). [[autor.alejandro|Alejandro Magno]] se le acercó mientras tomaba el sol y le ofreció lo que quisiera; Diógenes le respondió: «Apártate, que me quitas el sol» ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 38 · C). Paseaba de día con una lámpara encendida diciendo: «Busco un hombre» ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 41 · C)."
+   "anecdotas": "Vivía en una gran tinaja de barro junto a un templo ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 23 · C). Al ver a un niño beber agua con las manos, tiró el único cuenco que tenía, diciendo que un niño le había ganado en sencillez ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 37 · C). [[autor.alejandro|Alejandro Magno]] se le acercó mientras tomaba el sol y le ofreció lo que quisiera; Diógenes le respondió: «Apártate, que me quitas el sol» ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 38 · C). Paseaba de día con una lámpara encendida diciendo: «Busco un hombre» ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 41 · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Diogenes of Sinope",
+     "url": "https://iep.utm.edu/diogenes-of-sinope/",
+     "idioma": "en",
+     "autorEntrada": "Julie Piering"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro VI: Diógenes",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=6:chapter=2",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.pirron",
@@ -1018,7 +1373,25 @@
    },
    "resumen": "Inspirador del escepticismo. Sostuvo que no podemos saber cómo son las cosas en sí mismas y que, si renunciamos a afirmar nada, alcanzamos la [[concepto.ataraxia|imperturbabilidad]]. Viajó a la India con [[autor.alejandro|Alejandro Magno]].",
    "profundizacion": "Pirrón no escribió nada; conocemos su pensamiento sobre todo por su discípulo, el poeta satírico Timón de Fliunte. Según un resumen de Timón, enseñaba que las cosas son indiferentes, inestables e indeterminables, de modo que ni nuestras percepciones ni nuestras opiniones son verdaderas o falsas. Por eso no debemos fiarnos de ellas, sino permanecer sin opiniones; de esa actitud nace primero el silencio y después la [[concepto.ataraxia|tranquilidad]]. Antes de ser filósofo fue pintor. Acompañó a su maestro [[autor.anaxarco|Anaxarco]] en la expedición de Alejandro Magno a la India, donde trató con los [[escuela.gimnosofistas|gimnosofistas]] y con los [[escuela.mazdeismo|magos]] persas. Se discute si esos encuentros influyeron en su doctrina o si se basó en el escepticismo griego anterior. Siglos después, los escépticos tomaron su nombre para su escuela, el [[escuela.pirronismo|pirronismo]].",
-   "anecdotas": "Durante una tormenta en el mar, cuando todos los pasajeros estaban aterrados, señaló a un cerdo que seguía comiendo tranquilo y dijo que así debía estar el sabio (el filósofo estoico Posidonio, citado en [[obra.vidas_filosofos|Vidas de los filósofos]] IX 68 · C). Una tradición hostil contaba que no se apartaba de carros, perros ni precipicios, porque no se fiaba de sus sentidos, y que sus amigos tenían que protegerlo; otro escéptico, Enesidemo, replicó que eso era una caricatura y que en la vida práctica actuaba con prudencia ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 62 · L)."
+   "anecdotas": "Durante una tormenta en el mar, cuando todos los pasajeros estaban aterrados, señaló a un cerdo que seguía comiendo tranquilo y dijo que así debía estar el sabio (el filósofo estoico Posidonio, citado en [[obra.vidas_filosofos|Vidas de los filósofos]] IX 68 · C). Una tradición hostil contaba que no se apartaba de carros, perros ni precipicios, porque no se fiaba de sus sentidos, y que sus amigos tenían que protegerlo; otro escéptico, Enesidemo, replicó que eso era una caricatura y que en la vida práctica actuaba con prudencia ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 62 · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Pyrrho",
+     "url": "https://plato.stanford.edu/entries/pyrrho/",
+     "idioma": "en",
+     "autorEntrada": "Richard Bett"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro IX: Pirrón",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=9:chapter=11",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.epicuro",
@@ -1059,7 +1432,25 @@
    },
    "resumen": "Fundador del [[escuela.epicureismo|epicureísmo]]. Enseñó que la felicidad es un placer sereno, la ausencia de dolor en el cuerpo y de inquietud en el alma, y que [[tesis.muerte_nada|la muerte no es nada para nosotros]].",
    "profundizacion": "En el 306 a. C. Epicuro compró en Atenas una casa con huerto, el Jardín, donde vivió con sus amigos, que incluían mujeres y esclavos, algo inusual. Su física sigue el [[escuela.atomismo|atomismo]] de [[autor.democrito|Demócrito]], con un cambio importante: los [[concepto.atomo|átomos]] sufren a veces una pequeña desviación, el [[concepto.clinamen|clinamen]], que rompe la cadena de causas y hace posible la libertad. Su objetivo es práctico: liberar de los miedos que nos atormentan. Los dioses existen, pero viven felices sin ocuparse de nosotros; la muerte es solo la disolución de los átomos, y donde está ella no estamos nosotros. El bien es el placer, pero entendido como [[concepto.ataraxia|imperturbabilidad]]: se logra con deseos naturales y simples, la amistad y una vida retirada de la política. Su fama de defensor del desenfreno es una caricatura de sus adversarios. De sus casi trescientos libros solo quedan tres cartas y dos colecciones de máximas.",
-   "anecdotas": "Escribió a un amigo pidiéndole un tarrito de queso «para darme un banquete cuando quiera»: así de poco necesitaba para disfrutar ([[obra.vidas_filosofos|Vidas de los filósofos]] X 11 · B). El día de su muerte, tras una enfermedad muy dolorosa, escribió a su discípulo Idomeneo que el recuerdo de sus conversaciones filosóficas compensaba todos sus dolores ([[obra.vidas_filosofos|Vidas de los filósofos]] X 22 · B). Según [[autor.seneca|Séneca]], a la entrada del Jardín se leía: «Huésped, aquí estarás bien; aquí el bien supremo es el placer» ([[obra.cartas_lucilio|Cartas a Lucilio]] 21.10 · B)."
+   "anecdotas": "Escribió a un amigo pidiéndole un tarrito de queso «para darme un banquete cuando quiera»: así de poco necesitaba para disfrutar ([[obra.vidas_filosofos|Vidas de los filósofos]] X 11 · B). El día de su muerte, tras una enfermedad muy dolorosa, escribió a su discípulo Idomeneo que el recuerdo de sus conversaciones filosóficas compensaba todos sus dolores ([[obra.vidas_filosofos|Vidas de los filósofos]] X 22 · B). Según [[autor.seneca|Séneca]], a la entrada del Jardín se leía: «Huésped, aquí estarás bien; aquí el bien supremo es el placer» ([[obra.cartas_lucilio|Cartas a Lucilio]] 21.10 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Epicurus",
+     "url": "https://plato.stanford.edu/entries/epicurus/",
+     "idioma": "en",
+     "autorEntrada": "David Konstan"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro X: Epicuro",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=10:chapter=1",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.zenon_citio",
@@ -1101,7 +1492,25 @@
    },
    "resumen": "Fundador del [[escuela.estoicismo|estoicismo]]. Enseñó que la meta de la vida es [[tesis.vivir_segun_naturaleza|vivir de acuerdo con la naturaleza]], es decir, con la razón que gobierna el universo, y que la virtud es el único bien.",
    "profundizacion": "Zenón, de familia de comerciantes, llegó a Atenas hacia el 312 a. C. y estudió con el cínico [[autor.crates|Crates]] y con maestros de otras escuelas antes de enseñar por su cuenta. Dividió la filosofía en tres partes, lógica, física y ética, que comparaba con la cáscara, la clara y la yema de un huevo. El universo es un ser vivo ordenado por el [[concepto.logos|logos]], una razón divina presente en todo; vivir bien es vivir de acuerdo con ella. Solo la virtud es buena y solo el vicio es malo: la salud, la riqueza o la fama son indiferentes, aunque unas sean preferibles a otras. Las pasiones, como el miedo o la ira, son juicios equivocados, y el sabio se libera de ellas, alcanzando la [[concepto.apatheia|apatheia]]. En su República, hoy perdida, imaginó una comunidad de sabios sin templos, tribunales ni dinero.",
-   "anecdotas": "Llegó a Atenas tras naufragar con un cargamento de púrpura. Sentado en una librería, leyó un libro de [[autor.jenofonte|Jenofonte]] sobre [[autor.socrates|Sócrates]] y preguntó dónde se podía encontrar a hombres así; en ese momento pasaba [[autor.crates|Crates]], y el librero le dijo: «Sigue a ese» ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 2-3 · C). Enseñaba paseando por el Pórtico Pintado, la Stoa Poikile del ágora de Atenas, y por eso a sus seguidores se les llamó estoicos ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 5 · B). Ya anciano, tropezó al salir de la escuela y se rompió un dedo; golpeando el suelo, dijo «Ya voy, ¿por qué me llamas?», y se dejó morir ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 28 · C)."
+   "anecdotas": "Llegó a Atenas tras naufragar con un cargamento de púrpura. Sentado en una librería, leyó un libro de [[autor.jenofonte|Jenofonte]] sobre [[autor.socrates|Sócrates]] y preguntó dónde se podía encontrar a hombres así; en ese momento pasaba [[autor.crates|Crates]], y el librero le dijo: «Sigue a ese» ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 2-3 · C). Enseñaba paseando por el Pórtico Pintado, la Stoa Poikile del ágora de Atenas, y por eso a sus seguidores se les llamó estoicos ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 5 · B). Ya anciano, tropezó al salir de la escuela y se rompió un dedo; golpeando el suelo, dijo «Ya voy, ¿por qué me llamas?», y se dejó morir ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 28 · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Stoicism",
+     "url": "https://plato.stanford.edu/entries/stoicism/",
+     "idioma": "en",
+     "autorEntrada": "Marion Durand, Simon Shogry y Dirk Baltzly"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro VII: Zenón de Citio",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=7:chapter=1",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.crisipo",
@@ -1142,7 +1551,33 @@
    },
    "resumen": "Tercer director de la escuela estoica y su gran sistematizador. Desarrolló una lógica de proposiciones muy avanzada y defendió que el destino lo gobierna todo sin anular la responsabilidad humana.",
    "profundizacion": "Discípulo de [[autor.cleantes|Cleantes]], Crisipo defendió el estoicismo frente a las críticas de la [[escuela.academia|Academia]] escéptica y le dio su forma clásica. Escribió más de setecientos libros, todos perdidos; lo conocemos por citas de autores posteriores, a menudo críticos. Su lógica no se basa, como la de [[autor.aristoteles|Aristóteles]], en términos como «hombre» o «mortal», sino en proposiciones enteras unidas por conectores como «si», «y» u «o», algo que la lógica moderna redescubrió en el siglo XIX. Sostuvo que todo sucede según el destino, una cadena de causas, pero distinguió causas externas e internas con la imagen de un cilindro: alguien lo empuja, pero rueda por su propia forma; del mismo modo, nuestra respuesta a lo que nos pasa depende de nuestro carácter. Analizó también las pasiones como juicios erróneos.",
-   "anecdotas": "Se decía que, si los dioses usaran la dialéctica, usarían la de Crisipo, y también: «Sin Crisipo no habría Estoa» ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 180 y 183 · C). Según una versión de su muerte, vio a un burro comerse sus higos y pidió que le dieran también vino puro para acompañarlos; le entró tal ataque de risa que murió ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 185 · L)."
+   "anecdotas": "Se decía que, si los dioses usaran la dialéctica, usarían la de Crisipo, y también: «Sin Crisipo no habría Estoa» ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 180 y 183 · C). Según una versión de su muerte, vio a un burro comerse sus higos y pidió que le dieran también vino puro para acompañarlos; le entró tal ataque de risa que murió ([[obra.vidas_filosofos|Vidas de los filósofos]] VII 185 · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Stoicism",
+     "url": "https://plato.stanford.edu/entries/stoicism/",
+     "idioma": "en",
+     "autorEntrada": "Marion Durand, Simon Shogry y Dirk Baltzly"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Chrysippus",
+     "url": "https://iep.utm.edu/chrysippus/",
+     "idioma": "en",
+     "autorEntrada": "Jeremy Kirby"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro VII: Crisipo",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=7:chapter=7",
+     "idioma": "en"
+    }
+   ]
   },
   {
    "id": "autor.lucrecio",
@@ -1184,7 +1619,17 @@
    },
    "resumen": "Poeta romano que expuso la filosofía de [[autor.epicuro|Epicuro]] en un gran poema en latín, [[obra.de_rerum_natura|Sobre la naturaleza de las cosas]], para librar a sus lectores del miedo a los dioses y a la muerte.",
    "profundizacion": "Su poema, en seis libros, explica que todo está hecho de [[concepto.atomo|átomos]] y vacío, que el alma es material y muere con el cuerpo, y que los fenómenos naturales, como el rayo o los terremotos, tienen causas físicas y no divinas. El [[concepto.clinamen|clinamen]], la pequeña desviación de los átomos, explica la libertad. El libro quinto narra el origen del mundo, de la vida y de la civilización sin intervención divina. Lucrecio compara su poesía con la miel con la que el médico unta el borde del vaso para que el niño beba la medicina amarga. El poema se perdió en la Edad Media y fue redescubierto en 1417 por el humanista Poggio Bracciolini, con una enorme influencia en el Renacimiento y en la ciencia moderna.",
-   "anecdotas": "[[autor.ciceron|Cicerón]] escribió a su hermano Quinto, en el año 54 a. C., que los poemas de Lucrecio tenían muchos destellos de genio y también mucho arte (Cicerón, Cartas a su hermano Quinto II 10 · A). Cuatro siglos después, el escritor cristiano san Jerónimo contó que Lucrecio enloqueció por un filtro de amor, que escribió su obra en los intervalos de lucidez y que se suicidó a los cuarenta y cuatro años; la historia se considera una invención (San Jerónimo, Crónica · L)."
+   "anecdotas": "[[autor.ciceron|Cicerón]] escribió a su hermano Quinto, en el año 54 a. C., que los poemas de Lucrecio tenían muchos destellos de genio y también mucho arte (Cicerón, Cartas a su hermano Quinto II 10 · A). Cuatro siglos después, el escritor cristiano san Jerónimo contó que Lucrecio enloqueció por un filtro de amor, que escribió su obra en los intervalos de lucidez y que se suicidó a los cuarenta y cuatro años; la historia se considera una invención (San Jerónimo, Crónica · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Lucretius",
+     "url": "https://plato.stanford.edu/entries/lucretius/",
+     "idioma": "en",
+     "autorEntrada": "Simon Trépanier"
+    }
+   ]
   },
   {
    "id": "autor.ciceron",
@@ -1227,7 +1672,25 @@
    },
    "resumen": "Orador y político romano que dio a la filosofía griega su vocabulario latino. Seguidor de la [[escuela.academia|Academia]] escéptica, expuso y discutió todas las escuelas, y sus libros transmitieron la filosofía antigua a la Edad Media y al Renacimiento.",
    "profundizacion": "Cicerón fue el mayor orador de Roma y cónsul en el 63 a. C. Estudió filosofía en Atenas y Rodas, y en Roma con Filón de Larisa, último director de la Academia escéptica. De ella tomó su método: no afirmar nada como cierto, sino aceptar lo más probable tras examinar los argumentos de todas las escuelas. Casi toda su obra filosófica la escribió en dos años, del 46 al 44 a. C., apartado de la política y tras la muerte de su hija Tulia. En [[obra.academicos|Académicos]] discute la teoría del conocimiento; en Sobre los fines, la felicidad según epicúreos, estoicos y académicos; en [[obra.de_officiis|Sobre los deberes]], la ética de la vida pública, con fuerte influencia estoica. Inventó o fijó palabras latinas que aún usamos, como «cualidad». Gracias a él sabemos mucho de la filosofía helenística, cuyas obras se perdieron.",
-   "anecdotas": "Siendo gobernador en Sicilia buscó la tumba del matemático Arquímedes, que los siracusanos ya no sabían dónde estaba, y la reconoció entre las zarzas por la esfera y el cilindro grabados en ella (Cicerón, Disputaciones tusculanas V 64-66 · A). Tras atacar a Marco Antonio, rival de Octavio por el poder en Roma, fue declarado enemigo público; los soldados de Antonio lo alcanzaron en el 43 a. C., le cortaron la cabeza y las manos y las expusieron en la tribuna del foro desde la que había pronunciado sus discursos ([[autor.plutarco|Plutarco]], [[obra.vidas_paralelas|Vidas paralelas]], Cicerón 48-49 · B)."
+   "anecdotas": "Cuando era cuestor en Sicilia, un cargo de la administración romana, buscó la tumba del matemático Arquímedes, que los siracusanos ya no sabían dónde estaba, y la reconoció entre las zarzas por la esfera y el cilindro grabados en ella (Cicerón, Disputaciones tusculanas V 64-66 · A). Tras atacar a Marco Antonio, rival de Octavio por el poder en Roma, fue declarado enemigo público; los soldados de Antonio lo alcanzaron en el 43 a. C., le cortaron la cabeza y las manos y las expusieron en la tribuna del foro desde la que había pronunciado sus discursos ([[autor.plutarco|Plutarco]], [[obra.vidas_paralelas|Vidas paralelas]], Cicerón 48-49 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Cicero",
+     "url": "https://plato.stanford.edu/entries/cicero/",
+     "idioma": "en",
+     "autorEntrada": "Raphael Woolf"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Cicero",
+     "url": "https://iep.utm.edu/cicero/",
+     "idioma": "en",
+     "autorEntrada": "Edward Clayton"
+    }
+   ]
   },
   {
    "id": "autor.seneca",
@@ -1269,7 +1732,25 @@
    },
    "resumen": "Filósofo estoico nacido en Córdoba, consejero del emperador Nerón. En sus cartas y diálogos convirtió el [[escuela.estoicismo|estoicismo]] en una guía práctica para afrontar el tiempo, la ira, la adversidad y la muerte.",
    "profundizacion": "Séneca fue uno de los hombres más ricos y poderosos de Roma: escritor de éxito, desterrado a Córcega por el emperador Claudio, llamado después como preceptor del joven Nerón y su principal consejero durante los primeros años de su reinado. Su obra filosófica no busca sistemas, sino ejercicios para el alma: examinar cada noche el día vivido, anticipar las desgracias para no ser sorprendido, aprovechar el tiempo, que es lo único verdaderamente nuestro. En las [[obra.cartas_lucilio|Cartas a Lucilio]] dialoga con un amigo sobre cómo progresar hacia la sabiduría, y no duda en citar a [[autor.epicuro|Epicuro]] cuando le parece acertado. Escribió también tratados sobre la ira, la brevedad de la vida y la clemencia, tragedias y un estudio de los fenómenos naturales. Sus críticos le reprocharon predicar la pobreza siendo inmensamente rico, y él respondió que el sabio no es esclavo de su riqueza.",
-   "anecdotas": "En el año 65, acusado de participar en una conspiración, recibió de Nerón la orden de quitarse la vida. Según el historiador Tácito, consoló a sus amigos, se abrió las venas y, como la sangre corría despacio por su edad, tomó veneno y finalmente se hizo llevar a un baño de vapor, donde murió (Tácito, Anales XV 60-64 · B)."
+   "anecdotas": "En el año 65, acusado de participar en una conspiración, recibió de Nerón la orden de quitarse la vida. Según el historiador Tácito, consoló a sus amigos, se abrió las venas y, como la sangre corría despacio por su edad, tomó veneno y finalmente se hizo llevar a un baño de vapor, donde murió (Tácito, Anales XV 60-64 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Seneca",
+     "url": "https://plato.stanford.edu/entries/seneca/",
+     "idioma": "en",
+     "autorEntrada": "Katja Vogt"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Seneca, Lucius Annaeus",
+     "url": "https://iep.utm.edu/seneca/",
+     "idioma": "en",
+     "autorEntrada": "Robert Wagoner"
+    }
+   ]
   },
   {
    "id": "autor.epicteto",
@@ -1308,7 +1789,17 @@
    },
    "resumen": "Antiguo esclavo convertido en maestro estoico. Enseñó a distinguir entre lo que depende de nosotros, nuestros juicios y decisiones, y lo que no, todo lo demás: ahí está la clave de la libertad interior.",
    "profundizacion": "Epicteto fue esclavo de Epafrodito, secretario del emperador Nerón, y con su permiso estudió con el estoico Musonio Rufo. Tras ser liberado enseñó en Roma, hasta que el emperador Domiciano expulsó a los filósofos de Italia hacia el año 93; entonces abrió una escuela en Nicópolis, en el noroeste de Grecia. No escribió nada: su alumno [[autor.arriano|Arriano]] recogió sus clases en las [[obra.disertaciones|Disertaciones]] y las resumió en el [[obra.manual_epicteto|Manual]]. Su enseñanza parte de una distinción: unas cosas dependen de nosotros, como nuestras opiniones, deseos y rechazos, y otras no, como el cuerpo, los bienes, la fama o los cargos. Sufrimos porque confundimos unas con otras; no nos perturban las cosas, sino nuestros juicios sobre ellas. Quien solo quiere lo que depende de él es libre aunque esté encadenado. Su influencia llega desde el emperador [[autor.marco_aurelio|Marco Aurelio]] hasta la psicoterapia cognitiva actual.",
-   "anecdotas": "Según una tradición recogida por el escritor cristiano Orígenes, su amo le retorcía la pierna; Epicteto le advirtió tranquilamente: «Me la vas a romper», y cuando se la rompió añadió: «¿No te lo decía?» (Orígenes, Contra Celso VII 53 · C). Vivía con tan pocas cosas que solo tenía una lámpara de hierro; cuando se la robaron compró una de barro, y tras su muerte un admirador pagó tres mil dracmas por ella (el escritor satírico Luciano de Samósata, Contra un ignorante que compraba muchos libros 13 · C)."
+   "anecdotas": "Según una tradición recogida por el escritor cristiano Orígenes, su amo le retorcía la pierna; Epicteto le advirtió tranquilamente: «Me la vas a romper», y cuando se la rompió añadió: «¿No te lo decía?» (Orígenes, Contra Celso VII 53 · C). Vivía con tan pocas cosas que solo tenía una lámpara de hierro; cuando se la robaron compró una de barro, y tras su muerte un admirador pagó tres mil dracmas por ella (el escritor satírico Luciano de Samósata, Contra un ignorante que compraba muchos libros 13 · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Epictetus",
+     "url": "https://plato.stanford.edu/entries/epictetus/",
+     "idioma": "en",
+     "autorEntrada": "Margaret Graver"
+    }
+   ]
   },
   {
    "id": "autor.marco_aurelio",
@@ -1348,7 +1839,25 @@
    },
    "resumen": "Emperador romano y filósofo estoico. En sus [[obra.meditaciones|Meditaciones]], notas escritas para sí mismo durante sus campañas militares, se exhorta a cumplir su deber con serenidad en un mundo que todo lo cambia.",
    "profundizacion": "Marco Aurelio gobernó un imperio azotado por guerras en la frontera del Danubio y por una gran epidemia. Sus [[obra.meditaciones|Meditaciones]], escritas en griego y nunca pensadas para publicarse, son ejercicios espirituales: recordarse una y otra vez lo que considera verdadero para vivirlo. Vuelve sobre la brevedad de la vida y la [[concepto.anitya|impermanencia]] de todo, sobre la mirada «desde lo alto» que empequeñece la fama y las disputas, sobre la pertenencia de cada ser humano a una comunidad racional universal, y sobre la necesidad de aceptar lo que no depende de nosotros, siguiendo a [[autor.epicteto|Epicteto]]. Es uno de los raros casos de un gobernante que dejó un testimonio íntimo de su vida moral.",
-   "anecdotas": "El primer libro de sus notas es un agradecimiento a todos los que le enseñaron algo; entre ellos, a su maestro Rústico, que le prestó sus apuntes de las clases de [[autor.epicteto|Epicteto]] ([[obra.meditaciones|Meditaciones]] I 7 · A). El encabezado del segundo libro indica dónde lo escribía: «Entre los cuados, junto al Gran», un río afluente del Danubio, en plena campaña militar ([[obra.meditaciones|Meditaciones]] II, encabezado · A)."
+   "anecdotas": "El primer libro de sus notas es un agradecimiento a todos los que le enseñaron algo; entre ellos, a su maestro Rústico, que le prestó sus apuntes de las clases de [[autor.epicteto|Epicteto]] ([[obra.meditaciones|Meditaciones]] I 7 · A). Entre el primer y el segundo libro, una nota indica dónde los escribía: «Entre los cuados, junto al Gran», un río afluente del Danubio, en plena campaña militar. Unas ediciones la ponen al final del primer libro y otras como título del segundo ([[obra.meditaciones|Meditaciones]] I-II · A).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Marcus Aurelius",
+     "url": "https://plato.stanford.edu/entries/marcus-aurelius/",
+     "idioma": "en",
+     "autorEntrada": "Rachana Kamtekar"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Aurelius, Marcus",
+     "url": "https://iep.utm.edu/marcus-aurelius/",
+     "idioma": "en",
+     "autorEntrada": "John Sellars"
+    }
+   ]
   },
   {
    "id": "autor.sexto_empirico",
@@ -1384,7 +1893,17 @@
    },
    "resumen": "Médico y filósofo escéptico cuyas obras son la exposición más completa del [[escuela.pirronismo|pirronismo]]. Enseña a oponer argumentos de igual fuerza hasta [[concepto.epoje|suspender el juicio]] y alcanzar la [[concepto.ataraxia|tranquilidad]].",
    "profundizacion": "De Sexto apenas sabemos nada, salvo que era médico de la escuela llamada empírica, de donde le viene el nombre. En sus [[obra.esbozos_pirronicos|Esbozos pirrónicos]] explica que el escéptico no niega que podamos conocer, sino que sigue investigando: ante cada cuestión encuentra argumentos opuestos de [[concepto.isostheneia|igual fuerza]] y, al no poder decidir, [[concepto.epoje|suspende el juicio]]. Para ello reúne los «modos» o tipos de argumento escéptico, como que una misma cosa parece distinta a animales diferentes o en circunstancias distintas. Mientras tanto, vive guiándose por las apariencias, las costumbres y las técnicas, sin afirmar que sean verdaderas. Sus obras, que discuten a todas las escuelas, nos han conservado mucha información sobre la filosofía helenística. Redescubiertas en el siglo XVI, influyeron en el ensayista francés Michel de Montaigne y en el debate moderno sobre el conocimiento.",
-   "anecdotas": "Sexto explica cómo llega la tranquilidad con la historia del pintor Apeles: no conseguía pintar la espuma de un caballo y, harto, arrojó contra el cuadro la esponja con la que limpiaba los pinceles; la mancha dibujó la espuma perfecta. Así, dice, el escéptico encuentra la calma justo cuando renuncia a decidir ([[obra.esbozos_pirronicos|Esbozos pirrónicos]] I 28 · C). Su vida es tan desconocida que lo único casi seguro es su lugar en la lista de maestros escépticos que recoge [[autor.diogenes_laercio|Diógenes Laercio]] ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 116 · B)."
+   "anecdotas": "Sexto explica cómo llega la tranquilidad con la historia del pintor Apeles: no conseguía pintar la espuma de un caballo y, harto, arrojó contra el cuadro la esponja con la que limpiaba los pinceles; la mancha dibujó la espuma perfecta. Así, dice, el escéptico encuentra la calma justo cuando renuncia a decidir ([[obra.esbozos_pirronicos|Esbozos pirrónicos]] I 28 · C). Su vida es tan desconocida que lo único casi seguro es su lugar en la lista de maestros escépticos que recoge [[autor.diogenes_laercio|Diógenes Laercio]] ([[obra.vidas_filosofos|Vidas de los filósofos]] IX 116 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Sextus Empiricus",
+     "url": "https://plato.stanford.edu/entries/sextus-empiricus/",
+     "idioma": "en",
+     "autorEntrada": "Benjamin Morison"
+    }
+   ]
   },
   {
    "id": "autor.plotino",
@@ -1425,7 +1944,33 @@
    },
    "resumen": "Fundador del [[escuela.neoplatonismo|neoplatonismo]]. Enseñó que todo procede de un principio absolutamente simple e inefable, [[concepto.uno|el Uno]], y que el alma puede volver a unirse con él mediante la purificación y la contemplación.",
    "profundizacion": "Plotino estudió once años en Alejandría con Amonio Saccas, un maestro que no escribió nada, y desde el 245 enseñó en Roma. Su pensamiento distingue tres niveles de realidad. En lo más alto está [[concepto.uno|el Uno]], más allá del ser y del pensamiento, que no puede describirse. De él procede, como la luz del sol, el Intelecto, el [[concepto.nous|nous]], donde están las [[concepto.idea|Formas]] de [[autor.platon|Platón]]. Del Intelecto procede el [[concepto.psyche|Alma]], que anima el mundo sensible. Esta [[tesis.emanacion|emanación]] no empobrece al Uno, igual que la luz no agota al sol. El alma humana, caída en el cuerpo, puede recorrer el camino inverso: purificarse, volverse hacia el Intelecto y, en raros momentos, unirse al Uno en una experiencia que está más allá de las palabras. Sus tratados, editados por su discípulo [[autor.porfirio|Porfirio]] en las [[obra.eneadas|Enéadas]], influyeron enormemente en el pensamiento cristiano, judío e islámico.",
-   "anecdotas": "Parecía avergonzarse de tener un cuerpo; por eso nunca quiso decir dónde ni cuándo había nacido, y se negó a posar para un retrato: «¿No basta con soportar esta imagen con la que la naturaleza nos ha rodeado?» ([[obra.vida_plotino|Vida de Plotino]] 1 · B). Con casi cuarenta años se unió a la expedición del emperador Gordiano III contra Persia, porque quería conocer la filosofía de los [[escuela.mazdeismo|persas]] y de los indios; el emperador murió en la campaña y Plotino tuvo que huir ([[obra.vida_plotino|Vida de Plotino]] 3 · B). Su discípulo [[autor.porfirio|Porfirio]] cuenta que, en los seis años que pasó con él, Plotino alcanzó cuatro veces la unión con el Uno ([[obra.vida_plotino|Vida de Plotino]] 23 · B)."
+   "anecdotas": "Parecía avergonzarse de tener un cuerpo; por eso nunca quiso decir dónde ni cuándo había nacido, y se negó a posar para un retrato: «¿No basta con soportar esta imagen con la que la naturaleza nos ha rodeado?» ([[obra.vida_plotino|Vida de Plotino]] 1 · B). Con casi cuarenta años se unió a la expedición del emperador Gordiano III contra Persia, porque quería conocer la filosofía de los [[escuela.mazdeismo|persas]] y de los indios; el emperador murió en la campaña y Plotino tuvo que huir ([[obra.vida_plotino|Vida de Plotino]] 3 · B). Su discípulo [[autor.porfirio|Porfirio]] cuenta que, en los seis años que pasó con él, Plotino alcanzó cuatro veces la unión con el Uno ([[obra.vida_plotino|Vida de Plotino]] 23 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Plotino",
+     "autorEntrada": "Ignacio Yarza",
+     "url": "https://www.philosophica.info/voces/plotino/Plotino.html",
+     "idioma": "es"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Plotinus",
+     "url": "https://plato.stanford.edu/entries/plotinus/",
+     "idioma": "en",
+     "autorEntrada": "Paul Kalligas"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Plotinus",
+     "url": "https://iep.utm.edu/plotinus/",
+     "idioma": "en",
+     "autorEntrada": "Edward Moore"
+    }
+   ]
   },
   {
    "id": "autor.leucipo",
@@ -1494,7 +2039,7 @@
     "alternativas": [],
     "nota": "c. 365 – c. 285 a. C."
    },
-   "resumen": "Filósofo cínico, seguidor de [[autor.diogenes_sinope|Diógenes]] y maestro de [[autor.zenon_citio|Zenón de Citio]]. Renunció a su fortuna y vivió como cínico junto a su esposa, la filósofa Hiparquia. Lo llamaban «el abridor de puertas», porque entraba en las casas para dar consejo."
+   "resumen": "Filósofo cínico, seguidor de [[autor.diogenes_sinope|Diógenes]] y maestro de [[autor.zenon_citio|Zenón de Citio]]. Renunció a su fortuna y vivió como cínico junto a su esposa, la filósofa [[autor.hiparquia|Hiparquia]]. Lo llamaban «el abridor de puertas», porque entraba en las casas para dar consejo."
   },
   {
    "id": "autor.cleantes",
@@ -3662,6 +4207,105 @@
    },
    "resumen": "Director de la [[escuela.academia|Academia]] escéptica y el gran adversario de los [[escuela.estoicismo|estoicos]]. Para orientarse en la vida sin certezas propuso guiarse por lo «persuasivo», lo que parece más probable. No escribió nada; lo conocemos sobre todo por [[autor.ciceron|Cicerón]].",
    "anecdotas": "En el 155 a. C. fue a Roma con una embajada de Atenas. Un día dio un discurso a favor de la justicia, y al día siguiente otro en contra igual de convincente; el severo Catón el Viejo, político romano, pidió que despacharan pronto a los embajadores para que no corrompieran a los jóvenes ([[autor.plutarco|Plutarco]], Vida de Catón el Viejo 22 · B)."
+  },
+  {
+   "id": "autor.hipatia",
+   "tipo": "autor",
+   "nombre": "Hipatia de Alejandría",
+   "nombreOriginal": "Ὑπατία",
+   "alias": [
+    "Hipatia"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.neoplatonismo"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "escuelas": [
+    "escuela.neoplatonismo"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Alejandría, en Egipto",
+   "fechas": {
+    "nacimiento": {
+     "min": 350,
+     "max": 370
+    },
+    "muerte": {
+     "min": 415,
+     "max": 415
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "c. 355-370 – marzo del 415 d. C. El año de nacimiento se discute; el de su muerte lo da el historiador Sócrates Escolástico."
+   },
+   "resumen": "Matemática, astrónoma y filósofa de Alejandría, hija del matemático Teón. Enseñó la filosofía de [[autor.platon|Platón]] y [[autor.plotino|Plotino]] a alumnos que venían de lejos, cristianos y paganos. En el 415 la asesinó una turba de cristianos, en medio de un conflicto político entre el gobernador de la ciudad y su obispo.",
+   "profundizacion": "No se conserva ninguna obra suya con seguridad. Las fuentes antiguas le atribuyen comentarios a obras de matemáticas y de astronomía, y es probable que colaborara con su padre en la edición del Almagesto, el gran tratado de astronomía de Ptolomeo. Lo que sabemos de su enseñanza viene sobre todo de las cartas de su alumno Sinesio de Cirene, que llegó a ser obispo y la llamaba «madre, hermana, maestra». Enseñaba en público, ante quien quisiera escucharla, y tenía influencia en la vida política de Alejandría. Su muerte la convirtió, siglos después, en un símbolo: para unos, de la razón frente al fanatismo; para otros, de la mujer sabia silenciada. Los historiadores advierten que esas lecturas modernas simplifican un conflicto de poder local.",
+   "anecdotas": "Según el historiador cristiano Sócrates Escolástico, que escribió pocas décadas después, por su dignidad y su saber se presentaba sin reparo ante los magistrados y en las reuniones de hombres, y todos la admiraban por ello. Cuando corrió el rumor de que ella impedía la reconciliación entre el gobernador Orestes y el obispo Cirilo, un grupo de cristianos, encabezado por un lector llamado Pedro, la sacó de su carro, la llevó a una iglesia y la mató a golpes de teja (Sócrates Escolástico, Historia eclesiástica VII 15 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "traduccion",
+     "obra": "New Advent",
+     "titulo": "Sócrates Escolástico, Historia eclesiástica VII 15: Hipatia",
+     "autorEntrada": "traducción inglesa de A. C. Zenos",
+     "url": "https://www.newadvent.org/fathers/26017.htm",
+     "idioma": "en"
+    }
+   ]
+  },
+  {
+   "id": "autor.hiparquia",
+   "tipo": "autor",
+   "nombre": "Hiparquia",
+   "nombreOriginal": "Ἱππαρχία",
+   "alias": [
+    "Hiparquia de Maronea"
+   ],
+   "tradicion": "grecorromana",
+   "contextos": [
+    "contexto.helenistica"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [
+    "escuela.cinismo"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Maronea, en Tracia (norte de Grecia)",
+   "fechas": {
+    "activo": {
+     "min": -330,
+     "max": -300
+    },
+    "tipo": "actividad",
+    "historicidad": "historico",
+    "alternativas": []
+   },
+   "resumen": "Filósofa [[escuela.cinismo|cínica]], esposa de [[autor.crates|Crates de Tebas]]. Renunció a una familia rica para vivir como cínica, sin casa ni bienes, y discutía en público con los filósofos de su tiempo. Es la única mujer con capítulo propio en las [[obra.vidas_filosofos|Vidas de los filósofos]] de Diógenes Laercio.",
+   "anecdotas": "Se enamoró de las enseñanzas y de la forma de vida de [[autor.crates|Crates]] y rechazó a todos sus pretendientes. Sus padres pidieron a Crates que la disuadiera; él se quitó la ropa delante de ella y le dijo: «Este es el novio, y esto es todo lo que tiene; decide sabiendo que no serás mi compañera si no compartes mi forma de vida». Ella lo eligió ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 96-97 · C). En un banquete, el filósofo Teodoro, apodado «el Ateo», le reprochó con un verso de Eurípides que hubiera abandonado el telar. Ella respondió: «Soy yo, Teodoro. ¿Crees que me he equivocado conmigo misma por dedicar a educarme el tiempo que habría gastado en el telar?» ([[obra.vidas_filosofos|Vidas de los filósofos]] VI 97-98 · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "traduccion",
+     "obra": "Perseus Digital Library",
+     "titulo": "Diógenes Laercio, Vidas de los filósofos ilustres, libro VI: Hiparquia",
+     "autorEntrada": "traducción inglesa de R. D. Hicks",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=6:chapter=7",
+     "idioma": "en"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Cynics",
+     "url": "https://iep.utm.edu/cynics/",
+     "idioma": "en"
+    }
+   ]
   }
  ],
  "relaciones": [
@@ -5377,6 +6021,29 @@
    "origen": "obra.academicos",
    "tipo": "es_fuente_de",
    "destino": "autor.carneades",
+   "certeza": "D"
+  },
+  {
+   "id": "gr-0236",
+   "origen": "autor.plotino",
+   "tipo": "influyo_en",
+   "destino": "autor.hipatia",
+   "certeza": "P",
+   "nota": "Según Sócrates Escolástico, Hipatia «sucedió en la escuela de Platón y Plotino»; no se conservan obras suyas que muestren su doctrina."
+  },
+  {
+   "id": "gr-0237",
+   "origen": "autor.crates",
+   "tipo": "influyo_en",
+   "destino": "autor.hiparquia",
+   "certeza": "D",
+   "nota": "Hiparquia adoptó la forma de vida cínica al casarse con [[autor.crates|Crates]]."
+  },
+  {
+   "id": "gr-0238",
+   "origen": "obra.vidas_filosofos",
+   "tipo": "es_fuente_de",
+   "destino": "autor.hiparquia",
    "certeza": "D"
   }
  ]

@@ -44,7 +44,7 @@
       },
       "lugar": "Xianyang, Chang'an y Luoyang",
       "resumen": "Con el imperio unificado, las escuelas se ordenan, se catalogan y se fusionan, y casi todos los textos antiguos reciben la forma con la que nos han llegado.",
-      "profundizacion": "Qin impone el [[escuela.fajia|legalismo]] y, a propuesta de su canciller [[autor.li_si|Li Si]], quema libros en el 213 a. C. Los Han adoptan después el confucianismo como doctrina oficial. Los historiadores Sima Tan y su hijo [[autor.sima_qian|Sima Qian]], y más tarde Ban Gu, autor de la historia oficial de la dinastía Han, clasifican el pensamiento anterior en «escuelas» (jia); muchas etiquetas que usamos hoy proceden de esas clasificaciones. A finales de la época llega el budismo a China."
+      "profundizacion": "Qin impone el [[escuela.fajia|legalismo]] y, a propuesta de su canciller [[autor.li_si|Li Si]], quema libros en el 213 a. C. Los Han adoptan después el confucianismo como doctrina oficial. Los historiadores Sima Tan y su hijo [[autor.sima_qian|Sima Qian]], y más tarde Ban Gu, autor de la historia oficial de la dinastía Han, que terminó su hermana [[autor.ban_zhao|Ban Zhao]], clasifican el pensamiento anterior en «escuelas» (jia); muchas etiquetas que usamos hoy proceden de esas clasificaciones. A finales de la época llega el budismo a China."
     },
     {
       "id": "escuela.ru",
@@ -224,17 +224,17 @@
           "tipo": "enciclopedia",
           "obra": "Stanford Encyclopedia of Philosophy",
           "titulo": "Confucius",
-          "autorEntrada": "Mark Csikszentmihalyi",
           "url": "https://plato.stanford.edu/entries/confucius/",
-          "idioma": "en"
+          "idioma": "en",
+          "autorEntrada": "Mark Csikszentmihalyi"
         },
         {
           "tipo": "enciclopedia",
           "obra": "Internet Encyclopedia of Philosophy",
           "titulo": "Confucius",
-          "autorEntrada": "Jeff Richey",
           "url": "https://iep.utm.edu/confucius/",
-          "idioma": "en"
+          "idioma": "en",
+          "autorEntrada": "Jeff Richey"
         }
       ]
     },
@@ -279,7 +279,25 @@
       },
       "resumen": "Primer gran crítico de los [[escuela.ru|confucianos]]. Defendió el [[concepto.jianai|cuidado inclusivo]] de todos, juzgar las acciones por sus beneficios y condenar la guerra ofensiva.",
       "profundizacion": "Mozi propone un criterio público para decidir qué es correcto: lo que beneficia a todos, medido con [[concepto.fa|modelos]] o estándares, como el carpintero mide con la escuadra. De ahí su crítica al amor graduado de los confucianos, que favorece a los propios, y a los funerales costosos y la música de corte, que derrochan los recursos del pueblo. Su comunidad era una organización disciplinada que ofrecía ingeniería defensiva a las ciudades atacadas. Los mohistas posteriores escribieron los Cánones mohistas, una serie de definiciones y argumentos que es una de las cumbres de la lógica china. Tras la unificación imperial, la escuela desapareció casi por completo.",
-      "anecdotas": "Al saber que el reino de Chu preparaba un ataque contra el pequeño estado de Song, caminó diez días y diez noches para impedirlo. Ante el rey de Chu simuló un asedio, usando su cinturón como muralla, y resistió una tras otra las nueve máquinas de guerra del ingeniero Gongshu Ban, hasta que el rey renunció al ataque. A la vuelta, al pasar por Song, se puso a llover y el guardián de una puerta no le dejó resguardarse: nadie allí sabía que acababa de salvarlos ([[obra.mozi|Mozi]], cap. 50 · C)."
+      "anecdotas": "Al saber que el reino de Chu preparaba un ataque contra el pequeño estado de Song, caminó diez días y diez noches para impedirlo. Ante el rey de Chu simuló un asedio, usando su cinturón como muralla, y resistió una tras otra las nueve máquinas de guerra del ingeniero Gongshu Ban, hasta que el rey renunció al ataque. A la vuelta, al pasar por Song, se puso a llover y el guardián de una puerta no le dejó resguardarse: nadie allí sabía que acababa de salvarlos ([[obra.mozi|Mozi]], cap. 50 · C).",
+      "paraSaberMas": [
+        {
+          "tipo": "enciclopedia",
+          "obra": "Stanford Encyclopedia of Philosophy",
+          "titulo": "Mohism",
+          "url": "https://plato.stanford.edu/entries/mohism/",
+          "idioma": "en",
+          "autorEntrada": "Chris Fraser"
+        },
+        {
+          "tipo": "enciclopedia",
+          "obra": "Internet Encyclopedia of Philosophy",
+          "titulo": "Mozi (Mo-tzu)",
+          "url": "https://iep.utm.edu/mozi/",
+          "idioma": "en",
+          "autorEntrada": "Hui-chieh Loy"
+        }
+      ]
     },
     {
       "id": "autor.laozi",
@@ -320,7 +338,25 @@
       },
       "resumen": "Figura a la que se atribuye el [[obra.daodejing|Daodejing]]. Quizá nunca existió como persona: su nombre significa «el Viejo Maestro».",
       "profundizacion": "La biografía de Laozi que escribió [[autor.sima_qian|Sima Qian]] en el [[obra.shiji|Shiji]] (cap. 63) mezcla al menos tres personajes distintos, y el propio historiador reconoce que no está seguro. Hoy se considera que el [[obra.daodejing|Daodejing]] se compuso en varias etapas y que su forma se estabilizó hacia mediados del siglo III a. C. Por eso la app trata a Laozi como autor de historicidad debatida y su autoría como atribuida. Su figura importa igualmente: encarna la idea de un [[concepto.dao|dao]] anterior a todo nombre y del [[concepto.wuwei|no actuar]] como la forma más alta de eficacia.",
-      "anecdotas": "Según la tradición, cuando se marchaba de China hacia el oeste, el guardián del paso fronterizo le pidió que dejara escrita su enseñanza, y así habría nacido el Daodejing ([[obra.shiji|Shiji]], cap. 63 · L). También se cuenta que Confucio lo visitó y, al salir, dijo a sus discípulos que Laozi era como un dragón: imposible de atrapar o de comprender del todo ([[obra.shiji|Shiji]], cap. 63 · L)."
+      "anecdotas": "Según la tradición, cuando se marchaba de China hacia el oeste, el guardián del paso fronterizo le pidió que dejara escrita su enseñanza, y así habría nacido el Daodejing ([[obra.shiji|Shiji]], cap. 63 · L). También se cuenta que Confucio lo visitó y, al salir, dijo a sus discípulos que Laozi era como un dragón: imposible de atrapar o de comprender del todo ([[obra.shiji|Shiji]], cap. 63 · L).",
+      "paraSaberMas": [
+        {
+          "tipo": "enciclopedia",
+          "obra": "Stanford Encyclopedia of Philosophy",
+          "titulo": "Laozi",
+          "url": "https://plato.stanford.edu/entries/laozi/",
+          "idioma": "en",
+          "autorEntrada": "Alan Chan"
+        },
+        {
+          "tipo": "enciclopedia",
+          "obra": "Internet Encyclopedia of Philosophy",
+          "titulo": "Laozi (Lao-tzu)",
+          "url": "https://iep.utm.edu/laozi/",
+          "idioma": "en",
+          "autorEntrada": "Ronnie Littlejohn"
+        }
+      ]
     },
     {
       "id": "autor.mencio",
@@ -363,7 +399,17 @@
       },
       "resumen": "El gran continuador de [[autor.confucio|Confucio]]. Sostuvo que la [[concepto.xing|naturaleza humana]] es buena y que todos tenemos [[concepto.siduan|cuatro brotes]] de virtud que hay que cultivar.",
       "profundizacion": "Mencio argumenta con ejemplos: cualquiera que vea a un niño a punto de caer en un pozo siente alarma y compasión, sin pararse a calcular. Esos sentimientos son los [[concepto.siduan|cuatro brotes]] de la [[concepto.ren|humanidad]], la [[concepto.yi|rectitud]], el [[concepto.li|decoro]] y la sabiduría: crecen si se cultivan y se atrofian si se descuidan. En política defendió que el gobernante que oprime al pueblo pierde el [[concepto.tianming|Mandato del Cielo]] y puede ser depuesto. Polemizó con [[autor.mozi|Mozi]] y con [[autor.yang_zhu|Yang Zhu]], y su obra, el [[obra.mengzi|Mengzi]], pasó a ser uno de los Cuatro Libros, los textos básicos de la educación confuciana durante siglos.",
-      "anecdotas": "Según la tradición, su madre se mudó tres veces buscando un buen ambiente para él: junto a un cementerio, el niño jugaba a hacer funerales; junto al mercado, a vender; solo cuando vivieron junto a una escuela empezó a imitar los ritos y el estudio, y allí se quedaron ([[obra.lienu_zhuan|Biografías de mujeres ejemplares]] · C). Otro día volvió a casa sin haber terminado sus estudios, y ella cortó la tela que estaba tejiendo para explicarle que abandonar el estudio a medias era como cortar un tejido sin acabar, que ya no sirve para nada ([[obra.lienu_zhuan|Biografías de mujeres ejemplares]] · C)."
+      "anecdotas": "Según la tradición, su madre se mudó tres veces buscando un buen ambiente para él: junto a un cementerio, el niño jugaba a hacer funerales; junto al mercado, a vender; solo cuando vivieron junto a una escuela empezó a imitar los ritos y el estudio, y allí se quedaron ([[obra.lienu_zhuan|Biografías de mujeres ejemplares]], libro I · C). Otro día volvió a casa sin haber terminado sus estudios, y ella cortó la tela que estaba tejiendo para explicarle que abandonar el estudio a medias era como cortar un tejido sin acabar, que ya no sirve para nada ([[obra.lienu_zhuan|Biografías de mujeres ejemplares]], libro I · C).",
+      "paraSaberMas": [
+        {
+          "tipo": "enciclopedia",
+          "obra": "Stanford Encyclopedia of Philosophy",
+          "titulo": "Mencius",
+          "url": "https://plato.stanford.edu/entries/mencius/",
+          "idioma": "en",
+          "autorEntrada": "Bryan Van Norden"
+        }
+      ]
     },
     {
       "id": "autor.zhuangzi",
@@ -415,7 +461,25 @@
       },
       "resumen": "Pensador irónico y genial que, con historias y paradojas, muestra que todo juicio depende de la [[tesis.perspectivas|perspectiva]] y que la vida plena consiste en fluir con el [[concepto.dao|dao]].",
       "profundizacion": "Zhuangzi desconfía de las disputas entre escuelas: cada una llama «correcto» a lo que le conviene desde su punto de vista. Frente a eso propone una mirada que acoge todas las perspectivas sin quedarse atrapada en ninguna, y la ilustra con la historia del cocinero Ding, que despieza un buey sin esfuerzo porque deja que el cuchillo siga las articulaciones del animal. Su escritura mezcla fábula, humor y argumento. Solo los siete «capítulos interiores» del [[obra.zhuangzi|Zhuangzi]] se le atribuyen con cierta seguridad; el resto procede de su escuela y de otras corrientes. Su amigo y rival intelectual fue [[autor.hui_shi|Hui Shi]].",
-      "anecdotas": "Soñó que era una mariposa y, al despertar, no sabía si era Zhuang Zhou, que había soñado ser mariposa, o una mariposa que soñaba ser Zhuang Zhou ([[obra.zhuangzi|Zhuangzi]], cap. 2 · C). Cuando murió su esposa, un amigo lo encontró cantando y golpeando un cuenco como si fuera un tambor; Zhuangzi le explicó que, tras el dolor inicial, había comprendido que la muerte forma parte del curso natural, como la sucesión de las estaciones ([[obra.zhuangzi|Zhuangzi]], cap. 18 · C). Cuando el rey de Chu le ofreció ser su ministro, respondió que el rey guardaba en un templo el caparazón de una tortuga sagrada muerta hacía siglos, y que él prefería ser una tortuga viva arrastrando la cola por el barro ([[obra.zhuangzi|Zhuangzi]], cap. 17 · C)."
+      "anecdotas": "Soñó que era una mariposa y, al despertar, no sabía si era Zhuang Zhou, que había soñado ser mariposa, o una mariposa que soñaba ser Zhuang Zhou ([[obra.zhuangzi|Zhuangzi]], cap. 2 · C). Cuando murió su esposa, un amigo lo encontró cantando y golpeando un cuenco como si fuera un tambor; Zhuangzi le explicó que, tras el dolor inicial, había comprendido que la muerte forma parte del curso natural, como la sucesión de las estaciones ([[obra.zhuangzi|Zhuangzi]], cap. 18 · C). Cuando el rey de Chu le ofreció ser su ministro, respondió que el rey guardaba en un templo el caparazón de una tortuga sagrada muerta hacía siglos, y que él prefería ser una tortuga viva arrastrando la cola por el barro ([[obra.zhuangzi|Zhuangzi]], cap. 17 · C).",
+      "paraSaberMas": [
+        {
+          "tipo": "enciclopedia",
+          "obra": "Stanford Encyclopedia of Philosophy",
+          "titulo": "Zhuangzi",
+          "url": "https://plato.stanford.edu/entries/zhuangzi/",
+          "idioma": "en",
+          "autorEntrada": "Chad Hansen"
+        },
+        {
+          "tipo": "enciclopedia",
+          "obra": "Internet Encyclopedia of Philosophy",
+          "titulo": "Zhuangzi",
+          "url": "https://iep.utm.edu/zhuangzi/",
+          "idioma": "en",
+          "autorEntrada": "Steve Coutinho"
+        }
+      ]
     },
     {
       "id": "autor.hui_shi",
@@ -453,7 +517,17 @@
       },
       "resumen": "Disputador y ministro, amigo de [[autor.zhuangzi|Zhuangzi]]. Solo lo conocemos por las paradojas que le atribuye el [[obra.zhuangzi|Zhuangzi]].",
       "profundizacion": "Sus obras se perdieron. El capítulo 33 del [[obra.zhuangzi|Zhuangzi]] le atribuye diez tesis sobre el espacio, el tiempo y la semejanza; por ejemplo, que lo más grande no tiene exterior y lo más pequeño no tiene interior, o que el sol, en el mismo momento en que está en lo más alto, ya está declinando. Parecen buscar los límites de nuestras distinciones, y terminan con la conclusión de que conviene amar a todas las cosas por igual. En el Zhuangzi aparece como el interlocutor lógico que obliga a Zhuangzi a afinar sus argumentos.",
-      "anecdotas": "Cuando era ministro en Liang (otro nombre del estado de Wei), le dijeron que Zhuangzi venía a quitarle el puesto, y lo hizo buscar durante tres días. Zhuangzi se presentó y le contó una fábula: un búho que tenía una rata podrida en el pico chilló asustado al ver pasar un fénix, creyendo que quería robársela, cuando al fénix no le interesaba en absoluto ([[obra.zhuangzi|Zhuangzi]], cap. 17 · C). Tras la muerte de Hui Shi, Zhuangzi pasó junto a su tumba y contó la historia de un carpintero de Ying capaz de quitar con un hachazo una mota de yeso de la nariz de un compañero sin herirlo; cuando el compañero murió, el carpintero ya no pudo repetir la hazaña. Así se sentía él: sin Hui Shi, ya no tenía con quién hablar ([[obra.zhuangzi|Zhuangzi]], cap. 24 · C)."
+      "anecdotas": "Cuando era ministro en Liang (otro nombre del estado de Wei), le dijeron que Zhuangzi venía a quitarle el puesto, y lo hizo buscar durante tres días. Zhuangzi se presentó y le contó una fábula: un búho que tenía una rata podrida en el pico chilló asustado al ver pasar un fénix, creyendo que quería robársela, cuando al fénix no le interesaba en absoluto ([[obra.zhuangzi|Zhuangzi]], cap. 17 · C). Tras la muerte de Hui Shi, Zhuangzi pasó junto a su tumba y contó la historia de un carpintero de Ying capaz de quitar con un hachazo una mota de yeso de la nariz de un compañero sin herirlo; cuando el compañero murió, el carpintero ya no pudo repetir la hazaña. Así se sentía él: sin Hui Shi, ya no tenía con quién hablar ([[obra.zhuangzi|Zhuangzi]], cap. 24 · C).",
+      "paraSaberMas": [
+        {
+          "tipo": "enciclopedia",
+          "obra": "Stanford Encyclopedia of Philosophy",
+          "titulo": "School of Names",
+          "url": "https://plato.stanford.edu/entries/school-names/",
+          "idioma": "en",
+          "autorEntrada": "Chris Fraser"
+        }
+      ]
     },
     {
       "id": "autor.gongsun_long",
@@ -489,7 +563,17 @@
       },
       "resumen": "Disputador famoso por defender que [[tesis.caballo_blanco|un caballo blanco no es un caballo]], una paradoja sobre cómo se combinan los [[concepto.ming_shi|nombres]].",
       "profundizacion": "Gongsun Long fue consejero del señor de Pingyuan, un príncipe del estado de Zhao, y defendió la paz entre estados. Del libro que lleva su nombre, el [[obra.gongsun_longzi|Gongsun Longzi]], se conservan pocos capítulos, y la autenticidad de algunos se discute. Su tesis del caballo blanco se ha leído de muchas maneras: como una distinción entre «ser idéntico a» y «ser un caso de», o como un análisis de cómo «blanco» y «caballo» nombran cosas distintas y su combinación nombra una tercera. Lo seguro es que obligó a sus contemporáneos a pensar la relación entre [[concepto.ming_shi|nombres y realidades]].",
-      "anecdotas": "Kong Chuan, descendiente de Confucio, le propuso hacerse su discípulo si abandonaba la tesis del caballo blanco. Gongsun Long le contestó que eso sería como pedirle que enseñara sin su enseñanza, y le recordó que el propio Confucio había distinguido entre «un hombre de Chu» y «un hombre», que es justo lo que él hacía con los caballos ([[obra.gongsun_longzi|Gongsun Longzi]], cap. 1 · C)."
+      "anecdotas": "Kong Chuan, descendiente de Confucio, le propuso hacerse su discípulo si abandonaba la tesis del caballo blanco. Gongsun Long le contestó que eso sería como pedirle que enseñara sin su enseñanza, y le recordó que el propio Confucio había distinguido entre «un hombre de Chu» y «un hombre», que es justo lo que él hacía con los caballos ([[obra.gongsun_longzi|Gongsun Longzi]], cap. 1 · C).",
+      "paraSaberMas": [
+        {
+          "tipo": "enciclopedia",
+          "obra": "Stanford Encyclopedia of Philosophy",
+          "titulo": "School of Names",
+          "url": "https://plato.stanford.edu/entries/school-names/",
+          "idioma": "en",
+          "autorEntrada": "Chris Fraser"
+        }
+      ]
     },
     {
       "id": "autor.zou_yan",
@@ -570,7 +654,25 @@
       },
       "resumen": "Confuciano riguroso que, frente a [[autor.mencio|Mencio]], sostuvo que [[tesis.naturaleza_mala|la naturaleza humana es mala]] y que la bondad es fruto del [[concepto.wei|esfuerzo deliberado]] y del [[concepto.li|ritual]].",
       "profundizacion": "Para Xunzi, los seres humanos nacen con deseos que, sin guía, llevan al conflicto. Los sabios de la antigüedad crearon el [[concepto.li|ritual]] y las normas para ordenar esos deseos, igual que el artesano endereza la madera torcida. La bondad es, por tanto, un logro de la educación y la cultura, no un brote innato. Concibió el [[concepto.tian|Cielo]] como el curso regular de la naturaleza, sin voluntad moral, y escribió un tratado sobre la [[concepto.zhengming|rectificación de los nombres]] que es una teoría del lenguaje. Enseñó en la Academia Jixia del estado de Qi y fue maestro de [[autor.han_feizi|Han Feizi]] y de [[autor.li_si|Li Si]], que llegaría a ser canciller del primer emperador.",
-      "anecdotas": "En la Academia Jixia, el gran centro de debate del estado de Qi, fue tres veces el encargado de presidir los sacrificios, un honor reservado al maestro de más prestigio ([[obra.shiji|Shiji]], cap. 74 · B). Más tarde, por culpa de unas calumnias, se marchó al estado de Chu, donde fue magistrado de la ciudad de Lanling; cuando perdió el cargo se quedó a vivir allí, y allí murió ([[obra.shiji|Shiji]], cap. 74 · B)."
+      "anecdotas": "En la Academia Jixia, el gran centro de debate del estado de Qi, fue tres veces el encargado de presidir los sacrificios, un honor reservado al maestro de más prestigio ([[obra.shiji|Shiji]], cap. 74 · B). Más tarde, por culpa de unas calumnias, se marchó al estado de Chu, donde fue magistrado de la ciudad de Lanling; cuando perdió el cargo se quedó a vivir allí, y allí murió ([[obra.shiji|Shiji]], cap. 74 · B).",
+      "paraSaberMas": [
+        {
+          "tipo": "enciclopedia",
+          "obra": "Stanford Encyclopedia of Philosophy",
+          "titulo": "Xunzi",
+          "url": "https://plato.stanford.edu/entries/xunzi/",
+          "idioma": "en",
+          "autorEntrada": "Paul R. Goldin"
+        },
+        {
+          "tipo": "enciclopedia",
+          "obra": "Internet Encyclopedia of Philosophy",
+          "titulo": "Xunzi (Hsün Tzu)",
+          "url": "https://iep.utm.edu/xunzi/",
+          "idioma": "en",
+          "autorEntrada": "David Elstein"
+        }
+      ]
     },
     {
       "id": "autor.han_feizi",
@@ -610,7 +712,17 @@
       },
       "resumen": "Gran teórico del poder del Estado. Defendió que un país se gobierna con [[concepto.fa|leyes]] públicas, [[concepto.shu|técnicas]] para controlar a los funcionarios y la [[concepto.shi|posición]] de autoridad del gobernante, sin confiar en la virtud de nadie.",
       "profundizacion": "Han Feizi reunió las ideas de tres consejeros políticos anteriores: [[autor.shang_yang|Shang Yang]], que reformó el estado de Qin con leyes estrictas; [[autor.shen_buhai|Shen Buhai]], ministro del estado de Han, que ideó técnicas para vigilar a los funcionarios; y [[autor.shen_dao|Shen Dao]], que destacó la fuerza que da ocupar el trono. Su punto de partida es realista: las personas buscan su propio interés, así que un buen gobierno no puede depender de que haya gobernantes sabios, sino de normas claras y de premios y castigos que se apliquen siempre. Critica a los [[escuela.ru|confucianos]] por querer gobernar imitando a los reyes de la antigüedad cuando las circunstancias ya son otras. Escribió además los comentarios más antiguos que se conservan del [[obra.daodejing|Daodejing]]. Sus ideas inspiraron al estado de Qin, que unificó China en el 221 a. C., doce años después de su muerte.",
-      "anecdotas": "Era tartamudo y no sabía defender sus ideas de palabra, pero escribía con gran brillantez ([[obra.shiji|Shiji]], cap. 63 · B). El rey de Qin, el futuro Primer Emperador, leyó dos de sus ensayos y exclamó que, si pudiera conocer a su autor y tratar con él, ya podría morir tranquilo. Cuando Han Fei llegó por fin a Qin como enviado, [[autor.li_si|Li Si]], que había estudiado con él junto a [[autor.xunzi|Xunzi]], temió que le hiciera sombra: lo acusó ante el rey, consiguió que lo encarcelaran y le hizo llegar veneno. El rey se arrepintió y mandó liberarlo, pero Han Fei ya había muerto ([[obra.shiji|Shiji]], cap. 63 · C)."
+      "anecdotas": "Era tartamudo y no sabía defender sus ideas de palabra, pero escribía con gran brillantez ([[obra.shiji|Shiji]], cap. 63 · B). El rey de Qin, el futuro Primer Emperador, leyó dos de sus ensayos y exclamó que, si pudiera conocer a su autor y tratar con él, ya podría morir tranquilo. Cuando Han Fei llegó por fin a Qin como enviado, [[autor.li_si|Li Si]], que había estudiado con él junto a [[autor.xunzi|Xunzi]], temió que le hiciera sombra: lo acusó ante el rey, consiguió que lo encarcelaran y le hizo llegar veneno. El rey se arrepintió y mandó liberarlo, pero Han Fei ya había muerto ([[obra.shiji|Shiji]], cap. 63 · C).",
+      "paraSaberMas": [
+        {
+          "tipo": "enciclopedia",
+          "obra": "Stanford Encyclopedia of Philosophy",
+          "titulo": "Legalism in Chinese Philosophy",
+          "url": "https://plato.stanford.edu/entries/chinese-legalism/",
+          "idioma": "en",
+          "autorEntrada": "Yuri Pines"
+        }
+      ]
     },
     {
       "id": "obra.analectas",
@@ -1900,6 +2012,73 @@
         "nota": "Reunida por el bibliotecario imperial Liu Xiang (77-6 a. C.)."
       },
       "resumen": "Colección de vidas de mujeres modélicas reunida por el bibliotecario imperial Liu Xiang en el siglo I a. C. Incluye las historias más conocidas de la madre de [[autor.mencio|Mencio]]."
+    },
+    {
+      "id": "autor.ban_zhao",
+      "tipo": "autor",
+      "nombre": "Ban Zhao",
+      "nombreOriginal": "班昭",
+      "alias": [
+        "Cao Dagu"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.etica",
+        "tematica.filosofia_historia"
+      ],
+      "escuelas": [
+        "escuela.ru"
+      ],
+      "circulo": 2,
+      "lugarOrigen": "Anling, en la comandancia de Fufeng (actual Shaanxi)",
+      "fechas": {
+        "nacimiento": {
+          "min": 45,
+          "max": 49
+        },
+        "muerte": {
+          "min": 116,
+          "max": 120
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico",
+        "alternativas": [],
+        "nota": "c. 45-49 – c. 116-120 d. C."
+      },
+      "resumen": "Historiadora y moralista [[escuela.ru|confuciana]] de la dinastía Han, la primera mujer historiadora de China que conocemos. Terminó la historia oficial de la dinastía que había dejado inacabada su hermano Ban Gu y escribió las [[obra.nujie|Lecciones para mujeres]].",
+      "profundizacion": "Pertenecía a una familia de letrados: su padre, Ban Biao, empezó una historia de la dinastía Han que continuó su hermano Ban Gu. Cuando este murió en prisión, en el 92, el emperador encargó a Ban Zhao terminarla en la biblioteca del palacio. Fue maestra de la emperatriz Deng y de las damas de la corte, y llegó a aconsejar a la emperatriz en asuntos de gobierno. Sus [[obra.nujie|Lecciones para mujeres]] enseñan humildad, obediencia y laboriosidad dentro del orden [[escuela.ru|confuciano]], pero también defienden que las niñas reciban educación, como los niños. Durante siglos se usaron para educar a las mujeres en la sumisión, y por eso hoy se leen de dos maneras: como un texto que justificó la desigualdad y como la obra de una mujer que, desde dentro de ese orden, reclamó para ellas el estudio.",
+      "anecdotas": "El emperador He la llamó a la biblioteca del palacio para que terminara la historia de la dinastía Han, y la emperatriz Deng la tomó como maestra: en la corte la llamaban «Cao Dagu», la gran dama Cao, por el apellido de su marido (Libro de los Han posteriores, cap. 84 · B)."
+    },
+    {
+      "id": "obra.nujie",
+      "tipo": "obra",
+      "nombre": "Lecciones para mujeres",
+      "nombreOriginal": "女誡",
+      "alias": [
+        "Nüjie",
+        "Preceptos para mujeres"
+      ],
+      "tradicion": "china",
+      "contextos": [
+        "contexto.qin_han"
+      ],
+      "tematicas": [
+        "tematica.etica"
+      ],
+      "autoria": "autor",
+      "idiomaOriginal": "chino clásico",
+      "fechas": {
+        "composicion": {
+          "min": 100,
+          "max": 115
+        },
+        "tipo": "aproximada",
+        "historicidad": "historico"
+      },
+      "resumen": "Breve tratado en siete capítulos en el que [[autor.ban_zhao|Ban Zhao]] instruye a las mujeres de su familia en la humildad, la obediencia al marido y a los suegros y el trabajo doméstico, según el orden [[escuela.ru|confuciano]]. Pide también que las niñas aprendan a leer, como los niños. Fue durante siglos uno de los textos básicos de la educación femenina en China."
     }
   ],
   "relaciones": [
@@ -2482,6 +2661,21 @@
       "destino": "autor.li_si",
       "certeza": "D",
       "fuente": "Shiji, cap. 87"
+    },
+    {
+      "id": "cn-0077",
+      "origen": "autor.ban_zhao",
+      "tipo": "escribio",
+      "destino": "obra.nujie",
+      "certeza": "D"
+    },
+    {
+      "id": "cn-0078",
+      "origen": "autor.confucio",
+      "tipo": "influyo_en",
+      "destino": "autor.ban_zhao",
+      "certeza": "D",
+      "nota": "Las [[obra.nujie|Lecciones para mujeres]] aplican a la vida de las mujeres las virtudes y los ritos de la tradición [[escuela.ru|confuciana]]."
     }
   ]
 }
