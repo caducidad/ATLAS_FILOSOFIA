@@ -20,7 +20,7 @@ Revisadas las de todos los autores de Grecia, Roma y el Próximo Oriente. Coinci
 
 ### Para saber más
 
-45 de los 50 autores tienen ya enlaces, todos abiertos antes de añadirlos: 8 entradas de Philosophica en español, 38 de la Stanford Encyclopedia, 29 de la Internet Encyclopedia, 19 vidas de Diógenes Laercio en Perseus y el *Mahāparinibbāna Sutta* en SuttaCentral.
+45 de los 50 autores tienen ya enlaces, todos abiertos antes de añadirlos: 8 entradas de Philosophica en español, 34 de la Stanford Encyclopedia, 29 de la Internet Encyclopedia, 18 vidas de Diógenes Laercio en Perseus y el *Mahāparinibbāna Sutta* en SuttaCentral.
 
 **Sin enlace todavía:** Zou Yan, Pāṇini, Kaṇāda, Jaimini y Zaratustra. Ninguna de las dos enciclopedias tiene entrada sobre ellos, y la Encyclopaedia Iranica, que sí trata de Zaratustra, no se deja abrir automáticamente.
 
