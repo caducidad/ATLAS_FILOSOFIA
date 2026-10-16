@@ -576,6 +576,18 @@
           "url": "https://suttacentral.net/dn16/en/sujato",
           "idioma": "en"
         }
+      ],
+      "imagenes": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg?width=800",
+          "fuente": "https://commons.wikimedia.org/wiki/File:Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg",
+          "tipo": "escultura",
+          "pie": "El Buda enseñando, con las manos en el gesto de «poner en marcha la rueda de la doctrina». Escultura en arenisca de hacia el 475 d. C., museo de Sarnath (India), cerca del lugar donde, según la tradición, dio su primer sermón.",
+          "fechaObra": "c. 475 d. C.",
+          "autorObra": "Anónimo",
+          "licencia": "CC-BY-SA-3.0",
+          "credito": "Foto: Tevaprapas Makklay"
+        }
       ]
     },
     {
@@ -874,7 +886,19 @@
       },
       "resumen": "Autor tradicional del [[obra.mimamsa_sutra|Mīmāṃsāsūtra]], el texto fundador de la exégesis de los [[obra.veda|Veda]]. Defendió que el [[concepto.dharma|dharma]] solo se conoce por los mandatos de los Veda, que son [[concepto.apauruseya|eternos y sin autor]].",
       "profundizacion": "La [[escuela.mimamsa|Mīmāṃsā]] nace para resolver problemas prácticos del ritual: qué ordena exactamente cada frase de los [[obra.veda|Veda]] y cómo conciliar pasajes que parecen contradictorios. Para ello Jaimini desarrolla reglas de interpretación que luego influyeron en el derecho indio. Su punto de partida es que el [[concepto.dharma|dharma]], el deber, no puede conocerse por la percepción ni por la razón, sino solo por los mandatos de los Veda. Como los Veda no tienen autor humano ni divino, no pueden contener los errores que cometería un autor: son [[tesis.veda_sin_autor|eternos y válidos por sí mismos]]. De ahí surge una teoría del lenguaje según la cual la relación entre palabra y significado es natural y eterna. Su comentarista principal fue Śabara, varios siglos después.",
-      "anecdotas": "Su obra y el [[obra.brahma_sutra|Brahmasūtra]] de [[autor.badarayana|Bādarāyaṇa]] se citan mutuamente: Jaimini menciona la opinión de Bādarāyaṇa en sus primeros sūtras, y Bādarāyaṇa recoge la de Jaimini en varios pasajes, como si dialogaran ([[obra.mimamsa_sutra|Mīmāṃsāsūtra]] 1.1.5 · A). La tradición posterior lo convierte en discípulo del sabio Vyāsa, a quien identifica con Bādarāyaṇa y atribuye la recopilación de los [[obra.veda|Veda]] (tradición purāṇica · L)."
+      "anecdotas": "Su obra y el [[obra.brahma_sutra|Brahmasūtra]] de [[autor.badarayana|Bādarāyaṇa]] se citan mutuamente: Jaimini menciona la opinión de Bādarāyaṇa en sus primeros sūtras, y Bādarāyaṇa recoge la de Jaimini en varios pasajes, como si dialogaran ([[obra.mimamsa_sutra|Mīmāṃsāsūtra]] 1.1.5 · A). La tradición posterior lo convierte en discípulo del sabio Vyāsa, a quien identifica con Bādarāyaṇa y atribuye la recopilación de los [[obra.veda|Veda]] (tradición purāṇica · L).",
+      "imagenes": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaimini_and_the_birds.jpg?width=800",
+          "fuente": "https://commons.wikimedia.org/wiki/File:Jaimini_and_the_birds.jpg",
+          "tipo": "retrato_imaginario",
+          "pie": "Jaimini ante dos aves, en una escena de leyenda. Ilustración de Charles Freegrove Winzer (1925); representación imaginaria.",
+          "fechaObra": "1925",
+          "autorObra": "Charles Freegrove Winzer",
+          "licencia": "dominio_publico",
+          "credito": ""
+        }
+      ]
     },
     {
       "id": "autor.badarayana",

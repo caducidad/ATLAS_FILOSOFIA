@@ -28,9 +28,11 @@ Revisadas las de todos los autores de Grecia, Roma y el Próximo Oriente. Coinci
 
 Hipatia de Alejandría, Hiparquia y Ban Zhao (con sus *Lecciones para mujeres*), que faltaban. Las anécdotas de Hipatia e Hiparquia están cotejadas con sus fuentes (Sócrates Escolástico y Diógenes Laercio); la de Ban Zhao, revisada sin abrir el texto.
 
-### Imágenes
+### Imágenes (16 de octubre)
 
-La app ya sabe mostrarlas, pero todavía no hay ninguna: Wikimedia limita las consultas automáticas desde aquí y las páginas de Commons necesitan un permiso que se pide en el momento.
+34 autores tienen ya imagen, enlazada desde Wikimedia Commons. Se tomó la imagen que Wikidata asocia a cada autor y se comprobaron en su ficha de Commons la licencia, el autor, la fecha y lo que representa. El pie dice siempre si el retrato es imaginario y de cuándo es, y si la identificación es dudosa (Demócrito, Plotino, Zenón de Elea, Hiparquia).
+
+**Descartadas:** licencias que no admitimos (las de Taiwán y la India para obras del Estado, «uso libre con derechos»), estatuas y dibujos modernos sin procedencia clara (Mozi, Hui Shi, Han Feizi, Pāṇini, Yājñavalkya, Mahāvīra, Nāgārjuna, Xunzi, Lucrecio) y una página de libro (Sexto Empírico). **Sin imagen en Wikidata:** Zhuangzi, Zou Yan, Uddālaka, Kaṇāda, Akṣapāda, Bādarāyaṇa, Īśvarakṛṣṇa y Gongsun Long (esta, con licencia no admitida).
 
 ### Otras correcciones
 

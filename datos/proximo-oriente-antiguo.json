@@ -161,7 +161,19 @@
    },
    "resumen": "Profeta y pensador del antiguo Irán, fundador del [[escuela.mazdeismo|mazdeísmo]]. En sus himnos, los [[obra.gatha|Gāthā]], presenta el mundo como una lucha entre la [[concepto.asha|Verdad]] y la [[concepto.druj|Mentira]], y pide a cada persona que elija libremente de qué lado ponerse.",
    "profundizacion": "De Zaratustra solo sabemos con cierta seguridad lo que dicen los diecisiete himnos que se le atribuyen, los [[obra.gatha|Gāthā]], escritos en avéstico antiguo, una lengua muy cercana a la del [[obra.rigveda|Ṛgveda]] indio. Era sacerdote, tuvo dificultades para ser escuchado y encontró la protección de un príncipe llamado Vīštāspa. Su gran novedad fue moral: el dios supremo, [[concepto.ahura_mazda|Ahura Mazdā]] («el Señor Sabio»), es solo bueno, y el mal procede de otro principio, el [[concepto.dos_espiritus|Espíritu Destructor]]. Los seres humanos no son juguetes de los dioses: con sus «buenos pensamientos, buenas palabras y buenas obras», como resumirá la tradición, deciden la victoria final del bien, la [[concepto.frashokereti|renovación del mundo]]. Algunos especialistas, como el iranista belga Jean Kellens, dudan de que los Gāthā sean obra de una sola persona e incluso de que Zaratustra existiera. Los griegos lo conocieron como Zoroastro, el primero de los magos, y [[autor.aristoteles|Aristóteles]] ya sabía que los magos creían en dos principios, uno bueno y otro malo ([[obra.vidas_filosofos|Vidas de los filósofos]] I 8).",
-   "anecdotas": "Según el naturalista romano Plinio el Viejo, fue el único ser humano que rió el mismo día en que nació, y su cerebro latía con tanta fuerza que apartaba la mano que se le ponía encima, presagio de su sabiduría (Plinio el Viejo, Historia natural VII 72 · L). Los griegos lo creían antiquísimo: según el astrónomo Eudoxo de Cnido y según [[autor.aristoteles|Aristóteles]], vivió seis mil años antes de la muerte de [[autor.platon|Platón]] (Plinio el Viejo, Historia natural XXX 3 · L). En uno de sus himnos se queja de su soledad: «¿A qué tierra huir? ¿Adónde iré? Me apartan de mi familia y de mi clan» ([[obra.gatha|Gāthā]], Yasna 46, 1 · A)."
+   "anecdotas": "Según el naturalista romano Plinio el Viejo, fue el único ser humano que rió el mismo día en que nació, y su cerebro latía con tanta fuerza que apartaba la mano que se le ponía encima, presagio de su sabiduría (Plinio el Viejo, Historia natural VII 72 · L). Los griegos lo creían antiquísimo: según el astrónomo Eudoxo de Cnido y según [[autor.aristoteles|Aristóteles]], vivió seis mil años antes de la muerte de [[autor.platon|Platón]] (Plinio el Viejo, Historia natural XXX 3 · L). En uno de sus himnos se queja de su soledad: «¿A qué tierra huir? ¿Adónde iré? Me apartan de mi familia y de mi clan» ([[obra.gatha|Gāthā]], Yasna 46, 1 · A).",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zartosht_30salegee.jpg?width=800",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Zartosht_30salegee.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Zaratustra tal como lo imaginaban los zoroastrianos de la India en el s. XIX, a partir de una figura de los relieves de Taq-e Bostan (Irán), del s. IV d. C. Publicada en 1906. Representación imaginaria.",
+     "fechaObra": "1906",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.ptahhotep",
@@ -429,6 +441,18 @@
      "url": "https://iep.utm.edu/philo/",
      "idioma": "en",
      "autorEntrada": "Marian Hillar"
+    }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philon.jpg?width=800",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Philon.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Filón de Alejandría en un grabado del cosmógrafo André Thevet (1584). Representación imaginaria.",
+     "fechaObra": "1584",
+     "autorObra": "André Thevet",
+     "licencia": "dominio_publico",
+     "credito": ""
     }
    ]
   },

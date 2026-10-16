@@ -1538,7 +1538,8 @@
     if (img) {
       const fuente = img.url || RUTA_ATLAS + img.archivo;
       const pie = crear("figcaption", {}, [document.createTextNode(img.pie + " ")]);
-      const datos_ = [img.credito, LICENCIAS[img.licencia] || img.licencia].filter(Boolean).join(" · ");
+      const licencia = LICENCIAS[img.licencia] || (img.licencia || "").replace(/^CC-/, "CC ").replace(/-(\d)/, " $1");
+      const datos_ = [img.credito, licencia].filter(Boolean).join(" · ");
       pie.append(crear("a", { href: img.fuente, target: "_blank", rel: "noopener", class: "credito", text: datos_ || "Fuente" }));
       const im = crear("img", { src: fuente, alt: img.pie, loading: "lazy", decoding: "async" });
       im.addEventListener("error", () => figura.remove());   // si la imagen desaparece del origen, la ficha sigue sin ella

@@ -236,6 +236,18 @@
           "idioma": "en",
           "autorEntrada": "Jeff Richey"
         }
+      ],
+      "imagenes": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Confucius%2C_fresco_from_a_Western_Han_tomb_of_Dongping_County%2C_Shandong_province%2C_China.jpg?width=800",
+          "fuente": "https://commons.wikimedia.org/wiki/File:Confucius%2C_fresco_from_a_Western_Han_tomb_of_Dongping_County%2C_Shandong_province%2C_China.jpg",
+          "tipo": "retrato_imaginario",
+          "pie": "Confucio en un fresco de una tumba de la dinastía Han occidental (s. I a. C.), en Dongping (Shandong). Es una de sus representaciones más antiguas, pintada unos cuatro siglos después de su muerte.",
+          "fechaObra": "s. I a. C.",
+          "autorObra": "Anónimo",
+          "licencia": "dominio_publico",
+          "credito": ""
+        }
       ]
     },
     {
@@ -356,6 +368,18 @@
           "idioma": "en",
           "autorEntrada": "Ronnie Littlejohn"
         }
+      ],
+      "imagenes": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zhang_Lu-Laozi_Riding_an_Ox_%28cropped%29.jpg?width=800",
+          "fuente": "https://commons.wikimedia.org/wiki/File:Zhang_Lu-Laozi_Riding_an_Ox_%28cropped%29.jpg",
+          "tipo": "retrato_imaginario",
+          "pie": "Laozi montado en un buey, como se le imaginaba partiendo hacia el oeste. Representación imaginaria del pintor Zhang Lu, dinastía Ming (s. XVI).",
+          "fechaObra": "s. XVI",
+          "autorObra": "Zhang Lu",
+          "licencia": "dominio_publico",
+          "credito": ""
+        }
       ]
     },
     {
@@ -408,6 +432,18 @@
           "url": "https://plato.stanford.edu/entries/mencius/",
           "idioma": "en",
           "autorEntrada": "Bryan Van Norden"
+        }
+      ],
+      "imagenes": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Half_Portraits_of_the_Great_Sage_and_Virtuous_Men_of_Old_-_Meng_Ke_%28%E5%AD%9F%E8%BB%BB%29.jpg?width=800",
+          "fuente": "https://commons.wikimedia.org/wiki/File:Half_Portraits_of_the_Great_Sage_and_Virtuous_Men_of_Old_-_Meng_Ke_%28%E5%AD%9F%E8%BB%BB%29.jpg",
+          "tipo": "retrato_imaginario",
+          "pie": "Mencio en un álbum de retratos de sabios de la Antigüedad. Representación imaginaria de la dinastía Yuan (1279-1368).",
+          "fechaObra": "dinastía Yuan (1279-1368)",
+          "autorObra": "Anónimo",
+          "licencia": "dominio_publico",
+          "credito": ""
         }
       ]
     },
@@ -2050,7 +2086,19 @@
       },
       "resumen": "Historiadora y moralista [[escuela.ru|confuciana]] de la dinastía Han, la primera mujer historiadora de China que conocemos. Terminó la historia oficial de la dinastía que había dejado inacabada su hermano Ban Gu y escribió las [[obra.nujie|Lecciones para mujeres]].",
       "profundizacion": "Pertenecía a una familia de letrados: su padre, Ban Biao, empezó una historia de la dinastía Han que continuó su hermano Ban Gu. Cuando este murió en prisión, en el 92, el emperador encargó a Ban Zhao terminarla en la biblioteca del palacio. Fue maestra de la emperatriz Deng y de las damas de la corte, y llegó a aconsejar a la emperatriz en asuntos de gobierno. Sus [[obra.nujie|Lecciones para mujeres]] enseñan humildad, obediencia y laboriosidad dentro del orden [[escuela.ru|confuciano]], pero también defienden que las niñas reciban educación, como los niños. Durante siglos se usaron para educar a las mujeres en la sumisión, y por eso hoy se leen de dos maneras: como un texto que justificó la desigualdad y como la obra de una mujer que, desde dentro de ese orden, reclamó para ellas el estudio.",
-      "anecdotas": "El emperador He la llamó a la biblioteca del palacio para que terminara la historia de la dinastía Han, y la emperatriz Deng la tomó como maestra: en la corte la llamaban «Cao Dagu», la gran dama Cao, por el apellido de su marido (Libro de los Han posteriores, cap. 84 · B)."
+      "anecdotas": "El emperador He la llamó a la biblioteca del palacio para que terminara la historia de la dinastía Han, y la emperatriz Deng la tomó como maestra: en la corte la llamaban «Cao Dagu», la gran dama Cao, por el apellido de su marido (Libro de los Han posteriores, cap. 84 · B).",
+      "imagenes": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Banzhao.jpg?width=800",
+          "fuente": "https://commons.wikimedia.org/wiki/File:Banzhao.jpg",
+          "tipo": "retrato_imaginario",
+          "pie": "Ban Zhao en una ilustración china de hacia 1847. Representación imaginaria.",
+          "fechaObra": "c. 1847",
+          "autorObra": "Anónimo",
+          "licencia": "dominio_publico",
+          "credito": ""
+        }
+      ]
     },
     {
       "id": "obra.nujie",
