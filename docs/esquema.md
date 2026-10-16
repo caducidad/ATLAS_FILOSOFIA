@@ -15,7 +15,16 @@ Este documento recoge solo lo propio de la filosofía, que se declara en [`atlas
 | `india-antigua.json` | Tradición india de la Antigüedad | `in` |
 | `grecorromana-antigua.json` | Tradición grecorromana de la Antigüedad | `gr` |
 | `proximo-oriente-antiguo.json` | Sabidurías del Próximo Oriente: Egipto, Mesopotamia, Irán e Israel | `po` |
+| `preguntas.json` | Las grandes preguntas y sus respuestas (`responde_a`) | `pq` |
 | … | Otras épocas (pendientes) | uno nuevo por archivo |
+
+### Cómo se reparten
+
+- **Un archivo por tradición y época.** Cada nodo va en el archivo de su tradición y de la época en que se sitúa: Confucio, en `china-antigua.json`. Cuando llegue la Edad Media, sus archivos serán nuevos (`china-medieval.json`, por ejemplo), no ampliaciones de los antiguos.
+- **Lo que no tiene tradición va aparte:** las temáticas y las grandes preguntas, que reúnen respuestas de todas las tradiciones.
+- **Cada relación va en el archivo de la tanda que la creó.** Si une dos archivos, por ejemplo un paralelo entre un concepto indio y uno chino, se guarda una sola vez, en el archivo que se escribió después; el otro no se toca. Es la misma regla que siguen los puentes entre atlas (decisión 8 del plan). Hoy, de 602 relaciones, 110 cruzan de un archivo a otro.
+- **Cada archivo numera sus relaciones con su propio prefijo** (`cn-0001`, `gr-0001`…), declarado en su cabecera. Así dos tandas no chocan nunca.
+- **`atlas.json` dice qué archivos se cargan.** Añadir una tanda es añadir su archivo a esa lista; la app los une todos al arrancar.
 
 El catálogo de tipos de relación ya no está en este repositorio: es común a la colección y vive en el núcleo.
 
