@@ -64,4 +64,9 @@ Fuentes abiertas usadas: los textos y traducciones de Perseus (en su repositorio
 
 **Cotejadas después en The Latin Library, Early Christian Writings, New Advent y tertullian.org, y correctas:** Séneca (*Sobre la ira* II 10), Tácito (*Anales* XV 63-64), Filón (*Embajada a Gayo* 361), san Jerónimo (*Sobre los hombres ilustres* 11 y la *Crónica*, sobre Lucrecio).
 
-**Siguen revisadas solo de memoria**, porque su texto no está abierto o no se deja leer automáticamente: el *Shiji* y los demás textos chinos del Chinese Text Project, las Upaniṣad y el *Ācārāṅga* (sacred-texts bloquea la lectura automática), Porfirio (*Vida de Plotino*), Sexto Empírico y los textos indios de escuela.
+**Cotejadas en el Chrome de Juan, con su permiso** (el Chinese Text Project y sacred-texts bloquean la lectura automática, así que se consultaron página a página, con su buscador): el *Shiji* (caps. 47, 63, 68, 74 y 87), el *Mozi* (cap. 50), el *Gongsun Longzi* (cap. 1), las *Biografías de mujeres ejemplares* (libro I), el *Zhuangzi* (cap. 24), el *Libro de los Han posteriores* (cap. 84, Ban Zhao), la *Bṛhadāraṇyaka Upaniṣad* (2.4, 3.1 y 3.6), la *Chāndogya Upaniṣad* (6.1 y 6.13) y el *Ācārāṅga Sūtra* (I 8). Correcciones:
+- Laozi: el *Shiji* no dice que se marchara hacia el oeste, sino que dejó el reino de Zhou al verlo en decadencia; el guardián del paso tiene nombre, Yin Xi. Lo del oeste lo añadieron relatos posteriores.
+- Hui Shi: en la historia del *Zhuangzi*, la mota de yeso está en la nariz de un hombre de Ying, y quien la quita es el carpintero Shi; estaba al revés.
+- Mahāvīra: el *Ācārāṅga* se numera I 8 en la traducción de Jacobi y I 9 en otras ediciones; se indican las dos.
+
+**Siguen revisadas solo de memoria:** Porfirio (*Vida de Plotino*), Sexto Empírico (*Esbozos pirrónicos*), la carta de Sima Qian a Ren An, los edictos de Aśoka, la Misná, y los textos indios de escuela (los sūtras del Vaiśeṣika, el Nyāya y la Mīmāṃsā, la *Sāṃkhyakārikā*, el *Pañcatantra*, Xuanzang y la biografía de Nāgārjuna).
