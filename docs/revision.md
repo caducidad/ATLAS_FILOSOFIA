@@ -70,3 +70,13 @@ Fuentes abiertas usadas: los textos y traducciones de Perseus (en su repositorio
 - Mahāvīra: el *Ācārāṅga* se numera I 8 en la traducción de Jacobi y I 9 en otras ediciones; se indican las dos.
 
 **Siguen revisadas solo de memoria:** Porfirio (*Vida de Plotino*), Sexto Empírico (*Esbozos pirrónicos*), la carta de Sima Qian a Ren An, los edictos de Aśoka, la Misná, y los textos indios de escuela (los sūtras del Vaiśeṣika, el Nyāya y la Mīmāṃsā, la *Sāṃkhyakārikā*, el *Pañcatantra*, Xuanzang y la biografía de Nāgārjuna).
+
+## Cierre (17 de octubre de 2026)
+
+Revisión cerrada por decisión de Juan, y entrada del blog de nuevo en público. Queda pendiente, para cuando se pueda:
+
+- cotejar con el texto las pocas citas que solo se revisaron de memoria (lista arriba);
+- «Para saber más» de Zou Yan, Pāṇini, Kaṇāda, Jaimini y Zaratustra;
+- imágenes de los 19 autores principales que no tienen ninguna libre y fiable.
+
+Cada tanda nueva de contenido (la Edad Media, por ejemplo) pasa por el mismo procedimiento antes de publicarse: fuentes cotejadas con el texto siempre que esté abierto, fechas revisadas, «Para saber más» e imagen.
