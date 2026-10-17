@@ -62,4 +62,6 @@ Fuentes abiertas usadas: los textos y traducciones de Perseus (en su repositorio
 - Cicerón sobre Lucrecio: en la edición de Perseus es la carta II 9; se indica que otras ediciones la numeran II 10.
 - Analectas: se indica la otra numeración (7.13 y 9.16), la de la traducción de Legge.
 
-**Siguen revisadas solo de memoria**, porque su texto no está abierto o no se deja leer automáticamente: el *Shiji* y los demás textos chinos del Chinese Text Project, las Upaniṣad y el *Ācārāṅga* (sacred-texts bloquea la lectura automática), Séneca (*Sobre la ira*), Tácito, Porfirio, Sexto Empírico, Filón, san Jerónimo y los textos indios de escuela.
+**Cotejadas después en The Latin Library, Early Christian Writings, New Advent y tertullian.org, y correctas:** Séneca (*Sobre la ira* II 10), Tácito (*Anales* XV 63-64), Filón (*Embajada a Gayo* 361), san Jerónimo (*Sobre los hombres ilustres* 11 y la *Crónica*, sobre Lucrecio).
+
+**Siguen revisadas solo de memoria**, porque su texto no está abierto o no se deja leer automáticamente: el *Shiji* y los demás textos chinos del Chinese Text Project, las Upaniṣad y el *Ācārāṅga* (sacred-texts bloquea la lectura automática), Porfirio (*Vida de Plotino*), Sexto Empírico y los textos indios de escuela.
