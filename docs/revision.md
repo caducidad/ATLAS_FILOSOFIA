@@ -37,3 +37,29 @@ Hipatia de Alejandría, Hiparquia y Ban Zhao (con sus *Lecciones para mujeres*),
 ### Otras correcciones
 
 Notas de relaciones con nombres sin enlazar: las Upaniṣad (cuatro notas) y la tabernera Siduri del *Poema de Gilgamesh* (dos).
+
+## Tanda 2 · círculos 2 y 3, y cotejo de lo que se revisó de memoria (17 de octubre de 2026)
+
+### Anécdotas de los círculos 2 y 3
+
+Son trece: las cinco de Hipatia, Hiparquia y Ban Zhao, ya cotejadas en la tanda 1, y ocho más.
+
+| Qué | Cómo | Resultado |
+| --- | --- | --- |
+| Cleantes (Diógenes Laercio VII 168-169) | Cotejada con la traducción de Hicks | Correcta |
+| Carnéades | Revisada | Corregida: los dos discursos, a favor y en contra de la justicia, no los cuenta Plutarco sino Lactancio (*Instituciones divinas* V 14), que sigue a Cicerón; Plutarco cuenta la reacción de Catón |
+| Ptahhotep | Revisada | La fiabilidad pasa de C a A: la queja sobre la vejez está en el propio texto |
+| Shang Yang, Li Si (*Shiji*), Sima Qian (*Carta a Ren An*), Aśoka (edicto de roca 13), Kálanos (Arriano), Qohélet (Misná) | Revisadas sin abrir el texto | Sin errores encontrados |
+
+### Cotejo con el texto de lo que la tanda 1 revisó de memoria
+
+Fuentes abiertas usadas: los textos y traducciones de Perseus (en su repositorio público), SuttaCentral, New Advent y Project Gutenberg (Analectas de Legge, Zhuangzi de Giles).
+
+**Cotejadas y correctas:** Platón (*Teeteto* 174a, *Parménides* 127a-c, *Fedón* 97b-99c y 117, *Apología* 21a y 31d, *Banquete* 220c-d), Aristóteles (*Política* 1259a), Heródoto I 74, Diodoro XII 53, Plutarco (*Alejandro* 7-8), Eliano (*Historias curiosas* III 36), Séneca (*Cartas a Lucilio* 21.10), Cicerón (*Tusculanas* V 64-66: confirma que era cuestor), Plinio (*Historia natural* VII 72 y XXX 3), Marco Aurelio (I 7 y la nota de los cuados al final del libro I), Luciano (*Contra un ignorante* 13), Orígenes (*Contra Celso* VII 53), el *Dīgha Nikāya* (14, 16 y 29), las *Analectas* (7.14 y 9.17) y el *Zhuangzi* (caps. 2, 17 y 18).
+
+**Correcciones:**
+- Epicteto: lo de la lámpara de hierro robada lo cuenta él mismo en las *Disertaciones* que recogió Arriano (I 18); Luciano solo cuenta que, tras su muerte, alguien pagó tres mil dracmas por la de barro. Y la anécdota de la pierna rota la cuenta el filósofo pagano Celso, citado por Orígenes, no Orígenes.
+- Cicerón sobre Lucrecio: en la edición de Perseus es la carta II 9; se indica que otras ediciones la numeran II 10.
+- Analectas: se indica la otra numeración (7.13 y 9.16), la de la traducción de Legge.
+
+**Siguen revisadas solo de memoria**, porque su texto no está abierto o no se deja leer automáticamente: el *Shiji* y los demás textos chinos del Chinese Text Project, las Upaniṣad y el *Ācārāṅga* (sacred-texts bloquea la lectura automática), Séneca (*Sobre la ira*), Tácito, Porfirio, Sexto Empírico, Filón, san Jerónimo y los textos indios de escuela.
