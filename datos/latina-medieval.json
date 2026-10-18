@@ -233,8 +233,767 @@
     "tematica.metafisica"
    ],
    "naturaleza": "rotulo_historiografico",
-   "resumen": "Nombre moderno para el [[autor.eckhart|Maestro Eckhart]] y los dominicos que lo siguieron en las ciudades del Rin, como Juan Taulero y Enrique Suso, que predicaban en alemán sobre la unión del alma con Dios. Martín Lutero leyó con entusiasmo los sermones de Taulero."
+   "resumen": "Nombre moderno para el [[autor.eckhart|Maestro Eckhart]] y los dominicos que lo siguieron en las ciudades del Rin, como Juan Taulero y Enrique Suso, que predicaban en alemán sobre la unión del alma con Dios. El reformador protestante Martín Lutero leyó con entusiasmo los sermones de Taulero."
+  },
+  {
+   "id": "autor.agustin",
+   "tipo": "autor",
+   "nombre": "Agustín de Hipona",
+   "nombreOriginal": "Aurelius Augustinus",
+   "alias": [
+    "san Agustín",
+    "Agustín",
+    "Augustine",
+    "Augustinus"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.epistemologia",
+    "tematica.metafisica",
+    "tematica.filosofia_historia",
+    "tematica.antropologia_filosofica"
+   ],
+   "escuelas": [],
+   "circulo": 1,
+   "lugarOrigen": "Tagaste, en la provincia romana de Numidia (hoy Souk Ahras, Argelia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 354,
+     "max": 354
+    },
+    "muerte": {
+     "min": 430,
+     "max": 430
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "13 de noviembre del 354 – 28 de agosto del 430. Obispo de Hipona desde hacia el 396."
+   },
+   "resumen": "Obispo de Hipona, en el norte de África, y el pensador cristiano más influyente de la Europa latina. En sus [[obra.confesiones|Confesiones]] cuenta su búsqueda de la verdad hasta convertirse al cristianismo, y en [[obra.ciudad_de_dios|La ciudad de Dios]] responde a quienes culpaban a los cristianos de la caída de Roma.",
+   "profundizacion": "Nació en Tagaste, hijo de un padre pagano y de una madre cristiana, Mónica. A los diecinueve años, la lectura del Hortensio, un diálogo hoy perdido de [[autor.ciceron|Cicerón]] que invitaba a filosofar, le despertó el deseo de buscar la sabiduría. Pasó nueve años con los maniqueos, seguidores de una religión que explicaba el mal como una sustancia enfrentada al bien, y fue profesor de retórica en Cartago, Roma y Milán. En Milán lo marcaron los sermones del obispo [[autor.ambrosio|Ambrosio]] y los «libros de los platónicos», traducidos al latín: casi seguro obras de [[autor.plotino|Plotino]] y de [[autor.porfirio|Porfirio]]. Le enseñaron a pensar en una realidad que no es corporal y a entender que [[tesis.mal_privacion|el mal es privación de bien]], no una cosa. Se bautizó en el 387, volvió a África y hacia el 396 fue nombrado obispo de Hipona, donde escribió sin descanso hasta su muerte, en el 430, con la ciudad sitiada por los vándalos. Frente a los escépticos de la Academia, mostró que hay al menos una certeza: [[tesis.si_fallor_sum|si me engaño, existo]]. Para explicar cómo conocemos verdades necesarias, como las de la matemática, propuso que Dios [[concepto.iluminacion|ilumina]] la mente igual que el sol hace visibles las cosas. En el libro XI de las [[obra.confesiones|Confesiones]] se pregunta qué es el tiempo y concluye que [[tesis.tiempo_en_el_alma|existe en el alma]], que recuerda el pasado, atiende al presente y espera el futuro. En [[obra.ciudad_de_dios|La ciudad de Dios]] distingue [[concepto.dos_ciudades|dos ciudades]] mezcladas en la historia y niega que ningún imperio de la tierra, tampoco Roma, sea la ciudad de Dios. En sus últimos años, contra el monje británico Pelagio, sostuvo que el ser humano no puede salvarse sin la gracia de Dios. Casi toda la filosofía y la teología latinas de los mil años siguientes parten de él.",
+   "anecdotas": "A los dieciséis años robó con unos amigos las peras de un árbol cercano a la viña de su familia. No tenían hambre ni eran buenas peras: comieron unas pocas y tiraron el resto a los cerdos. Años después le asombraba haberlo hecho solo por el gusto de hacer algo prohibido ([[obra.confesiones|Confesiones]] II 4 · A). De joven pedía a Dios: «Dame la castidad y la continencia, pero todavía no», porque temía que lo escuchara enseguida ([[obra.confesiones|Confesiones]] VIII 7 · A). En un jardín de Milán, en plena crisis, oyó desde una casa vecina la voz de un niño o una niña que canturreaba «toma y lee, toma y lee». Lo entendió como una orden, abrió las cartas de san Pablo y leyó el primer pasaje que encontró, que invitaba a dejar la lujuria y revestirse de Cristo. Su amigo Alipio, que estaba con él, leyó la frase siguiente y decidió convertirse también ([[obra.confesiones|Confesiones]] VIII 12 · A). Su amigo y biógrafo Posidio, obispo de Calama, cuenta que, ya enfermo, mandó copiar los pocos salmos de David que tratan de la penitencia y los leía desde la cama en las hojas colgadas en la pared, llorando (Posidio, Vida de Agustín, cap. 31 · A). Según una leyenda posterior, paseando junto al mar mientras pensaba en la Trinidad, vio a un niño que intentaba meter el mar en un hoyo con una concha; cuando le dijo que era imposible, el niño respondió que más difícil era comprender la Trinidad. No está en sus obras ni en la vida que escribió Posidio (leyenda medieval · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "San Agustín de Hipona",
+     "url": "https://www.philosophica.info/voces/agustin/Agustin.html",
+     "idioma": "es",
+     "autorEntrada": "Urbano Ferrer Santos y Ángel Damián Román Ortiz"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Saint Augustine",
+     "url": "https://plato.stanford.edu/entries/augustine/",
+     "idioma": "en",
+     "autorEntrada": "Christian Tornau"
+    },
+    {
+     "tipo": "texto_original",
+     "obra": "The Latin Library",
+     "titulo": "Agustín, Confesiones, libro VIII: la conversión",
+     "url": "https://www.thelatinlibrary.com/augustine/conf8.shtml",
+     "idioma": "la"
+    }
+   ]
+  },
+  {
+   "id": "autor.ambrosio",
+   "tipo": "autor",
+   "nombre": "Ambrosio de Milán",
+   "nombreOriginal": "Ambrosius",
+   "alias": [
+    "san Ambrosio",
+    "Ambrose",
+    "Ambrosio"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Tréveris (hoy en Alemania)",
+   "fechas": {
+    "nacimiento": {
+     "min": 339,
+     "max": 340
+    },
+    "muerte": {
+     "min": 397,
+     "max": 397
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 339 – 397. Era gobernador de la provincia cuando, en el 374, los cristianos de Milán lo eligieron obispo."
+   },
+   "resumen": "Obispo de Milán y uno de los grandes Padres de la Iglesia latina. Sus sermones, que leían la Biblia de forma alegórica y con ideas platónicas, ayudaron a [[autor.agustin|Agustín]] a superar sus dudas, y fue él quien lo bautizó en el 387.",
+   "anecdotas": "Agustín iba a verlo y lo encontraba leyendo en silencio: los ojos recorrían las páginas y el corazón buscaba el sentido, pero la voz y la lengua callaban. Los visitantes, que podían entrar sin anunciarse, se quedaban mirándolo sin atreverse a interrumpirlo y se marchaban. Como Agustín lo cuenta como algo llamativo, se ha citado a menudo como prueba de que en la Antigüedad casi siempre se leía en voz alta, aunque hoy se sabe que leer en silencio no era tan raro ([[obra.confesiones|Confesiones]] VI 3 · A)."
+  },
+  {
+   "id": "autor.teodorico",
+   "tipo": "autor",
+   "nombre": "Teodorico el Grande",
+   "nombreOriginal": "Theodericus",
+   "alias": [
+    "Teodorico",
+    "Theodoric",
+    "Teoderico"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Panonia (hoy en Hungría)",
+   "fechas": {
+    "nacimiento": {
+     "min": 453,
+     "max": 455
+    },
+    "muerte": {
+     "min": 526,
+     "max": 526
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 454 – 30 de agosto del 526. Rey de Italia desde el 493."
+   },
+   "resumen": "Rey de los ostrogodos, un pueblo germánico, que gobernó Italia desde Rávena entre el 493 y el 526. Mantuvo la administración romana y tuvo a su servicio a senadores como [[autor.boecio|Boecio]] y [[autor.casiodoro|Casiodoro]], pero al final de su reinado, temiendo una conspiración con el emperador de Constantinopla, hizo encarcelar y ejecutar a Boecio."
+  },
+  {
+   "id": "autor.boecio",
+   "tipo": "autor",
+   "nombre": "Boecio",
+   "nombreOriginal": "Anicius Manlius Severinus Boethius",
+   "alias": [
+    "Boethius",
+    "Severino Boecio",
+    "Anicio Manlio Severino Boecio"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.metafisica",
+    "tematica.etica",
+    "tematica.filosofia_religion",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [],
+   "circulo": 1,
+   "lugarOrigen": "Roma",
+   "fechas": {
+    "nacimiento": {
+     "min": 475,
+     "max": 477
+    },
+    "muerte": {
+     "min": 524,
+     "max": 526
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 475-477 – hacia el 524-526. La fecha de la ejecución no es segura: la Internet Encyclopedia of Philosophy da el 524; la Stanford Encyclopedia, probablemente el 526."
+   },
+   "resumen": "Senador romano y filósofo al servicio del rey godo [[autor.teodorico|Teodorico]]. Tradujo al latín la lógica de [[autor.aristoteles|Aristóteles]], que durante seis siglos fue casi lo único que el Occidente latino conoció de él, y, condenado a muerte, escribió en la cárcel [[obra.consolacion|La consolación de la filosofía]], uno de los libros más leídos de la Edad Media.",
+   "profundizacion": "Nació en una de las familias más nobles de Roma, poco antes de que fuera depuesto el último emperador de Occidente, y se formó en una cultura que todavía leía griego. Se propuso traducir al latín y comentar todas las obras de [[autor.platon|Platón]] y de [[autor.aristoteles|Aristóteles]] para mostrar que en lo esencial estaban de acuerdo, pero solo llegó a completar la parte de lógica: tradujo y comentó las Categorías y el tratado Sobre la interpretación de Aristóteles, y la Isagoge, la introducción a la lógica que había escrito [[autor.porfirio|Porfirio]]. En su comentario a la Isagoge dejó planteado el problema de los [[concepto.universales|universales]]: si los géneros y las especies, como «animal» o «ser humano», existen fuera de la mente o son solo conceptos. Escribió también tratados de teología, en los que definió a la [[concepto.persona|persona]] como «sustancia individual de naturaleza racional», y manuales de aritmética y de música que se estudiaron en las escuelas durante siglos. Fue cónsul en el 510, y en el 522, el año en que sus dos hijos fueron cónsules a la vez, Teodorico lo puso al frente de su administración. Poco después lo acusaron de conspirar con el emperador de Constantinopla y de practicar la magia, y fue condenado sin que pudiera defenderse. En la cárcel escribió [[obra.consolacion|La consolación de la filosofía]]: la Filosofía, en figura de mujer, lo visita y le enseña que [[tesis.felicidad_no_fortuna|los bienes que reparte la fortuna no dan la felicidad]], que solo está en Dios, el bien supremo, y que el conocimiento que Dios tiene de lo que haremos [[tesis.presciencia_libertad|no nos quita la libertad]], porque Dios vive en una [[concepto.eternidad|eternidad]] en la que lo ve todo a la vez.",
+   "anecdotas": "Al empezar el libro, mientras escribe versos lamentando su suerte, se le aparece una mujer de mirada viva y estatura cambiante: unas veces tiene el tamaño de una persona y otras parece tocar el cielo con la cabeza. Su vestido lleva bordadas una pi y una theta, las iniciales griegas de la filosofía práctica y de la teórica, y está desgarrado, porque cada escuela filosófica le arrancó un trozo. Es la Filosofía, que echa de su lado a las musas de la poesía y se queda a curarlo ([[obra.consolacion|La consolación de la filosofía]], libro I, prosas 1 y 3 · A). En el libro II, la Fortuna habla en su defensa: todo lo que dio era prestado, y su juego es hacer girar una rueda que sube a lo más alto lo que estaba abajo y baja lo que estaba arriba. La imagen de la rueda de la Fortuna, que se pintó en manuscritos e iglesias durante toda la Edad Media, se difundió sobre todo a partir de este libro ([[obra.consolacion|La consolación de la filosofía]], libro II, prosa 2 · A). Una crónica anónima de la época, el llamado Anónimo Valesiano, cuenta que lo tuvieron preso en el baptisterio de una iglesia y que lo ejecutaron en una finca llamada Calvenciano, en el norte de Italia: le apretaron una cuerda alrededor de la cabeza hasta que se le saltaron los ojos y lo remataron a garrotazos (Anónimo Valesiano, cap. 87 · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Anicius Manlius Severinus Boethius",
+     "url": "https://plato.stanford.edu/entries/boethius/",
+     "idioma": "en",
+     "autorEntrada": "John Marenbon"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Boethius (480-524)",
+     "url": "https://iep.utm.edu/boethius/",
+     "idioma": "en",
+     "autorEntrada": "Manuel Correia"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Universidad Estatal de Arizona",
+     "titulo": "Boecio, La consolación de la filosofía",
+     "url": "https://www.asu.edu/lib/jod/boethius/boetrans.html",
+     "idioma": "en",
+     "autorEntrada": "traducción inglesa de W. V. Cooper (1902)"
+    }
+   ]
+  },
+  {
+   "id": "obra.confesiones",
+   "tipo": "obra",
+   "nombre": "Confesiones",
+   "nombreOriginal": "Confessiones",
+   "alias": [
+    "Confessiones",
+    "Las confesiones"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.antropologia_filosofica",
+    "tematica.filosofia_religion",
+    "tematica.filosofia_mente"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 396,
+     "max": 401
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Hacia el 397-401; la Stanford Encyclopedia propone hacia el 396-400. Trece libros."
+   },
+   "resumen": "Trece libros en los que [[autor.agustin|Agustín]] cuenta a Dios su vida, desde la infancia hasta la conversión, y medita después sobre la memoria, [[tesis.tiempo_en_el_alma|el tiempo]] y la creación. Es la primera gran autobiografía de la literatura occidental."
+  },
+  {
+   "id": "obra.ciudad_de_dios",
+   "tipo": "obra",
+   "nombre": "La ciudad de Dios",
+   "nombreOriginal": "De civitate Dei",
+   "alias": [
+    "De civitate Dei",
+    "Ciudad de Dios"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.filosofia_historia",
+    "tematica.filosofia_politica",
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 412,
+     "max": 426
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "nota": "Empezada en el 412 y terminada en el 426. Veintidós libros."
+   },
+   "resumen": "Veintidós libros que [[autor.agustin|Agustín]] empezó tras el saqueo de Roma por los visigodos, en el 410, para responder a los paganos que culpaban a los cristianos. Distingue [[concepto.dos_ciudades|dos ciudades]] que se mezclan en la historia y es una de las primeras filosofías de la historia."
+  },
+  {
+   "id": "obra.consolacion",
+   "tipo": "obra",
+   "nombre": "La consolación de la filosofía",
+   "nombreOriginal": "De consolatione philosophiae",
+   "alias": [
+    "Consolación de la filosofía",
+    "De consolatione philosophiae",
+    "Consolatio"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_religion",
+    "tematica.cultivo_de_si"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 523,
+     "max": 526
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrita en la cárcel, a la espera de la ejecución. Cinco libros que alternan prosa y verso."
+   },
+   "resumen": "Diálogo en prosa y verso que [[autor.boecio|Boecio]] escribió en la cárcel, a la espera de su ejecución. La Filosofía, en figura de mujer, lo consuela mostrándole que [[tesis.felicidad_no_fortuna|la felicidad no depende de la fortuna]]. Fue uno de los libros más copiados y traducidos de la Edad Media."
+  },
+  {
+   "id": "concepto.iluminacion",
+   "tipo": "concepto",
+   "nombre": "iluminación",
+   "nombreOriginal": "illuminatio",
+   "terminoOriginal": "illuminatio",
+   "traduccion": "iluminación",
+   "alias": [
+    "iluminación divina",
+    "illuminatio"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos",
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.epistemologia"
+   ],
+   "resumen": "Para [[autor.agustin|Agustín]], la mente conoce las verdades necesarias e inmutables, como las de la matemática, porque Dios la ilumina, igual que el sol hace visibles los objetos. Fue la explicación del conocimiento más extendida en la Europa latina hasta el siglo XIII."
+  },
+  {
+   "id": "concepto.dos_ciudades",
+   "tipo": "concepto",
+   "nombre": "las dos ciudades",
+   "nombreOriginal": "duae civitates",
+   "terminoOriginal": "duae civitates",
+   "traduccion": "dos ciudades",
+   "alias": [
+    "ciudad terrena",
+    "ciudad de Dios",
+    "civitas Dei"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.filosofia_historia",
+    "tematica.filosofia_politica"
+   ],
+   "resumen": "La ciudad terrena y la ciudad de Dios, que [[autor.agustin|Agustín]] distingue en [[obra.ciudad_de_dios|La ciudad de Dios]]. No son dos estados, sino dos comunidades definidas por lo que aman: a una la hace el amor a uno mismo hasta el desprecio de Dios; a la otra, el amor a Dios hasta el desprecio de uno mismo. Están mezcladas en la historia y solo se separarán al final de los tiempos."
+  },
+  {
+   "id": "concepto.universales",
+   "tipo": "concepto",
+   "nombre": "universales",
+   "nombreOriginal": "universalia",
+   "terminoOriginal": "universalia",
+   "traduccion": "los universales: los géneros y las especies",
+   "notaTraduccion": "Lo que se dice de muchas cosas a la vez, como «animal» o «ser humano», frente a los individuos, como Sócrates o este caballo.",
+   "alias": [
+    "problema de los universales",
+    "querella de los universales",
+    "universalia"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos",
+    "contexto.siglo_xii",
+    "contexto.universidades",
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica",
+    "tematica.filosofia_lenguaje"
+   ],
+   "resumen": "Los géneros y las especies, como «animal» o «ser humano». La pregunta de si existen en las cosas, solo en la mente o son meros nombres la planteó [[autor.porfirio|Porfirio]], la transmitió [[autor.boecio|Boecio]] y fue la gran discusión de la filosofía medieval.",
+   "profundizacion": "En la Isagoge, su introducción a la lógica de [[autor.aristoteles|Aristóteles]], [[autor.porfirio|Porfirio]] dejó a un lado tres preguntas por demasiado difíciles: si los géneros y las especies existen o están solo en el pensamiento; si existen, si son corpóreos o incorpóreos; y si están separados de las cosas sensibles o en ellas. [[autor.boecio|Boecio]] las comentó y propuso una salida inspirada en Aristóteles: lo universal existe en las cosas singulares, y la mente lo separa al pensarlo. En el siglo XII la discusión se volvió central. [[autor.guillermo_champeaux|Guillermo de Champeaux]] defendía que lo universal es una realidad presente entera en cada individuo; su alumno [[autor.abelardo|Abelardo]] lo refutó y sostuvo que universales son las palabras en cuanto significan algo común a muchas cosas. En el siglo XIV, [[autor.ockham|Guillermo de Ockham]] y el [[escuela.nominalismo|nominalismo]] concluyeron que fuera de la mente solo existen individuos."
+  },
+  {
+   "id": "concepto.persona",
+   "tipo": "concepto",
+   "nombre": "persona",
+   "nombreOriginal": "persona",
+   "terminoOriginal": "persona",
+   "traduccion": "persona",
+   "notaTraduccion": "En latín significaba primero la máscara del actor; Boecio la relaciona con los términos griegos prósopon e hypóstasis.",
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.antropologia_filosofica"
+   ],
+   "resumen": "[[autor.boecio|Boecio]] la definió como «sustancia individual de naturaleza racional» para explicar las doctrinas cristianas de la Trinidad y de Cristo. Su definición se repitió durante toda la Edad Media y está en el origen de la idea moderna de persona."
+  },
+  {
+   "id": "concepto.eternidad",
+   "tipo": "concepto",
+   "nombre": "eternidad",
+   "nombreOriginal": "aeternitas",
+   "terminoOriginal": "aeternitas",
+   "traduccion": "eternidad",
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "Para [[autor.boecio|Boecio]], la eternidad no es un tiempo sin fin, sino «la posesión entera, simultánea y perfecta de una vida sin término»: Dios no recorre el tiempo, sino que lo ve todo a la vez, como un presente. Lo explica al final de [[obra.consolacion|La consolación de la filosofía]]."
+  },
+  {
+   "id": "tesis.mal_privacion",
+   "tipo": "tesis",
+   "nombre": "El mal es privación de bien",
+   "enunciado": "El mal no es una sustancia ni una cosa, sino la falta del bien que algo debería tener.",
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.etica"
+   ],
+   "resumen": "Tesis que [[autor.agustin|Agustín]] tomó de los [[escuela.neoplatonismo|neoplatónicos]] contra los maniqueos, que veían en el mal una sustancia enfrentada al bien. Todo lo que existe es bueno en cuanto existe; el mal moral nace de la voluntad libre, que se aparta de un bien mayor por otro menor."
+  },
+  {
+   "id": "tesis.si_fallor_sum",
+   "tipo": "tesis",
+   "nombre": "Si me engaño, existo",
+   "enunciado": "Si me engaño, existo: quien se engaña tiene que existir para engañarse.",
+   "alias": [
+    "si fallor, sum"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.filosofia_mente"
+   ],
+   "resumen": "Respuesta de [[autor.agustin|Agustín]] a los escépticos de la Academia, en [[obra.ciudad_de_dios|La ciudad de Dios]] (libro XI, cap. 26): aunque dude de todo, de su propia existencia no puede dudar. Doce siglos después, el filósofo francés René Descartes llegó a una idea muy parecida."
+  },
+  {
+   "id": "tesis.tiempo_en_el_alma",
+   "tipo": "tesis",
+   "nombre": "El tiempo está en el alma",
+   "enunciado": "El tiempo no existe fuera del alma: el pasado es memoria, el presente es atención y el futuro es espera.",
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_mente"
+   ],
+   "resumen": "«¿Qué es, pues, el tiempo? Si nadie me lo pregunta, lo sé; si quiero explicárselo a quien me lo pregunta, no lo sé.» Así empieza [[autor.agustin|Agustín]], en el libro XI de las [[obra.confesiones|Confesiones]], una investigación que concluye que el tiempo es una distensión del alma."
+  },
+  {
+   "id": "tesis.felicidad_no_fortuna",
+   "tipo": "tesis",
+   "nombre": "La felicidad no depende de la fortuna",
+   "enunciado": "Los bienes que reparte la fortuna (riqueza, honores, poder, fama y placer) no dan la felicidad; solo la da el bien supremo, que es Dios.",
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si"
+   ],
+   "resumen": "Lección central de [[obra.consolacion|La consolación de la filosofía]]: [[autor.boecio|Boecio]], que lo había tenido todo y lo ha perdido, aprende de la Filosofía que nadie puede perder lo que de verdad hace feliz."
+  },
+  {
+   "id": "tesis.presciencia_libertad",
+   "tipo": "tesis",
+   "nombre": "Saber lo que haremos no nos quita la libertad",
+   "enunciado": "Que Dios sepa lo que haremos no nos obliga a hacerlo, porque Dios no lo prevé: lo ve en su presente eterno.",
+   "alias": [
+    "presciencia divina y libertad"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "resumen": "Respuesta de [[autor.boecio|Boecio]], al final de [[obra.consolacion|La consolación de la filosofía]], a un viejo problema: si Dios lo sabe todo de antemano, parece que no somos libres. Igual que ver a alguien andar no lo obliga a andar, el saber de Dios, que vive en la [[concepto.eternidad|eternidad]], no hace necesario lo que conoce."
   }
  ],
- "relaciones": []
+ "relaciones": [
+  {
+   "id": "la-0001",
+   "origen": "autor.agustin",
+   "tipo": "escribio",
+   "destino": "obra.confesiones",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0002",
+   "origen": "autor.agustin",
+   "tipo": "escribio",
+   "destino": "obra.ciudad_de_dios",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0003",
+   "origen": "autor.boecio",
+   "tipo": "escribio",
+   "destino": "obra.consolacion",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0004",
+   "origen": "autor.agustin",
+   "tipo": "defiende",
+   "destino": "tesis.mal_privacion",
+   "certeza": "D",
+   "fuente": "Confesiones VII 12"
+  },
+  {
+   "id": "la-0005",
+   "origen": "autor.agustin",
+   "tipo": "defiende",
+   "destino": "tesis.si_fallor_sum",
+   "certeza": "D",
+   "fuente": "La ciudad de Dios XI 26"
+  },
+  {
+   "id": "la-0006",
+   "origen": "autor.agustin",
+   "tipo": "defiende",
+   "destino": "tesis.tiempo_en_el_alma",
+   "certeza": "D",
+   "fuente": "Confesiones XI"
+  },
+  {
+   "id": "la-0007",
+   "origen": "autor.agustin",
+   "tipo": "desarrolla",
+   "destino": "concepto.iluminacion",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0008",
+   "origen": "autor.agustin",
+   "tipo": "desarrolla",
+   "destino": "concepto.dos_ciudades",
+   "certeza": "D",
+   "fuente": "La ciudad de Dios XIV 28"
+  },
+  {
+   "id": "la-0009",
+   "origen": "autor.boecio",
+   "tipo": "defiende",
+   "destino": "tesis.felicidad_no_fortuna",
+   "certeza": "D",
+   "fuente": "La consolación de la filosofía, libros II y III"
+  },
+  {
+   "id": "la-0010",
+   "origen": "autor.boecio",
+   "tipo": "defiende",
+   "destino": "tesis.presciencia_libertad",
+   "certeza": "D",
+   "fuente": "La consolación de la filosofía, libro V"
+  },
+  {
+   "id": "la-0011",
+   "origen": "autor.boecio",
+   "tipo": "desarrolla",
+   "destino": "concepto.eternidad",
+   "certeza": "D",
+   "fuente": "La consolación de la filosofía, libro V, prosa 6"
+  },
+  {
+   "id": "la-0012",
+   "origen": "autor.boecio",
+   "tipo": "desarrolla",
+   "destino": "concepto.persona",
+   "certeza": "D",
+   "fuente": "Contra Eutiques y Nestorio, cap. 3"
+  },
+  {
+   "id": "la-0013",
+   "origen": "autor.boecio",
+   "tipo": "desarrolla",
+   "destino": "concepto.universales",
+   "certeza": "D",
+   "fuente": "Segundo comentario a la Isagoge de Porfirio, libro I"
+  },
+  {
+   "id": "la-0014",
+   "origen": "obra.confesiones",
+   "tipo": "trata_sobre",
+   "destino": "tesis.tiempo_en_el_alma",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0015",
+   "origen": "obra.confesiones",
+   "tipo": "trata_sobre",
+   "destino": "tesis.mal_privacion",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0016",
+   "origen": "obra.ciudad_de_dios",
+   "tipo": "trata_sobre",
+   "destino": "concepto.dos_ciudades",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0017",
+   "origen": "obra.ciudad_de_dios",
+   "tipo": "trata_sobre",
+   "destino": "tesis.si_fallor_sum",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0018",
+   "origen": "obra.consolacion",
+   "tipo": "trata_sobre",
+   "destino": "tesis.felicidad_no_fortuna",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0019",
+   "origen": "obra.consolacion",
+   "tipo": "trata_sobre",
+   "destino": "tesis.presciencia_libertad",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0020",
+   "origen": "obra.consolacion",
+   "tipo": "trata_sobre",
+   "destino": "concepto.eternidad",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0021",
+   "origen": "tesis.presciencia_libertad",
+   "tipo": "trata_sobre",
+   "destino": "concepto.eternidad",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0022",
+   "origen": "autor.ciceron",
+   "tipo": "influyo_en",
+   "destino": "autor.agustin",
+   "certeza": "D",
+   "fuente": "Confesiones III 4",
+   "nota": "A los diecinueve años, la lectura del Hortensio, un diálogo de [[autor.ciceron|Cicerón]] hoy perdido, le despertó el amor por la filosofía."
+  },
+  {
+   "id": "la-0023",
+   "origen": "autor.plotino",
+   "tipo": "influyo_en",
+   "destino": "autor.agustin",
+   "certeza": "D",
+   "fuente": "Confesiones VII 9; La ciudad de Dios IX 17",
+   "nota": "En Milán leyó, traducidos al latín, los «libros de los platónicos»; en La ciudad de Dios cita a [[autor.plotino|Plotino]] por su nombre."
+  },
+  {
+   "id": "la-0024",
+   "origen": "autor.porfirio",
+   "tipo": "influyo_en",
+   "destino": "autor.agustin",
+   "certeza": "D",
+   "fuente": "La ciudad de Dios X",
+   "nota": "Le dedica buena parte del libro X de La ciudad de Dios: lo admira como filósofo y lo combate como enemigo del cristianismo."
+  },
+  {
+   "id": "la-0025",
+   "origen": "autor.ambrosio",
+   "tipo": "influyo_en",
+   "destino": "autor.agustin",
+   "certeza": "D",
+   "fuente": "Confesiones V 13-14 y VI 3-4",
+   "nota": "Sus sermones le enseñaron a leer la Biblia sin tomarla al pie de la letra, y lo bautizó en el 387."
+  },
+  {
+   "id": "la-0026",
+   "origen": "autor.agustin",
+   "tipo": "influyo_en",
+   "destino": "autor.boecio",
+   "certeza": "D",
+   "fuente": "Boecio, Sobre la Trinidad, prólogo",
+   "nota": "Boecio presenta su tratado como un intento de ver si dan fruto las semillas que dejaron los escritos de Agustín."
+  },
+  {
+   "id": "la-0027",
+   "origen": "autor.aristoteles",
+   "tipo": "influyo_en",
+   "destino": "autor.boecio",
+   "certeza": "D",
+   "fuente": "Boecio, traducciones y comentarios de las Categorías y de Sobre la interpretación",
+   "nota": "Tradujo y comentó su lógica, que fue durante seis siglos casi todo lo que el Occidente latino conoció de [[autor.aristoteles|Aristóteles]]."
+  },
+  {
+   "id": "la-0028",
+   "origen": "autor.porfirio",
+   "tipo": "influyo_en",
+   "destino": "autor.boecio",
+   "certeza": "D",
+   "fuente": "Boecio, dos comentarios a la Isagoge de Porfirio",
+   "nota": "Comentó dos veces la Isagoge, y en su comentario quedó planteado para la Edad Media el problema de los [[concepto.universales|universales]]."
+  },
+  {
+   "id": "la-0029",
+   "origen": "tesis.si_fallor_sum",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D",
+   "nota": "Aunque dude de todo, quien duda no puede dudar de que existe."
+  },
+  {
+   "id": "la-0030",
+   "origen": "concepto.iluminacion",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D",
+   "nota": "Conocemos las verdades necesarias porque Dios ilumina la mente."
+  },
+  {
+   "id": "la-0031",
+   "origen": "tesis.mal_privacion",
+   "tipo": "responde_a",
+   "destino": "pregunta.sufre_el_justo",
+   "certeza": "D",
+   "nota": "Para [[autor.agustin|Agustín]], Dios no creó el mal: es falta de bien y nace de la voluntad libre."
+  },
+  {
+   "id": "la-0032",
+   "origen": "tesis.felicidad_no_fortuna",
+   "tipo": "responde_a",
+   "destino": "pregunta.sufre_el_justo",
+   "certeza": "D",
+   "nota": "[[autor.boecio|Boecio]], condenado injustamente, aprende que la fortuna no puede quitarle el verdadero bien."
+  },
+  {
+   "id": "la-0033",
+   "origen": "tesis.felicidad_no_fortuna",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0034",
+   "origen": "concepto.dos_ciudades",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_gobernar",
+   "certeza": "D",
+   "nota": "Ningún estado de este mundo es la ciudad de Dios: la justicia plena no se alcanza en la historia."
+  }
+ ]
 }
