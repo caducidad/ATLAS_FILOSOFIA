@@ -89,13 +89,14 @@ Fechas contrastadas con la Stanford Encyclopedia of Philosophy (SEP), la Interne
 | Juan Duns Escoto | 1263-1266, Duns – 8 nov. 1308, Colonia | SEP | Dumont (2023) adelanta el nacimiento a 1263-1264 por los registros de su ordenación |
 | Guillermo de Ockham | finales de 1287 o principios de 1288 – noche del 9 al 10 abr. 1347 | SEP | Nacimiento estimado a partir de su carrera |
 | Maestro Eckhart | c. 1260, Tambach – c. 28 ene. 1328 | SEP | Lugar de la muerte desconocido |
+| Eloísa | c. 1090-1100 – 1163 o 1164 | Robl, *The birth of Heloise* | La fecha tradicional de nacimiento, c. 1101, es probablemente tardía |
+| Christine de Pizan | 1364, Venecia – c. 1430 | EB | *La ciudad de las damas*, 1405 |
 
 **Círculo 2** (figuras secundarias):
 
 | Autor | Fechas | Fuente |
 | --- | --- | --- |
 | Isidoro de Sevilla | c. 560 – 4 abr. 636 | EB (nacido en Cartagena o en Sevilla) |
-| Eloísa | c. 1090-1100 – 1163 o 1164 | Robl, *The birth of Heloise*; la fecha tradicional, c. 1101, es probablemente tardía |
 | Hildegarda de Bingen | 1098 – 17 sep. 1179, Rupertsberg | EB |
 | Bernardo de Claraval | 1090 – 1153 | por cotejar |
 | Hugo de San Víctor | c. 1096 – 1141 | por cotejar |
@@ -106,11 +107,10 @@ Fechas contrastadas con la Stanford Encyclopedia of Philosophy (SEP), la Interne
 | Marsilio de Padua | 1275-1280 – en o antes de 1343, Múnich | SEP; *El defensor de la paz*, 24 jun. 1324 |
 | Juan Buridán | c. 1300 – entre 1358 y 1361 | SEP |
 | Nicolás Oresme | c. 1320 – 11 jul. 1382 | SEP |
-| Christine de Pizan | 1364, Venecia – c. 1430 | EB; *La ciudad de las damas*, 1405 |
 
 **Círculo 3** (figuras puente): Ambrosio de Milán, Mónica (madre de Agustín), Pelagio, Teodorico el Grande (el rey que mandó ejecutar a Boecio), Casiodoro, Beda, Alcuino, Carlomagno, Carlos el Calvo, Gottschalk, Gaunilón, Bernardo de Chartres, Esteban Tempier (obispo de París, condenas de 1270 y 1277), Luis de Baviera, el papa Juan XXII y Dante. Sus fechas se cotejan al escribir cada ficha.
 
-**Dudas de canon, para que Juan decida si quiere:** Eloísa, Hildegarda y Christine de Pizan van en el círculo 2, como Hipatia, Hiparquia y Ban Zhao en la Antigüedad; las tres tienen hoy bibliografía filosófica propia y podrían subir al 1. Isidoro de Sevilla tiene más peso en la historia cultural de España que en la de la filosofía; va en el 2.
+**Decidido por Juan (18 de octubre): Eloísa y Christine de Pizan suben al círculo 1.** El criterio es el de la Antigüedad: sube quien conserva obra con argumentos filosóficos propios (Hipatia se quedó en el 2 porque no conservamos nada suyo). Eloísa discute con Abelardo en sus cartas sobre la intención moral y el matrimonio; Christine escribe filosofía política y moral y abre la «querella de las mujeres». Hildegarda, cuya obra es sobre todo visionaria, teológica, médica y musical, sigue en el 2, como Isidoro de Sevilla.
 
 ### Obras, conceptos y tesis que saldrán
 
