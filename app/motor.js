@@ -322,7 +322,9 @@
       items.push({ id: n.id, n, ext, carril: valorCarril(n, cfg) || "_", fila: 0 });
     }
     const epocas = [...E.nodos.values()].filter((n) => n.tipo === "contexto" && n.horquilla);
-    const minA = d3.min(items, (d) => d.ext.a), maxA = d3.max(items, (d) => d.ext.b);
+    // El tramo visible abarca los autores y también las épocas, para que ninguna quede cortada.
+    const minA = Math.min(d3.min(items, (d) => d.ext.a) ?? Infinity, d3.min(epocas, (n) => n.horquilla.inicio) ?? Infinity);
+    const maxA = Math.max(d3.max(items, (d) => d.ext.b) ?? -Infinity, d3.max(epocas, (n) => n.horquilla.fin) ?? -Infinity);
     const x0 = d3.scaleLinear().domain([Math.min(minA, -2600), Math.max(maxA, 650)]).range([margenIzq + 10, ancho - 20]);
     let x = x0.copy();
 
@@ -406,7 +408,21 @@
       ge.classed("superada", (e) => !!(leerProgreso().niveles[pid(e.id)] || {}).superado);
       ge.select("rect").attr("x", (e) => x(e.n.horquilla.inicio)).attr("y", (e) => e.yb + ty + 8 + e.fila * epocaAlto)
         .attr("width", (e) => Math.max(2, x(e.n.horquilla.fin) - x(e.n.horquilla.inicio)));
-      ge.select("text").attr("x", (e) => Math.max(x(e.n.horquilla.inicio), margenIzq + 6) + 4).attr("y", (e) => e.yb + ty + 18.5 + e.fila * epocaAlto);
+      // El rótulo de cada época no pasa de su franja: se recorta con puntos suspensivos
+      // y desaparece si no cabe o si la franja ya ha salido por la izquierda.
+      ge.select("text").attr("y", (e) => e.yb + ty + 18.5 + e.fila * epocaAlto).each(function (e) {
+        const x1 = Math.max(x(e.n.horquilla.inicio), margenIzq + 6) + 4;
+        const libre = x(e.n.horquilla.fin) - x1 - 4;
+        this.setAttribute("x", x1);
+        if (libre < 28) { this.setAttribute("opacity", 0); return; }
+        this.setAttribute("opacity", 1);
+        this.textContent = e.n.nombre;
+        const largo = this.getComputedTextLength();
+        if (largo <= libre) return;
+        let n = Math.max(1, Math.floor(e.n.nombre.length * libre / largo) - 1);
+        this.textContent = e.n.nombre.slice(0, n).trimEnd() + "…";
+        while (n > 1 && this.getComputedTextLength() > libre) this.textContent = e.n.nombre.slice(0, --n).trimEnd() + "…";
+      });
 
       // Autores y obras
       const todos = carriles.flatMap((L) => L.lista);
