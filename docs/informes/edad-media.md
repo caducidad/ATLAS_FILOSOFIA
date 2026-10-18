@@ -187,3 +187,31 @@ Contrastada con catálogos de librerías y bibliotecas el 18 de octubre de 2026.
 - **La línea del tiempo se alarga hasta 1450 y pasa de cinco a siete carriles.** El zoom y el tamaño de letra, que estaban aparcados, se vuelven más necesarios; conviene hacerlos antes de publicar la segunda tradición medieval.
 - **Las fuentes latinas están abiertas:** The Latin Library, New Advent (con la *Suma* y las obras de Agustín), el Corpus Thomisticum (en latín) y las traducciones antiguas de Project Gutenberg. Las árabes y las chinas costarán más; las chinas, de nuevo, en el Chinese Text Project desde el Chrome de Juan.
 - **Imágenes:** casi todo son miniaturas de manuscritos, vidrieras y retratos imaginarios posteriores. Hay que decir siempre en el pie de qué siglo es la imagen.
+
+## 8. Registro de la redacción
+
+Lo que se ha cotejado con el texto y lo que no, ficha a ficha, para que la revisión sepa dónde mirar.
+
+### Europa latina · 18 de octubre de 2026
+
+**Agustín, Ambrosio y Boecio.**
+- Cotejado con el latín de The Latin Library: *Confesiones* II 4, VI 3, VIII 7 y VIII 12; *La ciudad de Dios* XI 26.
+- La *Consolación*, libro I, prosa 1 y libro II, prosa 2: cotejada con la traducción inglesa de W. V. Cooper (1902).
+- El *Anónimo Valesiano*: cotejado en la traducción de la Loeb publicada por Perseus.
+- Posidio, *Vida de Agustín* 31: solo a través de una cita secundaria; falta abrir el texto.
+
+**Anselmo.**
+- El prólogo y los capítulos 1 y 2 del *Proslogion*: cotejados con la traducción de S. N. Deane (1903).
+- Eadmero, *Vida de san Anselmo* I 19: a través de un estudio que resume el pasaje (*Nuntius Antiquus*, Universidad Federal de Minas Gerais).
+
+**Abelardo y Eloísa.**
+- La *Historia de mis desventuras*, caps. II, VI, VII, X y XI: cotejada con la traducción de H. A. Bellows en el Medieval Sourcebook de Fordham.
+- La primera carta de Eloísa: cotejada en latín y en la traducción de M. M. McLaughlin (Epistolae, Universidad de Columbia).
+- La carta 115 de Pedro el Venerable: revisada de memoria; falta abrirla.
+
+**Eriúgena.**
+- Las dos historias de Guillermo de Malmesbury (la mesa y los punzones) no se han podido abrir en el texto. Van con fiabilidad C y L, y la segunda con la advertencia de la Stanford Encyclopedia, que la considera apócrifa.
+
+**Pendiente en todas:**
+- Imágenes: Wikimedia y Wikidata pidieron permiso y no se pudo dar a tiempo.
+- Fechas de las figuras puente (Gottschalk, Gaunilón, Guillermo de Champeaux, Carlos el Calvo), revisadas de memoria.
