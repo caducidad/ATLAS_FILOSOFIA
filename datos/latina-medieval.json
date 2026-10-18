@@ -959,7 +959,8 @@
     "tematica.logica"
    ],
    "escuelas": [
-    "escuela.san_victor"
+    "escuela.san_victor",
+    "escuela.escolastica"
    ],
    "circulo": 3,
    "lugarOrigen": "Champeaux, cerca de Melun (Francia)",
@@ -1638,7 +1639,8 @@
     "tematica.filosofia_mente"
    ],
    "escuelas": [
-    "escuela.averroismo_latino"
+    "escuela.averroismo_latino",
+    "escuela.escolastica"
    ],
    "circulo": 2,
    "lugarOrigen": "Ducado de Brabante (hoy entre Bélgica y los Países Bajos)",
@@ -2032,6 +2034,856 @@
     "tematica.filosofia_religion"
    ],
    "resumen": "Postura de [[autor.tomas_aquino|Tomás de Aquino]] en el debate sobre la eternidad del mundo, entre los [[escuela.averroismo_latino|averroístas]], que seguían a [[autor.aristoteles|Aristóteles]] y lo tenían por eterno, y [[autor.buenaventura|Buenaventura]], que creía demostrable su comienzo. Para Tomás, un mundo creado por Dios desde siempre no sería contradictorio."
+  },
+  {
+   "id": "autor.llull",
+   "tipo": "autor",
+   "nombre": "Ramon Llull",
+   "nombreOriginal": "Ramon Llull",
+   "alias": [
+    "Raimundo Lulio",
+    "Ramón Llull",
+    "Raimundus Lullus",
+    "Lulio",
+    "Doctor iluminado"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades",
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.logica",
+    "tematica.metafisica"
+   ],
+   "escuelas": [],
+   "circulo": 1,
+   "lugarOrigen": "Mallorca",
+   "fechas": {
+    "nacimiento": {
+     "min": 1232,
+     "max": 1233
+    },
+    "muerte": {
+     "min": 1316,
+     "max": 1316
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "1232 o 1233 – después de marzo de 1316, en Mallorca."
+   },
+   "resumen": "Pensador mallorquín, laico, que escribió más de doscientas obras en catalán, en árabe y en latín. Inventó un [[concepto.arte_luliana|Arte]], un método que combina mediante figuras y ruedas los atributos de Dios, para demostrar las verdades de la fe a judíos y musulmanes con razones que cualquiera pudiera aceptar. Es también uno de los padres de la prosa literaria en catalán.",
+   "profundizacion": "Hijo de una familia de colonos catalanes llegados a Mallorca tras la conquista de la isla por el rey Jaime I, fue senescal en la corte del infante que sería rey de Mallorca, se casó y tuvo hijos. Hacia los treinta años, según su biografía, unas visiones de Cristo crucificado lo llevaron a dejarlo todo para dedicarse a tres fines: convertir a los no cristianos aunque le costara la vida, escribir el mejor libro del mundo contra los errores de los infieles y conseguir que se fundaran escuelas para aprender sus lenguas. Aprendió árabe durante nueve años con un esclavo musulmán y logró que el rey fundara en Miramar, en la costa de Mallorca, un colegio donde trece franciscanos estudiaran árabe (1276). Su [[concepto.arte_luliana|Arte]] reduce todo el saber a unos pocos principios, las dignidades de Dios, como la bondad, la grandeza o la eternidad, que se combinan con ruedas giratorias para responder a cualquier pregunta; su última versión es el [[obra.ars_magna|Arte general última]]. En el [[obra.libro_gentil|Libro del gentil y los tres sabios]], un judío, un cristiano y un musulmán exponen su fe ante un pagano sin discutir entre ellos, y al final se despiden sin saber cuál ha elegido. Viajó por todo el Mediterráneo, predicó en el norte de África, donde lo encarcelaron y lo expulsaron, y pidió a papas y reyes que apoyaran su proyecto. Siglos después, su Arte combinatoria interesó al filósofo alemán Leibniz.",
+   "anecdotas": "Su biografía, escrita en 1311 por un amigo a partir de sus recuerdos, cuenta que una noche, mientras componía una canción para una dama de la que estaba locamente enamorado, vio a Cristo crucificado como suspendido en el aire; la visión se repitió hasta cinco veces, y entonces decidió cambiar de vida (Vida coetánea, cap. 2-5 · B). La misma biografía cuenta que el esclavo musulmán que le enseñaba árabe blasfemó un día contra Cristo; Llull le pegó, y el esclavo lo atacó después con un cuchillo. Encerrado mientras Llull decidía qué hacer con él, el esclavo se ahorcó en la celda (Vida coetánea, cap. 11-13 · B). Según una tradición posterior, murió apedreado por una multitud en Bugía, en el norte de África; su biografía no lo cuenta, y lo más probable es que muriera en Mallorca (tradición luliana · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Ramon Llull",
+     "url": "https://plato.stanford.edu/entries/llull/",
+     "idioma": "en",
+     "autorEntrada": "Ernesto Priani"
+    }
+   ]
+  },
+  {
+   "id": "autor.duns_escoto",
+   "tipo": "autor",
+   "nombre": "Juan Duns Escoto",
+   "nombreOriginal": "Ioannes Duns Scotus",
+   "alias": [
+    "Duns Escoto",
+    "Escoto",
+    "John Duns Scotus",
+    "Doctor sutil"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades",
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "escuelas": [
+    "escuela.escolastica",
+    "escuela.escotismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Duns, en el sur de Escocia",
+   "fechas": {
+    "nacimiento": {
+     "min": 1263,
+     "max": 1266
+    },
+    "muerte": {
+     "min": 1308,
+     "max": 1308
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1265 – 8 de noviembre de 1308, en Colonia. Stephen Dumont (2023) adelanta el nacimiento a 1263-1264 a partir de los registros de su ordenación."
+   },
+   "resumen": "Fraile franciscano escocés, llamado el doctor sutil por la finura de sus distinciones. Sostuvo que el ser se dice de Dios y de las criaturas [[concepto.univocidad|en el mismo sentido]], que cada individuo lo es por una [[concepto.haecceitas|«estidad»]] propia y que la voluntad libre está por encima del entendimiento.",
+   "profundizacion": "Ordenado sacerdote en 1291, enseñó en Oxford, en Cambridge y en París, y en 1303 tuvo que salir de Francia por ponerse del lado del papa en su disputa con el rey Felipe IV. Murió en Colonia con unos cuarenta años, dejando inacabada su obra principal, la [[obra.ordinatio|Ordinatio]], un comentario a las [[obra.sentencias|Sentencias]] de [[autor.pedro_lombardo|Pedro Lombardo]]. Frente a la [[concepto.analogia|analogía]] de [[autor.tomas_aquino|Tomás de Aquino]], defendió que conceptos como «ser», «bueno» o «sabio» se dicen [[concepto.univocidad|unívocamente]], con el mismo sentido, de Dios y de las criaturas, aunque en grado infinito o finito: si no, no podríamos saber nada de Dios a partir del mundo. Para explicar qué hace que [[autor.socrates|Sócrates]] sea este individuo y no otro, propuso la [[concepto.haecceitas|haecceitas]], algo positivo que hace única a cada cosa. Introdujo también la distinción formal, entre aspectos que en la realidad son una sola cosa pero se pueden pensar por separado, como la sabiduría y la bondad de Dios. Dio a la voluntad y a la libertad, en Dios y en el ser humano, un lugar más alto que al entendimiento, y defendió en París que María pudo ser concebida sin pecado original, cuando muchos teólogos lo negaban. Sus seguidores formaron el [[escuela.escotismo|escotismo]].",
+   "anecdotas": "En 1303, cuando el rey Felipe IV de Francia se enfrentó al papa Bonifacio VIII, sus agentes hicieron un censo de los franciscanos de París: los que no eran franceses y se pusieron de parte del papa, entre ellos Escoto, tuvieron tres días para salir del país (lista del convento franciscano de París, junio de 1303 · A). En su sepulcro de Colonia se lee un epitafio que resume su vida: «Escocia me dio a luz, Inglaterra me acogió, Francia me enseñó, Colonia me guarda». Es una inscripción posterior, no de su época (epitafio de la iglesia de los franciscanos de Colonia · C).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Juan Duns Escoto",
+     "url": "https://www.philosophica.info/voces/escoto/Escoto.html",
+     "idioma": "es",
+     "autorEntrada": "Antonio Petagine"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "John Duns Scotus",
+     "url": "https://plato.stanford.edu/entries/duns-scotus/",
+     "idioma": "en",
+     "autorEntrada": "Thomas Williams"
+    }
+   ]
+  },
+  {
+   "id": "autor.ockham",
+   "tipo": "autor",
+   "nombre": "Guillermo de Ockham",
+   "nombreOriginal": "Guillelmus de Ockham",
+   "alias": [
+    "Ockham",
+    "Occam",
+    "William of Ockham",
+    "Guillermo de Occam",
+    "Venerable iniciador"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.metafisica",
+    "tematica.filosofia_lenguaje",
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [
+    "escuela.escolastica",
+    "escuela.nominalismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Ockham, en el condado de Surrey (Inglaterra)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1287,
+     "max": 1288
+    },
+    "muerte": {
+     "min": 1347,
+     "max": 1347
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Finales de 1287 o principios de 1288 – noche del 9 al 10 de abril de 1347, en Múnich o cerca."
+   },
+   "resumen": "Fraile franciscano inglés, el gran lógico del siglo XIV. Sostuvo que fuera de la mente [[tesis.solo_individuos|solo existen individuos]] y que no hay que suponer más entidades de las necesarias, el principio conocido como [[concepto.navaja_ockham|navaja de Ockham]]. Huido de Aviñón, escribió contra el poder del papa bajo la protección del emperador.",
+   "profundizacion": "Estudió y enseñó en Oxford, pero nunca llegó a recibir el título de maestro: de ahí su apodo, el «venerable iniciador». Hacia 1323 lo acusaron de herejía y en 1324 lo llamaron a Aviñón, donde residía el papa, para examinar sus obras; nunca volvió a Inglaterra y sus tesis no llegaron a ser condenadas. En su lógica, recogida en la [[obra.suma_logica|Suma de lógica]], los [[concepto.universales|universales]] no son cosas, sino signos: conceptos que la mente forma y que significan a muchos individuos a la vez. Por eso critica a [[autor.duns_escoto|Duns Escoto]], que admitía en las cosas una naturaleza común. Aplicó con rigor el principio de no multiplicar los entes sin necesidad, y con él eliminó muchas de las entidades que admitían sus predecesores. En Aviñón tomó partido por los franciscanos que defendían que Cristo y los apóstoles no tuvieron propiedades, contra el papa [[autor.juan_xxii|Juan XXII]], y en 1328 huyó con el superior de su orden y se refugió con el emperador [[autor.luis_de_baviera|Luis de Baviera]], primero en Pisa y después en Múnich. Desde allí escribió contra el poder de los papas sobre los reyes y en defensa de la libertad de los fieles. Su lógica y su física, la «vía moderna», dominaron muchas universidades durante dos siglos.",
+   "anecdotas": "La fórmula de la navaja, «no hay que multiplicar los entes sin necesidad», no aparece en ninguna de sus obras, como advierte la Stanford Encyclopedia: es un resumen que se hizo después. Él escribe cosas parecidas, como que no hay que suponer una pluralidad sin necesidad (Ockham, Comentario a las Sentencias, libro I · A). La noche del 26 de mayo de 1328 huyó de Aviñón con el superior de los franciscanos, Miguel de Cesena, y el papa los excomulgó por haberse marchado sin permiso (bula de excomunión de Juan XXII, 6 de junio de 1328 · A). Se le atribuye haber dicho al emperador: «Defiéndeme con la espada y yo te defenderé con la pluma». No está en sus obras; la recogen autores muy posteriores (tradición posterior · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Guillermo de Ockham",
+     "url": "https://www.philosophica.info/voces/ockham/Ockham.html",
+     "idioma": "es",
+     "autorEntrada": "Olga L. Larre"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "William of Ockham",
+     "url": "https://plato.stanford.edu/entries/ockham/",
+     "idioma": "en",
+     "autorEntrada": "Jenny Pelletier"
+    }
+   ]
+  },
+  {
+   "id": "autor.eckhart",
+   "tipo": "autor",
+   "nombre": "Maestro Eckhart",
+   "nombreOriginal": "Meister Eckhart",
+   "alias": [
+    "Eckhart",
+    "Eckhart de Hochheim",
+    "Meister Eckhart",
+    "Juan Eckhart"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.cultivo_de_si",
+    "tematica.metafisica"
+   ],
+   "escuelas": [
+    "escuela.mistica_renana"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Tambach, cerca de Erfurt, en Turingia (hoy en Alemania)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1258,
+     "max": 1262
+    },
+    "muerte": {
+     "min": 1328,
+     "max": 1328
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1260 – probablemente el 28 de enero de 1328; no se sabe dónde murió."
+   },
+   "resumen": "Fraile dominico alemán, maestro en París y predicador. En sus sermones en alemán, dirigidos a monjas y a fieles corrientes, enseñó que el alma, [[concepto.desasimiento|desprendida de todo]], puede encontrar a Dios en su [[concepto.fondo_alma|fondo]] más íntimo, donde Dios y el alma son uno. Fue juzgado por herejía y sus tesis se condenaron cuando ya había muerto.",
+   "profundizacion": "Fue dos veces maestro de teología en París, como antes [[autor.tomas_aquino|Tomás de Aquino]], y ocupó altos cargos en su orden en Erfurt, en Sajonia y en Estrasburgo, donde predicó a las comunidades de mujeres religiosas de la región del Rin. Escribió en latín obras de escuela y en alemán [[obra.sermones_eckhart|sermones]] y tratados que fueron decisivos para la lengua filosófica alemana. Enseña que hay que desprenderse no solo de las cosas, sino de la propia voluntad, de las imágenes e incluso de las ideas sobre Dios: ese [[concepto.desasimiento|desasimiento]] deja el alma vacía para que Dios nazca en ella. En el [[concepto.fondo_alma|fondo del alma]] hay algo increado, una chispa, donde Dios y el alma son una sola cosa. Por debajo de Dios tal como lo conocemos, con sus nombres y atributos, habla de la deidad, un abismo sin nombre. Desde 1325 se reunieron listas de frases suyas sospechosas; Eckhart se defendió ante el tribunal del arzobispo de Colonia y apeló al papa, y murió mientras se examinaba su caso en Aviñón. En 1329 el papa [[autor.juan_xxii|Juan XXII]] condenó veintiocho de sus proposiciones, aunque a él no lo declaró hereje. Sus seguidores forman la [[escuela.mistica_renana|mística renana]].",
+   "anecdotas": "En el sermón sobre los pobres de espíritu dice que ruega a Dios que lo libre de Dios: pide quedar libre de la idea de un Dios separado de él, para volver a lo que era antes de ser creado (Maestro Eckhart, sermón 52 · A). El 13 de febrero de 1327 declaró en público, en la iglesia de los dominicos de Colonia, que si en sus escritos o sermones había algún error contra la fe, lo retiraba de antemano (declaración de Eckhart en Colonia, 1327 · A).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Meister Eckhart",
+     "url": "https://plato.stanford.edu/entries/meister-eckhart/",
+     "idioma": "en",
+     "autorEntrada": "Amber L. Griffioen"
+    }
+   ]
+  },
+  {
+   "id": "autor.christine_pizan",
+   "tipo": "autor",
+   "nombre": "Christine de Pizan",
+   "nombreOriginal": "Christine de Pizan",
+   "alias": [
+    "Cristina de Pizán",
+    "Christine de Pisan",
+    "Cristina de Pisan"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica",
+    "tematica.etica",
+    "tematica.antropologia_filosofica"
+   ],
+   "escuelas": [],
+   "circulo": 1,
+   "lugarOrigen": "Venecia (Italia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1364,
+     "max": 1364
+    },
+    "muerte": {
+     "min": 1429,
+     "max": 1431
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "1364 – hacia 1430. Su última obra conocida es de julio de 1429."
+   },
+   "resumen": "Escritora y pensadora nacida en Venecia y criada en la corte de Francia, a la que se suele considerar la primera mujer de Europa que vivió de su pluma. En [[obra.ciudad_damas|La ciudad de las damas]] respondió a los autores que despreciaban a las mujeres con la historia de las que habían destacado por su inteligencia y su virtud, y abrió la [[concepto.querella_mujeres|querella de las mujeres]].",
+   "profundizacion": "Su padre, el médico y astrólogo Tommaso da Pizzano, entró al servicio del rey Carlos V de Francia, y ella se crió en París con una educación poco común. Se casó a los quince años y enviudó unos diez años después, con hijos pequeños y su madre a su cargo; para mantenerlos empezó a escribir, primero poesía y después obras en prosa, que dedicaba a reyes y príncipes y cuyos manuscritos supervisaba ella misma. Entre 1401 y 1403 se enfrentó por escrito a varios humanistas de la corte a propósito del Roman de la Rose, un poema muy leído que trataba a las mujeres con desprecio: fue el primer gran debate público sobre las mujeres, la [[concepto.querella_mujeres|querella]]. En [[obra.ciudad_damas|La ciudad de las damas]] (1405) sostiene que [[tesis.mujeres_razon|las mujeres son tan capaces de razón y de virtud como los hombres]] y que, si saben menos, es porque no se las educa. Escribió también sobre política, como el Libro del cuerpo de policía, que compara el reino con un cuerpo, y sobre la guerra y la paz. Ya retirada en un convento, compuso en 1429 un poema en honor de Juana de Arco, la joven campesina que acababa de llevar al ejército francés a la victoria en Orleans, uno de los primeros textos sobre ella, escrito cuando Juana aún vivía.",
+   "anecdotas": "[[obra.ciudad_damas|La ciudad de las damas]] empieza con ella leyendo en su estudio el libro de un clérigo llamado Mateolo, lleno de ataques contra las mujeres. Al ver que tantos sabios decían lo mismo, cuenta que llegó a despreciarse a sí misma y a preguntar a Dios por qué no la había hecho nacer hombre. Entonces se le aparecen tres damas coronadas, Razón, Rectitud y Justicia, que le encargan construir una ciudad para las mujeres ilustres ([[obra.ciudad_damas|La ciudad de las damas]], libro I, cap. 1-3 · A). En otra obra cuenta, en forma de alegoría, que al quedarse viuda la Fortuna la transformó en hombre para que pudiera llevar el timón del barco de su vida (Christine de Pizan, Libro de la mutación de Fortuna, libro I · A).",
+   "paraSaberMas": [
+    {
+     "tipo": "traduccion",
+     "obra": "Hanover College",
+     "titulo": "Christine de Pizan, La ciudad de las damas (fragmentos)",
+     "url": "https://history.hanover.edu/courses/excerpts/165pisan.html",
+     "idioma": "en"
+    }
+   ]
+  },
+  {
+   "id": "autor.marsilio",
+   "tipo": "autor",
+   "nombre": "Marsilio de Padua",
+   "nombreOriginal": "Marsilius de Padua",
+   "alias": [
+    "Marsilius of Padua",
+    "Marsilio"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [],
+   "circulo": 2,
+   "lugarOrigen": "Padua (Italia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1275,
+     "max": 1280
+    },
+    "muerte": {
+     "min": 1342,
+     "max": 1343
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Entre 1275 y 1280 – en 1343 o poco antes, en Múnich."
+   },
+   "resumen": "Médico y filósofo italiano, rector de la Universidad de París. En [[obra.defensor_pacis|El defensor de la paz]] (1324) sostuvo que el poder de hacer las leyes pertenece al [[tesis.soberania_popular|conjunto de los ciudadanos]] y que la Iglesia no tiene ningún poder para obligar por la fuerza: ni siquiera el papa puede mandar sobre los reyes. Excomulgado, se refugió con [[autor.luis_de_baviera|Luis de Baviera]]."
+  },
+  {
+   "id": "autor.juan_xxii",
+   "tipo": "autor",
+   "nombre": "Juan XXII",
+   "nombreOriginal": "Ioannes XXII",
+   "alias": [
+    "Jacques Duèse",
+    "papa Juan XXII"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Cahors (Francia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1244,
+     "max": 1249
+    },
+    "muerte": {
+     "min": 1334,
+     "max": 1334
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1244 – 4 de diciembre de 1334. Papa en Aviñón desde 1316."
+   },
+   "resumen": "Papa en Aviñón entre 1316 y 1334. Condenó la tesis de los franciscanos según la cual Cristo y los apóstoles no tuvieron propiedades, se enfrentó al emperador [[autor.luis_de_baviera|Luis de Baviera]], excomulgó a [[autor.marsilio|Marsilio de Padua]] y a [[autor.ockham|Guillermo de Ockham]] y condenó tesis del [[autor.eckhart|Maestro Eckhart]]."
+  },
+  {
+   "id": "autor.luis_de_baviera",
+   "tipo": "autor",
+   "nombre": "Luis de Baviera",
+   "nombreOriginal": "Ludwig der Bayer",
+   "alias": [
+    "Luis IV",
+    "Ludwig of Bavaria",
+    "Luis el Bávaro"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Múnich (hoy en Alemania)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1282,
+     "max": 1282
+    },
+    "muerte": {
+     "min": 1347,
+     "max": 1347
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "1282 – 11 de octubre de 1347. Rey de Alemania desde 1314 y emperador desde 1328."
+   },
+   "resumen": "Duque de Baviera, rey de Alemania desde 1314 y emperador desde 1328, coronado en Roma sin el permiso del papa. En su larga lucha con [[autor.juan_xxii|Juan XXII]] dio refugio en Múnich a [[autor.marsilio|Marsilio de Padua]] y a [[autor.ockham|Guillermo de Ockham]], que escribieron en su defensa."
+  },
+  {
+   "id": "autor.dante",
+   "tipo": "autor",
+   "nombre": "Dante Alighieri",
+   "nombreOriginal": "Dante Alighieri",
+   "alias": [
+    "Dante"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media",
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica",
+    "tematica.estetica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Florencia (Italia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1265,
+     "max": 1265
+    },
+    "muerte": {
+     "min": 1321,
+     "max": 1321
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Mayo o junio de 1265 – 14 de septiembre de 1321, en Rávena, desterrado de Florencia."
+   },
+   "resumen": "Poeta florentino, autor de la Divina comedia, un viaje por el infierno, el purgatorio y el paraíso en el que aparecen filósofos y teólogos, de [[autor.boecio|Boecio]] a [[autor.tomas_aquino|Tomás de Aquino]] y [[autor.siger|Siger de Brabante]]. En su tratado Monarquía defendió que el emperador recibe su poder directamente de Dios, no del papa."
+  },
+  {
+   "id": "obra.ars_magna",
+   "tipo": "obra",
+   "nombre": "Arte general última",
+   "nombreOriginal": "Ars generalis ultima",
+   "alias": [
+    "Ars magna",
+    "Arte magna",
+    "Ars generalis ultima"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1305,
+     "max": 1308
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "La última versión de su Arte, que Llull fue reescribiendo desde 1274."
+   },
+   "resumen": "La versión definitiva del [[concepto.arte_luliana|Arte]] de [[autor.llull|Ramon Llull]]: un sistema de figuras, letras y ruedas que combina unos pocos principios para responder a cualquier pregunta."
+  },
+  {
+   "id": "obra.libro_gentil",
+   "tipo": "obra",
+   "nombre": "Libro del gentil y los tres sabios",
+   "nombreOriginal": "Llibre del gentil e dels tres savis",
+   "alias": [
+    "Llibre del gentil",
+    "Libro del gentil"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "catalán",
+   "fechas": {
+    "composicion": {
+     "min": 1274,
+     "max": 1276
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrito hacia 1274-1276, en catalán; pronto se tradujo al latín y a otras lenguas."
+   },
+   "resumen": "Diálogo de [[autor.llull|Ramon Llull]] en el que un judío, un cristiano y un musulmán exponen su fe ante un pagano que busca consuelo. No discuten entre sí, y al final se despiden con cortesía sin saber qué religión ha elegido el pagano."
+  },
+  {
+   "id": "obra.ordinatio",
+   "tipo": "obra",
+   "nombre": "Ordinatio",
+   "nombreOriginal": "Ordinatio",
+   "alias": [
+    "Opus Oxoniense",
+    "Comentario a las Sentencias de Escoto"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades",
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1300,
+     "max": 1308
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Revisión, que dejó inacabada, de sus lecciones en Oxford sobre las Sentencias."
+   },
+   "resumen": "La obra principal de [[autor.duns_escoto|Duns Escoto]], un comentario a las [[obra.sentencias|Sentencias]] de [[autor.pedro_lombardo|Pedro Lombardo]] que fue revisando hasta su muerte. En ella están la [[concepto.univocidad|univocidad]] del ser y la [[concepto.haecceitas|haecceitas]]."
+  },
+  {
+   "id": "obra.suma_logica",
+   "tipo": "obra",
+   "nombre": "Suma de lógica",
+   "nombreOriginal": "Summa logicae",
+   "alias": [
+    "Summa logicae",
+    "Suma de toda la lógica"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.filosofia_lenguaje"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1323,
+     "max": 1325
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Hacia 1323-1325."
+   },
+   "resumen": "Manual completo de lógica de [[autor.ockham|Guillermo de Ockham]]: los términos y lo que significan, las proposiciones y los razonamientos. En él defiende que los [[concepto.universales|universales]] son signos y que [[tesis.solo_individuos|solo existen individuos]]."
+  },
+  {
+   "id": "obra.sermones_eckhart",
+   "tipo": "obra",
+   "nombre": "Sermones alemanes",
+   "nombreOriginal": "Predigten",
+   "alias": [
+    "Sermones de Eckhart",
+    "Predigten",
+    "Deutsche Predigten"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.cultivo_de_si"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "alemán medio alto",
+   "fechas": {
+    "composicion": {
+     "min": 1300,
+     "max": 1327
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Conservados en copias de oyentes y discípulos; se numeran según la edición de Josef Quint."
+   },
+   "resumen": "Los sermones que el [[autor.eckhart|Maestro Eckhart]] predicó en alemán, sobre todo a comunidades de mujeres religiosas. Hablan del [[concepto.desasimiento|desasimiento]], del nacimiento de Dios en el alma y del [[concepto.fondo_alma|fondo del alma]]."
+  },
+  {
+   "id": "obra.ciudad_damas",
+   "tipo": "obra",
+   "nombre": "La ciudad de las damas",
+   "nombreOriginal": "Le Livre de la Cité des Dames",
+   "alias": [
+    "Libro de la ciudad de las damas",
+    "La Cité des Dames"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.antropologia_filosofica",
+    "tematica.etica",
+    "tematica.filosofia_politica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "francés",
+   "fechas": {
+    "composicion": {
+     "min": 1404,
+     "max": 1405
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Terminada en 1405."
+   },
+   "resumen": "Libro en el que [[autor.christine_pizan|Christine de Pizan]], guiada por Razón, Rectitud y Justicia, construye una ciudad alegórica con las vidas de mujeres célebres por su inteligencia, su valor y su virtud, para responder a los autores que las despreciaban."
+  },
+  {
+   "id": "obra.defensor_pacis",
+   "tipo": "obra",
+   "nombre": "El defensor de la paz",
+   "nombreOriginal": "Defensor pacis",
+   "alias": [
+    "Defensor pacis",
+    "Defensor de la paz"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1324,
+     "max": 1324
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "nota": "Terminado el 24 de junio de 1324, según los manuscritos."
+   },
+   "resumen": "Tratado de [[autor.marsilio|Marsilio de Padua]] según el cual la paz de los reinos exige que el poder de hacer las leyes resida en [[tesis.soberania_popular|los ciudadanos]] y que la Iglesia renuncie a todo poder para obligar por la fuerza. Juan XXII lo condenó en 1327."
+  },
+  {
+   "id": "concepto.arte_luliana",
+   "tipo": "concepto",
+   "nombre": "el Arte de Llull",
+   "nombreOriginal": "Ars",
+   "terminoOriginal": "Ars",
+   "traduccion": "arte, método",
+   "alias": [
+    "Arte luliana",
+    "Ars lulliana",
+    "arte combinatoria"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades",
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "Método de [[autor.llull|Ramon Llull]] que combina, con figuras y ruedas giratorias marcadas con letras, unos pocos principios, como la bondad, la grandeza o la eternidad de Dios, para encontrar la respuesta a cualquier pregunta y demostrarla con razones que un judío o un musulmán pudieran aceptar."
+  },
+  {
+   "id": "concepto.univocidad",
+   "tipo": "concepto",
+   "nombre": "univocidad del ser",
+   "nombreOriginal": "univocatio entis",
+   "terminoOriginal": "univocatio entis",
+   "traduccion": "univocidad: un mismo sentido",
+   "alias": [
+    "univocidad",
+    "univocatio"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades",
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_lenguaje",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "Para [[autor.duns_escoto|Duns Escoto]], conceptos como «ser», «bueno» o «sabio» tienen el mismo sentido cuando se dicen de Dios y cuando se dicen de una criatura; lo que cambia es el grado, infinito o finito. Frente a la [[concepto.analogia|analogía]] de [[autor.tomas_aquino|Tomás de Aquino]], es la condición para poder conocer algo de Dios a partir del mundo."
+  },
+  {
+   "id": "concepto.haecceitas",
+   "tipo": "concepto",
+   "nombre": "haecceitas",
+   "nombreOriginal": "haecceitas",
+   "terminoOriginal": "haecceitas",
+   "traduccion": "estidad: lo que hace que algo sea esto",
+   "alias": [
+    "estidad",
+    "haecceidad",
+    "principio de individuación"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades",
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "Para [[autor.duns_escoto|Duns Escoto]], lo que hace que un individuo sea precisamente este y no otro: no la materia ni la cantidad, sino algo positivo y propio de cada cosa. La palabra latina viene de haec, «esta»."
+  },
+  {
+   "id": "concepto.navaja_ockham",
+   "tipo": "concepto",
+   "nombre": "navaja de Ockham",
+   "nombreOriginal": "novacula Occami",
+   "terminoOriginal": "novacula Occami",
+   "traduccion": "principio de economía: no suponer entidades sin necesidad",
+   "alias": [
+    "principio de economía",
+    "principio de parsimonia",
+    "navaja de Occam"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia",
+    "tematica.epistemologia"
+   ],
+   "resumen": "Principio que lleva el nombre de [[autor.ockham|Guillermo de Ockham]] porque lo usó con más rigor que nadie: no hay que suponer más cosas de las necesarias para explicar algo. Hoy se aplica a cualquier explicación, también en las ciencias: entre dos teorías que explican lo mismo, se prefiere la más sencilla.",
+   "notaTraduccion": "El nombre de «navaja» es muy posterior: corta lo que sobra."
+  },
+  {
+   "id": "concepto.desasimiento",
+   "tipo": "concepto",
+   "nombre": "desasimiento",
+   "nombreOriginal": "abegescheidenheit",
+   "terminoOriginal": "abegescheidenheit",
+   "traduccion": "desasimiento, desprendimiento",
+   "alias": [
+    "Gelassenheit",
+    "desapego",
+    "desprendimiento"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.cultivo_de_si",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "Para el [[autor.eckhart|Maestro Eckhart]], desprenderse no solo de las cosas, sino de la propia voluntad, de las imágenes y hasta de las ideas sobre Dios, para que el alma, vacía, deje que Dios nazca en ella. Lo explica en su tratado Sobre el desasimiento y en sus sermones."
+  },
+  {
+   "id": "concepto.fondo_alma",
+   "tipo": "concepto",
+   "nombre": "fondo del alma",
+   "nombreOriginal": "grunt",
+   "terminoOriginal": "grunt",
+   "traduccion": "fondo, fundamento",
+   "alias": [
+    "chispa del alma",
+    "grunt",
+    "Seelengrund"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_mente",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "Para el [[autor.eckhart|Maestro Eckhart]], lo más íntimo del alma, algo increado e indecible, una chispa en la que Dios y el alma son una sola cosa. Allí nace Dios en el alma."
+  },
+  {
+   "id": "concepto.querella_mujeres",
+   "tipo": "concepto",
+   "nombre": "querella de las mujeres",
+   "nombreOriginal": "querelle des femmes",
+   "terminoOriginal": "querelle des femmes",
+   "traduccion": "querella de las mujeres",
+   "alias": [
+    "querelle des femmes",
+    "querella de la Rosa"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.antropologia_filosofica",
+    "tematica.etica"
+   ],
+   "resumen": "Debate sobre la dignidad y las capacidades de las mujeres que abrió [[autor.christine_pizan|Christine de Pizan]] en 1401 al criticar el Roman de la Rose, un poema muy leído que las trataba con desprecio. Duró hasta el siglo XVIII y en él participaron autores de toda Europa."
+  },
+  {
+   "id": "tesis.solo_individuos",
+   "tipo": "tesis",
+   "nombre": "Solo existen individuos",
+   "enunciado": "Fuera de la mente solo existen cosas singulares; los universales son signos que significan muchas cosas a la vez.",
+   "alias": [
+    "nominalismo de Ockham"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica",
+    "tematica.filosofia_lenguaje"
+   ],
+   "resumen": "Tesis central de [[autor.ockham|Guillermo de Ockham]] en la [[obra.suma_logica|Suma de lógica]]: no hay en las cosas una humanidad común a [[autor.socrates|Sócrates]] y a [[autor.platon|Platón]], sino dos individuos parecidos; «ser humano» es un concepto que significa a los dos."
+  },
+  {
+   "id": "tesis.mujeres_razon",
+   "tipo": "tesis",
+   "nombre": "Las mujeres son tan capaces de razón como los hombres",
+   "enunciado": "Las mujeres son tan capaces de razón, de ciencia y de virtud como los hombres; si saben menos, es porque no se las educa.",
+   "alias": [
+    "igualdad intelectual de las mujeres"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.antropologia_filosofica",
+    "tematica.etica"
+   ],
+   "resumen": "Tesis de [[autor.christine_pizan|Christine de Pizan]] en [[obra.ciudad_damas|La ciudad de las damas]]: Razón le explica que, si se enviara a las niñas a la escuela como a los niños, aprenderían igual de bien las artes y las ciencias."
+  },
+  {
+   "id": "tesis.soberania_popular",
+   "tipo": "tesis",
+   "nombre": "El legislador es el pueblo",
+   "enunciado": "El poder de hacer las leyes corresponde al conjunto de los ciudadanos, o a su parte más importante, y el gobernante lo recibe de ellos.",
+   "alias": [
+    "soberanía popular",
+    "el legislador humano"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "resumen": "Tesis de [[autor.marsilio|Marsilio de Padua]] en [[obra.defensor_pacis|El defensor de la paz]], inspirada en la [[obra.politica|Política]] de [[autor.aristoteles|Aristóteles]]. Con ella negaba al papa todo poder sobre los reyes, y se ha visto en ella un antecedente de la soberanía popular moderna."
   }
  ],
  "relaciones": [
@@ -2815,6 +3667,360 @@
    "destino": "pregunta.algo_de_la_nada",
    "certeza": "D",
    "nota": "Para [[autor.tomas_aquino|Tomás de Aquino]], el mundo fue creado de la nada, pero la razón sola no puede probar que haya tenido un comienzo."
+  },
+  {
+   "id": "la-0100",
+   "origen": "autor.llull",
+   "tipo": "escribio",
+   "destino": "obra.ars_magna",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0101",
+   "origen": "autor.llull",
+   "tipo": "escribio",
+   "destino": "obra.libro_gentil",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0102",
+   "origen": "autor.llull",
+   "tipo": "desarrolla",
+   "destino": "concepto.arte_luliana",
+   "certeza": "D",
+   "fuente": "Ramon Llull, Arte general última"
+  },
+  {
+   "id": "la-0103",
+   "origen": "obra.ars_magna",
+   "tipo": "trata_sobre",
+   "destino": "concepto.arte_luliana",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0104",
+   "origen": "obra.libro_gentil",
+   "tipo": "trata_sobre",
+   "destino": "concepto.arte_luliana",
+   "certeza": "D",
+   "nota": "Los tres sabios se sirven de los árboles y las flores del Arte para exponer su fe."
+  },
+  {
+   "id": "la-0105",
+   "origen": "autor.duns_escoto",
+   "tipo": "escribio",
+   "destino": "obra.ordinatio",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0106",
+   "origen": "obra.ordinatio",
+   "tipo": "comenta",
+   "destino": "obra.sentencias",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0107",
+   "origen": "autor.duns_escoto",
+   "tipo": "desarrolla",
+   "destino": "concepto.univocidad",
+   "certeza": "D",
+   "fuente": "Ordinatio I, distinción 3"
+  },
+  {
+   "id": "la-0108",
+   "origen": "autor.duns_escoto",
+   "tipo": "desarrolla",
+   "destino": "concepto.haecceitas",
+   "certeza": "D",
+   "fuente": "Ordinatio II, distinción 3"
+  },
+  {
+   "id": "la-0109",
+   "origen": "autor.duns_escoto",
+   "tipo": "critica",
+   "destino": "concepto.analogia",
+   "certeza": "D",
+   "fuente": "Ordinatio I, distinción 3",
+   "nota": "Si las palabras no tuvieran el mismo sentido al hablar de Dios y de las criaturas, no podríamos conocer nada de Dios a partir del mundo."
+  },
+  {
+   "id": "la-0110",
+   "origen": "obra.ordinatio",
+   "tipo": "trata_sobre",
+   "destino": "concepto.univocidad",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0111",
+   "origen": "obra.ordinatio",
+   "tipo": "trata_sobre",
+   "destino": "concepto.haecceitas",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0112",
+   "origen": "autor.ockham",
+   "tipo": "escribio",
+   "destino": "obra.suma_logica",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0113",
+   "origen": "autor.ockham",
+   "tipo": "desarrolla",
+   "destino": "concepto.navaja_ockham",
+   "certeza": "D",
+   "fuente": "Ockham, Comentario a las Sentencias, libro I"
+  },
+  {
+   "id": "la-0114",
+   "origen": "autor.ockham",
+   "tipo": "defiende",
+   "destino": "tesis.solo_individuos",
+   "certeza": "D",
+   "fuente": "Suma de lógica I 14-17"
+  },
+  {
+   "id": "la-0115",
+   "origen": "autor.ockham",
+   "tipo": "desarrolla",
+   "destino": "concepto.universales",
+   "certeza": "D",
+   "fuente": "Suma de lógica I 14-17"
+  },
+  {
+   "id": "la-0116",
+   "origen": "autor.ockham",
+   "tipo": "critica",
+   "destino": "autor.duns_escoto",
+   "certeza": "D",
+   "fuente": "Ockham, Comentario a las Sentencias I, distinción 2, cuestión 6",
+   "nota": "Rechaza la naturaleza común y la distinción formal de [[autor.duns_escoto|Escoto]]."
+  },
+  {
+   "id": "la-0117",
+   "origen": "autor.ockham",
+   "tipo": "critica",
+   "destino": "autor.juan_xxii",
+   "certeza": "D",
+   "fuente": "Ockham, Obra de noventa días",
+   "nota": "Lo acusa de herejía por negar que Cristo y los apóstoles vivieran sin propiedades."
+  },
+  {
+   "id": "la-0118",
+   "origen": "obra.suma_logica",
+   "tipo": "trata_sobre",
+   "destino": "concepto.universales",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0119",
+   "origen": "obra.suma_logica",
+   "tipo": "trata_sobre",
+   "destino": "tesis.solo_individuos",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0120",
+   "origen": "autor.eckhart",
+   "tipo": "escribio",
+   "destino": "obra.sermones_eckhart",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0121",
+   "origen": "autor.eckhart",
+   "tipo": "desarrolla",
+   "destino": "concepto.desasimiento",
+   "certeza": "D",
+   "fuente": "Maestro Eckhart, Sobre el desasimiento"
+  },
+  {
+   "id": "la-0122",
+   "origen": "autor.eckhart",
+   "tipo": "desarrolla",
+   "destino": "concepto.fondo_alma",
+   "certeza": "D",
+   "fuente": "Maestro Eckhart, Sermones alemanes"
+  },
+  {
+   "id": "la-0123",
+   "origen": "obra.sermones_eckhart",
+   "tipo": "trata_sobre",
+   "destino": "concepto.desasimiento",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0124",
+   "origen": "obra.sermones_eckhart",
+   "tipo": "trata_sobre",
+   "destino": "concepto.fondo_alma",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0125",
+   "origen": "autor.juan_xxii",
+   "tipo": "critica",
+   "destino": "autor.eckhart",
+   "certeza": "D",
+   "fuente": "Juan XXII, bula In agro dominico, 27 de marzo de 1329",
+   "nota": "Condenó veintiocho proposiciones sacadas de sus obras."
+  },
+  {
+   "id": "la-0126",
+   "origen": "autor.christine_pizan",
+   "tipo": "escribio",
+   "destino": "obra.ciudad_damas",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0127",
+   "origen": "autor.christine_pizan",
+   "tipo": "defiende",
+   "destino": "tesis.mujeres_razon",
+   "certeza": "D",
+   "fuente": "La ciudad de las damas I 27"
+  },
+  {
+   "id": "la-0128",
+   "origen": "autor.christine_pizan",
+   "tipo": "desarrolla",
+   "destino": "concepto.querella_mujeres",
+   "certeza": "D",
+   "fuente": "Cartas sobre el Roman de la Rose, 1401-1403"
+  },
+  {
+   "id": "la-0129",
+   "origen": "obra.ciudad_damas",
+   "tipo": "trata_sobre",
+   "destino": "tesis.mujeres_razon",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0130",
+   "origen": "autor.dante",
+   "tipo": "influyo_en",
+   "destino": "autor.christine_pizan",
+   "certeza": "D",
+   "fuente": "Christine de Pizan, El camino de largo estudio",
+   "nota": "Su viaje alegórico imita el de la Divina comedia, que cita."
+  },
+  {
+   "id": "la-0131",
+   "origen": "autor.agustin",
+   "tipo": "influyo_en",
+   "destino": "autor.christine_pizan",
+   "certeza": "P",
+   "fuente": "La ciudad de las damas",
+   "nota": "El título y la idea de una ciudad construida con vidas ejemplares recuerdan [[obra.ciudad_de_dios|La ciudad de Dios]]."
+  },
+  {
+   "id": "la-0132",
+   "origen": "autor.marsilio",
+   "tipo": "escribio",
+   "destino": "obra.defensor_pacis",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0133",
+   "origen": "autor.marsilio",
+   "tipo": "defiende",
+   "destino": "tesis.soberania_popular",
+   "certeza": "D",
+   "fuente": "El defensor de la paz I 12"
+  },
+  {
+   "id": "la-0134",
+   "origen": "obra.defensor_pacis",
+   "tipo": "trata_sobre",
+   "destino": "tesis.soberania_popular",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0135",
+   "origen": "autor.aristoteles",
+   "tipo": "influyo_en",
+   "destino": "autor.marsilio",
+   "certeza": "D",
+   "fuente": "El defensor de la paz, parte I",
+   "nota": "Construye su teoría del poder a partir de la [[obra.politica|Política]] de [[autor.aristoteles|Aristóteles]]."
+  },
+  {
+   "id": "la-0136",
+   "origen": "autor.juan_xxii",
+   "tipo": "critica",
+   "destino": "autor.marsilio",
+   "certeza": "D",
+   "fuente": "Juan XXII, bula Licet iuxta doctrinam, 1327"
+  },
+  {
+   "id": "la-0137",
+   "origen": "autor.luis_de_baviera",
+   "tipo": "critica",
+   "destino": "autor.juan_xxii",
+   "certeza": "D",
+   "fuente": "Apelación de Sachsenhausen, 1324",
+   "nota": "Acusó al papa de herejía y apeló contra él a un concilio."
+  },
+  {
+   "id": "la-0138",
+   "origen": "autor.tomas_aquino",
+   "tipo": "influyo_en",
+   "destino": "autor.dante",
+   "certeza": "D",
+   "fuente": "Dante, Paraíso, cantos X-XIII",
+   "nota": "Dante hace de [[autor.tomas_aquino|Tomás]] su guía entre los sabios del cielo del Sol."
+  },
+  {
+   "id": "la-0139",
+   "origen": "autor.boecio",
+   "tipo": "influyo_en",
+   "destino": "autor.dante",
+   "certeza": "D",
+   "fuente": "Dante, Convivio II 12",
+   "nota": "Cuenta que, tras la muerte de Beatriz, buscó consuelo leyendo [[obra.consolacion|La consolación de la filosofía]]."
+  },
+  {
+   "id": "la-0140",
+   "origen": "tesis.soberania_popular",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_gobernar",
+   "certeza": "D",
+   "nota": "Un gobierno es legítimo porque el poder de hacer las leyes viene de los ciudadanos."
+  },
+  {
+   "id": "la-0141",
+   "origen": "tesis.solo_individuos",
+   "tipo": "responde_a",
+   "destino": "pregunta.lenguaje_realidad",
+   "certeza": "D",
+   "nota": "Las palabras generales no nombran cosas generales: significan muchos individuos a la vez."
+  },
+  {
+   "id": "la-0142",
+   "origen": "concepto.univocidad",
+   "tipo": "responde_a",
+   "destino": "pregunta.lenguaje_realidad",
+   "certeza": "D",
+   "nota": "Podemos hablar de Dios con las mismas palabras, y en el mismo sentido, que de las criaturas."
+  },
+  {
+   "id": "la-0143",
+   "origen": "concepto.desasimiento",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D",
+   "nota": "Una vida buena es la que se desprende de todo, también de la propia voluntad, para que Dios nazca en el alma."
+  },
+  {
+   "id": "la-0144",
+   "origen": "concepto.desasimiento",
+   "tipo": "paralelo_a",
+   "destino": "concepto.wuwei",
+   "certeza": "D",
+   "nota": "El desasimiento de [[autor.eckhart|Eckhart]] y el [[concepto.wuwei|wuwei]] del Daodejing piden dejar de forzar las cosas con la propia voluntad. Desde el siglo XX se los compara a menudo, aunque nacen de visiones del mundo muy distintas y no hubo contacto entre ellas.",
+   "ejeComparacion": "Dejar de imponer la propia voluntad"
   }
  ]
 }
