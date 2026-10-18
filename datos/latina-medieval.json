@@ -1,0 +1,240 @@
+{
+ "version": "0.1",
+ "actualizado": "2026-10-18",
+ "descripcion": "Edad Media · Europa latina, de Agustín de Hipona a 1450 · en redacción",
+ "prefijoRelaciones": "la",
+ "nodos": [
+  {
+   "id": "contexto.padres_latinos",
+   "tipo": "contexto",
+   "nombre": "Los Padres latinos y el fin de Roma",
+   "tradicion": "latina",
+   "contextos": [],
+   "horquilla": {
+    "inicio": 380,
+    "fin": 636
+   },
+   "lugar": "Milán, Roma, Hipona (en la actual Argelia), Rávena y la Hispania visigoda",
+   "resumen": "Los primeros grandes pensadores cristianos que escribieron en latín, como [[autor.agustin|Agustín de Hipona]], hacen suya la filosofía antigua, sobre todo la de [[escuela.neoplatonismo|los neoplatónicos]], mientras se derrumba el Imperio romano de Occidente. Lo que salvaron y tradujeron fue casi todo lo que la Europa latina conoció de la filosofía griega durante seis siglos.",
+   "profundizacion": "Se llama Padres de la Iglesia a los escritores cristianos de los primeros siglos cuya doctrina se tuvo por segura. Entre los que escribieron en latín, [[autor.ambrosio|Ambrosio]], obispo de Milán, enseña a leer la Biblia con ojos platónicos, y [[autor.jeronimo|Jerónimo]] la traduce al latín. El oyente más famoso de Ambrosio, [[autor.agustin|Agustín]], empieza [[obra.ciudad_de_dios|La ciudad de Dios]] después de que los visigodos saqueen Roma en el 410. En el 476 es depuesto el último emperador de Occidente, y Italia queda en manos de reyes godos: al servicio de uno de ellos, [[autor.teodorico|Teodorico]], [[autor.boecio|Boecio]] traduce al latín la lógica de [[autor.aristoteles|Aristóteles]], y el político y escritor [[autor.casiodoro|Casiodoro]] funda después un monasterio dedicado a copiar libros. En la Hispania visigoda, [[autor.isidoro|Isidoro de Sevilla]] reúne en sus [[obra.etimologias|Etimologías]] todo el saber que pudo encontrar. Su muerte, en el 636, cierra la época."
+  },
+  {
+   "id": "contexto.alta_edad_media",
+   "tipo": "contexto",
+   "nombre": "La Alta Edad Media y el renacimiento carolingio",
+   "tradicion": "latina",
+   "contextos": [],
+   "horquilla": {
+    "inicio": 636,
+    "fin": 1050
+   },
+   "lugar": "Monasterios de Irlanda e Inglaterra, la corte de Carlomagno en Aquisgrán y las abadías del Imperio carolingio",
+   "resumen": "Siglos de pocos libros y pocas escuelas, en los que la filosofía sobrevive copiada en los monasterios. Hacia el año 800, [[autor.carlomagno|Carlomagno]] reúne en su corte a los sabios de su tiempo para restaurar la enseñanza, y de ese ambiente sale el pensador más original de la época, [[autor.eriugena|Juan Escoto Eriúgena]].",
+   "profundizacion": "Con el Imperio romano desaparecen las escuelas de las ciudades; lo que queda de la cultura antigua se conserva en los monasterios, que copian los libros a mano. En Northumbria, al norte de Inglaterra, el monje [[autor.beda|Beda]] escribe historia y enseña a calcular el calendario. [[autor.carlomagno|Carlomagno]], rey de los francos y emperador desde el año 800, llama a su corte de Aquisgrán al maestro inglés [[autor.alcuino|Alcuino de York]] y ordena que haya escuelas en catedrales y monasterios: los historiadores lo llaman el renacimiento carolingio. Bajo su nieto [[autor.carlos_el_calvo|Carlos el Calvo]], [[autor.eriugena|Eriúgena]], que sabía griego, cosa rarísima entonces en Occidente, traduce los escritos atribuidos a Dionisio Areopagita, un discípulo de san Pablo, que en realidad son de un autor anónimo de hacia el año 500, y escribe el [[obra.periphyseon|Periphyseon]]. En esos mismos años, el monje [[autor.gottschalk|Gottschalk]] desata una polémica sobre la predestinación. Hacia el año 1000, el sabio Gerberto de Aurillac, que llegó a papa con el nombre de Silvestre II, trae de los monasterios de Cataluña conocimientos de matemáticas y astronomía venidos del mundo islámico."
+  },
+  {
+   "id": "contexto.siglo_xii",
+   "tipo": "contexto",
+   "nombre": "Las escuelas del siglo XII",
+   "tradicion": "latina",
+   "contextos": [],
+   "horquilla": {
+    "inicio": 1050,
+    "fin": 1200
+   },
+   "lugar": "Escuelas catedralicias de París, Chartres y Laon, abadías como Bec y Claraval, y Toledo",
+   "resumen": "Las ciudades crecen y, junto a las catedrales, abren escuelas donde maestros como [[autor.abelardo|Pedro Abelardo]] atraen estudiantes de toda Europa. Se discute con la lógica cualquier pregunta, también las de la fe, y en Toledo se empiezan a traducir del árabe los libros de los filósofos griegos y musulmanes.",
+   "profundizacion": "Hacia 1077, [[autor.anselmo|Anselmo]], monje de la abadía normanda de Bec, propone en el [[obra.proslogion|Proslogion]] una prueba de la existencia de Dios basada solo en la razón. En París, [[autor.abelardo|Abelardo]] discute con sus maestros sobre los [[concepto.universales|universales]] y reúne en el [[obra.sic_et_non|Sic et non]] textos de autoridades que se contradicen, para que el lector aprenda a resolver la contradicción: es el germen del método [[escuela.escolastica|escolástico]]. Frente a él, [[autor.bernardo_claraval|Bernardo de Claraval]], el monje más influyente de su tiempo, desconfía de tanta dialéctica y consigue que lo condenen en el concilio de Sens, en 1140 o 1141. Es también el siglo de [[autor.eloisa|Eloísa]] y de [[autor.hildegarda|Hildegarda de Bingen]], de los maestros de [[escuela.chartres|Chartres]] y de la abadía de [[escuela.san_victor|San Víctor]]. [[autor.pedro_lombardo|Pedro Lombardo]] ordena en sus [[obra.sentencias|Sentencias]] las opiniones de los Padres de la Iglesia sobre cada cuestión, y ese libro se comentará en las universidades durante siglos. En Toledo, traductores como el italiano Gerardo de Cremona y el clérigo castellano Domingo Gundisalvo vierten al latín a [[autor.aristoteles|Aristóteles]], al filósofo persa Avicena y a otros autores árabes: es el material con el que trabajará el siglo siguiente."
+  },
+  {
+   "id": "contexto.universidades",
+   "tipo": "contexto",
+   "nombre": "Las universidades y el siglo XIII",
+   "tradicion": "latina",
+   "contextos": [],
+   "horquilla": {
+    "inicio": 1200,
+    "fin": 1300
+   },
+   "lugar": "París, Oxford, Colonia y las demás universidades de Europa",
+   "resumen": "Los maestros y estudiantes de París y Oxford se organizan en gremios, las universidades, y la Europa latina recibe por fin a [[autor.aristoteles|Aristóteles]] entero, con los comentarios de los filósofos árabes. Los frailes de las órdenes nuevas, como [[autor.tomas_aquino|Tomás de Aquino]] y [[autor.buenaventura|Buenaventura]], intentan conciliar esa filosofía con la fe cristiana.",
+   "profundizacion": "La palabra universidad significaba gremio: la corporación de maestros y estudiantes, que en París se organiza hacia el año 1200 y en Oxford por la misma época. Al principio se prohíbe enseñar en París la filosofía natural de [[autor.aristoteles|Aristóteles]], en 1210 y en 1215, pero en 1255 sus libros ya son el programa obligatorio de la facultad de artes. Las dos órdenes de frailes fundadas a principios de siglo, los dominicos y los franciscanos, envían a las universidades a sus mejores maestros: [[autor.alberto_magno|Alberto Magno]] y su discípulo [[autor.tomas_aquino|Tomás de Aquino]] entre los dominicos; [[autor.buenaventura|Buenaventura]], [[autor.roger_bacon|Roger Bacon]] y, a final de siglo, [[autor.duns_escoto|Duns Escoto]] entre los franciscanos. Algunos maestros de artes, como [[autor.siger|Siger de Brabante]], siguen a Aristóteles y a su comentarista andalusí Averroes incluso donde contradicen la fe, y en 1277 el obispo de París, [[autor.tempier|Esteban Tempier]], condena 219 tesis. Lejos de las aulas, el mallorquín [[autor.llull|Ramon Llull]] escribe en catalán, en árabe y en latín para convencer a musulmanes y judíos."
+  },
+  {
+   "id": "contexto.baja_edad_media",
+   "tipo": "contexto",
+   "nombre": "La Baja Edad Media",
+   "tradicion": "latina",
+   "contextos": [],
+   "horquilla": {
+    "inicio": 1300,
+    "fin": 1450
+   },
+   "lugar": "París, Oxford, Aviñón, Colonia, Múnich y las cortes de Francia e Italia",
+   "resumen": "Siglos de crisis: el papado se traslada a Aviñón, la peste negra mata a entre un tercio y la mitad de los europeos y la Iglesia llega a tener dos y hasta tres papas a la vez. En filosofía, [[autor.duns_escoto|Duns Escoto]] y [[autor.ockham|Guillermo de Ockham]] someten a crítica las grandes síntesis del siglo anterior, y se empieza a escribir filosofía en las lenguas que hablaba la gente.",
+   "profundizacion": "[[autor.ockham|Ockham]] sostiene que fuera de la mente solo hay cosas singulares y que los [[concepto.universales|universales]] son signos. Con [[autor.buridan|Juan Buridán]] y [[autor.oresme|Nicolás Oresme]] en París, esa «vía moderna», como se la llamó, se ocupa sobre todo de lógica y de física: Buridán explica el movimiento de un proyectil por el [[concepto.impetu|ímpetu]] que le imprime quien lo lanza. Los papas residen en Aviñón de 1309 a 1377, y la lucha entre el papa [[autor.juan_xxii|Juan XXII]] y el emperador [[autor.luis_de_baviera|Luis de Baviera]] lleva a [[autor.marsilio|Marsilio de Padua]] y al propio Ockham a escribir contra el poder de los papas sobre los reyes. El dominico [[autor.eckhart|Maestro Eckhart]] predica en alemán sobre el fondo del alma, [[autor.dante|Dante]] escribe en italiano y [[autor.christine_pizan|Christine de Pizan]], en francés, defiende la inteligencia de las mujeres. La época se cierra hacia 1450, con la imprenta y, en 1453, la caída de Constantinopla; lo que sigue es el Renacimiento."
+  },
+  {
+   "id": "escuela.escolastica",
+   "tipo": "escuela",
+   "nombre": "Escolástica",
+   "alias": [
+    "escolásticos",
+    "escolasticismo"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii",
+    "contexto.universidades",
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica",
+    "tematica.filosofia_religion"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "Nombre que se da al modo de hacer filosofía y teología en las escuelas y universidades medievales: se lee un texto de autoridad, se plantea una cuestión, se exponen los argumentos a favor y en contra y se resuelve. Más que una doctrina común, es un método de enseñanza y de discusión, que va de [[autor.abelardo|Abelardo]] y [[autor.anselmo|Anselmo]] a [[autor.ockham|Ockham]]."
+  },
+  {
+   "id": "escuela.chartres",
+   "tipo": "escuela",
+   "nombre": "Escuela de Chartres",
+   "alias": [
+    "Chartres",
+    "chartrianos"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "Nombre que se da a varios maestros del siglo XII relacionados con la escuela de la catedral de Chartres, como [[autor.bernardo_chartres|Bernardo de Chartres]], que explicaban la naturaleza a la luz del Timeo, el diálogo de [[autor.platon|Platón]] sobre el origen del mundo. Los historiadores discuten si fueron una escuela o un grupo de maestros que coincidieron en el tiempo."
+  },
+  {
+   "id": "escuela.san_victor",
+   "tipo": "escuela",
+   "nombre": "Escuela de San Víctor",
+   "alias": [
+    "victorinos",
+    "San Víctor"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.cultivo_de_si"
+   ],
+   "naturaleza": "real",
+   "resumen": "Los canónigos de la abadía de San Víctor, fundada hacia 1108 en París por [[autor.guillermo_champeaux|Guillermo de Champeaux]], antiguo maestro de [[autor.abelardo|Abelardo]]. El más conocido, [[autor.hugo_san_victor|Hugo de San Víctor]], ordenó todas las ciencias como escalones hacia la contemplación de Dios."
+  },
+  {
+   "id": "escuela.averroismo_latino",
+   "tipo": "escuela",
+   "nombre": "Averroísmo latino",
+   "alias": [
+    "aristotelismo radical",
+    "averroístas"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades",
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_mente"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "Nombre que se dio a los maestros de artes de París, como [[autor.siger|Siger de Brabante]], que seguían a [[autor.aristoteles|Aristóteles]] tal como lo interpretaba el filósofo andalusí Averroes, aunque llegaran a conclusiones contrarias a la fe, como que el mundo es eterno. Hoy se prefiere llamarlo aristotelismo radical, porque no todos seguían a Averroes."
+  },
+  {
+   "id": "escuela.tomismo",
+   "tipo": "escuela",
+   "nombre": "Tomismo",
+   "alias": [
+    "tomistas"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades",
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.etica",
+    "tematica.filosofia_religion"
+   ],
+   "naturaleza": "real",
+   "resumen": "Los seguidores de [[autor.tomas_aquino|Tomás de Aquino]]. Algunas de sus tesis cayeron en la condena de París de 1277, pero la orden dominica lo defendió y acabó imponiendo su doctrina a sus estudiantes; con el tiempo fue la escuela más influyente de la filosofía católica."
+  },
+  {
+   "id": "escuela.escotismo",
+   "tipo": "escuela",
+   "nombre": "Escotismo",
+   "alias": [
+    "escotistas"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion"
+   ],
+   "naturaleza": "real",
+   "resumen": "Los seguidores de [[autor.duns_escoto|Duns Escoto]], sobre todo franciscanos, que lo tuvieron por su maestro principal y discutieron durante siglos con los tomistas. Los humanistas del Renacimiento se burlaron tanto de sus sutilezas que en inglés «dunce», de «Duns», acabó significando «zopenco»."
+  },
+  {
+   "id": "escuela.nominalismo",
+   "tipo": "escuela",
+   "nombre": "Nominalismo",
+   "alias": [
+    "vía moderna",
+    "via moderna",
+    "nominalistas",
+    "terministas"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media",
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.metafisica",
+    "tematica.filosofia_lenguaje"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "Nombre que se da a quienes, como [[autor.ockham|Guillermo de Ockham]] y [[autor.buridan|Juan Buridán]], sostienen que solo existen cosas singulares y que los [[concepto.universales|universales]] son nombres o conceptos. En su tiempo se hablaba de «vía moderna», frente a la «vía antigua» de tomistas y escotistas; el rótulo agrupa posturas bastante distintas. En el siglo XII, Roscelino de Compiègne, maestro de [[autor.abelardo|Abelardo]], ya había defendido algo parecido."
+  },
+  {
+   "id": "escuela.mistica_renana",
+   "tipo": "escuela",
+   "nombre": "Mística renana",
+   "alias": [
+    "mística alemana",
+    "mística especulativa"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.cultivo_de_si",
+    "tematica.metafisica"
+   ],
+   "naturaleza": "rotulo_historiografico",
+   "resumen": "Nombre moderno para el [[autor.eckhart|Maestro Eckhart]] y los dominicos que lo siguieron en las ciudades del Rin, como Juan Taulero y Enrique Suso, que predicaban en alemán sobre la unión del alma con Dios. Martín Lutero leyó con entusiasmo los sermones de Taulero."
+  }
+ ],
+ "relaciones": []
+}

@@ -9,6 +9,7 @@
     "datos/india-antigua.json",
     "datos/grecorromana-antigua.json",
     "datos/proximo-oriente-antiguo.json",
+    "datos/latina-medieval.json",
     "datos/preguntas.json"
   ],
   "carriles": {
@@ -16,6 +17,7 @@
     "orden": [
       "proximo_oriente",
       "grecorromana",
+      "latina",
       "india",
       "china"
     ],
@@ -31,13 +33,15 @@
         "grecorromana",
         "india",
         "china",
-        "proximo_oriente"
+        "proximo_oriente",
+        "latina"
       ],
       "etiquetas": {
         "grecorromana": "Grecia y Roma",
         "india": "India",
         "china": "China",
-        "proximo_oriente": "Próximo Oriente"
+        "proximo_oriente": "Próximo Oriente",
+        "latina": "Europa latina"
       },
       "obligatorioEn": [
         "autor",
