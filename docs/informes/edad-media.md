@@ -215,3 +215,10 @@ Lo que se ha cotejado con el texto y lo que no, ficha a ficha, para que la revis
 **Pendiente en todas:**
 - Imágenes: Wikimedia y Wikidata pidieron permiso y no se pudo dar a tiempo.
 - Fechas de las figuras puente (Gottschalk, Gaunilón, Guillermo de Champeaux, Carlos el Calvo), revisadas de memoria.
+
+**Alberto Magno, Tomás de Aquino, Buenaventura y Roger Bacon.**
+- *Sobre las plantas* VI, tr. 1, cap. 1 (Alberto, sobre la experiencia): cotejado en latín a través de la cita de Strunz (revista *Albertina*, Universidad de Ratisbona).
+- El juguete de salitre del *Opus maius*, parte VI: cotejado en el latín de la edición de Jebb.
+- El prólogo del *Itinerario* (La Verna, octubre de 1259) y la carta de Clemente IV (junio de 1266): cotejados con la Stanford Encyclopedia, no con el texto.
+- Las tres de Tomás (el buey mudo, el tizón, la paja): proceden de Guillermo de Tocco y del proceso de canonización de Nápoles. No hay edición abierta en la red; van con fiabilidad C, C y B. Falta cotejarlas con la edición de Le Brun-Gouanvic o con los documentos reunidos por Foster.
+- La leyenda del sombrero de cardenal de Buenaventura y la cabeza de bronce de Bacon van como leyendas (L).
