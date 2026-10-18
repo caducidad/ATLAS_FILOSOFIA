@@ -1101,9 +1101,19 @@
         const textos = [];
         for (const o of orden) if (textos.length < 3 && !textos.some((t) => sinTildes(t) === sinTildes(o.traduccion) || [...claves(t)].some((w) => claves(o.traduccion).has(w)))) textos.push(o.traduccion);
         if (textos.length < 3) return [];
-        const original = c.terminoOriginal && c.terminoOriginal !== c.nombre ? ` (${c.terminoOriginal})` : "";
+        // Si el nombre ya es la traducción («la fe que busca entender»), se pregunta por el término
+        // original, transliterado si lo está (satyadvaya, no सत्यद्वय); si también la delata
+        // («persona»), la pregunta no se hace.
+        let mostrado = c.nombre;
+        let original = c.terminoOriginal && c.terminoOriginal !== c.nombre ? ` (${c.terminoOriginal})` : "";
+        if (parecida(c.nombre)) {
+          const alt = c.transliteracion || c.terminoOriginal;
+          if (!alt || parecida(alt)) return [];
+          mostrado = alt;
+          original = "";
+        }
         return [hacer({
-          clave: `termino:${c.id}`, sujetos: [c.id], enunciado: `¿Qué significa «${c.nombre}»${original}?`,
+          clave: `termino:${c.id}`, sujetos: [c.id], enunciado: `¿Qué significa «${mostrado}»${original}?`,
           correcta: { texto: c.traduccion }, falsas: textos.map((t) => ({ texto: t })),
           explicacion: `${enlace(c.id)} significa «${c.traduccion}».`, repasar: [c.id],
         })];
