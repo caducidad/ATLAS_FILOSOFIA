@@ -726,6 +726,666 @@
     "tematica.etica"
    ],
    "resumen": "Respuesta de [[autor.boecio|Boecio]], al final de [[obra.consolacion|La consolación de la filosofía]], a un viejo problema: si Dios lo sabe todo de antemano, parece que no somos libres. Igual que ver a alguien andar no lo obliga a andar, el saber de Dios, que vive en la [[concepto.eternidad|eternidad]], no hace necesario lo que conoce."
+  },
+  {
+   "id": "autor.eriugena",
+   "tipo": "autor",
+   "nombre": "Juan Escoto Eriúgena",
+   "nombreOriginal": "Iohannes Scottus Eriugena",
+   "alias": [
+    "Escoto Eriúgena",
+    "Eriúgena",
+    "John Scottus Eriugena",
+    "Juan el Escoto"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.alta_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion",
+    "tematica.epistemologia"
+   ],
+   "escuelas": [
+    "escuela.neoplatonismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Irlanda",
+   "fechas": {
+    "nacimiento": {
+     "min": 790,
+     "max": 810
+    },
+    "muerte": {
+     "min": 870,
+     "max": 880
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 800 – hacia el 877. Ninguna de las dos fechas está documentada."
+   },
+   "resumen": "Sabio irlandés que enseñó en la corte del rey franco [[autor.carlos_el_calvo|Carlos el Calvo]]. Sabía griego, algo rarísimo entonces en Occidente, tradujo a varios teólogos místicos griegos y escribió el [[obra.periphyseon|Periphyseon]], el sistema filosófico más ambicioso de la Alta Edad Media.",
+   "profundizacion": "Se firmaba Eriúgena, «nacido en Irlanda», una palabra que inventó él mismo. Hacia el 850 enseñaba en la corte de [[autor.carlos_el_calvo|Carlos el Calvo]], nieto de [[autor.carlomagno|Carlomagno]], y dos obispos le pidieron que refutara al monje [[autor.gottschalk|Gottschalk]], que defendía que Dios predestina a unos a la salvación y a otros a la condenación. Su respuesta, el tratado Sobre la predestinación, negó que Dios predestine a nadie al mal, defendió la libertad humana y trató la cuestión con tanta dialéctica que los concilios de Valence (855) y Langres (859) la condenaron. Después tradujo del griego los escritos atribuidos a Dionisio Areopagita, un supuesto discípulo de san Pablo que en realidad escribió hacia el año 500, y obras de Máximo el Confesor y de Gregorio de Nisa, dos teólogos griegos. De ellos sacó la visión del [[obra.periphyseon|Periphyseon]]: toda la realidad, que él llama naturaleza, sale de Dios y vuelve a él, y se reparte en [[concepto.division_naturaleza|cuatro divisiones]]. Sostuvo que la verdadera razón y la verdadera autoridad no pueden contradecirse, porque [[tesis.razon_autoridad|la autoridad nace de la razón]], y no al revés. En 1225 el papa Honorio III mandó quemar el Periphyseon, porque parecía confundir a Dios con la creación; aun así, siguió copiándose y leyéndose.",
+   "anecdotas": "El historiador inglés Guillermo de Malmesbury, que escribió tres siglos después, cuenta que, estando a la mesa, Carlos el Calvo le preguntó para burlarse qué separaba a un necio de un escoto (en latín, sottus y Scottus; entonces «escoto» quería decir irlandés). Eriúgena, sentado frente a él, respondió: «Solo la mesa» (Guillermo de Malmesbury, Hechos de los obispos de Inglaterra, libro V · C). El mismo autor cuenta que acabó sus días enseñando en la abadía inglesa de Malmesbury y que sus alumnos lo mataron con los punzones con los que escribían. Muchos historiadores creen que lo confunde con otro Juan, y la Stanford Encyclopedia la tiene por apócrifa (Guillermo de Malmesbury, Hechos de los obispos de Inglaterra, libro V · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "John Scottus Eriugena",
+     "url": "https://plato.stanford.edu/entries/scottus-eriugena/",
+     "idioma": "en",
+     "autorEntrada": "Adrian Guiu"
+    }
+   ]
+  },
+  {
+   "id": "autor.carlos_el_calvo",
+   "tipo": "autor",
+   "nombre": "Carlos el Calvo",
+   "nombreOriginal": "Carolus Calvus",
+   "alias": [
+    "Carlos II el Calvo",
+    "Charles le Chauve"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.alta_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Fráncfort del Meno (hoy en Alemania)",
+   "fechas": {
+    "nacimiento": {
+     "min": 823,
+     "max": 823
+    },
+    "muerte": {
+     "min": 877,
+     "max": 877
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "823 – 877. Rey de los francos occidentales desde el 843 y emperador desde el 875."
+   },
+   "resumen": "Rey de los francos occidentales, en buena parte de lo que hoy es Francia, desde el 843, y emperador desde el 875. Nieto de [[autor.carlomagno|Carlomagno]], protegió a los sabios de su corte, entre ellos a [[autor.eriugena|Eriúgena]], que le dedicó sus traducciones del griego."
+  },
+  {
+   "id": "autor.gottschalk",
+   "tipo": "autor",
+   "nombre": "Gottschalk de Orbais",
+   "nombreOriginal": "Gotteschalcus",
+   "alias": [
+    "Gottschalk",
+    "Godescalco"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.alta_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Sajonia (hoy en Alemania)",
+   "fechas": {
+    "nacimiento": {
+     "min": 803,
+     "max": 808
+    },
+    "muerte": {
+     "min": 866,
+     "max": 870
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 805 – hacia el 868. Condenado en el 849, pasó el resto de su vida encerrado en un monasterio."
+   },
+   "resumen": "Monje sajón que, apoyándose en [[autor.agustin|Agustín]], sostuvo que Dios predestina a unos a la salvación y a otros a la condenación. Fue condenado y encerrado en un monasterio hasta su muerte, y su doctrina provocó la polémica en la que intervino [[autor.eriugena|Eriúgena]]."
+  },
+  {
+   "id": "autor.anselmo",
+   "tipo": "autor",
+   "nombre": "Anselmo de Canterbury",
+   "nombreOriginal": "Anselmus Cantuariensis",
+   "alias": [
+    "san Anselmo",
+    "Anselmo de Aosta",
+    "Anselm of Canterbury",
+    "Anselmo"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.metafisica",
+    "tematica.epistemologia"
+   ],
+   "escuelas": [
+    "escuela.escolastica"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Aosta, en los Alpes (hoy en Italia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1033,
+     "max": 1033
+    },
+    "muerte": {
+     "min": 1109,
+     "max": 1109
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "1033 – 21 de abril de 1109. Arzobispo de Canterbury desde 1093."
+   },
+   "resumen": "Monje de la abadía normanda de Bec y después arzobispo de Canterbury. Quiso comprender con la razón lo que creía por la fe, y en el [[obra.proslogion|Proslogion]] propuso el [[tesis.argumento_ontologico|argumento ontológico]]: si podemos pensar en algo mayor que lo cual nada puede pensarse, ese algo tiene que existir.",
+   "profundizacion": "Nació en Aosta y de joven cruzó los Alpes hasta la abadía de Bec, en Normandía, atraído por la fama de su maestro, el lombardo Lanfranco. Allí fue prior y abad, y en 1093 sucedió a Lanfranco como arzobispo de Canterbury, cargo en el que chocó con dos reyes de Inglaterra y sufrió dos destierros. Su lema es [[concepto.fe_busca_entender|la fe que busca entender]]: no pretende llegar a la fe por la razón, sino comprender lo que ya cree. En el Monologion (1075-1076) prueba la existencia de Dios a partir de los grados de bondad de las cosas, siguiendo a [[autor.agustin|Agustín]]; en el [[obra.proslogion|Proslogion]] (1077-1078) busca un solo argumento que baste por sí mismo. Dios es «algo mayor que lo cual nada puede pensarse». Incluso el necio del salmo, que dice que Dios no existe, entiende esa expresión y la tiene en la mente; pero lo que existe en la mente y en la realidad es mayor que lo que existe solo en la mente; luego eso mayor que lo cual nada puede pensarse tiene que existir también en la realidad. Un monje de Marmoutier, [[autor.gaunilon|Gaunilón]], le respondió que con ese razonamiento podría probarse también que existe la isla más perfecta imaginable; Anselmo contestó que el argumento solo vale para Dios. Más tarde, en Por qué Dios se hizo hombre (1095-1098), explicó con razones la encarnación. Su argumento lo rechazó [[autor.tomas_aquino|Tomás de Aquino]], lo retomaron filósofos modernos como Descartes y Leibniz, y todavía se discute.",
+   "anecdotas": "En el prólogo del Proslogion cuenta él mismo que, cansado de buscar ese argumento único, intentó apartar la idea como si fuera una tentación, y que cuanto más la apartaba, con más insistencia se le imponía, hasta que un día la encontró ([[obra.proslogion|Proslogion]], prólogo · A). Su secretario y biógrafo, el monje Eadmero, cuenta que le daba vueltas sin descanso hasta que, durante los rezos de la noche, lo vio claro. Lo escribió en unas tablillas de cera y se las dio a guardar a un monje; las tablillas desaparecieron. Lo escribió otra vez, y las segundas aparecieron hechas pedazos; entonces mandó copiarlo en pergamino (Eadmero, Vida de san Anselmo, libro I, cap. 19 · A).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Anselm of Canterbury",
+     "url": "https://plato.stanford.edu/entries/anselm/",
+     "idioma": "en",
+     "autorEntrada": "Thomas Williams"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Anselm of Canterbury (1033—1109)",
+     "url": "https://iep.utm.edu/anselm-of-centerbury/",
+     "idioma": "en"
+    }
+   ]
+  },
+  {
+   "id": "autor.gaunilon",
+   "tipo": "autor",
+   "nombre": "Gaunilón",
+   "nombreOriginal": "Gaunilo",
+   "alias": [
+    "Gaunilo de Marmoutier",
+    "Gaunilo"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.logica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Desconocido; era monje de la abadía de Marmoutier, cerca de Tours",
+   "fechas": {
+    "activo": {
+     "min": 1075,
+     "max": 1085
+    },
+    "tipo": "actividad",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Solo se sabe que era monje de Marmoutier cuando respondió al Proslogion, poco después de 1078."
+   },
+   "resumen": "Monje de la abadía de Marmoutier que respondió al [[obra.proslogion|Proslogion]] de [[autor.anselmo|Anselmo]] con un escrito titulado En defensa del necio. Objetó que, con el mismo razonamiento, se podría probar que existe la isla más perfecta que pueda imaginarse. Anselmo le contestó y pidió que las dos respuestas se copiaran siempre junto al Proslogion."
+  },
+  {
+   "id": "autor.guillermo_champeaux",
+   "tipo": "autor",
+   "nombre": "Guillermo de Champeaux",
+   "nombreOriginal": "Guillelmus de Campellis",
+   "alias": [
+    "Guillaume de Champeaux"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.logica"
+   ],
+   "escuelas": [
+    "escuela.san_victor"
+   ],
+   "circulo": 3,
+   "lugarOrigen": "Champeaux, cerca de Melun (Francia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1065,
+     "max": 1075
+    },
+    "muerte": {
+     "min": 1121,
+     "max": 1122
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 1070 – 1121 o 1122. Obispo de Châlons desde 1113."
+   },
+   "resumen": "Maestro de la escuela de la catedral de París y fundador de la abadía de [[escuela.san_victor|San Víctor]]. Defendía que lo universal es una realidad presente entera en cada individuo, hasta que su alumno [[autor.abelardo|Abelardo]] lo obligó a corregir su postura."
+  },
+  {
+   "id": "autor.abelardo",
+   "tipo": "autor",
+   "nombre": "Pedro Abelardo",
+   "nombreOriginal": "Petrus Abaelardus",
+   "alias": [
+    "Abelardo",
+    "Peter Abelard",
+    "Pierre Abélard",
+    "Abailard"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.etica",
+    "tematica.filosofia_lenguaje",
+    "tematica.metafisica"
+   ],
+   "escuelas": [
+    "escuela.escolastica"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Le Pallet, en Bretaña, cerca de Nantes (Francia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1078,
+     "max": 1080
+    },
+    "muerte": {
+     "min": 1142,
+     "max": 1142
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1079 – 21 de abril de 1142."
+   },
+   "resumen": "El lógico más brillante del siglo XII, maestro en París. Sostuvo que los [[concepto.universales|universales]] son palabras con significado y que lo que hace buena o mala una acción es [[tesis.intencion_moral|la intención]] de quien la hace. Su amor por [[autor.eloisa|Eloísa]] y sus desgracias, que él mismo contó, lo hicieron famoso mucho más allá de la filosofía.",
+   "profundizacion": "Hijo mayor de un caballero bretón, renunció a la herencia para dedicarse a la dialéctica, el arte de razonar y discutir. Estudió con el maestro Roscelino de Compiègne y después en París con [[autor.guillermo_champeaux|Guillermo de Champeaux]], a quien venció en público discutiendo sobre los [[concepto.universales|universales]] hasta obligarlo a cambiar de postura. Frente a quienes creían que lo universal es una cosa presente en cada individuo, Abelardo sostuvo que universales son las palabras, en cuanto significan algo común a muchos individuos sin nombrar ninguna cosa general. Hacia 1116 se encargó de la educación de [[autor.eloisa|Eloísa]], sobrina del canónigo Fulberto, y empezó con ella una relación de la que nació un hijo, Astrolabio. Se casaron en secreto, y Fulberto, creyéndose engañado, mandó castrarlo. Abelardo se hizo monje en la abadía de Saint-Denis y Eloísa, monja en Argenteuil. Siguió enseñando y escribiendo, y sus libros de teología le valieron dos condenas: en Soissons, en 1121, donde le obligaron a quemar su tratado sobre la Trinidad, y en Sens, en 1140 o 1141, donde lo acusó [[autor.bernardo_claraval|Bernardo de Claraval]]. En el [[obra.sic_et_non|Sic et non]] reunió textos de la Biblia y de los Padres de la Iglesia que se contradicen, para enseñar a resolver la contradicción con la razón. En su Ética, que tituló Conócete a ti mismo, sostuvo que el pecado no está en el acto ni en el deseo, sino en consentir lo que se sabe malo. Murió en un priorato de la orden de Cluny, bajo la protección de su abad, Pedro el Venerable. Fue enterrado en el Paráclito, junto al que sería después el sepulcro de Eloísa; los restos de los dos descansan hoy juntos en el cementerio parisino de Père-Lachaise.",
+   "anecdotas": "Cuenta él mismo que, para enseñar a Eloísa, se alojó en casa de Fulberto, que le dio permiso para castigarla si no estudiaba, y que con el pretexto de las lecciones los libros quedaban abiertos, pero se hablaba más de amor que de lo que había que leer ([[obra.historia_calamitatum|Historia de mis desventuras]], cap. VI · A). En el concilio de Soissons le obligaron a echar al fuego con su propia mano su libro sobre la Trinidad ([[obra.historia_calamitatum|Historia de mis desventuras]], cap. X · A). Retirado después a un descampado cerca de Troyes, los estudiantes acudieron en tal número que se construyeron cabañas a su alrededor para seguir oyéndole; él llamó a su oratorio el Paráclito, y años después se lo cedió a Eloísa y a sus monjas ([[obra.historia_calamitatum|Historia de mis desventuras]], cap. XI · A). Cuando murió, Pedro el Venerable escribió a Eloísa para contarle sus últimos días y mandó llevar su cuerpo al Paráclito (Pedro el Venerable, carta 115 · A).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Peter Abelard",
+     "url": "https://plato.stanford.edu/entries/abelard/",
+     "idioma": "en",
+     "autorEntrada": "Andrew Arlig y Peter King"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Internet Encyclopedia of Philosophy",
+     "titulo": "Peter Abelard (1079–1142)",
+     "url": "https://iep.utm.edu/abelard/",
+     "idioma": "en",
+     "autorEntrada": "Kevin Guilfoy"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "Internet Medieval Sourcebook (Universidad de Fordham)",
+     "titulo": "Abelardo, Historia de mis desventuras",
+     "url": "https://sourcebooks.web.fordham.edu/basis/abelard-histcal.asp",
+     "idioma": "en",
+     "autorEntrada": "traducción inglesa de Henry Adams Bellows"
+    }
+   ]
+  },
+  {
+   "id": "autor.eloisa",
+   "tipo": "autor",
+   "nombre": "Eloísa",
+   "nombreOriginal": "Heloissa",
+   "alias": [
+    "Héloïse",
+    "Heloise",
+    "Eloísa del Paráclito",
+    "Eloísa de Argenteuil"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si",
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [],
+   "circulo": 1,
+   "lugarOrigen": "Probablemente París; se educó en el convento de Argenteuil, cerca de la ciudad",
+   "fechas": {
+    "nacimiento": {
+     "min": 1090,
+     "max": 1101
+    },
+    "muerte": {
+     "min": 1163,
+     "max": 1164
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Nacida entre el 1090 y el 1100 aproximadamente; muerta el 16 de mayo del 1163 o del 1164. La fecha tradicional de nacimiento, hacia 1101, es probablemente demasiado tardía."
+   },
+   "resumen": "Una de las mujeres más cultas de su tiempo, famosa ya de joven por su latín y su saber. Alumna, amante y esposa de [[autor.abelardo|Abelardo]], fue después abadesa del Paráclito. En sus [[obra.cartas_abelardo_eloisa|cartas]] defiende que lo que cuenta moralmente es [[tesis.intencion_moral|la intención]] y critica el matrimonio con argumentos de los filósofos antiguos.",
+   "profundizacion": "Vivía en París con su tío, el canónigo Fulberto, y Abelardo cuenta que su fama de sabia corría ya por todo el reino. Cuando quedó embarazada, él la llevó a Bretaña, donde nació su hijo Astrolabio, y le propuso casarse. Ella se opuso, y él recogió sus razones en la [[obra.historia_calamitatum|Historia de mis desventuras]]: un filósofo no puede dedicarse a la sabiduría entre cunas, criadas y ruidos de casa, como ya habían visto san Pablo, [[autor.jeronimo|Jerónimo]], [[autor.seneca|Séneca]] y el ejemplo de [[autor.socrates|Sócrates]] con su mujer. Se casaron en secreto y, tras la castración de Abelardo, Eloísa se hizo monja en Argenteuil, donde llegó a priora. Cuando las monjas fueron expulsadas de allí, Abelardo le cedió el Paráclito, del que fue abadesa más de treinta años. La Historia de mis desventuras llegó a sus manos y dio pie a la correspondencia entre los dos. En sus cartas, Eloísa dice que no se arrepiente de su amor, que tomó el velo por obedecer a Abelardo y no por amor a Dios, y que la culpa no está en el acto, sino en la intención de quien lo hace: por eso se considera a la vez muy culpable y muy inocente. Pidió a Abelardo una regla de vida pensada para mujeres, porque la de san Benito, la que seguían los monasterios, estaba escrita para hombres, y le planteó por escrito cuarenta y dos dudas sobre la Biblia, los llamados Problemas de Eloísa. Desde el siglo XIX se ha discutido si las cartas son auténticas; hoy la mayoría de los especialistas cree que sí.",
+   "anecdotas": "En su primera carta a Abelardo escribe que el nombre de esposa le pareció siempre más santo, pero que le era más dulce el de amiga, o incluso el de concubina o el de prostituta; y que si el emperador Augusto le hubiera ofrecido casarse con ella y darle el mundo entero, habría preferido ser llamada la prostituta de Abelardo antes que la emperatriz de Augusto ([[obra.cartas_abelardo_eloisa|Cartas de Abelardo y Eloísa]], primera carta de Eloísa · A). El abad Pedro el Venerable le escribió que, siendo él muy joven, ya había oído hablar de una mujer que, sin haber dejado el mundo, se dedicaba al estudio de las letras y de la sabiduría (Pedro el Venerable, carta 115 · A).",
+   "paraSaberMas": [
+    {
+     "tipo": "traduccion",
+     "obra": "Epistolae (Universidad de Columbia)",
+     "titulo": "Primera carta de Eloísa a Abelardo, en latín y en inglés",
+     "url": "https://epistolae.ctl.columbia.edu/letter/175.html",
+     "idioma": "en",
+     "autorEntrada": "traducción inglesa de Mary Martin McLaughlin"
+    }
+   ]
+  },
+  {
+   "id": "autor.bernardo_claraval",
+   "tipo": "autor",
+   "nombre": "Bernardo de Claraval",
+   "nombreOriginal": "Bernardus Claraevallensis",
+   "alias": [
+    "san Bernardo",
+    "Bernard de Clairvaux",
+    "Bernardo"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [],
+   "circulo": 2,
+   "lugarOrigen": "Fontaine-lès-Dijon, en Borgoña (Francia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1090,
+     "max": 1090
+    },
+    "muerte": {
+     "min": 1153,
+     "max": 1153
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "1090 – 20 de agosto de 1153. Abad de Claraval desde 1115."
+   },
+   "resumen": "Abad del monasterio cisterciense de Claraval y el hombre más influyente de la Iglesia de su tiempo: aconsejaba a papas y reyes y predicó la segunda cruzada. Desconfiaba de la dialéctica aplicada a la fe y consiguió que [[autor.abelardo|Abelardo]] fuera condenado en Sens. Sus sermones sobre el Cantar de los Cantares, el libro bíblico de poemas de amor, son una de las cumbres de la mística medieval."
+  },
+  {
+   "id": "obra.periphyseon",
+   "tipo": "obra",
+   "nombre": "Periphyseon",
+   "nombreOriginal": "Περὶ φύσεων",
+   "alias": [
+    "De divisione naturae",
+    "Sobre la división de la naturaleza",
+    "Periphyseon"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.alta_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 862,
+     "max": 867
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrito a principios de la década del 860 y terminado hacia el 867. El título es griego: «Sobre las naturalezas»."
+   },
+   "resumen": "Gran diálogo en cinco libros entre un maestro y su alumno, en el que [[autor.eriugena|Eriúgena]] describe cómo toda la realidad sale de Dios y vuelve a él, repartida en [[concepto.division_naturaleza|cuatro divisiones]]. El papa Honorio III mandó quemarlo en 1225."
+  },
+  {
+   "id": "obra.proslogion",
+   "tipo": "obra",
+   "nombre": "Proslogion",
+   "nombreOriginal": "Proslogion",
+   "alias": [
+    "Proslogio",
+    "Proslogium",
+    "La fe que busca entender",
+    "Fides quaerens intellectum"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.metafisica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1077,
+     "max": 1078
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "1077-1078. Se copió desde muy pronto junto a la objeción de Gaunilón y la respuesta de Anselmo."
+   },
+   "resumen": "Breve tratado en forma de oración en el que [[autor.anselmo|Anselmo]] busca un único argumento que pruebe la existencia de Dios: el [[tesis.argumento_ontologico|argumento ontológico]]. Su primer título fue La fe que busca entender."
+  },
+  {
+   "id": "obra.sic_et_non",
+   "tipo": "obra",
+   "nombre": "Sic et non",
+   "nombreOriginal": "Sic et non",
+   "alias": [
+    "Sí y no"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.filosofia_religion",
+    "tematica.filosofia_lenguaje"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1120,
+     "max": 1140
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Fecha incierta: Abelardo lo fue ampliando durante años."
+   },
+   "resumen": "Colección de más de ciento cincuenta cuestiones de teología en la que [[autor.abelardo|Abelardo]] reúne, para cada una, textos de la Biblia y de los Padres de la Iglesia que dicen «sí» y otros que dicen «no». En el prólogo enseña a resolver la contradicción: ver si el texto es auténtico, en qué sentido usa cada palabra y en qué contexto se dijo."
+  },
+  {
+   "id": "obra.historia_calamitatum",
+   "tipo": "obra",
+   "nombre": "Historia de mis desventuras",
+   "nombreOriginal": "Historia calamitatum",
+   "alias": [
+    "Historia calamitatum",
+    "Historia de mis calamidades"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.antropologia_filosofica",
+    "tematica.etica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1130,
+     "max": 1135
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrita hacia 1132, cuando Abelardo era abad de Saint-Gildas, en Bretaña."
+   },
+   "resumen": "Carta autobiográfica en la que [[autor.abelardo|Abelardo]] cuenta a un amigo sus éxitos como maestro, su amor por [[autor.eloisa|Eloísa]], su castración y sus condenas. Al llegar a manos de Eloísa, dio pie a la correspondencia entre los dos."
+  },
+  {
+   "id": "obra.cartas_abelardo_eloisa",
+   "tipo": "obra",
+   "nombre": "Cartas de Abelardo y Eloísa",
+   "nombreOriginal": "Epistolae",
+   "alias": [
+    "Cartas de Eloísa",
+    "Correspondencia de Abelardo y Eloísa"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.cultivo_de_si",
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1130,
+     "max": 1140
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Hacia 1130-1140. Desde el siglo XIX se ha discutido su autenticidad; hoy la mayoría de los especialistas las tiene por auténticas."
+   },
+   "resumen": "Las cartas que se escribieron [[autor.eloisa|Eloísa]], ya abadesa del Paráclito, y [[autor.abelardo|Abelardo]], ya monje, después de la [[obra.historia_calamitatum|Historia de mis desventuras]]. Hablan del amor, de la culpa y de [[tesis.intencion_moral|la intención]], y de cómo debe ser la vida de una comunidad de mujeres."
+  },
+  {
+   "id": "concepto.division_naturaleza",
+   "tipo": "concepto",
+   "nombre": "las cuatro divisiones de la naturaleza",
+   "nombreOriginal": "divisio naturae",
+   "terminoOriginal": "divisio naturae",
+   "traduccion": "división de la naturaleza",
+   "notaTraduccion": "Para Eriúgena, natura es todo lo que es y lo que no es, incluido Dios.",
+   "alias": [
+    "división de la naturaleza",
+    "divisio naturae"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.alta_edad_media"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "[[autor.eriugena|Eriúgena]] divide toda la realidad en cuatro: lo que crea y no es creado, que es Dios como origen; lo que es creado y crea, las causas primordiales o ideas de las cosas en Dios; lo que es creado y no crea, las cosas del mundo; y lo que ni crea ni es creado, que es Dios como fin al que todo vuelve."
+  },
+  {
+   "id": "concepto.fe_busca_entender",
+   "tipo": "concepto",
+   "nombre": "la fe que busca entender",
+   "nombreOriginal": "fides quaerens intellectum",
+   "terminoOriginal": "fides quaerens intellectum",
+   "traduccion": "la fe que busca entender",
+   "alias": [
+    "credo ut intelligam",
+    "creo para entender",
+    "fides quaerens intellectum"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.epistemologia"
+   ],
+   "resumen": "Lema de [[autor.anselmo|Anselmo]]: no busca entender para creer, sino que cree para entender. La razón no sustituye a la fe, sino que trata de comprender lo que la fe ya acepta. La idea viene de [[autor.agustin|Agustín]]."
+  },
+  {
+   "id": "tesis.argumento_ontologico",
+   "tipo": "tesis",
+   "nombre": "El argumento ontológico",
+   "enunciado": "Dios es algo mayor que lo cual nada puede pensarse; lo que existe en la realidad es mayor que lo que existe solo en el pensamiento; luego Dios existe.",
+   "alias": [
+    "argumento de san Anselmo",
+    "prueba ontológica"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.metafisica",
+    "tematica.logica"
+   ],
+   "resumen": "Prueba de la existencia de Dios que [[autor.anselmo|Anselmo]] propuso en el [[obra.proslogion|Proslogion]], basada solo en el concepto de Dios. El nombre de «ontológico» se lo puso siglos después el filósofo alemán Immanuel Kant, que lo rechazó. Desde la objeción de [[autor.gaunilon|Gaunilón]] no ha dejado de discutirse."
+  },
+  {
+   "id": "tesis.razon_autoridad",
+   "tipo": "tesis",
+   "nombre": "La autoridad nace de la razón",
+   "enunciado": "La verdadera autoridad no contradice a la verdadera razón, porque la autoridad procede de la razón, y no la razón de la autoridad.",
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.alta_edad_media"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "Principio que [[autor.eriugena|Eriúgena]] defiende en el [[obra.periphyseon|Periphyseon]]: los textos de los Padres de la Iglesia valen porque dicen una verdad que la razón puede descubrir; si parecen contradecirla, hay que interpretarlos."
+  },
+  {
+   "id": "tesis.intencion_moral",
+   "tipo": "tesis",
+   "nombre": "Lo que cuenta es la intención",
+   "enunciado": "Lo que hace buena o mala una acción no es el acto en sí, sino la intención de quien lo hace.",
+   "alias": [
+    "ética de la intención",
+    "intencionalismo"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.etica"
+   ],
+   "resumen": "Tesis que defendieron [[autor.abelardo|Abelardo]], en su Ética, y [[autor.eloisa|Eloísa]], en sus cartas. Para Abelardo, el pecado no está en el acto ni en el deseo, sino en consentir lo que se sabe malo; por eso faltar a la propia conciencia es pecar."
   }
  ],
  "relaciones": [
@@ -994,6 +1654,243 @@
    "destino": "pregunta.como_gobernar",
    "certeza": "D",
    "nota": "Ningún estado de este mundo es la ciudad de Dios: la justicia plena no se alcanza en la historia."
+  },
+  {
+   "id": "la-0035",
+   "origen": "autor.eriugena",
+   "tipo": "escribio",
+   "destino": "obra.periphyseon",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0036",
+   "origen": "autor.eriugena",
+   "tipo": "desarrolla",
+   "destino": "concepto.division_naturaleza",
+   "certeza": "D",
+   "fuente": "Periphyseon I 1"
+  },
+  {
+   "id": "la-0037",
+   "origen": "autor.eriugena",
+   "tipo": "defiende",
+   "destino": "tesis.razon_autoridad",
+   "certeza": "D",
+   "fuente": "Periphyseon I 69"
+  },
+  {
+   "id": "la-0038",
+   "origen": "obra.periphyseon",
+   "tipo": "trata_sobre",
+   "destino": "concepto.division_naturaleza",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0039",
+   "origen": "obra.periphyseon",
+   "tipo": "trata_sobre",
+   "destino": "tesis.razon_autoridad",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0040",
+   "origen": "autor.eriugena",
+   "tipo": "critica",
+   "destino": "autor.gottschalk",
+   "certeza": "D",
+   "fuente": "Eriúgena, Sobre la predestinación",
+   "nota": "Le encargaron refutar su doctrina de la doble predestinación, y la negó con argumentos de razón."
+  },
+  {
+   "id": "la-0041",
+   "origen": "autor.agustin",
+   "tipo": "influyo_en",
+   "destino": "autor.gottschalk",
+   "certeza": "D",
+   "fuente": "Gottschalk, Confesión larga",
+   "nota": "Gottschalk creía estar repitiendo la doctrina de [[autor.agustin|Agustín]] sobre la gracia y la predestinación."
+  },
+  {
+   "id": "la-0042",
+   "origen": "autor.anselmo",
+   "tipo": "escribio",
+   "destino": "obra.proslogion",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0043",
+   "origen": "autor.anselmo",
+   "tipo": "defiende",
+   "destino": "tesis.argumento_ontologico",
+   "certeza": "D",
+   "fuente": "Proslogion 2-4"
+  },
+  {
+   "id": "la-0044",
+   "origen": "autor.anselmo",
+   "tipo": "desarrolla",
+   "destino": "concepto.fe_busca_entender",
+   "certeza": "D",
+   "fuente": "Proslogion, prólogo y cap. 1"
+  },
+  {
+   "id": "la-0045",
+   "origen": "obra.proslogion",
+   "tipo": "trata_sobre",
+   "destino": "tesis.argumento_ontologico",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0046",
+   "origen": "obra.proslogion",
+   "tipo": "trata_sobre",
+   "destino": "concepto.fe_busca_entender",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0047",
+   "origen": "autor.gaunilon",
+   "tipo": "critica",
+   "destino": "tesis.argumento_ontologico",
+   "certeza": "D",
+   "fuente": "Gaunilón, En defensa del necio",
+   "nota": "Con el mismo razonamiento se probaría que existe la isla más perfecta imaginable."
+  },
+  {
+   "id": "la-0048",
+   "origen": "autor.agustin",
+   "tipo": "influyo_en",
+   "destino": "autor.anselmo",
+   "certeza": "D",
+   "fuente": "Anselmo, Monologion, prólogo",
+   "nota": "Anselmo advierte que no ha escrito nada que no concuerde con los escritos de [[autor.agustin|Agustín]]."
+  },
+  {
+   "id": "la-0049",
+   "origen": "autor.abelardo",
+   "tipo": "escribio",
+   "destino": "obra.sic_et_non",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0050",
+   "origen": "autor.abelardo",
+   "tipo": "escribio",
+   "destino": "obra.historia_calamitatum",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0051",
+   "origen": "autor.abelardo",
+   "tipo": "escribio",
+   "destino": "obra.cartas_abelardo_eloisa",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0052",
+   "origen": "autor.eloisa",
+   "tipo": "escribio",
+   "destino": "obra.cartas_abelardo_eloisa",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0053",
+   "origen": "autor.guillermo_champeaux",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.abelardo",
+   "certeza": "D",
+   "fuente": "Historia de mis desventuras, cap. II"
+  },
+  {
+   "id": "la-0054",
+   "origen": "autor.abelardo",
+   "tipo": "critica",
+   "destino": "autor.guillermo_champeaux",
+   "certeza": "D",
+   "fuente": "Historia de mis desventuras, cap. II",
+   "nota": "Lo obligó a corregir y después a abandonar su tesis sobre los [[concepto.universales|universales]]."
+  },
+  {
+   "id": "la-0055",
+   "origen": "autor.abelardo",
+   "tipo": "desarrolla",
+   "destino": "concepto.universales",
+   "certeza": "D",
+   "fuente": "Abelardo, Glosas a Porfirio"
+  },
+  {
+   "id": "la-0056",
+   "origen": "autor.abelardo",
+   "tipo": "defiende",
+   "destino": "tesis.intencion_moral",
+   "certeza": "D",
+   "fuente": "Abelardo, Ética o Conócete a ti mismo"
+  },
+  {
+   "id": "la-0057",
+   "origen": "autor.eloisa",
+   "tipo": "defiende",
+   "destino": "tesis.intencion_moral",
+   "certeza": "D",
+   "fuente": "Primera carta de Eloísa a Abelardo"
+  },
+  {
+   "id": "la-0058",
+   "origen": "obra.cartas_abelardo_eloisa",
+   "tipo": "trata_sobre",
+   "destino": "tesis.intencion_moral",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0059",
+   "origen": "autor.abelardo",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.eloisa",
+   "certeza": "D",
+   "fuente": "Historia de mis desventuras, cap. VI"
+  },
+  {
+   "id": "la-0060",
+   "origen": "autor.bernardo_claraval",
+   "tipo": "critica",
+   "destino": "autor.abelardo",
+   "certeza": "D",
+   "fuente": "Bernardo de Claraval, carta 190, contra los errores de Abelardo",
+   "nota": "Lo acusó ante el concilio de Sens, que condenó diecinueve de sus tesis."
+  },
+  {
+   "id": "la-0061",
+   "origen": "autor.boecio",
+   "tipo": "influyo_en",
+   "destino": "autor.abelardo",
+   "certeza": "D",
+   "fuente": "Abelardo, Glosas a Porfirio",
+   "nota": "Abelardo aprendió la lógica en las traducciones y los comentarios de [[autor.boecio|Boecio]], y discute sus soluciones sobre los universales."
+  },
+  {
+   "id": "la-0062",
+   "origen": "tesis.intencion_moral",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_vivir",
+   "certeza": "D",
+   "nota": "Lo que hace buena una vida es la intención con que se obra, no los actos vistos desde fuera."
+  },
+  {
+   "id": "la-0063",
+   "origen": "concepto.division_naturaleza",
+   "tipo": "responde_a",
+   "destino": "pregunta.de_que_esta_hecho",
+   "certeza": "D",
+   "nota": "Para [[autor.eriugena|Eriúgena]], todo procede de Dios y vuelve a él."
+  },
+  {
+   "id": "la-0064",
+   "origen": "tesis.intencion_moral",
+   "tipo": "paralelo_a",
+   "destino": "concepto.karman",
+   "certeza": "D",
+   "nota": "El [[autor.buda|Buda]] dijo que lo que él llama [[concepto.karman|karma]] es la intención, según el Aṅguttara Nikāya, una de las colecciones de sus discursos (libro de los seis, 63); [[autor.abelardo|Abelardo]] y [[autor.eloisa|Eloísa]], sin saber nada de él, pusieron también el peso moral en la intención y no en el acto.",
+   "ejeComparacion": "La intención como lo que cuenta moralmente"
   }
  ]
 }
