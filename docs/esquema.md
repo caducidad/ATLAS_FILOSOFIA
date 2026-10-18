@@ -16,7 +16,17 @@ Este documento recoge solo lo propio de la filosofía, que se declara en [`atlas
 | `grecorromana-antigua.json` | Tradición grecorromana de la Antigüedad | `gr` |
 | `proximo-oriente-antiguo.json` | Sabidurías del Próximo Oriente: Egipto, Mesopotamia, Irán e Israel | `po` |
 | `preguntas.json` | Las grandes preguntas y sus respuestas (`responde_a`) | `pq` |
-| … | Otras épocas (pendientes) | uno nuevo por archivo |
+
+**Edad Media (en preparación).** Archivos y prefijos ya reservados, según el [informe previo](informes/edad-media.md); cada uno se añade a `atlas.json` cuando se publica su tanda:
+
+| Archivo | Contenido | Prefijo |
+| --- | --- | --- |
+| `latina-medieval.json` | Europa latina, de Agustín a 1450 | `la` |
+| `bizancio.json` | Filosofía bizantina, 529-1453 | `bz` |
+| `islamica-medieval.json` | Mundo islámico, de las traducciones de Bagdad a Ibn Jaldún | `is` |
+| `judia-medieval.json` | Pensamiento judío, de Saadia Gaón a 1450 | `ju` |
+| `india-medieval.json` | India, de Asaṅga y Vasubandhu a 1500 | `im` |
+| `china-medieval.json` | China, del fin de los Han a 1450 | `cm` |
 
 ### Cómo se reparten
 
@@ -38,6 +48,8 @@ Campo propio, `tradicion`, obligatorio en todos los nodos salvo las temáticas, 
 | `india` | India |
 | `china` | China |
 | `proximo_oriente` | Próximo Oriente |
+
+**En la Edad Media** (decisión de Juan del 18 de octubre de 2026) se añaden tres valores, cada uno cuando se publique su primera tanda: `latina` (Europa latina), `judia` (Pensamiento judío) e `islamica` (Mundo islámico). Bizancio sigue en `grecorromana`, que pasará a mostrarse como «Grecia, Roma y Bizancio». El orden de los carriles será Próximo Oriente, Grecia, Roma y Bizancio, Europa latina, Pensamiento judío, Mundo islámico, India y China. Los autores tardoantiguos que faltaban (Agustín, Boecio, Wang Bi, Vasubandhu…) abren los archivos medievales; Proclo y Damascio completan el griego antiguo.
 
 Define los **carriles** de la vista cronológica: cada tradición ocupa uno, de modo que se vea que Confucio, el Buda y los presocráticos son contemporáneos. El Próximo Oriente es un carril secundario: sabidurías que sirven de preámbulo, no filosofía en sentido estricto. Un nodo que aparece en textos de otra tradición conserva la suya de origen: los gimnosofistas, ascetas indios que conocieron los griegos, son de tradición india.
 
