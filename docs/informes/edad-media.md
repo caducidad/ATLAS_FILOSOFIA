@@ -222,3 +222,17 @@ Lo que se ha cotejado con el texto y lo que no, ficha a ficha, para que la revis
 - El prólogo del *Itinerario* (La Verna, octubre de 1259) y la carta de Clemente IV (junio de 1266): cotejados con la Stanford Encyclopedia, no con el texto.
 - Las tres de Tomás (el buey mudo, el tizón, la paja): proceden de Guillermo de Tocco y del proceso de canonización de Nápoles. No hay edición abierta en la red; van con fiabilidad C, C y B. Falta cotejarlas con la edición de Le Brun-Gouanvic o con los documentos reunidos por Foster.
 - La leyenda del sombrero de cardenal de Buenaventura y la cabeza de bronce de Bacon van como leyendas (L).
+
+**Llull, Escoto, Ockham, Eckhart y Christine de Pizan.**
+- Cotejado con la Stanford Encyclopedia, no con el texto: la conversión de Llull (*Vida coetánea*, cinco visiones), la lista de 1303 que expulsó a Escoto de París, la huida de Ockham (26 de mayo de 1328) y que la fórmula de la navaja no está en sus obras.
+- La frase de Eckhart sobre librarse de Dios: a través de un estudio que cita el sermón 52 (*Semanario Universidad*).
+- El comienzo de *La ciudad de las damas* (Mateolo, el deseo de haber nacido hombre): cotejado con una traducción inglesa parcial (Hanover College).
+- Revisado de memoria: el esclavo de Llull (*Vida coetánea* 11-13), la declaración de Eckhart en Colonia (13 de febrero de 1327), la metamorfosis de la *Mutación de Fortuna* y la bula de excomunión de Ockham.
+- Van como leyendas o tradiciones tardías (C y L): la muerte de Llull en Bugía, el epitafio de Escoto y la frase de la espada y la pluma de Ockham.
+- Fechas de Juan XXII, Luis de Baviera y Dante: revisadas de memoria.
+
+**Defectos de la app vistos al poblar la Edad Media.**
+- En la línea del tiempo, un nombre pegado al borde izquierdo puede pisar al siguiente («Agustín de Hipona» y «Boecio»).
+- A veces un nombre se monta un poco sobre el de la misma fila («Ambrosio de Milán» y «Teodorico»).
+- La segunda mitad del siglo XIII queda muy apretada.
+- Encaja con el pendiente del tamaño de letra.
