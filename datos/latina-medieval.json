@@ -1386,6 +1386,652 @@
     "tematica.etica"
    ],
    "resumen": "Tesis que defendieron [[autor.abelardo|Abelardo]], en su Ética, y [[autor.eloisa|Eloísa]], en sus cartas. Para Abelardo, el pecado no está en el acto ni en el deseo, sino en consentir lo que se sabe malo; por eso faltar a la propia conciencia es pecar."
+  },
+  {
+   "id": "autor.alberto_magno",
+   "tipo": "autor",
+   "nombre": "Alberto Magno",
+   "nombreOriginal": "Albertus Magnus",
+   "alias": [
+    "san Alberto Magno",
+    "Alberto el Grande",
+    "Albertus Magnus",
+    "Doctor universal",
+    "Alberto de Colonia"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_ciencia",
+    "tematica.metafisica",
+    "tematica.filosofia_mente"
+   ],
+   "escuelas": [
+    "escuela.escolastica"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Lauingen, en Suabia (hoy en Alemania)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1195,
+     "max": 1205
+    },
+    "muerte": {
+     "min": 1280,
+     "max": 1280
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 1200 – 15 de noviembre de 1280, en Colonia."
+   },
+   "resumen": "Fraile dominico alemán, llamado el doctor universal por la amplitud de su saber. Comentó todas las obras de [[autor.aristoteles|Aristóteles]] para darlas a conocer a los latinos, estudió plantas, animales y minerales observándolos él mismo y fue maestro de [[autor.tomas_aquino|Tomás de Aquino]].",
+   "profundizacion": "Entró en la orden de los dominicos en 1223 y enseñó en París y en Colonia, donde fundó el centro de estudios de su orden; allí tuvo como alumno a [[autor.tomas_aquino|Tomás de Aquino]]. Fue superior de los dominicos de Alemania y, entre 1260 y 1262, obispo de Ratisbona, cargo al que renunció para volver a enseñar. Se propuso explicar a los latinos toda la filosofía natural, la lógica, la ética y la metafísica de [[autor.aristoteles|Aristóteles]], y para ello leyó también a los filósofos árabes, como el persa Avicena y el andalusí Averroes, y al pensador judío Maimónides. Distinguía con claridad lo que se sabe por la razón de lo que se cree por la fe, y en la ciencia de la naturaleza defendía la observación: describió plantas y animales que había visto él mismo y corrigió a los autores antiguos cuando no coincidían con lo observado. Sobrevivió seis años a su discípulo. Fue declarado santo y doctor de la Iglesia en 1931.",
+   "anecdotas": "En su tratado sobre las plantas advierte que, cuando se trata de cosas tan particulares de la naturaleza, solo la experiencia da certeza, porque sobre ellas no se puede razonar con silogismos (Alberto Magno, Sobre las plantas, libro VI, tratado 1, cap. 1 · A).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Albert the Great",
+     "url": "https://plato.stanford.edu/entries/albert-great/",
+     "idioma": "en",
+     "autorEntrada": "Bruno Tremblay"
+    }
+   ]
+  },
+  {
+   "id": "autor.tomas_aquino",
+   "tipo": "autor",
+   "nombre": "Tomás de Aquino",
+   "nombreOriginal": "Thomas de Aquino",
+   "alias": [
+    "santo Tomás",
+    "Tomás",
+    "Thomas Aquinas",
+    "Doctor angélico",
+    "el Aquinate"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion",
+    "tematica.etica",
+    "tematica.filosofia_politica",
+    "tematica.filosofia_mente"
+   ],
+   "escuelas": [
+    "escuela.escolastica",
+    "escuela.tomismo"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Roccasecca, cerca de Aquino, entre Roma y Nápoles (Italia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1224,
+     "max": 1226
+    },
+    "muerte": {
+     "min": 1274,
+     "max": 1274
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1225 – 7 de marzo de 1274, en la abadía de Fossanova. El año de nacimiento no es seguro."
+   },
+   "resumen": "Fraile dominico y maestro en París, el filósofo y teólogo más influyente de la Iglesia católica. Quiso mostrar que la razón, tal como la había desarrollado [[autor.aristoteles|Aristóteles]], y la fe cristiana no se contradicen, y lo ordenó todo en su [[obra.suma_teologica|Suma teológica]].",
+   "profundizacion": "Nació en una familia noble que lo destinaba a abad de Montecasino, el gran monasterio benedictino, donde lo educaron de niño. En Nápoles conoció a los dominicos, una orden de frailes predicadores recién fundada, y entró en ella en 1244; su familia lo retuvo un año en Roccasecca para impedirlo, pero acabó cediendo. Estudió en París y en Colonia con [[autor.alberto_magno|Alberto Magno]] y fue maestro de teología en París de 1256 a 1259 y de 1268 a 1272. Su obra es inmensa: comentarios a casi todo [[autor.aristoteles|Aristóteles]], la [[obra.suma_contra_gentiles|Suma contra los gentiles]] y la [[obra.suma_teologica|Suma teológica]], que dejó sin terminar. Para él, [[tesis.fe_razon|la razón y la fe no pueden contradecirse]], porque las dos vienen de Dios: la filosofía puede probar que Dios existe, por [[tesis.cinco_vias|cinco vías]] que parten de lo que vemos en el mundo, pero no los misterios de la fe, como la Trinidad. Rechazó el [[tesis.argumento_ontologico|argumento de Anselmo]] porque, según él, no conocemos la esencia de Dios. En metafísica distinguió en todo lo creado [[concepto.esse_esencia|lo que una cosa es y el hecho de que exista]], que solo en Dios coinciden, y explicó que de Dios hablamos por [[concepto.analogia|analogía]]. Sostuvo que el alma es la forma del cuerpo y que cada ser humano tiene su propio intelecto, contra los [[escuela.averroismo_latino|averroístas]], y que la razón no puede demostrar que el mundo [[tesis.eternidad_mundo|haya tenido un comienzo]]. Su doctrina de la [[concepto.ley_natural|ley natural]] influyó en todo el pensamiento político y jurídico posterior. Algunas de sus tesis cayeron en la condena de París de 1277, tres años después de su muerte; fue canonizado en 1323.",
+   "anecdotas": "Sus compañeros de estudios lo llamaban el buey mudo, porque era corpulento, callado y lento; según su biógrafo Guillermo de Tocco, [[autor.alberto_magno|Alberto Magno]] les respondió que los mugidos de ese buey se oirían en el mundo entero (Guillermo de Tocco, Historia de santo Tomás de Aquino · C). El mismo biógrafo cuenta que, mientras su familia lo tenía encerrado en Roccasecca, sus hermanos le metieron en la habitación a una muchacha para tentarlo, y que él la echó blandiendo un tizón encendido (Guillermo de Tocco, Historia de santo Tomás de Aquino · C). En diciembre de 1273, en Nápoles, dejó de escribir de repente. A su compañero, fray Reginaldo de Piperno, que le insistía en que terminara la Suma, le dijo que no podía, porque todo lo que había escrito le parecía paja comparado con lo que había visto. Lo contó años después un testigo que lo había oído del propio Reginaldo (proceso de canonización de Nápoles, 1319, declaración de Bartolomé de Capua · B).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Philosophica",
+     "titulo": "Tomás de Aquino",
+     "url": "https://www.philosophica.info/voces/aquino/Aquino.html",
+     "idioma": "es",
+     "autorEntrada": "Stephen L. Brock"
+    },
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Thomas Aquinas",
+     "url": "https://plato.stanford.edu/entries/aquinas/",
+     "idioma": "en",
+     "autorEntrada": "Robert Pasnau"
+    },
+    {
+     "tipo": "traduccion",
+     "obra": "New Advent",
+     "titulo": "Tomás de Aquino, Suma teológica, I, cuestión 2: la existencia de Dios",
+     "url": "https://www.newadvent.org/summa/1002.htm",
+     "idioma": "en",
+     "autorEntrada": "traducción inglesa de los dominicos de Inglaterra (1920)"
+    }
+   ]
+  },
+  {
+   "id": "autor.buenaventura",
+   "tipo": "autor",
+   "nombre": "Buenaventura",
+   "nombreOriginal": "Bonaventura",
+   "alias": [
+    "san Buenaventura",
+    "Bonaventura",
+    "Bonaventure",
+    "Juan de Fidanza",
+    "Doctor seráfico"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.epistemologia",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [
+    "escuela.escolastica"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Bagnoregio, cerca de Viterbo (Italia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1217,
+     "max": 1221
+    },
+    "muerte": {
+     "min": 1274,
+     "max": 1274
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "1217 o hacia 1221 – 15 de julio de 1274, durante el concilio de Lyon. Ministro general de los franciscanos desde 1257."
+   },
+   "resumen": "Fraile franciscano, maestro en París y ministro general de su orden. Frente al aristotelismo de su tiempo defendió la tradición de [[autor.agustin|Agustín]]: todo conocimiento es un camino hacia Dios, como enseña su [[obra.itinerario|Itinerario de la mente a Dios]].",
+   "profundizacion": "Se llamaba Juan de Fidanza; el nombre de Buenaventura lo tomó al entrar en los franciscanos, la orden fundada por Francisco de Asís. Estudió y enseñó en París, donde fue maestro en los mismos años que [[autor.tomas_aquino|Tomás de Aquino]], y en 1257 lo eligieron ministro general de su orden, que gobernó diecisiete años en plena disputa entre quienes querían una pobreza estricta y quienes la querían más moderada. Para él la filosofía sola se queda corta: conoce las cosas, pero solo a la luz de la fe se ve que son huellas de Dios. Defendió la [[concepto.iluminacion|iluminación]] de [[autor.agustin|Agustín]] y sostuvo, contra Tomás, que la razón puede demostrar que el mundo [[tesis.eternidad_mundo|tuvo un comienzo]], porque un mundo creado de la nada no puede ser eterno. En el [[obra.itinerario|Itinerario de la mente a Dios]] describe seis grados por los que el alma sube desde las cosas sensibles hasta Dios. Murió durante el concilio de Lyon, poco después de ser nombrado cardenal, el mismo año que Tomás.",
+   "anecdotas": "Cuenta él mismo que concibió el Itinerario en octubre de 1259, cuando subió en busca de paz al monte de La Verna, donde según la tradición Francisco de Asís había recibido los estigmas ([[obra.itinerario|Itinerario de la mente a Dios]], prólogo · A). Según una leyenda posterior, cuando los enviados del papa llegaron a darle el sombrero de cardenal lo encontraron fregando los platos en un convento, y les pidió que lo colgaran de un árbol hasta que terminara (leyenda franciscana · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Saint Bonaventure",
+     "url": "https://plato.stanford.edu/entries/bonaventure/",
+     "idioma": "en",
+     "autorEntrada": "Joshua Benson"
+    }
+   ]
+  },
+  {
+   "id": "autor.roger_bacon",
+   "tipo": "autor",
+   "nombre": "Roger Bacon",
+   "nombreOriginal": "Rogerus Baconus",
+   "alias": [
+    "Bacon",
+    "Doctor admirable",
+    "Rogerio Bacon"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_ciencia",
+    "tematica.epistemologia",
+    "tematica.filosofia_lenguaje"
+   ],
+   "escuelas": [
+    "escuela.escolastica"
+   ],
+   "circulo": 1,
+   "lugarOrigen": "Inglaterra",
+   "fechas": {
+    "nacimiento": {
+     "min": 1214,
+     "max": 1220
+    },
+    "muerte": {
+     "min": 1292,
+     "max": 1294
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1214-1220 – hacia 1292, en Oxford. Los especialistas discrepan sobre el año de nacimiento según cómo lean una frase suya sobre sus cuarenta años de estudio."
+   },
+   "resumen": "Fraile franciscano inglés que reclamó una reforma de todo el saber: estudiar las lenguas para leer bien a los antiguos, usar las matemáticas y comprobarlo todo por la [[concepto.ciencia_experimental|experiencia]]. Lo expuso en el [[obra.opus_maius|Opus maius]], escrito a petición del papa.",
+   "profundizacion": "Enseñó en París sobre las obras de [[autor.aristoteles|Aristóteles]] cuando apenas empezaban a entrar en el programa, y hacia 1257 se hizo franciscano. Admiraba a [[autor.grosseteste|Roberto Grosseteste]], de quien tomó el interés por la óptica y por las matemáticas como clave de la naturaleza. En 1266 el papa Clemente IV, que lo conocía, le pidió que le enviara en secreto sus propuestas para reformar el saber, y Bacon escribió en pocos meses el [[obra.opus_maius|Opus maius]] y otros dos escritos que lo completan. Allí sostiene que hay cuatro causas de error: la autoridad mal fundada, la costumbre, la opinión de la mayoría y el ocultar la propia ignorancia con apariencia de saber. Defiende que sin el griego, el hebreo y el árabe no se puede entender a los autores antiguos, y que la [[concepto.ciencia_experimental|ciencia experimental]] es la que da certeza a todas las demás. Estudió la luz, los espejos y las lentes, y propuso corregir el calendario. Una crónica franciscana escrita un siglo después contó que lo encarcelaron por sus «novedades sospechosas», algo que no consta en ningún documento de su época. Su fama posterior de mago y alquimista es leyenda.",
+   "anecdotas": "Describe un juguete que hacían los niños en muchas partes del mundo: un tubo del tamaño de un pulgar que, por la fuerza del salitre, estallaba con un ruido mayor que el trueno y un fogonazo más brillante que el relámpago. Es una de las primeras menciones de la pólvora en Europa ([[obra.opus_maius|Opus maius]], parte VI · A). La carta en la que el papa Clemente IV le pide la obra, de junio de 1266, se conserva: le ordena enviársela cuanto antes y en secreto, sin hacer caso de ninguna prohibición de sus superiores (carta de Clemente IV a Roger Bacon, 1266 · A). Una leyenda inglesa, que llevó al teatro el dramaturgo Robert Greene a finales del siglo XVI, le atribuye una cabeza de bronce que hablaba y que se hizo pedazos mientras él dormía (Robert Greene, Fray Bacon y fray Bungay · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Roger Bacon",
+     "url": "https://plato.stanford.edu/entries/roger-bacon/",
+     "idioma": "en",
+     "autorEntrada": "Jeremiah Hackett"
+    }
+   ]
+  },
+  {
+   "id": "autor.siger",
+   "tipo": "autor",
+   "nombre": "Siger de Brabante",
+   "nombreOriginal": "Sigerus de Brabantia",
+   "alias": [
+    "Siger",
+    "Siger of Brabant"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_mente"
+   ],
+   "escuelas": [
+    "escuela.averroismo_latino"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Ducado de Brabante (hoy entre Bélgica y los Países Bajos)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1235,
+     "max": 1245
+    },
+    "muerte": {
+     "min": 1281,
+     "max": 1284
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1240 – entre 1281 y 1284, en Orvieto (Italia)."
+   },
+   "resumen": "Maestro de la facultad de artes de París y el principal de los llamados [[escuela.averroismo_latino|averroístas latinos]]. Explicaba a [[autor.aristoteles|Aristóteles]] tal como lo entendía el filósofo andalusí Averroes, aunque llegara a conclusiones contrarias a la fe, como que el mundo es eterno o que hay [[tesis.unidad_intelecto|un solo intelecto para todos los seres humanos]]. Sus tesis fueron condenadas en 1270 y en 1277, y murió apuñalado en Orvieto.",
+   "anecdotas": "[[autor.dante|Dante]] lo puso en el cielo del Sol, entre los sabios, junto a [[autor.tomas_aquino|Tomás de Aquino]], que lo había combatido, y dice de él que enseñó en París verdades que le costaron odios (Dante, Paraíso, canto X · A)."
+  },
+  {
+   "id": "autor.tempier",
+   "tipo": "autor",
+   "nombre": "Esteban Tempier",
+   "nombreOriginal": "Stephanus Tempier",
+   "alias": [
+    "Étienne Tempier",
+    "Tempier"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Orleans (Francia)",
+   "fechas": {
+    "activo": {
+     "min": 1263,
+     "max": 1279
+    },
+    "tipo": "actividad",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Canciller de la Universidad de París desde 1263 y obispo de París desde 1268 hasta su muerte, en 1279."
+   },
+   "resumen": "Obispo de París que en 1270 condenó trece tesis de los maestros de artes y, el 7 de marzo de 1277, otras 219, entre ellas algunas de [[autor.tomas_aquino|Tomás de Aquino]]. La condena de 1277 marcó la filosofía de las universidades durante un siglo."
+  },
+  {
+   "id": "autor.grosseteste",
+   "tipo": "autor",
+   "nombre": "Roberto Grosseteste",
+   "nombreOriginal": "Robertus Grosseteste",
+   "alias": [
+    "Robert Grosseteste",
+    "Grosseteste"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_ciencia",
+    "tematica.metafisica"
+   ],
+   "escuelas": [
+    "escuela.escolastica"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Suffolk (Inglaterra)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1163,
+     "max": 1173
+    },
+    "muerte": {
+     "min": 1253,
+     "max": 1253
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1168 – 9 de octubre de 1253. Obispo de Lincoln desde 1235."
+   },
+   "resumen": "Maestro en Oxford, primer profesor de los franciscanos de la ciudad y después obispo de Lincoln. Tradujo del griego la [[obra.etica_nicomaco|Ética a Nicómaco]] de [[autor.aristoteles|Aristóteles]], estudió la óptica y sostuvo que la luz es la primera forma de los cuerpos: [[concepto.metafisica_luz|al difundirse, crea la extensión del universo]]."
+  },
+  {
+   "id": "obra.suma_teologica",
+   "tipo": "obra",
+   "nombre": "Suma teológica",
+   "nombreOriginal": "Summa theologiae",
+   "alias": [
+    "Summa theologiae",
+    "Summa theologica",
+    "Suma de teología"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion",
+    "tematica.etica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1267,
+     "max": 1273
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrita entre 1267 y 1273 y sin terminar: Tomás dejó de escribir en la tercera parte, en la cuestión 90."
+   },
+   "resumen": "La gran obra de [[autor.tomas_aquino|Tomás de Aquino]], pensada como manual para quienes empezaban a estudiar teología. En más de quinientas cuestiones trata de Dios, de la creación y del ser humano, de la moral y de Cristo; cada artículo expone las objeciones, la respuesta y la solución de cada objeción. En ella están las [[tesis.cinco_vias|cinco vías]] y la doctrina de la [[concepto.ley_natural|ley natural]]."
+  },
+  {
+   "id": "obra.suma_contra_gentiles",
+   "tipo": "obra",
+   "nombre": "Suma contra los gentiles",
+   "nombreOriginal": "Summa contra gentiles",
+   "alias": [
+    "Summa contra gentiles",
+    "Suma contra gentiles"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.metafisica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1259,
+     "max": 1265
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrita entre 1259 y 1265, en cuatro libros."
+   },
+   "resumen": "Obra de [[autor.tomas_aquino|Tomás de Aquino]] en cuatro libros que expone la fe cristiana empezando por lo que la razón puede probar por sí sola, para poder discutir con quienes no aceptan la Biblia como autoridad."
+  },
+  {
+   "id": "obra.itinerario",
+   "tipo": "obra",
+   "nombre": "Itinerario de la mente a Dios",
+   "nombreOriginal": "Itinerarium mentis in Deum",
+   "alias": [
+    "Itinerarium mentis in Deum",
+    "Itinerario"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.cultivo_de_si",
+    "tematica.epistemologia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1259,
+     "max": 1260
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Concebido en octubre de 1259 en el monte de La Verna."
+   },
+   "resumen": "Breve tratado en el que [[autor.buenaventura|Buenaventura]] describe la subida del alma hacia Dios en seis grados: de las cosas del mundo, que son sus huellas, al interior del alma, que es su imagen, y de ahí a Dios mismo."
+  },
+  {
+   "id": "obra.opus_maius",
+   "tipo": "obra",
+   "nombre": "Opus maius",
+   "nombreOriginal": "Opus maius",
+   "alias": [
+    "Obra mayor",
+    "Opus majus"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_ciencia",
+    "tematica.epistemologia",
+    "tematica.filosofia_lenguaje"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1266,
+     "max": 1268
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escrito entre 1266 y 1268 y enviado al papa Clemente IV."
+   },
+   "resumen": "La «obra mayor» que [[autor.roger_bacon|Roger Bacon]] escribió para el papa Clemente IV: un plan de reforma del saber en siete partes, sobre las causas del error, las lenguas, las matemáticas, la óptica, la [[concepto.ciencia_experimental|ciencia experimental]] y la filosofía moral."
+  },
+  {
+   "id": "concepto.esse_esencia",
+   "tipo": "concepto",
+   "nombre": "esencia y existencia",
+   "nombreOriginal": "essentia et esse",
+   "terminoOriginal": "essentia et esse",
+   "traduccion": "esencia y ser",
+   "alias": [
+    "distinción entre esencia y existencia",
+    "esse",
+    "ser y esencia"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.metafisica"
+   ],
+   "resumen": "Para [[autor.tomas_aquino|Tomás de Aquino]], en todo lo creado hay que distinguir lo que una cosa es, su esencia, y el hecho de que exista, su ser: saber qué es un fénix no nos dice si existe. Solo en Dios la esencia es el propio ser.",
+   "notaTraduccion": "Esse es el verbo «ser» usado como sustantivo: el acto de existir."
+  },
+  {
+   "id": "concepto.analogia",
+   "tipo": "concepto",
+   "nombre": "analogía del ser",
+   "nombreOriginal": "analogia",
+   "terminoOriginal": "analogia",
+   "traduccion": "analogía, proporción",
+   "alias": [
+    "analogía",
+    "analogia entis"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_lenguaje",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "Para [[autor.tomas_aquino|Tomás de Aquino]], cuando decimos que Dios es bueno o sabio, las palabras no tienen el mismo sentido que cuando las decimos de una persona, ni un sentido del todo distinto, sino un sentido proporcional. Así se puede hablar de Dios sin rebajarlo a criatura y sin quedarse callado."
+  },
+  {
+   "id": "concepto.ley_natural",
+   "tipo": "concepto",
+   "nombre": "ley natural",
+   "nombreOriginal": "lex naturalis",
+   "terminoOriginal": "lex naturalis",
+   "traduccion": "ley natural",
+   "alias": [
+    "derecho natural",
+    "lex naturalis"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.etica",
+    "tematica.filosofia_politica"
+   ],
+   "resumen": "Para [[autor.tomas_aquino|Tomás de Aquino]], la participación de la razón humana en el orden que Dios ha puesto en el mundo: unos principios morales que cualquiera puede conocer, empezando por «hay que hacer el bien y evitar el mal». Las leyes humanas son justas si se derivan de ella; una ley contraria a ella no es verdadera ley."
+  },
+  {
+   "id": "concepto.ciencia_experimental",
+   "tipo": "concepto",
+   "nombre": "ciencia experimental",
+   "nombreOriginal": "scientia experimentalis",
+   "terminoOriginal": "scientia experimentalis",
+   "traduccion": "ciencia experimental, ciencia de la experiencia",
+   "alias": [
+    "scientia experimentalis",
+    "experiencia"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_ciencia",
+    "tematica.epistemologia"
+   ],
+   "resumen": "Para [[autor.roger_bacon|Roger Bacon]], el saber que comprueba por la experiencia lo que otras ciencias solo razonan, y que además puede descubrir verdades nuevas. Sin experiencia, dice, nada puede saberse de forma suficiente."
+  },
+  {
+   "id": "concepto.metafisica_luz",
+   "tipo": "concepto",
+   "nombre": "metafísica de la luz",
+   "nombreOriginal": "lux",
+   "terminoOriginal": "lux",
+   "traduccion": "luz",
+   "alias": [
+    "luz",
+    "lux"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_ciencia"
+   ],
+   "resumen": "Teoría de [[autor.grosseteste|Roberto Grosseteste]] en su tratado Sobre la luz: la luz es la primera forma corporal, y al difundirse en todas direcciones desde un punto creó la extensión de la materia y las esferas del universo."
+  },
+  {
+   "id": "tesis.cinco_vias",
+   "tipo": "tesis",
+   "nombre": "Las cinco vías",
+   "enunciado": "La existencia de Dios puede demostrarse a partir de lo que vemos en el mundo: el movimiento, las causas, lo que puede existir o no existir, los grados de perfección y el orden de la naturaleza.",
+   "alias": [
+    "cinco vías",
+    "quinque viae"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.metafisica"
+   ],
+   "resumen": "Cinco argumentos con los que [[autor.tomas_aquino|Tomás de Aquino]] prueba, en la [[obra.suma_teologica|Suma teológica]] (I, cuestión 2, artículo 3), que Dios existe. Todos parten de algo que se observa y concluyen que debe haber un primer motor, una primera causa, un ser necesario, un ser máximo y una inteligencia que ordena la naturaleza."
+  },
+  {
+   "id": "tesis.fe_razon",
+   "tipo": "tesis",
+   "nombre": "La razón y la fe no se contradicen",
+   "enunciado": "La razón y la fe no pueden contradecirse, porque las dos proceden de Dios; si parecen hacerlo, es que la razón se ha equivocado.",
+   "alias": [
+    "armonía entre fe y razón"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.epistemologia"
+   ],
+   "resumen": "Principio de [[autor.tomas_aquino|Tomás de Aquino]]: la filosofía puede probar algunas verdades sobre Dios, como que existe, y otras solo se conocen por revelación, como la Trinidad; pero nunca chocan. Es su respuesta a los [[escuela.averroismo_latino|averroístas]], a quienes se acusaba de admitir dos verdades contrarias."
+  },
+  {
+   "id": "tesis.unidad_intelecto",
+   "tipo": "tesis",
+   "nombre": "Un solo intelecto para todos",
+   "enunciado": "Hay un único intelecto para todos los seres humanos, separado de los cuerpos; cada persona no tiene el suyo.",
+   "alias": [
+    "monopsiquismo",
+    "unidad del intelecto"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.filosofia_mente",
+    "tematica.metafisica"
+   ],
+   "resumen": "Tesis que el filósofo andalusí Averroes sacó de [[autor.aristoteles|Aristóteles]] y que defendió en París [[autor.siger|Siger de Brabante]]. Si fuera verdad, nadie conservaría tras la muerte su propio pensamiento. [[autor.tomas_aquino|Tomás de Aquino]] la combatió en Sobre la unidad del intelecto (1270), y fue condenada ese mismo año."
+  },
+  {
+   "id": "tesis.eternidad_mundo",
+   "tipo": "tesis",
+   "nombre": "No se puede demostrar que el mundo tuvo comienzo",
+   "enunciado": "La razón sola no puede demostrar ni que el mundo sea eterno ni que haya tenido un comienzo; que empezó lo sabemos por la fe.",
+   "alias": [
+    "eternidad del mundo"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.universidades"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_religion"
+   ],
+   "resumen": "Postura de [[autor.tomas_aquino|Tomás de Aquino]] en el debate sobre la eternidad del mundo, entre los [[escuela.averroismo_latino|averroístas]], que seguían a [[autor.aristoteles|Aristóteles]] y lo tenían por eterno, y [[autor.buenaventura|Buenaventura]], que creía demostrable su comienzo. Para Tomás, un mundo creado por Dios desde siempre no sería contradictorio."
   }
  ],
  "relaciones": [
@@ -1891,6 +2537,284 @@
    "certeza": "D",
    "nota": "El [[autor.buda|Buda]] dijo que lo que él llama [[concepto.karman|karma]] es la intención, según el Aṅguttara Nikāya, una de las colecciones de sus discursos (libro de los seis, 63); [[autor.abelardo|Abelardo]] y [[autor.eloisa|Eloísa]], sin saber nada de él, pusieron también el peso moral en la intención y no en el acto.",
    "ejeComparacion": "La intención como lo que cuenta moralmente"
+  },
+  {
+   "id": "la-0065",
+   "origen": "autor.tomas_aquino",
+   "tipo": "escribio",
+   "destino": "obra.suma_teologica",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0066",
+   "origen": "autor.tomas_aquino",
+   "tipo": "escribio",
+   "destino": "obra.suma_contra_gentiles",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0067",
+   "origen": "autor.buenaventura",
+   "tipo": "escribio",
+   "destino": "obra.itinerario",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0068",
+   "origen": "autor.roger_bacon",
+   "tipo": "escribio",
+   "destino": "obra.opus_maius",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0069",
+   "origen": "autor.alberto_magno",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.tomas_aquino",
+   "certeza": "D",
+   "fuente": "Guillermo de Tocco, Historia de santo Tomás de Aquino",
+   "nota": "Lo tuvo como alumno en París y en Colonia, entre 1245 y 1252."
+  },
+  {
+   "id": "la-0070",
+   "origen": "autor.aristoteles",
+   "tipo": "influyo_en",
+   "destino": "autor.alberto_magno",
+   "certeza": "D",
+   "fuente": "Alberto Magno, paráfrasis de las obras de Aristóteles",
+   "nota": "Se propuso explicar a los latinos todas las obras de [[autor.aristoteles|Aristóteles]]."
+  },
+  {
+   "id": "la-0071",
+   "origen": "autor.aristoteles",
+   "tipo": "influyo_en",
+   "destino": "autor.tomas_aquino",
+   "certeza": "D",
+   "fuente": "Tomás de Aquino, comentarios a Aristóteles",
+   "nota": "Comentó casi todas sus obras y lo llama simplemente «el Filósofo»."
+  },
+  {
+   "id": "la-0072",
+   "origen": "autor.boecio",
+   "tipo": "influyo_en",
+   "destino": "autor.tomas_aquino",
+   "certeza": "D",
+   "fuente": "Tomás de Aquino, comentarios a Sobre la Trinidad y a Sobre las semanas de Boecio"
+  },
+  {
+   "id": "la-0073",
+   "origen": "autor.agustin",
+   "tipo": "influyo_en",
+   "destino": "autor.buenaventura",
+   "certeza": "D",
+   "fuente": "Buenaventura, Cuestiones sobre la ciencia de Cristo, cuestión 4",
+   "nota": "Defiende la [[concepto.iluminacion|iluminación]] de [[autor.agustin|Agustín]] como explicación de la certeza."
+  },
+  {
+   "id": "la-0074",
+   "origen": "autor.tomas_aquino",
+   "tipo": "critica",
+   "destino": "tesis.argumento_ontologico",
+   "certeza": "D",
+   "fuente": "Suma teológica I, cuestión 2, artículo 1",
+   "nota": "Que Dios exista no es evidente para nosotros, porque no conocemos su esencia."
+  },
+  {
+   "id": "la-0075",
+   "origen": "autor.tomas_aquino",
+   "tipo": "defiende",
+   "destino": "tesis.cinco_vias",
+   "certeza": "D",
+   "fuente": "Suma teológica I, cuestión 2, artículo 3"
+  },
+  {
+   "id": "la-0076",
+   "origen": "autor.tomas_aquino",
+   "tipo": "defiende",
+   "destino": "tesis.fe_razon",
+   "certeza": "D",
+   "fuente": "Suma contra los gentiles I 7"
+  },
+  {
+   "id": "la-0077",
+   "origen": "autor.tomas_aquino",
+   "tipo": "defiende",
+   "destino": "tesis.eternidad_mundo",
+   "certeza": "D",
+   "fuente": "Tomás de Aquino, Sobre la eternidad del mundo"
+  },
+  {
+   "id": "la-0078",
+   "origen": "autor.tomas_aquino",
+   "tipo": "critica",
+   "destino": "tesis.unidad_intelecto",
+   "certeza": "D",
+   "fuente": "Tomás de Aquino, Sobre la unidad del intelecto contra los averroístas"
+  },
+  {
+   "id": "la-0079",
+   "origen": "autor.tomas_aquino",
+   "tipo": "desarrolla",
+   "destino": "concepto.esse_esencia",
+   "certeza": "D",
+   "fuente": "Tomás de Aquino, Sobre el ente y la esencia, cap. 4"
+  },
+  {
+   "id": "la-0080",
+   "origen": "autor.tomas_aquino",
+   "tipo": "desarrolla",
+   "destino": "concepto.analogia",
+   "certeza": "D",
+   "fuente": "Suma teológica I, cuestión 13"
+  },
+  {
+   "id": "la-0081",
+   "origen": "autor.tomas_aquino",
+   "tipo": "desarrolla",
+   "destino": "concepto.ley_natural",
+   "certeza": "D",
+   "fuente": "Suma teológica I-II, cuestión 94"
+  },
+  {
+   "id": "la-0082",
+   "origen": "obra.suma_teologica",
+   "tipo": "trata_sobre",
+   "destino": "tesis.cinco_vias",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0083",
+   "origen": "obra.suma_teologica",
+   "tipo": "trata_sobre",
+   "destino": "concepto.ley_natural",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0084",
+   "origen": "obra.suma_teologica",
+   "tipo": "trata_sobre",
+   "destino": "concepto.analogia",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0085",
+   "origen": "obra.suma_contra_gentiles",
+   "tipo": "trata_sobre",
+   "destino": "tesis.fe_razon",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0086",
+   "origen": "autor.buenaventura",
+   "tipo": "desarrolla",
+   "destino": "concepto.iluminacion",
+   "certeza": "D",
+   "fuente": "Buenaventura, Cuestiones sobre la ciencia de Cristo, cuestión 4"
+  },
+  {
+   "id": "la-0087",
+   "origen": "autor.buenaventura",
+   "tipo": "critica",
+   "destino": "tesis.eternidad_mundo",
+   "certeza": "D",
+   "fuente": "Buenaventura, Comentario a las Sentencias II, distinción 1",
+   "nota": "Para él, la razón sí puede demostrar que el mundo tuvo comienzo."
+  },
+  {
+   "id": "la-0088",
+   "origen": "obra.itinerario",
+   "tipo": "trata_sobre",
+   "destino": "concepto.iluminacion",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0089",
+   "origen": "autor.siger",
+   "tipo": "defiende",
+   "destino": "tesis.unidad_intelecto",
+   "certeza": "D",
+   "fuente": "Siger de Brabante, Cuestiones sobre el libro III Del alma",
+   "nota": "En sus primeras obras; más tarde matizó su postura."
+  },
+  {
+   "id": "la-0090",
+   "origen": "autor.tempier",
+   "tipo": "critica",
+   "destino": "escuela.averroismo_latino",
+   "certeza": "D",
+   "fuente": "Condenas de París de 1270 y de 1277"
+  },
+  {
+   "id": "la-0091",
+   "origen": "autor.tempier",
+   "tipo": "critica",
+   "destino": "tesis.unidad_intelecto",
+   "certeza": "D",
+   "fuente": "Condena de París de 1270"
+  },
+  {
+   "id": "la-0092",
+   "origen": "autor.grosseteste",
+   "tipo": "influyo_en",
+   "destino": "autor.roger_bacon",
+   "certeza": "D",
+   "fuente": "Roger Bacon, Opus maius",
+   "nota": "Bacon lo pone como modelo de quien supo unir las matemáticas y el estudio de la naturaleza, y de quien conocía las lenguas."
+  },
+  {
+   "id": "la-0093",
+   "origen": "autor.grosseteste",
+   "tipo": "desarrolla",
+   "destino": "concepto.metafisica_luz",
+   "certeza": "D",
+   "fuente": "Roberto Grosseteste, Sobre la luz"
+  },
+  {
+   "id": "la-0094",
+   "origen": "autor.roger_bacon",
+   "tipo": "desarrolla",
+   "destino": "concepto.ciencia_experimental",
+   "certeza": "D",
+   "fuente": "Opus maius, parte VI"
+  },
+  {
+   "id": "la-0095",
+   "origen": "obra.opus_maius",
+   "tipo": "trata_sobre",
+   "destino": "concepto.ciencia_experimental",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0096",
+   "origen": "concepto.ley_natural",
+   "tipo": "responde_a",
+   "destino": "pregunta.como_gobernar",
+   "certeza": "D",
+   "nota": "Un gobierno y sus leyes son justos si respetan la ley natural, que la razón puede conocer."
+  },
+  {
+   "id": "la-0097",
+   "origen": "concepto.ciencia_experimental",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D",
+   "nota": "Para [[autor.roger_bacon|Roger Bacon]], la certeza la da la experiencia, no el razonamiento solo."
+  },
+  {
+   "id": "la-0098",
+   "origen": "tesis.unidad_intelecto",
+   "tipo": "responde_a",
+   "destino": "pregunta.despues_muerte",
+   "certeza": "D",
+   "nota": "Si hay un solo intelecto para todos, nadie conserva tras la muerte su propio pensamiento."
+  },
+  {
+   "id": "la-0099",
+   "origen": "tesis.eternidad_mundo",
+   "tipo": "responde_a",
+   "destino": "pregunta.algo_de_la_nada",
+   "certeza": "D",
+   "nota": "Para [[autor.tomas_aquino|Tomás de Aquino]], el mundo fue creado de la nada, pero la razón sola no puede probar que haya tenido un comienzo."
   }
  ]
 }
