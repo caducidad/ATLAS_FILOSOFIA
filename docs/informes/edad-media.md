@@ -236,3 +236,37 @@ Lo que se ha cotejado con el texto y lo que no, ficha a ficha, para que la revis
 - A veces un nombre se monta un poco sobre el de la misma fila («Ambrosio de Milán» y «Teodorico»).
 - La segunda mitad del siglo XIII queda muy apretada.
 - Encaja con el pendiente del tamaño de letra.
+
+**Círculos 2 y 3 (19 de octubre).**
+- Fechas contrastadas:
+  - Jerónimo, Casiodoro y Pedro Lombardo, en la Encyclopaedia Britannica.
+  - Beda, en Co-Curate (Universidad de Newcastle).
+  - Alcuino, en la Catholic Encyclopedia.
+  - Carlomagno, con la discusión sobre su año de nacimiento: 748 probable y 742 tradicional.
+  - Hugo de San Víctor, en la Britannica.
+  - Bernardo de Chartres, en el portal de autores de Chartres del IRHT (CNRS).
+  - Isidoro y las *Etimologías*, en la introducción de la traducción de Cambridge (Barney y otros).
+- Anécdotas cotejadas con traducciones abiertas:
+  - Jerónimo, carta 22, cap. 30 (el sueño del ciceroniano), en el Medieval Sourcebook.
+  - Eginardo, *Vida de Carlomagno* 25, en la traducción de S. E. Turner.
+  - Prólogo del *Scivias*, en la Universidad de California en Davis.
+  - Bernardo de Chartres, en Juan de Salisbury, *Metalogicon* III 4, a través del IRHT.
+  - La frase de Hugo («aprende todo»), en la Britannica.
+  - El asno y el saco de Buridán, en la Stanford Encyclopedia.
+- Revisado de memoria:
+  - Hildegarda recluida en Disibodenberg (no se menciona en la ficha).
+  - Pedro Lombardo, obispo de París en 1159-1160.
+  - Juan de Salisbury, alumno de Abelardo en 1136 (*Metalogicon* II 10).
+  - La relación de Buridán con Oresme (probable).
+  - El capítulo de Oresme sobre la rotación de la Tierra (libro II, cap. 25).
+- Varias influencias van como probables, no documentadas: Casiodoro sobre Isidoro, Isidoro sobre Beda, Hugo y Abelardo sobre Pedro Lombardo, y Bernardo de Claraval sobre Hildegarda.
+
+### Estado de la tanda de la Europa latina
+
+Completa en la rama `edad-media` y sin errores del validador: 5 épocas, 8 escuelas, 42 autores (15 del círculo 1), 22 obras, 20 conceptos, 16 tesis y 165 relaciones.
+
+**Antes de publicar:**
+1. Revisión de Juan, leyendo fichas sueltas.
+2. Imágenes.
+3. Cotejo de lo que sigue pendiente en este registro.
+4. Arreglar los solapes de nombres en la línea del tiempo.
