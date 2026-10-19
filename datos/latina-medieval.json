@@ -1,7 +1,7 @@
 {
  "version": "0.1",
  "actualizado": "2026-10-18",
- "descripcion": "Edad Media · Europa latina, de Agustín de Hipona a 1450 · en redacción",
+ "descripcion": "Edad Media · Europa latina, de Agustín de Hipona a 1450 · círculo 1 completo",
  "prefijoRelaciones": "la",
  "nodos": [
   {
@@ -2884,6 +2884,668 @@
     "tematica.filosofia_politica"
    ],
    "resumen": "Tesis de [[autor.marsilio|Marsilio de Padua]] en [[obra.defensor_pacis|El defensor de la paz]], inspirada en la [[obra.politica|Política]] de [[autor.aristoteles|Aristóteles]]. Con ella negaba al papa todo poder sobre los reyes, y se ha visto en ella un antecedente de la soberanía popular moderna."
+  },
+  {
+   "id": "autor.jeronimo",
+   "tipo": "autor",
+   "nombre": "Jerónimo",
+   "nombreOriginal": "Eusebius Hieronymus",
+   "alias": [
+    "san Jerónimo",
+    "Jerónimo de Estridón",
+    "Jerome",
+    "Hieronymus"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Estridón, en Dalmacia (en la actual frontera entre Eslovenia y Croacia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 345,
+     "max": 348
+    },
+    "muerte": {
+     "min": 419,
+     "max": 420
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 347 – 419 o 420, en Belén."
+   },
+   "resumen": "Sabio cristiano que tradujo la Biblia al latín, en la versión que se llamó Vulgata y que leyó la Europa latina durante mil años. Vivió sus últimos treinta y cinco años en un monasterio de Belén. Sus cartas, muy leídas en la Edad Media, defienden la vida ascética y desconfían del matrimonio, y [[autor.eloisa|Eloísa]] las citó para no casarse.",
+   "anecdotas": "En una carta a su discípula Eustoquia cuenta que, enfermo de fiebre, soñó que lo llevaban ante el tribunal de Dios; cuando dijo que era cristiano, el juez le respondió: «Mientes: eres ciceroniano, no cristiano», porque disfrutaba más leyendo a [[autor.ciceron|Cicerón]] que la Biblia. Al despertar prometió no volver a leer libros paganos, aunque no siempre cumplió (Jerónimo, carta 22, a Eustoquia, cap. 30 · A). La leyenda de que sacó una espina de la pata de un león, que desde entonces lo acompañó, se la atribuyeron siglos después; procede de la vida de otro santo, Gerásimo (leyenda medieval · L)."
+  },
+  {
+   "id": "autor.casiodoro",
+   "tipo": "autor",
+   "nombre": "Casiodoro",
+   "nombreOriginal": "Flavius Magnus Aurelius Cassiodorus",
+   "alias": [
+    "Cassiodorus",
+    "Casiodoro Senator"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.filosofia_historia"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Squillace, en Calabria (Italia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 485,
+     "max": 490
+    },
+    "muerte": {
+     "min": 580,
+     "max": 590
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 490 – hacia el 585. Vivió casi cien años."
+   },
+   "resumen": "Senador y alto funcionario de los reyes ostrogodos de Italia, como [[autor.teodorico|Teodorico]], al que sirvió igual que [[autor.boecio|Boecio]]. Retirado hacia el 540, fundó en sus tierras de Calabria el monasterio de Vivario, donde los monjes copiaban libros sagrados y profanos, y escribió para ellos las Instituciones, un resumen de las siete artes liberales que se estudió durante siglos."
+  },
+  {
+   "id": "autor.isidoro",
+   "tipo": "autor",
+   "nombre": "Isidoro de Sevilla",
+   "nombreOriginal": "Isidorus Hispalensis",
+   "alias": [
+    "san Isidoro",
+    "Isidoro",
+    "Isidore of Seville"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.filosofia_lenguaje",
+    "tematica.filosofia_ciencia",
+    "tematica.filosofia_historia"
+   ],
+   "escuelas": [],
+   "circulo": 2,
+   "lugarOrigen": "Cartagena o Sevilla, en la Hispania visigoda",
+   "fechas": {
+    "nacimiento": {
+     "min": 556,
+     "max": 564
+    },
+    "muerte": {
+     "min": 636,
+     "max": 636
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 560 – 4 de abril del 636, en Sevilla. Obispo de Sevilla desde hacia el 600."
+   },
+   "resumen": "Obispo de Sevilla en la Hispania de los reyes visigodos y el sabio más leído de la Alta Edad Media. En sus [[obra.etimologias|Etimologías]] reunió todo el saber antiguo que pudo encontrar, ordenado a partir del origen de las palabras, y durante siglos fue la enciclopedia de referencia de la Europa latina."
+  },
+  {
+   "id": "autor.beda",
+   "tipo": "autor",
+   "nombre": "Beda el Venerable",
+   "nombreOriginal": "Beda Venerabilis",
+   "alias": [
+    "Beda",
+    "Bede",
+    "san Beda"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.alta_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_historia",
+    "tematica.filosofia_ciencia"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Tierras del monasterio de Wearmouth y Jarrow, en Northumbria (norte de Inglaterra)",
+   "fechas": {
+    "nacimiento": {
+     "min": 672,
+     "max": 673
+    },
+    "muerte": {
+     "min": 735,
+     "max": 735
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "672 o 673 – 26 de mayo del 735, en el monasterio de Jarrow."
+   },
+   "resumen": "Monje inglés que pasó toda su vida en el monasterio de Jarrow. Escribió la Historia eclesiástica del pueblo inglés (hacia el 731) y un tratado sobre el cómputo del tiempo que difundió la costumbre de contar los años desde el nacimiento de Cristo, la que usamos hoy al decir «antes» o «después de Cristo»."
+  },
+  {
+   "id": "autor.alcuino",
+   "tipo": "autor",
+   "nombre": "Alcuino de York",
+   "nombreOriginal": "Alcuinus",
+   "alias": [
+    "Alcuino",
+    "Alcuin",
+    "Albinus"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.alta_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_lenguaje",
+    "tematica.logica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "York o sus alrededores, en Northumbria (Inglaterra)",
+   "fechas": {
+    "nacimiento": {
+     "min": 730,
+     "max": 740
+    },
+    "muerte": {
+     "min": 804,
+     "max": 804
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia el 735 – 19 de mayo del 804, en Tours. Abad de San Martín de Tours desde el 796."
+   },
+   "resumen": "Maestro de la escuela de la catedral de York al que [[autor.carlomagno|Carlomagno]] conoció en Parma en el 781 y llamó a su corte para dirigir la escuela de palacio. Escribió manuales de gramática, retórica y dialéctica en forma de diálogo y organizó la enseñanza y la copia de libros en el reino franco: es la gran figura del renacimiento carolingio."
+  },
+  {
+   "id": "autor.carlomagno",
+   "tipo": "autor",
+   "nombre": "Carlomagno",
+   "nombreOriginal": "Carolus Magnus",
+   "alias": [
+    "Carlos el Grande",
+    "Charlemagne",
+    "Karl der Große"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.alta_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [],
+   "circulo": 3,
+   "lugarOrigen": "Reino de los francos; el lugar no se conoce",
+   "fechas": {
+    "nacimiento": {
+     "min": 747,
+     "max": 748
+    },
+    "muerte": {
+     "min": 814,
+     "max": 814
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [
+     {
+      "etiqueta": "Fecha tradicional, según su biógrafo Eginardo",
+      "nacimiento": {
+       "min": 742,
+       "max": 742
+      }
+     }
+    ],
+    "nota": "Probablemente el 2 de abril del 748 – 28 de enero del 814, en Aquisgrán. Rey de los francos desde el 768 y emperador desde el 25 de diciembre del 800."
+   },
+   "resumen": "Rey de los francos que unió bajo su poder buena parte de Europa occidental y fue coronado emperador en Roma el día de Navidad del año 800. Llamó a su corte a sabios como [[autor.alcuino|Alcuino de York]] y mandó abrir escuelas en catedrales y monasterios: es lo que los historiadores llaman el renacimiento carolingio.",
+   "anecdotas": "Su biógrafo Eginardo, que lo conoció, cuenta que aprendió gramática, retórica, dialéctica y astronomía con [[autor.alcuino|Alcuino]], y que intentó aprender a escribir: guardaba tablillas y hojas bajo la almohada para practicar las letras en los ratos libres, pero había empezado demasiado tarde y lo consiguió poco (Eginardo, Vida de Carlomagno, cap. 25 · A)."
+  },
+  {
+   "id": "autor.hugo_san_victor",
+   "tipo": "autor",
+   "nombre": "Hugo de San Víctor",
+   "nombreOriginal": "Hugo de Sancto Victore",
+   "alias": [
+    "Hugo",
+    "Hugh of Saint Victor",
+    "Hugues de Saint-Victor"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.epistemologia",
+    "tematica.filosofia_religion",
+    "tematica.cultivo_de_si"
+   ],
+   "escuelas": [
+    "escuela.san_victor",
+    "escuela.escolastica"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Probablemente Sajonia (hoy en Alemania)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1090,
+     "max": 1100
+    },
+    "muerte": {
+     "min": 1141,
+     "max": 1141
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1096 – 11 de febrero de 1141, en París."
+   },
+   "resumen": "Canónigo y maestro de la abadía de [[escuela.san_victor|San Víctor]] de París. En su Didascalicon ordenó todas las artes y ciencias, también las técnicas, como pasos de un mismo camino hacia la sabiduría, y escribió una gran suma de la doctrina cristiana que inspiró a [[autor.pedro_lombardo|Pedro Lombardo]].",
+   "anecdotas": "En el Didascalicon, su guía para estudiantes, recuerda que de niño apuntaba los nombres de todo lo que veía y discutía con sus compañeros sobre cualquier cosa, y aconseja: «Aprende todo; después verás que nada es superfluo» (Hugo de San Víctor, Didascalicon, libro VI · A)."
+  },
+  {
+   "id": "autor.bernardo_chartres",
+   "tipo": "autor",
+   "nombre": "Bernardo de Chartres",
+   "nombreOriginal": "Bernardus Carnotensis",
+   "alias": [
+    "Bernard de Chartres",
+    "Bernardo"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.metafisica",
+    "tematica.filosofia_lenguaje"
+   ],
+   "escuelas": [
+    "escuela.chartres"
+   ],
+   "circulo": 3,
+   "lugarOrigen": "Probablemente Bretaña (Francia)",
+   "fechas": {
+    "activo": {
+     "min": 1110,
+     "max": 1126
+    },
+    "tipo": "actividad",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Maestro en Chartres hacia 1114 y canciller de la escuela de la catedral desde 1119; murió entre 1124 y 1126."
+   },
+   "resumen": "Maestro y canciller de la escuela de la catedral de Chartres, el primero de los maestros de la [[escuela.chartres|escuela de Chartres]]. Enseñaba a leer a los poetas y filósofos antiguos y comentaba el Timeo, el diálogo de [[autor.platon|Platón]] sobre el origen del mundo. No se conserva casi nada escrito por él: se le conoce por lo que cuenta [[autor.juan_salisbury|Juan de Salisbury]].",
+   "anecdotas": "Juan de Salisbury cuenta que Bernardo decía que somos como enanos sentados sobre los hombros de gigantes: vemos más cosas y más lejos que ellos, no porque nuestra vista sea más aguda ni nuestra estatura mayor, sino porque ellos nos levantan. Los gigantes eran los autores antiguos (Juan de Salisbury, Metalogicon, libro III, cap. 4 · B)."
+  },
+  {
+   "id": "autor.hildegarda",
+   "tipo": "autor",
+   "nombre": "Hildegarda de Bingen",
+   "nombreOriginal": "Hildegardis Bingensis",
+   "alias": [
+    "santa Hildegarda",
+    "Hildegard von Bingen",
+    "la sibila del Rin"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.filosofia_ciencia",
+    "tematica.estetica"
+   ],
+   "escuelas": [],
+   "circulo": 2,
+   "lugarOrigen": "Bermersheim o Böckelheim, en el valle del Rin (hoy en Alemania)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1098,
+     "max": 1098
+    },
+    "muerte": {
+     "min": 1179,
+     "max": 1179
+    },
+    "tipo": "exacta",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "1098 – 17 de septiembre de 1179, en su monasterio de Rupertsberg, junto a Bingen. Declarada santa y doctora de la Iglesia en 2012."
+   },
+   "resumen": "Abadesa benedictina alemana que contó sus visiones en el [[obra.scivias|Scivias]] y otros dos grandes libros, escribió sobre medicina y sobre la naturaleza, compuso música que aún se canta y mantuvo correspondencia con papas, emperadores y con [[autor.bernardo_claraval|Bernardo de Claraval]]. Ve el universo como un todo ordenado en el que el ser humano refleja el cosmos.",
+   "anecdotas": "En el prólogo del [[obra.scivias|Scivias]] cuenta que en 1141, cuando tenía cuarenta y dos años y siete meses, una luz de fuego bajó del cielo abierto y le inundó la mente, y una voz le ordenó escribir lo que veía. Dudó mucho tiempo, por humildad y por miedo a lo que dirían, hasta que cayó enferma y empezó a escribir ([[obra.scivias|Scivias]], prólogo · A)."
+  },
+  {
+   "id": "autor.pedro_lombardo",
+   "tipo": "autor",
+   "nombre": "Pedro Lombardo",
+   "nombreOriginal": "Petrus Lombardus",
+   "alias": [
+    "el Maestro de las Sentencias",
+    "Peter Lombard",
+    "Pedro"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.metafisica"
+   ],
+   "escuelas": [
+    "escuela.escolastica"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Novara, en Lombardía (Italia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1095,
+     "max": 1100
+    },
+    "muerte": {
+     "min": 1160,
+     "max": 1160
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1100 – 21 o 22 de agosto de 1160, en París. Obispo de París en el último año de su vida."
+   },
+   "resumen": "Maestro de teología en París, llamado el Maestro de las Sentencias por su gran obra. En las [[obra.sentencias|Sentencias]] ordenó por temas las opiniones de los Padres de la Iglesia sobre cada cuestión de la fe, y ese libro fue el manual de teología de las universidades durante más de cuatro siglos: todo maestro tenía que comentarlo."
+  },
+  {
+   "id": "autor.juan_salisbury",
+   "tipo": "autor",
+   "nombre": "Juan de Salisbury",
+   "nombreOriginal": "Ioannes Saresberiensis",
+   "alias": [
+    "John of Salisbury",
+    "Juan"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_politica",
+    "tematica.epistemologia",
+    "tematica.logica"
+   ],
+   "escuelas": [],
+   "circulo": 2,
+   "lugarOrigen": "Old Sarum, cerca de Salisbury (Inglaterra)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1115,
+     "max": 1120
+    },
+    "muerte": {
+     "min": 1180,
+     "max": 1180
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1115-1120 – 1180, en Chartres, de cuya diócesis fue obispo desde 1176."
+   },
+   "resumen": "Clérigo inglés que estudió en París con [[autor.abelardo|Abelardo]] y otros maestros, fue secretario de dos arzobispos de Canterbury y acabó como obispo de Chartres. En el Policraticus, el primer gran tratado político de la Edad Media, comparó el reino con un cuerpo y defendió que es lícito matar al tirano; en el Metalogicon defendió el estudio de la lógica y de los autores antiguos. Estaba presente cuando asesinaron en su catedral al arzobispo Tomás Becket, en 1170.",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "John of Salisbury",
+     "url": "https://plato.stanford.edu/entries/john-salisbury/",
+     "idioma": "en",
+     "autorEntrada": "Cary Nederman"
+    }
+   ]
+  },
+  {
+   "id": "autor.buridan",
+   "tipo": "autor",
+   "nombre": "Juan Buridán",
+   "nombreOriginal": "Iohannes Buridanus",
+   "alias": [
+    "Buridán",
+    "John Buridan",
+    "Jean Buridan"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.logica",
+    "tematica.filosofia_ciencia",
+    "tematica.etica"
+   ],
+   "escuelas": [
+    "escuela.nominalismo",
+    "escuela.escolastica"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Béthune o sus alrededores, en Picardía (Francia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1295,
+     "max": 1305
+    },
+    "muerte": {
+     "min": 1358,
+     "max": 1361
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1300 – entre 1358 y 1361. Rector de la Universidad de París en 1328 y en 1340."
+   },
+   "resumen": "Maestro de artes en París durante toda su vida, sin pasar nunca a la teología, y el lógico y filósofo natural más influyente del siglo XIV. Explicó el movimiento de los proyectiles por el [[concepto.impetu|ímpetu]] que les imprime quien los lanza, en vez de por el empuje del aire, como decía [[autor.aristoteles|Aristóteles]].",
+   "anecdotas": "El famoso asno de Buridán, que muere de hambre entre dos montones de heno iguales por no poder elegir, no aparece en ninguna de sus obras: probablemente se lo inventaron sus críticos para burlarse de su teoría de la libertad, y la idea es mucho más antigua (Stanford Encyclopedia of Philosophy, «John Buridan» · B). También es leyenda que el rey de Francia lo mandara arrojar al Sena metido en un saco por un asunto con la reina (leyenda posterior · L).",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "John Buridan",
+     "url": "https://plato.stanford.edu/entries/buridan/",
+     "idioma": "en",
+     "autorEntrada": "Jack Zupko"
+    }
+   ]
+  },
+  {
+   "id": "autor.oresme",
+   "tipo": "autor",
+   "nombre": "Nicolás Oresme",
+   "nombreOriginal": "Nicolaus Oresme",
+   "alias": [
+    "Nicole Oresme",
+    "Oresme"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_ciencia",
+    "tematica.filosofia_politica"
+   ],
+   "escuelas": [
+    "escuela.escolastica"
+   ],
+   "circulo": 2,
+   "lugarOrigen": "Diócesis de Bayeux, en Normandía (Francia)",
+   "fechas": {
+    "nacimiento": {
+     "min": 1315,
+     "max": 1325
+    },
+    "muerte": {
+     "min": 1382,
+     "max": 1382
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "alternativas": [],
+    "nota": "Hacia 1320 – 11 de julio de 1382. Obispo de Lisieux desde 1377."
+   },
+   "resumen": "Maestro en París y después obispo de Lisieux. Tradujo del latín al francés, para el rey Carlos V, la Ética y la [[obra.politica|Política]] de [[autor.aristoteles|Aristóteles]], con lo que creó buena parte del vocabulario filosófico y científico del francés. Representó con gráficas cómo cambia una velocidad, mostró que [[tesis.rotacion_tierra|nada prueba que la Tierra esté quieta]] y escribió el primer tratado sobre la moneda: es del público, no del príncipe, y rebajar su valor es un robo.",
+   "paraSaberMas": [
+    {
+     "tipo": "enciclopedia",
+     "obra": "Stanford Encyclopedia of Philosophy",
+     "titulo": "Nicole Oresme",
+     "url": "https://plato.stanford.edu/entries/nicole-oresme/",
+     "idioma": "en",
+     "autorEntrada": "Stefan Kirschner"
+    }
+   ]
+  },
+  {
+   "id": "obra.etimologias",
+   "tipo": "obra",
+   "nombre": "Etimologías",
+   "nombreOriginal": "Etymologiae",
+   "alias": [
+    "Etymologiae",
+    "Orígenes",
+    "Originum libri"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.padres_latinos"
+   ],
+   "tematicas": [
+    "tematica.filosofia_lenguaje",
+    "tematica.filosofia_ciencia"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 615,
+     "max": 636
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Compuestas entre hacia el 615 y los primeros años 630, y sin terminar a la muerte de Isidoro."
+   },
+   "resumen": "Enciclopedia de [[autor.isidoro|Isidoro de Sevilla]] que recorre todos los saberes, de la gramática a la medicina, los animales o las herramientas, explicando cada cosa por el origen de su nombre. Su amigo Braulio, obispo de Zaragoza, la dividió en veinte libros. Se conservan unas mil copias manuscritas y fue uno de los primeros libros impresos, en 1472."
+  },
+  {
+   "id": "obra.sentencias",
+   "tipo": "obra",
+   "nombre": "Sentencias",
+   "nombreOriginal": "Sententiae in IV libris distinctae",
+   "alias": [
+    "Libro de las Sentencias",
+    "Cuatro libros de las Sentencias"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion",
+    "tematica.metafisica"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1148,
+     "max": 1151
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Escritas entre 1148 y 1151. Cuatro libros."
+   },
+   "resumen": "Manual de [[autor.pedro_lombardo|Pedro Lombardo]] en cuatro libros, sobre Dios, la creación, Cristo y los sacramentos, que reúne y ordena las opiniones de la Biblia y de los Padres de la Iglesia. Hasta el siglo XVI, comentarlo era obligatorio para hacerse maestro en teología, y casi todos los grandes autores escolásticos, como [[autor.tomas_aquino|Tomás]], [[autor.duns_escoto|Escoto]] u [[autor.ockham|Ockham]], escribieron su comentario."
+  },
+  {
+   "id": "obra.scivias",
+   "tipo": "obra",
+   "nombre": "Scivias",
+   "nombreOriginal": "Scivias",
+   "alias": [
+    "Conoce los caminos",
+    "Scito vias Domini"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.siglo_xii"
+   ],
+   "tematicas": [
+    "tematica.filosofia_religion"
+   ],
+   "autoria": "autor",
+   "idiomaOriginal": "latín",
+   "fechas": {
+    "composicion": {
+     "min": 1141,
+     "max": 1151
+    },
+    "tipo": "aproximada",
+    "historicidad": "historico",
+    "nota": "Empezado en 1141 y terminado hacia 1151."
+   },
+   "resumen": "Primer libro de visiones de [[autor.hildegarda|Hildegarda de Bingen]]; su título abrevia «conoce los caminos del Señor». Describe veintiséis visiones de la creación, la caída y la salvación, y los manuscritos las acompañaron de miniaturas."
+  },
+  {
+   "id": "concepto.impetu",
+   "tipo": "concepto",
+   "nombre": "ímpetu",
+   "nombreOriginal": "impetus",
+   "terminoOriginal": "impetus",
+   "traduccion": "impulso, fuerza impresa",
+   "alias": [
+    "impetus",
+    "teoría del ímpetu"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_ciencia"
+   ],
+   "resumen": "Para [[autor.buridan|Juan Buridán]], la fuerza que quien lanza una piedra le imprime y que la sigue moviendo hasta que la resistencia del aire y el peso la agotan. Corregía a [[autor.aristoteles|Aristóteles]], que atribuía el movimiento del proyectil al aire que lo empuja. Fue un paso hacia la idea moderna de inercia."
+  },
+  {
+   "id": "tesis.rotacion_tierra",
+   "tipo": "tesis",
+   "nombre": "Nada prueba que la Tierra esté quieta",
+   "enunciado": "Ni la experiencia ni la razón pueden demostrar que la Tierra esté quieta y el cielo gire, y no que la Tierra gire cada día sobre sí misma.",
+   "alias": [
+    "rotación de la Tierra"
+   ],
+   "tradicion": "latina",
+   "contextos": [
+    "contexto.baja_edad_media"
+   ],
+   "tematicas": [
+    "tematica.filosofia_ciencia",
+    "tematica.epistemologia"
+   ],
+   "resumen": "Argumento de [[autor.oresme|Nicolás Oresme]] en su Libro del cielo y del mundo (1377): todas las pruebas de que la Tierra está quieta pueden explicarse también si gira. Aun así, concluyó que está quieta, porque así lo dice la Biblia. Más de siglo y medio después, el astrónomo polaco Nicolás Copérnico propuso que la Tierra gira alrededor del Sol."
   }
  ],
  "relaciones": [
@@ -4021,6 +4683,182 @@
    "certeza": "D",
    "nota": "El desasimiento de [[autor.eckhart|Eckhart]] y el [[concepto.wuwei|wuwei]] del Daodejing piden dejar de forzar las cosas con la propia voluntad. Desde el siglo XX se los compara a menudo, aunque nacen de visiones del mundo muy distintas y no hubo contacto entre ellas.",
    "ejeComparacion": "Dejar de imponer la propia voluntad"
+  },
+  {
+   "id": "la-0145",
+   "origen": "autor.isidoro",
+   "tipo": "escribio",
+   "destino": "obra.etimologias",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0146",
+   "origen": "autor.pedro_lombardo",
+   "tipo": "escribio",
+   "destino": "obra.sentencias",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0147",
+   "origen": "autor.hildegarda",
+   "tipo": "escribio",
+   "destino": "obra.scivias",
+   "certeza": "D"
+  },
+  {
+   "id": "la-0148",
+   "origen": "autor.jeronimo",
+   "tipo": "influyo_en",
+   "destino": "autor.eloisa",
+   "certeza": "D",
+   "fuente": "Historia de mis desventuras, cap. VII",
+   "nota": "Para oponerse al matrimonio, [[autor.eloisa|Eloísa]] citó lo que [[autor.jeronimo|Jerónimo]] escribió sobre los filósofos que no se casaron."
+  },
+  {
+   "id": "la-0149",
+   "origen": "autor.ciceron",
+   "tipo": "influyo_en",
+   "destino": "autor.jeronimo",
+   "certeza": "D",
+   "fuente": "Jerónimo, carta 22, cap. 30",
+   "nota": "Disfrutaba tanto leyéndolo que soñó que Dios lo acusaba de ser ciceroniano y no cristiano."
+  },
+  {
+   "id": "la-0150",
+   "origen": "autor.casiodoro",
+   "tipo": "influyo_en",
+   "destino": "autor.isidoro",
+   "certeza": "P",
+   "fuente": "Etimologías, libros I-III",
+   "nota": "Para las artes liberales, Isidoro se sirvió de las Instituciones de Casiodoro."
+  },
+  {
+   "id": "la-0151",
+   "origen": "autor.isidoro",
+   "tipo": "influyo_en",
+   "destino": "autor.beda",
+   "certeza": "P",
+   "fuente": "Beda, Sobre la naturaleza de las cosas",
+   "nota": "Beda tomó de Isidoro buena parte de su tratado sobre la naturaleza."
+  },
+  {
+   "id": "la-0152",
+   "origen": "autor.alcuino",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.carlomagno",
+   "certeza": "D",
+   "fuente": "Eginardo, Vida de Carlomagno, cap. 25"
+  },
+  {
+   "id": "la-0153",
+   "origen": "autor.hugo_san_victor",
+   "tipo": "influyo_en",
+   "destino": "autor.pedro_lombardo",
+   "certeza": "P",
+   "fuente": "Hugo de San Víctor, Sobre los sacramentos de la fe cristiana",
+   "nota": "Las Sentencias siguen en muchos puntos la gran suma de Hugo."
+  },
+  {
+   "id": "la-0154",
+   "origen": "autor.abelardo",
+   "tipo": "influyo_en",
+   "destino": "autor.pedro_lombardo",
+   "certeza": "P",
+   "fuente": "Sentencias, prólogo",
+   "nota": "Lombardo ordena las autoridades que se contradicen y busca conciliarlas, como había enseñado el [[obra.sic_et_non|Sic et non]]."
+  },
+  {
+   "id": "la-0155",
+   "origen": "autor.abelardo",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.juan_salisbury",
+   "certeza": "D",
+   "fuente": "Juan de Salisbury, Metalogicon, libro II, cap. 10",
+   "nota": "Juan cuenta que, recién llegado a París en 1136, estudió lógica con él en la colina de Santa Genoveva."
+  },
+  {
+   "id": "la-0156",
+   "origen": "autor.bernardo_chartres",
+   "tipo": "influyo_en",
+   "destino": "autor.juan_salisbury",
+   "certeza": "D",
+   "fuente": "Juan de Salisbury, Metalogicon, libro I, cap. 24, y libro III, cap. 4",
+   "nota": "No fue su alumno, pero describe con admiración su manera de enseñar, que conoció por sus discípulos."
+  },
+  {
+   "id": "la-0157",
+   "origen": "autor.platon",
+   "tipo": "influyo_en",
+   "destino": "autor.bernardo_chartres",
+   "certeza": "D",
+   "fuente": "Juan de Salisbury, Metalogicon IV 35",
+   "nota": "Juan lo llama el más perfecto de los platónicos de su tiempo; comentaba el Timeo."
+  },
+  {
+   "id": "la-0158",
+   "origen": "autor.bernardo_claraval",
+   "tipo": "influyo_en",
+   "destino": "autor.hildegarda",
+   "certeza": "P",
+   "fuente": "Carta de Hildegarda a Bernardo de Claraval, 1146 o 1147",
+   "nota": "Hildegarda le escribió pidiéndole consejo sobre sus visiones, y él la animó."
+  },
+  {
+   "id": "la-0159",
+   "origen": "autor.buridan",
+   "tipo": "desarrolla",
+   "destino": "concepto.impetu",
+   "certeza": "D",
+   "fuente": "Buridán, Cuestiones sobre la Física, libro VIII, cuestión 12"
+  },
+  {
+   "id": "la-0160",
+   "origen": "autor.buridan",
+   "tipo": "critica",
+   "destino": "autor.aristoteles",
+   "certeza": "D",
+   "fuente": "Buridán, Cuestiones sobre la Física, libro VIII, cuestión 12",
+   "nota": "Rechaza que el aire sea lo que mantiene en movimiento al proyectil."
+  },
+  {
+   "id": "la-0161",
+   "origen": "autor.buridan",
+   "tipo": "fue_maestro_de",
+   "destino": "autor.oresme",
+   "certeza": "P",
+   "nota": "Oresme estudió artes en París cuando Buridán era el maestro más influyente, y sigue sus ideas sobre el ímpetu."
+  },
+  {
+   "id": "la-0162",
+   "origen": "autor.oresme",
+   "tipo": "defiende",
+   "destino": "tesis.rotacion_tierra",
+   "certeza": "D",
+   "fuente": "Oresme, Libro del cielo y del mundo, libro II, cap. 25"
+  },
+  {
+   "id": "la-0163",
+   "origen": "autor.oresme",
+   "tipo": "desarrolla",
+   "destino": "concepto.impetu",
+   "certeza": "D",
+   "fuente": "Oresme, Libro del cielo y del mundo"
+  },
+  {
+   "id": "la-0164",
+   "origen": "tesis.rotacion_tierra",
+   "tipo": "trata_sobre",
+   "destino": "concepto.impetu",
+   "certeza": "D",
+   "nota": "Oresme explica con el ímpetu por qué una piedra lanzada hacia arriba vuelve al mismo sitio aunque la Tierra gire."
+  },
+  {
+   "id": "la-0165",
+   "origen": "tesis.rotacion_tierra",
+   "tipo": "responde_a",
+   "destino": "pregunta.conocer_certeza",
+   "certeza": "D",
+   "nota": "Para [[autor.oresme|Oresme]], ni los sentidos ni la razón bastan para decidir si gira la Tierra o el cielo."
   }
  ]
 }
