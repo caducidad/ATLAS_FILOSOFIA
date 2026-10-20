@@ -270,3 +270,29 @@ Completa en la rama `edad-media` y sin errores del validador: 5 épocas, 8 escue
 2. Imágenes.
 3. Cotejo de lo que sigue pendiente en este registro.
 4. Arreglar los solapes de nombres en la línea del tiempo.
+
+### Imágenes de la Europa latina (20 de octubre)
+
+35 de los 42 autores tienen imagen. Para cada uno se tomó la imagen que Wikidata le asocia y se comprobaron en Commons la licencia, el autor, la fecha y lo que representa. Todas son de dominio público, salvo dos fotos de Sailko (el mosaico de Ambrosio y el fresco de Siger), que llevan su crédito.
+
+**Cinco son de su época o casi:**
+- el mosaico de Ambrosio, del siglo V;
+- el salterio de Carlos el Calvo;
+- el denario de Carlomagno, acuñado entre 812 y 814;
+- el esbozo de Ockham en un manuscrito de 1341;
+- el manuscrito de Christine de Pizan, hecho bajo su supervisión.
+
+Las demás llevan en el pie que son representaciones imaginarias, con su fecha.
+
+**Descartadas tras leer la ficha de Commons:**
+- Beda: la imagen de Wikidata es un san Jerónimo; se usa en su lugar un grabado de la *Crónica de Núremberg*.
+- Teodorico: la moneda lleva el busto del emperador Anastasio.
+- Ockham: una vidriera moderna sin fecha ni autor; se usa el esbozo de 1341.
+- Abelardo: un grabado del siglo XIX; se usa, también para Eloísa, la miniatura de Chantilly del siglo XV.
+- Roger Bacon: una estatua fotografiada sin autor ni procedencia.
+
+**Sin imagen:**
+- Roger Bacon, del círculo 1, que queda pendiente: hay dos candidatas en Commons sin descripción que no he podido comprobar.
+- Teodorico, Gottschalk, Gaunilón, Guillermo de Champeaux, Esteban Tempier y Bernardo de Chartres.
+
+**Tamaño:** las miniaturas se piden a 500 píxeles, un tamaño normalizado de Wikimedia. El 800 que se usaba no lo es, y Wikimedia limita esas peticiones.
