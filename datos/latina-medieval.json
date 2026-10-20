@@ -301,6 +301,18 @@
      "url": "https://www.thelatinlibrary.com/augustine/conf8.shtml",
      "idioma": "la"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Augustine_by_Philippe_de_Champaigne.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Agustín de Hipona. Representación imaginaria del pintor francés Philippe de Champaigne, hacia 1645-1650.",
+     "fechaObra": "c. 1645-1650",
+     "autorObra": "Philippe de Champaigne",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -339,7 +351,19 @@
     "nota": "Hacia el 339 – 397. Era gobernador de la provincia cuando, en el 374, los cristianos de Milán lo eligieron obispo."
    },
    "resumen": "Obispo de Milán y uno de los grandes Padres de la Iglesia latina. Sus sermones, que leían la Biblia de forma alegórica y con ideas platónicas, ayudaron a [[autor.agustin|Agustín]] a superar sus dudas, y fue él quien lo bautizó en el 387.",
-   "anecdotas": "Agustín iba a verlo y lo encontraba leyendo en silencio: los ojos recorrían las páginas y el corazón buscaba el sentido, pero la voz y la lengua callaban. Los visitantes, que podían entrar sin anunciarse, se quedaban mirándolo sin atreverse a interrumpirlo y se marchaban. Como Agustín lo cuenta como algo llamativo, se ha citado a menudo como prueba de que en la Antigüedad casi siempre se leía en voz alta, aunque hoy se sabe que leer en silencio no era tan raro ([[obra.confesiones|Confesiones]] VI 3 · A)."
+   "anecdotas": "Agustín iba a verlo y lo encontraba leyendo en silencio: los ojos recorrían las páginas y el corazón buscaba el sentido, pero la voz y la lengua callaban. Los visitantes, que podían entrar sin anunciarse, se quedaban mirándolo sin atreverse a interrumpirlo y se marchaban. Como Agustín lo cuenta como algo llamativo, se ha citado a menudo como prueba de que en la Antigüedad casi siempre se leía en voz alta, aunque hoy se sabe que leer en silencio no era tan raro ([[obra.confesiones|Confesiones]] VI 3 · A).",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sacello_di_san_vittore_in_ciel_d%27oro%2C_mosaici_del_450-500_dc_ca._09_ambrogio_1.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Sacello_di_san_vittore_in_ciel_d%27oro%2C_mosaici_del_450-500_dc_ca._09_ambrogio_1.jpg",
+     "tipo": "retrato",
+     "pie": "Ambrosio en el mosaico de la capilla de San Víctor en Cielo de Oro, en la basílica de San Ambrosio de Milán, de la segunda mitad del siglo V. Hecho pocas décadas después de su muerte, quizá conserve algo de su aspecto.",
+     "fechaObra": "c. 450-500",
+     "autorObra": "Anónimo",
+     "licencia": "CC-BY-3.0",
+     "credito": "Foto: Sailko"
+    }
+   ]
   },
   {
    "id": "autor.teodorico",
@@ -442,6 +466,18 @@
      "url": "https://www.asu.edu/lib/jod/boethius/boetrans.html",
      "idioma": "en",
      "autorEntrada": "traducción inglesa de W. V. Cooper (1902)"
+    }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boethius_initial_consolation_philosophy.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Boethius_initial_consolation_philosophy.jpg",
+     "tipo": "manuscrito",
+     "pie": "Boecio enseñando a sus alumnos, en la inicial de un manuscrito de La consolación de la filosofía copiado en 1385. Representación imaginaria.",
+     "fechaObra": "1385",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
     }
    ]
   },
@@ -778,6 +814,18 @@
      "idioma": "en",
      "autorEntrada": "Adrian Guiu"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Johannes_Scottus_Eriugena.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Johannes_Scottus_Eriugena.jpg",
+     "tipo": "manuscrito",
+     "pie": "Eriúgena en un manuscrito del siglo XII de la Clave de la física, un resumen de su Periphyseon hecho por el monje Honorio de Autun (Biblioteca Nacional de Francia, lat. 6734). Representación imaginaria.",
+     "fechaObra": "s. XII",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -813,7 +861,19 @@
     "alternativas": [],
     "nota": "823 – 877. Rey de los francos occidentales desde el 843 y emperador desde el 875."
    },
-   "resumen": "Rey de los francos occidentales, en buena parte de lo que hoy es Francia, desde el 843, y emperador desde el 875. Nieto de [[autor.carlomagno|Carlomagno]], protegió a los sabios de su corte, entre ellos a [[autor.eriugena|Eriúgena]], que le dedicó sus traducciones del griego."
+   "resumen": "Rey de los francos occidentales, en buena parte de lo que hoy es Francia, desde el 843, y emperador desde el 875. Nieto de [[autor.carlomagno|Carlomagno]], protegió a los sabios de su corte, entre ellos a [[autor.eriugena|Eriúgena]], que le dedicó sus traducciones del griego.",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlo_calvo.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Carlo_calvo.jpg",
+     "tipo": "manuscrito",
+     "pie": "Carlos el Calvo en el salterio que se hizo para él, en el siglo IX (Biblioteca Nacional de Francia).",
+     "fechaObra": "s. IX",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.gottschalk",
@@ -907,6 +967,18 @@
      "titulo": "Anselm of Canterbury (1033—1109)",
      "url": "https://iep.utm.edu/anselm-of-centerbury/",
      "idioma": "en"
+    }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Anselm-CanterburyVit.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Anselm-CanterburyVit.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Anselmo en una vidriera inglesa del siglo XIX. Representación imaginaria.",
+     "fechaObra": "s. XIX",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
     }
    ]
   },
@@ -1048,6 +1120,18 @@
      "idioma": "en",
      "autorEntrada": "traducción inglesa de Henry Adams Bellows"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abelard_and_Heloise.jpeg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Abelard_and_Heloise.jpeg",
+     "tipo": "manuscrito",
+     "pie": "Abelardo y Eloísa en un manuscrito del Roman de la Rose del segundo cuarto del siglo XV (Chantilly, Museo Condé, ms. 482). Representación imaginaria.",
+     "fechaObra": "c. 1425-1450",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -1099,6 +1183,18 @@
      "idioma": "en",
      "autorEntrada": "traducción inglesa de Mary Martin McLaughlin"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Abelard_and_Heloise.jpeg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Abelard_and_Heloise.jpeg",
+     "tipo": "manuscrito",
+     "pie": "Eloísa y Abelardo en un manuscrito del Roman de la Rose del segundo cuarto del siglo XV (Chantilly, Museo Condé, ms. 482). Representación imaginaria.",
+     "fechaObra": "c. 1425-1450",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -1136,7 +1232,19 @@
     "alternativas": [],
     "nota": "1090 – 20 de agosto de 1153. Abad de Claraval desde 1115."
    },
-   "resumen": "Abad del monasterio cisterciense de Claraval y el hombre más influyente de la Iglesia de su tiempo: aconsejaba a papas y reyes y predicó la segunda cruzada. Desconfiaba de la dialéctica aplicada a la fe y consiguió que [[autor.abelardo|Abelardo]] fuera condenado en Sens. Sus sermones sobre el Cantar de los Cantares, el libro bíblico de poemas de amor, son una de las cumbres de la mística medieval."
+   "resumen": "Abad del monasterio cisterciense de Claraval y el hombre más influyente de la Iglesia de su tiempo: aconsejaba a papas y reyes y predicó la segunda cruzada. Desconfiaba de la dialéctica aplicada a la fe y consiguió que [[autor.abelardo|Abelardo]] fuera condenado en Sens. Sus sermones sobre el Cantar de los Cantares, el libro bíblico de poemas de amor, son una de las cumbres de la mística medieval.",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bernhard_von_Clairvaux_%28Initiale-B%29.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Bernhard_von_Clairvaux_%28Initiale-B%29.jpg",
+     "tipo": "manuscrito",
+     "pie": "Bernardo de Claraval en una inicial miniada de hacia 1267. Representación imaginaria.",
+     "fechaObra": "c. 1267",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "obra.periphyseon",
@@ -1440,6 +1548,18 @@
      "idioma": "en",
      "autorEntrada": "Bruno Tremblay"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tommaso_da_modena%2C_ritratti_di_domenicani_%28vescovo%29_1352_150cm%2C_treviso%2C_ex_convento_di_san_niccol%C3%B2%2C_sala_del_capitolo.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Tommaso_da_modena%2C_ritratti_di_domenicani_%28vescovo%29_1352_150cm%2C_treviso%2C_ex_convento_di_san_niccol%C3%B2%2C_sala_del_capitolo.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Alberto Magno, con el sombrero de obispo, en los retratos de dominicos ilustres que el pintor Tommaso da Modena hizo en 1352 para la sala capitular del convento de San Nicolás de Treviso. Representación imaginaria, setenta años después de su muerte.",
+     "fechaObra": "1352",
+     "autorObra": "Tommaso da Modena",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -1513,6 +1633,18 @@
      "idioma": "en",
      "autorEntrada": "traducción inglesa de los dominicos de Inglaterra (1920)"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/St-thomas-aquinasFXD.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinasFXD.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Tomás de Aquino en un retablo del pintor Carlo Crivelli, de 1476 (Galería Nacional de Londres). Representación imaginaria.",
+     "fechaObra": "1476",
+     "autorObra": "Carlo Crivelli",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -1566,6 +1698,18 @@
      "url": "https://plato.stanford.edu/entries/bonaventure/",
      "idioma": "en",
      "autorEntrada": "Joshua Benson"
+    }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fran%C3%A7ois%2C_Claude_%28dit_Fr%C3%A8re_Luc%29_-_Saint_Bonaventure.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois%2C_Claude_%28dit_Fr%C3%A8re_Luc%29_-_Saint_Bonaventure.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Buenaventura pintado en 1655 por el fraile y pintor francés Claude François, llamado fray Lucas. Representación imaginaria.",
+     "fechaObra": "1655",
+     "autorObra": "Claude François",
+     "licencia": "dominio_publico",
+     "credito": ""
     }
    ]
   },
@@ -1659,7 +1803,19 @@
     "nota": "Hacia 1240 – entre 1281 y 1284, en Orvieto (Italia)."
    },
    "resumen": "Maestro de la facultad de artes de París y el principal de los llamados [[escuela.averroismo_latino|averroístas latinos]]. Explicaba a [[autor.aristoteles|Aristóteles]] tal como lo entendía el filósofo andalusí Averroes, aunque llegara a conclusiones contrarias a la fe, como que el mundo es eterno o que hay [[tesis.unidad_intelecto|un solo intelecto para todos los seres humanos]]. Sus tesis fueron condenadas en 1270 y en 1277, y murió apuñalado en Orvieto.",
-   "anecdotas": "[[autor.dante|Dante]] lo puso en el cielo del Sol, entre los sabios, junto a [[autor.tomas_aquino|Tomás de Aquino]], que lo había combatido, y dice de él que enseñó en París verdades que le costaron odios (Dante, Paraíso, canto X · A)."
+   "anecdotas": "[[autor.dante|Dante]] lo puso en el cielo del Sol, entre los sabios, junto a [[autor.tomas_aquino|Tomás de Aquino]], que lo había combatido, y dice de él que enseñó en París verdades que le costaron odios (Dante, Paraíso, canto X · A).",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Siger_de_Brabant.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Siger_de_Brabant.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Siger de Brabante en los frescos sobre la Divina comedia que el pintor alemán Philipp Veit hizo entre 1817 y 1827 en la sala de Dante del Casino Massimo de Roma. Representación imaginaria.",
+     "fechaObra": "1817-1827",
+     "autorObra": "Philipp Veit",
+     "licencia": "CC-BY-SA-3.0",
+     "credito": "Foto: Sailko"
+    }
+   ]
   },
   {
    "id": "autor.tempier",
@@ -1728,7 +1884,19 @@
     "alternativas": [],
     "nota": "Hacia 1168 – 9 de octubre de 1253. Obispo de Lincoln desde 1235."
    },
-   "resumen": "Maestro en Oxford, primer profesor de los franciscanos de la ciudad y después obispo de Lincoln. Tradujo del griego la [[obra.etica_nicomaco|Ética a Nicómaco]] de [[autor.aristoteles|Aristóteles]], estudió la óptica y sostuvo que la luz es la primera forma de los cuerpos: [[concepto.metafisica_luz|al difundirse, crea la extensión del universo]]."
+   "resumen": "Maestro en Oxford, primer profesor de los franciscanos de la ciudad y después obispo de Lincoln. Tradujo del griego la [[obra.etica_nicomaco|Ética a Nicómaco]] de [[autor.aristoteles|Aristóteles]], estudió la óptica y sostuvo que la luz es la primera forma de los cuerpos: [[concepto.metafisica_luz|al difundirse, crea la extensión del universo]].",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Grosseteste.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Robert_Grosseteste.jpg",
+     "tipo": "manuscrito",
+     "pie": "Roberto Grosseteste en un manuscrito inglés del siglo XIV (Biblioteca Británica, Royal 6.E.v). Representación imaginaria.",
+     "fechaObra": "s. XIV",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "obra.suma_teologica",
@@ -2086,6 +2254,18 @@
      "idioma": "en",
      "autorEntrada": "Ernesto Priani"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ramon_Llull.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Ramon_Llull.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Ramon Llull en un grabado de los siglos XVI o XVII. Representación imaginaria.",
+     "fechaObra": "s. XVI-XVII",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -2148,6 +2328,18 @@
      "url": "https://plato.stanford.edu/entries/duns-scotus/",
      "idioma": "en",
      "autorEntrada": "Thomas Williams"
+    }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Scoto_%28Duns_Scoto%29.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Scoto_%28Duns_Scoto%29.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Duns Escoto en la serie de hombres ilustres que Justo de Gante y Pedro Berruguete pintaron hacia 1476 para el estudio del duque de Urbino. Representación imaginaria.",
+     "fechaObra": "c. 1476",
+     "autorObra": "Justo de Gante y Pedro Berruguete",
+     "licencia": "dominio_publico",
+     "credito": ""
     }
    ]
   },
@@ -2213,6 +2405,18 @@
      "idioma": "en",
      "autorEntrada": "Jenny Pelletier"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/William_of_Occam_-_Sketch_-_Frater_Occham_iste%2C_1341.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:William_of_Occam_-_Sketch_-_Frater_Occham_iste%2C_1341.jpg",
+     "tipo": "manuscrito",
+     "pie": "Dibujo al margen de un manuscrito de la Suma de lógica copiado en 1341, en vida de Ockham, con la leyenda «frater Occham iste» («este es fray Ockham»). Es la única imagen suya de su tiempo que se conoce.",
+     "fechaObra": "1341",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -2266,6 +2470,18 @@
      "idioma": "en",
      "autorEntrada": "Amber L. Griffioen"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Eckharts_wirtschaft.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Eckharts_wirtschaft.jpg",
+     "tipo": "manuscrito",
+     "pie": "Página de un manuscrito alemán de principios del siglo XVI con el relato «La hija del Maestro Eckhart», una de las historias que circularon sobre él (Biblioteca Universitaria de Augsburgo).",
+     "fechaObra": "principios del s. XVI",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -2315,6 +2531,18 @@
      "url": "https://history.hanover.edu/courses/excerpts/165pisan.html",
      "idioma": "en"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Christine_de_Pisan_-_cathedra.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Christine_de_Pisan_-_cathedra.jpg",
+     "tipo": "manuscrito",
+     "pie": "Christine de Pizan enseñando, en el gran manuscrito de sus obras que se copió en París hacia 1410-1414 bajo su supervisión para la reina Isabel de Baviera (Biblioteca Británica, Harley 4431).",
+     "fechaObra": "c. 1410-1414",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -2350,7 +2578,19 @@
     "alternativas": [],
     "nota": "Entre 1275 y 1280 – en 1343 o poco antes, en Múnich."
    },
-   "resumen": "Médico y filósofo italiano, rector de la Universidad de París. En [[obra.defensor_pacis|El defensor de la paz]] (1324) sostuvo que el poder de hacer las leyes pertenece al [[tesis.soberania_popular|conjunto de los ciudadanos]] y que la Iglesia no tiene ningún poder para obligar por la fuerza: ni siquiera el papa puede mandar sobre los reyes. Excomulgado, se refugió con [[autor.luis_de_baviera|Luis de Baviera]]."
+   "resumen": "Médico y filósofo italiano, rector de la Universidad de París. En [[obra.defensor_pacis|El defensor de la paz]] (1324) sostuvo que el poder de hacer las leyes pertenece al [[tesis.soberania_popular|conjunto de los ciudadanos]] y que la Iglesia no tiene ningún poder para obligar por la fuerza: ni siquiera el papa puede mandar sobre los reyes. Excomulgado, se refugió con [[autor.luis_de_baviera|Luis de Baviera]].",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Marsilio_da_Padova_%28cropped%29.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Marsilio_da_Padova_%28cropped%29.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Marsilio de Padua en un retrato de 1873. Representación imaginaria.",
+     "fechaObra": "1873",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.juan_xxii",
@@ -2386,7 +2626,19 @@
     "alternativas": [],
     "nota": "Hacia 1244 – 4 de diciembre de 1334. Papa en Aviñón desde 1316."
    },
-   "resumen": "Papa en Aviñón entre 1316 y 1334. Condenó la tesis de los franciscanos según la cual Cristo y los apóstoles no tuvieron propiedades, se enfrentó al emperador [[autor.luis_de_baviera|Luis de Baviera]], excomulgó a [[autor.marsilio|Marsilio de Padua]] y a [[autor.ockham|Guillermo de Ockham]] y condenó tesis del [[autor.eckhart|Maestro Eckhart]]."
+   "resumen": "Papa en Aviñón entre 1316 y 1334. Condenó la tesis de los franciscanos según la cual Cristo y los apóstoles no tuvieron propiedades, se enfrentó al emperador [[autor.luis_de_baviera|Luis de Baviera]], excomulgó a [[autor.marsilio|Marsilio de Padua]] y a [[autor.ockham|Guillermo de Ockham]] y condenó tesis del [[autor.eckhart|Maestro Eckhart]].",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_XXII_1316.JPG?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Jean_XXII_1316.JPG",
+     "tipo": "manuscrito",
+     "pie": "Juan XXII en una miniatura del siglo XIV.",
+     "fechaObra": "s. XIV",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.luis_de_baviera",
@@ -2422,7 +2674,19 @@
     "alternativas": [],
     "nota": "1282 – 11 de octubre de 1347. Rey de Alemania desde 1314 y emperador desde 1328."
    },
-   "resumen": "Duque de Baviera, rey de Alemania desde 1314 y emperador desde 1328, coronado en Roma sin el permiso del papa. En su larga lucha con [[autor.juan_xxii|Juan XXII]] dio refugio en Múnich a [[autor.marsilio|Marsilio de Padua]] y a [[autor.ockham|Guillermo de Ockham]], que escribieron en su defensa."
+   "resumen": "Duque de Baviera, rey de Alemania desde 1314 y emperador desde 1328, coronado en Roma sin el permiso del papa. En su larga lucha con [[autor.juan_xxii|Juan XXII]] dio refugio en Múnich a [[autor.marsilio|Marsilio de Padua]] y a [[autor.ockham|Guillermo de Ockham]], que escribieron en su defensa.",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ludwig_der_Bayer.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Ludwig_der_Bayer.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Luis de Baviera con las vestiduras de emperador, en un retrato del siglo XIX. Representación imaginaria.",
+     "fechaObra": "s. XIX",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.dante",
@@ -2458,7 +2722,19 @@
     "alternativas": [],
     "nota": "Mayo o junio de 1265 – 14 de septiembre de 1321, en Rávena, desterrado de Florencia."
    },
-   "resumen": "Poeta florentino, autor de la Divina comedia, un viaje por el infierno, el purgatorio y el paraíso en el que aparecen filósofos y teólogos, de [[autor.boecio|Boecio]] a [[autor.tomas_aquino|Tomás de Aquino]] y [[autor.siger|Siger de Brabante]]. En su tratado Monarquía defendió que el emperador recibe su poder directamente de Dios, no del papa."
+   "resumen": "Poeta florentino, autor de la Divina comedia, un viaje por el infierno, el purgatorio y el paraíso en el que aparecen filósofos y teólogos, de [[autor.boecio|Boecio]] a [[autor.tomas_aquino|Tomás de Aquino]] y [[autor.siger|Siger de Brabante]]. En su tratado Monarquía defendió que el emperador recibe su poder directamente de Dios, no del papa.",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_de_Dante.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Portrait_de_Dante.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Dante pintado por Sandro Botticelli en 1495, más de siglo y medio después de su muerte.",
+     "fechaObra": "1495",
+     "autorObra": "Sandro Botticelli",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "obra.ars_magna",
@@ -2922,7 +3198,19 @@
     "nota": "Hacia el 347 – 419 o 420, en Belén."
    },
    "resumen": "Sabio cristiano que tradujo la Biblia al latín, en la versión que se llamó Vulgata y que leyó la Europa latina durante mil años. Vivió sus últimos treinta y cinco años en un monasterio de Belén. Sus cartas, muy leídas en la Edad Media, defienden la vida ascética y desconfían del matrimonio, y [[autor.eloisa|Eloísa]] las citó para no casarse.",
-   "anecdotas": "En una carta a su discípula Eustoquia cuenta que, enfermo de fiebre, soñó que lo llevaban ante el tribunal de Dios; cuando dijo que era cristiano, el juez le respondió: «Mientes: eres ciceroniano, no cristiano», porque disfrutaba más leyendo a [[autor.ciceron|Cicerón]] que la Biblia. Al despertar prometió no volver a leer libros paganos, aunque no siempre cumplió (Jerónimo, carta 22, a Eustoquia, cap. 30 · A). La leyenda de que sacó una espina de la pata de un león, que desde entonces lo acompañó, se la atribuyeron siglos después; procede de la vida de otro santo, Gerásimo (leyenda medieval · L)."
+   "anecdotas": "En una carta a su discípula Eustoquia cuenta que, enfermo de fiebre, soñó que lo llevaban ante el tribunal de Dios; cuando dijo que era cristiano, el juez le respondió: «Mientes: eres ciceroniano, no cristiano», porque disfrutaba más leyendo a [[autor.ciceron|Cicerón]] que la Biblia. Al despertar prometió no volver a leer libros paganos, aunque no siempre cumplió (Jerónimo, carta 22, a Eustoquia, cap. 30 · A). La leyenda de que sacó una espina de la pata de un león, que desde entonces lo acompañó, se la atribuyeron siglos después; procede de la vida de otro santo, Gerásimo (leyenda medieval · L).",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Domenico_ghirlandaio%2C_san_girolamo_01.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Domenico_ghirlandaio%2C_san_girolamo_01.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Jerónimo en su estudio, fresco de Domenico Ghirlandaio de 1480 en la iglesia de Ognissanti de Florencia. Representación imaginaria.",
+     "fechaObra": "1480",
+     "autorObra": "Domenico Ghirlandaio",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.casiodoro",
@@ -2958,7 +3246,19 @@
     "alternativas": [],
     "nota": "Hacia el 490 – hacia el 585. Vivió casi cien años."
    },
-   "resumen": "Senador y alto funcionario de los reyes ostrogodos de Italia, como [[autor.teodorico|Teodorico]], al que sirvió igual que [[autor.boecio|Boecio]]. Retirado hacia el 540, fundó en sus tierras de Calabria el monasterio de Vivario, donde los monjes copiaban libros sagrados y profanos, y escribió para ellos las Instituciones, un resumen de las siete artes liberales que se estudió durante siglos."
+   "resumen": "Senador y alto funcionario de los reyes ostrogodos de Italia, como [[autor.teodorico|Teodorico]], al que sirvió igual que [[autor.boecio|Boecio]]. Retirado hacia el 540, fundó en sus tierras de Calabria el monasterio de Vivario, donde los monjes copiaban libros sagrados y profanos, y escribió para ellos las Instituciones, un resumen de las siete artes liberales que se estudió durante siglos.",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gesta_Theodorici_-_Flavius_Magnus_Aurelius_Cassiodorus_%28c_485_-_c_580%29.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Gesta_Theodorici_-_Flavius_Magnus_Aurelius_Cassiodorus_%28c_485_-_c_580%29.jpg",
+     "tipo": "manuscrito",
+     "pie": "Casiodoro, sentado frente al rey Teodorico, en un manuscrito copiado en el monasterio alemán de Fulda en 1176-1177 (Leiden, Biblioteca Universitaria). Representación imaginaria.",
+     "fechaObra": "1176-1177",
+     "autorObra": "Taller de Fulda",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.isidoro",
@@ -2996,7 +3296,19 @@
     "alternativas": [],
     "nota": "Hacia el 560 – 4 de abril del 636, en Sevilla. Obispo de Sevilla desde hacia el 600."
    },
-   "resumen": "Obispo de Sevilla en la Hispania de los reyes visigodos y el sabio más leído de la Alta Edad Media. En sus [[obra.etimologias|Etimologías]] reunió todo el saber antiguo que pudo encontrar, ordenado a partir del origen de las palabras, y durante siglos fue la enciclopedia de referencia de la Europa latina."
+   "resumen": "Obispo de Sevilla en la Hispania de los reyes visigodos y el sabio más leído de la Alta Edad Media. En sus [[obra.etimologias|Etimologías]] reunió todo el saber antiguo que pudo encontrar, ordenado a partir del origen de las palabras, y durante siglos fue la enciclopedia de referencia de la Europa latina.",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Isidor_von_Sevilla.jpeg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Isidor_von_Sevilla.jpeg",
+     "tipo": "retrato_imaginario",
+     "pie": "Isidoro de Sevilla pintado por Bartolomé Esteban Murillo en 1655, para la catedral de Sevilla. Representación imaginaria.",
+     "fechaObra": "1655",
+     "autorObra": "Bartolomé Esteban Murillo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.beda",
@@ -3033,7 +3345,19 @@
     "alternativas": [],
     "nota": "672 o 673 – 26 de mayo del 735, en el monasterio de Jarrow."
    },
-   "resumen": "Monje inglés que pasó toda su vida en el monasterio de Jarrow. Escribió la Historia eclesiástica del pueblo inglés (hacia el 731) y un tratado sobre el cómputo del tiempo que difundió la costumbre de contar los años desde el nacimiento de Cristo, la que usamos hoy al decir «antes» o «después de Cristo»."
+   "resumen": "Monje inglés que pasó toda su vida en el monasterio de Jarrow. Escribió la Historia eclesiástica del pueblo inglés (hacia el 731) y un tratado sobre el cómputo del tiempo que difundió la costumbre de contar los años desde el nacimiento de Cristo, la que usamos hoy al decir «antes» o «después de Cristo».",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuremberg_Chronicle_Venerable_Bede.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Nuremberg_Chronicle_Venerable_Bede.jpg",
+     "tipo": "retrato_imaginario",
+     "pie": "Beda en un grabado de la Crónica de Núremberg, una historia del mundo impresa en 1493. Representación imaginaria.",
+     "fechaObra": "1493",
+     "autorObra": "Taller de Michael Wolgemut y Wilhelm Pleydenwurff",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.alcuino",
@@ -3070,7 +3394,19 @@
     "alternativas": [],
     "nota": "Hacia el 735 – 19 de mayo del 804, en Tours. Abad de San Martín de Tours desde el 796."
    },
-   "resumen": "Maestro de la escuela de la catedral de York al que [[autor.carlomagno|Carlomagno]] conoció en Parma en el 781 y llamó a su corte para dirigir la escuela de palacio. Escribió manuales de gramática, retórica y dialéctica en forma de diálogo y organizó la enseñanza y la copia de libros en el reino franco: es la gran figura del renacimiento carolingio."
+   "resumen": "Maestro de la escuela de la catedral de York al que [[autor.carlomagno|Carlomagno]] conoció en Parma en el 781 y llamó a su corte para dirigir la escuela de palacio. Escribió manuales de gramática, retórica y dialéctica en forma de diálogo y organizó la enseñanza y la copia de libros en el reino franco: es la gran figura del renacimiento carolingio.",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Raban-Maur_Alcuin_Otgar.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Raban-Maur_Alcuin_Otgar.jpg",
+     "tipo": "manuscrito",
+     "pie": "Alcuino, en el centro, presenta a su discípulo Rabano Mauro, que ofrece su libro al arzobispo de Maguncia. Manuscrito hecho en el monasterio de Fulda en el siglo IX. Representación imaginaria.",
+     "fechaObra": "s. IX",
+     "autorObra": "Taller de Fulda",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.carlomagno",
@@ -3115,7 +3451,19 @@
     "nota": "Probablemente el 2 de abril del 748 – 28 de enero del 814, en Aquisgrán. Rey de los francos desde el 768 y emperador desde el 25 de diciembre del 800."
    },
    "resumen": "Rey de los francos que unió bajo su poder buena parte de Europa occidental y fue coronado emperador en Roma el día de Navidad del año 800. Llamó a su corte a sabios como [[autor.alcuino|Alcuino de York]] y mandó abrir escuelas en catedrales y monasterios: es lo que los historiadores llaman el renacimiento carolingio.",
-   "anecdotas": "Su biógrafo Eginardo, que lo conoció, cuenta que aprendió gramática, retórica, dialéctica y astronomía con [[autor.alcuino|Alcuino]], y que intentó aprender a escribir: guardaba tablillas y hojas bajo la almohada para practicar las letras en los ratos libres, pero había empezado demasiado tarde y lo consiguió poco (Eginardo, Vida de Carlomagno, cap. 25 · A)."
+   "anecdotas": "Su biógrafo Eginardo, que lo conoció, cuenta que aprendió gramática, retórica, dialéctica y astronomía con [[autor.alcuino|Alcuino]], y que intentó aprender a escribir: guardaba tablillas y hojas bajo la almohada para practicar las letras en los ratos libres, pero había empezado demasiado tarde y lo consiguió poco (Eginardo, Vida de Carlomagno, cap. 25 · A).",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Charlemagne_denier_Mayence_812_814.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg",
+     "tipo": "objeto",
+     "pie": "Denario de plata acuñado en Maguncia entre 812 y 814, con el busto de Carlomagno como emperador: uno de los pocos retratos suyos hechos en vida (Biblioteca Nacional de Francia).",
+     "fechaObra": "812-814",
+     "autorObra": "Ceca de Maguncia",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.hugo_san_victor",
@@ -3157,7 +3505,19 @@
     "nota": "Hacia 1096 – 11 de febrero de 1141, en París."
    },
    "resumen": "Canónigo y maestro de la abadía de [[escuela.san_victor|San Víctor]] de París. En su Didascalicon ordenó todas las artes y ciencias, también las técnicas, como pasos de un mismo camino hacia la sabiduría, y escribió una gran suma de la doctrina cristiana que inspiró a [[autor.pedro_lombardo|Pedro Lombardo]].",
-   "anecdotas": "En el Didascalicon, su guía para estudiantes, recuerda que de niño apuntaba los nombres de todo lo que veía y discutía con sus compañeros sobre cualquier cosa, y aconseja: «Aprende todo; después verás que nada es superfluo» (Hugo de San Víctor, Didascalicon, libro VI · A)."
+   "anecdotas": "En el Didascalicon, su guía para estudiantes, recuerda que de niño apuntaba los nombres de todo lo que veía y discutía con sus compañeros sobre cualquier cosa, y aconseja: «Aprende todo; después verás que nada es superfluo» (Hugo de San Víctor, Didascalicon, libro VI · A).",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hugostv.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Hugostv.jpg",
+     "tipo": "manuscrito",
+     "pie": "Hugo de San Víctor enseñando en la escuela de su abadía, en un manuscrito medieval de una de sus obras (Universidad de Oxford). Representación imaginaria.",
+     "fechaObra": "Edad Media",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.bernardo_chartres",
@@ -3231,7 +3591,19 @@
     "nota": "1098 – 17 de septiembre de 1179, en su monasterio de Rupertsberg, junto a Bingen. Declarada santa y doctora de la Iglesia en 2012."
    },
    "resumen": "Abadesa benedictina alemana que contó sus visiones en el [[obra.scivias|Scivias]] y otros dos grandes libros, escribió sobre medicina y sobre la naturaleza, compuso música que aún se canta y mantuvo correspondencia con papas, emperadores y con [[autor.bernardo_claraval|Bernardo de Claraval]]. Ve el universo como un todo ordenado en el que el ser humano refleja el cosmos.",
-   "anecdotas": "En el prólogo del [[obra.scivias|Scivias]] cuenta que en 1141, cuando tenía cuarenta y dos años y siete meses, una luz de fuego bajó del cielo abierto y le inundó la mente, y una voz le ordenó escribir lo que veía. Dudó mucho tiempo, por humildad y por miedo a lo que dirían, hasta que cayó enferma y empezó a escribir ([[obra.scivias|Scivias]], prólogo · A)."
+   "anecdotas": "En el prólogo del [[obra.scivias|Scivias]] cuenta que en 1141, cuando tenía cuarenta y dos años y siete meses, una luz de fuego bajó del cielo abierto y le inundó la mente, y una voz le ordenó escribir lo que veía. Dudó mucho tiempo, por humildad y por miedo a lo que dirían, hasta que cayó enferma y empezó a escribir ([[obra.scivias|Scivias]], prólogo · A).",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hildegard_von_Bingen.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Hildegard_von_Bingen.jpg",
+     "tipo": "manuscrito",
+     "pie": "Hildegarda recibe una visión y la dicta a su secretario, el monje Volmar. Miniatura del manuscrito del Scivias hecho en su monasterio de Rupertsberg en vida suya; el original se perdió en 1945 y se conoce por una copia.",
+     "fechaObra": "s. XII",
+     "autorObra": "Taller de Rupertsberg",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.pedro_lombardo",
@@ -3270,7 +3642,19 @@
     "alternativas": [],
     "nota": "Hacia 1100 – 21 o 22 de agosto de 1160, en París. Obispo de París en el último año de su vida."
    },
-   "resumen": "Maestro de teología en París, llamado el Maestro de las Sentencias por su gran obra. En las [[obra.sentencias|Sentencias]] ordenó por temas las opiniones de los Padres de la Iglesia sobre cada cuestión de la fe, y ese libro fue el manual de teología de las universidades durante más de cuatro siglos: todo maestro tenía que comentarlo."
+   "resumen": "Maestro de teología en París, llamado el Maestro de las Sentencias por su gran obra. En las [[obra.sentencias|Sentencias]] ordenó por temas las opiniones de los Padres de la Iglesia sobre cada cuestión de la fe, y ese libro fue el manual de teología de las universidades durante más de cuatro siglos: todo maestro tenía que comentarlo.",
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Petrus_Lombardus.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Petrus_Lombardus.jpg",
+     "tipo": "manuscrito",
+     "pie": "Pedro Lombardo en un manuscrito medieval de la Biblioteca de Troyes (ms. 900). Representación imaginaria.",
+     "fechaObra": "Edad Media",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
+   ]
   },
   {
    "id": "autor.juan_salisbury",
@@ -3316,6 +3700,18 @@
      "url": "https://plato.stanford.edu/entries/john-salisbury/",
      "idioma": "en",
      "autorEntrada": "Cary Nederman"
+    }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Policraticon_de_Jean_de_Salisbury_-_BSG_Ms1145_f3r_%28Jean_de_Salisbury_enseignant%29.jpeg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Policraticon_de_Jean_de_Salisbury_-_BSG_Ms1145_f3r_%28Jean_de_Salisbury_enseignant%29.jpeg",
+     "tipo": "manuscrito",
+     "pie": "Juan de Salisbury enseñando, en una traducción francesa del Policraticus miniada por Étienne Colaud hacia 1520-1525 (París, Biblioteca de Santa Genoveva). Representación imaginaria.",
+     "fechaObra": "c. 1520-1525",
+     "autorObra": "Étienne Colaud",
+     "licencia": "dominio_publico",
+     "credito": ""
     }
    ]
   },
@@ -3369,6 +3765,18 @@
      "idioma": "en",
      "autorEntrada": "Jack Zupko"
     }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Iohannes_Buridanus_%28Paris_ca._1370%2C_Krak%C3%B3w_cod._BJ_1771%2C_fol._142v%29.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Iohannes_Buridanus_%28Paris_ca._1370%2C_Krak%C3%B3w_cod._BJ_1771%2C_fol._142v%29.jpg",
+     "tipo": "manuscrito",
+     "pie": "Juan Buridán en un manuscrito copiado en París hacia 1370, poco después de su muerte (Cracovia, Biblioteca Jaguelónica, cód. 1771).",
+     "fechaObra": "c. 1370",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
+    }
    ]
   },
   {
@@ -3416,6 +3824,18 @@
      "url": "https://plato.stanford.edu/entries/nicole-oresme/",
      "idioma": "en",
      "autorEntrada": "Stefan Kirschner"
+    }
+   ],
+   "imagenes": [
+    {
+     "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Oresme.jpg?width=500",
+     "fuente": "https://commons.wikimedia.org/wiki/File:Oresme.jpg",
+     "tipo": "manuscrito",
+     "pie": "Nicolás Oresme estudiando, con una esfera armilar delante, en un manuscrito de su Tratado de la esfera de hacia 1400-1420.",
+     "fechaObra": "c. 1400-1420",
+     "autorObra": "Anónimo",
+     "licencia": "dominio_publico",
+     "credito": ""
     }
    ]
   },
