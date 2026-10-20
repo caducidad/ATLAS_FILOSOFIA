@@ -264,6 +264,8 @@
     escenario = crear("main", { class: "escenario" });
     raiz.append(barra, escenario);
     svg = d3.select(escenario).append("svg").attr("role", "img").attr("aria-label", "Mapa del atlas");
+    // Las medidas de los nombres dependen de la letra; cuando acaba de cargarse, se vuelve a medir y a dibujar.
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { anchos.clear(); if (E.vista === "cronologica") dibujar(); });
     window.addEventListener("resize", () => dibujar());
     window.addEventListener("hashchange", desdeHash);
     document.addEventListener("keydown", (ev) => {
@@ -304,6 +306,19 @@
 
   // ------------------------------------------------------------------ vista cronológica
   let crono = null;
+  // Ancho en pantalla de un texto con la letra de los rótulos, medido de verdad y guardado.
+  const anchos = new Map();
+  let lienzo = null;
+  function anchoTexto(texto, px, cursiva) {
+    const clave = `${px}|${cursiva ? 1 : 0}|${texto}`;
+    if (anchos.has(clave)) return anchos.get(clave);
+    if (!lienzo) lienzo = document.createElement("canvas").getContext("2d");
+    const familia = getComputedStyle(document.documentElement).getPropertyValue("--f-display").trim() || "Georgia, serif";
+    lienzo.font = `${cursiva ? "italic " : ""}${px}px ${familia}`;
+    const w = lienzo.measureText(texto).width + 4; // + el borde que rodea las letras
+    anchos.set(clave, w);
+    return w;
+  }
   function anchoFicha() {
     return fichaEl && !fichaEl.hidden && escenario.clientWidth > 720 ? fichaEl.offsetWidth : 0;
   }
@@ -336,8 +351,10 @@
     const capaEje = svg.append("g").attr("class", "eje");
     capaEje.append("rect").attr("x", 0).attr("y", 0).attr("width", ancho).attr("height", cabecera - 4).attr("fill", "var(--cielo-alto)");
 
-    // Reparte cada carril en filas sin solapes, contando el ancho del nombre en pantalla.
+    // Reparte cada carril en filas sin solapes, contando el ancho real del nombre en pantalla.
     let carriles = [], altoTotal = 0;
+    const textoItem = (d) => (d.n.tipo === "obra" ? `«${d.n.nombre}»` : d.n.nombre);
+    const dudosa = (d) => !!(d.n.fechas && ["legendario", "debatido"].includes(d.n.fechas.historicidad));
     // El reparto en filas depende solo del nivel de acercamiento, no de hacia dónde se ha movido el lector,
     // así que desplazarse nunca recoloca los nombres. A poca escala solo se rotulan los autores principales.
     let kEmpaquetado = 1;
@@ -357,24 +374,30 @@
           return { id: n.id, n, fila: f };
         });
         const altoEp = Math.max(1, filasEp.length) * epocaAlto;
-        const filas = [];
+        const filas = [], ultimo = [];
         const lista = (porCarril.get(c) || []).slice().sort((a, b) => a.ext.a - b.ext.a);
         for (const d of lista) {
           d.rotulo = rotulado(d);
+          d.siguiente = null;
           const px0 = u(d.ext.a);
-          const px1 = Math.max(u(d.ext.b), px0 + (d.rotulo ? 12 + d.n.nombre.length * 6.8 : 6));
+          const px1 = Math.max(u(d.ext.b), px0 + (d.rotulo ? 10 + anchoTexto(textoItem(d), 13, dudosa(d)) : 6));
           let f = filas.findIndex((fin) => fin + 8 <= px0);
           if (f < 0) { f = filas.length; filas.push(-Infinity); }
           filas[f] = px1;
           d.fila = f;
+          // Cada nombre sabe cuál le sigue en su fila, para no pisarlo cuando se queda fijo en el borde.
+          if (ultimo[f]) ultimo[f].siguiente = d;
+          ultimo[f] = d;
         }
         const L = { c, i, y, altoEp, eps, lista, secundario: cfg.secundarios.includes(c) };
-        L.alto = 20 + altoEp + Math.max(1, filas.length) * filaAlto + 12;
+        // En pantallas estrechas el nombre del carril va dentro del carril, encima de los autores: se le deja sitio.
+        L.hueco = margenIzq ? 0 : (L.secundario ? 30 : 18);
+        L.alto = 20 + altoEp + L.hueco + Math.max(1, filas.length) * filaAlto + 12;
         y += L.alto;
         return L;
       });
       altoTotal = y;
-      for (const L of carriles) for (const d of L.lista) d.yy = L.y + 20 + L.altoEp + d.fila * filaAlto;
+      for (const L of carriles) for (const d of L.lista) d.yy = L.y + 20 + L.altoEp + L.hueco + d.fila * filaAlto;
     }
 
     let ty = crono && crono.ty ? crono.ty : 0;
@@ -432,11 +455,11 @@
           .on("keydown", (ev, d) => { if (ev.key === "Enter") abrirFicha(d.id); });
         g.append("rect").attr("class", "borde");
         g.append("rect").attr("class", "nucleo");
-        g.append("text").text((d) => (d.n.tipo === "obra" ? `«${d.n.nombre}»` : d.n.nombre));
+        g.append("text").text(textoItem);
         g.append("title").text((d) => `${d.n.nombre} · ${textoFechas(d.n.fechas)}`);
         return g;
       });
-      gi.attr("class", (d) => `item v${nivelNiebla(d.id)} ${d.n.fechas && ["legendario", "debatido"].includes(d.n.fechas.historicidad) ? "dudosa" : ""} ${E.ficha === d.id ? "activo" : ""}`);
+      gi.attr("class", (d) => `item v${nivelNiebla(d.id)} ${dudosa(d) ? "dudosa" : ""} ${E.ficha === d.id ? "activo" : ""}`);
       const alto_ = (d) => (d.n.tipo === "obra" ? 5 : 7);
       const yc = (d) => d.yy + ty + 9 - alto_(d) / 2;
       // Línea fina: todo el intervalo posible. Barra gruesa: la parte segura.
@@ -445,9 +468,22 @@
       gi.select("rect.nucleo").attr("y", yc).attr("height", alto_).attr("rx", (d) => alto_(d) / 2)
         .attr("x", (d) => x(Math.min(Math.max(d.ext.nucleoA, d.ext.a), d.ext.b)))
         .attr("width", (d) => Math.max(3, x(Math.max(Math.min(d.ext.nucleoB, d.ext.b), d.ext.a)) - x(Math.min(Math.max(d.ext.nucleoA, d.ext.a), d.ext.b))));
-      // El nombre se queda a la vista aunque el comienzo de la barra salga por la izquierda.
-      gi.select("text").attr("x", (d) => Math.max(x(d.ext.a), margenIzq + 6)).attr("y", (d) => d.yy + ty - 0.5)
-        .attr("opacity", (d) => (!d.rotulo || x(d.ext.b) < margenIzq + 6 ? 0 : 1));
+      // El nombre se queda a la vista aunque el comienzo de la barra salga por la izquierda,
+      // pero sin pisar el nombre siguiente de su fila: si no cabe, se recorta, y si apenas cabe, se oculta.
+      gi.select("text").attr("y", (d) => d.yy + ty - 0.5).each(function (d) {
+        const x1 = Math.max(x(d.ext.a), margenIzq + 6);
+        this.setAttribute("x", x1);
+        if (!d.rotulo || x(d.ext.b) < margenIzq + 6) { this.setAttribute("opacity", 0); return; }
+        const completo = textoItem(d);
+        const libre = d.siguiente ? x(d.siguiente.ext.a) - 6 - x1 : Infinity;
+        const ancho = anchoTexto(completo, 13, dudosa(d));
+        if (ancho <= libre) { this.textContent = completo; this.setAttribute("opacity", 1); return; }
+        if (libre < 36) { this.setAttribute("opacity", 0); return; }
+        let n = Math.max(1, Math.floor(completo.length * libre / ancho));
+        while (n > 1 && anchoTexto(completo.slice(0, n).trimEnd() + "…", 13, dudosa(d)) > libre) n--;
+        this.textContent = completo.slice(0, n).trimEnd() + "…";
+        this.setAttribute("opacity", 1);
+      });
 
       // Eje y rejilla
       const ticks = x.ticks(Math.max(4, Math.floor((ancho - margenIzq) / 110))).filter((t) => t !== 0);
