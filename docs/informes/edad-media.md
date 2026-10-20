@@ -296,3 +296,34 @@ Las demás llevan en el pie que son representaciones imaginarias, con su fecha.
 - Teodorico, Gottschalk, Gaunilón, Guillermo de Champeaux, Esteban Tempier y Bernardo de Chartres.
 
 **Tamaño:** las miniaturas se piden a 500 píxeles, un tamaño normalizado de Wikimedia. El 800 que se usaba no lo es, y Wikimedia limita esas peticiones.
+
+### Cotejo de lo pendiente (20 de octubre)
+
+Hecho con los textos abiertos en el Internet Archive y en Epistolae (Universidad de Columbia).
+
+**Cotejado en latín y correcto:**
+- Posidio, *Vida de Agustín* XXXI: los salmos penitenciales en la pared (edición de Weiskotten, 1919).
+- Guillermo de Malmesbury, *Gesta pontificum* V § 240: la broma de la mesa y la muerte por los punzones (edición de Hamilton, 1870). Se añade el número de párrafo.
+- Pedro el Venerable, carta 115 (Constable), a Eloísa: la fama de Eloísa en su juventud y los últimos días de Abelardo; la entrega del cuerpo consta en la respuesta de Eloísa (carta 167).
+- Buenaventura, *Itinerario*, prólogo: La Verna, en el año 33 después de la muerte de san Francisco, es decir, en 1259 (edición de Quaracchi, 1911).
+- Tocco, *Vida de santo Tomás*: el buey mudo y el tizón (edición de Prümmer, *Fontes vitae S. Thomae*, 1912).
+- Proceso de canonización de Nápoles, declaración de Bartolomé de Capua, § 79: «todo lo que he escrito me parece paja» (en el mismo volumen).
+
+**Correcciones:**
+- Anselmo: Eadmero (*Vida* I 19, edición de Rule, 1884) cuenta además que la idea le quitaba el sueño y el apetito y que la tomó por una tentación del diablo.
+- Llull: la *Vida coetánea* (§ 2-4) dice que Cristo se le apareció a su derecha y que se decidió a la cuarta o la quinta vez, no «cinco veces»; del esclavo (§ 11-13, a través de la edición de Ensiola citada por Vilaweb), que Llull lo azotó y que el esclavo lo hirió en el vientre.
+- Tomás: dejó de escribir tras una misa en la capilla de San Nicolás de Nápoles, a mitad del tratado de la penitencia.
+- Roger Bacon: el juguete de salitre es un envoltorio de pergamino del tamaño de un pulgar, no un tubo (*Opus maius* VI, edición de Bridges, 1897).
+- Eckhart: la declaración de Colonia fue en febrero de 1327; se quita el día, que las fuentes dan de forma contradictoria.
+- Christine de Pizan: la metamorfosis de la *Mutación de Fortuna* se confirma, pero sin localizar el libro; se quita «libro I».
+
+**Fechas corregidas:**
+- Luis de Baviera: finales de 1281 o principios de 1282, según la Neue Deutsche Biographie.
+- Gottschalk: hacia el 800 – 868 o 869, según la Catholic Encyclopedia.
+- Guillermo de Champeaux: hacia 1070 – enero de 1122, según la Stanford Encyclopedia.
+- Juan XXII: 1244 o 1249, según las fuentes.
+
+**Sigue sin cotejar:**
+- El sermón 52 de Eckhart en su texto alemán.
+- La declaración de Escoto de 1303 y la carta de Clemente IV a Bacon: solo a través de la Stanford Encyclopedia.
+- Los capítulos exactos de Tocco: la edición de Prümmer no los da legibles en el texto digitalizado.
